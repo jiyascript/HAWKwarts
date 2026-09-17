@@ -1,0 +1,4242 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "PHYS",
+      "course_num": "113",
+      "course_combined": "PHYS 113",
+      "title": "Fundamental Physics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=113",
+      "course_description": "Algebra-based course covering the following topics: Vectors and motion in one, two and three dimensions. Newton's Laws. Particle dynamics, work and energy. Conservation laws and collisions. Rotational kinematics and dynamics, angular momentum and equilibrium of rigid bodies. Simple harmonic motion, pendulums, damped motion and resonance. Buoyancy, fluid flow and viscosity. Brownian motion and diffusion. Temperature, first and second laws of thermodynamics, kinetic theory and entropy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17322",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17322",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "Ed Kaplan Family Institute 107-5",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Nicholas G. Menhart",
+              "instructor_email": "menhart@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 10,
+            "remaining": 40,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "120",
+      "course_combined": "PHYS 120",
+      "title": "Astronomy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=120",
+      "course_description": "A descriptive survey of observational astronomy, the solar system, stellar evolution, pulsars, black holes, galaxies, quasars, the origin and fate of the universe.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11679",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11679",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Mithila Mangedarage",
+              "instructor_email": "mbamunuachchimangeda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 37,
+            "remaining": 13,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "123",
+      "course_combined": "PHYS 123",
+      "title": "General Physics I: Mechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=123",
+      "course_description": "Vectors and motion in one, two and three dimensions. Newton's Laws. Particle dynamics, work and energy. Conservation laws and collisions. Rotational kinematics and dynamics, angular momentum and equilibrium of rigid bodies. Gravitation. Oscillations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Majors: Architecture Prerequisites: Prerequisite required General Requirements: Course or Test: MATH 151 Minimum Grade of D May be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10064",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10064",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and one of the Laboratory sections (L01-L02). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Mithila Mangedarage",
+              "instructor_email": "mbamunuachchimangeda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 53,
+            "actual": 53,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be enrolled in one of the following Majors: Architecture",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MATH 151 Minimum Grade of D May be taken concurrently."
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "10067",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10067",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and one of the Laboratory sections (L03-L04). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 52,
+            "actual": 52,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be enrolled in one of the following Majors: Architecture",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MATH 151 Minimum Grade of D May be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "200",
+      "course_combined": "PHYS 200",
+      "title": "Energy, Waves, Mtrls, & Forces",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=200",
+      "course_description": "This course will address the basic physical principles and concepts associated with energy, power, heat, light, sound, circuits, materials, fluids, and forces. Although quantitative at times, the course will stress conceptual understanding and practical applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Introduction to Energy, Waves, Materials, and Forces",
+          "crn": "10068",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10068",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Natural Science or Engr Req., Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 1:05 PM",
+              "days": "TR",
+              "location": "Perlstein Hall 131",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 138,
+            "actual": 133,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "221",
+      "course_combined": "PHYS 221",
+      "title": "Gen Physics II: Elect&Magntism",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=221",
+      "course_description": "Waves charge, electric field, Gauss' Law and potential. Capacitance, resistance, simple a/c and d/c circuits. Magnetic fields, Ampere's Law, Faraday's Law, induction, and Maxwell's equations. Traveling waves, electromagnetic waves, and light.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "General Physics II: Electricity and Magnetism",
+          "crn": "10074",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10074",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and one of the Laboratory sections (L01-L02). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 48,
+            "actual": 33,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 149 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: MATH 152 Minimum Grade of D May be taken concurrently. ) and ( Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "General Physics II: Electricity and Magnetism",
+          "crn": "11684",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11684",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and one of the Laboratory sections (L03-L04). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Goni Halevi",
+              "instructor_email": "ghalevi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 48,
+            "actual": 43,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 149 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: MATH 152 Minimum Grade of D May be taken concurrently. ) and ( Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        },
+        {
+          "section": "03",
+          "section_name": "General Physics II: Electricity and Magnetism",
+          "crn": "10069",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10069",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and one of the Laboratory sections (L05-L06). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "TR",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Goni Halevi",
+              "instructor_email": "ghalevi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 52,
+            "actual": 52,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 149 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: MATH 152 Minimum Grade of D May be taken concurrently. ) and ( Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        },
+        {
+          "section": "04",
+          "section_name": "General Physics II: Electricity and Magnetism",
+          "crn": "10071",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10071",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and one of the Laboratory sections (L07-L08). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "TR",
+              "location": "Robert A. Pritzker Science Ctr 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 52,
+            "actual": 50,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 149 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: MATH 152 Minimum Grade of D May be taken concurrently. ) and ( Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "223",
+      "course_combined": "PHYS 223",
+      "title": "General Physics III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=223",
+      "course_description": "Sound, fluid mechanics and elasticity. Temperature, first and second laws of thermodynamics, kinetic theory and entropy. Reflection, refraction, interference and diffraction. Special relativity. Quantization of light, charge and energy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10076",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10076",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "This course is linked to a Laboratory section. You must register for the Lecture and the Laboratory section (L01). Select both CRN's for the Lecture and Laboratory to complete registration.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 129",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Mithila Mangedarage",
+              "instructor_email": "mbamunuachchimangeda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 7,
+            "remaining": 13,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "224",
+      "course_combined": "PHYS 224",
+      "title": "Gen Physics III for Engnrs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=224",
+      "course_description": "Sound and fluid mechanics. Temperature, first and second laws of thermodynamics, kinetic theory and entropy. Reflection, refraction, interference and diffraction. Special relativity. Light and quantum physics, structure of the hydrogen atom. Atomic physics, electrical conduction in solids, nuclear physics, particle physics and cosmology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "General Physics III for Engineers",
+          "crn": "10077",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10077",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 129",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Mithila Mangedarage",
+              "instructor_email": "mbamunuachchimangeda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 3,
+            "remaining": 12,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "300",
+      "course_combined": "PHYS 300",
+      "title": "Instrumentation Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=300",
+      "course_description": "Basic electronic skills for scientific research. Electrical measurements, basic circuit analysis, diode and transistor circuits. Transistor and integrated amplifiers, filters, and power circuits. Basics of digital circuits, including Boolean algebra and design of logic circuits.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "14324",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14324",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:50 PM",
+              "days": "TR",
+              "location": "Robert A. Pritzker Science Ctr 120",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 12,
+            "actual": 11,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: PHYS 221 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "301",
+      "course_combined": "PHYS 301",
+      "title": "Math Methods of Physics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=301",
+      "course_description": "Real and complex numbers and their properties. Vectors, matrices, eigenvalues, eigenvectors, diagonalization of matrices and quadratic forms, and applications. Fourier series, integrals, and transform. Basic probability. Orthogonal polynomials and special functions. Partial differential equations and separation of variables method. Calculus of complex variables.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Mathematical Methods of Physics",
+          "crn": "11917",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11917",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 025",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 13,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MATH 251 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "308",
+      "course_combined": "PHYS 308",
+      "title": "Classical Mechanics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=308",
+      "course_description": "Newton's Laws, one-dimensional motion, vector methods, kinematics, dynamics, conservation laws, and the Kepler problem. Collisions, systems of particles, and rigid-body motion. Approximation techniques, Lagrangian and Hamiltonian formulations of classical mechanics, small oscillations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10078",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10078",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "John T. Rettaliata Engg Center 027",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Pavel Snopok",
+              "instructor_email": "psnopok@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 11,
+            "remaining": 13,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. and Course or Test: PHYS 123 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "405",
+      "course_combined": "PHYS 405",
+      "title": "Fndmntls of Quantum Theory I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=405",
+      "course_description": "A review of modern physics including topics such as blackbody radiation, the photoelectric effect, the Compton effect, the Bohr model of the hydrogen atom, the correspondence principle, and the DeBroglie hypothesis. Topics in one-dimensional quantum mechanics such as the particle in an infinite potential well, reflection and transmission from potential wells, barriers, and steps, the finite potential well and the quantum harmonic oscillator. General topics such as raising and lowering operators, Hermitian operators, commutator brackets and the Heisenberg Uncertainty Principle are also covered. Many particle systems and the Pauli Exclusion Principle are discussed. Three-dimensional quantum mechanical systems, orbital angular momentum, the hydrogen atom.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Fundamentals of Quantum Theory I",
+          "crn": "10079",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10079",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "Stuart Building 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 13,
+            "remaining": 12,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. ) and ( Course or Test: PHYS 224 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: PHYS 223 Minimum Grade of D May not be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17458",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17458",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "Stuart Building 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. ) and ( Course or Test: PHYS 224 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: PHYS 223 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "425",
+      "course_combined": "PHYS 425",
+      "title": "High Energy Astrophysics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=425",
+      "course_description": "High-energy astrophysics covers interactions in the most extreme physical conditions across the cosmos. Included in this course are the physics of black holes, neutron stars, large scale jets, accretion, shocks, and particle acceleration. Emission mechanisms resulting from relativistic particle acceleration are covered including synchrotron radiation and Bremsstrahlung and Compton processes. Recent observations of X-ray to TeV gamma-ray energies have contributed significantly to understanding these phenomena and will be highlighted.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17174",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17174",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 102",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Goni Halevi",
+              "instructor_email": "ghalevi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 16,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MATH 251 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( May not be taken concurrently. ) and ( Course or Test: PHYS 224 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: PHYS 223 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "427",
+      "course_combined": "PHYS 427",
+      "title": "Advanced Physics Lab I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=427",
+      "course_description": "Experiments related to our present understanding of the physical world. Emphasis is on quantum phenomena in atomic, molecular, and condensed matter physics, along with the techniques of measurement and data analysis. The second semester stresses project-oriented experiments on modern topics including spectroscopy, condensed matter physics, and nuclear physics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Advanced Physics Laboratory I",
+          "crn": "10081",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10081",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "F",
+              "location": "Robert A. Pritzker Science Ctr 116",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            },
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "F",
+              "location": "Robert A. Pritzker Science Ctr 116",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 14,
+            "actual": 14,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: PHYS 224 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( Course or Test: PHYS 223 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "437",
+      "course_combined": "PHYS 437",
+      "title": "Solid-State Physics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=437",
+      "course_description": "Crystal structure and binding, lattice vibrations, phonons, free electron model, band theory of electrons. Electrical, thermal, optical, and magnetic properties of solids. Superconductivity.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16693",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16693",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "John T. Rettaliata Engg Center 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 1,
+            "remaining": 14,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: PHYS 405 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "485",
+      "course_combined": "PHYS 485",
+      "title": "Physics Colloquium",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=485",
+      "course_description": "Lectures by prominent scientists. This course exposes students to current and active research in physics both within and outside the IIT community. It helps prepare students for a career in research. It is complementary to our academic courses and provides examples of professional/scientific presentations. This course may not be used to satisfy the natural science general education requirement.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate Prerequisites: Prerequisite required General Requirements: ( Course or Test: PHYS 223 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: PHYS 224 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10082",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10082",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "R",
+              "location": "Robert A. Pritzker Science Ctr 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 9,
+            "remaining": 41,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: PHYS 223 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: PHYS 224 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "491",
+      "course_combined": "PHYS 491",
+      "title": "Undergraduate Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=491",
+      "course_description": "Recommendation of advisor and approval of the department chair. Student participation in undergraduate research, usually during the junior or senior year.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "101",
+          "section_name": "",
+          "crn": "11438",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11438",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "105",
+          "section_name": "",
+          "crn": "12405",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12405",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Kamleshkumar J. Suthar",
+              "instructor_email": "ksuthar1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "107",
+          "section_name": "",
+          "crn": "11057",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11057",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zack Sullivan",
+              "instructor_email": "zsulliv1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "108",
+          "section_name": "",
+          "crn": "11826",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11826",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Derrick Charles Mancini",
+              "instructor_email": "dmancini@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "115",
+          "section_name": "",
+          "crn": "13582",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13582",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "125",
+          "section_name": "",
+          "crn": "10083",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10083",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "134",
+          "section_name": "",
+          "crn": "11079",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11079",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Grant Bunker",
+              "instructor_email": "bunker@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "163",
+          "section_name": "",
+          "crn": "11082",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11082",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Linda K Spentzouris",
+              "instructor_email": "spentzouris@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "184",
+          "section_name": "",
+          "crn": "10556",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10556",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "190",
+          "section_name": "",
+          "crn": "11084",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11084",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "191",
+          "section_name": "",
+          "crn": "13207",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13207",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffery Wereszczynski",
+              "instructor_email": "jwereszc@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "192",
+          "section_name": "",
+          "crn": "14769",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14769",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "193",
+          "section_name": "",
+          "crn": "15042",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15042",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "194",
+          "section_name": "",
+          "crn": "16033",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16033",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Sally Laurent-Muehleisen",
+              "instructor_email": "slaurent@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "195",
+          "section_name": "",
+          "crn": "16063",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16063",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Emily Leiner",
+              "instructor_email": "eleiner@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "497",
+      "course_combined": "PHYS 497",
+      "title": "Special Topics in Physics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=497",
+      "course_description": "Special topics in physics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "125",
+          "section_name": "",
+          "crn": "12790",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12790",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "184",
+          "section_name": "",
+          "crn": "12356",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12356",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "186",
+          "section_name": "",
+          "crn": "15025",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15025",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ali Khounsary",
+              "instructor_email": "akhounsa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 7,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "188",
+          "section_name": "",
+          "crn": "17017",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17017",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "189",
+          "section_name": "",
+          "crn": "17039",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17039",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "190",
+          "section_name": "",
+          "crn": "17419",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17419",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Goni Halevi",
+              "instructor_email": "ghalevi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "501",
+      "course_combined": "PHYS 501",
+      "title": "Meth Theoretical Physics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=501",
+      "course_description": "Vector analysis including curvilinear coordinates. Tensor algebra. Ordinary differential equations. Method of infinite series. Regular singularities, Frobenius method. First look at special functions. Gamma-, beta-, error functions. Airy function. Fourier series. Hilbert space, its basic properties. Sturm-Liouville theory. Orthogonal polynomials. Legendre, associated Legendre, Hermite, Laguerre etc. polynomials. Bessel functions, their properties, basic applications. Partial differential equations, their classification. Boundary conditions. Physical models with PDE. Separation of variables method, Cartesian system of coordinates. Separation of variables in cylindrical and spherical system of coordinates. Spherical functions. Fourier transform method.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Methods of Theoretical Physics I",
+          "crn": "10084",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10084",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "John T. Rettaliata Engg Center 119",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 16,
+            "remaining": 14,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "508",
+      "course_combined": "PHYS 508",
+      "title": "Analytical Dynamics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=508",
+      "course_description": "Hamilton's Principle, Lagrange's formalism, function, and equations. Invariance properties and conservation laws. One dimensional motion. Central force problem. Small harmonic oscillations. Nonlinear oscillations. Scattering theory. Rigid body motion. Non-inertial reference frames. Hamilton's formalism, function, and equations. Canonical transformations. Hamilton-Jacobi theory. Integrable systems and canonical perturbation theory.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10085",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10085",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 027",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 13,
+            "remaining": 17,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "509",
+      "course_combined": "PHYS 509",
+      "title": "Quantum Theory I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=509",
+      "course_description": "Survey of solutions to the Schrodinger Equation in one, two, and three dimensions. Hydrogen, helium, and other atoms. Spin 1/2 particles. Entangled states. EPR Paradox. Bell's Theorem. Formalism of quantum mechanics. Magnetic fields in quantum mechanics. Aharonov-Bohm Effect. Berry's Phase. Time Independent Perturbation Theory. Spin-orbit coupling. Variational method. WKB Method. Many electron wavefunction. Pauli Principle. More detailed look at excited states of helium atom. Time Dependent Perturbation Theory. Fermi's Golden Rule. Lifetime of excited atomic states.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10723",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10723",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Non Credit, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 025",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 16,
+            "remaining": 14,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "515",
+      "course_combined": "PHYS 515",
+      "title": "Statistical Mechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=515",
+      "course_description": "Thermodynamics. Thermodynamic quantities, laws, and cycles. Ideal and non-ideal gas. Phases and phase transitions. Classical statistical mechanics. Liouville theorem. Micro-canonical, canonical, and grand canonical ensembles. Partition function. Boltzmann and Maxwell distributions, and their applications. Quantum statistics. Density matrix. Bose-Einstein and Fermi-Dirac distributions. Ideal quantum gases. Interacting Bose and Fermi systems. Quasiparticles formalism. Superfluidity, and superconductivity. Quantum theory of phase transitions. Ising model, critical exponents, renormalization group. Basic ideas of non-equilibrium statistical mechanics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11243",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11243",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "John T. Rettaliata Engg Center 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 27,
+            "remaining": 3,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "537",
+      "course_combined": "PHYS 537",
+      "title": "Solid State Physics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=537",
+      "course_description": "Crystal structure and crystal binding. Free electron model of metals and semiconductors. Energy band theory. Elastic Properties. Lattice Waves, Dielectric properties.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: ( Course or Test: PHYS 405 Minimum Grade of C May not be taken concurrently. and Course or Test: PHYS 406 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: PHYS 509 Minimum Grade of C May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16690",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16690",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "John T. Rettaliata Engg Center 121",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 15,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: PHYS 405 Minimum Grade of C May not be taken concurrently. and Course or Test: PHYS 406 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: PHYS 509 Minimum Grade of C May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "550",
+      "course_combined": "PHYS 550",
+      "title": "Radiation Instrumentation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=550",
+      "course_description": "Detecting and measuring radioactive material and radiation levels depends upon many types of detectors and instrumentation. Theory of detectors ranging from chambers operating in pulse and current producing modes to solid state detectors is applied to measuring and monitoring systems. Electronics ranging from simple rate meters and scalers to high speed multi-channel analyzers are used. Computer-linked instrumentation and computer-based applications are applied to practical problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: PHYS 571 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17314",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17314",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "William Limestall",
+              "instructor_email": "wlimesta@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 11,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: PHYS 571 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "571",
+      "course_combined": "PHYS 571",
+      "title": "Radiation Physics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=571",
+      "course_description": "Fundamentals of Radiation Physics will be presented with an emphasis on problem-solving. Topics covered are review of atomic and nuclear physics; radioactivity and radioactive decay law; and interaction of radiation with matter, including interactions of heavy and light charged particles with matter, interactions of photons with matter, and interactions of neutrons with matter.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10086",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10086",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "David Scherer",
+              "instructor_email": "dscherer1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 17,
+            "remaining": 3,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "572",
+      "course_combined": "PHYS 572",
+      "title": "Introduction to Health Physics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=572",
+      "course_description": "Health Physics profession; Units in radiation protection; Radiation sources; Interaction of ionizing radiation with matter; Detectors for radiation protection; Biological effects of ionizing radiation; Introduction to microdosimetry; Medical health physics; Fuel cycle health physics; Power reactor health physics; University health physics; Accelerator health physics; Environmental health physics; Radiation accidents.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17317",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17317",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "David Scherer",
+              "instructor_email": "dscherer1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 17,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "573",
+      "course_combined": "PHYS 573",
+      "title": "Stands Statutes Regulations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=573",
+      "course_description": "This course studies the requirements of agencies that regulate radiation hazards, their basis in law and the underlying US and international standards. An array of overlapping requirements will be examined. The effect regulatory agencies have upon the future of organizations and the consequences of noncompliance are explored.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Standards, Statutes and Regulations",
+          "crn": "12605",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12605",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "David Scherer",
+              "instructor_email": "dscherer1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 11,
+            "remaining": 9,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "576",
+      "course_combined": "PHYS 576",
+      "title": "Radiation Dosimetry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=576",
+      "course_description": "This course is designed to study the science and technique of determining radiation dose and is fundamental to evaluating radiation hazards and risks to humans. This course covers both external dosimetry for radiation sources that are outside the human body and internal dosimetry for intake of radioactive materials into the human body. Topics will include: dosimetry recommendations of ICRP for occupational exposure; US NRC and DOE requirements for particular work environments; and MIRD methodology for medical use of radionuclides.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: PHYS 572 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17315",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17315",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "David Scherer",
+              "instructor_email": "dscherer1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 10,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: PHYS 572 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "578",
+      "course_combined": "PHYS 578",
+      "title": "Medical Health Physics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=578",
+      "course_description": "Medical Health Physics (MHP) profession; sources of radiation in the medical environment; radioisotopes in nuclear medicine; diagnostic use of X-rays (radiography, mammography, CT, fluoroscopy); therapeutic use of X-ray and gamma radiation (Co-60 and LINAC based radiation therapy); radiotherapy using sealed radioisotopes (brachytherapy); radiation protection in diagnostic and interventional radiology; radiation protection in nuclear medicine; radiation protection in external beam radiotherapy; radiation protection in brachytherapy; radiation accidents in medicine.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17316",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17316",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Engineering Theme Health, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "David Scherer",
+              "instructor_email": "dscherer1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 18,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "585",
+      "course_combined": "PHYS 585",
+      "title": "Physics Colloquium",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=585",
+      "course_description": "Lectures by invited scientists in areas of physics generally not covered in the department. May be taken twice by M. S. students to fulfill course credit requirements.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10094",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10094",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "R",
+              "location": "Robert A. Pritzker Science Ctr 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 1,
+            "remaining": 19,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "591",
+      "course_combined": "PHYS 591",
+      "title": "Research and Thesis M.S.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=591",
+      "course_description": "(Credit: variable) Prerequisite: Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "102",
+          "section_name": "",
+          "crn": "11106",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11106",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Pavel Snopok",
+              "instructor_email": "psnopok@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "107",
+          "section_name": "",
+          "crn": "11085",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11085",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zack Sullivan",
+              "instructor_email": "zsulliv1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "115",
+          "section_name": "",
+          "crn": "11822",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11822",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "125",
+          "section_name": "",
+          "crn": "10920",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10920",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "134",
+          "section_name": "",
+          "crn": "10557",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10557",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Grant Bunker",
+              "instructor_email": "bunker@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "139",
+          "section_name": "",
+          "crn": "11995",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11995",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ali Khounsary",
+              "instructor_email": "akhounsa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "159",
+          "section_name": "",
+          "crn": "11770",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11770",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffery Wereszczynski",
+              "instructor_email": "jwereszc@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "184",
+          "section_name": "",
+          "crn": "11145",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11145",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "187",
+          "section_name": "",
+          "crn": "11649",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11649",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "190",
+          "section_name": "",
+          "crn": "11088",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11088",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "191",
+          "section_name": "",
+          "crn": "15035",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15035",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Eric Edson Wisniewski",
+              "instructor_email": "ewisniew@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "192",
+          "section_name": "",
+          "crn": "17475",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17475",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 1,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "594",
+      "course_combined": "PHYS 594",
+      "title": "Research Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=594",
+      "course_description": "Research project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "125",
+          "section_name": "",
+          "crn": "12772",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12772",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "139",
+          "section_name": "",
+          "crn": "12315",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12315",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ali Khounsary",
+              "instructor_email": "akhounsa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "597",
+      "course_combined": "PHYS 597",
+      "title": "Reading&Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=597",
+      "course_description": "Independent study to meet the special needs of graduate students in department-approved graduate degree programs. Requires the written consent of the instructor. May be taken more than once. Receives a letter grade. (Credit: variable) Prerequisite: Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "101",
+          "section_name": "Reading and Special Problems",
+          "crn": "12644",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12644",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yurii Shylnov",
+              "instructor_email": "shylnov@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "102",
+          "section_name": "Reading and Special Problems",
+          "crn": "11107",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11107",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Pavel Snopok",
+              "instructor_email": "psnopok@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "107",
+          "section_name": "Reading and Special Problems",
+          "crn": "11089",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11089",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 116",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zack Sullivan",
+              "instructor_email": "zsulliv1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "115",
+          "section_name": "Reading and Special Problems",
+          "crn": "11823",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11823",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "122",
+          "section_name": "Reading and Special Problems",
+          "crn": "10664",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10664",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zelimir Djurcic",
+              "instructor_email": "zdjurcic@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "125",
+          "section_name": "Reading and Special Problems",
+          "crn": "11090",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11090",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "134",
+          "section_name": "Reading and Special Problems",
+          "crn": "10560",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10560",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Grant Bunker",
+              "instructor_email": "bunker@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "137",
+          "section_name": "Reading and Special Problems",
+          "crn": "10096",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10096",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 4,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "184",
+          "section_name": "Reading and Special Problems",
+          "crn": "11146",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11146",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "190",
+          "section_name": "Reading and Special Problems",
+          "crn": "11095",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11095",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "198",
+          "section_name": "Reading and Special Problems",
+          "crn": "11454",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11454",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "David Scherer",
+              "instructor_email": "dscherer1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "199",
+          "section_name": "",
+          "crn": "15023",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15023",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "200",
+          "section_name": "Intro to the Space Environment",
+          "crn": "15282",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15282",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "TBA",
+              "instructor_email": ""
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "201",
+          "section_name": "Adv. Electromagnetic Theory",
+          "crn": "15875",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15875",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "TR",
+              "location": "Stuart Building 213",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 6,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "203",
+          "section_name": "Wakefields",
+          "crn": "16082",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16082",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Eric Edson Wisniewski",
+              "instructor_email": "ewisniew@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "204",
+          "section_name": "Appl Physics Methods Sci Eng",
+          "crn": "16085",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16085",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ali Khounsary",
+              "instructor_email": "akhounsa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "205",
+          "section_name": "",
+          "crn": "16573",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16573",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Emily Leiner",
+              "instructor_email": "eleiner@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "600",
+      "course_combined": "PHYS 600",
+      "title": "Continuation of Residence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=600",
+      "course_description": "Continuation of Residence",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15528",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15528",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Pavel Snopok , Bhoopesh Mishra",
+              "instructor_email": "psnopok@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 2,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "685",
+      "course_combined": "PHYS 685",
+      "title": "Physics Colloquium",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=685",
+      "course_description": "Lectures by invited scientists in areas of physics generally not covered in the department. Must be taken twice by M. S. students and four times by Ph. D. students. May be substituted by PHYS 585 for M. S. students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10097",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10097",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "R",
+              "location": "Robert A. Pritzker Science Ctr 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 28,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PHYS",
+      "course_num": "691",
+      "course_combined": "PHYS 691",
+      "title": "Research and Thesis Ph.D.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PHYS&crse_numb_in=691",
+      "course_description": "(Credit: Variable)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "102",
+          "section_name": "",
+          "crn": "11108",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11108",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Pavel Snopok",
+              "instructor_email": "psnopok@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "107",
+          "section_name": "",
+          "crn": "11096",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11096",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zack Sullivan",
+              "instructor_email": "zsulliv1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "115",
+          "section_name": "",
+          "crn": "11824",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11824",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bryce Littlejohn",
+              "instructor_email": "blittlej@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 4,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "122",
+          "section_name": "",
+          "crn": "10561",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10561",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zelimir Djurcic",
+              "instructor_email": "zdjurcic@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "125",
+          "section_name": "",
+          "crn": "10562",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10562",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlo U. Segre",
+              "instructor_email": "segre@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 11,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "129",
+          "section_name": "",
+          "crn": "10563",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10563",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "TBA",
+              "instructor_email": ""
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "134",
+          "section_name": "",
+          "crn": "10564",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10564",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Grant Bunker",
+              "instructor_email": "bunker@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "10566",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10566",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Emily Leiner",
+              "instructor_email": "eleiner@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "159",
+          "section_name": "",
+          "crn": "11596",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11596",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffery Wereszczynski",
+              "instructor_email": "jwereszc@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "163",
+          "section_name": "",
+          "crn": "10568",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10568",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Linda K Spentzouris",
+              "instructor_email": "spentzouris@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "184",
+          "section_name": "",
+          "crn": "10659",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10659",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeffrey H. Terry",
+              "instructor_email": "terryj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "190",
+          "section_name": "",
+          "crn": "11097",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11097",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yagmur Torun",
+              "instructor_email": "torun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "191",
+          "section_name": "",
+          "crn": "14393",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14393",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Rakshya Khatiwada",
+              "instructor_email": "rkhatiwada@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 6,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "192",
+          "section_name": "",
+          "crn": "15449",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15449",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Eric Edson Wisniewski",
+              "instructor_email": "ewisniew@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "193",
+          "section_name": "",
+          "crn": "15505",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15505",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Bhoopesh Mishra",
+              "instructor_email": "bmishra3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "SOC",
+      "course_num": "111",
+      "course_combined": "SOC 111",
+      "title": "Intro to Sociology of Space",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=111",
+      "course_description": "This introductory sociology course deals with people's general experience of space and how space and spatial arrangements affect people, social interaction, and the sense of community. It is designed to develop knowledge and understanding as well as analytical and perceptive skills. Our experiences of the spatial dimension of reality will be examined from various perspectives: emotional; cognitive; functional; symbolic; and cross-cultural. Our study objects range from everyday experiences to questions of community and city planning. Basic sociological concepts and research methods will be introduced and related to the topics covered. This course is required for SOC 311 (Social Use of Space).",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17281",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17281",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "Robert A. Pritzker Science Ctr 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joseph A. Renow",
+              "instructor_email": "jrenow@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 39,
+            "remaining": 11,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "248",
+      "course_combined": "SOC 248",
+      "title": "Deviant Bhvr and Conformity",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=248",
+      "course_description": "Analyzes the definition, development, and control of deviant behavior in relation to social processes. Societal reaction to and the amount, distribution, and behavioral systems of various forms of deviance (drug addiction, suicide, crime, alcoholism, illegitimacy, etc.) are examined.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17283",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17283",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Stuart Building 104",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Saran Ghatak",
+              "instructor_email": "sghatak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 50,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "491",
+      "course_combined": "SOC 491",
+      "title": "UG Research in Sociology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=491",
+      "course_description": "Working with a member of the sociology faculty, students will choose a topic, conduct research, and complete an original, independent research project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate Prerequisites: Prerequisite required General Requirements: Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "137",
+          "section_name": "Undergraduate Research in Sociology",
+          "crn": "11368",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11368",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Saran Ghatak",
+              "instructor_email": "sghatak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "497",
+      "course_combined": "SOC 497",
+      "title": "Directed Readings",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=497",
+      "course_description": "Consists of independent reading or analysis, centered on particular problems and supervised by a member of the Sociology faculty. Credit: Variable; maximum 3 credit hours.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate Prerequisites: Prerequisite required General Requirements: Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "160",
+          "section_name": "",
+          "crn": "12627",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12627",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Saran Ghatak",
+              "instructor_email": "sghatak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    }
+  ]
+}

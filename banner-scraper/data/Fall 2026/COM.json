@@ -1,0 +1,1010 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "COM",
+      "course_num": "101",
+      "course_combined": "COM 101",
+      "title": "University Writing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=101",
+      "course_description": "A study of the use of writing, reading, and discussion as a means of discovering, questioning, and analyzing ideas, with an emphasis on audience, context and the use of revision. This course satisfies the Basic Writing Proficiency Requirement. It does not satisfy a general education requirement in the Humanities and Social or Behavioral Sciences.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "02",
+          "section_name": "Writing in the University",
+          "crn": "11076",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11076",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "Stuart Building 106",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Naum Neskoski",
+              "instructor_email": "nneskosk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "03",
+          "section_name": "Writing in the University",
+          "crn": "11519",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11519",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "TR",
+              "location": "Stuart Building 106",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Naum Neskoski",
+              "instructor_email": "nneskosk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "04",
+          "section_name": "",
+          "crn": "16584",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16584",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 6:15 PM",
+              "days": "TR",
+              "location": "Stuart Building 112E",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Naum Neskoski",
+              "instructor_email": "nneskosk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 18,
+            "remaining": 2,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "05",
+          "section_name": "",
+          "crn": "17369",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17369",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 213",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Tracey S McGee",
+              "instructor_email": "tmcgee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 21,
+            "actual": 20,
+            "remaining": 1,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "06",
+          "section_name": "",
+          "crn": "17396",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17396",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 213",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Tracey S McGee",
+              "instructor_email": "tmcgee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 18,
+            "remaining": 2,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "07",
+          "section_name": "",
+          "crn": "17411",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17411",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Stuart Building 106",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Katerina Ilievska",
+              "instructor_email": "kilievsk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 19,
+            "remaining": 1,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "08",
+          "section_name": "",
+          "crn": "17412",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17412",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Stuart Building 106",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Katerina Ilievska",
+              "instructor_email": "kilievsk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 10,
+            "remaining": 10,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "201",
+      "course_combined": "COM 201",
+      "title": "Digital Writing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=201",
+      "course_description": "The rhetorical theory and applied practice of digital writing. Topics include word processor alternatives, social media for professional development, multimedia writing, and collaboration and project management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16762",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16762",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 124",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Renata Phelps",
+              "instructor_email": "rphelps2@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 15,
+            "remaining": 5,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Classifications: First Year Undergraduate Second Year Undergraduate",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17053",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17053",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "TR",
+              "location": "Stuart Building 107",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Brian Casario",
+              "instructor_email": "bcasari1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 16,
+            "remaining": 4,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Classifications: First Year Undergraduate Second Year Undergraduate",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "220",
+      "course_combined": "COM 220",
+      "title": "Rhetoric, Argumnt & Persuasion",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=220",
+      "course_description": "Arguments are a tool we use to build our social realities and the worlds we want to see. In this course, we move beyond “winning debates” to instead ask: How does culture and context convince us what is true, and how do we critically assess those assumptions? Using an interdisciplinary blend of theories and methods from the humanities and social sciences, we will analyze argumentation as a contest over power. We will explore how “common sense” is constructed through discursive repetition and ritual, as well as how media technologies have historically (and in the present) facilitated those constructions. Students will learn to navigate the politics of representation, scrutinize the “mythologies” of Big Tech, and construct arguments that are not only logical, but socially and ethically responsive to the conditions of the world.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17054",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17054",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Kathryn R. Petrozzo",
+              "instructor_email": "kpetrozzo@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 21,
+            "actual": 21,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "235",
+      "course_combined": "COM 235",
+      "title": "Ethics of Tech & Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=235",
+      "course_description": "In this course, we will investigate philosophical questions about the nature of technology and communication, as well as ethical questions related to a broad range of specific communication-related technologies. Topics include algorithmic bias and fairness, privacy and surveillance, consent and manipulation, and the environmental impacts of digital technologies. Students will engage with case studies that require applying ethical principles to complex situations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17055",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17055",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Ethics Content, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "Siegel Hall 202",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Clarissa Busch",
+              "instructor_email": "cbusch1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 12,
+            "actual": 12,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "321",
+      "course_combined": "COM 321",
+      "title": "Technical Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=321",
+      "course_description": "Principles and practice in the communication of technical materials. Students work on the design, writing, and revising of reports, articles, manuals, procedures, proposals, including the use of graphics. Works by modern writers are analyzed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17415",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17415",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "MW",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Andrew J Roback",
+              "instructor_email": "aroback@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 13,
+            "remaining": 17,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "338",
+      "course_combined": "COM 338",
+      "title": "Exhibit Desisgn",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=338",
+      "course_description": "Planning and managing informative and instructional exhibits in professional and creative contexts. Attention to characteristics and constraints of space, multimedia, and other resources, along with principles and goals of viewer access and flow. Students will work on individual activities and collaborate on a community-service or other client-centered project. Instruction will incorporate Chicago-area resources such as the Museum of Science and Industry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17417",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17417",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "Siegel Hall 237",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Markus D Dohner",
+              "instructor_email": "mdohner@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "380",
+      "course_combined": "COM 380",
+      "title": "Seminar in Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=380",
+      "course_description": "A seminar course on a topic of current interest in the field of Communication, which will be announced by the instructor when the course is scheduled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "07",
+          "section_name": "Bldng Human-Centered Innov",
+          "crn": "17425",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17425",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Maura Aileen Shea",
+              "instructor_email": "mshea@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 2,
+            "remaining": 13,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: HUM 100 to 199 May not be taken concurrently."
+        },
+        {
+          "section": "08",
+          "section_name": "Intro to Visual Communication",
+          "crn": "17434",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17434",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "W",
+              "location": "Ed Kaplan Family Institute 211E",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Warner B. Rodda",
+              "instructor_email": "wrodda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 3,
+            "remaining": 17,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: HUM 100 to 199 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "491",
+      "course_combined": "COM 491",
+      "title": "Independent Reading and Res",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=491",
+      "course_description": "Consent of department. For advanced students. Based on the selected topic, this course may or may not be applied to the humanities general education requirement. Consult the course instructor.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15860",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15860",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carly Kocurek",
+              "instructor_email": "ckocurek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 2,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. ) or ( May not be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15889",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15889",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Warner B. Rodda",
+              "instructor_email": "wrodda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 1,
+            "actual": 1,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. ) or ( May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "523",
+      "course_combined": "COM 523",
+      "title": "Communicating Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=523",
+      "course_description": "This course focuses on strategies for communicating scientific information in professional settings. Students develop a literature review, proposal, and feasibility study; learn how to adapt scientific information to various audiences; and complete exercises on style, grammar, and other elements of effective professional communication. Emphasis on usability, cohesion, and style in each assignment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16935",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16935",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Oct 14, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "James Paul Maciukenas",
+              "instructor_email": "jmaciuke@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 29,
+            "remaining": 1,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17366",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17366",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "James Paul Maciukenas",
+              "instructor_email": "jmaciuke@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Risepoint Student Risepoint Format Transition",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "591",
+      "course_combined": "COM 591",
+      "title": "Research and Thesis M.S.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=591",
+      "course_description": "Permission of instructor required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "188",
+          "section_name": "Research and Thesis for Master's Degree",
+          "crn": "11729",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11729",
+          "credits": 9.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carly Kocurek",
+              "instructor_email": "ckocurek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COM",
+      "course_num": "691",
+      "course_combined": "COM 691",
+      "title": "Research & Thesis Ph.D.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=691",
+      "course_description": "This is a variable credit course which Ph. D. candidates sign up for as they work on their dissertations. Permission of instructor required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "115",
+          "section_name": "",
+          "crn": "12527",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12527",
+          "credits": 9.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jennifer deWinter",
+              "instructor_email": "jdewinter@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "188",
+          "section_name": "",
+          "crn": "11732",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11732",
+          "credits": 20.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carly Kocurek",
+              "instructor_email": "ckocurek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "191",
+          "section_name": "",
+          "crn": "14315",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14315",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Elisabeth Hildt",
+              "instructor_email": "ehildt@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

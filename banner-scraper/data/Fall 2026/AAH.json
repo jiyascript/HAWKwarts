@@ -1,0 +1,158 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "AAH",
+      "course_num": "119",
+      "course_combined": "AAH 119",
+      "title": "Hist of World Architecture I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AAH&crse_numb_in=119",
+      "course_description": "Comprehensive background as well as concentration on individual cultures and their architects from ancient to medieval times. Discussion of architectures from around the world. Specific details and expressions of more generalized theories and strategies will be explored.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16715",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16715",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Siegel Hall 118",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Alican Taylan",
+              "instructor_email": "ataylan@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 130,
+            "actual": 121,
+            "remaining": 9,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "AAH",
+      "course_num": "201",
+      "course_combined": "AAH 201",
+      "title": "Art Appreciation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AAH&crse_numb_in=201",
+      "course_description": "This course is designed to introduce the skills needed to describe, analyze, and make arguments about art. We will begin by learning the skills of description and formal analysis and exploring different media: painting, sculpture, printmaking and architecture. In the middle portion of the class, we will build on the skills we have learned for formally analyzing artworks as we examine different methods used in the writing of the history of art and making arguments about art. We will pay particular attention to the historical and social contexts of art and the roles that race and identity have played in the interpretation of works of art. The final section of this class considers how art is exhibited in museums, galleries, and in public space. Throughout the class we will make use of Chicago area institutions and exhibitions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16223",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16223",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "Hermann Hall 002",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Alaina Griffin",
+              "instructor_email": "agriffin8@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 44,
+            "remaining": 6,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "AAH",
+      "course_num": "380",
+      "course_combined": "AAH 380",
+      "title": "Topics in Art & Arch History",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AAH&crse_numb_in=380",
+      "course_description": "An investigation into a topic of current or enduring interest in Art and/or Architectural History which will be announced by the instructor when the course is scheduled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Exhibit Design",
+          "crn": "16716",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16716",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "Siegel Hall 237",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Markus D Dohner",
+              "instructor_email": "mdohner@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 12,
+            "remaining": 8,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    }
+  ]
+}

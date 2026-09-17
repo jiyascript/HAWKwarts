@@ -1,0 +1,570 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "HUM",
+      "course_num": "100",
+      "course_combined": "HUM 100",
+      "title": "Reading Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=100",
+      "course_description": "HUM 100 introduces students to a variety of source material, scholarly and literary, in the Humanities, and teaches them how to read academic books and articles critically for research into specific, student-chosen topics. The course also aims to give students facility in accessing and effectively employing library resources and developing bibliographic methods. Theme/Topic of the course will vary depending on who is teaching it. Students may be required to visit off-campus sites, such as the Newberry Library or the Art Institute of Chicago.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16806",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16806",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Keith Green",
+              "instructor_email": "greenk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "102",
+      "course_combined": "HUM 102",
+      "title": "Industrial Culture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=102",
+      "course_description": "An interdisciplinary course that examines the development of modern industrial society and the impact of science and technology on our culture. Readings drawn from history, literature, and philosophy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "From Ind. Culture to A.I.",
+          "crn": "17321",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17321",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Non Credit, Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Siegel Hall 204",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Keith Green",
+              "instructor_email": "greenk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 25,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "( ICOM 102 to 106 May not be taken concurrently. ) or ( AWR 7 to 12 May not be taken concurrently. ) or ( S11 600 to 800 May not be taken concurrently. ) or ( S14 32 to 40 May not be taken concurrently. ) or ( S08 9 to 12 May not be taken concurrently. ) or ( S07 599 to 800 May not be taken concurrently. ) or ( A0W 7 to 12 May not be taken concurrently. ) or ( SWR 7 to 12 May not be taken concurrently. ) or ( Course or Test: COM 101 May not be taken concurrently. ) or ( Course or Test: COM 111 Minimum Grade of D May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "180",
+      "course_combined": "HUM 180",
+      "title": "Topics in Humanities",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=180",
+      "course_description": "One-time or initial versions of course topics equivalent to HUM 202, 204, 206, and 208. Topics will introduce students to the humanities at IIT and to provide intensive instruction in writing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Victorian England",
+          "crn": "17264",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17264",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "MW",
+              "location": "Siegel Hall 204",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Keith Green",
+              "instructor_email": "greenk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 17,
+            "remaining": 3,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "03",
+          "section_name": "Environmental Ethics",
+          "crn": "17266",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17266",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "TR",
+              "location": "Siegel Hall 202",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Clarissa Busch",
+              "instructor_email": "cbusch1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "04",
+          "section_name": "Museums & Communication",
+          "crn": "17267",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17267",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "Siegel Hall 203",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Mindy C Pugh",
+              "instructor_email": "pugh@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "06",
+          "section_name": "Creative A.I.",
+          "crn": "17270",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17270",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "Alumni Memorial Hall 222",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Hana Hanifah",
+              "instructor_email": "hhanifah@hawk.illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 19,
+            "remaining": 1,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "07",
+          "section_name": "Anime & Japanese Imagination",
+          "crn": "17271",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17271",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Alumni Memorial Hall 222",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Hana Hanifah",
+              "instructor_email": "hhanifah@hawk.illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 19,
+            "remaining": 1,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "08",
+          "section_name": "Ethics",
+          "crn": "17272",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17272",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "MW",
+              "location": "Siegel Hall 202",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Kathryn R. Petrozzo",
+              "instructor_email": "kpetrozzo@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "11",
+          "section_name": "Creative A.I.",
+          "crn": "17409",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17409",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "Ed Kaplan Family Institute 225",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Matthew Mayfield",
+              "instructor_email": "mayfield@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        },
+        {
+          "section": "12",
+          "section_name": "Understanding Design",
+          "crn": "17410",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17410",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 1:00 PM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Arrenius Karunakaran",
+              "instructor_email": "akarunakaran@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 8,
+            "remaining": 2,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "380",
+      "course_combined": "HUM 380",
+      "title": "Seminar in Humanities",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=380",
+      "course_description": "An investigation into a topic of current or enduring interest in the humanities, which does not fit neatly into standard categories.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Extensions of Media and Tech",
+          "crn": "17430",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17430",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "2:00 PM - 5:00 PM",
+              "days": "R",
+              "location": "Alumni Memorial Hall 222",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Carly Kocurek",
+              "instructor_email": "ckocurek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 1,
+            "remaining": 14,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite or test required",
+          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "495",
+      "course_combined": "HUM 495",
+      "title": "Foundational Research Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=495",
+      "course_description": "HUM 495 introduces advanced Humanities students to research methods and practices in the Humanities. Students read and engage with contemporary research in Humanities fields while pursuing research projects of their own design. Students completing this course should leave with a draft of an article suitable for submission to a Humanities journal.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17429",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17429",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 226",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Warner B. Rodda",
+              "instructor_email": "wrodda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 5,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "501",
+      "course_combined": "HUM 501",
+      "title": "Teaching Assistant Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=501",
+      "course_description": "Required of all teaching assistants at Illinois Tech, HUM 501 introduces students to mandatory university policies, on-campus resources, classroom and course management techniques, and strategies and best practices for effectively working with students and faculty in order to fulfill teaching assistant responsibilities and best support student retention at the university.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Must be enrolled in one of the following Classifications: Graduate Non Doctoral Graduate Doctoral",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17220",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17220",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "12:50 PM - 1:40 PM",
+              "days": "MW",
+              "location": "Robert A. Pritzker Science Ctr 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Tracey S McGee",
+              "instructor_email": "tmcgee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 90,
+            "actual": 23,
+            "remaining": 67,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Classifications: Graduate Doctoral Graduate Non Doctoral",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "ITMT",
+      "course_num": "330",
+      "course_combined": "ITMT 330",
+      "title": "Intro to Info Systems and IT",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=330",
+      "course_description": "Introduces students to concepts of systems, systems theory and modeling, information systems, and system integration. Examines the steps necessary to analyze a business problem and identify and define the computing and information requirements appropriate to its solution, with a focus on how to design, implement, and evaluate a technology-based system to meet desired needs. Students learn to analyze the local and global impact of computing on individuals, organizations, and society. Leads students to recognize of the need for continuing professional development, and imparts an understanding of professional, ethical, legal, security and social issues and responsibilities in information technology. Students write and present, building their ability to communicate effectively with a range of audiences, and using standard planning methodologies design an information system to meet the information needs of a small business. This course meets the university Introduction to the Profession Core Course requirement.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15825",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15825",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "Perlstein Hall 131",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Gurram Gopal",
+              "instructor_email": "gopal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 60,
+            "actual": 35,
+            "remaining": 25,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite Required",
+          "general_requirements": "( Course or Test: ITM 301 May not be taken concurrently. ) or ( Course or Test: ITM 303 May not be taken concurrently. ) and ( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15826",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15826",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Gurram Gopal",
+              "instructor_email": "gopal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 17,
+            "actual": 17,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite Required",
+          "general_requirements": "( Course or Test: ITM 301 May not be taken concurrently. ) or ( Course or Test: ITM 303 May not be taken concurrently. ) and ( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )"
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "17446",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17446",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 036",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Steven C. Rubinow",
+              "instructor_email": "srubinow@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 28,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "04",
+          "section_name": "",
+          "crn": "17447",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17447",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Steven C. Rubinow",
+              "instructor_email": "srubinow@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 16,
+            "actual": 16,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "491",
+      "course_combined": "ITMT 491",
+      "title": "Undergraduate Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=491",
+      "course_description": "Undergraduate research. Written consent of instructor is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "170",
+          "section_name": "",
+          "crn": "11367",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11367",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeremy Robert Hajek",
+              "instructor_email": "hajek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "591",
+      "course_combined": "ITMT 591",
+      "title": "Independent Study/Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=591",
+      "course_description": "Research and Thesis for Masters' degrees. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "180",
+          "section_name": "",
+          "crn": "15010",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15010",
+          "credits": 8.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yong Zheng",
+              "instructor_email": "yzheng66@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "594",
+      "course_combined": "ITMT 594",
+      "title": "Special Projects in IT",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=594",
+      "course_description": "Special projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "16571",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16571",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "James Papademas",
+              "instructor_email": "jpapadem@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 2,
+            "actual": 0,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "597",
+      "course_combined": "ITMT 597",
+      "title": "Special Problem in IT",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=597",
+      "course_description": "Independent study and project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "120",
+          "section_name": "Special Problems in Information Technology",
+          "crn": "11799",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11799",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "James Papademas",
+              "instructor_email": "jpapadem@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "127",
+          "section_name": "",
+          "crn": "14250",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14250",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yibo Hu",
+              "instructor_email": "yhu89@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 2,
+            "actual": 2,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "170",
+          "section_name": "Special Problems in Information Technology",
+          "crn": "11347",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11347",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeremy Robert Hajek",
+              "instructor_email": "hajek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "180",
+          "section_name": "Special Problems in Information Technology",
+          "crn": "12688",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12688",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Yong Zheng",
+              "instructor_email": "yzheng66@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "190",
+          "section_name": "Special Problems in Information Technology",
+          "crn": "11613",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11613",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Louis Francis McHugh",
+              "instructor_email": "lmchughi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "221",
+          "section_name": "",
+          "crn": "17313",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17313",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Gurram Gopal",
+              "instructor_email": "gopal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 3,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

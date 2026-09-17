@@ -1,0 +1,362 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "ID",
+      "course_num": "200",
+      "course_combined": "ID 200",
+      "title": "Understanding Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=200",
+      "course_description": "An introduction to design as a discipline, tracing its history and societal impact while building the critical vocabulary needed to engage with its values, ethics, and future directions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17237",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17237",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 1:00 PM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Arrenius Karunakaran",
+              "instructor_email": "akarunakaran@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 5,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ID",
+      "course_num": "410",
+      "course_combined": "ID 410",
+      "title": "Designing Product Oppor",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=410",
+      "course_description": "A course in applied design thinking that guides students through defining problems, translating research into actionable frameworks, and producing a strategic development plan.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17238",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17238",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jeremy P Alexis",
+              "instructor_email": "alexis@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 17,
+            "remaining": 1,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ID",
+      "course_num": "420",
+      "course_combined": "ID 420",
+      "title": "Visualizing Ideas and Insights",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=420",
+      "course_description": "Students learn to communicate design intent through tailored visual representations, prototyping, and data-informed artifacts suited to diverse audiences and development stages.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17239",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17239",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 1:00 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Matthew Mayfield",
+              "instructor_email": "mayfield@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 11,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ID",
+      "course_num": "430",
+      "course_combined": "ID 430",
+      "title": "Building Human-Centered Inno",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=430",
+      "course_description": "An exploration of user research, inclusive design principles, and ethical considerations to develop rigorous, human-centered design decisions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Campuses: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17240",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17240",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Maura Aileen Shea",
+              "instructor_email": "mshea@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 4,
+            "remaining": 14,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Campuses: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ID",
+      "course_num": "510",
+      "course_combined": "ID 510",
+      "title": "Designing Product Oppor",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=510",
+      "course_description": "A course in applied design thinking that guides students through defining problems, translating research into actionable frameworks, and producing a strategic development plan.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17248",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17248",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jeremy P Alexis",
+              "instructor_email": "alexis@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 2,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ID",
+      "course_num": "520",
+      "course_combined": "ID 520",
+      "title": "Visualizing Ideas and Insights",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=520",
+      "course_description": "Students learn to communicate design intent through tailored visual representations, prototyping, and data-informed artifacts suited to diverse audiences and development stages.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17251",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17251",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 1:00 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Matthew Mayfield",
+              "instructor_email": "mayfield@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 7,
+            "remaining": 8,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "ID",
+      "course_num": "530",
+      "course_combined": "ID 530",
+      "title": "Building Human-Centered Inno",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=530",
+      "course_description": "An exploration of user research, inclusive design principles, and ethical considerations to develop rigorous, human-centered design decisions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17252",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17252",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Maura Aileen Shea",
+              "instructor_email": "mshea@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 4,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

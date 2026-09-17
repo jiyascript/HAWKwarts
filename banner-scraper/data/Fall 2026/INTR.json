@@ -1,0 +1,357 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "INTR",
+      "course_num": "011",
+      "course_combined": "INTR 011",
+      "title": "UG Part-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTR&crse_numb_in=011",
+      "course_description": "This course prepares students participating in internships through Experiential Learning to excel in their careers. This is done by facilitating thoughtful connections between students’ academic, professional, and personal goals. Assignments given will allow students to reflect on how their knowledge, skills, and strengths can be applied to their internships. This introductory course to Experiential Learning helps students build skills for success in professional settings through knowledge and self-reflection. Students will utilize career readiness tools, learn networking techniques, and develop professional communication skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Undergraduate Part-Time Internship",
+          "crn": "12702",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12702",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "Undergraduate Part-Time Internship",
+          "crn": "12703",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12703",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 6,
+            "remaining": 993,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "INTR",
+      "course_num": "012",
+      "course_combined": "INTR 012",
+      "title": "UG Full-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTR&crse_numb_in=012",
+      "course_description": "This course prepares students participating in internships through Experiential Learning to excel in their careers. This is done by facilitating thoughtful connections between students’ academic, professional, and personal goals. Assignments given will allow students to reflect on how their knowledge, skills, and strengths can be applied to their internships. This introductory course to Experiential Learning helps students build skills for success in professional settings through knowledge and self-reflection. Students will utilize career readiness tools, learn networking techniques, and develop professional communication skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Undergraduate Full-Time Internship",
+          "crn": "12704",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12704",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "16036",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16036",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 3,
+            "remaining": 996,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "INTR",
+      "course_num": "013",
+      "course_combined": "INTR 013",
+      "title": "GR Part-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTR&crse_numb_in=013",
+      "course_description": "This course prepares students participating in internships through Experiential Learning to excel in their careers. This is done by facilitating thoughtful connections between students’ academic, professional, and personal goals. Assignments given will allow students to reflect on how their knowledge, skills, and strengths can be applied to their internships. This introductory course to Experiential Learning helps students build skills for success in professional settings through knowledge and self-reflection. Students will utilize career readiness tools, learn networking techniques, and develop professional communication skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Graduate Part-Time Internship",
+          "crn": "12705",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12705",
+          "credits": 4.5,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 1,
+            "remaining": 998,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "Graduate Part-Time Internship",
+          "crn": "12706",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12706",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 22,
+            "remaining": 977,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "INTR",
+      "course_num": "014",
+      "course_combined": "INTR 014",
+      "title": "GR Full-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTR&crse_numb_in=014",
+      "course_description": "This course prepares students participating in internships through Experiential Learning to excel in their careers. This is done by facilitating thoughtful connections between students’ academic, professional, and personal goals. Assignments given will allow students to reflect on how their knowledge, skills, and strengths can be applied to their internships. This introductory course to Experiential Learning helps students build skills for success in professional settings through knowledge and self-reflection. Students will utilize career readiness tools, learn networking techniques, and develop professional communication skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Graduate Full-Time Internship",
+          "crn": "12707",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12707",
+          "credits": 9.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 10,
+            "remaining": 989,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "16037",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16037",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 18,
+            "remaining": 981,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    }
+  ]
+}

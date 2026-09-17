@@ -1,0 +1,260 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "NS",
+      "course_num": "101",
+      "course_combined": "NS 101",
+      "title": "INTRO to Naval Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=101",
+      "course_description": "A general introduction to the USN and USMC that emphasizes organizational structure, warfare components, and assigned roles/missions of USN/USMC, covers all aspects of Naval Science from its relative position within DoD to the specific warfare communities/career paths, and includes basic elements of leadership and Navy Core Values. The course will provide students with initial exposure to many elements of Naval culture and provides conceptual framework/working vocabulary for students to use on summer cruise.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17046",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17046",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "TR",
+              "location": "IIT Tower 6C7-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Kasie Lee Braun",
+              "instructor_email": "kbraun@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 5,
+            "remaining": 19,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "202",
+      "course_combined": "NS 202",
+      "title": "Seapower&Maritime Affairs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=202",
+      "course_description": "A study of the U. S. Navy and the influence of sea power upon history that incorporates both a historical and political science process to explore the major events, attitudes, personalities, and circumstances that have done the following: imbued the U. S. Navy with its proud history and rich tradition; deals with issues of national imperatives in peacetime, as well as war, varying maritime philosophies that were interpreted into Naval strategies/doctrines, budgetary concerns which shaped force realities, and the pursuit of American diplomatic objectives; and concludes with a discussion of the Navy's strategic and structural changes at the end of the Cold War and its new focus, mission, and strategy in the post September 11, 2001, world. For Nurse Corps only; course may be taken in sophomore year.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16838",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16838",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 AM - 8:25 AM",
+              "days": "W",
+              "location": "IIT Tower 6D6-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Darwin Chen",
+              "instructor_email": "dchen51@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 40,
+            "actual": 0,
+            "remaining": 40,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "302",
+      "course_combined": "NS 302",
+      "title": "Naval Operations & Seamanship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=302",
+      "course_description": "A continued study of relative motion, formation tactics, and ship employment. Introductions to naval operations and operations analysis, ship behavior and characteristics in maneuvering, applied aspects of ship handling, afloat communications, naval command and control, naval warfare areas, and joint warfare are also included. The course is supplemented with a review/analysis of case studies involving moral/ethical/leadership issues pertaining to the concepts listed above. Not required for Nurse and Marine Corps options.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "1",
+          "section_name": "",
+          "crn": "17047",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17047",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "7:00 AM - 8:15 AM",
+              "days": "MW",
+              "location": "IIT Tower 15F6-2",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "August Kasten",
+              "instructor_email": "gkasten@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 6,
+            "remaining": 24,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "401",
+      "course_combined": "NS 401",
+      "title": "Leadership and Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=401",
+      "course_description": "The course introduces the student to many of the fundamental concepts of leading Sailors and Marines which shall be expanded upon during the continuum of leadership development throughout NROTC, and develops the elements of leadership vital to the effectiveness of Navy/Marine Corps officers by reviewing the theories and parameters of leadership and management within and outside of the Naval service and progressing through values development, interpersonal skills, management skills, and application theory. Practical applications are explored through the use of experiential exercises, readings, case studies, and laboratory discussions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17048",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17048",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Non Credit, Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "TR",
+              "location": "IIT Tower 15F6-2",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Kevin Riley",
+              "instructor_email": "kriley6@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 8,
+            "remaining": 24,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "499",
+      "course_combined": "NS 499",
+      "title": "Naval Science Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=499",
+      "course_description": "Topics deal with general Navy/Marine Corps mission and policies, force protection, operational security, watch standing, physical fitness, nutrition, stress management, and other professional development subjects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11058",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11058",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "7:00 AM - 8:25 AM",
+              "days": "R",
+              "location": "IIT Tower 6C7-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Samuel Wehner , Darwin Chen",
+              "instructor_email": "swehner@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 46,
+            "actual": 27,
+            "remaining": 19,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

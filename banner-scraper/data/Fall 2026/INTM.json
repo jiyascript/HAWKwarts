@@ -1,0 +1,1603 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "INTM",
+      "course_num": "301",
+      "course_combined": "INTM 301",
+      "title": "Communications for Workplace",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=301",
+      "course_description": "Review, analyze and practice verbal and written communication formats found in the workplace. Emphasis is on developing skills in technical writing, oral presentations, business correspondence, and interpersonal communication using electronic and traditional media.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "02",
+          "section_name": "Communications for the Workplace",
+          "crn": "11484",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11484",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "5:00 PM - 6:15 PM",
+              "days": "MW",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Daniel Tomal",
+              "instructor_email": "tomal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 11,
+            "remaining": 7,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "315",
+      "course_combined": "INTM 315",
+      "title": "Industrial Enterprises",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=315",
+      "course_description": "An introduction to the world of industrial enterprises and the organizational priorities required to achieve efficiency and competitiveness. Students learn to assess the present state of a company, address performance issues, foster functional communication and cooperation between departments, identify sources and impacts of waste, identify value-added activities, and transform outdated business practices into flexible, customer-driven processes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10441",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10441",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "Stuart Building 238",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael M Cubon",
+              "instructor_email": "cubomi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 5,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "10454",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10454",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "Stuart Building 238",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael M Cubon",
+              "instructor_email": "cubomi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 14,
+            "actual": 13,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "404",
+      "course_combined": "INTM 404",
+      "title": "Marketing, Sales & E-Commerce",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=404",
+      "course_description": "Provides an integrated view of modern marketing, sales strategies, e-commerce systems, and the process of introducing new products. Students learn how to identify customer needs, develop offerings, sell effectively, and leverage digital platforms to bring products to market successfully.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17067",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17067",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "John T. Rettaliata Engg Center 036",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael M Cubon",
+              "instructor_email": "cubomi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 8,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17063",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17063",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael M Cubon",
+              "instructor_email": "cubomi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 21,
+            "actual": 21,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "405",
+      "course_combined": "INTM 405",
+      "title": "Maintenance Tech and Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=405",
+      "course_description": "Maintenance of facilities and building systems is a major concern for all industrial operations. Facility managers must maintain heating, ventilation, air conditioning, plumbing, fire-life safety, electrical and other building systems, many of which are interrelated. Dysfunction in one system can cause problems in another, leading to occupant discomfort, poor energy efficiency and premature equipment failure. Equipment maintenance techniques have evolved to include more scientific diagnosis for increased uptime reliability. Preventive, predictive and prescriptive maintenance command a high percentage of modern behaviors to keep facilities running at peak efficiency. This course blends both the technical and managerial sides of maintenance with a focus on procedural analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13723",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13723",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "John T. Rettaliata Engg Center 036",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Brian John O'Kane",
+              "instructor_email": "bokane@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 4,
+            "actual": 3,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "13725",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13725",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Brian John O'Kane",
+              "instructor_email": "bokane@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 7,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "410",
+      "course_combined": "INTM 410",
+      "title": "Operations Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=410",
+      "course_description": "Focuses on core processes within an organization -- the activities that add value. An operations strategy depends on the industrial sector as well as the organization. This course introduces a variety of qualitative and quantitative tools for such activities as project management, process analysis, job design, forecasting, resource planning, productivity, quality, inventory, and scheduling. The objective of this course is to provide the framework for integrating approaches covered in other INTM courses.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16231",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16231",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "M",
+              "location": "John T. Rettaliata Engg Center 036",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joseph Nicholas Lazzara",
+              "instructor_email": "jlazzara@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 5,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15797",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15797",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "M",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joseph Nicholas Lazzara",
+              "instructor_email": "jlazzara@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 17,
+            "actual": 17,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "417",
+      "course_combined": "INTM 417",
+      "title": "Construction Estimating",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=417",
+      "course_description": "General approaches for estimating construction costs are covered. Several commercially available software packages are introduced. Emphasis is on acquiring the knowledge required to develop cost estimates for construction, renovation and maintenance projects for buildings, facilities and equipment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10465",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10465",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "F",
+              "location": "Hermann Hall 002",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Raymond Michael Lemming",
+              "instructor_email": "rlemming@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 1,
+            "remaining": 4,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "11068",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11068",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Raymond Michael Lemming",
+              "instructor_email": "rlemming@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 5,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "423",
+      "course_combined": "INTM 423",
+      "title": "Sustainable Facilities Ops",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=423",
+      "course_description": "Maintaining and managing buildings and facilities is a challenging, multifaceted occupation. Facilities are becoming smarter and greener as the goals of energy conservation and occupant comfort have shifted to include environmental responsibility. This course examines facility operations and management (O&M) related to sustainability and green technology, with an emphasis on the U.S. Green Building Council's (USGBC) Leadership in Energy and Environmental Design (LEED) requirements, rating system, and the process for properties to apply for certification as a resource-efficient operation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15791",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15791",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "W",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "James Coates",
+              "instructor_email": "jcoates@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15798",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15798",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "W",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "James Coates",
+              "instructor_email": "jcoates@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 9,
+            "actual": 7,
+            "remaining": 2,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "427",
+      "course_combined": "INTM 427",
+      "title": "Mfg Planning & Production Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=427",
+      "course_description": "Provides a practical, systems-focused introduction to modern manufacturing management by guiding students through the complete production cycle of a discrete component. Starting with initial prototyping and moving to full-scale production, students develop applied knowledge in production planning, process selection, machining sequences, quality control, and the coordination of essential manufacturing activities. Students examine how decisions involving tooling and process selection, capacity planning, cost analysis, equipment evaluation, workflow organization, and quality systems influence manufacturing productivity and managerial decision making. Sustainability, lean practices, Industry 4.0 technologies, and data driven metrics – including safety, cycle time, throughput, and cost – are integrated to highlight how modern plants are planned, managed, and continuously improved. Students gain a comprehensive, big picture understanding of how production planning, engineering, machining, inspection, logistics, and manufacturing management align to deliver consistent, high quality products in contemporary manufacturing environments.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17131",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17131",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Naser Abas",
+              "instructor_email": "nabas@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 9,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17132",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17132",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Naser Abas",
+              "instructor_email": "nabas@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 8,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "432",
+      "course_combined": "INTM 432",
+      "title": "Sales and Operations Planning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=432",
+      "course_description": "This course covers sales and operations planning (S&OP) processes, objectives, and procedures utilized by leading global supply chain companies. Key elements of the S&OP process are explained, including demand plans, forecasts, and capacity plans. Students also learn how to develop, maintain, and manage supplier relationships (SRM) and how companies use customer relationship management (CRM) tools to enhance business relationships.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "12929",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12929",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "T",
+              "location": "Robert A. Pritzker Science Ctr 240",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Geoffrey E. Shive",
+              "instructor_email": "gshive@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 25,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "12930",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12930",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "T",
+              "location": "Robert A. Pritzker Science Ctr 240",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Geoffrey E. Shive",
+              "instructor_email": "gshive@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 2,
+            "actual": 1,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "435",
+      "course_combined": "INTM 435",
+      "title": "AI for Industrial Operations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=435",
+      "course_description": "Provides an overall industry-oriented introduction to modern AI for industrial technology, management and operations. Students learn the core building blocks of AI, how to choose Machine Learning (ML), Deep Learning (DL), generative AI, Retrieval-Augmented Generation (RAG), and multimodal/agent-based approaches, and how to use prompting and verification to deliver dependable business outputs. Covers responsible AI practices focused on privacy, data retention, and bias mitigation, along with practical methods to quantify and critique AI projects using benefits vs. costs, implementation time, and resource constraints. A capstone projects culminates in an AI value case and implementation plan to gain hands-on experience with AI tools. Overall, students develop a strategy for staying current with rapidly evolving AI advancements.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17069",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17069",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "John T. Rettaliata Engg Center 032",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Avinash K. Vaidya",
+              "instructor_email": "avaidya11@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 1,
+            "actual": 1,
+            "remaining": 0,
+            "waitlist_capacity": 12,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 12
+          },
+          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17070",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17070",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Avinash K. Vaidya",
+              "instructor_email": "avaidya11@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 11,
+            "actual": 10,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "441",
+      "course_combined": "INTM 441",
+      "title": "Supply Chain Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=441",
+      "course_description": "This course covers the full range of activities involved in the supply chain. This includes management tools for optimizing of supply chains, relationships with other parts of the organization, in-house versus third party approaches, and suitable performance measurements. Topics covered include: Warehouse Management Systems (WMS), Transportation Management Systems (TMS), Advanced Planning and Scheduling Systems (APS), as well as cost benefit analysis to determine the most appropriate approach.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11069",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11069",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "M",
+              "location": "IIT Tower 6C7-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Theodossios Rigopoulos",
+              "instructor_email": "trigopoulos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 4,
+            "actual": 2,
+            "remaining": 2,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "12020",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12020",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "M",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Theodossios Rigopoulos",
+              "instructor_email": "trigopoulos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 5,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "459",
+      "course_combined": "INTM 459",
+      "title": "Issues in Ind Sustainability",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=459",
+      "course_description": "Examines the concept of sustainability and its application in the industrial environment. Identifies underlying stresses on natural and human environments and the resultant problems for business and society including legal, ethical, and political issues related to sustainability. Global warming, peak oil, and commodity pricing are considered as indicators of the need for improvements in sustainability. Industrial ecology will be discussed as well as strategies for developing sustainable practices in manufacturing, power generation, construction, architecture, logistics, and environmental quality. Coverage includes case studies on businesses that have developed successful sustainability programs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Issues in Industrial Sustainability",
+          "crn": "11485",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11485",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "Stuart Building 225",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Blake M Davis",
+              "instructor_email": "davisbl@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 2,
+            "remaining": 3,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "Issues in Industrial Sustainability",
+          "crn": "11486",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11486",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Blake M Davis",
+              "instructor_email": "davisbl@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 7,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "505",
+      "course_combined": "INTM 505",
+      "title": "Maintenance Tech and Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=505",
+      "course_description": "Maintenance of facilities and building systems is a major concern for all industrial operations. Facility managers must maintain heating, ventilation, air conditioning, plumbing, fire-life safety, electrical and other building systems, many of which are interrelated. Dysfunction in one system can cause problems in another, leading to occupant discomfort, poor energy efficiency and premature equipment failure. Equipment maintenance techniques have evolved to include more scientific diagnosis for increased uptime reliability. Preventive, predictive and prescriptive maintenance command a high percentage of modern behaviors to keep facilities running at peak efficiency. This course blends both the technical and managerial sides of maintenance with a focus on procedural analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13722",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13722",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "John T. Rettaliata Engg Center 036",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Brian John O'Kane",
+              "instructor_email": "bokane@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 3,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "13724",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13724",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Brian John O'Kane",
+              "instructor_email": "bokane@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 1,
+            "remaining": 2,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "523",
+      "course_combined": "INTM 523",
+      "title": "Sustainable Facilities Ops",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=523",
+      "course_description": "Maintaining and managing buildings and facilities is a challenging, multifaceted occupation. Facilities are becoming smarter and greener as the goals of energy conservation and occupant comfort have shifted to include environmental responsibility. This course examines facility operations and management (O&M) related to sustainability and green technology, with an emphasis on the U.S. Green Building Council's (USGBC) Leadership in Energy and Environmental Design (LEED) requirements, rating system, and the process for properties to apply for certification as a resource-efficient operation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15799",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15799",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "W",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "James Coates",
+              "instructor_email": "jcoates@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15800",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15800",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "W",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "James Coates",
+              "instructor_email": "jcoates@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 4,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "535",
+      "course_combined": "INTM 535",
+      "title": "AI for Industrial Operations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=535",
+      "course_description": "Provides an overall industry-oriented introduction to modern AI for industrial technology, management and operations. Students learn the core building blocks of AI, how to choose Machine Learning (ML), Deep Learning (DL), generative AI, Retrieval-Augmented Generation (RAG), and multimodal/agent-based approaches, and how to use prompting and verification to deliver dependable business outputs. Covers responsible AI practices focused on privacy, data retention, and bias mitigation, along with practical methods to quantify and critique AI projects using benefits vs. costs, implementation time, and resource constraints. A capstone project culminates in an AI value case and implementation plan to gain hands-on experience with AI tools. Overall, students develop a strategy for staying current with rapidly evolving AI advancements.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17065",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17065",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "John T. Rettaliata Engg Center 032",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Avinash K. Vaidya",
+              "instructor_email": "avaidya11@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 9,
+            "actual": 9,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17066",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17066",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Avinash K. Vaidya",
+              "instructor_email": "avaidya11@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 8,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "540",
+      "course_combined": "INTM 540",
+      "title": "Supply Chain Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=540",
+      "course_description": "This course covers the full range of activities involved in the supply chain. This includes management tools for optimizing of supply chains, relationships with other parts of the organization, in-house versus third party approaches, and suitable performance measurements. Topics covered include Warehouse Management Systems (WMS), Transportation Management Systems (TMS), Advanced Planning and Scheduling Systems (APS) as well as cost benefit analysis to determine the most appropriate approach.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "12689",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12689",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "M",
+              "location": "IIT Tower 6C7-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Theodossios Rigopoulos",
+              "instructor_email": "trigopoulos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 7,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "12933",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12933",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "M",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Theodossios Rigopoulos",
+              "instructor_email": "trigopoulos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 4,
+            "actual": 3,
+            "remaining": 1,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "551",
+      "course_combined": "INTM 551",
+      "title": "Data Analytics for Industry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=551",
+      "course_description": "Organizations of all types employ rigorous analysis of vast amounts of internal and external data to improve the quality of decision making. This course prepares students to define and organize data, perform exploratory analysis, and select and implement analytical models, with a focus on applications in the areas of operations and marketing. Excel plugins, statistical packages (R, SAS or SPSS), and business intelligence products like Tableau will be used extensively for modeling. The course covers descriptive and inferential statistics, principles of design of experiments and analysis of variance (ANOVA), and supervised and unsupervised learning methods including regression, classification, clustering and neural networks. Students will also learn social network data analysis and text mining methods. Prior completion of a course in elementary probability and statistics highly recommended.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16754",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16754",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "Hermann Hall MEZZANINE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Andrew L. Kumiega",
+              "instructor_email": "akumiega@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 19,
+            "actual": 15,
+            "remaining": 4,
+            "waitlist_capacity": 30,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 30
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "16755",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16755",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "Hermann Hall MEZZANINE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Andrew L. Kumiega",
+              "instructor_email": "akumiega@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 8,
+            "remaining": 0,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "559",
+      "course_combined": "INTM 559",
+      "title": "Issues in Ind Sustainability",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=559",
+      "course_description": "Examines the concept of sustainability and its application in the industrial environment. Identifies underlying stresses on natural and human environments and the resultant problems for business and society including legal, ethical, and political issues related to sustainability. Global warming, peak oil, and commodity pricing are considered as indicators of the need for improvements in sustainability. Industrial ecology will be discussed as well as strategies for developing sustainable practices in manufacturing, power generation, construction, architecture, logistics, and environmental quality. Coverage includes case studies on businesses that have developed successful sustainability programs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Issues in Industrial Sustainability",
+          "crn": "11488",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11488",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "Stuart Building 225",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Blake M Davis",
+              "instructor_email": "davisbl@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 3,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "Issues in Industrial Sustainability",
+          "crn": "11489",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11489",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Blake M Davis",
+              "instructor_email": "davisbl@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 5,
+            "remaining": 0,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "597",
+      "course_combined": "INTM 597",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=597",
+      "course_description": "Independent study and project. Permission of instructor required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Research Methods",
+          "crn": "12014",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12014",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:15 AM - 12:30 PM",
+              "days": "T",
+              "location": "Stuart Building 107",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Daniel P. Waterloo",
+              "instructor_email": "dwaterloo@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 21,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "MSF",
+      "course_num": "501",
+      "course_combined": "MSF 501",
+      "title": "Math with Financial Appls.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=501",
+      "course_description": "This course provides a systematic exposition of the primary mathematical methods used in finance and the financial markets. Mathematical concepts and methods discussed are precalculus, calculus, and probability and statistics. Applications include simple and compound interest, annuities and mortgages, forward and futures contracts, bond pricing and duration and convexity, option pricing and strategies, solution of equations of value, optimization, volatility, elementary portfolio theory, Black Scholes option pricing, Binomial Option Pricing, and statistical inference. The learning method includes doing problems in class, quizzes, Final Exam, films, supplementary reading of relevant articles.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Mathematics with Financial Applications",
+          "crn": "10864",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10864",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:00 PM - 3:00 PM",
+              "days": "T",
+              "location": "Downtown Campus 411",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael Modica",
+              "instructor_email": "mmodica@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 18,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "502",
+      "course_combined": "MSF 502",
+      "title": "Bus and Fin Quant Techniques",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=502",
+      "course_description": "Quantitative techniques are very important and useful for analyzing business and financial markets, especially in today’s world of big data. This course reviews the basics of statistics, including sampling and data, descriptive statistics, probability, distributions, statistical inference, the Central Limit Theory, estimation, hypothesis testing, Analysis of Variance, and regression analysis, a widely used statistical technique in business and finance supporting decision-making under uncertainty.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Statistical Analysis in Financial Markets",
+          "crn": "10874",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10874",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "TR",
+              "location": "Downtown Campus 405",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Haizhi Wang",
+              "instructor_email": "hwang23@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 14,
+            "actual": 7,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "503",
+      "course_combined": "MSF 503",
+      "title": "Financial Modeling",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=503",
+      "course_description": "Modeling using databases and python programming is ubiquitous in the modern financial industry and business in general. In this course, students will learn how to implement quantitative models using Microsoft Excel, SQL, and Python. Models will include those statistical methods, time series, and valuation models most widely used in industry. Numerical techniques including Monte Carlo simulation, optimization, and root-finding will also be covered. Particular attention will also be paid to project management and testing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10877",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10877",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "TR",
+              "location": "Downtown Campus 485",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Benjamin E. Van Vliet",
+              "instructor_email": "bvanvliet@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 10,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "504",
+      "course_combined": "MSF 504",
+      "title": "Valuation/Portfolio Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=504",
+      "course_description": "The course is a survey of asset pricing theory. The fundamentals of bond and option pricing are covered as well as the CAPM, APT, and the Fama-French models. Excel spreadsheet modeling is used to illustrate and understand the concepts of Markowitz's Mean Variance Optimization, equity valuation, option pricing, and utility theory. The course places a special emphasis on the relationship between macroeconomic conditions and investment opportunities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: ( Course or Test: MSF 501 May not be taken concurrently. and Course or Test: MSF 502 May not be taken concurrently. and Course or Test: MSF 503 May not be taken concurrently. ) or ( Course or Test: MSC 511 May not be taken concurrently. and Course or Test: MSC 512 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Valuation and Portfolio Management",
+          "crn": "10869",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10869",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:00 PM - 3:00 PM",
+              "days": "M",
+              "location": "Downtown Campus 403",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Ricky A Cooper",
+              "instructor_email": "rcooper3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 13,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MSF 501 May not be taken concurrently. and Course or Test: MSF 502 May not be taken concurrently. and Course or Test: MSF 503 May not be taken concurrently. ) or ( Course or Test: MSC 511 May not be taken concurrently. and Course or Test: MSC 512 May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "505",
+      "course_combined": "MSF 505",
+      "title": "Futures/Option/OTC Derivatives",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=505",
+      "course_description": "This three-credit foundation course, mainly for Master of Science in Finance (MSF) students, will examine the mechanism, pricing, trading, and risk management of financial derivatives. Specifically, the students will learn options, forwards, futures contracts, swaps, OTC derivatives, arbitrage-free pricing, risk-neutral pricing, binomial trees, the Black-Scholes-Merton approach, and the Monte Carlo simulation for derivatives pricing. Numerical examples in this course are paper-and-pencil-based, spreadsheet-based, or Python-based. Students will implement a simple derivatives trading strategy using trading software. At the end of the semester, a student should know the mechanism, terminologies, and basic properties of futures, options, and OTC Derivatives; be able to implement speculative, hedging, and arbitrage trading strategies using futures and options; be able to determine a price of futures/forward, options, and OTC Derivatives using non-arbitrage arguments, option bounds, a binomial model, Black-Scholes-Merton model, Monte Carlo Simulation, etc.; and understand dynamic delta hedging and other Greeks for financial risk management purposes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: ( Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Futures, Options, and OTC Derivatives",
+          "crn": "10870",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10870",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "W",
+              "location": "Downtown Campus 401",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Sang-Baum Kang",
+              "instructor_email": "skang21@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 9,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "506",
+      "course_combined": "MSF 506",
+      "title": "Financial Statement Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=506",
+      "course_description": "The primary objective of this course is for the student to develop his/her financial analysis skills. This course will focus on key accounting concepts, financial ratios, forecasting techniques and industry issues which are critical in interpreting and analyzing external financial reports. Additionally, advanced analysis skills will be introduced, which should enable the student to look beyond the numbers (presented in a GAAP/IFRS format) and ultimately obtain a more informed decision regarding the financial strength (value) of the company (security). Throughout this course students will be involved in “hands-on” financial analysis by working on class exercises/problems, discussing special topical readings and completing an assigned case.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10871",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10871",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:00 AM - 1:00 PM",
+              "days": "S",
+              "location": "Downtown Campus 490",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael J. Rybak",
+              "instructor_email": "mrybak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 10,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "535",
+      "course_combined": "MSF 535",
+      "title": "Investment Banking and Venture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=535",
+      "course_description": "The primary goal is for students to develop an understanding of key investment banking concepts and applications. Students will be exposed to topics such as comparable companies’ analysis, precedent transaction analysis, discounted cash flow analysis, leverage buyouts, venture capital, and sell-side and buy-side mergers and acquisitions. During the course, students will interact with real company scenarios and will be required to use investment banking applications to solve in-class examples and problems. In the latter part of this course, students will work on an assigned case pertaining to a specific investment banking topic. This case will include a comprehensive data set and require Excel modeling. Because this is a “hands on” course, it will require both the student’s attendance and participation to learn the core concepts that are necessary to perform well on the class exams and apply the necessary material to the assigned case and homework problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14425",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14425",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "T",
+              "location": "Downtown Campus 490",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael J. Rybak",
+              "instructor_email": "mrybak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 14,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "544",
+      "course_combined": "MSF 544",
+      "title": "Asset Valuation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=544",
+      "course_description": "The primary goal is for students to develop an understanding of equity valuation processes and applications. Topics discussed in class will include dividend discount, free cash flow, residual income, and market-based valuations as well as private and distressed company valuations. Throughout this course, students will apply equity asset valuation topics discussed in class to real world examples and in-class problems/exercises. During the latter part of this course, students will work in a group environment to complete and present an equity research report for a selected U.S. public company. Because this is a “hands on” course, it will require both the student’s attendance and participation to learn the core concepts that are necessary to perform well on the class exams and apply to the group equity valuation project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Prerequisites: Prerequisite required General Requirements: Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11277",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11277",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "W",
+              "location": "Downtown Campus 490",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael J. Rybak",
+              "instructor_email": "mrybak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 13,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "546",
+      "course_combined": "MSF 546",
+      "title": "Quant Portfolio Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=546",
+      "course_description": "This course develops the primary quantitative tools used in the portfolio selection process. The applied focus of the course centers on the process of moving from a data set of historical information to the formulation of a forecasting model, the estimation of mean-variance efficient portfolios, and the testing of efficiency hypotheses within an in-sample and post-sample setting. The course covers the estimation of efficient portfolios, factor models, forecasting models, and risk analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Quantitative Investment Strategies",
+          "crn": "12476",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12476",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "R",
+              "location": "Downtown Campus 403",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Ricky A Cooper",
+              "instructor_email": "rcooper3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 12,
+            "remaining": 3,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "547",
+      "course_combined": "MSF 547",
+      "title": "Machine Learning for Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=547",
+      "course_description": "This class surveys machine learning techniques for empirical research in finance and business, including: 1. Linear machine learning algorithms for prediction and classification, including lasso and ridge regression, logistic regression, linear discriminant analysis. 2. Nonlinear machine learning algorithms, including decision trees, naïve Bayes, k-nearest neighbors, and support vector machines. 3. Ensemble algorithms, including bagging, random forests, and boosting models. 4. Neural networks, including RNNS, LSTM, as well as NLP for sentiment analysis. Students use Python to build scripts that encapsulate the algorithms presented. Various financial and business-related data sources will be used to develop a hands-on understanding of dimension reduction, regression, classification, and clustering. Emphasis will be given to performance evaluation of various models using, for example, confusion matrices, classification reports, and various graphical constructs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13660",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13660",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "F",
+              "location": "Downtown Campus 490",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Benjamin E. Van Vliet",
+              "instructor_email": "bvanvliet@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 8,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "568",
+      "course_combined": "MSF 568",
+      "title": "Energy Commodities Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=568",
+      "course_description": "Energy markets and ESG investing play essential roles in both the real economy and financial markets. This course is designed for graduate students and upper-level undergraduates in finance, business, engineering, science, environmental management, and entrepreneurship. It is particularly relevant for students interested in trading, analytics, risk management, and financial solutions to energy and environmental challenges. The course introduces ESG investing and energy markets, with a focus on data-driven analysis of energy prices and related risk factors. It begins with ESG investing and financial approaches to environmental and social issues, highlighting their connection to energy markets. It then covers key analytical tools, including Monte Carlo simulation, hedging, Value-at-Risk, event studies, Granger causality, copulas, and cointegration. Through lectures, case-based learning, assignments, and presentations, students will develop both foundational knowledge and practical expertise. The final project includes a business proposal, a quantitative exercise, and a research component.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14223",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14223",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:00 PM - 5:00 PM",
+              "days": "F",
+              "location": "Downtown Campus 401",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Sang-Baum Kang",
+              "instructor_email": "skang21@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 8,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "591",
+      "course_combined": "MSF 591",
+      "title": "Global Markets and Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=591",
+      "course_description": "This course provides an introduction to financial markets and their role in the global economy. Designed for students in business and finance, this 3-credit course examines the structure and operation of major markets, including equities, fixed income, foreign exchange, and others. Students will develop an understanding of key financial instruments, market participants, terminology, and institutional frameworks. By the end of the course, students will be able to explain how these markets function and conduct basic research and analysis across different asset classes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15577",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15577",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "M",
+              "location": "Downtown Campus 409",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Haizhi Wang",
+              "instructor_email": "hwang23@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 9,
+            "remaining": 6,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "597",
+      "course_combined": "MSF 597",
+      "title": "Independent Study in Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=597",
+      "course_description": "MSF 597 Independent Study allows students to undertake research projects under the supervision of a full time faculty member.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "132",
+          "section_name": "",
+          "crn": "11258",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11258",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Haizhi Wang",
+              "instructor_email": "hwang23@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "133",
+          "section_name": "",
+          "crn": "16609",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16609",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Michael J. Rybak",
+              "instructor_email": "mrybak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "138",
+          "section_name": "",
+          "crn": "11260",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11260",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ricky A Cooper",
+              "instructor_email": "rcooper3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 4,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "166",
+          "section_name": "",
+          "crn": "16971",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16971",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Sang-Baum Kang",
+              "instructor_email": "skang21@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "170",
+          "section_name": "",
+          "crn": "11341",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11341",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Benjamin E. Van Vliet",
+              "instructor_email": "bvanvliet@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

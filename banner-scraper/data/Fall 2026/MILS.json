@@ -1,0 +1,413 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "MILS",
+      "course_num": "101",
+      "course_combined": "MILS 101",
+      "title": "MILS Intro & Critical Thinking",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=101",
+      "course_description": "MILS 101 is an introduction to the Army and the Profession of Arms. Students will examine the Army Profession and what it means to be a professional in the U.S. Army. The overall focus is on developing basic knowledge and comprehension of the Army Leadership Requirements Model, to develop critical thinking skills through scenario-based applications, and its advantages for the student. Students also learn how resiliency and fitness support their development as a future leader.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Introduction to Military Science and Critical Thinking",
+          "crn": "12960",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12960",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:00 AM - 9:50 AM",
+              "days": "W",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 1,
+            "remaining": 14,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "147",
+      "course_combined": "MILS 147",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=147",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10609",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10609",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TRF",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 1,
+            "remaining": 14,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "201",
+      "course_combined": "MILS 201",
+      "title": "Individual Leadership STUDS",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=201",
+      "course_description": "Students identify successful leadership characteristics through observation of others and self and through experiential learning exercises. Students record observed traits (good and bad) in a dimensional leadership journal and discuss observations in small group settings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "02",
+          "section_name": "Individual Leadership Studies",
+          "crn": "12966",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12966",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "12:50 PM - 1:40 PM",
+              "days": "TR",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 1,
+            "remaining": 14,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "247",
+      "course_combined": "MILS 247",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=247",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10611",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10611",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TRF",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 1,
+            "remaining": 14,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "301",
+      "course_combined": "MILS 301",
+      "title": "Leadership&PRBLM SLVNG",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=301",
+      "course_description": "Students conduct self-assessment of leadership style, develop personal fitness regimen, and learn to plan and conduct individual/ small unit tactical training while testing reason and problem-solving techniques. Students receive direct feedback on leadership abilities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Leadership and Problem Solving",
+          "crn": "12969",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12969",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:25 AM",
+              "days": "F",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "347",
+      "course_combined": "MILS 347",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=347",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10613",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10613",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TRF",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 1,
+            "remaining": 19,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "401",
+      "course_combined": "MILS 401",
+      "title": "Leadership&Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=401",
+      "course_description": "Develops student proficiency in planning and executing complex operations, functioning as a member of a staff, and mentoring subordinates. Students explore training management, methods of effective staff collaboration, and developmental counseling techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Leadership and Management",
+          "crn": "10701",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10701",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:25 AM",
+              "days": "T",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: MILS 301 Minimum Grade of D May not be taken concurrently. and Course or Test: MILS 302 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "447",
+      "course_combined": "MILS 447",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MILS&crse_numb_in=447",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10167",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10167",
+          "credits": 2.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TRF",
+              "location": "Keating Hall NONE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Matt Cronk",
+              "instructor_email": "mcronk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 1,
+            "remaining": 19,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "LA",
+      "course_num": "497",
+      "course_combined": "LA 497",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=497",
+      "course_description": "Special projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "02",
+          "section_name": "The Prairie School",
+          "crn": "17181",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17181",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "T",
+              "location": "Crown Hall 005",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Sarah M Holian",
+              "instructor_email": "sholian@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 6,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "03",
+          "section_name": "Water Dialectics",
+          "crn": "17217",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17217",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "F",
+              "location": "Crown Hall UC2",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Kevin A Malca Vargas",
+              "instructor_email": "kmalca@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 6,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "501",
+      "course_combined": "LA 501",
+      "title": "History/Theory/Criticism I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=501",
+      "course_description": "Inquiry of natural factors and ecology (soil formations, geological features, hydrological patterns, catastrophic events, etc.) in the settlement and development of cities. The work of the seminar will include an inventory of these factors in selected global cities, including Chicago, and their influence on urban design and site-specific landscape architecture projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "History, Theory, and Criticism I: Landscape Architecture Theory",
+          "crn": "10645",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10645",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 107-6",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Martin S. Felsen",
+              "instructor_email": "felsen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 4,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "504",
+      "course_combined": "LA 504",
+      "title": "History/Theory/Criticism III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=504",
+      "course_description": "Advanced study of landscape architecture topics with emphasis on research methods, description, analysis, and criticism.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15822",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15822",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "W",
+              "location": "Crown Hall UC2",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Maria Villalobos Hernandez",
+              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 13,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "514",
+      "course_combined": "LA 514",
+      "title": "Prof Practice of Land Arch I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=514",
+      "course_description": "Develop expertise in professional practice. Lectures, research assignments, and case studies will investigate practice models, proposals and contracts, schedules and budgets, project phases, project and client types, project team structure, the role of competitions, professional development, and licensure. In addition, the role of landscape architects, urban planners, real estate trusts, government agencies, developers, and others in directing the economic, professional, political, and socio-cultural concerns and responsibilities to initiate and manage landscapes will be investigated.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Professional Practice of Landscape Architecture I: Entrepreneurship and Practice",
+          "crn": "11923",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11923",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "IIT Tower 1F6-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Andrew R Tinucci , Brian T. Foote",
+              "instructor_email": "atinucci@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "516",
+      "course_combined": "LA 516",
+      "title": "Prof Practice of Land Arch II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=516",
+      "course_description": "Investigations of gardens, landscapes, infrastructure, and cities as they are conceived, mature, and change over time. Study of landscapes designed for successional processes, weathering, biological growth and decay, seasonality, preservation and conservation of historic landscapes, and other topics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Professional Practice of Landscape Architecture II: Landscape Architecture and Time",
+          "crn": "12612",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12612",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "T",
+              "location": "Crown Hall UC1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Charles Haller",
+              "instructor_email": "challer@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 10,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "525",
+      "course_combined": "LA 525",
+      "title": "Design Media I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=525",
+      "course_description": "Drawings (manual and digital) and models (physical and digital) will be employed to explore and interrogate landscape processes and envision ideas particular to landscape architecture such as mapping, time, movement, line, contour, texture, and materials, among others, while also developing a mastery of drawing conventions and media.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Landscape Arch Master of Architecture Master of Landscape Arch Master of Architecture Master of Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Design Media I: Drawing and Modeling the Landscape",
+          "crn": "10646",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10646",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "Crown Hall UC2",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Johann W Friedl",
+              "instructor_email": "jfriedl1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 4,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "541",
+      "course_combined": "LA 541",
+      "title": "Landscape Arch Studio I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=541",
+      "course_description": "Understanding the fundamental relationships of dynamic processes with an emphasis on representing time, movement, space, light, rhythms, shifting boundaries and enclosures, and physical materials of landscape.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Landscape Arch Master of Architecture Master of Landscape Arch Master of Architecture Master of Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "100",
+          "section_name": "Landscape Architecture Studio I: Processes",
+          "crn": "10641",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10641",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:50 PM",
+              "days": "MWF",
+              "location": "Crown Hall USE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Nilay D Mistry , Krista E Dawson",
+              "instructor_email": "nmistry1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 5,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "543",
+      "course_combined": "LA 543",
+      "title": "Landscape Arch Studio III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=543",
+      "course_description": "The integration of local ecologies, projected use, and the performance of ephemeral, semi-permanent, and permanent site interventions into cohesive and resilient design proposals for varied urban sites. Introduction to a wide range of site-specific professional design standards including the Americans with Disabilities Act and barrier-free regulations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Landscape Arch Master of Architecture Master of Landscape Arch Master of Architecture Master of Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture Prerequisites: Prerequisite required General Requirements: Course or Test: LA 542 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Landscape Architecture Studio III: Comprehensive Landscape Architecture",
+          "crn": "13233",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13233",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:50 PM",
+              "days": "MWF",
+              "location": "Crown Hall USE",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Maria Villalobos Hernandez",
+              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 10,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: LA 542 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "565",
+      "course_combined": "LA 565",
+      "title": "Ecology & Materials Wksp I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=565",
+      "course_description": "The plants of the Western Great Lakes Basin, emphasizing both prominent native and commercially available species. Understanding and identifying species as found within typical plant communities. Familiarization with plant physiology as determined by climate, geology, topography, hydrology, soils, wildlife, and disturbances.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Ecology and Materials Workshop I: Plants and Planting",
+          "crn": "10644",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10644",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "R",
+              "location": "Ed Kaplan Family Institute 107-1",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Frank D. Balestri , Mark Jirik",
+              "instructor_email": "fbalestri@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 8,
+            "actual": 5,
+            "remaining": 3,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "567",
+      "course_combined": "LA 567",
+      "title": "Ecology & Materials Wksp III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=567",
+      "course_description": "Advanced understanding of planting typologies, the history of plants in design, and the preparation of planting construction documentation augmented by frequent investigations and analysis of built landscapes in the Chicago region.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Ecology and Materials Workshop III: Planting Design and Construction",
+          "crn": "11778",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11778",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture/Lab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "M",
+              "location": "Crown Hall 003",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Elaine Lynne Zmuda",
+              "instructor_email": "ezmuda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 12,
+            "actual": 12,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "597",
+      "course_combined": "LA 597",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=597",
+      "course_description": "Special problems in landscape architecture. For students in the master program in landscape architecture only.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "16185",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16185",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Maria Villalobos Hernandez",
+              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "200",
+          "section_name": "",
+          "crn": "15818",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15818",
+          "credits": 10.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Nilay D Mistry",
+              "instructor_email": "nmistry1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 1,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

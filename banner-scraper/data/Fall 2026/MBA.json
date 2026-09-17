@@ -1,0 +1,723 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "MBA",
+      "course_num": "504",
+      "course_combined": "MBA 504",
+      "title": "Analytics for Decision Making",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=504",
+      "course_description": "This course has the following objectives: (a) to offer a comprehensive presentation of Microsoft Office Excel 201x; (b) to acquaint students with the proper procedures to create workbooks and worksheets suitable for coursework and professional purposes; (c) to enhance and reinforce students' analytical skills and their ability to intelligently use information; (d) to teach the art and science of spreadsheet modeling; (e) to expose students to different approaches, support tools, and analytical methods for decision making; and (f) to improve students' critical thinking skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14577",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14577",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "W",
+              "location": "Downtown Campus 405",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Elizabeth J. Durango-Cohen",
+              "instructor_email": "durango-cohen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 18,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "506",
+      "course_combined": "MBA 506",
+      "title": "Leadership and Organization De",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=506",
+      "course_description": "To succeed in today's knowledge intensive organizations managers need to understand how individual differences in personality, learning style and cultural values, group dynamics, organizational culture, and human resource management policies shape employee attitudes and behaviors. This course teaches managers creative problem-solving and ethical decision-making, change management, leadership techniques for enhancing social capital and influencing other organizational members, and management tools for multicultural and geographically dispersed teams. Students will relate management concepts and techniques to real-world situations through the extensive use of case studies and experiential exercises.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16748",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16748",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:00 AM - 1:00 PM",
+              "days": "S",
+              "location": "Downtown Campus 470",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Smriti Anand",
+              "instructor_email": "sanand12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 25,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "509",
+      "course_combined": "MBA 509",
+      "title": "Financial Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=509",
+      "course_description": "In this course, the student will learn the concepts and processes that underlie enlightened financial decision making in a global world. Students will explore how to raise debt and equity capital, how to think about what portion of earnings to retain and reinvest and whether to share some earnings with stockholders via dividend payments or repurchase of shares, how to value stocks and bonds, how to distinguish good from bad financial decision rules, how to decide which projects a firm should engage in, how to use futures, options and swaps to manage firm risk, how to ensure good corporate governance, why sustainability can be profitable while still protecting future generations, and how to manage the financial decisions required to effectively operate in a global setting.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "05",
+          "section_name": "",
+          "crn": "17198",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17198",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael J. Rybak",
+              "instructor_email": "mrybak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 400,
+            "actual": 163,
+            "remaining": 237,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "511",
+      "course_combined": "MBA 511",
+      "title": "Marketing Strategy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=511",
+      "course_description": "This course provides an introduction to the practice and strategy of marketing. Marketing activities are those processes and functions that enable managers and policy-makers to identify and serve the values and needs of a customer given the capacities of the company, activities of competitors, and inherent constraints in the business environment. Marketers typically refer to these concepts as the \"four C's.\" Based on their understanding of the \"four C's,\" students will then learn how to implement strategy by applying the levers of the marketing mix. These elements are known as the four P's (product, price, place/channels of distribution, and promotion). The treatment of marketing constraints and marketing mix will be motivated by essential foundations from economics, sociology, and consumer behavior. Over the course of the semester, students are expected to transition from thinking about these concepts in isolation to a dynamic, integrative framework. This process includes using the marketing strategy framework to assess business and policy problems from a \"multiple objective\" perspective: that is, the student will be asked to think about how marketing activities along with those of competitors and collaborators will affect the profitability, sustainability, social, and ethical standing of the firm. The synthesis of these concepts will be carried out through the use of case studies, problem sets, classroom lectures, discussions, and a field project. There will also be a midterm and final exam. The pedagogical style of the course emphasizes the students' role in applying the concepts discussed in the lectures to the situations at hand. The role of the instructor is to provide tools to structure thinking and to stimulate and facilitate analysis of the cases.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "10867",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10867",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:00 AM - 1:00 PM",
+              "days": "S",
+              "location": "Downtown Campus 210",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "M Krishna Erramilli",
+              "instructor_email": "merramil@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 9,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "529",
+      "course_combined": "MBA 529",
+      "title": "Social Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=529",
+      "course_description": "This course gives students a practical introduction to the exciting and rapidly growing field of social entrepreneurship. The course will begin by introducing students to contemporary understandings of poverty, its causes, and traditional poverty alleviation strategies. It will then turn to key concepts regarding social ventures including entrepreneurship, organizational structures (for-profit, non-profit, and hybrid), financing, marketing, and performance assessment (social and environmental impact). We will also examine the challenges that are faced in creating and operating social enterprises in different parts of the world. The course includes guest lectures by other Stuart School of Business faculty and social entrepreneurs working in different areas (such as health, education and environment). Students will gain hands-on experience by either developing a business plan for a social enterprise to address a specific real world problem or assisting an existing social venture in developing a business plan geared towards an expansion of its services. It is expected that the plans can be entered into a variety of social venture competitions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14422",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14422",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "TR",
+              "location": "Downtown Campus 470",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Helen N. Ezenwa",
+              "instructor_email": "hezenwa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 3,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "532",
+      "course_combined": "MBA 532",
+      "title": "Artificial Intelligence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=532",
+      "course_description": "This course is designed to provide an introduction to the evolving area of AI, with an emphasis on potential business applications and related managerial insights. Artificial Intelligence (AI) is the science behind systems that can program themselves to classify, predict, and offer solutions based on structured and unstructured data. For millennia, humans have pondered the idea of building intelligent machines. Ever since, AI has had highs and lows, demonstrated successes and unfulfilled potential. Today, AI is empowering people and changing our world. Netflix recommends movies, Amazon recommends popular products, self-driving cars learn to navigate safely around other vehicles without human assistance, and programmed robots distinguish trash from dishes that are to be washed. This course focuses on how AI systems understand, reason, learn and interact; learn from industry’s experience on several AI cases; develop a develop a deeper understanding of machine learning (ML) techniques and the algorithms that power those systems, and propose solutions to real world scenarios leveraging AI methodologies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16548",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16548",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "MW",
+              "location": "Downtown Campus 470",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Siva Balasubramanian",
+              "instructor_email": "sivakbalas@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 14,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "564",
+      "course_combined": "MBA 564",
+      "title": "Global Business Strategy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=564",
+      "course_description": "For Western MNCs, some of the most intriguing growth opportunities in the Next Economy exist in low-income segments, the so-called markets at the bottom of the income pyramid, in emerging and underdeveloped countries of the world. Historically, MNCs targeted the customers at the top of the pyramid in these countries because their business models worked well for them. But as these bottom-of-the-pyramid markets become more economically profitable, MNCs need to make a serious attempt to evaluate and target them. In order to successfully compete for customers in these markets, MNCs should design innovative business models that could represent a radical departure from the way they do business in more advanced countries. This course is about such business model innovation. Students will learn tools of international market opportunity analysis, foreign market entry strategies, the social, economical, and ethical factors affecting decisions to serve low income customers, the stringent requirements of the customers at the bottom of the pyramid, and business models to profitably serve these customers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: BUS 510 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "05",
+          "section_name": "",
+          "crn": "17199",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17199",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "M Krishna Erramilli",
+              "instructor_email": "merramil@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 500,
+            "actual": 122,
+            "remaining": 378,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: BUS 510 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "590",
+      "course_combined": "MBA 590",
+      "title": "Digital Transformation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=590",
+      "course_description": "Designed for leaders focused on implementing new ideas, staying ahead of the competition and aligning their people, data and technology to drive digital transformation. First, we discuss the pace of change, and its impact, implications and opportunities. Next, we provide the context and framework to help you identify key areas to digitize, including strategy, core processes, and technology. The course culminates with a project where participants create an action plan for a challenge at a level that is appropriate for their role or responsibility. After completing the course, students will learn how to build a digital transformation vision, skills and leadership qualities key for the 21st century executive.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "10",
+          "section_name": "",
+          "crn": "15302",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15302",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Marian F Cook",
+              "instructor_email": "mcook12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 5,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "597",
+      "course_combined": "MBA 597",
+      "title": "Independent Study in Bus Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=597",
+      "course_description": "Independent study in business administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "106",
+          "section_name": "Independent Study in Business Administration",
+          "crn": "12367",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12367",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Nik Rokop",
+              "instructor_email": "nrokop@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "116",
+          "section_name": "",
+          "crn": "15492",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15492",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ghazale Haddadian",
+              "instructor_email": "ghaddadi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "128",
+          "section_name": "Independent Study in Business Administration",
+          "crn": "13604",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13604",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Weslynne Ashton",
+              "instructor_email": "washton@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "134",
+          "section_name": "",
+          "crn": "17481",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17481",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Helen N. Ezenwa",
+              "instructor_email": "hezenwa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 1,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "135",
+          "section_name": "Independent Study in Business Administration",
+          "crn": "11264",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11264",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Elizabeth J. Durango-Cohen",
+              "instructor_email": "durango-cohen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "148",
+          "section_name": "Independent Study in Business Administration",
+          "crn": "11052",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11052",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "M Krishna Erramilli",
+              "instructor_email": "merramil@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "151",
+          "section_name": "Independent Study in Business Administration",
+          "crn": "13632",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13632",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Smriti Anand",
+              "instructor_email": "sanand12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "158",
+          "section_name": "",
+          "crn": "16116",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16116",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Siva Balasubramanian",
+              "instructor_email": "sivakbalas@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

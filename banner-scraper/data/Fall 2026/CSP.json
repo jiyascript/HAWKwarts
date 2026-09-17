@@ -1,0 +1,496 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "CSP",
+      "course_num": "200",
+      "course_combined": "CSP 200",
+      "title": "Prac Comp: Tools & Techniques",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CSP&crse_numb_in=200",
+      "course_description": "This course offers students a hands-on introduction to practical tools, platforms, and workflows commonly used in both the classroom and industry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16883",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16883",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:55 PM",
+              "days": "R",
+              "location": "Stuart Building 112J",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Naicheng Wei",
+              "instructor_email": "lwei3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 16,
+            "remaining": 9,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "CSP",
+      "course_num": "442",
+      "course_combined": "CSP 442",
+      "title": "Mobile Application Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CSP&crse_numb_in=442",
+      "course_description": "Mobile devices are now the primary computing platform for billions of people, making mobile development one of the most impactful and in-demand skills in software engineering. This course introduces students to modern mobile application development using declarative UI frameworks, a fundamental paradigm shift in how developers build responsive, maintainable, and sophisticated applications. Students will learn to design, prototype, and test software applications targeting mobile devices using industry-standard tools and practices. Moving beyond traditional imperative UI programming, the course presents declarative approaches that describe what an interface should look like based on application state, rather than how to manipulate it step-by-step. This powerful abstraction, combined with reactive state management and asynchronous programming patterns, forms the foundation of modern mobile development. Throughout the semester, the course covers essential software design patterns, architectural best practices, and professional development tools that prepare students to build robust mobile applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17304",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17304",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "CSCI Technical Elective, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "WF",
+              "location": "Stuart Building 225",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael Kamol Lee",
+              "instructor_email": "saelee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 9,
+            "remaining": 16,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite Required",
+          "general_requirements": "( Course or Test: CS 331 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 401 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CSSP 401 Minimum Grade of S May not be taken concurrently. ) and ( Course or Test: CS 351 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: CS 402 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: CSSP 402 Minimum Grade of S May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17305",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17305",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "CSCI Technical Elective, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Michael Kamol Lee",
+              "instructor_email": "saelee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 7,
+            "remaining": 3,
+            "waitlist_capacity": 5,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 5
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite Required",
+          "general_requirements": "( Course or Test: CS 331 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 401 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CSSP 401 Minimum Grade of S May not be taken concurrently. ) and ( Course or Test: CS 351 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: CS 402 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: CSSP 402 Minimum Grade of S May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "CSP",
+      "course_num": "544",
+      "course_combined": "CSP 544",
+      "title": "System and Network Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CSP&crse_numb_in=544",
+      "course_description": "This course will be a programming-based, learn-by-doing-oriented course focused on applying foundational principles in security to real systems and networks . You will implement several real attacks and take advantage of several recreated vulnerable systems in order to understand the modern landscape of network and systems security. We will also be looking at various case studies of attacks and defense strategies, including known exploit proofs-of-concept, published papers, and documents from security agencies and cyber-security research firms.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15695",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15695",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yousef M. Elmehdwi",
+              "instructor_email": "yelmehdwi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 9,
+            "remaining": 16,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: CS 458 Minimum Grade of C May not be taken concurrently."
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15696",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15696",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yousef M. Elmehdwi",
+              "instructor_email": "yelmehdwi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 2,
+            "remaining": 8,
+            "waitlist_capacity": 5,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 5
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: CS 458 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "CSP",
+      "course_num": "554",
+      "course_combined": "CSP 554",
+      "title": "Big Data Technologies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CSP&crse_numb_in=554",
+      "course_description": "Big data is the area of informatics focusing on data sets whose size is beyond the ability of typical database and other software tools to capture, store, analyze, and manage. This course provides a rapid immersion into the area of big data and the technologies that have recently appeared to manage it. Students may not receive credit for both CS 554 and CSP 554.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "12437",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12437",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "Stuart Building 111",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joseph S. Rosen",
+              "instructor_email": "jrosen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 60,
+            "actual": 22,
+            "remaining": 38,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: CS 425 Minimum Grade of C May not be taken concurrently."
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "12438",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12438",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "This online section is for students whose location prohibits them from attending lecture at the day/time indicated. Undergraduate students must obtain permits from the instructor and cs_registration@iit.edu to register for graduate classes.",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joseph S. Rosen",
+              "instructor_email": "jrosen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 23,
+            "remaining": 1,
+            "waitlist_capacity": 5,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 5
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: CS 425 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "CSP",
+      "course_num": "571",
+      "course_combined": "CSP 571",
+      "title": "Data Preparation and Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CSP&crse_numb_in=571",
+      "course_description": "Surveys industrial and scientific applications of data analytics with case studies including exploration of ethical issues via case studies. Students will work with a variety of real world data sets and learn how to prepare data sets for analysis by cleaning and reformatting. We will also cover a variety of data exploration techniques including summary statistics and visualization methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: ( Course or Test: CS 331 May not be taken concurrently. ) or ( Course or Test: CS 401 May not be taken concurrently. ) or ( Course or Test: CSSP 401 May not be taken concurrently. ) and ( Course or Test: CS 425 May not be taken concurrently. and Course or Test: MATH 474 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "12440",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12440",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "Hermann Hall 005",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jawahar J. Panchal",
+              "instructor_email": "jpanchal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 60,
+            "actual": 11,
+            "remaining": 49,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: CS 331 May not be taken concurrently. ) or ( Course or Test: CS 401 May not be taken concurrently. ) or ( Course or Test: CSSP 401 May not be taken concurrently. ) and ( Course or Test: CS 425 May not be taken concurrently. and Course or Test: MATH 474 May not be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "12441",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12441",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jawahar J. Panchal",
+              "instructor_email": "jpanchal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 8,
+            "remaining": 12,
+            "waitlist_capacity": 5,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 5
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: CS 331 May not be taken concurrently. ) or ( Course or Test: CS 401 May not be taken concurrently. ) or ( Course or Test: CSSP 401 May not be taken concurrently. ) and ( Course or Test: CS 425 May not be taken concurrently. and Course or Test: MATH 474 May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "CSP",
+      "course_num": "595",
+      "course_combined": "CSP 595",
+      "title": "Topics in CSP",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CSP&crse_numb_in=595",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "User Exp Viz: Computing Pros",
+          "crn": "17168",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17168",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "MW",
+              "location": "Stuart Building 220",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yun Dong",
+              "instructor_email": "ydong27@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 14,
+            "remaining": 11,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "User Exp Viz: Computing Pros",
+          "crn": "17169",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17169",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yun Dong",
+              "instructor_email": "ydong27@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 14,
+            "actual": 13,
+            "remaining": 1,
+            "waitlist_capacity": 5,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 5
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

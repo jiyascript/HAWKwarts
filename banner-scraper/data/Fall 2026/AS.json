@@ -1,0 +1,260 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "AS",
+      "course_num": "101",
+      "course_combined": "AS 101",
+      "title": "Heritage and Values of USAF I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AS&crse_numb_in=101",
+      "course_description": "This survey course is designed to introduce students to the United States Air Force and provides an overview of the basic characteristics, missions, and organization of the Air Force. This is the first course of a two-course sequence that continues with AS 102 Heritage and Values of the United States Air Force II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Heritage and Values of the United States Air Force I",
+          "crn": "11653",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11653",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 AM - 6:50 AM",
+              "days": "R",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Timothy Mills",
+              "instructor_email": "tmills5@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 0,
+            "remaining": 35,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "201",
+      "course_combined": "AS 201",
+      "title": "Team & Leadership Fund I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AS&crse_numb_in=201",
+      "course_description": "This course focuses on laying the foundation for teams and leadership. The topics include skills that will allow cadets to improve their leadership on a personal level and within a team. The courses will prepare cadets for their field training experience where they will be able to put the concepts learned into practice. The purpose is to instill a leadership mindset and to motivate sophomore students to transition from AFROTC cadet to AFROTC officer candidate. This is the first course of a two-course sequence that continues with AS 202 Team and Leadership Fundamentals II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Team and Leadership Fundamentals I",
+          "crn": "11654",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11654",
+          "credits": 1.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 AM - 6:50 AM",
+              "days": "R",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joel Primm",
+              "instructor_email": "jprimm@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: AS 102 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "301",
+      "course_combined": "AS 301",
+      "title": "Lead People/Effective Comm I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AS&crse_numb_in=301",
+      "course_description": "This course teaches cadets advanced skills and knowledge in management and leadership. Special emphasis is placed on enhancing leadership skills and communication. Cadets have an opportunity to try out these leadership and management techniques in a supervised environment as juniors and seniors. This is the first course of a two-course sequence that continues with AS 302 Leading People and Effective Communication II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Leading People and Effective Communication I",
+          "crn": "11655",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11655",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:30 AM - 9:30 AM",
+              "days": "T",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Matthew W. Weaver",
+              "instructor_email": "mweaver6@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 1,
+            "remaining": 19,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: AS 101 Minimum Grade of D May not be taken concurrently. and Course or Test: AS 102 Minimum Grade of D May not be taken concurrently. and Course or Test: AS 201 Minimum Grade of D May not be taken concurrently. and Course or Test: AS 202 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "401",
+      "course_combined": "AS 401",
+      "title": "National Security Affairs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AS&crse_numb_in=401",
+      "course_description": "This course is designed for college seniors and gives them the foundation to understand their role as military officers in American society. It is an overview of the complex social and political issues facing the military profession and requires a measure of sophistication commensurate with the senior college level. This is the first course of a two-course sequence that continues with AS 402 National Security Affairs/Preparation for Active Duty II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11656",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11656",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:30 AM - 9:30 AM",
+              "days": "T",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joel Primm",
+              "instructor_email": "jprimm@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 13,
+            "actual": 0,
+            "remaining": 13,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: AS 302 Minimum Grade of D May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "499",
+      "course_combined": "AS 499",
+      "title": "AFROTC LLAB Leadership Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=AS&crse_numb_in=499",
+      "course_description": "Leadership Laboratory (LLAB) is a dynamic and integrated grouping of leadership developmental activities designed to meet the needs and expectations of prospective Air Force second lieutenants and complement the AFROTC academic program. Most of the LLAB lesson objectives are cadet planned, organized, and executed under the supervision of the Detachment Commander and Operations Flight Commander. LLAB is required every Fall and Spring semester for Air Force cadets.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be assigned one of the following Student Attributes: Air Force ROTC",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "AFROTC LLAB Leadership Laboratory",
+          "crn": "11651",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11651",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLab",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "7:00 AM - 9:50 AM",
+              "days": "R",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lab",
+              "instructor": "Joel Primm",
+              "instructor_email": "jprimm@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 110,
+            "actual": 1,
+            "remaining": 109,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be assigned one of the following Student Attributes: Air Force ROTC",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

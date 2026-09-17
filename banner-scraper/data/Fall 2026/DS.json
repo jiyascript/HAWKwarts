@@ -1,0 +1,158 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "DS",
+      "course_num": "100",
+      "course_combined": "DS 100",
+      "title": "Intro to Profession",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=100",
+      "course_description": "Introduces students to data science as a profession, as currently practiced and continuing to develop. Presents various elements of the data science life cycle at an introductory level, culminating with a start-to-finish data analysis project. Includes guest lectures from data science practitioners and faculty. Explores real-world examples of ethical issues, bias, and privacy in data science. Survey careers in data science and familiarize students with elements of career development.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15542",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15542",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 119",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Kiah Wah Ong",
+              "instructor_email": "kong2@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 8,
+            "remaining": 22,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "DS",
+      "course_num": "151",
+      "course_combined": "DS 151",
+      "title": "Intro to Data Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=151",
+      "course_description": "This course introduces the critical concepts and skills in statistical inference, machine learning, and computer programming, through hands-on analysis of real-world datasets from various fields.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15429",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15429",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Computing Requirement, Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "John T. Rettaliata Engg Center 102",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Yuhan Ding",
+              "instructor_email": "yding2@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 17,
+            "remaining": 18,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "DS",
+      "course_num": "451",
+      "course_combined": "DS 451",
+      "title": "Data Science Life Cycle",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=451",
+      "course_description": "Students will conduct the project life cycle of data science through industrial and scientific case studies. Stages include problem identification and requirements gathering; data acquisition, cleaning, and preparation; exploratory data analysis and visualization; and model selection and evaluation. Students will work with real-world data sets, communicate effectively, and evaluate the ethical implications of their decisions. Teamwork and professional communication are practiced through collaborative project work.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17081",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17081",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "Hermann Hall 005",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jawahar J. Panchal",
+              "instructor_email": "jpanchal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 4,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite Required",
+          "general_requirements": "( Course or Test: CS 331 May not be taken concurrently. ) or ( Course or Test: CS 401 May not be taken concurrently. ) or ( Course or Test: CSSP 401 May not be taken concurrently. ) and ( Course or Test: CS 425 May not be taken concurrently. ) and ( Course or Test: MATH 474 May not be taken concurrently. ) or ( Course or Test: MATH 476 May be taken concurrently. )"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "SAM",
+      "course_num": "504",
+      "course_combined": "SAM 504",
+      "title": "Industrial Ecology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=504",
+      "course_description": "This course introduces students to the emerging field of Industrial Ecology, and examines how this systems-based approach can be used to move society toward a more sustainable future. Industrial Ecology is an interdisciplinary field involving technology (science and engineering), public policy, business administration and increasingly the social sciences. The course introduces concepts and tools such as Material and Energy Flow Analysis, Life Cycle Assessment, Design for Sustainability, Extended Producer Responsibility and Industrial Symbiosis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17098",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17098",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "MW",
+              "location": "Downtown Campus 485",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Weslynne Ashton",
+              "instructor_email": "washton@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 10,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "512",
+      "course_combined": "SAM 512",
+      "title": "Environmental Risk Assessment",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=512",
+      "course_description": "The SAM 512 course will offer discussion of the basic concepts of Environmental Risk Analysis, Control of Environmental, Work Place Hazards; Industrial Hygiene; and Ecological Risk Analysis. Also discussed are recognition and evaluation of chemical, physical and biological hazards; the human environment; control hierarchies, strategies and technologies; personal protection; criteria and standards; and associated Management and Ethical issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17099",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17099",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "MW",
+              "location": "Downtown Campus 485",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Tannis Jenine Williamson",
+              "instructor_email": "twilliamson@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 9,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "529",
+      "course_combined": "SAM 529",
+      "title": "Social Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=529",
+      "course_description": "This course gives students a practical introduction to the exciting and rapidly growing field of social entrepreneurship - the application of business approaches to solving social, economic, and environmental challenges. The course will begin by introducing students to major social, economic and environmental challenges around the world by highlighting both local and international social ventures that are working on these problems. It will then turn to key concepts regarding social ventures including entrepreneurship, organizational structures (for-profit, non-profit and hybrid), financing, marketing, and performance assessment (social, economic, and environmental impact). We will also examine the challenges faced when creating and operating social enterprises in different parts of the world. The course includes guest lectures and visits with social innovators working in different areas (such as health, education and environment). Students will gain hands-on experience by a) developing a business model concept for a for-profit or non-profit social enterprise to address a specific real-world problem, in Chicago or elsewhere, or b) assisting an existing Chicago- based for-profit or non-profit social venture to improve their impact.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15867",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15867",
+          "credits": 3.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "TR",
+              "location": "Downtown Campus 470",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Helen N. Ezenwa",
+              "instructor_email": "hezenwa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 2,
+            "remaining": 3,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

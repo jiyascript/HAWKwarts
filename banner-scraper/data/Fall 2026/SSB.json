@@ -1,0 +1,820 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "SSB",
+      "course_num": "011",
+      "course_combined": "SSB 011",
+      "title": "UG Part-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=011",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Undergraduate Part-Time Internship",
+          "crn": "12696",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12696",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "Undergraduate Part-Time Internship",
+          "crn": "12697",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12697",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "012",
+      "course_combined": "SSB 012",
+      "title": "UG Full-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=012",
+      "course_description": "N/A",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Undergraduate Full-Time Internship",
+          "crn": "12698",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12698",
+          "credits": 12.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15046",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15046",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nInternship",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "013",
+      "course_combined": "SSB 013",
+      "title": "GR Part-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=013",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Graduate Part-Time Internship",
+          "crn": "12699",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12699",
+          "credits": 4.5,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nInternship",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 7,
+            "remaining": 992,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "Graduate Part-Time Internship",
+          "crn": "12700",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12700",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nInternship",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "014",
+      "course_combined": "SSB 014",
+      "title": "GR Full-Time Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=014",
+      "course_description": "N/A",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Graduate Full-Time Internship",
+          "crn": "12701",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12701",
+          "credits": 9.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nInternship",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "15045",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15045",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nInternship",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 0,
+            "remaining": 999,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "Must be registered",
+          "general_requirements": "( Course or Test: AAH May be taken concurrently. ) or ( Course or Test: ARCH May be taken concurrently. ) or ( Course or Test: AS May be taken concurrently. ) or ( Course or Test: ATR May be taken concurrently. ) or ( Course or Test: AURB May be taken concurrently. ) or ( Course or Test: BIOL May be taken concurrently. ) or ( Course or Test: BME May be taken concurrently. ) or ( Course or Test: BUS May be taken concurrently. ) or ( Course or Test: CAE May be taken concurrently. ) or ( Course or Test: CHE May be taken concurrently. ) or ( Course or Test: CHEM May be taken concurrently. ) or ( Course or Test: COM May be taken concurrently. ) or ( Course or Test: CS May be taken concurrently. ) or ( Course or Test: CSP May be taken concurrently. ) or ( Course or Test: ECE May be taken concurrently. ) or ( Course or Test: ECON May be taken concurrently. ) or ( Course or Test: EG May be taken concurrently. ) or ( Course or Test: EMGT May be taken concurrently. ) or ( Course or Test: EMS May be taken concurrently. ) or ( Course or Test: ENGR May be taken concurrently. ) or ( Course or Test: ENVE May be taken concurrently. ) or ( Course or Test: FDSN May be taken concurrently. ) or ( Course or Test: FMC May be taken concurrently. ) or ( Course or Test: GLS May be taken concurrently. ) or ( Course or Test: HIST May be taken concurrently. ) or ( Course or Test: HUM May be taken concurrently. ) or ( Course or Test: ID May be taken concurrently. ) or ( Course or Test: IDN May be taken concurrently. ) or ( Course or Test: IDX May be taken concurrently. ) or ( Course or Test: INTM May be taken concurrently. ) or ( Course or Test: IPMM May be taken concurrently. ) or ( Course or Test: IPRO May be taken concurrently. ) or ( Course or Test: ITM May be taken concurrently. ) or ( Course or Test: ITMD May be taken concurrently. ) or ( Course or Test: ITMM May be taken concurrently. ) or ( Course or Test: ITMO May be taken concurrently. ) or ( Course or Test: ITMS May be taken concurrently. ) or ( Course or Test: ITMT May be taken concurrently. ) or ( Course or Test: LA May be taken concurrently. ) or ( Course or Test: LAW May be taken concurrently. ) or ( Course or Test: LCHS May be taken concurrently. ) or ( Course or Test: LIT May be taken concurrently. ) or ( Course or Test: MATH May be taken concurrently. ) or ( Course or Test: MAX May be taken concurrently. ) or ( Course or Test: MBA May be taken concurrently. ) or ( Course or Test: MILS May be taken concurrently. ) or ( Course or Test: MMAE May be taken concurrently. ) or ( Course or Test: MS May be taken concurrently. ) or ( Course or Test: MSC May be taken concurrently. ) or ( Course or Test: MSED May be taken concurrently. ) or ( Course or Test: MSF May be taken concurrently. ) or ( Course or Test: NS May be taken concurrently. ) or ( Course or Test: PA May be taken concurrently. ) or ( Course or Test: PCA May be taken concurrently. ) or ( Course or Test: PESL May be taken concurrently. ) or ( Course or Test: PHIL May be taken concurrently. ) or ( Course or Test: PHYS May be taken concurrently. ) or ( Course or Test: PS May be taken concurrently. ) or ( Course or Test: PSYC May be taken concurrently. ) or ( Course or Test: SCI May be taken concurrently. ) or ( Course or Test: SMGT May be taken concurrently. ) or ( Course or Test: SOC May be taken concurrently. ) or ( Course or Test: SSB May be taken concurrently. ) or ( Course or Test: SSCI May be taken concurrently. ) or ( Course or Test: TECH May be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "110",
+      "course_combined": "SSB 110",
+      "title": "Career Readiness Foundations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=110",
+      "course_description": "Introduces new students to employer expectations, professional communication, career tools, and the CPT process. Students work on their resume, cover letter, and LinkedIn profile, build fundamental communication and teamwork skills, and prepare to engage in early Elevate experiences and mentorship. The course ensures every 1st year, 1st semester student begins with a solid career foundation, connects with Stuart’s Career Management Center, has a personalized Elevate plan, and is prepared to engage with employers at networking events.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17351",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17351",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "T",
+              "location": "Stuart Building 223",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Curtie E Allee",
+              "instructor_email": "callee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 2,
+            "remaining": 18,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "17352",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17352",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "W",
+              "location": "Stuart Building 223",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 6,
+            "remaining": 14,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "510",
+      "course_combined": "SSB 510",
+      "title": "Foundational Career Developmen",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=510",
+      "course_description": "This course equips students with essential skills for launching and advancing their careers. Through interactive workshops and practical assignments, students will learn how to plan their job search, prepare for career fairs, and build a professional network. The course covers personal branding, resume writing, LinkedIn profile development, and crafting compelling cover letters. Students will explore online tools for career success and receive personalized feedback on assignments. The final weeks focus on enhancing public speaking and presentation skills, culminating in a final presentation that showcases each student's professional growth.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14581",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14581",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "T",
+              "location": "Downtown Campus 490",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Justine Grant",
+              "instructor_email": "jgrant2@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 12,
+            "actual": 11,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "14582",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14582",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "W",
+              "location": "Stuart Building 212",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Curtie E Allee",
+              "instructor_email": "callee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 8,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "15857",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15857",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "W",
+              "location": "Downtown Campus 470",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Yumiko Saito",
+              "instructor_email": "ysaito@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 9,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "04",
+          "section_name": "",
+          "crn": "16050",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16050",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "2:30 PM - 4:30 PM",
+              "days": "T",
+              "location": "Downtown Campus 490",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Yesenia Alarcon",
+              "instructor_email": "yalarcon@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 9,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "511",
+      "course_combined": "SSB 511",
+      "title": "Applied Career Development for",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=511",
+      "course_description": "This course is designed to equip students with the essential skills, knowledge, and mindset needed to thrive in today’s dynamic and diverse professional environments. Through a combination of interactive workshops, practical exercises, and real-world applications, participants will develop competencies in communication, leadership, cultural awareness, and innovation while fostering an inclusive and ethical workplace culture. The curriculum begins with foundational learning on U.S. workplace etiquette, communication norms, and legal considerations, followed by hands-on practice to build confidence and adaptability. Students will refine professional communication skills, leverage AI for effective writing, and learn strategies for networking and informational interviews. Leadership development is emphasized through the study of conflict resolution, leadership styles, and team dynamics. The course also introduces design thinking and creative problem-solving to drive innovation, culminating in strategies for promoting equity, inclusion, and bias awareness in professional settings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: ( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Advancing Career and Education: Career Competency Experience",
+          "crn": "11178",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11178",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Non Credit",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "T",
+              "location": "Downtown Campus 470",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Justine Grant",
+              "instructor_email": "jgrant2@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 3,
+            "remaining": 7,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. )"
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "16986",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16986",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Non Credit",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "W",
+              "location": "Stuart Building 213",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Curtie E Allee",
+              "instructor_email": "callee@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. )"
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "16987",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16987",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Non Credit",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "W",
+              "location": "Downtown Campus 470",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Yumiko Saito",
+              "instructor_email": "ysaito@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. )"
+        },
+        {
+          "section": "04",
+          "section_name": "",
+          "crn": "16988",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16988",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Non Credit",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "2:30 PM - 4:30 PM",
+              "days": "T",
+              "location": "Downtown Campus 490",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Yesenia Alarcon",
+              "instructor_email": "yalarcon@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "SSB",
+      "course_num": "512",
+      "course_combined": "SSB 512",
+      "title": "Advanced Career Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSB&crse_numb_in=512",
+      "course_description": "Aligned with the Stuart Educational and Professional Development Competency Model, the second-semester course (SSB 512) focuses on preparing students for internship and early career opportunities through intentional skill-building and applied practice. The course emphasizes interview readiness and professional communication, including articulating business competencies through behavioral and case-based responses, leveraging and engaging effectively in networking and informational interviewing for opportunity discovery. Students will also develop a deeper understanding of employer expectations, workplace norms, and recruitment processes across industries. Through interactive workshops, mock interviews, employer-informed activities, and reflective exercises, students will gain the confidence and practical tools needed to compete successfully for internships and experiential learning opportunities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: ( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. and Course or Test: SSB 511 Minimum Grade of S May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17355",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17355",
+          "credits": 0.0,
+          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar",
+          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Non Credit",
+          "attributes": "Business Graduate Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:30 AM - 11:30 AM",
+              "days": "T",
+              "location": "Downtown Campus 470",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Natalie Champagne",
+              "instructor_email": "nchampagne@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 10,
+            "remaining": 8,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: SSB 510 Minimum Grade of S May not be taken concurrently. and Course or Test: SSB 511 Minimum Grade of S May not be taken concurrently. )"
+        }
+      ]
+    }
+  ]
+}

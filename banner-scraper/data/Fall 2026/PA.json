@@ -1,0 +1,311 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "PA",
+      "course_num": "502",
+      "course_combined": "PA 502",
+      "title": "Organizational Behavior",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=502",
+      "course_description": "PA 502 builds awareness and understanding of the behavior of individuals and groups in organizations, preparing managers to be more effective within their organizational contexts. Topics include individual differences in motivation, perception, culture and learning style, group and organizational dynamics, and the impact of organizational structure and culture on behavior. Leadership techniques for influencing other organizational members, creative problem-solving and decision-making, ethics and values-based managing are covered. This course helps students relate basic theories, concepts, and techniques to real-world situations through the extensive use of case studies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17096",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17096",
+          "credits": 3.0,
+          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+          "attributes": "MPA Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "MW",
+              "location": "Downtown Campus 403",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joanne E. Howard",
+              "instructor_email": "jhowar12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 9,
+            "remaining": 9,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "532",
+      "course_combined": "PA 532",
+      "title": "Public Financial Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=532",
+      "course_description": "The purpose of this course is to introduce students to public budgeting, governmental accounting and related areas of public fiscal administration. The course will give students a basic understanding of the concepts and skills needed to evaluate budget processes and documents and to assess the financial condition of governments. It is also designed to provide students with an understanding of the public finance environment and an opportunity to explore practical challenges in managing government resources. Emphasizing best practice models and case studies, the course will focus primarily on local government finance with some reference to state governmental policies and practices and nonprofit organizations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15579",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15579",
+          "credits": 3.0,
+          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+          "attributes": "MPA Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "MW",
+              "location": "Downtown Campus 403",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Roland Calia",
+              "instructor_email": "rcalia@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 6,
+            "remaining": 4,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "542",
+      "course_combined": "PA 542",
+      "title": "Project Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=542",
+      "course_description": "The effective development, planning, execution, and communication of special projects are critical to all types of public service organizations and private sector organizations. Service organizations, healthcare providers, nonprofits, government organizations, and private sector organizations constantly pursue new initiatives and projects to address the demands of their constantly changing environments. This course will offer an introduction to basic concepts and methods for directing projects and will provide students with tools that prepare them for success in project management. Examples in this course will be drawn from both the public and private sector. The course will be divided into the following components: • Project Plan Definition (Purpose, Goals, Objectives, Expectations, Roles, and Quality Management, Approach and Ground Rules) • Scope of the Project (Definition, Costs, Benefits, Risks, Products, Deliverables, Milestone, and Impacted Business Areas) • Assumptions (Specific and Measurable) • Constraints (Limitations to the Project, Related Projects, Critical Dependencies) • Quality Management Approach (Activity Reviews/Walkthroughs, Tools and Techniques, Test Approach, Performance/Quality Standards, Quality Management Roles, and Training) • Project Management Approach (Work Breakdown, Basis of Estimates, Project Effort Estimation, Project Standards, Project Roles and Responsibilities, Change and Issues Management Approach, Communication and Control Approach) • Attachments (Any pertinent work, flow charts, and approvals that need to be added to flesh out the project) • Project Budget • Project Impact Report • Approvals (Sign-off sheets)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17097",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17097",
+          "credits": 3.0,
+          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "MPA Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "TR",
+              "location": "Downtown Campus 470",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Joanne E. Howard",
+              "instructor_email": "jhowar12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 4,
+            "remaining": 31,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "550",
+      "course_combined": "PA 550",
+      "title": "Social Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=550",
+      "course_description": "This course gives students a practical introduction to the exciting and rapidly growing field of social entrepreneurship. The course will begin by introducing students to contemporary understandings of poverty, its causes, and traditional poverty alleviation strategies. It will then turn to key concepts regarding social ventures including entrepreneurship, organizational structures (for profit, nonprofit, and hybrid), financing, marketing, and performance assessment (social and environmental impact). We will also examine the challenges that are faced in creating and operating social enterprises in different parts of the world. The course includes guest lectures by the Stuart School of Business faculty and social entrepreneurs working in different areas (such as health, education, and environment). Students will gain hands-on experience by either developing a business plan for a social enterprise to address a specific real world problem or assisting an existing social venture in developing a business plan geared towards an expansion of its services. It is expected that the plans can be entered into a variety of social venture competitions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "15581",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15581",
+          "credits": 3.0,
+          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
+          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+          "attributes": "MPA Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:00 PM - 8:00 PM",
+              "days": "TR",
+              "location": "Downtown Campus 470",
+              "date_range": "Aug 17, 2026 - Oct 10, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Helen N. Ezenwa",
+              "instructor_email": "hezenwa@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 1,
+            "remaining": 9,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "580",
+      "course_combined": "PA 580",
+      "title": "Policy Evaluation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=580",
+      "course_description": "This course will present a variety of tools and techniques to evaluate existing programs and policies to determine and measure their most important elements, and to give policy-makers the necessary information to fund, improve or terminate programs based on empirical evidence regarding factors such as cost/benefit, efficiency, effectiveness, equity, and other important characteristics. Evaluation can also allow policy-makers and staff to focus budgets and efforts to best achieve policy or program goals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "11198",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11198",
+          "credits": 3.0,
+          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
+          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
+          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+          "attributes": "MPA Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:00 AM - 1:00 PM",
+              "days": "S",
+              "location": "Downtown Campus 411",
+              "date_range": "Oct 12, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Wenchen Wang",
+              "instructor_email": "wwang141@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 6,
+            "remaining": 4,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "590",
+      "course_combined": "PA 590",
+      "title": "Internship in Public Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=590",
+      "course_description": "This course provides practical experience in public administration and may be taken only by students lacking extensive work experience in governmental administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: PA 501 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "110",
+          "section_name": "",
+          "crn": "17468",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17468",
+          "credits": 3.0,
+          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nInternship",
+          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "MPA Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Internship",
+              "instructor": "Roland Calia",
+              "instructor_email": "rcalia@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 1,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "Course or Test: PA 501 Minimum Grade of C May not be taken concurrently."
+        }
+      ]
+    }
+  ]
+}

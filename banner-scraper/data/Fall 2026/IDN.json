@@ -1,0 +1,1034 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "IDN",
+      "course_num": "481",
+      "course_combined": "IDN 481",
+      "title": "Intro to Design Practice",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=481",
+      "course_description": "An accelerated course in design history, theory, and the makeup of contemporary professional practice.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Degrees: Undergraduate Non Degree Non Degree Prof Learning",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14290",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14290",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "T",
+              "location": "Ed Kaplan Family Institute 211E",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Nicholas Marc Paredes",
+              "instructor_email": "nparedes1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 2,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "483",
+      "course_combined": "IDN 483",
+      "title": "Intro to Visual Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=483",
+      "course_description": "Provides a sound understanding of two-dimensional form, introduces basic concepts of graphic design including factors of visual perception and syntax, principles of creating order and meaning, compositional techniques, aesthetic properties of visual form, and information processing, and covers the environmental, cultural, and personal context of the viewer. Considerable emphasis is placed on typography.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14821",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14821",
+          "credits": 4.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 4:50 PM",
+              "days": "W",
+              "location": "Ed Kaplan Family Institute 211E",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Warner B. Rodda",
+              "instructor_email": "wrodda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 0,
+            "remaining": 18,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "485",
+      "course_combined": "IDN 485",
+      "title": "Intro to Objects & Artifacts",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=485",
+      "course_description": "Teaches the fundamental principles and processes of product design through simple projects and skill building exercises, and about the study of more advanced projects and case studies. Skills taught include diagramming, orthographic sketching rendering, basic three-dimensional model building, and documenting intent for presentation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14822",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14822",
+          "credits": 4.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 4:50 PM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 211E",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Martin Thaler",
+              "instructor_email": "mthaler@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 2,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "489",
+      "course_combined": "IDN 489",
+      "title": "Introduction to Interaction",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=489",
+      "course_description": "Explores the basic concepts of interaction design through short exercises and reviews of fundamental theory",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14824",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14824",
+          "credits": 4.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 4:50 PM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 211E",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Zachary Pino",
+              "instructor_email": "zach.pino@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 3,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "501",
+      "course_combined": "IDN 501",
+      "title": "Communication Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=501",
+      "course_description": "Explores the techniques of planning and designing communications systems in print, web, and three-dimensional exhibition form from concept generation to visualization. Relevant perceptual, cognitive, and systems principles are investigated and prototyped.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17477",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17477",
+          "credits": 4.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Jennifer deWinter",
+              "instructor_email": "jdewinter@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 1,
+            "actual": 1,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "503",
+      "course_combined": "IDN 503",
+      "title": "Embodied Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=503",
+      "course_description": "At the end of this course, students should be able to explore, create, and communicate design directions for simple products and environments taking into account design principles, human factors, technology, and business issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "16921",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16921",
+          "credits": 4.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 4:50 PM",
+              "days": "W",
+              "location": "Ed Kaplan Family Institute 211W",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Martin Thaler",
+              "instructor_email": "mthaler@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 7,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "508",
+      "course_combined": "IDN 508",
+      "title": "Principles/Methods User Rsrch",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=508",
+      "course_description": "This course is a survey of the research methods commonly used in design research and gives an overview of distinctions between primary and secondary research, quantitative and qualitative research, and online and in-person research in order to prepare students for research-intensive projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Principles and Methods of User Research",
+          "crn": "13549",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13549",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nStudio",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "F",
+              "location": "Ed Kaplan Family Institute 226",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Studio",
+              "instructor": "Warner B. Rodda",
+              "instructor_email": "wrodda@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 6,
+            "remaining": 12,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "531",
+      "course_combined": "IDN 531",
+      "title": "Adaptive Leadership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=531",
+      "course_description": "Explore different established and emerging change management models and their application to design",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17242",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17242",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:25 PM",
+              "days": "M",
+              "location": "TBA",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Mo Sook Park",
+              "instructor_email": "mpark24@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 16,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "536",
+      "course_combined": "IDN 536",
+      "title": "Intro to Product Strategy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=536",
+      "course_description": "This course will introduce students to the techniques and processes involved in product strategy: the mindset and act of developing multiple products, services, and associated offerings to optimize a company’s investment against constraints and strategy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Introduction to Product Strategy",
+          "crn": "13179",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13179",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nInternet Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 07, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:25 PM",
+              "days": "T",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Oct 09, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Matthew Mayfield",
+              "instructor_email": "mayfield@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 6,
+            "remaining": 12,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "542",
+      "course_combined": "IDN 542",
+      "title": "Behavioral Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=542",
+      "course_description": "This course will introduce how concepts from the field of behavioral economics can be thought of as another kind of \"human factor\" and ways in which they can help inform the process of design thinking.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13141",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13141",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 07, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 227",
+              "date_range": "Aug 17, 2026 - Oct 09, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Ruth K Schmidt",
+              "instructor_email": "rschmid8@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 8,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "544",
+      "course_combined": "IDN 544",
+      "title": "Diagram Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=544",
+      "course_description": "Explores the language of diagrams as a communication means to represent different types of abstract, relational information. Students will be introduced to design principles of developing effective diagrams and multiple types of diagrams.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Colleges: Institute of Design Prerequisites: Prerequisite Required General Requirements: Course or Test: IDN 552 May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14304",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14304",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "R",
+              "location": "Ed Kaplan Family Institute 226",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "TBA",
+              "instructor_email": ""
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 4,
+            "remaining": 14,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "Prerequisite Required",
+          "general_requirements": "Course or Test: IDN 552 May not be taken concurrently."
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "545",
+      "course_combined": "IDN 545",
+      "title": "Applied Behavior Design Wrkshp",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=545",
+      "course_description": "Learn to apply behavioral science to real-world challenges. This workshop teaches you evidence-based methods for understanding behavior—including literature reviews, COM-B analysis, and evaluative testing—and shows you how to use them in practical design work. You'll develop skills in combining behavioral research with design strategies and systems thinking to create solutions that address individual, institutional, and system-level behaviors. Students may take this course multiple times, non-concurrently, for a maximum of 12 credits towards the MDes degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17243",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17243",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "W",
+              "location": "Ed Kaplan Family Institute 226",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Ruth K Schmidt",
+              "instructor_email": "rschmid8@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 8,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "Prerequisite required",
+          "general_requirements": "( Course or Test: IDN 542 May not be taken concurrently. )"
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "556",
+      "course_combined": "IDN 556",
+      "title": "Strategic Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=556",
+      "course_description": "This class teaches students how to use communication as a design method to accelerate synthesis and give tangible form to valuable information throughout the development process. Students are introduced to relevant theories of language, visual perception, visual representation, and communication.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Colleges: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13164",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13164",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Jennifer deWinter",
+              "instructor_email": "jdewinter@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 1,
+            "actual": 1,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "571",
+      "course_combined": "IDN 571",
+      "title": "Intro to Systems Theory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=571",
+      "course_description": "The course investigates principles and methods for representing and understanding structure and behavior of different types of systems. Various forms of theoretical and philosophical frameworks and methodologies are introduced to model and understand fundamental characteristics of domains of concern from different perspectives. Class topics include general systems theory, system modeling, causality, and formalisms. The class will also explore example applications of system concepts and modeling methods in design research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "14306",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14306",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nLecture",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate Business, Graduate, Undergraduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 11:35 AM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 226",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Lecture",
+              "instructor": "Weslynne Ashton",
+              "instructor_email": "washton@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 8,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "685",
+      "course_combined": "IDN 685",
+      "title": "PhD Principles/Method Dsgn Res",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=685",
+      "course_description": "Introduces the basic principles and methods for assembling, developing, and analyzing information in the tasks of design research. Techniques for collecting data, testing hypotheses, and presenting conclusions are learned in the context of conducting a pilot research project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Ph. D. Principles and Methods of Design Research",
+          "crn": "13167",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13167",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Oct 20, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "T",
+              "location": "Ed Kaplan Family Institute 227",
+              "date_range": "Oct 14, 2026 - Dec 05, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Carlos Teixeira",
+              "instructor_email": "carlos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 3,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "687",
+      "course_combined": "IDN 687",
+      "title": "Philosophl Context Dsgn Rsrch",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=687",
+      "course_description": "Explores the philosophical framework for conducting research and building knowledge in the field of design. Topics include concepts from epistemology, phenomology, and structuralism. Comparisons are made between design research and research in other fields.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Ph. D. Philosophical Context of Design Research",
+          "crn": "13168",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13168",
+          "credits": 1.5,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 07, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "T",
+              "location": "Ed Kaplan Family Institute 227",
+              "date_range": "Aug 17, 2026 - Oct 09, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Weslynne Ashton",
+              "instructor_email": "washton@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 5,
+            "remaining": 13,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "689",
+      "course_combined": "IDN 689",
+      "title": "Ph.D. Research Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=689",
+      "course_description": "Investigation and discussion by faculty and students of topics of interest from different perspectives such as building a design research discourse (reading research papers critically, selecting among publication venues); investigating alternative philosophical bases for design research (comparing empirical, pragmatic, and phenomenological approaches); or exploring methodological and theoretical conflicts in design research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13153",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13153",
+          "credits": 3.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nSeminar",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:50 PM",
+              "days": "M",
+              "location": "Ed Kaplan Family Institute 227",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Seminar",
+              "instructor": "Carlos Teixeira",
+              "instructor_email": "carlos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 18,
+            "actual": 4,
+            "remaining": 14,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "691",
+      "course_combined": "IDN 691",
+      "title": "Ph. D. Research and Thesis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=691",
+      "course_description": "Research and thesis writing for Ph. D. degree",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "13185",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13185",
+          "credits": 15.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Zachary Pino",
+              "instructor_email": "zach.pino@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 5,
+            "remaining": 1,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "13187",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13187",
+          "credits": 15.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Carlos Teixeira",
+              "instructor_email": "carlos@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 7,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "04",
+          "section_name": "",
+          "crn": "14202",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14202",
+          "credits": 15.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Ruth K Schmidt",
+              "instructor_email": "rschmid8@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 4,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        },
+        {
+          "section": "05",
+          "section_name": "",
+          "crn": "15047",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15047",
+          "credits": 15.0,
+          "schedule_type": "ID Tuition Rate\nMies Campus\nIndependent Study/Research",
+          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
+          "levels": "Graduate",
+          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 05, 2026",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Weslynne Ashton",
+              "instructor_email": "washton@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 6,
+            "actual": 0,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}

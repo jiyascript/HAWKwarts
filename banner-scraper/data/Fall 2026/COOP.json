@@ -1,0 +1,413 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course_code": "COOP",
+      "course_num": "010",
+      "course_combined": "COOP 010",
+      "title": "PT Co-Op Education UG",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=010",
+      "course_description": "This course provides administrative credits to students participating in a part-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17379",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17379",
+          "credits": 4.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 0,
+            "remaining": 100,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "011",
+      "course_combined": "COOP 011",
+      "title": "PT Co-Op Education UG",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=011",
+      "course_description": "This course provides a 0-credit course code for undergraduate students participating in a part-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17380",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17380",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 2,
+            "remaining": 98,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "012",
+      "course_combined": "COOP 012",
+      "title": "FT Co-Op Education UG",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=012",
+      "course_description": "This course provides administrative credits to students participating in a full-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17381",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17381",
+          "credits": 8.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate Business, Graduate, Non Credit",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 0,
+            "remaining": 100,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "013",
+      "course_combined": "COOP 013",
+      "title": "FT Co-Op Education UG",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=013",
+      "course_description": "This course provides a 0-credit course code for undergraduate students participating in a full-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17382",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17382",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 0,
+            "remaining": 100,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "020",
+      "course_combined": "COOP 020",
+      "title": "PT Co-Op Education GR",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=020",
+      "course_description": "This course provides administrative credits to graduate-level students participating in a part-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17383",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17383",
+          "credits": 3.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 1,
+            "remaining": 99,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "021",
+      "course_combined": "COOP 021",
+      "title": "PT Co-Op Education GR",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=021",
+      "course_description": "This course provides a 0-credit course code for graduate-level students participating in a part-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17384",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17384",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Undergraduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 1,
+            "remaining": 99,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "022",
+      "course_combined": "COOP 022",
+      "title": "FT Co-Op Education GR",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=022",
+      "course_description": "This course provides administrative credits to graduate-level students participating in a full-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17385",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17385",
+          "credits": 6.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 2,
+            "remaining": 98,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    },
+    {
+      "course_code": "COOP",
+      "course_num": "023",
+      "course_combined": "COOP 023",
+      "title": "FT Co-Op Education GR",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COOP&crse_numb_in=023",
+      "course_description": "This course provides a 0-credit course code for graduate-level students participating in a full-time co-op experience. To receive a satisfactory grade, students must complete a mid-term and final self-assessment survey and have their employer complete a final evaluation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "catalog_restrictions": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "17386",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17386",
+          "credits": 0.0,
+          "schedule_type": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP",
+          "instructional_method": "Standard Tuition Rate\nMies Campus\nCooperative Education COOP Schedule Type\nNon Traditional",
+          "associated_term": "Fall 2026",
+          "registration_dates": "Apr 06, 2026 to Sep 18, 2026",
+          "levels": "Graduate Business, Graduate",
+          "attributes": "Standard Tuition Rate",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "date_range": "Aug 17, 2026 - Dec 12, 2026",
+              "schedule_type": "Cooperative Education COOP",
+              "instructor": "Cynthia Stewart",
+              "instructor_email": "cstewart4@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 0,
+            "remaining": 100,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          },
+          "restrictions": "",
+          "prerequisites": "",
+          "general_requirements": ""
+        }
+      ]
+    }
+  ]
+}
