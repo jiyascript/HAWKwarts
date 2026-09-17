@@ -1,0 +1,53 @@
+.loading-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.loading-spinner {
+    border: 3px solid lightgray;
+    border-top: 3px solid black;
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+}
+
+.loading-indicator--small .loading-spinner {
+    width: 16px;
+    height: 16px;
+}
+
+.loading-indicator--medium .loading-spinner {
+    width: 24px;
+    height: 24px;
+}
+
+.loading-indicator--large .loading-spinner {
+    width: 36px;
+    height: 36px;
+}
+
+.loading-indicator--small .loading-message {
+    font-size: 12px;
+}
+
+.loading-indicator--medium .loading-message {
+    font-size: 14px;
+}
+
+.loading-indicator--large .loading-message {
+    font-size: 16px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

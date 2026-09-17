@@ -1,0 +1,50 @@
+.course-card {
+    width: 100%;
+    max-width: 500px;
+}
+
+.course-card__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 16px;
+}
+
+.course-card__code {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    margin: 0 0 4px 0;
+}
+
+.course-card__name {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+    margin: 0;
+}
+
+.course-card__interests {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 6px;
+
+    margin-top: 12px;
+}
+
+.course-card__description {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.course-card__actions {
+    display: flex;
+
+    margin-top: 16px;
+}

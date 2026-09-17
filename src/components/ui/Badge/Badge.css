@@ -1,0 +1,39 @@
+.badge {
+    display: inline-block;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+
+    padding: 4px 8px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    background-color: white;
+    color: black;
+}
+
+.badge--default {
+    background-color: white;
+    color: black;
+}
+
+.badge--success {
+    background-color: lightgray;
+    color: black;
+}
+
+.badge--warning {
+    background-color: lightgray;
+    color: black;
+}
+
+.badge--error {
+    background-color: lightgray;
+    color: black;
+}
+
+.badge--info {
+    background-color: lightgray;
+    color: black;
+}

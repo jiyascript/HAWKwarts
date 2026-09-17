@@ -1,0 +1,45 @@
+.advisor-message {
+    width: 100%;
+    max-width: 80%;
+
+    font-family: Arial, sans-serif;
+
+    background-color: white;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    padding: 14px;
+
+    box-sizing: border-box;
+}
+
+.advisor-message__header {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.advisor-message__label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.advisor-message__content {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.advisor-message--complete {
+    border: 1px solid black;
+}
+
+.advisor-message--loading {
+    opacity: 0.7;
+}
+
+.advisor-message--error {
+    border: 2px solid black;
+}

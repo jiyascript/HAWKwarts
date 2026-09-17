@@ -1,0 +1,29 @@
+.input {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+    background-color: white;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    padding: 10px 12px;
+
+    box-sizing: border-box;
+}
+
+.input::placeholder {
+    color: gray;
+}
+
+.input:focus {
+    outline: 2px solid black;
+    outline-offset: 1px;
+}
+
+.input:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
