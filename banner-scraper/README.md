@@ -1,5 +1,7 @@
 # Banner.py
-This is a Python scraper for [Banner](http://boca.brown.edu), which is Brown University's course catalog and registration system. It parses data from both the catalog and the schedule into Python objects, which can then be serialized to XML or JSON with the provided convenience functions.
+This is a Python scraper for [Banner](http://boca.brown.edu), which is Brown University's course catalog and registration system. It parses data from both the catalog and the schedule into Python objects, which can then be serialized to XML or JSON with the provided convenience functions. It now has been reformatted by HAWKwarts at Illinois Tech to be able to scrape Banner data there.
+
+Note: The contents below are leftover from the previous scraper's README. They might not be applicable to the current one.
 
 ## Quick start
 If you just want the data, copy and paste this into your Python interpreter:
