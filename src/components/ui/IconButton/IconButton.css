@@ -1,0 +1,42 @@
+.icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, sans-serif;
+
+    background-color: black;
+    color: white;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.icon-button--small {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+}
+
+.icon-button--medium {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.icon-button--large {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+}
+
+.icon-button:hover:not(:disabled) {
+    opacity: 0.8;
+}
+
+.icon-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

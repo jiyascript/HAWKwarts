@@ -1,0 +1,35 @@
+.chat-message {
+    display: flex;
+    width: 100%;
+
+    font-family: Arial, sans-serif;
+}
+
+.chat-message__content {
+    max-width: 70%;
+
+    padding: 10px 14px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    font-size: 14px;
+}
+
+.chat-message--advisor {
+    justify-content: flex-start;
+}
+
+.chat-message--advisor .chat-message__content {
+    background-color: white;
+    color: black;
+}
+
+.chat-message--user {
+    justify-content: flex-end;
+}
+
+.chat-message--user .chat-message__content {
+    background-color: black;
+    color: white;
+}
