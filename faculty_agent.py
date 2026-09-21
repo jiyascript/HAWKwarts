@@ -2,12 +2,50 @@ from ddgs import DDGS
 from langchain_core.tools import tool
 from langchain_ollama import ChatOllama
 from langchain.agents import create_agent
+import json
+import requests
+from bs4 import BeautifulSoup
 
 llm = ChatOllama(
     model="qwen3-vl:4b",
     temperature=0.0,
     reasoning=False
 )
+
+with open("iit_directory.json") as f:
+    DIRECTORY = json.load(f)
+
+@tool
+def search_iit_faculty_directory(professor_name: str) -> str:
+    """Search the official IIT faculty directory by name and return their
+    title, department, and profile info. Use this for any question about
+    an IIT professor's official role or contact info.
+    """
+    name_lower = professor_name.lower()
+    matches = [p for p in DIRECTORY if name_lower in p["name"].lower()]
+
+    if not matches:
+        return f"No IIT directory entry found for '{professor_name}'."
+
+    person = matches[0]
+    # Fetch the individual profile page for fuller detail (bio, office, etc.)
+    try:
+        resp = requests.get(person["profile_url"], headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        soup = BeautifulSoup(resp.text, "html.parser")
+        main = soup.select_one("main") or soup.body
+        detail_text = main.get_text(separator=" ", strip=True)[:1500]
+    except Exception:
+        detail_text = ""
+
+    summary = (
+        f"Name: {person['name']}\n"
+        f"Titles: {', '.join(person['tags'])}\n"
+        f"Email: {person.get('email', 'N/A')}\n"
+        f"Profile: {person['profile_url']}"
+    )
+    if detail_text:
+        summary += f"\n\nFull profile text: {detail_text}"
+    return summary
 
 @tool
 def web_search(query: str) -> str:
@@ -33,11 +71,11 @@ def web_search(query: str) -> str:
 
 agent = create_agent(
     model=llm, 
-    tools=[web_search], 
+    tools=[web_search, search_iit_faculty_directory], 
     system_prompt=(
         "You are an academic advisor at Illinois Institute of Technology. When a student asks "
-        "a question "
-        "call the web_search tool. When constructing the search query, use only the key terms "
+        "a question about a professor "
+        "call the search_iit_faculty_directory tool. When constructing the search query, use only the key terms "
         "from the user's question — do NOT add a year, date range, or your own assumptions "
         "about what 'recent' means. Your training data may be outdated; let the search results, "
         "not your prior beliefs, determine the timeframe. Base your final answer strictly on "
