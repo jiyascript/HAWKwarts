@@ -10,7 +10,7 @@
       "course_description": "The Braven Accelerator Course is a 14-week class that is designed to develop career readiness skills that are essential for securing and succeeding in a job or graduate school. These 6 skills are: Career Navigation, Communication, Organization, Leadership, Teamwork, and Problem Solving. The course is divided into 3 parts: Design Your Career, where you will identify your personal leadership assets, engage in career exploration, and identify a path forward for obtaining a career of your choice; Launch Your Career, where you will build your professional portfolio and practice networking and interview skills; and Capstone Challenge, where you will solve a real-world workplace challenge with your cohort. Over the course of the Accelerator, Fellows will: 1. Self-reflect in order to take actionable steps in their careers, like exploring career paths, creating a career plan, building a professional portfolio, and developing a network. 2. Apply effective communication strategies with peers and professionals from a range of contexts, developing skills like active listening, demonstrating sensitivity and empathy, respecting differences, and presenting their ideas in an organized manner. 3. Develop career management skills, like prioritization, dependability, monitoring progress towards goals, and adjusting plans when needed. 4. Model leadership by embodying core values, fostering collaboration toward shared goals, and engaging in ongoing learning through feedback and self-reflection. 5. Collaborate effectively with their cohort to achieve common goals by demonstrating personal accountability and skillfully navigating diverse perspectives. 6. Design a solution that addresses root causes of a problem in order to solve a real-world challenge.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Graduate Business Graduate May not be enrolled as the following Classifications: First Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,10 +19,7 @@
           "crn": "17336",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17336",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Standard Tuition Rate",
           "notes": "",
@@ -32,7 +29,6 @@
               "time": "5:00 PM - 7:00 PM",
               "days": "W",
               "location": "TBA",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Kevin W Cassel",
               "instructor_email": "cassel@illinoistech.edu"
@@ -56,10 +52,7 @@
           "crn": "17337",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17337",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nInternet Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Standard Tuition Rate",
           "notes": "",
@@ -69,7 +62,6 @@
               "time": "3:15 PM - 5:15 PM",
               "days": "R",
               "location": "TBA",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Kevin W Cassel",
               "instructor_email": "cassel@illinoistech.edu"

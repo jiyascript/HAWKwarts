@@ -19,10 +19,7 @@
           "crn": "16715",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16715",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
           "notes": "",
@@ -32,7 +29,6 @@
               "time": "11:25 AM - 12:40 PM",
               "days": "MW",
               "location": "Siegel Hall 118",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Alican Taylan",
               "instructor_email": "ataylan@illinoistech.edu"
@@ -48,7 +44,7 @@
           },
           "restrictions": "",
           "prerequisites": "Prerequisite or test required",
-          "general_requirements": "AWR 7 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and A0W 7 to 12 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently."
+          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
         }
       ]
     },
@@ -70,10 +66,7 @@
           "crn": "16223",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16223",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
           "notes": "",
@@ -83,7 +76,6 @@
               "time": "10:00 AM - 11:15 AM",
               "days": "MW",
               "location": "Hermann Hall 002",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Alaina Griffin",
               "instructor_email": "agriffin8@illinoistech.edu"
@@ -121,10 +113,7 @@
           "crn": "16716",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16716",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
           "notes": "",
@@ -134,7 +123,6 @@
               "time": "11:25 AM - 12:40 PM",
               "days": "TR",
               "location": "Siegel Hall 237",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Markus D Dohner",
               "instructor_email": "mdohner@illinoistech.edu"

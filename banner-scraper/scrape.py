@@ -1,14 +1,35 @@
 import banner
+import time
+import subprocess
+
 semester = 'Fall 2026'
 
-# download all pages for Fall 202pyth6 into a folder named .cache
-banner.download_semester(semester)
+if __name__ == "__main__":
 
-# scrape all the previously downloaded pages in the .cache folder
-courses = banner.parse_semester(semester)
+    start1 = time.time()
 
-print("\ndone")
+    # download all pages for Fall 2026 into a folder named .cache
 
+    # adjust the departments to be scraped here #
+    # banner.download_semester(semester) # default: all
+    # banner.download_semester(semester, subjects_filters=['CS', 'MATH'])
+    banner.download_semester(semester, subjects_filters=['STAT'])
+
+    # scrape all the previously downloaded pages in the .cache folder
+    courses = banner.parse_semester(semester)
+
+    end1 = time.time()
+    start2 = time.time()
+
+    # runs combine_and_clean to jsonify everything
+    subprocess.run(["python", "combine_and_clean.py"], check=True)
+
+    end2 = time.time()
+
+    print("\nScraping and parsing complete")
+    print(f"Time Taken (downloading pages): {end1 - start1:.2f} seconds")
+    print(f"Time Taken (converting into JSON): {end2 - start2:.2f} seconds")
+    print(f"Overall Execution Time: {end2 - start1:.2f} seconds")
 
 
 # TO ADD LATER TO README

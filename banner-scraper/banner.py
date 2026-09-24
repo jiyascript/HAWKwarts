@@ -74,6 +74,7 @@ class Section:
         self.prerequisites = ''
         self.general_requirements = ''
         self.cross_listed_courses = ''
+        self.mutual_exclusion = ''
 
 class Meeting:
     '''Meeting objects are owned by Section objects.'''
@@ -194,7 +195,7 @@ def _save(path, data):
         pass
     open(path, 'wb').write(data)
 
-def _download_semester_helper(semester, start_url, path_template, term_url, term_data_fn, listing_url, listing_data_fn):
+def _download_semester_helper(semester, start_url, path_template, term_url, term_data_fn, listing_url, listing_data_fn, subjects_filter=None):
     session = requests.Session()
 
     response = session.get(start_url)
@@ -236,6 +237,9 @@ def _download_semester_helper(semester, start_url, path_template, term_url, term
 
     subjects = [o.get('value') for o in subject_select.find_all('option') if o.get('value')]
 
+    if subjects_filter is not None:
+        subjects = [s for s in subjects if s in subjects_filter]
+
     # download each department schedule
     for i, subject in enumerate(subjects): # for all courses
     # for i, subject in enumerate(['CS']): # for CS only (quicker test)
@@ -244,11 +248,17 @@ def _download_semester_helper(semester, start_url, path_template, term_url, term
 
         _save((path_template % semester) + subject + '.html', response.content)
         print('downloaded department %s' % (subject))
+    
+    return subjects
 
-def _download_details(directory, link_regex, id_regex, extract_fn):
+def _download_details(directory, link_regex, id_regex, extract_fn, subjects=None):
     session = requests.Session()
     for filename in os.listdir(directory):
         if not filename.endswith('.html'):
+            continue
+
+        subject = filename[:-len('.html')]
+        if subjects is not None and subject not in subjects:
             continue
 
         data = open(directory + filename, encoding='utf-8').read()
@@ -270,7 +280,7 @@ def _download_details(directory, link_regex, id_regex, extract_fn):
         _save(details_path, json.dumps(subject_details, indent=2).encode('utf-8'))
         print('downloaded details for %s' % filename)
 
-def _download_schedule_details(semester):
+def _download_schedule_details(semester, subjects=None):
     def extract(session, detail_soup):
         fields = _extract_schedule_detail_fields(detail_soup)
         if fields.get('syllabus_url'):
@@ -280,13 +290,13 @@ def _download_schedule_details(semester):
             fields.update(_extract_syllabus_fields(syllabus_soup))
         return fields
 
-    _download_details(SCHEDULE_DATA_PATH % semester, SCHEDULE_LINK_REGEX, r'crn_in=(\d+)', extract)
+    _download_details(SCHEDULE_DATA_PATH % semester, SCHEDULE_LINK_REGEX, r'crn_in=(\d+)', extract, subjects=subjects)
 
-def _download_catalog_details(semester):
-    _download_details(CATALOG_DATA_PATH % semester, CATALOG_LINK_REGEX, r'crse_numb_in=(\w+)',
-                       lambda session, detail_soup: _extract_catalog_detail_fields(detail_soup))
+# def _download_catalog_details(semester):
+#     _download_details(CATALOG_DATA_PATH % semester, CATALOG_LINK_REGEX, r'crse_numb_in=(\w+)',
+#                        lambda session, detail_soup: _extract_catalog_detail_fields(detail_soup))
 
-def download_semester(semester_name):
+def download_semester(semester_name, subjects_filters=None):
     '''
     Download the entire semester given by the semester name (example: "Fall 2010")
     and store it in the local cache directory.
@@ -294,12 +304,13 @@ def download_semester(semester_name):
     print('downloading', semester_name)
 
     print('\ndownloading schedule')
-    _download_semester_helper(
+    schedule_subjects = _download_semester_helper(
         semester_name, SCHEDULE_MAIN_URL, SCHEDULE_DATA_PATH,
         term_url='https://ssb.iit.edu/bnrprd/bwckgens.p_proc_term_date',
         term_data_fn=_schedule_term_data,
         listing_url='https://ssb.iit.edu/bnrprd/bwckschd.p_get_crse_unsec',
         listing_data_fn=_schedule_listing_data,
+        subjects_filter=subjects_filters,
     )
 
     print('\ndownloading catalog')
@@ -309,12 +320,13 @@ def download_semester(semester_name):
         term_data_fn=lambda code: {'call_proc_in': 'bwckctlg.p_disp_dyn_ctlg', 'cat_term_in': code},
         listing_url='https://ssb.iit.edu/bnrprd/bwckctlg.p_display_courses',
         listing_data_fn=_catalog_listing_data,
+        subjects_filter=subjects_filters,
     )
     
-    print('\ndownloading catalog details')
-    _download_catalog_details(semester_name)
+    # print('\ndownloading catalog details')
+    # _download_catalog_details(semester_name)
     print('\ndownloading schedule details')
-    _download_schedule_details(semester_name)
+    _download_schedule_details(semester_name, subjects=schedule_subjects)
 
 ################################################################################
 # parsing
@@ -327,7 +339,7 @@ def _to_str(element):
 # get the text in between the nodes, but also convert <br> to '\n'
 def _to_str_br(element):
     strings = []
-    for current in element.currents:
+    for current in element.descendants:
         if isinstance(current, NavigableString):
             strings.append(str(current))
         elif isinstance(current, Tag) and current.name.lower() == 'br':
@@ -374,6 +386,7 @@ def _extract_schedule_detail_fields(soup):
         'prerequisites': '',
         'general_requirements': '',
         'cross_listed_courses': '',
+        'mutual_exclusions': '',
 
         'syllabus_url': None,
         'learning_objectives': '',
@@ -412,22 +425,23 @@ def _extract_schedule_detail_fields(soup):
     fields['prerequisites'] = found.get('Prerequisites:', '')
     fields['general_requirements'] = found.get('General Requirements:', '')
     fields['cross_listed_courses'] = found.get('Cross List Courses:', '')
+    fields['mutual_exclusion'] = found.get('Mutual Exclusion:', '')
 
     return fields
 
-def _extract_catalog_detail_fields(soup):
-    main = soup.find('td', class_='ntdefault')
-    if main is None:
-        return {}
+# def _extract_catalog_detail_fields(soup):
+#     main = soup.find('td', class_='ntdefault')
+#     if main is None:
+#         return {}
 
-    labels = ['Restrictions:', 'Mutual Exclusion:']
-    full_text = main.get_text('\n', strip=True)
-    found = _extract_labeled_sections(full_text, labels)
+#     labels = ['Restrictions:', 'Mutual Exclusion:']
+#     full_text = main.get_text('\n', strip=True)
+#     found = _extract_labeled_sections(full_text, labels)
 
-    return {
-        'restrictions': found.get('Restrictions:', ''),
-        'mutual_exclusion': found.get('Mutual Exclusion:', ''),
-    }
+#     return {
+#         'restrictions': found.get('Restrictions:', ''),
+#         'mutual_exclusion': found.get('Mutual Exclusion:', ''),
+#     }
 
 def _extract_syllabus_fields(soup):
     main = soup.find('td', class_='dddefault')
@@ -444,10 +458,14 @@ def _extract_syllabus_fields(soup):
         'technical_requirements': found.get('Technical Requirements:', ''),
     }
 
-def _parse_semester_schedule(semester_name):
+def _parse_semester_schedule(semester_name, subjects=None):
     directory = SCHEDULE_DATA_PATH % semester_name
     # filenames = os.listdir(directory)
     filenames = [f for f in os.listdir(directory) if f.endswith('.html')]
+
+    if subjects is not None:
+        filenames = [f for f in filenames if f[:-len('.html')] in subjects]
+
     name_to_course = {}
 
     for i, filename in enumerate(filenames):
@@ -486,6 +504,7 @@ def _parse_semester_schedule(semester_name):
             section.prerequisites = detail_fields.get('prerequisites', '')
             section.general_requirements = detail_fields.get('general_requirements', '')
             section.cross_listed_courses = detail_fields.get('cross_listed_courses', '')
+            section.mutual_exclusion = detail_fields.get('mutual_exclusion', '')
 
             # extract section information from the details
             lines = _to_str(element).split('\n')
@@ -529,13 +548,19 @@ def _parse_semester_schedule(semester_name):
                 pass
             course.name = name
             course.title = title
+            course.restrictions = section.restrictions
+            course.mutual_exclusion = section.mutual_exclusion
             course.get_semester(semester_name).sections.append(section)
         print('parsed schedule %s' % (filename))
     return list(name_to_course.values())
 
-def _parse_semester_catalog(semester_name):
+def _parse_semester_catalog(semester_name, subjects=None):
     directory = CATALOG_DATA_PATH % semester_name
     filenames = os.listdir(directory)
+
+    if subjects is not None:
+        filenames = [f for f in filenames if f[:-len('.html')] in subjects]
+
     courses = []
 
     for i, filename in enumerate(filenames):
@@ -545,10 +570,10 @@ def _parse_semester_catalog(semester_name):
         data = open(directory + filename, encoding='utf-8').read()
         soup = BeautifulSoup(data, 'html.parser')
 
-        details_path = directory + filename.replace('.html', '.json')
-        subject_details = {}
-        if os.path.exists(details_path):
-            subject_details = json.loads(open(details_path, encoding='utf-8').read())
+        # details_path = directory + filename.replace('.html', '.json')
+        # subject_details = {}
+        # if os.path.exists(details_path):
+        #     subject_details = json.loads(open(details_path, encoding='utf-8').read())
 
         for title_cell in soup.find_all('td', class_='nttitle'):
             entry = _parse_catalog_entry(title_cell.parent)
@@ -559,9 +584,9 @@ def _parse_semester_catalog(semester_name):
             course.description = entry['description']
             course.syllabus_url = entry['syllabus_url']
 
-            detail_fields = subject_details.get(entry['number'], {})
-            course.restrictions = detail_fields.get('restrictions', '')
-            course.mutual_exclusion = detail_fields.get('mutual_exclusion', '')
+            # detail_fields = subject_details.get(entry['number'], {})
+            # course.restrictions = detail_fields.get('restrictions', '')
+            # course.mutual_exclusion = detail_fields.get('mutual_exclusion', '')
 
             courses.append(course)
 
@@ -599,15 +624,15 @@ def _parse_catalog_entry(title_row):
         'number': number,
     }
 
-def parse_semester(semester_name):
+def parse_semester(semester_name, subjects=None):
     '''
     Parse the entire semester given by the semester name (example: "Fall 2010")
     and return a list of Course objects for that semester. Must download the
     semester with download_semester() before parsing.
     '''
     print('\nparsing semester', semester_name)
-    schedule_courses = _parse_semester_schedule(semester_name)
-    catalog_courses = _parse_semester_catalog(semester_name)
+    schedule_courses = _parse_semester_schedule(semester_name, subjects=subjects)
+    catalog_courses = _parse_semester_catalog(semester_name, subjects = subjects)
 
     # make indices for quick access
     schedule_index = dict((course.name, course) for course in schedule_courses)
@@ -625,6 +650,8 @@ def parse_semester(semester_name):
 
         if name in schedule_index:
             course.semesters = schedule_index[name].semesters
+            course.restrictions = schedule_index[name].restrictions
+            course.mutual_exclusion = schedule_index[name].mutual_exclusion
 
         if name in schedule_index and name in catalog_index:
             if course.title != schedule_index[name].title:

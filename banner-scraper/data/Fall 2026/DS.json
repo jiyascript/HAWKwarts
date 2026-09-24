@@ -10,7 +10,7 @@
       "course_description": "Introduces students to data science as a profession, as currently practiced and continuing to develop. Presents various elements of the data science life cycle at an introductory level, culminating with a start-to-finish data analysis project. Includes guest lectures from data science practitioners and faculty. Explores real-world examples of ethical issues, bias, and privacy in data science. Survey careers in data science and familiarize students with elements of career development.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,10 +19,7 @@
           "crn": "15542",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15542",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Standard Tuition Rate",
           "notes": "",
@@ -32,7 +29,6 @@
               "time": "11:25 AM - 12:40 PM",
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 119",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Kiah Wah Ong",
               "instructor_email": "kong2@illinoistech.edu"
@@ -40,8 +36,8 @@
           ],
           "availability": {
             "capacity": 30,
-            "actual": 8,
-            "remaining": 22,
+            "actual": 7,
+            "remaining": 23,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -61,7 +57,7 @@
       "course_description": "This course introduces the critical concepts and skills in statistical inference, machine learning, and computer programming, through hands-on analysis of real-world datasets from various fields.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -70,10 +66,7 @@
           "crn": "15429",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15429",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Computing Requirement, Standard Tuition Rate",
           "notes": "",
@@ -83,7 +76,6 @@
               "time": "10:00 AM - 11:15 AM",
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 102",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Yuhan Ding",
               "instructor_email": "yding2@illinoistech.edu"
@@ -121,10 +113,7 @@
           "crn": "17081",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17081",
           "credits": 3.0,
-          "schedule_type": "Standard Tuition Rate\nMies Campus\nLecture",
           "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "Standard Tuition Rate",
           "notes": "",
@@ -134,7 +123,6 @@
               "time": "1:50 PM - 3:05 PM",
               "days": "TR",
               "location": "Hermann Hall 005",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Jawahar J. Panchal",
               "instructor_email": "jpanchal@illinoistech.edu"

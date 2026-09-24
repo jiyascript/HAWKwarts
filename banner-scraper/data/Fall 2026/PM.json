@@ -10,7 +10,7 @@
       "course_description": "The effective development, planning, execution, and communication of special projects are critical to all types of public service organizations and private sector organizations. Service organizations, healthcare providers, nonprofits, government organizations, and private sector organizations constantly pursue new initiatives and projects to address the demands of their constantly changing environments. This course will offer an introduction to basic concepts and methods for directing projects and will provide students with tools that prepare them for success in project management. Examples will be drawn from both the public and private sector. The course will be divided into the following components: •Project Plan Definition (Purpose, Goals, Objectives, Expectations, Roles, and Quality Management, Approach and Ground Rules)•Scope of the Project (Definition, Costs, Benefits, Risks, Products, Deliverables, Milestone, and Impacted Business Areas)•Assumptions (Specific and Measurable)•Constraints (Limitations to the Project, Related Projects, Critical Dependencies)• Quality Management Approach (Activity Reviews/Walkthroughs, Tools and Techniques, Test Approach, Performance/Quality Standards, Quality Management Roles, and Training)• Project Management Approach (Work Breakdown, Basis of Estimates, Project Effort Estimation, Project Standards, Project Roles and Responsibilities, Change and Issues Management Approach, Communication and Control Approach)• Attachments (Any pertinent work, flow charts, and approvals that need to be added to flesh out the project)• Project Budget• Project Impact Report• Approvals (Sign-off sheets)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,10 +19,7 @@
           "crn": "16327",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16327",
           "credits": 3.0,
-          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "Business Graduate Tuition Rate",
           "notes": "",
@@ -32,7 +29,6 @@
               "time": "6:00 PM - 8:00 PM",
               "days": "MW",
               "location": "Downtown Campus 470",
-              "date_range": "Aug 17, 2026 - Oct 10, 2026",
               "schedule_type": "Lecture",
               "instructor": "Prasad Satya Kodukula",
               "instructor_email": "pkodukul@illinoistech.edu"
@@ -56,10 +52,7 @@
           "crn": "16505",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16505",
           "credits": 3.0,
-          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "Business Graduate Tuition Rate",
           "notes": "",
@@ -69,7 +62,6 @@
               "time": "6:00 PM - 8:00 PM",
               "days": "TR",
               "location": "Downtown Campus 470",
-              "date_range": "Oct 12, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Joanne E. Howard",
               "instructor_email": "jhowar12@illinoistech.edu"
@@ -77,8 +69,8 @@
           ],
           "availability": {
             "capacity": 20,
-            "actual": 15,
-            "remaining": 5,
+            "actual": 16,
+            "remaining": 4,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -93,10 +85,7 @@
           "crn": "17522",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17522",
           "credits": 3.0,
-          "schedule_type": "Business Graduate Tuition Rate\nInternet Campus\nLecture",
           "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "Business Graduate Tuition Rate",
           "notes": "",
@@ -106,7 +95,6 @@
               "time": "TBA",
               "days": "",
               "location": "TBA",
-              "date_range": "Oct 12, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Prasad Satya Kodukula",
               "instructor_email": "pkodukul@illinoistech.edu"
@@ -114,8 +102,8 @@
           ],
           "availability": {
             "capacity": 20,
-            "actual": 4,
-            "remaining": 16,
+            "actual": 6,
+            "remaining": 14,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -144,10 +132,7 @@
           "crn": "16328",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16328",
           "credits": 3.0,
-          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "Business Graduate Tuition Rate",
           "notes": "",
@@ -157,7 +142,6 @@
               "time": "9:00 AM - 1:00 PM",
               "days": "S",
               "location": "Downtown Campus 470",
-              "date_range": "Aug 17, 2026 - Oct 10, 2026",
               "schedule_type": "Lecture",
               "instructor": "Frank Biga",
               "instructor_email": "fbiga@illinoistech.edu"
@@ -186,7 +170,7 @@
       "course_description": "This course covers the fundamentals of agile project management. Topics include agile vs. traditional project management approaches, agile history, agile manifesto, agile planning, theory of constraints and scaling agile to the enterprise level. You will also learn key agile project management practices and agile project management tools.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student Corequisites: PM 501",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -195,10 +179,7 @@
           "crn": "16329",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16329",
           "credits": 3.0,
-          "schedule_type": "Business Graduate Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "Business Graduate Tuition Rate",
           "notes": "",
@@ -208,7 +189,6 @@
               "time": "9:00 AM - 1:00 PM",
               "days": "S",
               "location": "Downtown Campus 485",
-              "date_range": "Oct 12, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Jonathan M Lee",
               "instructor_email": "jlee363@illinoistech.edu"
@@ -216,8 +196,8 @@
           ],
           "availability": {
             "capacity": 20,
-            "actual": 8,
-            "remaining": 12,
+            "actual": 9,
+            "remaining": 11,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99

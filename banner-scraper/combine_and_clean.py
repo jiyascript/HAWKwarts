@@ -22,7 +22,7 @@ def get_labeled_value(text, label):
         return clean_text(match.group(1))
     return ""
 
-def get_catalog_data(soup, catalog_json):
+def get_catalog_data(soup):
     catalog_courses = {}
 
     for title_row in soup.find_all("td", class_="nttitle"):
@@ -76,30 +76,29 @@ def get_catalog_data(soup, catalog_json):
             if syllabus_url.startswith("/"):
                 syllabus_url = "https://ssb.iit.edu" + syllabus_url
 
-        catalog_info = catalog_json.get(course_num, {})
+        # catalog_info = catalog_json.get(course_num, {})
         catalog_courses[course_code + course_num] = {
             "title": title,
             "catalog_entry_url": catalog_url,
             "course_description": description,
             "catalog_syllabus_url": syllabus_url,
-            "catalog_restrictions": catalog_info.get("restrictions", ""),
-            "mutual_exclusions": catalog_info.get("mutual_exclusion", "")
+            # "mutual_exclusions": catalog_info.get("mutual_exclusion", "")
         }
 
     return catalog_courses
 
 def process_department(semester, department):
     catalog_html_path = os.path.join(CACHE_DIR, semester, "catalog", department + ".html")
-    catalog_json_path = os.path.join(CACHE_DIR, semester, "catalog", department + ".json")
+    # catalog_json_path = os.path.join(CACHE_DIR, semester, "catalog", department + ".json")
     schedule_html_path = os.path.join(CACHE_DIR, semester, "schedule", department + ".html")
     schedule_json_path = os.path.join(CACHE_DIR, semester, "schedule", department + ".json")
 
     with open(catalog_html_path, "r", encoding="utf-8") as f:
         catalog_soup = BeautifulSoup(f, "html.parser")
-    with open(catalog_json_path, "r", encoding="utf-8") as f:
-        catalog_json = json.load(f)
+    # with open(catalog_json_path, "r", encoding="utf-8") as f:
+    #     catalog_json = json.load(f)
 
-    catalog_courses = get_catalog_data(catalog_soup, catalog_json)
+    catalog_courses = get_catalog_data(catalog_soup)
 
     with open(schedule_html_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f, "html.parser")
@@ -169,17 +168,10 @@ def process_department(semester, department):
 
             notes = clean_text(" ".join(note_parts))
 
-        associated_term = get_labeled_value(text, "Associated Term")
-        registration_dates = get_labeled_value(text, "Registration Dates")
         levels = get_labeled_value(text, "Levels")
         attributes = get_labeled_value(text, "Attributes")
         credits_match = re.search(r"([\d.]+)\s+Credits", text)
         credits = float(credits_match.group(1)) if credits_match else None
-        schedule_type = ""
-        instructional_method = ""
-
-        schedule_type_match = re.search(r"([\w/]+(?:\s[\w/]+)*)\s+Schedule Type", text)
-        schedule_type = schedule_type_match.group(1) if schedule_type_match else ""
 
         instructional_method_match = re.search(r"([\w/]+(?:\s[\w/]+)*)\s+Instructional Method", text)
         instructional_method = instructional_method_match.group(1) if instructional_method_match else ""
@@ -231,7 +223,6 @@ def process_department(semester, department):
                     "time": values[1],
                     "days": values[2],
                     "location": values[3],
-                    "date_range": values[4],
                     "schedule_type": values[5],
                     "instructor": instructor,
                     "instructor_email": instructor_email
@@ -242,6 +233,8 @@ def process_department(semester, department):
             "learning_objectives",
             ""
         )
+        restrictions = section_availability.get("restrictions", "")
+        mutual_exclusion = section_availability.get("mutual_exclusion", "")
 
         section_data = {
             "section": section,
@@ -249,10 +242,7 @@ def process_department(semester, department):
             "crn": crn,
             "section_url": course_url,
             "credits": credits,
-            "schedule_type": schedule_type,
             "instructional_method": instructional_method,
-            "associated_term": associated_term,
-            "registration_dates": registration_dates,
             "levels": levels,
             "attributes": attributes,
             "notes": notes,
@@ -280,8 +270,8 @@ def process_department(semester, department):
                 "course_description": catalog_course.get("course_description", ""),
                 "learning_objectives": learning_objectives,
                 "catalog_syllabus_url": catalog_course.get("catalog_syllabus_url", ""),
-                "catalog_restrictions": catalog_course.get("catalog_restrictions", ""),
-                "mutual_exclusions": catalog_course.get("mutual_exclusions", ""),
+                "catalog_restrictions": restrictions,
+                "mutual_exclusions": mutual_exclusion,
                 "sections": []
             }
         courses[course_key]["sections"].append(section_data)
@@ -311,4 +301,4 @@ for semester in os.listdir(CACHE_DIR):
         department = filename[:-len(".html")]
         process_department(semester, department)
 
-print("done")
+print("combine_and_clean done")

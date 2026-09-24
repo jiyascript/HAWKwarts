@@ -19,10 +19,7 @@
           "crn": "13489",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13489",
           "credits": 18.0,
-          "schedule_type": "Standard Tuition Rate\nInternational Program Campus\nSeminar",
           "instructional_method": "Standard Tuition Rate\nInternational Program Campus\nSeminar Schedule Type\nNon Traditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Undergraduate",
           "attributes": "Standard Tuition Rate",
           "notes": "",
@@ -32,7 +29,6 @@
               "time": "TBA",
               "days": "",
               "location": "TBA",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Seminar",
               "instructor": "Faculty TBA",
               "instructor_email": "NoReply-Reg@iit.edu"

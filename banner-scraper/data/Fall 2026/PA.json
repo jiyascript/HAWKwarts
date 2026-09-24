@@ -10,7 +10,7 @@
       "course_description": "PA 502 builds awareness and understanding of the behavior of individuals and groups in organizations, preparing managers to be more effective within their organizational contexts. Topics include individual differences in motivation, perception, culture and learning style, group and organizational dynamics, and the impact of organizational structure and culture on behavior. Leadership techniques for influencing other organizational members, creative problem-solving and decision-making, ethics and values-based managing are covered. This course helps students relate basic theories, concepts, and techniques to real-world situations through the extensive use of case studies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,10 +19,7 @@
           "crn": "17096",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17096",
           "credits": 3.0,
-          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
           "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
           "attributes": "MPA Tuition Rate",
           "notes": "",
@@ -32,7 +29,6 @@
               "time": "6:00 PM - 8:00 PM",
               "days": "MW",
               "location": "Downtown Campus 403",
-              "date_range": "Aug 17, 2026 - Oct 10, 2026",
               "schedule_type": "Lecture",
               "instructor": "Joanne E. Howard",
               "instructor_email": "jhowar12@illinoistech.edu"
@@ -61,7 +57,7 @@
       "course_description": "The purpose of this course is to introduce students to public budgeting, governmental accounting and related areas of public fiscal administration. The course will give students a basic understanding of the concepts and skills needed to evaluate budget processes and documents and to assess the financial condition of governments. It is also designed to provide students with an understanding of the public finance environment and an opportunity to explore practical challenges in managing government resources. Emphasizing best practice models and case studies, the course will focus primarily on local government finance with some reference to state governmental policies and practices and nonprofit organizations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -70,10 +66,7 @@
           "crn": "15579",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15579",
           "credits": 3.0,
-          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
           "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
           "attributes": "MPA Tuition Rate",
           "notes": "",
@@ -83,7 +76,6 @@
               "time": "6:00 PM - 8:00 PM",
               "days": "MW",
               "location": "Downtown Campus 403",
-              "date_range": "Oct 12, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Roland Calia",
               "instructor_email": "rcalia@illinoistech.edu"
@@ -121,10 +113,7 @@
           "crn": "17097",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17097",
           "credits": 3.0,
-          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "MPA Tuition Rate",
           "notes": "",
@@ -134,7 +123,6 @@
               "time": "6:00 PM - 8:00 PM",
               "days": "TR",
               "location": "Downtown Campus 470",
-              "date_range": "Oct 12, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Joanne E. Howard",
               "instructor_email": "jhowar12@illinoistech.edu"
@@ -172,10 +160,7 @@
           "crn": "15581",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15581",
           "credits": 3.0,
-          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 21, 2026",
           "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
           "attributes": "MPA Tuition Rate",
           "notes": "",
@@ -185,7 +170,6 @@
               "time": "6:00 PM - 8:00 PM",
               "days": "TR",
               "location": "Downtown Campus 470",
-              "date_range": "Aug 17, 2026 - Oct 10, 2026",
               "schedule_type": "Lecture",
               "instructor": "Helen N. Ezenwa",
               "instructor_email": "hezenwa@illinoistech.edu"
@@ -214,7 +198,7 @@
       "course_description": "This course will present a variety of tools and techniques to evaluate existing programs and policies to determine and measure their most important elements, and to give policy-makers the necessary information to fund, improve or terminate programs based on empirical evidence regarding factors such as cost/benefit, efficiency, effectiveness, equity, and other important characteristics. Evaluation can also allow policy-makers and staff to focus budgets and efforts to best achieve policy or program goals.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -223,10 +207,7 @@
           "crn": "11198",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11198",
           "credits": 3.0,
-          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nLecture",
           "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Oct 16, 2026",
           "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
           "attributes": "MPA Tuition Rate",
           "notes": "",
@@ -236,7 +217,6 @@
               "time": "9:00 AM - 1:00 PM",
               "days": "S",
               "location": "Downtown Campus 411",
-              "date_range": "Oct 12, 2026 - Dec 12, 2026",
               "schedule_type": "Lecture",
               "instructor": "Wenchen Wang",
               "instructor_email": "wwang141@illinoistech.edu"
@@ -244,8 +224,8 @@
           ],
           "availability": {
             "capacity": 10,
-            "actual": 6,
-            "remaining": 4,
+            "actual": 8,
+            "remaining": 2,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -265,7 +245,7 @@
       "course_description": "This course provides practical experience in public administration and may be taken only by students lacking extensive work experience in governmental administration.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Graduate Business Prerequisites: Prerequisite required General Requirements: Course or Test: PA 501 Minimum Grade of C May not be taken concurrently.",
+      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -274,10 +254,7 @@
           "crn": "17468",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17468",
           "credits": 3.0,
-          "schedule_type": "MPA Tuition Rate\nDowntown Campus\nInternship",
           "instructional_method": "MPA Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
-          "associated_term": "Fall 2026",
-          "registration_dates": "Apr 06, 2026 to Aug 25, 2026",
           "levels": "Graduate Business, Graduate, Undergraduate",
           "attributes": "MPA Tuition Rate",
           "notes": "",
@@ -287,7 +264,6 @@
               "time": "TBA",
               "days": "",
               "location": "TBA",
-              "date_range": "Aug 17, 2026 - Dec 12, 2026",
               "schedule_type": "Internship",
               "instructor": "Roland Calia",
               "instructor_email": "rcalia@illinoistech.edu"
