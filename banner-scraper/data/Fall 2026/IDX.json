@@ -10,7 +10,11 @@
       "course_description": "Prototyping is a key method that designers use to navigate the design development process. Although prototyping is often thought of as coming at the end of the process to verify a design solution, our approach maintains that prototyping needs to happen throughout the process from initial research to storytelling to concept generation and lastly to refine and improve the selected direction.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "17244",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17244",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +44,128 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "505",
+      "course_combined": "IDX 505",
+      "title": "Critique Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=505",
+      "course_description": "Explore the various types of critique and their usefulness at different stages of the design process",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "506",
+      "course_combined": "IDX 506",
+      "title": "Fundamentals of Product Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=506",
+      "course_description": "In this course students will examine what, how, and why product form happens. Topics include the relationship between a product's form and corporate identity, visual trends, new materials, manufacturing techniques, semantics, product architecture, and ergonomics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "508",
+      "course_combined": "IDX 508",
+      "title": "Modes of Human Experience",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=508",
+      "course_description": "Analysis of issues involved in a design project with a human factors perspective is an important step during user research and the design development process. Knowing the basic concepts and principles of human factors will enable students to be user centered in their approach.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "509",
+      "course_combined": "IDX 509",
+      "title": "Data Literacy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=509",
+      "course_description": "Introduction to the methods, tools, and techniques for working with “quant” data in the design process",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "511",
+      "course_combined": "IDX 511",
+      "title": "Shaping Digital Futures",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=511",
+      "course_description": "Explore the interdisciplinary practice of crafting computational and networked services that enhance human life, balancing technological innovation with social responsibility, ethics, and economic values.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "512",
+      "course_combined": "IDX 512",
+      "title": "Product Design Workshop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=512",
+      "course_description": "This course is an opportunity for students to exercise their design muscles throughout an entire product development experience from framing through ideation to final concepts. Students may take this class multiple times, non-concurrently, for a maximum of 12 credits towards their degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "513",
+      "course_combined": "IDX 513",
+      "title": "Generative Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=513",
+      "course_description": "Explores a variety of digital fabrication tools alongside the language, limitations, and capabilities of contemporary and near-future digital manufacturing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDX",
@@ -57,7 +176,11 @@
       "course_description": "This course will take on these interrelated awareness, educational, and communication design challenges while striving to build student skillsets in a wide variety of contemporary design application spaces. Students will complete a variety of data research and visualization challenges throughout the course, explore data aesthetics and persuasion techniques, develop coding skills and data manipulation and research abilities, and complete a self-defined project focused on interactive and journalistic data storytelling.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Campuses: Institute of Design",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Campuses: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +189,8 @@
           "crn": "17245",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17245",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +210,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Campuses: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "518",
+      "course_combined": "IDX 518",
+      "title": "Interaction Design Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=518",
+      "course_description": "This course introduces methods for effectively describing the dynamic nature of interaction and applies them to different types of design cases.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "519",
+      "course_combined": "IDX 519",
+      "title": "Fundamentals of Web Dev.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=519",
+      "course_description": "Prepares students to confidently build projects with front-end web development tools.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "523",
+      "course_combined": "IDX 523",
+      "title": "Agile for Design Outcomes",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=523",
+      "course_description": "Upon completion of this course students will be able to create a focused point-of-view and reframe a problem, decompose a strategy statement into “who, what, wow“ statements, generate a service blueprint, map to specific features and functions and a backlog of prioritized work – that can trace back to the strategic statement in a virtuous cycle.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDX",
@@ -104,7 +274,11 @@
       "course_description": "This workshop offers students the opportunity to practice methods for design research, concept development, interaction design, and rapid prototyping. Students may take this class multiple times, non-concurrently, for a maximum of 12 credits towards their degree.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "Course or Test: IDX 518 May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +287,8 @@
           "crn": "17246",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17246",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nWorkshop Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Workshop",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +308,145 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "Course or Test: IDX 518 May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "528",
+      "course_combined": "IDX 528",
+      "title": "Prototyping Interactions",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=528",
+      "course_description": "This course introduces different methods and tools for the prototyping of interactive systems. Students will employ the different methods to translate a concept from ideation to installation through multiple layers of sketches, prototypes, and interactive peripherals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "530",
+      "course_combined": "IDX 530",
+      "title": "Interaction Dsgn Immersive Sys",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=530",
+      "course_description": "This course explores issues in design for interactions that are enabled by affordances available in ubiquitous computing, mixed reality, and virtual reality environments.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "532",
+      "course_combined": "IDX 532",
+      "title": "Human + Data Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=532",
+      "course_description": "Upon completing this course, students will be able to demonstrate visually how human-data systems drive feedback loops, facilitate data capture and ask for consent, and explain how that differs between conscious data creation and passive data collection; analyze different human-data systems and be able to identify how feedback is captured, what that data is going to inform, and what actions are dependent on the insights derived from that data; and explore through making the opportunity for different data representation formats and mediums to facilitate data management and influence data awareness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "534",
+      "course_combined": "IDX 534",
+      "title": "Design for Climate Leadership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=534",
+      "course_description": "The course introduces students to the science of climate change, the vulnerabilities of different populations to CC impacts, and the range of actions pursued by individuals, organizations and nation-states in response to it. We will also critically explore the role of design in contributing to the current trajectory of CC, and in developing strategies for mitigation, adaptation and resilience to CC.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "535",
+      "course_combined": "IDX 535",
+      "title": "Politics of Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=535",
+      "course_description": "To design is to perform an ideological and political act that has the power to fundamentally shape societies and systems. And yet, design utilizes methodologies that possess an illusion of neutrality situated outside of a societal or systemic context which inherently reifies discrimination by masking the biases of designers and co-creators. The empathic designer still possesses their own history, politics, and intentions that color the orientation of that empathy. This course will explore the interrelationship of the politics of design across individuals, practices, organizations, institutions, and systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "536",
+      "course_combined": "IDX 536",
+      "title": "Introduction to Design Futures",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=536",
+      "course_description": "This \"Introduction to Design Futures\" course is structured as a comprehensive exploration of the future-focused design process, employing a four-step, multidisciplinary approach called Synthesizing Futures.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "537",
+      "course_combined": "IDX 537",
+      "title": "Designing Futures",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=537",
+      "course_description": "This course overviews a wide range of methodologies and approaches that have been used to engage in narratives about these futures including backcasting & histories of the future, predictive analytics and big data, forecasting and trend analysis, visioning & \"visioneering\", scenario planning, anticipatory design, speculative and critical design, science fiction, design fiction, speculative fabulation and feminist futures, Afrofuturism and decolonizing design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "540",
+      "course_combined": "IDX 540",
+      "title": "Methods of Community Develop.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=540",
+      "course_description": "An exploration and comparative analysis of Asset-Based Community Development approaches, methods and tools, and ways to evolve the mindsets and practices of Human Centered Design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDX",
@@ -151,7 +457,11 @@
       "course_description": "This course is an overview of methods to analyze data and synthesize solutions that will likely be encountered as part of a design effort.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +470,8 @@
           "crn": "13160",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13160",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +491,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "548",
+      "course_combined": "IDX 548",
+      "title": "Innovation Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=548",
+      "course_description": "The course will present an overview of some of the key principles that drive design innovation followed by a broad look at the design innovation process, various methods, and frameworks.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDX",
@@ -198,7 +521,11 @@
       "course_description": "This course will improve critical thinking skills when wrestling with the wide variety of input and insight that often accompanies design initiatives. The course will include basic overviews of argumentation, secondary research, and group-based discussion methods.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +534,8 @@
           "crn": "13169",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13169",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,12 +555,162 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "551",
+      "course_combined": "IDX 551",
+      "title": "Facilitation Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=551",
+      "course_description": "Explores the methods and techniques to guide teams to desired outcomes in ways that build alignment, engagement, and momentum.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "554",
+      "course_combined": "IDX 554",
+      "title": "Agile Culture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=554",
+      "course_description": "Understanding key principles, values, culture/behaviors, and practices of Agile methodology in design practice.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "555",
+      "course_combined": "IDX 555",
+      "title": "Metrics that Matter",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=555",
+      "course_description": "In this course, students explore how designers can develop their own interim measurement strategies that are more sensitive to design’s influence, thereby building data and evidence for their adoption and success.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "557",
+      "course_combined": "IDX 557",
+      "title": "Teaming Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=557",
+      "course_description": "In this course, you will learn teaming methods and best practices by working on several teams. Through research and collaborative activities, teams will arrive at learnings that will inform their best practice playbooks.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "560",
+      "course_combined": "IDX 560",
+      "title": "Intro to Design Thinking",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=560",
+      "course_description": "An introduction to the techniques and process of problem definition and solution generation as used in the field of design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "561",
+      "course_combined": "IDX 561",
+      "title": "Intro to Design Concepts",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=561",
+      "course_description": "An introductory course into the methods and techniques of the field of design. Students will learn creative problem solving including how to manage ambiguous problems and work across disciplines.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "562",
+      "course_combined": "IDX 562",
+      "title": "Multidisciplinary Innovation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=562",
+      "course_description": "Prototyping new business concepts for both designers and non-designers. A focus on inter-disciplinary collaboration. Students may take this course multiple times, non-concurrently, for a maximum of 12 credits towards the MDes degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "593",
+      "course_combined": "IDX 593",
+      "title": "SDL Immersion",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=593",
+      "course_description": "This course covers contemporary topics through a cohort exploration and hands on charette. Visiting lecturers will guide student through emerging and topical issues as they relate to how the field of design is changing. This course can be taken multiple times for up to 6 credits",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "594",
+      "course_combined": "IDX 594",
+      "title": "Faculty Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=594",
+      "course_description": "Classes, workshops, and seminars revolving around faculty specific research. Instructor permit only. Instructor will define requirements for enrollment. Students may take this class multiple times for a maximum of 24 credits toward their degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDX",
@@ -245,7 +721,11 @@
       "course_description": "Supervision of participation in curricular practical training (CPT).",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +734,8 @@
           "crn": "13184",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13184",
           "credits": 0.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Internship",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,12 +755,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDX",
+      "course_num": "596",
+      "course_combined": "IDX 596",
+      "title": "Externship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDX&crse_numb_in=596",
+      "course_description": "This course enables students to receive academic credit for externing with a designated supervising design firm or department. Externs integrate and assimilate the skills learned in the classroom with those acquired in a specialized design placement.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDX",
@@ -292,7 +785,11 @@
       "course_description": "Classes that cover special and contemporary topics in design. Students may take this class multiple times for a total of 24 credits toward their degree.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +798,8 @@
           "crn": "14836",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14836",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,10 +819,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -334,9 +827,8 @@
           "crn": "16008",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16008",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -356,10 +848,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -367,9 +856,8 @@
           "crn": "17420",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17420",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -389,10 +877,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -400,9 +885,8 @@
           "crn": "17498",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17498",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -422,10 +906,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -438,7 +919,11 @@
       "course_description": "Student-driven course to explore contemporary issues in the field of design. Students may take this class multiple times, non-concurrently, for a maximum of 12 credits towards their degree.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -447,9 +932,8 @@
           "crn": "16576",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16576",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -464,15 +948,12 @@
           ],
           "availability": {
             "capacity": 6,
-            "actual": 3,
-            "remaining": 3,
+            "actual": 2,
+            "remaining": 4,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -480,9 +961,8 @@
           "crn": "16956",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16956",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -502,10 +982,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -513,9 +990,8 @@
           "crn": "17003",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17003",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -529,16 +1005,13 @@
             }
           ],
           "availability": {
-            "capacity": 0,
-            "actual": 0,
+            "capacity": 1,
+            "actual": 1,
             "remaining": 0,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -546,9 +1019,8 @@
           "crn": "17529",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17529",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -568,10 +1040,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

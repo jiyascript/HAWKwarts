@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "ID",
+      "course_num": "098",
+      "course_combined": "ID 098",
+      "title": "ID Orientation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ID&crse_numb_in=098",
+      "course_description": "This course will orient students on how the Institute of Design approaches coursework, team dynamics, critique, professionalism, and supplementary skills to enable students to excel during their time in the school.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ID",
       "course_num": "200",
       "course_combined": "ID 200",
       "title": "Understanding Design",
@@ -10,7 +27,11 @@
       "course_description": "An introduction to design as a discipline, tracing its history and societal impact while building the critical vocabulary needed to engage with its values, ethics, and future directions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "17237",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17237",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +61,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +74,11 @@
       "course_description": "A course in applied design thinking that guides students through defining problems, translating research into actionable frameworks, and producing a strategic development plan.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +87,8 @@
           "crn": "17238",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17238",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +108,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -104,7 +121,11 @@
       "course_description": "Students learn to communicate design intent through tailored visual representations, prototyping, and data-informed artifacts suited to diverse audiences and development stages.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +134,8 @@
           "crn": "17239",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17239",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,10 +155,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -151,7 +168,11 @@
       "course_description": "An exploration of user research, inclusive design principles, and ethical considerations to develop rigorous, human-centered design decisions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Campuses: Institute of Design",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Campuses: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +181,8 @@
           "crn": "17240",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17240",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,10 +202,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Campuses: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -198,7 +215,11 @@
       "course_description": "A course in applied design thinking that guides students through defining problems, translating research into actionable frameworks, and producing a strategic development plan.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +228,8 @@
           "crn": "17248",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17248",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +249,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -245,7 +262,11 @@
       "course_description": "Students learn to communicate design intent through tailored visual representations, prototyping, and data-informed artifacts suited to diverse audiences and development stages.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +275,8 @@
           "crn": "17251",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17251",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,10 +296,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -292,7 +309,11 @@
       "course_description": "An exploration of user research, inclusive design principles, and ethical considerations to develop rigorous, human-centered design decisions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +322,8 @@
           "crn": "17252",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17252",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,10 +343,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Colleges: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

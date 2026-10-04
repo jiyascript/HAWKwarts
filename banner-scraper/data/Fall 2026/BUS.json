@@ -10,7 +10,11 @@
       "course_description": "This course introduces students not only to the business environment but also to the different purposes and functions of businesses. Students will obtain a broad understanding of the fundamentals of business organizations and their operations and, in the process, learn the basic terminology and concepts employed in the business world. Students will also gain experience using computer applications popular in the business community such as Excel, Word, and Access Database.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "17332",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17332",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +52,8 @@
           "crn": "17330",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17330",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,12 +73,55 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "M01",
+          "section_name": "",
+          "crn": "17517",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17517",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Eszter Jakopanecz",
+              "instructor_email": "ejakopanecz@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 21,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "102",
+      "course_combined": "BUS 102",
+      "title": "Bus Analytics Fundamentals",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=102",
+      "course_description": "This course reinforcing data literacy, including data types, data quality dimensions (accuracy, completeness, consistency, timeliness), common data issues (missing values, bias, outliers, sampling problems), basic AI/ML evaluation concepts (accuracy, error rates, confidence levels, false positives/negatives), data assumptions and parameter settings for pre-built AI tools, common AI tool failures, and data classification, sharing, and sanitization practices. The course emphasizes business concepts, modes of thinking, and communication skills. Course sessions, held in a PC lab, will cover basic through intermediate skills for each application using exercises and mini cases that require students to analyze business problems and consider how best to communicate information, results, and findings. Coursework will be integrated across the various tools in the Office/Google suites and business disciplines. Students will learn not just the computing tools themselves but also how such tools are used in today's business environment to manage information, analyze data, and communicate more effectively.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -90,7 +132,11 @@
       "course_description": "This course introduces the student to basic financial and managerial accounting topics: GAAP, the major financial statements, accrual accounting, financial reporting alternatives, financial statement analysis, cost behavior, cost systems, short-term and long-term decision-making, and product costing. BUS 210 should not be taken by business majors.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +145,8 @@
           "crn": "10002",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10002",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +166,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -137,7 +179,11 @@
       "course_description": "This course introduces students to the financial reporting practices of firms ranging in size from sole proprietorships to Fortune 500 companies. Although the predominant focus will be on reporting principles used in the United States, the course will consider international reporting standards as well. Students will learn some of the metrics (ratios) by which one measures the financial health of a firm, whether small or large, domestic or international. Finally, using a popular financial management software package, students not only will learn how businesses track their day-to-day transactions and report on operations but also will be able to apply this knowledge to their personal and/or business finances.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
+      "levels": "Undergraduate",
+      "attributes": "Ethics Content, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -146,9 +192,8 @@
           "crn": "10003",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10003",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -168,10 +213,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -179,9 +221,8 @@
           "crn": "17089",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17089",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +242,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -212,9 +250,8 @@
           "crn": "17090",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17090",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -234,10 +271,71 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "212",
+      "course_combined": "BUS 212",
+      "title": "Managerial Accounting",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=212",
+      "course_description": "This course introduces students to how managers use accounting information to make decisions and to monitor and control the operations of their businesses. Students will learn how an entity's profits respond to changes in sales volume, selling prices, and costs. They will also learn how to distinguish between relevant and irrelevant information and use the former to make sound business decisions. The principles introduced in this course are applicable to domestic and international businesses of all sizes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "221",
+      "course_combined": "BUS 221",
+      "title": "Business Statistics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=221",
+      "course_description": "Business decisions are often difficult and risky because decisions have to be made with incomplete and imperfect information. The primary purpose of this course is to introduce the basics of modeling and analyzing complex problems that involve business decision-making under uncertainty. Students will learn probability theory and some basic statistical concepts and procedures. The course emphasizes techniques for formulating decision problems and analyzing data. Students will also learn how to use computer software in decision and statistical analyses.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Campuses: India-Mumbai",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "M01",
+          "section_name": "",
+          "crn": "17518",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17518",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "2:00 PM - 3:15 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Tanushri Banerjee",
+              "instructor_email": "tbanerjee1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 21,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -250,7 +348,11 @@
       "course_description": "Successful managers are able to align business strategies with the organization's culture and core competencies. In this course, students will develop the managerial skills needed to succeed in today's increasingly competitive global economy. The course explores how individuals are motivated to learn, decide, and coordinate in individual versus group settings. Students will apply these concepts to resolve a wide array of problems in real world organizational settings, such as creating an innovative culture, developing an effective performance management system, and managing a diverse workforce. Particular emphasis will be given to development of leadership skills and entrepreneurism.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -259,9 +361,8 @@
           "crn": "10004",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10004",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,10 +382,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -292,9 +390,8 @@
           "crn": "17092",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17092",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -314,10 +411,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -330,7 +424,11 @@
       "course_description": "This course introduces students to concepts and techniques related to the design, planning, control, and improvement of both service and manufacturing operations. The course helps students become conversant in the language of operations management and provides them with the quantitative and qualitative tools needed to analyze basic operations issues. It also describes the role of operations management in the overall strategy of a firm. The topics covered include process analysis, waiting line management, project management, inventory and supply chain management.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -339,9 +437,8 @@
           "crn": "10005",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10005",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,10 +458,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -377,7 +471,11 @@
       "course_description": "This course explores the uses and limitations of accounting information as an integral part of a manager's decision process. BUS 311 goes beyond BUS 211 and 212 by integrating economics, finance, and statistics among other disciplines in the consideration of actual business cases. Some of the topics included will be cost estimation, activity-based costing, quality control, transfer pricing, and divisional performance evaluation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BUS 351 May not be taken concurrently. ) or ( Course or Test: BUS 212 May not be taken concurrently. and Course or Test: ECON 423 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -386,9 +484,8 @@
           "crn": "11537",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11537",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -408,10 +505,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BUS 351 May not be taken concurrently. ) or ( Course or Test: BUS 212 May not be taken concurrently. and Course or Test: ECON 423 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -424,7 +518,11 @@
       "course_description": "This course is designed to make you a better decision maker. Good decision makers know how to recognize decision problems, how to represent the essential structure of the decision situation, and how to analyze the problem with the formal tools based on decision theory. Many managerial decisions, regardless of their functional orientation, are increasingly based on analysis using quantitative models from the discipline of management science. Management science tools, techniques and concepts have dramatically changed the way business operates in manufacturing, service operations, marketing, and finance. BUS 321 introduces students to various ways of modeling or thinking structurally about decision problems in order to enhance analytical skills to support business decision-making. Students will gain experience using different optimization models and spreadsheets to deal with complex managerial decision problems.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BUS 221 May not be taken concurrently. ) or ( Course or Test: PSYC 203 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -433,9 +531,8 @@
           "crn": "10006",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10006",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -455,10 +552,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BUS 221 May not be taken concurrently. ) or ( Course or Test: PSYC 203 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -466,9 +560,8 @@
           "crn": "16451",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16451",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -488,12 +581,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BUS 221 May not be taken concurrently. ) or ( Course or Test: PSYC 203 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "341",
+      "course_combined": "BUS 341",
+      "title": "Business Ethical and Legal Env",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=341",
+      "course_description": "This course surveys the many challenges and opportunities faced by an entrepreneur in the modern global economy. The course begins with basic contract law, corporate law, and intellectual property law, and then goes on to explore organizational issues for entrepreneurs, the legal implications of debt and equity financing, the protection of the expression of ideas that is afforded by copyrights, and the protection of corporate goodwill that is afforded by trademark law, as well as the statutory restraints imposed by statutes such as the Financial Services Modernization Act, the Health Insurance Portability and Accountability Act (\"HIPAA\"), and the Children's Online Privacy Protection Act (\"COPPA\"). The course will broaden students' perspectives regarding the international legal and business environment by examining cross-border data privacy policies as well as statutes such as the Foreign Corrupt Practices Act (\"FCPA\").",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "351",
+      "course_combined": "BUS 351",
+      "title": "Financial Decision Making",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=351",
+      "course_description": "BUS 351 introduces students to time value of money concepts and how these concepts are used in making long-term financial decisions. In addition, the course will expose students to after-tax cash flow analysis using a variety of decision models that are appropriate for sole proprietorships, partnerships, and corporations, whether they are newly-founded or established firms. Many of the principles introduced here can be applied to personal financial decisions such as retirement planning, car loan analyses and home mortgage analyses, for example.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "361",
+      "course_combined": "BUS 361",
+      "title": "Topics in Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=361",
+      "course_description": "One-time or initial versions of course topics equivalent to the current BUS 361 and new courses BUS 362 and BUS 363. Topics will introduce students to entrepreneurship or provide specialized knowledge in entrepreneurship.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "363",
+      "course_combined": "BUS 363",
+      "title": "Startup Launch",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=363",
+      "course_description": "Students will learn how a promising idea transforms into a successful startup. This course is designed to provide students with practical strategies and a data-driven approach to creating their own businesses. By the end of the course, students will gain exposure to various tools such as customer journey maps, minimum viable product, and the Lean Business Model Canvas, which can aid in validating the startups’ value propositions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -504,7 +662,11 @@
       "course_description": "BUS 371 focuses on the information, frameworks and techniques required to devise a marketing strategy for the organization. The course begins with an understanding of how to design products and services for consumers based on their needs and their budget constraints. It then moves to an evaluation of the capabilities of the firm, its collaborators, and its competitors in service of developing appropriate price and promotion strategies when going to market. This course has no formal pre-requisites, but students will benefit from a basic background in microeconomics and basic statistics.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Ethics Content, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -513,9 +675,8 @@
           "crn": "10007",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10007",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -535,10 +696,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -546,9 +704,8 @@
           "crn": "17093",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17093",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -568,12 +725,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "382",
+      "course_combined": "BUS 382",
+      "title": "Business Economics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=382",
+      "course_description": "This course focuses on the use of economic principles for business and managerial decision making. The course aims to provide students with frameworks for studying business decisions that managers routinely face and equip students with the tools necessary to better understand the ramifications of their choices. The course builds on concepts of microeconomics and the theories of industrial organization to deliver formal methods for analyzing business decisions. After reviewing consumer and producer theories, the course will delve into game theory, information economics, and the study of imperfectly competitive markets, and proceed to introduce students to business strategies that assist managers in earning and sustaining competitive advantages in the marketplace. The course introduces and develops concepts in various areas of economics such as competition and market structure, incentive contracts, and pricing. Covered topics would range from the most basic demand and supply models to game theory, principle-agent models, and economics of information.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "432",
+      "course_combined": "BUS 432",
+      "title": "AI in Business",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=432",
+      "course_description": "This course is designed as an introduction to the evolving area of AI, with an emphasis on potential business applications and related managerial insights. Artificial Intelligence (AI) is the science behind systems that can program themselves to classify, predict, and offer solutions based on structured and unstructured data. For millennia, humans have pondered the idea of building intelligent machines. Ever since, AI has had highs and lows, demonstrated successes and unfulfilled potential. Today, AI is empowering people and changing our world. Netflix recommends movies, Amazon recommends popular products, self-driving cars learn to navigate safely around other vehicles without human assistance, and programmed robots distinguish trash from dishes that are to be washed. This courses focuses on how AI systems understand, reason, learn and interact; learn from industry’s experience on several AI cases; develop a develop a deeper understanding of machine learning (ML) techniques and the algorithms that power those systems, and propose solutions to real world scenarios leveraging AI methodologies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -584,7 +772,11 @@
       "course_description": "Besides studying exchange rates and the effects of national economic policies, this course attempts to provide a complete tour of the major international financial markets. This course covers foreign exchange markets, international equity markets, international bond markets, derivatives markets in currencies and interests. This course emphasizes risk management tools and techniques.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BUS 351 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -593,9 +785,8 @@
           "crn": "15834",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15834",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -615,10 +806,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BUS 351 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -631,7 +819,11 @@
       "course_description": "This is an undergraduate class of ‘Investments’, in which Portfolio Theory is centered. Textbook chapters are used to build fundamentals, most in-class discussions will concern real-market data, case, and financial articles that relate to these topics. There are four sections. The first section visits both safe and risky assets and introduces the tools needed to interpret the history of rates of return. Section 2 focuses on diversification and constructs an efficient portfolio of risky assets. Section 3 officially connects risk and return and introduces asset pricing theorems, including CAPM and APT. In Section 4, we discuss the fundamental and controversial question of market efficiency and its implications.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BUS 351 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -640,9 +832,8 @@
           "crn": "10727",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10727",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -662,12 +853,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BUS 351 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "455",
+      "course_combined": "BUS 455",
+      "title": "Corporate Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=455",
+      "course_description": "This course is an advanced introduction to modern corporate finance. Topics include cash flow forecasting, optimal dividend policies, mergers and acquisitions, structured finance, capital at risk, and the risk of adjusted return on capital. The philosophical foundation of the course is the concept of shareholder value added. Students will learn how financial decisions can contribute to the value of modern corporation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "458",
+      "course_combined": "BUS 458",
+      "title": "Financial Derivatives",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=458",
+      "course_description": "This course provides the foundation for understanding the price and risk management of derivative securities. The course starts with simple derivatives (e.g., forwards and futures) and develops the concept of arbitrage-free pricing and hedging. Based upon the work of Black, Scholes, and Merton, the course extends their pricing model through the use of lattices, Monte Carlo simulation methods, and more advanced strategies. Mathematical tools in stochastic processes are gradually introduced. Particular emphasis is given to understanding option strategies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "469",
+      "course_combined": "BUS 469",
+      "title": "Entrepreneurship Capstone",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=469",
+      "course_description": "BUS 469 provides students a hands-on, real world opportunity to: 1) identify, investigate and/or evaluate the suitability of a product or service to the marketplace; 2) work with an existing company to evaluate and/or investigate a product or service opportunity for the company; or 3) investigate and/or evaluate a research-based technology for suitability as a product or service. Students will either build or join a small team to develop a prototype, engage customers/partners, and identify support and/or funding. Business students who have taken the prerequisite (or equivalent) courses may register with instructor approval. Prerequisite: Entrepreneurship Minor Classes (4) and IPRO",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "472",
+      "course_combined": "BUS 472",
+      "title": "New Product Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=472",
+      "course_description": "This course offers students a solid grounding in the theory and practice of new product development. Using a combination of theory-based lecture, hands-on exercises and assignments, and discussion, students will develop skills across the entire product development process--from opportunity identification through product launch.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -678,7 +934,11 @@
       "course_description": "The course serves as an overview of the fundamentals of marketing research. We will discuss a variety of topics pertaining to the systematic and objective identification, collection, analysis, dissemination, and use of information. The goal of this course is to familiarize students with what needs to be studied, how to study it, and how to interpret the results for the purpose of improving decision making related to marketing problems and opportunities. Students will develop their marketing problem defining and solving abilities through discussions of readings, cases, in-class activities, lectures, assignments and interactions in and outside of class. The emphasis of this course is developing research skills to solving realistic marketing strategy problems. This course will be conducted as an advanced level class for knowledgeable and highly motivated students and is an opportunity to refine and sharpen your knowledge of marketing concepts and marketing decision-making skills before applying them in real-world jobs after graduation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BUS 371 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -687,9 +947,8 @@
           "crn": "10008",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10008",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -709,12 +968,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BUS 371 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "475",
+      "course_combined": "BUS 475",
+      "title": "Sales Management and Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=475",
+      "course_description": "Learning and practicing modern methods of selling and presenting form the basis of this course. Students will benefit from this course by exploring the rapidly changing profession of highly skilled representatives, salespeople and entrepreneurs. The class content will cover basic skills such as writing powerful sales content, making compelling presentations, successful sales methodologies and techniques. Students will engage local companies, hear from successful salespeople, practice selling skills and gain familiarity with sales tools such as CRM. In addition, students will learn the basic functions of sales force management as well as theories and concepts about building and managing an effective sales force.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -725,7 +998,11 @@
       "course_description": "Consumer Behavior is an interdisciplinary course that examines how internal, external, situational, and social influences impact purchase behavior. While all of us are consumers, our intuitions about our own behavior as well as that of others are often inaccurate. Drawing on research from behavioral economics, psychology, sociology, anthropology, and academic marketing, this course enhances students' understanding of how and why people choose, use, and evaluate goods and services as they do. We will use several different kinds of materials and approaches in this course to illustrate consumer behavior phenomena and to get us thinking about the managerial and strategic implications. Material will be presented in lectures, discussions, articles, videos, and several case analyses. We will apply relevant theories and research to real-world consumer behavior problems. In addition, you will be part of a team and conduct a consumer behavior project of your choice that will allow you to draw upon the knowledge you gained during class, gain greater insight into a specific area of consumer behavior and develop recommendations for marketers based on your findings.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BUS 371 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -734,9 +1011,8 @@
           "crn": "10009",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10009",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -756,12 +1032,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BUS 371 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "477",
+      "course_combined": "BUS 477",
+      "title": "Analytics for Decision Making",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=477",
+      "course_description": "After completing this course, students will know how to apply the built-in functionality of Microsoft Office Excel 2016 to analyze data, build Operations, Finance and Marketing-related spreadsheet models, formulate optimization models, and perform risk analysis using Monte Carlo simulation. These objectives will be facilitated through the following key tools taught in this course, which are: 1) Advanced Excel functionality; 2) Data Analysis; 3) Spreadsheet modeling; 4) Optimization (resource allocation); and 5) Simulation for risk-analysis and modeling uncertainty Decision modeling is a core competency in today’s competitive business environment. The course’s specific toolset is fundamental for the following reasons. Spreadsheets are ubiquitous in today’s business environment. A business school graduate should be fluent in their use. Deploying Excel’s functionality to support Data Analysis enhances and reinforces students’ analytical skills and their ability to intelligently use information.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "480",
+      "course_combined": "BUS 480",
+      "title": "Strategic Management and Desig",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=480",
+      "course_description": "This three-credit course, mainly for Bachelor of Science in Business Administration (BSBA) students, combines strategic management and design thinking to help students develop into great managers after they graduate and gain professional experience. Students will examine how managers at various levels create/manage “high-performing” organizations and design products. This is a capstone course for undergraduate business degrees. Because of the capstone nature of this course, students will also integrate accounting, economics, finance, marketing, organizational behavior, statistics, strategy, and related disciplines into strategic management and product design. To do so, students will participate in CAPSIM Capstone business simulation, case-based learning activities, a product design exercise, and a term project. Students will deliver an oral presentation and submit peer-review documents to help other students. Students will summarize the term project into a written report. At the end of the semester, a student should be able to decide how to allocate resources, meet challenges and win the competition, and make a strategic organizational and product decision as if the student is a general manager.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "484",
+      "course_combined": "BUS 484",
+      "title": "Data Analytics Visualization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=484",
+      "course_description": "This course will provide students with an introduction to data literacy and skills to create data visualization. These skills are prerequisites for data-driven fields of study, professional success, and everyday life. In this course, we define data literacy as \"to understand, explore, and communicate with data\". Students will learn design principles for creating meaningful displays of quantitative and qualitative data to facilitate managerial decision-making. Students will learn essential theories, concepts, methodologies, and use leading computer tools (e.g., Tableau) to visualize and analyze real world data. This course is divided into lectures, discussions, in-class activities, Tableau practice, homework assignments, and a class project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "485",
+      "course_combined": "BUS 485",
+      "title": "Power Skills",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=485",
+      "course_description": "The primary goal of this course is to introduce students to power skills and to refine the essential interpersonal and leadership competencies necessary for today's managers. This dynamic program goes beyond traditional \"soft skills,\" delving into the nuanced \"power skills\" that differentiate competent managers from exceptional leaders. Course Method: Traditional face-to-face course with weekly in-person meetings. The course takes an experiential, project-oriented learning approach – students are expected to work on individual as well as group projects. Course Learning Objectives. Some of the skills I hope you will learn throughout the course include...• Understand the importance of power skills in project management.• Develop effective communication and leadership abilities.• Enhance problem-solving and critical-thinking skills.• Foster collaboration and teamwork.• Cultivate emotional intelligence and cultural awareness.• Learn techniques for conflict resolution and negotiation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -772,7 +1113,11 @@
       "course_description": "This course will explore a business topic or application of current interest at the time the course is offered.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -781,9 +1126,8 @@
           "crn": "17328",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17328",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -803,10 +1147,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -814,9 +1155,8 @@
           "crn": "17325",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17325",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -836,10 +1176,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -847,9 +1184,8 @@
           "crn": "17327",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17327",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -869,10 +1205,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -880,9 +1213,8 @@
           "crn": "17324",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17324",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -902,10 +1234,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "07",
@@ -913,9 +1242,8 @@
           "crn": "16823",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16823",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -935,10 +1263,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -951,7 +1276,11 @@
       "course_description": "Independent study in Business as designed to provide the student with an option to study a specific area of Business in more depth than is offered in the curriculum. For example, a student could expand upon subject matter contained in the existing curriculum, or the student could explore an area of business not currently in the curriculum. In either event, the student, the instructor, and the student's advisor must agree upon a plan of study prior to enrolling in the course. **Instructor permission required.**",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -960,9 +1289,8 @@
           "crn": "17012",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17012",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -982,12 +1310,94 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "501",
+      "course_combined": "BUS 501",
+      "title": "Financial Statement Appl.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=501",
+      "course_description": "Develop financial analysis skills using various quantitative tools and qualitative factors to determine the financial health and risk of companies across industries. The course cover business applications including credit analysis, financial analysis, and investment analysis. The course will also introduce fundamental business concepts that will be used in more advanced application courses such as financial management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "505",
+      "course_combined": "BUS 505",
+      "title": "Microeconomics and Game Theory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=505",
+      "course_description": "This course applies economic principles to key decisions with organizations and solidifies intuition for understanding the business environments in which organizations operate. A key objective of the course is to develop tools useful in other Stuart courses. Economics is a key foundation for much of what is taught in finance, marketing, business strategy, environmental management, and virtually every other course in the graduate program. Economics is a way of thinking about problems, issues, and decisions that managers face in each of the functional areas of their organization. It stresses the importance of incentives in impacting human decision making and emphasizes the consideration of costs and benefits when making decisions. The course introduces and develops concepts in areas of microeconomics such as competition and market structure, incentive contracts, and pricing. Topics covered range from the most basic demand and supply models to principal-agent models and economics of information. The course will also touch on some of the primary macroeconomic topics (including GDP, inflation, and unemployment), topics in game theory (simultaneous and sequential games), and issues of ethics in economic policy-making pertaining to competitive and oligopolistic markets, pricing, and trade.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "506",
+      "course_combined": "BUS 506",
+      "title": "Leadership and Organization De",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=506",
+      "course_description": "To succeed in today's knowledge intensive organizations managers need to understand how individual differences in personality, learning style and cultural values, group dynamics, organizational culture, and human resource management policies shape employee attitudes and behaviors. This course teaches managers creative problem-solving and ethical decision-making, change management, leadership techniques for enhancing social capital and influencing other organizational members, and management tools for multicultural and geographically dispersed teams. Students will relate management concepts and techniques to real-world situations through the extensive use of case studies and experiential exercises.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "508",
+      "course_combined": "BUS 508",
+      "title": "High Impact Power Skills",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=508",
+      "course_description": "Power Skills is a comprehensive graduate-level course designed to refine the essential interpersonal and leadership competencies necessary for today's managers. This dynamic program goes beyond traditional \"soft skills,\" delving into the nuanced \"power skills\" that differentiate competent managers from exceptional leaders. Throughout the course, students will engage in practical exercises to enhance active listening, ensuring clear and effective communication within diverse teams. Students will be tasked with real-world conflict management scenarios, developing strategies to navigate and resolve workplace disputes diplomatically. A special focus is placed on emotional intelligence (EI) – a skill set that is crucial for understanding and managing both personal and team emotions in a professional setting. Interactive sessions on EI will help students recognize emotional cues and foster a supportive work environment. The curriculum emphasizes adaptability, preparing future leaders to pivot strategies in response to the ever-changing business landscape. Through case studies and collaborative group projects, students will learn the art of negotiation, balancing firm objectives with the art of compromise. Teamwork is a pillar of the course, encouraging collaborative problem-solving and collective goal achievement. By incorporating PMI's Talent Triangle®, the program also integrates technical project management, strategic business management, and leadership into the learning outcomes. Upon completion, students will emerge as well-rounded professionals, ready to leverage power skills for career advancement and organizational success in the dynamic workforce of the future.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "509",
+      "course_combined": "BUS 509",
+      "title": "Financial Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=509",
+      "course_description": "In this course, the student will learn the concepts and processes that underlie enlightened financial decision making in a global world. Students will explore how to raise debt and equity capital, how to think about what portion of earnings to retain and reinvest and whether to share some earnings with stockholders via dividend payments or repurchase of shares, how to value stocks and bonds, how to distinguish good from bad financial decision rules, how to decide which projects a firm should engage in, how to use futures, options and swaps to manage firm risk, how to ensure good corporate governance, why sustainability can be profitable while still protecting future generations, and how to manage the financial decisions required to effectively operate in a global setting.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -998,7 +1408,11 @@
       "course_description": "How do companies outperform their rivals to become market leaders in today's hyper-competitive global business environment? The answer lies in developing great strategies and executing them flawlessly. Strategic Management is the rigorous business process that helps you develop and execute highly effective strategies. The SM process has three major components: Analysis (of external and internal environments), Strategy (business-level, corporate and functional) and Performance (strategic competitiveness and above-normal profits). The course has a strong experiential learning component. With the help of a strategic management computer simulation game, you will run a simulated company in a highly competitive marketplace to outperform your competitors and become market leader. At the end of the course, you will learn business fundamentals, the strategic management process, strategy formulation and implementation, data-driven decision making, and a good understanding of accounting, finance, human resources, marketing and production. This graduate course is suitable for students with or without a business background.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1007,9 +1421,8 @@
           "crn": "11213",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11213",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -1029,10 +1442,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -1040,9 +1450,8 @@
           "crn": "15983",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15983",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1062,12 +1471,166 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "M01",
+          "section_name": "",
+          "crn": "17519",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17519",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Tanushri Banerjee",
+              "instructor_email": "tbanerjee1@illinoistech.edu"
+            },
+            {
+              "type": "Class",
+              "time": "11:30 AM - 12:45 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Tanushri Banerjee",
+              "instructor_email": "tbanerjee1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 20,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "513",
+      "course_combined": "BUS 513",
+      "title": "Operations and Process Mgmt.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=513",
+      "course_description": "The course focuses on teaching students how to successfully analyze a business process, research methods of improving a process, and adapt/integrate the improvement methods into the business process in a prioritized and actionable manner.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "522",
+      "course_combined": "BUS 522",
+      "title": "Human Resource Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=522",
+      "course_description": "This course focuses on human resource planning, recruitment, examination, and promotion of procedure. It familiarizes students with the key human resources management factors involved in supervising employees as well as collective bargaining, affirmative action, and employee productivity and performance evaluation. It is directed towards practical applications in dealing with these topics as managers and employees working in their teams or individually and covers employee professional responsibility and behavior. Students in this class will learn to utilize human resource planning, recruiting, interviewing and selection processes to improve organizational outcomes; analyze the legal/cultural aspects of personnel when making organizational decisions; identify the key components of performance management to improve themselves and their direct reports; develop specific solutions to solve critical workplace personnel issues; and apply a variety of motivation and team performance techniques in current and future organizational settings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "523",
+      "course_combined": "BUS 523",
+      "title": "Negotiations & Strat Dec Mkng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=523",
+      "course_description": "This course is designed to foster an understanding of incentives and strategic decision-making as they apply to negotiations. The course has both theoretical and applied components with the objective of addressing both theory and skills as they apply to dyadic and multiparty negotiations, to buyer-seller transactions, to competitors' interactions, to the resolution of disputes, and to the development of negotiation strategies. The theoretical component is focused on an analytical study of strategic interactions using game theory while the applied component is based on a series of simulated negotiations in a variety of contexts including one-on-one, multiparty, and team negotiations. The objectives of the course are to provide an analytical foundation, to show where practice and theory diverge, and to provide a forum where negotiation tools in a variety of business-oriented settings can be actively applied. Instructor permission is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "532",
+      "course_combined": "BUS 532",
+      "title": "Artificial Intelligence in Bus",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=532",
+      "course_description": "This course is designed to provide an introduction to the evolving area of AI, with an emphasis on potential business applications and related managerial insights. Artificial Intelligence (AI) is the science behind systems that can program themselves to classify, predict, and offer solutions based on structured and unstructured data. For millennia, humans have pondered the idea of building intelligent machines. Ever since, AI has had highs and lows, demonstrated successes and unfulfilled potential. Today, AI is empowering people and changing our world. Netflix recommends movies, Amazon recommends popular products, self-driving cars learn to navigate safely around other vehicles without human assistance, and programmed robots distinguish trash from dishes that are to be washed. This course focuses on how AI systems understand, reason, learn and interact; learn from industry’s experience on several AI cases; develop a develop a deeper understanding of machine learning (ML) techniques and the algorithms that power those systems, and propose solutions to real world scenarios leveraging AI methodologies. The course also presents students to develop a high-quality proposal to plan and execute the deployment of an AI application at a business enterprise.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "533",
+      "course_combined": "BUS 533",
+      "title": "Agentic AI for Business",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=533",
+      "course_description": "This course solidifies AI business knowledge with a focus on the leadership/implementation challenges and opportunities of agentic AI - autonomous systems that can reason, plan, and act independently to achieve business objectives. Students will master executive-level decision making for AI agent deployment, from competitive positioning to organizational transformation. Through lectures, Hands-On learning Sessions, C-suite case studies, strategic considerations, and boardroom-ready implementation plans, students will develop the leadership skills to drive the next generation of AI-powered business transformation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "534",
+      "course_combined": "BUS 534",
+      "title": "Blockchain",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=534",
+      "course_description": "Introduction to Block Chain will provide students with a basic understanding of the Hyperleder Fabric project sponsored by the Linux foundation. This class will mainly focus on Business applications for Hyperledger Fabric along with the introduction of basic code structures for Hyperledger fabric.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "535",
+      "course_combined": "BUS 535",
+      "title": "Strategic Applications of AI",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=535",
+      "course_description": "Artificial Intelligence (AI) is undergoing a remarkable transformation, evolving from early systems focused on narrow, well-defined tasks to the current era characterized by increasingly sophisticated and versatile AI paradigms. This evolution is marked by a shift towards models capable of understanding context, generating novel content, reasoning through complex problems, and acting autonomously within dynamic environments. Understanding the trajectory of these advancements is crucial for navigating the increasingly complex technological landscape.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BUS",
@@ -1078,7 +1641,11 @@
       "course_description": "Quantitative techniques are very important and useful for analyzing business and financial markets, especially in today’s world of big data. This course reviews the basics of statistics, including sampling and data, descriptive statistics, probability, distributions, statistical inference, the Central Limit Theory, estimation, hypothesis testing, Analysis of Variance, and regression analysis, a widely used statistical technique in business and finance supporting decision-making under uncertainty.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1087,9 +1654,8 @@
           "crn": "11214",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11214",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -1109,12 +1675,128 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "571",
+      "course_combined": "BUS 571",
+      "title": "Entrepreneurship Studio",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=571",
+      "course_description": "The BUS 571 Capstone Studio course in the Master of Technological Entrepreneurship program provides students with a hands-on, real-world opportunity to complete a project in one of the three following roles: 1. Startup Founder: Bring your startup ideas to your Capstone project. Identify, investigate and/or evaluate the suitability of a product or service to the marketplace. 2. Creative Researcher/Research Commercialization: Apply your talents to investigate and/or evaluate a research-based technology for suitability as a product or service. 3. Corporate Innovator: Make an impact within a business or organization. Work with an existing company to evaluate and/or investigate a product or service opportunity for the company. Students will either build or join a small team to develop a prototype, engage customers and partners, and identify support and/or funding.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "572",
+      "course_combined": "BUS 572",
+      "title": "Entrepreneurship Studio",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=572",
+      "course_description": "The BUS 572 Capstone Studio course provides students with a hands-on, real world opportunity to complete a project in one of the three following roles: 1. Startup Founder: Bring your startup ideas to your Capstone project. Identify, investigate and/or evaluate the suitability of a product or service to the marketplace. 2. Creative Researcher/Research Commercialization: Apply your talents to investigate and/or evaluate a research-based technology for suitability as a product or service. 3. Corporate Innovator: Make an impact within a business or organization. Work with an existing company to evaluate and/or investigate a product or service opportunity for the company. Students will either build or join a small team to develop a prototype, engage customers and partners, and identify support and/or funding.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "576",
+      "course_combined": "BUS 576",
+      "title": "New Technology Ventures",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=576",
+      "course_description": "The course concentrates on the preparation of business plans, methods for evaluating and screening new venture ideas, formulation and implementation of business strategies for new ventures, and the financing of new ventures. The course will also focus on identifying, examining, and evaluating various sources of original and growth capital. Emphasis will be on legal, financial, and tax issues related to capital formation as well as specific problems experienced by the entrepreneur in the high technology space. Topics discussed will include venture valuation, financing startups, financial planning and strategy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "591",
+      "course_combined": "BUS 591",
+      "title": "Digital Transformation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=591",
+      "course_description": "Designed for leaders focused on implementing new ideas, staying ahead of the competition and aligning their people, data and technology to drive digital transformation. First, we discuss the pace of change, and its impact, implications and opportunities. Next, we provide the context and framework to help you identify key areas to digitize, including strategy, core processes, and technology. The course culminates with a capstone project where participants create an action plan for a challenge at a level that is appropriate for their role or responsibility.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "592",
+      "course_combined": "BUS 592",
+      "title": "MTE Capstone",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=592",
+      "course_description": "The BUS 592 Capstone course in the Master of Technological Entrepreneurship program provides students with a hands-on, real world opportunity to complete a project in one of the three following roles: 1. Startup Founder: Bring your startup ideas to your Capstone project. Identify, investigate and/or evaluate the suitability of a product or service to the marketplace. 2. Creative Researcher/Research Commercialization: Apply your talents to investigate and/or evaluate a research-based technology for suitability as a product or service. 3. Corporate Innovator: Make an impact within a business or organization. Work with an existing company to evaluate and/or investigate a product or service opportunity for the company. Students will either build or join a small team to develop a prototype, engage customers and partners, and identify support and/or funding. Students are required to take BUS 592 in every semester of their program to facilitate application of learning to their project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "595",
+      "course_combined": "BUS 595",
+      "title": "Special Topics: Business Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=595",
+      "course_description": "Special topics in business administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BUS",
+      "course_num": "598",
+      "course_combined": "BUS 598",
+      "title": "Graduate Workplace Immersion",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BUS&crse_numb_in=598",
+      "course_description": "This course provides graduate students with a supervised, immersive, hands-on experience in a US workplace where they will gain exposure to an industry and practical experience with projects related to their interests. Students will work for a minimum of eight weeks, 32 hours/week. Students will be matched with an organization according to their area of study, related experience, and/or relevant skillset.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

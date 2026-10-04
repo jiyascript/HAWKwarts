@@ -3,6 +3,74 @@
   "courses": [
     {
       "course_code": "IDN",
+      "course_num": "461",
+      "course_combined": "IDN 461",
+      "title": "Advanced Reading and Writing I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=461",
+      "course_description": "Understanding key concepts in design requires proficiency in critical reading of design literature as well as fluid and descriptive written expression. This course will introduce international students to strategies for reading, analyzing, and responding to core texts in the field of design as well as expressing ideas in a variety of writing tasks with clarity and cohesion. Students will engage in critical reading, identify arguments and themes in design-related articles, and convey analysis in written assignments that align with the cultural and academic conventions required in graduate study. Placement in this course is based on exam results and/or departmental approval.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "462",
+      "course_combined": "IDN 462",
+      "title": "Advanced Listen, Presention I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=462",
+      "course_description": "Communicating with team members and design professionals requires an advanced level of spoken fluency and proficiency in language. This course will introduce communication strategies necessary for international students to achieve their goals in academic and professional environments. Students will develop increased real-time fluency and clarity in extended discussions of design-related material. The course will also enable students to develop skills in presenting their own designs and design processes. Strategies for effective listening and clear American English pronunciation will also be covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "466",
+      "course_combined": "IDN 466",
+      "title": "Advanced Reading & Writing II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=466",
+      "course_description": "This course will build on previously learned skills to teach international students language related to the professional practice of design. Students will learn to read design-related texts more critically by uncovering a writer's assumptions and evaluating an article's validity. Students will also develop different aspects of writing for design, including research and synthesis in response and essay writing, among others. Placement in this course is based on exam results and/or successful completion of IDN 461 Advanced Reading and Writing for Design I",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "467",
+      "course_combined": "IDN 467",
+      "title": "Advanced Listen, Present II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=467",
+      "course_description": "This course will teach advanced communication strategies necessary for design students to interact in academic and professional contexts. Students will develop their critical listening and discussion skills with extended discourse on design topics. Students will also develop greater fluency, accuracy, and clarity through a semester-length project. This course will enable students to build confidence in presentation, discussion, and project work. Placement in this course is based on placement exam results and/or the successful completion of IDN 462 Advanced listening and Presentation in Design I",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
       "course_num": "481",
       "course_combined": "IDN 481",
       "title": "Intro to Design Practice",
@@ -10,7 +78,11 @@
       "course_description": "An accelerated course in design history, theory, and the makeup of contemporary professional practice.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +91,8 @@
           "crn": "14290",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14290",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +112,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +125,11 @@
       "course_description": "Provides a sound understanding of two-dimensional form, introduces basic concepts of graphic design including factors of visual perception and syntax, principles of creating order and meaning, compositional techniques, aesthetic properties of visual form, and information processing, and covers the environmental, cultural, and personal context of the viewer. Considerable emphasis is placed on typography.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +138,8 @@
           "crn": "14821",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14821",
           "credits": 4.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +159,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -104,7 +172,11 @@
       "course_description": "Teaches the fundamental principles and processes of product design through simple projects and skill building exercises, and about the study of more advanced projects and case studies. Skills taught include diagramming, orthographic sketching rendering, basic three-dimensional model building, and documenting intent for presentation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +185,8 @@
           "crn": "14822",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14822",
           "credits": 4.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +206,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "487",
+      "course_combined": "IDN 487",
+      "title": "Introduction to Photography",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=487",
+      "course_description": "Acquaints design students with the field of photographic image making, how images are constructed, and the ways they are used to communicate. Students learn the fundamental principles of image making, color theory, lighting, and digital image processing through the practice of creating images. All work is performed using digital cameras and software.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -151,7 +236,11 @@
       "course_description": "Explores the basic concepts of interaction design through short exercises and reviews of fundamental theory",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +249,8 @@
           "crn": "14824",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14824",
           "credits": 4.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +270,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "497",
+      "course_combined": "IDN 497",
+      "title": "Special Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=497",
+      "course_description": "This course covering emerging topics in the field of design for undergraduate students. This course can be taken multiple times up to 12 credits maximum.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -198,7 +300,11 @@
       "course_description": "Explores the techniques of planning and designing communications systems in print, web, and three-dimensional exhibition form from concept generation to visualization. Relevant perceptual, cognitive, and systems principles are investigated and prototyped.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +313,8 @@
           "crn": "17477",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17477",
           "credits": 4.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +334,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -245,7 +347,11 @@
       "course_description": "At the end of this course, students should be able to explore, create, and communicate design directions for simple products and environments taking into account design principles, human factors, technology, and business issues.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +360,8 @@
           "crn": "16921",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16921",
           "credits": 4.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,12 +381,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "505",
+      "course_combined": "IDN 505",
+      "title": "Digital Media",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=505",
+      "course_description": "Surveys the basic media types used in interactive software. Includes a culminating project that demonstrates basic principles of screen design and computer-human interaction using a variety of media. Projects require use of common software applications for creating and editing six data types -- text, bitmap, geometry, sound, animation, and video.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -292,7 +411,11 @@
       "course_description": "This course is a survey of the research methods commonly used in design research and gives an overview of distinctions between primary and secondary research, quantitative and qualitative research, and online and in-person research in order to prepare students for research-intensive projects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +424,8 @@
           "crn": "13549",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13549",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Communications Requirement, Humanities Requirement, ID Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,12 +445,145 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "510",
+      "course_combined": "IDN 510",
+      "title": "Research Photography",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=510",
+      "course_description": "This course aims to give design researchers the knowledge and tools to consistently make the right decisions when capturing and selecting photographs to use in storytelling.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "512",
+      "course_combined": "IDN 512",
+      "title": "Behavioral Design Workshop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=512",
+      "course_description": "Upon completion of this course, students will have built skills and confidence applying behavioral design to real-world behavioral challenges.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "514",
+      "course_combined": "IDN 514",
+      "title": "Experience Modeling",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=514",
+      "course_description": "This course is intended to familiarize students with the methods and practice of experience modeling. It entails a deep understanding of people in naturalistic, everyday settings and interpretive methods of analysis to create representations of the organization of everyday life.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "518",
+      "course_combined": "IDN 518",
+      "title": "Survey Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=518",
+      "course_description": "This class aims to familiarize designers with the tools and techniques that are commonly used by quantitative researchers such as surveys and statistical analysis. Students will learn how to design, understand, and evaluate surveys and other quantitative research tools and techniques as well as how to use online survey tools in their own work.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "519",
+      "course_combined": "IDN 519",
+      "title": "Evidence-based Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=519",
+      "course_description": "Introduction to the use of analytics measure the success of design solutions",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "522",
+      "course_combined": "IDN 522",
+      "title": "Research Synthesis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=522",
+      "course_description": "This course will allow students to gain rigorous training in how to develop coding schemes, code qualitative data, and gain a deeper analysis of users based on field research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "526",
+      "course_combined": "IDN 526",
+      "title": "Computational Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=526",
+      "course_description": "This course explores emerging quantitative methods in design research, focusing on how digital tools have transformed traditional research paradigms.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "530",
+      "course_combined": "IDN 530",
+      "title": "Innovation Frontiers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=530",
+      "course_description": "Introduces students to the broad context of strategic planning. It includes a discussion of the general forces acting upon an organization (competition, technological developments, channels of information, and product distribution) and ways to understand the people who use design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -339,7 +594,11 @@
       "course_description": "Explore different established and emerging change management models and their application to design",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -348,9 +607,8 @@
           "crn": "17242",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17242",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -370,12 +628,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "534",
+      "course_combined": "IDN 534",
+      "title": "Business Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=534",
+      "course_description": "In this course, students will develop a practical understanding of how business models are used to create appropriate value for participants in a value web, such as core business, its customers, suppliers, and other stakeholders.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "535",
+      "course_combined": "IDN 535",
+      "title": "Org Models of Innovation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=535",
+      "course_description": "This course will examine traditional and emerging models for how large organizations and other corporate entities engage to develop innovative offerings. Readings will cover recent developments in cooperative and open-sourced forms of innovation development.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -386,7 +675,11 @@
       "course_description": "This course will introduce students to the techniques and processes involved in product strategy: the mindset and act of developing multiple products, services, and associated offerings to optimize a company’s investment against constraints and strategy.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -395,9 +688,8 @@
           "crn": "13179",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13179",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -417,12 +709,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "537",
+      "course_combined": "IDN 537",
+      "title": "New Venture Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=537",
+      "course_description": "New Venture Design will teach aspiring entrepreneurs how to build design-led start-ups and new ventures, making this course ideal for students with new business ideas that they have been itching to design and launch. This exploration will happen across the four critical elements of a new venture: brand / value proposition; user experience; business model; and organization. Students will walk away with an understanding of how to architect new ventures using a combination of user empathy, market data, and intuition.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "538",
+      "course_combined": "IDN 538",
+      "title": "Strategic Design Workshop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=538",
+      "course_description": "This course covers the application of design planning methods and theory to real-world challenges. With a team-based, hands-on approach, students will tackle all stages of problem solving from initial framing to final solution proposals. Students may take this class multiple times, non-concurrently, for a maximum of 12 credits towards their degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "540",
+      "course_combined": "IDN 540",
+      "title": "Implementing Innovation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=540",
+      "course_description": "Introduces frameworks and methods for effectively implementing change in organizations. Using cases, students will identify principles, actions, and measures that mitigate risk, improve implementation success, and inform stronger designs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "541",
+      "course_combined": "IDN 541",
+      "title": "Civic Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=541",
+      "course_description": "Covers the emerging practice of applying design to areas of civic-oriented challenges.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -433,7 +790,11 @@
       "course_description": "This course will introduce how concepts from the field of behavioral economics can be thought of as another kind of \"human factor\" and ways in which they can help inform the process of design thinking.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -442,9 +803,8 @@
           "crn": "13141",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13141",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -464,10 +824,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -480,7 +837,11 @@
       "course_description": "Explores the language of diagrams as a communication means to represent different types of abstract, relational information. Students will be introduced to design principles of developing effective diagrams and multiple types of diagrams.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "Course or Test: IDN 552 May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -489,9 +850,8 @@
           "crn": "14304",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14304",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -511,10 +871,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "Course or Test: IDN 552 May not be taken concurrently."
+          }
         }
       ]
     },
@@ -527,7 +884,11 @@
       "course_description": "Learn to apply behavioral science to real-world challenges. This workshop teaches you evidence-based methods for understanding behavior—including literature reviews, COM-B analysis, and evaluative testing—and shows you how to use them in practical design work. You'll develop skills in combining behavioral research with design strategies and systems thinking to create solutions that address individual, institutional, and system-level behaviors. Students may take this course multiple times, non-concurrently, for a maximum of 12 credits towards the MDes degree.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: IDN 542 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -536,9 +897,8 @@
           "crn": "17243",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17243",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -558,12 +918,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: IDN 542 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "548",
+      "course_combined": "IDN 548",
+      "title": "Animated Diagramming",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=548",
+      "course_description": "This class focuses on the study and development of visualizations to expand information presentation by using dynamic, interactive properties. Explorations to include data narratives, data visualization, time-based visualizations, analyzing motion, narration, transitions, and other visual properties that can enhance comprehension.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "550",
+      "course_combined": "IDN 550",
+      "title": "Communication Design Workshop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=550",
+      "course_description": "A project-oriented workshop focusing on applying design principles to link theoretical methods to practice in the area of human-centered communication design. Students may take this class multiple times, non-concurrently, for a maximum of 12 credits towards their degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "552",
+      "course_combined": "IDN 552",
+      "title": "Fund of Visual Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=552",
+      "course_description": "Discusses pictures, abstract symbols, text, numbers, diagrams, three-dimensional form, and other sign systems in the context of communicating a designed offering. Additional teachings include the basics of visual communication principles to aid in developing effective communications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -574,7 +982,11 @@
       "course_description": "This class teaches students how to use communication as a design method to accelerate synthesis and give tangible form to valuable information throughout the development process. Students are introduced to relevant theories of language, visual perception, visual representation, and communication.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -583,9 +995,8 @@
           "crn": "13164",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13164",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -605,12 +1016,60 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "558",
+      "course_combined": "IDN 558",
+      "title": "Innovation Narratives",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=558",
+      "course_description": "In both professional and academic careers, there is an increased need for storytelling skills and self awareness. Creating passion-filled, compelling, and effective stories is a critical part of leadership.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "562",
+      "course_combined": "IDN 562",
+      "title": "Modeling Complexity",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=562",
+      "course_description": "How does one visually capture and represent complex systems, topics, and activities that are too large to conceptualize using memory and cognition alone? Modeling complexity is a visual approach to large-scale problem definition that seeks to represent the full picture of a system by applying theories of visual perception and known techniques for representing relationships in data.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "568",
+      "course_combined": "IDN 568",
+      "title": "Service Systems Workshop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=568",
+      "course_description": "This workshop introduces concepts of services, design principles, and methods that are needed for the design of service systems. Topics include the nature of services, customer acquisition and retention, value propositions in service business, service prototyping and pilot testing, stakeholder management, infrastructure, and operational and implementation issues. Students may take this class multiple times, non-concurrently, for a maximum of 12 credits towards their degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -621,7 +1080,11 @@
       "course_description": "The course investigates principles and methods for representing and understanding structure and behavior of different types of systems. Various forms of theoretical and philosophical frameworks and methodologies are introduced to model and understand fundamental characteristics of domains of concern from different perspectives. Class topics include general systems theory, system modeling, causality, and formalisms. The class will also explore example applications of system concepts and modeling methods in design research.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -630,9 +1093,8 @@
           "crn": "14306",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14306",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -652,12 +1114,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "573",
+      "course_combined": "IDN 573",
+      "title": "Sustainable Solutions Workshop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=573",
+      "course_description": "In this course students will learn how to apply design methods and strategic thinking through open innovation practices for leveraging the interconnectivity of markets, technology, finance, and social networks in order to envision sustainable solutions with impact in the local lives and well-being of communities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "575",
+      "course_combined": "IDN 575",
+      "title": "Re-Thinking Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=575",
+      "course_description": "In this course, students will learn key principles and concepts on complex adaptive systems in relation to human-centered design for understanding how product and service innovation can shape sustainable value webs and marketplaces.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "IDN",
@@ -668,7 +1161,11 @@
       "course_description": "Introduces the basic principles and methods for assembling, developing, and analyzing information in the tasks of design research. Techniques for collecting data, testing hypotheses, and presenting conclusions are learned in the context of conducting a pilot research project.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -677,9 +1174,8 @@
           "crn": "13167",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13167",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -699,10 +1195,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -715,7 +1208,11 @@
       "course_description": "Explores the philosophical framework for conducting research and building knowledge in the field of design. Topics include concepts from epistemology, phenomology, and structuralism. Comparisons are made between design research and research in other fields.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -724,9 +1221,8 @@
           "crn": "13168",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13168",
           "credits": 1.5,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -746,10 +1242,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -762,7 +1255,11 @@
       "course_description": "Investigation and discussion by faculty and students of topics of interest from different perspectives such as building a design research discourse (reading research papers critically, selecting among publication venues); investigating alternative philosophical bases for design research (comparing empirical, pragmatic, and phenomenological approaches); or exploring methodological and theoretical conflicts in design research.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -771,9 +1268,8 @@
           "crn": "13153",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13153",
           "credits": 3.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "ID Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -793,10 +1289,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -809,7 +1302,11 @@
       "course_description": "Research and thesis writing for Ph. D. degree",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+      "levels": "Graduate",
+      "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -818,9 +1315,8 @@
           "crn": "13185",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13185",
           "credits": 15.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -840,10 +1336,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -851,9 +1344,8 @@
           "crn": "13187",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13187",
           "credits": 15.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -873,10 +1365,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -884,9 +1373,8 @@
           "crn": "14202",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14202",
           "credits": 15.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -906,10 +1394,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -917,9 +1402,8 @@
           "crn": "15047",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15047",
           "credits": 15.0,
-          "instructional_method": "ID Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, ID Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -939,12 +1423,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy Must be enrolled in one of the following Departments: Institute of Design",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "IDN",
+      "course_num": "999",
+      "course_combined": "IDN 999",
+      "title": "General Elective Placeholder",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IDN&crse_numb_in=999",
+      "course_description": "Used as an administrative placeholder until desired course is available.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

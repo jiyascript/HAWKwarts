@@ -10,7 +10,11 @@
       "course_description": "HUM 100 introduces students to a variety of source material, scholarly and literary, in the Humanities, and teaches them how to read academic books and articles critically for research into specific, student-chosen topics. The course also aims to give students facility in accessing and effectively employing library resources and developing bibliographic methods. Theme/Topic of the course will vary depending on who is teaching it. Students may be required to visit off-campus sites, such as the Newberry Library or the Art Institute of Chicago.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite or test required",
+      "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "16806",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16806",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "An interdisciplinary course that examines the development of modern industrial society and the impact of science and technology on our culture. Readings drawn from history, literature, and philosophy.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Non Credit, Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite or test required",
+      "general_requirements": "( ICOM 102 to 106 May not be taken concurrently. ) or ( AWR 7 to 12 May not be taken concurrently. ) or ( S11 600 to 800 May not be taken concurrently. ) or ( S14 32 to 40 May not be taken concurrently. ) or ( S08 9 to 12 May not be taken concurrently. ) or ( S07 599 to 800 May not be taken concurrently. ) or ( A0W 7 to 12 May not be taken concurrently. ) or ( SWR 7 to 12 May not be taken concurrently. ) or ( Course or Test: COM 101 May not be taken concurrently. ) or ( Course or Test: COM 111 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "17321",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17321",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Non Credit, Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +91,77 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "( ICOM 102 to 106 May not be taken concurrently. ) or ( AWR 7 to 12 May not be taken concurrently. ) or ( S11 600 to 800 May not be taken concurrently. ) or ( S14 32 to 40 May not be taken concurrently. ) or ( S08 9 to 12 May not be taken concurrently. ) or ( S07 599 to 800 May not be taken concurrently. ) or ( A0W 7 to 12 May not be taken concurrently. ) or ( SWR 7 to 12 May not be taken concurrently. ) or ( Course or Test: COM 101 May not be taken concurrently. ) or ( Course or Test: COM 111 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "103",
+      "course_combined": "HUM 103",
+      "title": "Designing texts with data",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=103",
+      "course_description": "This course introduces students to thinking critically about how topics like engineering, design, and technology interact with ethics, public media, and writing. Students will learn reading strategies for data-driven texts across genres, fundamentals of data visualization, and learn to communicate science-and data-driven arguments both professionally and to the public.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "104",
+      "course_combined": "HUM 104",
+      "title": "Age of Darwin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=104",
+      "course_description": "An introduction to the humanities through an investigation of important changes in our culture associated with Darwin's theory of evolution. Readings drawn from literature, philosophy, and science.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "106",
+      "course_combined": "HUM 106",
+      "title": "Life Stories",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=106",
+      "course_description": "An interdisciplinary study of autobiographies, written chiefly by Americans. The syllabus varies, but may include Benjamin Franklin, Harriet Jacobs, Maya Angelou, Malcolm X, Langston Hughes, Richard Rodriguez, Thomas Merton, Frank Lloyd Wright, Judy Chicago. In addition to considering autobiography as a genre, the course examines the historical events and the philosophical issues that have shaped the lives and attitudes of these writers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "108",
+      "course_combined": "HUM 108",
+      "title": "Digital Culture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=108",
+      "course_description": "Introduces major topics in digital culture while providing instruction in scholarly practice with emphasis on research and writing. Topics include technical and cultural history of the internet, academic writing, and humanities research methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "HUM",
@@ -104,7 +172,11 @@
       "course_description": "One-time or initial versions of course topics equivalent to HUM 202, 204, 206, and 208. Topics will introduce students to the humanities at IIT and to provide intensive instruction in writing.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite or test required",
+      "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +185,8 @@
           "crn": "17264",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17264",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,10 +206,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "03",
@@ -146,9 +214,8 @@
           "crn": "17266",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17266",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -168,10 +235,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "04",
@@ -179,9 +243,8 @@
           "crn": "17267",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17267",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +264,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "06",
@@ -212,9 +272,8 @@
           "crn": "17270",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17270",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -234,10 +293,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "07",
@@ -245,9 +301,8 @@
           "crn": "17271",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17271",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -267,10 +322,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "08",
@@ -278,9 +330,8 @@
           "crn": "17272",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17272",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -300,10 +351,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "11",
@@ -311,9 +359,8 @@
           "crn": "17409",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17409",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -333,10 +380,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         },
         {
           "section": "12",
@@ -344,9 +388,8 @@
           "crn": "17410",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17410",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -366,12 +409,89 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
+        },
+        {
+          "section": "E01",
+          "section_name": "Global Issues through Lit",
+          "crn": "17275",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17275",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 6:15 PM",
+              "days": "TR",
+              "location": "John T. Rettaliata Engg Center 106",
+              "schedule_type": "Lecture",
+              "instructor": "Brian Casario",
+              "instructor_email": "bcasari1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 17,
+            "actual": 8,
+            "remaining": 9,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          }
         }
       ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "202",
+      "course_combined": "HUM 202",
+      "title": "Industrial Culture to A.I.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=202",
+      "course_description": "An interdisciplinary course that examines the development of modern industrial society and the impact of science and technology on our culture from the late eighteenth century to the present. Readings drawn from history, literature, and philosophy. This course is also writing instruction intensive.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "204",
+      "course_combined": "HUM 204",
+      "title": "Age of Darwin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=204",
+      "course_description": "An introduction to the humanities through an investigation of important changes in our culture associated with Darwin's theory of evolution. Readings drawn from literature, philosophy, and science. This course is also writing instruction intensive.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "206",
+      "course_combined": "HUM 206",
+      "title": "Life Stories",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=206",
+      "course_description": "An interdisciplinary study of biographies and autobiographies. In addition to considering such works as a genre, the course examines the historical events and the philosophical issues that have shaped the lives and attitudes of the writers/subjects. This course is also writing instruction intensive.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "HUM",
@@ -382,7 +502,11 @@
       "course_description": "An investigation into a topic of current or enduring interest in the humanities, which does not fit neatly into standard categories.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -391,9 +515,8 @@
           "crn": "17430",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17430",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -413,12 +536,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite or test required",
-          "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "395",
+      "course_combined": "HUM 395",
+      "title": "Practical Experience",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=395",
+      "course_description": "This course integrates the Humanities academic curriculum with a supervised work experience in the public or private sector. Students will apply Humanities perspectives to technical, entrepreneurial, creative, and design projects. They may choose to complete their experience at an organization or business, as a departmental teaching experience, or as an undergraduate research assistantship to a Humanities full-time faculty member. The experience should assist students in professionalization and career decision making. This class is required for all Humanities majors. Students double-majoring in Humanities may fulfill this by submitting a five-page report documenting and demonstrating how an equivalent experience in their other major has fulfilled the learning objectives of this course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "491",
+      "course_combined": "HUM 491",
+      "title": "Independent Reading/Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=491",
+      "course_description": "Independent reading or research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "HUM",
@@ -429,7 +583,11 @@
       "course_description": "HUM 495 introduces advanced Humanities students to research methods and practices in the Humanities. Students read and engage with contemporary research in Humanities fields while pursuing research projects of their own design. Students completing this course should leave with a draft of an article suitable for submission to a Humanities journal.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -438,9 +596,8 @@
           "crn": "17429",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17429",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -460,10 +617,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -476,7 +630,11 @@
       "course_description": "Required of all teaching assistants at Illinois Tech, HUM 501 introduces students to mandatory university policies, on-campus resources, classroom and course management techniques, and strategies and best practices for effectively working with students and faculty in order to fulfill teaching assistant responsibilities and best support student retention at the university.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Classifications: Graduate Doctoral Graduate Non Doctoral",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Classifications: Graduate Doctoral Graduate Non Doctoral",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -485,9 +643,8 @@
           "crn": "17220",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17220",
           "credits": 0.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -507,12 +664,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Classifications: Graduate Doctoral Graduate Non Doctoral",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "HUM",
+      "course_num": "602",
+      "course_combined": "HUM 602",
+      "title": "TA Seminar II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HUM&crse_numb_in=602",
+      "course_description": "This course helps prepare teaching assistants for their duties. TAs read and discuss articles sensitizing them to issues attendant to effective teaching. They practice teaching skills and techniques needed as they relate to undergraduates in their specific disciplines.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

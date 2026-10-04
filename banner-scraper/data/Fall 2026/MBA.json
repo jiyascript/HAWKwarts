@@ -3,6 +3,53 @@
   "courses": [
     {
       "course_code": "MBA",
+      "course_num": "501",
+      "course_combined": "MBA 501",
+      "title": "Financial Statement Apps",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=501",
+      "course_description": "This course is designed to develop each student’s financial analysis skill set. Throughout this course, students will be exposed to a variety of companies and industries with the goal of using various quantitative tools and qualitative factors to determine the financial health and risk of a company. The material covered in this course will correspond to various business applications including credit analysis, financial analysis, and investment analysis. During the latter part of this course, students will be exposed to advanced case study analysis using a team-building approach. MBA 501 will also introduce fundamental business concepts that will be used in other MBA courses.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "15074",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15074",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Michael J. Rybak",
+              "instructor_email": "mrybak@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 400,
+            "actual": 65,
+            "remaining": 335,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
       "course_num": "504",
       "course_combined": "MBA 504",
       "title": "Analytics for Decision Making",
@@ -10,7 +57,11 @@
       "course_description": "This course has the following objectives: (a) to offer a comprehensive presentation of Microsoft Office Excel 201x; (b) to acquaint students with the proper procedures to create workbooks and worksheets suitable for coursework and professional purposes; (c) to enhance and reinforce students' analytical skills and their ability to intelligently use information; (d) to teach the art and science of spreadsheet modeling; (e) to expose students to different approaches, support tools, and analytical methods for decision making; and (f) to improve students' critical thinking skills.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +70,8 @@
           "crn": "14577",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14577",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +91,55 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "M01",
+          "section_name": "",
+          "crn": "17520",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17520",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Tanushri Banerjee",
+              "instructor_email": "tbanerjee1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 20,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "505",
+      "course_combined": "MBA 505",
+      "title": "Microeconomics and Game Theory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=505",
+      "course_description": "This course applies economic principles to key decisions with organizations and solidifies intuition for understanding the business environments in which organizations operate. A key objective of the course is to develop tools useful in other Stuart courses. Economics is a key foundation for much of what is taught in finance, marketing, business strategy, environmental management, and virtually every other course in the graduate program. Economics is a way of thinking about problems, issues, and decisions that managers face in each of the functional areas of their organization. It stresses the importance of incentives in impacting human decision making and emphasizes the consideration of costs and benefits when making decisions. The course introduces and develops concepts in areas of microeconomics such as competition and market structure, incentive contracts, and pricing. Topics covered range from the most basic demand and supply models to principal-agent models and economics of information. The course will also touch on some of the primary macroeconomic topics (including GDP, inflation, and unemployment), topics in game theory (simultaneous and sequential games), and issues of ethics in economic policy-making pertaining to competitive and oligopolistic markets, pricing, and trade.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MBA",
@@ -57,7 +150,11 @@
       "course_description": "To succeed in today's knowledge intensive organizations managers need to understand how individual differences in personality, learning style and cultural values, group dynamics, organizational culture, and human resource management policies shape employee attitudes and behaviors. This course teaches managers creative problem-solving and ethical decision-making, change management, leadership techniques for enhancing social capital and influencing other organizational members, and management tools for multicultural and geographically dispersed teams. Students will relate management concepts and techniques to real-world situations through the extensive use of case studies and experiential exercises.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +163,8 @@
           "crn": "16748",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16748",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +184,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16467",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16467",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Smriti Anand",
+              "instructor_email": "sanand12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 200,
+            "actual": 88,
+            "remaining": 112,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
     },
@@ -104,7 +226,11 @@
       "course_description": "In this course, the student will learn the concepts and processes that underlie enlightened financial decision making in a global world. Students will explore how to raise debt and equity capital, how to think about what portion of earnings to retain and reinvest and whether to share some earnings with stockholders via dividend payments or repurchase of shares, how to value stocks and bonds, how to distinguish good from bad financial decision rules, how to decide which projects a firm should engage in, how to use futures, options and swaps to manage firm risk, how to ensure good corporate governance, why sustainability can be profitable while still protecting future generations, and how to manage the financial decisions required to effectively operate in a global setting.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +239,8 @@
           "crn": "17198",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17198",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,10 +260,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -151,7 +273,11 @@
       "course_description": "This course provides an introduction to the practice and strategy of marketing. Marketing activities are those processes and functions that enable managers and policy-makers to identify and serve the values and needs of a customer given the capacities of the company, activities of competitors, and inherent constraints in the business environment. Marketers typically refer to these concepts as the \"four C's.\" Based on their understanding of the \"four C's,\" students will then learn how to implement strategy by applying the levers of the marketing mix. These elements are known as the four P's (product, price, place/channels of distribution, and promotion). The treatment of marketing constraints and marketing mix will be motivated by essential foundations from economics, sociology, and consumer behavior. Over the course of the semester, students are expected to transition from thinking about these concepts in isolation to a dynamic, integrative framework. This process includes using the marketing strategy framework to assess business and policy problems from a \"multiple objective\" perspective: that is, the student will be asked to think about how marketing activities along with those of competitors and collaborators will affect the profitability, sustainability, social, and ethical standing of the firm. The synthesis of these concepts will be carried out through the use of case studies, problem sets, classroom lectures, discussions, and a field project. There will also be a midterm and final exam. The pedagogical style of the course emphasizes the students' role in applying the concepts discussed in the lectures to the situations at hand. The role of the instructor is to provide tools to structure thinking and to stimulate and facilitate analysis of the cases.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +286,8 @@
           "crn": "10867",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10867",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +307,182 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16468",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16468",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Robert G Nelson",
+              "instructor_email": "rnelson3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 200,
+            "actual": 27,
+            "remaining": 173,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "M01",
+          "section_name": "",
+          "crn": "17521",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17521",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:30 AM - 12:45 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Eszter Jakopanecz",
+              "instructor_email": "ejakopanecz@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 20,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "513",
+      "course_combined": "MBA 513",
+      "title": "Operations and Process Mgmt.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=513",
+      "course_description": "The course focuses on teaching students how to successfully analyze a business process, research methods of improving a process, and adapt/integrate the improvement methods into the business process in a prioritized and actionable manner.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16466",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16466",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Jeffrey A. Berk",
+              "instructor_email": "jberk@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 200,
+            "actual": 72,
+            "remaining": 128,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "522",
+      "course_combined": "MBA 522",
+      "title": "Transformational Leadership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=522",
+      "course_description": "Modern organizations of all kinds face unprecedented disruption and change, driven in part by the universal impacts of technology, globalization and extreme forms of capitalism that push for better performance in the face of greater competitive threat. While change happens to or threatens an enterprise, its managers routinely face a choice – calmly protect what has historically worked or embrace and drive change as the new leadership paradigm. This course assumes the latter as the only successful approach for positive long-term performance. It is designed as an advanced experience that requires students to bring together foundational concepts they have learned throughout their curriculum, especially leadership, organizational change, strategy and innovation, and apply them to lead a hypothetical strategic change program. Students will, working in small teams, develop a strategic change plan that includes i) a rigorous diagnosis of their business and an articulation of a “burning platform” for change, ii) an innovative strategy, at the company as well as key functional levels, that is designed to drive improved performance, iii) a financial and implementation plan that recognizes the importance of milestones, momentum and organizational interdependencies, and iv) a mobilization and execution plan that engages the organization, puts structure, accountability and effective communication around strategic projects, and allows for iteration and improvement as the organization learns. Students will appreciate that change leadership is today’s standard of leadership and is relevant in any management role and in any type of organization.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "523",
+      "course_combined": "MBA 523",
+      "title": "Negotiations & Strat Dec Mkng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=523",
+      "course_description": "This course is designed to foster an understanding of incentives and strategic decision-making as they apply to negotiations. The course has both theoretical and applied components with the objective of addressing both theory and skills as they apply to dyadic and multiparty negotiations, to buyer-seller transactions, to competitors' interactions, to the resolution of disputes, and to the development of negotiation strategies. The theoretical component is focused on an analytical study of strategic interactions using game theory while the applied component is based on a series of simulated negotiations in a variety of contexts including one-on-one, multiparty, and team negotiations. The objectives of the course are to provide an analytical foundation, to show where practice and theory diverge, and to provide a forum where negotiation tools in a variety of business-oriented settings can be actively applied. Instructor permission is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "524",
+      "course_combined": "MBA 524",
+      "title": "Human Capital Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=524",
+      "course_description": "Managerial leadership is one of the primary drivers of an organization's success. Not surprisingly, organizations are demanding effective leadership skills from managers at all levels. This course is designed to enhance students' understanding of leadership in contemporary organizations. Students will develop a conceptual framework of effective leadership in multinational organizations. Besides discussing leadership skills and traits, particular attention will be devoted to exploring the influence of organizational and societal context on leadership. This course will be taught with an experiential learning approach. Through self-assessments, case analyses, and a variety of other exercises, students will augment their leadership skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "528",
+      "course_combined": "MBA 528",
+      "title": "Management of Innovation and T",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=528",
+      "course_description": "Healthcare is one of the most fundamental human problems around the world. Besides food and water, every one of the seven billion people on earth needs healthcare. Yet, the current systems of healthcare delivery have inadequacies in providing quality care to all. In this respect, technological innovations have begun to contribute creative solutions to the many problems that healthcare delivery systems face with access to care, affordability of care, and consistent quality of care. This course focuses on how the management of technology and innovation and business and strategy principles can converge to understand the trends, problems, and potential solutions to the American healthcare delivery system and to other systems around the world. The course aims to acquaint the student with the issues and potential solutions of managing the healthcare delivery system. The healthcare sector has unique characteristics as both a social and business enterprise where private and public organizations and enormous resources are involved. The student will gain knowledge about the structure of the healthcare delivery system and how technology and innovation are contributing to some solutions to its most pressing problems of access, affordability, and quality of care. The student will also gain knowledge about the key technology dimensions and forces that shape the industry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MBA",
@@ -198,7 +493,11 @@
       "course_description": "This course gives students a practical introduction to the exciting and rapidly growing field of social entrepreneurship. The course will begin by introducing students to contemporary understandings of poverty, its causes, and traditional poverty alleviation strategies. It will then turn to key concepts regarding social ventures including entrepreneurship, organizational structures (for-profit, non-profit, and hybrid), financing, marketing, and performance assessment (social and environmental impact). We will also examine the challenges that are faced in creating and operating social enterprises in different parts of the world. The course includes guest lectures by other Stuart School of Business faculty and social entrepreneurs working in different areas (such as health, education and environment). Students will gain hands-on experience by either developing a business plan for a social enterprise to address a specific real world problem or assisting an existing social venture in developing a business plan geared towards an expansion of its services. It is expected that the plans can be entered into a variety of social venture competitions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +506,8 @@
           "crn": "14422",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14422",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +527,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -245,7 +540,11 @@
       "course_description": "This course is designed to provide an introduction to the evolving area of AI, with an emphasis on potential business applications and related managerial insights. Artificial Intelligence (AI) is the science behind systems that can program themselves to classify, predict, and offer solutions based on structured and unstructured data. For millennia, humans have pondered the idea of building intelligent machines. Ever since, AI has had highs and lows, demonstrated successes and unfulfilled potential. Today, AI is empowering people and changing our world. Netflix recommends movies, Amazon recommends popular products, self-driving cars learn to navigate safely around other vehicles without human assistance, and programmed robots distinguish trash from dishes that are to be washed. This course focuses on how AI systems understand, reason, learn and interact; learn from industry’s experience on several AI cases; develop a develop a deeper understanding of machine learning (ML) techniques and the algorithms that power those systems, and propose solutions to real world scenarios leveraging AI methodologies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +553,8 @@
           "crn": "16548",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16548",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -271,17 +569,77 @@
           ],
           "availability": {
             "capacity": 30,
-            "actual": 15,
-            "remaining": 15,
+            "actual": 16,
+            "remaining": 14,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16829",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16829",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Siva Balasubramanian",
+              "instructor_email": "sivakbalas@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 200,
+            "actual": 75,
+            "remaining": 125,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "536",
+      "course_combined": "MBA 536",
+      "title": "Internet of Things",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=536",
+      "course_description": "The Internet of Things (IoT) refers to the growing range of connected devices that send data across the Internet. The IoT is now a reality due to the convergence of several technologies. This course will provide students with a basic understanding of the need, implementation, and business value of Internet of Things. This class will mainly focus on Business applications for IoT along with the introduction of how these systems could be implemented in the ‘real world’. The class will consist of a set of theory lectures and hands-on labs. The theory section will cover the business needs for a IoT, the business processes required to create an industrial grade IoT application and the logical steps to design a IoT. The hands-on labs will provide the basic knowledge to become familiar with the IBM Cloud with a focus on IoT applications, how to setup the cloud to receive sensor readings from IoT, and how to create a dashboard to display the reading values over time, and setup ‘alarms’ for ‘out of band’ sensor readings. There will be six labs and one final team project. All of these projects will be completed in the IBM cloud based IoT environment. The course also gives you the opportunity to earn a globally recognized IBM digital badge in IoT.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "540",
+      "course_combined": "MBA 540",
+      "title": "Data Science for Business",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=540",
+      "course_description": "Adoption of Data Science concepts, methods and tools improve enterprise decision-making and performance. This course will include both the IBM online Data Science and Enterprise Design Thinking courses. Upon successful completion of these courses, IBM Badges for Data Science and Enterprise Design Thinking will be awarded. Additionally, the Python language that is preferred by industry will be taught for developing business analytical models. By the end of the semester, you will be well-prepared to solve business problems and identify opportunities. The primary machine learning tools are IBM WATSON Studio (cloud), Python, Jupyter notebooks and Mural for design thinking. The text, readings, and software lab experience will enhance your personal competitive advantage.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MBA",
@@ -292,7 +650,11 @@
       "course_description": "For Western MNCs, some of the most intriguing growth opportunities in the Next Economy exist in low-income segments, the so-called markets at the bottom of the income pyramid, in emerging and underdeveloped countries of the world. Historically, MNCs targeted the customers at the top of the pyramid in these countries because their business models worked well for them. But as these bottom-of-the-pyramid markets become more economically profitable, MNCs need to make a serious attempt to evaluate and target them. In order to successfully compete for customers in these markets, MNCs should design innovative business models that could represent a radical departure from the way they do business in more advanced countries. This course is about such business model innovation. Students will learn tools of international market opportunity analysis, foreign market entry strategies, the social, economical, and ethical factors affecting decisions to serve low income customers, the stringent requirements of the customers at the bottom of the pyramid, and business models to profitably serve these customers.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BUS 510 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +663,8 @@
           "crn": "17199",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17199",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,12 +684,107 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: Mandarin Beacon Students",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BUS 510 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "570",
+      "course_combined": "MBA 570",
+      "title": "Business Study Mission Abroad",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=570",
+      "course_description": "China has become a major business destination for companies around the world. The success of managers and entrepreneurs around the world today may depend on how well they do business with Chinese customers, suppliers, and partners. One of the best ways to understand this is through immersion. This course involves a business study mission trip to some of the epicenters of Chinese business, such as Shanghai. Students will be able to visit foreign and local manufacturing and service companies located in China, listen to business leaders and government officials, and enjoy the cultural immersion experiences. Students will attend several briefing sessions prior to the visit and a debriefing session following the visit. Instructor permission is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "572",
+      "course_combined": "MBA 572",
+      "title": "New Tech Ventures (Coursera)",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=572",
+      "course_description": "This course is structured to provide students with a rigorous understanding of how to start, grow, and sustain innovative businesses. It begins with cultivating an entrepreneurial mindset and progresses through design thinking, customer discovery, and strategic financial planning. Each module is designed to build on the previous, incorporating elements like global market positioning and ethical business practices. Students will conclude the course by learning to effectively communicate their business ideas through compelling pitches aimed at securing funding and driving business growth.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business",
+      "attributes": "",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "B88",
+          "section_name": "New Tech Ventures",
+          "crn": "16452",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16452",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Shivani Chokshi",
+              "instructor_email": "schokshi2@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 89,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "576",
+      "course_combined": "MBA 576",
+      "title": "Deep Tech Commercialization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=576",
+      "course_description": "The course concentrates on the preparation of business plans, methods for evaluating and screening new venture ideas, formulation and implementation of business strategies for new ventures, and the financing of new ventures. The course will also focus on identifying, examining, and evaluating various sources of original and growth capital. Emphasis will be on legal, financial, and tax issues related to capital formation as well as specific problems experienced by the entrepreneur in the high technology space. Topics discussed will include venture valuation, financing startups, financial planning and strategy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "577",
+      "course_combined": "MBA 577",
+      "title": "Entrepreneurial Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=577",
+      "course_description": "The course Entrepreneurial Finance has been one of the most popular electives for the past quarter century at top graduate business schools. The course is designed for students interested in becoming an entrepreneur, working at an entrepreneurial firm, investing in entrepreneurs and/or anyone interested in the topic of finance and/or entrepreneurship. The course is open to all MBA students. A background in finance is not required. This is a course that focuses on teaching the practical application of the topics mentioned earlier.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MBA",
@@ -339,7 +795,11 @@
       "course_description": "Designed for leaders focused on implementing new ideas, staying ahead of the competition and aligning their people, data and technology to drive digital transformation. First, we discuss the pace of change, and its impact, implications and opportunities. Next, we provide the context and framework to help you identify key areas to digitize, including strategy, core processes, and technology. The course culminates with a project where participants create an action plan for a challenge at a level that is appropriate for their role or responsibility. After completing the course, students will learn how to build a digital transformation vision, skills and leadership qualities key for the 21st century executive.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -348,9 +808,8 @@
           "crn": "15302",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15302",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -370,12 +829,55 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "15298",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15298",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Marian F Cook",
+              "instructor_email": "mcook12@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 200,
+            "actual": 28,
+            "remaining": 172,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "595",
+      "course_combined": "MBA 595",
+      "title": "Special Topics: MBA Program",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=595",
+      "course_description": "Special topics in business administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MBA",
@@ -386,7 +888,11 @@
       "course_description": "Independent study in business administration.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -395,9 +901,8 @@
           "crn": "12367",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12367",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -417,10 +922,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "116",
@@ -428,9 +930,8 @@
           "crn": "15492",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15492",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -450,10 +951,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "128",
@@ -461,9 +959,8 @@
           "crn": "13604",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13604",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -483,10 +980,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "134",
@@ -494,9 +988,8 @@
           "crn": "17481",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17481",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -516,10 +1009,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "135",
@@ -527,9 +1017,8 @@
           "crn": "11264",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11264",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -549,10 +1038,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "148",
@@ -560,9 +1046,8 @@
           "crn": "11052",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11052",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -582,10 +1067,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "151",
@@ -593,9 +1075,8 @@
           "crn": "13632",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13632",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -615,10 +1096,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "158",
@@ -626,9 +1104,8 @@
           "crn": "16116",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16116",
           "credits": 4.5,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -648,10 +1125,257 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "701",
+      "course_combined": "MBA 701",
+      "title": "Competitive Strategy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=701",
+      "course_description": "“Why do some companies outperform others?” That question is particularly important to ask in industries like the tech sector, which are fiercely competitive. Companies competing in these industries find it difficult to achieve competitive advantage and sustain it over the longer run. In this course, you will learn about 21st century competition, the forces driving it, and the challenges it poses for companies. Using that as the backdrop, you will learn how to analyze a company's external and internal environments and develop powerful strategies that allow companies to gain a sustainable competitive advantage even in fast-cycle markets. The course will describe companies that have successfully outperformed their competitors even in the fiercely competitive markets of the 21st century.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "702",
+      "course_combined": "MBA 702",
+      "title": "Managerial Economics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=702",
+      "course_description": "Why are markets commonly believed to be the best way of allocating resources and organizing economic activity? This course will answer this critical question while examining its implications for pricing, market entry and exit, short-term and long-term business strategies, and the forecasting of key market variables. The course introduces fundamental topics in the economic analysis of markets, and some of the analytical tools used to study them, as a means to build economic intuition and fostering an understanding of a variety of market conditions and market forces.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "703",
+      "course_combined": "MBA 703",
+      "title": "Mastering Excel Essentials",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=703",
+      "course_description": "Spreadsheets are ubiquitous in today’s business environment. The Excel Essentials course is designed to empower beginner and intermediate users to maximize their productivity and enhance the business value of their Excel skills. This course will equip you with the fundamental knowledge to leverage the potential of spreadsheets. Throughout the course, you will embark on a step-by-step journey, starting with the basics and gradually progressing to more advanced topics. Whether you are new to Excel or have been using it for a while, this course will help you refine your skills and uncover hidden features to supercharge your productivity.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "706",
+      "course_combined": "MBA 706",
+      "title": "Innovation and Int'l Strategy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=706",
+      "course_description": "In this course, you will learn about Innovation and International Strategies. The course is made up of 5 modules. Modules 1 through 3 cover innovation strategies including topics like technology adoption life cycle, the product life cycle, disruptive innovation and blue ocean strategy. In Modules 4 and 5, you will learn how companies expand into international markets and compete there. You will learn about how companies make decisions like the rationale for going international, international market selection, entry strategies and the different types of international strategies. You will learn how successful companies compete globally and outperform their competitors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master Non Degree Graduate Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "B01",
+          "section_name": "",
+          "crn": "15949",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15949",
+          "credits": 2.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "M Krishna Erramilli",
+              "instructor_email": "merramil@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 500,
+            "actual": 33,
+            "remaining": 467,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "707",
+      "course_combined": "MBA 707",
+      "title": "Business Econ & Game Theory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=707",
+      "course_description": "Good decision making and strategy do not exist in isolation: the success and profitability of a business depends not only on its own strategic moves but also those that other firms make, especially competitors. Understanding the strategic linkages among firms can therefore be immensely valuable. Economics and Game theory offer tools that can specifically enhance one's understanding and ability to exploit such strategic linkages. This course will layer game-theoretic considerations on top of economic considerations in the marketplace. In doing so, we will identify the key actors, their objectives, potential actions, and predicted outcomes, as well as ways to strengthen the position of a business in the market. We will also demonstrate when to expect governments to intervene in markets, either because markets may have failed or because the government may have been persuaded to intervene by key stakeholders.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A01",
+          "section_name": "",
+          "crn": "16940",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16940",
+          "credits": 2.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Dinakar Jayarajan",
+              "instructor_email": "djayaraj@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 47,
+            "remaining": 53,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "B01",
+          "section_name": "",
+          "crn": "15950",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15950",
+          "credits": 2.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Priyanka Sharma",
+              "instructor_email": "psharm21@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 500,
+            "actual": 23,
+            "remaining": 477,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MBA",
+      "course_num": "708",
+      "course_combined": "MBA 708",
+      "title": "Excel Masterclass",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MBA&crse_numb_in=708",
+      "course_description": "The Comprehensive Excel Masterclass is designed to provide participants with advanced skills in Excel, focusing specifically on leveraging Excel dashboards to effectively display key performance indicators (KPIs) and support data-driven decision-making. The course combines theoretical concepts with practical exercises and examples to reinforce learning. The course begins by introducing participants to essential finance skills related to loans, project budgeting, and planning. A significant portion of the course is dedicated to Excel dashboards, which are effective tools for visually presenting performance data (KPIs). Participants will learn how to create compelling dashboards using advanced Excel features while engaging in hands-on exercises. They will explore techniques for data visualization, creating interactive charts, and incorporating dynamic elements into their dashboards. Note: This course assumes a basic understanding of Excel functionalities such as creating formulas, working with worksheets, and basic data manipulation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A01",
+          "section_name": "",
+          "crn": "16941",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16941",
+          "credits": 2.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Elizabeth J. Durango-Cohen",
+              "instructor_email": "durango-cohen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 41,
+            "remaining": 59,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "B01",
+          "section_name": "",
+          "crn": "15951",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15951",
+          "credits": 2.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Elizabeth J. Durango-Cohen",
+              "instructor_email": "durango-cohen@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 500,
+            "actual": 22,
+            "remaining": 478,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
     }

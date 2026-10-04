@@ -3,6 +3,40 @@
   "courses": [
     {
       "course_code": "SAM",
+      "course_num": "502",
+      "course_combined": "SAM 502",
+      "title": "Environmental Law",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=502",
+      "course_description": "This course will examine the development and implementation of nine U.S. environmental policy initiatives: 1. Conserve ecologically valuable places. 2. Incorporate environmental considerations into government decisions to fund, approve and conduct projects. 3. Save plant and animal species threatened with extinction. 4. Achieve healthy air quality. 5. Ensure a stable atmosphere and climate. 6. Establish unobstructed, fishable and swimmable waters. 7. Prevent the contamination of land and groundwater by regulating waste disposal practices. 8. Remediate historically contaminated sites. 9. Provide opportunities for public participation in the development, implementation and enforcement of environmental laws. The course will explore the genesis of these policy initiatives, the legislation that was enacted to effectuate these policies, and the practical implementation of this legislation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "503",
+      "course_combined": "SAM 503",
+      "title": "ESG Analytics and Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=503",
+      "course_description": "Across the world, businesses have become acutely attuned to the rising opportunities and risks associated with sustainability issues including climate change, biodiversity, diversity and inclusion, social justice and ethical governance. As a result, businesses are integrating sustainability throughout their operations, from purpose-setting and strategy development, through innovation, marketing and supply chain management. This course trains future sustainability managers to assess and respond to growing environmental, social and ethical concerns. We will explore how leading companies are adapting for success over multiple time horizons. Emphasis will be how organizations develop sustainability strategies that enable them to build and sustain competitive advantage utilizing traditional management concepts as well as new sustainability practices",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SAM",
       "course_num": "504",
       "course_combined": "SAM 504",
       "title": "Industrial Ecology",
@@ -10,7 +44,11 @@
       "course_description": "This course introduces students to the emerging field of Industrial Ecology, and examines how this systems-based approach can be used to move society toward a more sustainable future. Industrial Ecology is an interdisciplinary field involving technology (science and engineering), public policy, business administration and increasingly the social sciences. The course introduces concepts and tools such as Material and Energy Flow Analysis, Life Cycle Assessment, Design for Sustainability, Extended Producer Responsibility and Industrial Symbiosis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +57,8 @@
           "crn": "17098",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17098",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +78,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "505",
+      "course_combined": "SAM 505",
+      "title": "Environmental Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=505",
+      "course_description": "The emerging field of environmental finance involves the art and science of using economic incentives, financial tools and market mechanisms to achieve desired environmental outcomes. Environmental markets have proven not only to be drivers of economic growth, jobs and innovation but also powerful agents of social and environmental transformation. Knowledge of environmental risks, compliance obligations and business opportunities from environmental asset class are essential for corporates to stay competitive. The purpose of the course is to introduce environmental finance from a public policy viewpoint and examine its implications to corporations from financial and risk management angle. In doing so, the course will introduce students to fundamental economic concepts underlying environmental markets. Economic concepts involving market failures, externalities and public policy tools will be discussed. The historical evolution and current developments of market-based mechanisms to address environmental issues will be analyzed. Lessons from environmental markets for Acid Rain and domestic and international greenhouse gas emissions will be discussed at length. Other environmental markets (smog, renewable energy, water, sustainability indices and biodiversity) will also be covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SAM",
@@ -57,7 +108,11 @@
       "course_description": "The SAM 512 course will offer discussion of the basic concepts of Environmental Risk Analysis, Control of Environmental, Work Place Hazards; Industrial Hygiene; and Ecological Risk Analysis. Also discussed are recognition and evaluation of chemical, physical and biological hazards; the human environment; control hierarchies, strategies and technologies; personal protection; criteria and standards; and associated Management and Ethical issues.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +121,8 @@
           "crn": "17099",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17099",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +142,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "513",
+      "course_combined": "SAM 513",
+      "title": "Sustainability and ESG Analyti",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=513",
+      "course_description": "This course provides an overview of the modeling market process is provided focusing on externalities, environmental problems, and environmental quality. Economic solutions to environmental problems are discussed using a market approach which includes modeling emission charges, modeling a product charge, modeling per unit subsidy on pollution reduction, and modeling pollution permit trading systems and practice. The course examines institutional economic solutions to address environmental problems such as climate change, global warming, and water scarcity. It also explores the growing importance of using Environmental Social and Governance (ESG) analytics in calculating the impact of climate change.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SAM",
@@ -104,7 +172,11 @@
       "course_description": "This course gives students a practical introduction to the exciting and rapidly growing field of social entrepreneurship - the application of business approaches to solving social, economic, and environmental challenges. The course will begin by introducing students to major social, economic and environmental challenges around the world by highlighting both local and international social ventures that are working on these problems. It will then turn to key concepts regarding social ventures including entrepreneurship, organizational structures (for-profit, non-profit and hybrid), financing, marketing, and performance assessment (social, economic, and environmental impact). We will also examine the challenges faced when creating and operating social enterprises in different parts of the world. The course includes guest lectures and visits with social innovators working in different areas (such as health, education and environment). Students will gain hands-on experience by a) developing a business model concept for a for-profit or non-profit social enterprise to address a specific real-world problem, in Chicago or elsewhere, or b) assisting an existing Chicago- based for-profit or non-profit social venture to improve their impact.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +185,8 @@
           "crn": "15867",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15867",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +206,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "541",
+      "course_combined": "SAM 541",
+      "title": "Sustainable Energy Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=541",
+      "course_description": "This course attempts to identify and evaluate issues and benefits of industrial sustainable transitions and their relations to the flow of energy and money through the economy. The importance of the energy and resources supplied to the economy by energy transformation systems are presented while considering management of the environmental externalities of energy use bound by technological and resource constraints. Development of sustainable energy systems, considerations of the alternative energy production to substitute for fossil fuels, and evaluations of the end use and the upstream effects of the energy demands are considered while supporting the notion of transitional engineering for sustainability.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "543",
+      "course_combined": "SAM 543",
+      "title": "Environmental Regulation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=543",
+      "course_description": "This course will examine the process for understanding and developing environmental compliance management programs by evaluating the following topics:. 1. The source and development of environmental laws and regulations 2. The process of administrative agency decision making 3. The identification of rules applicable to individual facilities through permits. 4. Permit development and procedures in different media areas 5. Regulatory enforcement mechanisms and procedures 6. Monitoring and reporting 7. Developing internal compliance programs",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "595",
+      "course_combined": "SAM 595",
+      "title": "Special Topics Sustainability",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=595",
+      "course_description": "This course is a client-focused, project-based course in which students apply the knowledge and skills they have acquired throughout the program by working on projects related to the sustainability issues facing the client organization.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "597",
+      "course_combined": "SAM 597",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=597",
+      "course_description": "SAM 597 involves the preparation of a high-quality independent study paper.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SAM",
+      "course_num": "599",
+      "course_combined": "SAM 599",
+      "title": "Indep Study Sustainability",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SAM&crse_numb_in=599",
+      "course_description": "Student will conduct independent research on a sustainability analytics and management topic.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

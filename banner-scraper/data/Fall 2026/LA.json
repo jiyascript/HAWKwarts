@@ -10,7 +10,11 @@
       "course_description": "Special projects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "17181",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17181",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -52,9 +52,8 @@
           "crn": "17217",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17217",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +73,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -90,7 +86,11 @@
       "course_description": "Inquiry of natural factors and ecology (soil formations, geological features, hydrological patterns, catastrophic events, etc.) in the settlement and development of cities. The work of the seminar will include an inventory of these factors in selected global cities, including Chicago, and their influence on urban design and site-specific landscape architecture projects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +99,8 @@
           "crn": "10645",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10645",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,12 +120,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "502",
+      "course_combined": "LA 502",
+      "title": "History/Theory/Criticism II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=502",
+      "course_description": "The chronological history of designed landscapes with an emphasis on the emergence of the profession of landscape architecture in North America in the nineteenth and twentieth centuries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "503",
+      "course_combined": "LA 503",
+      "title": "History/Theory/Criticism IV",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=503",
+      "course_description": "Twentieth century and contemporary landscape architecture is investigated through case studies including site visits to projects in the Chicago region.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "LA",
@@ -137,7 +167,11 @@
       "course_description": "Advanced study of landscape architecture topics with emphasis on research methods, description, analysis, and criticism.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -146,9 +180,8 @@
           "crn": "15822",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15822",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -168,10 +201,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -184,7 +214,11 @@
       "course_description": "Develop expertise in professional practice. Lectures, research assignments, and case studies will investigate practice models, proposals and contracts, schedules and budgets, project phases, project and client types, project team structure, the role of competitions, professional development, and licensure. In addition, the role of landscape architects, urban planners, real estate trusts, government agencies, developers, and others in directing the economic, professional, political, and socio-cultural concerns and responsibilities to initiate and manage landscapes will be investigated.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -193,9 +227,8 @@
           "crn": "11923",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11923",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -215,10 +248,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -231,7 +261,11 @@
       "course_description": "Investigations of gardens, landscapes, infrastructure, and cities as they are conceived, mature, and change over time. Study of landscapes designed for successional processes, weathering, biological growth and decay, seasonality, preservation and conservation of historic landscapes, and other topics.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -240,9 +274,8 @@
           "crn": "12612",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12612",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -262,10 +295,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -278,7 +308,11 @@
       "course_description": "Drawings (manual and digital) and models (physical and digital) will be employed to explore and interrogate landscape processes and envision ideas particular to landscape architecture such as mapping, time, movement, line, contour, texture, and materials, among others, while also developing a mastery of drawing conventions and media.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -287,9 +321,8 @@
           "crn": "10646",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10646",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -309,12 +342,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "526",
+      "course_combined": "LA 526",
+      "title": "Design Media II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=526",
+      "course_description": "Using digital tools to clarify, conceptualize, represent, and communicate designed and engineered environments. A fluidity between critical, visual, and quantifiable digital techniques will be cultivated and will ground the management of information across software platforms.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "LA",
@@ -325,7 +372,11 @@
       "course_description": "Understanding the fundamental relationships of dynamic processes with an emphasis on representing time, movement, space, light, rhythms, shifting boundaries and enclosures, and physical materials of landscape.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -334,9 +385,8 @@
           "crn": "10641",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10641",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -356,12 +406,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "542",
+      "course_combined": "LA 542",
+      "title": "Landscape Arch Studio II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=542",
+      "course_description": "Continued development of the core tools of the discipline of landscape architecture focusing on the 21st century city. Rigorous site analysis will include emphasis on material, cultural, and ecological expression of city-scale networks and flows at the site scale. Design investigations will explore the site itself, its adjacent conditions, and the larger neighborhood or civic milieu.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "LA",
@@ -372,7 +436,11 @@
       "course_description": "The integration of local ecologies, projected use, and the performance of ephemeral, semi-permanent, and permanent site interventions into cohesive and resilient design proposals for varied urban sites. Introduction to a wide range of site-specific professional design standards including the Americans with Disabilities Act and barrier-free regulations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: LA 542 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -381,9 +449,8 @@
           "crn": "13233",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13233",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nStudio Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -403,12 +470,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: LA 542 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "544",
+      "course_combined": "LA 544",
+      "title": "Pro Independent Studio IV",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=544",
+      "course_description": "Development of landscape architecture as a multi-scalar framework for designing dynamic urban processes and sites. Emphasis is placed on research and design strategies that consider the region as an analytical lens for site-specific design. This collaborative Landscape Architecture Service Studio operates in the service of community work. Through these partnerships, the studio functions as a platform for civic practice, translating research into actionable design strategies that support communities, inform policy, and contribute to the public realm. Students engage real-world stakeholders and work collaboratively to produce projects that advance both disciplinary knowledge and public benefit.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "546",
+      "course_combined": "LA 546",
+      "title": "Landscape Arch Studio VI",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=546",
+      "course_description": "The design-based research Final Project is the culmination of the studio sequence. The aim of the Final Project is to develop formal solutions that address the complexities of the urban landscape and advance disciplinary knowledge at large. The project’s production focuses on developing work at a variety of scales, from large-scale master plans, urban designs, and landscape designs to new urban typologies and singular buildings, all of which address issues pertinent to the equitable city. This is a vertical studio inviting advanced BArch, MArch, MLA, MS, and PhD students. Students will be able to select from a variety of project topics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "LA",
@@ -419,7 +517,11 @@
       "course_description": "The plants of the Western Great Lakes Basin, emphasizing both prominent native and commercially available species. Understanding and identifying species as found within typical plant communities. Familiarization with plant physiology as determined by climate, geology, topography, hydrology, soils, wildlife, and disturbances.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -428,9 +530,8 @@
           "crn": "10644",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10644",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -450,12 +551,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "566",
+      "course_combined": "LA 566",
+      "title": "Ecology & Materials Wksp II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=566",
+      "course_description": "The qualities and characteristics of landscape materials with emphasis on a quantitative and interrelated understanding of the design of landform (grading) and water. Covers the influence of climate, geology, soils, hydrology, and disturbances on the design of a site's constituent elements including paths and streets, infrastructure, plants, and water.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "LA",
@@ -466,7 +581,11 @@
       "course_description": "Advanced understanding of planting typologies, the history of plants in design, and the preparation of planting construction documentation augmented by frequent investigations and analysis of built landscapes in the Chicago region.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -475,9 +594,8 @@
           "crn": "11778",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11778",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -497,12 +615,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be enrolled in one of the following Colleges: College of Architecture",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "568",
+      "course_combined": "LA 568",
+      "title": "Ecology & Materials Wksp IV",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=568",
+      "course_description": "Techniques and technologies to analyze, construct, remediate and/or restore urban sites including those that have been subjected to complex human disturbances such as landfills and brownfields. Includes special needs construction practices such as structured soils, phytoremediation, green roofs, and rooftop gardens.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "LA",
@@ -513,7 +645,11 @@
       "course_description": "Special problems in landscape architecture. For students in the master program in landscape architecture only.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -522,9 +658,8 @@
           "crn": "16185",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16185",
           "credits": 10.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -544,10 +679,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "200",
@@ -555,9 +687,8 @@
           "crn": "15818",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15818",
           "credits": 10.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -577,12 +708,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "999",
+      "course_combined": "LA 999",
+      "title": "Landscape Arch Elective(s)",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=LA&crse_numb_in=999",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

@@ -10,7 +10,11 @@
       "course_description": "This course provides a systematic exposition of the primary mathematical methods used in finance and the financial markets. Mathematical concepts and methods discussed are precalculus, calculus, and probability and statistics. Applications include simple and compound interest, annuities and mortgages, forward and futures contracts, bond pricing and duration and convexity, option pricing and strategies, solution of equations of value, optimization, volatility, elementary portfolio theory, Black Scholes option pricing, Binomial Option Pricing, and statistical inference. The learning method includes doing problems in class, quizzes, Final Exam, films, supplementary reading of relevant articles.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "10864",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10864",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -36,15 +39,12 @@
           ],
           "availability": {
             "capacity": 20,
-            "actual": 18,
-            "remaining": 2,
+            "actual": 17,
+            "remaining": 3,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "Quantitative techniques are very important and useful for analyzing business and financial markets, especially in today’s world of big data. This course reviews the basics of statistics, including sampling and data, descriptive statistics, probability, distributions, statistical inference, the Central Limit Theory, estimation, hypothesis testing, Analysis of Variance, and regression analysis, a widely used statistical technique in business and finance supporting decision-making under uncertainty.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "10874",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10874",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -83,15 +86,12 @@
           ],
           "availability": {
             "capacity": 14,
-            "actual": 7,
-            "remaining": 7,
+            "actual": 6,
+            "remaining": 8,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -104,7 +104,11 @@
       "course_description": "Modeling using databases and python programming is ubiquitous in the modern financial industry and business in general. In this course, students will learn how to implement quantitative models using Microsoft Excel, SQL, and Python. Models will include those statistical methods, time series, and valuation models most widely used in industry. Numerical techniques including Monte Carlo simulation, optimization, and root-finding will also be covered. Particular attention will also be paid to project management and testing.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +117,8 @@
           "crn": "10877",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10877",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -130,15 +133,12 @@
           ],
           "availability": {
             "capacity": 20,
-            "actual": 10,
-            "remaining": 10,
+            "actual": 9,
+            "remaining": 11,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -151,7 +151,11 @@
       "course_description": "The course is a survey of asset pricing theory. The fundamentals of bond and option pricing are covered as well as the CAPM, APT, and the Fama-French models. Excel spreadsheet modeling is used to illustrate and understand the concepts of Markowitz's Mean Variance Optimization, equity valuation, option pricing, and utility theory. The course places a special emphasis on the relationship between macroeconomic conditions and investment opportunities.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: MSF 501 May not be taken concurrently. and Course or Test: MSF 502 May not be taken concurrently. and Course or Test: MSF 503 May not be taken concurrently. ) or ( Course or Test: MSC 511 May not be taken concurrently. and Course or Test: MSC 512 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +164,8 @@
           "crn": "10869",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10869",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,10 +185,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: MSF 501 May not be taken concurrently. and Course or Test: MSF 502 May not be taken concurrently. and Course or Test: MSF 503 May not be taken concurrently. ) or ( Course or Test: MSC 511 May not be taken concurrently. and Course or Test: MSC 512 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -198,7 +198,11 @@
       "course_description": "This three-credit foundation course, mainly for Master of Science in Finance (MSF) students, will examine the mechanism, pricing, trading, and risk management of financial derivatives. Specifically, the students will learn options, forwards, futures contracts, swaps, OTC derivatives, arbitrage-free pricing, risk-neutral pricing, binomial trees, the Black-Scholes-Merton approach, and the Monte Carlo simulation for derivatives pricing. Numerical examples in this course are paper-and-pencil-based, spreadsheet-based, or Python-based. Students will implement a simple derivatives trading strategy using trading software. At the end of the semester, a student should know the mechanism, terminologies, and basic properties of futures, options, and OTC Derivatives; be able to implement speculative, hedging, and arbitrage trading strategies using futures and options; be able to determine a price of futures/forward, options, and OTC Derivatives using non-arbitrage arguments, option bounds, a binomial model, Black-Scholes-Merton model, Monte Carlo Simulation, etc.; and understand dynamic delta hedging and other Greeks for financial risk management purposes.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +211,8 @@
           "crn": "10870",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10870",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +232,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -245,7 +245,11 @@
       "course_description": "The primary objective of this course is for the student to develop his/her financial analysis skills. This course will focus on key accounting concepts, financial ratios, forecasting techniques and industry issues which are critical in interpreting and analyzing external financial reports. Additionally, advanced analysis skills will be introduced, which should enable the student to look beyond the numbers (presented in a GAAP/IFRS format) and ultimately obtain a more informed decision regarding the financial strength (value) of the company (security). Throughout this course students will be involved in “hands-on” financial analysis by working on class exercises/problems, discussing special topical readings and completing an assigned case.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +258,8 @@
           "crn": "10871",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10871",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,12 +279,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MSF 501 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 502 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 503 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "524",
+      "course_combined": "MSF 524",
+      "title": "Models for Derivatives",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=524",
+      "course_description": "The practice of financial engineering requires skill in financial theory and practice, mathematics and programming. This course includes instruction in all of these areas. In this class, students will learn mathematical and computational methods that are applicable to the pricing and risk management of derivatives. The class provides an introduction to options pricing theory, covering stochastic calculus, the Black-Scholes partial differential equation, risk-neutral valuation and hedging portfolio replication. The course will focus on important numerical techniques used in finance, including variance reduction techniques in Monte Carlo Simulation and finite difference methods applied to partial differential equations. These methods will be applied to the pricing of exotic options. In this class, students will learn to program and implement financial models in Matlab.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "525",
+      "course_combined": "MSF 525",
+      "title": "Term Struc Mod & Int Rate Der",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=525",
+      "course_description": "Upon completion of this course, students should know the strengths, weaknesses, appropriate uses, and ways of implementing the major term structure models that are in common use. The course will begin with bootstrapping of forward curves, principal component analysis, and a review of basic fixed income derivatives (swaps, swaptions, caps, and floors). We will then implement short rate models, such as Ho-Lee, Black-Derman and Toy, and extended Vasicek/Hull-White, followed by the Helath-Jarrow-Morton model and market rate models. Students will implement these term structure models in Excel/VBA and Matlab.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "534",
+      "course_combined": "MSF 534",
+      "title": "Corporate Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=534",
+      "course_description": "The primary objective of this course is for students to develop a strong understanding (and interest) of financial management related topics including: cost of capital, capital budgeting, capital structure decisions, working capital management, dividend payout policy, debt and equity financing, mergers & acquisitions, and corporate governance. Throughout this course, students will apply corporate finance topics to current company examples, which will be facilitated by class discussion, in-class exercises/problems, and assigned topic homework problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSF",
@@ -292,7 +343,11 @@
       "course_description": "The primary goal is for students to develop an understanding of key investment banking concepts and applications. Students will be exposed to topics such as comparable companies’ analysis, precedent transaction analysis, discounted cash flow analysis, leverage buyouts, venture capital, and sell-side and buy-side mergers and acquisitions. During the course, students will interact with real company scenarios and will be required to use investment banking applications to solve in-class examples and problems. In the latter part of this course, students will work on an assigned case pertaining to a specific investment banking topic. This case will include a comprehensive data set and require Excel modeling. Because this is a “hands on” course, it will require both the student’s attendance and participation to learn the core concepts that are necessary to perform well on the class exams and apply the necessary material to the assigned case and homework problems.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +356,8 @@
           "crn": "14425",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14425",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,10 +377,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
     },
@@ -339,7 +390,11 @@
       "course_description": "The primary goal is for students to develop an understanding of equity valuation processes and applications. Topics discussed in class will include dividend discount, free cash flow, residual income, and market-based valuations as well as private and distressed company valuations. Throughout this course, students will apply equity asset valuation topics discussed in class to real world examples and in-class problems/exercises. During the latter part of this course, students will work in a group environment to complete and present an equity research report for a selected U.S. public company. Because this is a “hands on” course, it will require both the student’s attendance and participation to learn the core concepts that are necessary to perform well on the class exams and apply to the group equity valuation project.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -348,9 +403,8 @@
           "crn": "11277",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11277",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -370,12 +424,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 506 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "545",
+      "course_combined": "MSF 545",
+      "title": "Fixed Income Portfolio Manage",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=545",
+      "course_description": "This course will cover the characteristics, valuation and risk management of fixed income instruments. These instruments include bonds, repos, interest rate derivatives, inflation indexed securities, mortgage-backed and asset-backed securities, CDOs and default swaps. The focus will be on understanding how these instruments are structured and used. Term structure modeling and hedging techniques will be presented, with a minimum of mathematics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSF",
@@ -386,7 +454,11 @@
       "course_description": "This course develops the primary quantitative tools used in the portfolio selection process. The applied focus of the course centers on the process of moving from a data set of historical information to the formulation of a forecasting model, the estimation of mean-variance efficient portfolios, and the testing of efficiency hypotheses within an in-sample and post-sample setting. The course covers the estimation of efficient portfolios, factor models, forecasting models, and risk analysis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -395,9 +467,8 @@
           "crn": "12476",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12476",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -417,10 +488,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
     },
@@ -433,7 +501,11 @@
       "course_description": "This class surveys machine learning techniques for empirical research in finance and business, including: 1. Linear machine learning algorithms for prediction and classification, including lasso and ridge regression, logistic regression, linear discriminant analysis. 2. Nonlinear machine learning algorithms, including decision trees, naïve Bayes, k-nearest neighbors, and support vector machines. 3. Ensemble algorithms, including bagging, random forests, and boosting models. 4. Neural networks, including RNNS, LSTM, as well as NLP for sentiment analysis. Students use Python to build scripts that encapsulate the algorithms presented. Various financial and business-related data sources will be used to develop a hands-on understanding of dimension reduction, regression, classification, and clustering. Emphasis will be given to performance evaluation of various models using, for example, confusion matrices, classification reports, and various graphical constructs.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -442,9 +514,8 @@
           "crn": "13660",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13660",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -464,12 +535,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "554",
+      "course_combined": "MSF 554",
+      "title": "Market Risk Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=554",
+      "course_description": "The course covers various issues related to investment and its risk management, including many statistical techniques around asset returns and asset volatilities. Chief among these is value-at-risk (VaR) analysis, which over the past 20 plus years has become established as the industry and regulatory standard in measuring market risk. Students are required to master spreadsheet modeling of risk models, as well as various backtesting procedures. When time allows, useful R packages and more real-life data examples are also presented, to expose students to a much larger set of quantitative tools.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "555",
+      "course_combined": "MSF 555",
+      "title": "Credit Risk Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=555",
+      "course_description": "The extensive use of leverage by individuals, corporations, hedge funds and private equity managers has led to a significant increase in the demand for models that analyze credit risk exposures. For many users, the credit risk function has evolved from models used to analyze the quality of an individual borrower to models that aggregate exposure across borrowers, industries and geographic regions. This course provides an extended overview of the exciting and rapidly developing field of credit risk analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "566",
+      "course_combined": "MSF 566",
+      "title": "Time Series Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=566",
+      "course_description": "This course introduces the econometric theory and practice of time series analysis, with an emphasis on practical skills. Students coming to the class should have some basic knowledge about statistics including hypothesis testing (t-test and F-test), correlation and regression analysis based on ordinary least square estimator. This course develops a portfolio of techniques for the analysis of time series data. This course covers difference equation, modeling with stationary time series, modelling with volatility (ARCH and GARCH), modelling with trend, unit root, and non-linear time series models. Students will be given access large database to practice the skills during the semester.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSF",
@@ -480,7 +599,11 @@
       "course_description": "Energy markets and ESG investing play essential roles in both the real economy and financial markets. This course is designed for graduate students and upper-level undergraduates in finance, business, engineering, science, environmental management, and entrepreneurship. It is particularly relevant for students interested in trading, analytics, risk management, and financial solutions to energy and environmental challenges. The course introduces ESG investing and energy markets, with a focus on data-driven analysis of energy prices and related risk factors. It begins with ESG investing and financial approaches to environmental and social issues, highlighting their connection to energy markets. It then covers key analytical tools, including Monte Carlo simulation, hedging, Value-at-Risk, event studies, Granger causality, copulas, and cointegration. Through lectures, case-based learning, assignments, and presentations, students will develop both foundational knowledge and practical expertise. The final project includes a business proposal, a quantitative exercise, and a research component.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -489,9 +612,8 @@
           "crn": "14223",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14223",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -511,12 +633,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "577",
+      "course_combined": "MSF 577",
+      "title": "High Frequency Finance Tech",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=577",
+      "course_description": "High frequency trading is concerned with the development of robotic trading algorithms within a real time market environment. This course will be concerned with the development of high frequency models and the assessment of their performance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSF",
@@ -527,7 +663,11 @@
       "course_description": "This course provides an introduction to financial markets and their role in the global economy. Designed for students in business and finance, this 3-credit course examines the structure and operation of major markets, including equities, fixed income, foreign exchange, and others. Students will develop an understanding of key financial instruments, market participants, terminology, and institutional frameworks. By the end of the course, students will be able to explain how these markets function and conduct basic research and analysis across different asset classes.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -536,9 +676,8 @@
           "crn": "15577",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15577",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Master of Laws, Law, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -558,12 +697,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MSF 504 Minimum Grade of C May not be taken concurrently. and Course or Test: MSF 505 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "595",
+      "course_combined": "MSF 595",
+      "title": "Entrepreneurial Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=595",
+      "course_description": "Most new ventures are not created by financial analysts. However, the success of a new venture is vitally dependent upon the strength of its financial controls. Knowledge of finance is also an important determinant of an entrepreneur's ability to convey information about his company to banks, regulators, and potential investors. This course provides entrepreneurs with the financial knowledge that they require to create successful new ventures.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSF",
@@ -574,7 +727,11 @@
       "course_description": "MSF 597 Independent Study allows students to undertake research projects under the supervision of a full time faculty member.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -583,9 +740,8 @@
           "crn": "11258",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11258",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -605,10 +761,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "133",
@@ -616,9 +769,8 @@
           "crn": "16609",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16609",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -638,10 +790,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "138",
@@ -649,9 +798,8 @@
           "crn": "11260",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11260",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -671,10 +819,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "166",
@@ -682,9 +827,8 @@
           "crn": "16971",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16971",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -704,10 +848,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -715,9 +856,8 @@
           "crn": "11341",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11341",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -737,12 +877,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSF",
+      "course_num": "599",
+      "course_combined": "MSF 599",
+      "title": "Special Topics in Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSF&crse_numb_in=599",
+      "course_description": "Special topics in finance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

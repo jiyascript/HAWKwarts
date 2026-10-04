@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "ITM",
+      "course_num": "300",
+      "course_combined": "ITM 300",
+      "title": "Commctn in the Wrkpl",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=300",
+      "course_description": "Review, analyze and practice verbal and written communication formats found in the workplace. Emphasis on developing skills in technical writing and oral presentations using electronic and traditional media. Credit not granted for both ITM 300 and COM 421. INTM 301 may be substituted for this course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
       "course_num": "301",
       "course_combined": "ITM 301",
       "title": "Intro OS and Hardware I",
@@ -10,7 +27,11 @@
       "course_description": "Students study the basics of computer architecture and learn to use a contemporary operating system. Hardware requirements, hardware components, software compatibility, and system installation topics are covered along with post-installation, storage, security and system diagnosis, and repair. Topics also include discussion of current and future technology industry trends.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "11366",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11366",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +61,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +69,8 @@
           "crn": "12941",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12941",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +90,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -90,7 +103,11 @@
       "course_description": "Introduces features of an advanced operating system, including basic commands, file and directory manipulation, security, and suitability for server applications. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +116,8 @@
           "crn": "15741",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15741",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +137,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -132,9 +145,8 @@
           "crn": "15742",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15742",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,10 +166,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -170,7 +179,11 @@
       "course_description": "A broad introduction to object-oriented programming and the related knowledge necessary to program in a contemporary programming language. This would include coverage of an Application Development Kit, a standard integrated Development environment, and the use of GUI components.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Computing Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -179,9 +192,8 @@
           "crn": "11532",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11532",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Computing Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +213,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -212,9 +221,8 @@
           "crn": "15432",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15432",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Computing Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -234,12 +242,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "312",
+      "course_combined": "ITM 312",
+      "title": "Intro Systems Sftwr Prgmng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=312",
+      "course_description": "Introduces basic concepts of systems programming. Students learn to apply basic programming concepts toward solving problems, create source files and implement header files, work with and effectively use basic data types, abstract data types, control structures, code modularization and arrays. Students will be introduced to object paradigm including, classes, inheritance, and polymorphism applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITM",
@@ -250,7 +272,11 @@
       "course_description": "Introduces basic concepts of systems programming using a modern open source language. Students learn to apply basic programming concepts toward solving problems, writing pseudocode, working with and effectively using basic data types, abstract data types, control structures, code modularization and arrays. They will learn to detect errors, work with variables and loops, and discover how functions, methods, and operators work with different data types. Students will be introduced to the object paradigm including classes, inheritance , and polymorphism.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -259,9 +285,8 @@
           "crn": "12624",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12624",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,10 +306,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -292,9 +314,8 @@
           "crn": "15431",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15431",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -314,10 +335,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -325,9 +343,8 @@
           "crn": "16374",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16374",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -347,10 +364,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be assigned one of the following Student Attributes: Dual Enrollment Pre College Pre College",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "15930",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15930",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Scott Akin Spyrison",
+              "instructor_email": "spyrison@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 7,
+            "remaining": 43,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
     },
@@ -363,7 +406,11 @@
       "course_description": "Special projects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -372,9 +419,8 @@
           "crn": "16826",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16826",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -394,12 +440,72 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16555",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16555",
+          "credits": 3.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeremy Robert Hajek",
+              "instructor_email": "hajek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "498",
+      "course_combined": "ITM 498",
+      "title": "UG Research Immersion Team",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=498",
+      "course_description": "This course provides a faculty-mentored immersive research experience as a part of a student team. Research topics are determined by faculty mentor's area of research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "501",
+      "course_combined": "ITM 501",
+      "title": "Research Methods for IT",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=501",
+      "course_description": "This course prepares graduate students to undertake independent research inquiry by providing an in-depth examination of applied research methods across a range of information technology disciplines. Students receive training in major research paradigms, principles of research design, research ethics, research theories and quantitative and qualitative methodologies as well as tools and techniques for data collection and analysis. Students will be encouraged to develop their own research agenda and design a research methodology to undertake their research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITM",
@@ -410,7 +516,11 @@
       "course_description": "This course prepares doctoral students to undertake independent research inquiry by providing an in-depth examination of applied research methods across a range of information technology disciplines. Students receive training in major research paradigms, principles of research design, research ethics, research theories and quantitative and qualitative methodologies as well as tools and techniques for data collection and analysis. Students will be encouraged to develop their own research agenda and design a research methodology to undertake their research.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Classifications: Graduate Doctoral",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Classifications: Graduate Doctoral",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -419,9 +529,8 @@
           "crn": "17368",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17368",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -441,10 +550,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Graduate Doctoral",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -452,9 +558,8 @@
           "crn": "17421",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17421",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -474,10 +579,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Graduate Doctoral",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -490,7 +592,11 @@
       "course_description": "Instructor permission required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -499,9 +605,8 @@
           "crn": "16994",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16994",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -521,10 +626,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -532,9 +634,8 @@
           "crn": "17478",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17478",
           "credits": 5.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -554,10 +655,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -570,7 +668,11 @@
       "course_description": "Doctoral Seminar",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -579,9 +681,8 @@
           "crn": "16348",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16348",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -601,12 +702,111 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "701",
+      "course_combined": "ITM 701",
+      "title": "Intro to OS and Hardware 1a",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=701",
+      "course_description": "In this introductory industry-focused undergraduate course, students study the basics of computer architecture and learn to use a contemporary operating system. Hardware requirements and hardware components are covered. Topics also include discussion of current and future technology industry trends.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "702",
+      "course_combined": "ITM 702",
+      "title": "Intro to OS and Hardware 1b",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=702",
+      "course_description": "In this introductory industry-focused undergraduate course, students study software compatibility and system installation, along with concepts of client virtualization, cloud computing, and network fundamentals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "703",
+      "course_combined": "ITM 703",
+      "title": "Intro to OS and Hardware 1c",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=703",
+      "course_description": "In this introductory industry-focused undergraduate course, students study system installation topics along with post-installation, security and system diagnosis, and repair. Topics also include discussion of current and future technology industry trends.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "705",
+      "course_combined": "ITM 705",
+      "title": "Hardware & OS Foundations I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=705",
+      "course_description": "In this introductory graduate course, students will explore the basics of computer architecture and use of contemporary operating systems and networking. Covers hardware requirements, components, software compatibility, and system configuration and administration as well as other key operating systems functions. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "706",
+      "course_combined": "ITM 706",
+      "title": "Hardware & OS Foundations II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=706",
+      "course_description": "In this introductory graduate course, students will explore the basics of computer architecture and use of contemporary operating systems and networking. Covers system installation topics as well as other key operating systems functions. Networking, virtualization, cloud computing, and security concepts are introduced. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "707",
+      "course_combined": "ITM 707",
+      "title": "Hardware & OS Foundations III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITM&crse_numb_in=707",
+      "course_description": "Explores the basics of computer architecture and use of contemporary operating systems and networking. Covers software troubleshooting, security implementation, and operational procedures and best practices. Documentation, communication, and professionalism are addressed. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

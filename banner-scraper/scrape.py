@@ -1,29 +1,25 @@
 import banner
 import time
-import subprocess
+import scrape_to_json
 
-semester = 'Fall 2026'
+semester = 'Fall 2026' # adjust the semester to be scraped here
+subjects_filters = None # to scrape all subjects, or specify like below
+# subjects_filters = ['CS']
+# subjects_filters = ['CS', 'STAT']
 
 if __name__ == "__main__":
 
     start1 = time.time()
 
     # download all pages for Fall 2026 into a folder named .cache
-
-    # adjust the departments to be scraped here #
-    # banner.download_semester(semester) # default: all
-    # banner.download_semester(semester, subjects_filters=['CS', 'MATH'])
-    banner.download_semester(semester, subjects_filters=['STAT'])
-
-    # scrape all the previously downloaded pages in the .cache folder
-    courses = banner.parse_semester(semester)
+    banner.download_semester(semester, subjects_filters=subjects_filters)
+    # parses all the previously downloaded pages in the .cache folder
+    courses = banner.parse_semester(semester, subjects=subjects_filters)
 
     end1 = time.time()
+    
     start2 = time.time()
-
-    # runs combine_and_clean to jsonify everything
-    subprocess.run(["python", "combine_and_clean.py"], check=True)
-
+    scrape_to_json.combine_and_clean(semester_filters= [semester], departments_filter=subjects_filters) # turn everything scraped into useable json data
     end2 = time.time()
 
     print("\nScraping and parsing complete")

@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "GCS",
+      "course_num": "000",
+      "course_combined": "GCS 000",
+      "title": "Course Wildcard",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GCS&crse_numb_in=000",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GCS",
       "course_num": "100",
       "course_combined": "GCS 100",
       "title": "Continuation Gr Studies, Admin",
@@ -10,7 +27,11 @@
       "course_description": "This course is open by permit only to graduate students who have non-course and non-thesis requirements to fulfill in the semester of graduation. Permits are entered by Graduate Academic Affairs.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "11210",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11210",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +61,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +69,8 @@
           "crn": "11211",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11211",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +90,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -90,7 +103,11 @@
       "course_description": "",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Forced to Full-Time Course, Graduate Continuation Studies, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +116,8 @@
           "crn": "10881",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10881",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Graduate Continuation Studies, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +137,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

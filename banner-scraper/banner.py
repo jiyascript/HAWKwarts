@@ -292,9 +292,6 @@ def _download_schedule_details(semester, subjects=None):
 
     _download_details(SCHEDULE_DATA_PATH % semester, SCHEDULE_LINK_REGEX, r'crn_in=(\d+)', extract, subjects=subjects)
 
-# def _download_catalog_details(semester):
-#     _download_details(CATALOG_DATA_PATH % semester, CATALOG_LINK_REGEX, r'crse_numb_in=(\w+)',
-#                        lambda session, detail_soup: _extract_catalog_detail_fields(detail_soup))
 
 def download_semester(semester_name, subjects_filters=None):
     '''
@@ -323,8 +320,6 @@ def download_semester(semester_name, subjects_filters=None):
         subjects_filter=subjects_filters,
     )
     
-    # print('\ndownloading catalog details')
-    # _download_catalog_details(semester_name)
     print('\ndownloading schedule details')
     _download_schedule_details(semester_name, subjects=schedule_subjects)
 
@@ -428,20 +423,6 @@ def _extract_schedule_detail_fields(soup):
     fields['mutual_exclusion'] = found.get('Mutual Exclusion:', '')
 
     return fields
-
-# def _extract_catalog_detail_fields(soup):
-#     main = soup.find('td', class_='ntdefault')
-#     if main is None:
-#         return {}
-
-#     labels = ['Restrictions:', 'Mutual Exclusion:']
-#     full_text = main.get_text('\n', strip=True)
-#     found = _extract_labeled_sections(full_text, labels)
-
-#     return {
-#         'restrictions': found.get('Restrictions:', ''),
-#         'mutual_exclusion': found.get('Mutual Exclusion:', ''),
-#     }
 
 def _extract_syllabus_fields(soup):
     main = soup.find('td', class_='dddefault')
@@ -570,11 +551,6 @@ def _parse_semester_catalog(semester_name, subjects=None):
         data = open(directory + filename, encoding='utf-8').read()
         soup = BeautifulSoup(data, 'html.parser')
 
-        # details_path = directory + filename.replace('.html', '.json')
-        # subject_details = {}
-        # if os.path.exists(details_path):
-        #     subject_details = json.loads(open(details_path, encoding='utf-8').read())
-
         for title_cell in soup.find_all('td', class_='nttitle'):
             entry = _parse_catalog_entry(title_cell.parent)
             course = Course()
@@ -583,10 +559,6 @@ def _parse_semester_catalog(semester_name, subjects=None):
             course.title = entry['title']
             course.description = entry['description']
             course.syllabus_url = entry['syllabus_url']
-
-            # detail_fields = subject_details.get(entry['number'], {})
-            # course.restrictions = detail_fields.get('restrictions', '')
-            # course.mutual_exclusion = detail_fields.get('mutual_exclusion', '')
 
             courses.append(course)
 

@@ -10,7 +10,11 @@
       "course_description": "The effective development, planning, execution, and communication of special projects are critical to all types of public service organizations and private sector organizations. Service organizations, healthcare providers, nonprofits, government organizations, and private sector organizations constantly pursue new initiatives and projects to address the demands of their constantly changing environments. This course will offer an introduction to basic concepts and methods for directing projects and will provide students with tools that prepare them for success in project management. Examples will be drawn from both the public and private sector. The course will be divided into the following components: •Project Plan Definition (Purpose, Goals, Objectives, Expectations, Roles, and Quality Management, Approach and Ground Rules)•Scope of the Project (Definition, Costs, Benefits, Risks, Products, Deliverables, Milestone, and Impacted Business Areas)•Assumptions (Specific and Measurable)•Constraints (Limitations to the Project, Related Projects, Critical Dependencies)• Quality Management Approach (Activity Reviews/Walkthroughs, Tools and Techniques, Test Approach, Performance/Quality Standards, Quality Management Roles, and Training)• Project Management Approach (Work Breakdown, Basis of Estimates, Project Effort Estimation, Project Standards, Project Roles and Responsibilities, Change and Issues Management Approach, Communication and Control Approach)• Attachments (Any pertinent work, flow charts, and approvals that need to be added to flesh out the project)• Project Budget• Project Impact Report• Approvals (Sign-off sheets)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "16327",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16327",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +52,8 @@
           "crn": "16505",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16505",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +73,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "10",
@@ -85,9 +81,8 @@
           "crn": "17522",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17522",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -102,17 +97,31 @@
           ],
           "availability": {
             "capacity": 20,
-            "actual": 6,
-            "remaining": 14,
+            "actual": 9,
+            "remaining": 11,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PM",
+      "course_num": "502",
+      "course_combined": "PM 502",
+      "title": "Project Scope, Quality and Ris",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PM&crse_numb_in=502",
+      "course_description": "This seminar focuses on the identification, elaboration, planning and management of project scope and risk, including selected processes from the Project Integration Management and Project Scope Management Knowledge Areas. The class addresses requirements identification and analysis, scope identification and planning, the scope baseline, scope management and change control, integration of scope, schedule and cost, scope verification and sign-off by the customer. During the course, “best practices” will be introduced, and put into context through various exercises and scenarios and case studies. It also addresses risk management, which is the process of identifying, assessing and controlling financial, legal, strategic and security risks to an organization’s capital and earnings. These threats, or risks, could stem from a wide variety of sources, including financial uncertainty, legal liabilities, strategic management errors, accidents and natural disasters. A consistent, systemic and integrated approach to risk management can help determine how best to identify, manage and mitigate significant risks.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PM",
@@ -123,7 +132,11 @@
       "course_description": "This Project Scheduling & Cost Planning course focuses on how to deliver comprehensive reliable plans with time and cost estimates that gives the owner or sponsor of projects, high levels of confidence for project delivery. The COVID 19 pandemic has brought many a project to its knees with schedule and cost overruns – but with lessons learned we should, as project professionals, understand that our plans need to be realistic with a full view of any risks faced during and after the project lifecycle. The decision to proceed with a project is based on early, high level conceptual estimates. However, these can be wide ranging and therefore more detailed estimates need to provide the basis for the cash flow projections and schedule forecasts. Much more attention now is required on how the project work will be achieved, for example at home or on site; and if together, whether teams can work safely with distancing rules.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -132,9 +145,8 @@
           "crn": "16328",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16328",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,12 +166,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PM",
+      "course_num": "505",
+      "course_combined": "PM 505",
+      "title": "Project Fin and Procurement",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PM&crse_numb_in=505",
+      "course_description": "This course covers all aspects of financing projects and setting up a procurement system. Topics include project finance, project agreements, project finance markets, financial models, supply chain issues and procurement systems. Learn how to manage projects efficiently and effectively.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PM",
@@ -170,7 +196,11 @@
       "course_description": "This course covers the fundamentals of agile project management. Topics include agile vs. traditional project management approaches, agile history, agile manifesto, agile planning, theory of constraints and scaling agile to the enterprise level. You will also learn key agile project management practices and agile project management tools.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student Corequisites: PM 501",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student Corequisites: PM 501",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -179,9 +209,8 @@
           "crn": "16329",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16329",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,12 +230,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student Corequisites: PM 501",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PM",
+      "course_num": "507",
+      "course_combined": "PM 507",
+      "title": "Project Management Capstone",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PM&crse_numb_in=507",
+      "course_description": "This course teaches students various leadership concepts such as leadership behaviors and styles, and several critical project leadership skills like communication, negotiation, conflict resolution, decision making, problem solving, coaching and mentoring. The course both the theory and practice of leadership as it applies to project management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PM",
+      "course_num": "508",
+      "course_combined": "PM 508",
+      "title": "High Impact Power Skills",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PM&crse_numb_in=508",
+      "course_description": "Power Skills is a comprehensive graduate-level course designed to refine the essential interpersonal and leadership competencies necessary for today's managers. This dynamic program goes beyond traditional \"soft skills,\" delving into the nuanced \"power skills\" that differentiate competent managers from exceptional leaders. Throughout the course, students will engage in practical exercises to enhance active listening, ensuring clear and effective communication within diverse teams. Students will be tasked with real-world conflict management scenarios, developing strategies to navigate and resolve workplace disputes diplomatically. A special focus is placed on emotional intelligence (EI) – a skill set that is crucial for understanding and managing both personal and team emotions in a professional setting. Interactive sessions on EI will help students recognize emotional cues and foster a supportive work environment. The curriculum emphasizes adaptability, preparing future leaders to pivot strategies in response to the ever-changing business landscape. Through case studies and collaborative group projects, students will learn the art of negotiation, balancing firm objectives with the art of compromise. Teamwork is a pillar of the course, encouraging collaborative problem-solving and collective goal achievement. By incorporating PMI's Talent Triangle®, the program also integrates technical project management, strategic business management, and leadership into the learning outcomes. Upon completion, students will emerge as well-rounded professionals, ready to leverage power skills for career advancement and organizational success in the dynamic workforce of the future.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PM",
+      "course_num": "509",
+      "course_combined": "PM 509",
+      "title": "Advanced Project Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PM&crse_numb_in=509",
+      "course_description": "This graduate-level course explores cutting-edge concepts and techniques in project management, equipping students with the skills to lead and manage complex projects across diverse industries. Topics include strategic alignment, portfolio optimization, program management, and the critical role of PMOs in governance. Emphasis is placed on STEM-based methodologies such as quantitative risk analysis, predictive analytics, and AI-driven tools that enhance decision-making and project outcomes. Students will develop expertise in advanced metrics, quantitative methods, and systems thinking, with applications in digital transformation, sustainability, and global team leadership. Through a blend of theory and real-world case studies, the course prepares participants to tackle dynamic challenges using both technical and strategic approaches. As part of a STEM curriculum, this course emphasizes analytical and data-driven methods, reinforcing its relevance to science, technology, engineering, and mathematics fields. A list of topics included in this course are given below. 1. Strategic Project Management •Aligning projects with long-term organizational goals.• Developing and managing a strategic project roadmap.• Utilizing Balanced Scorecard and Key Performance Indicators (KPIs) for strategic alignment.2. Project Portfolio Management• Establishing portfolio governance and decision-making frameworks.• Optimizing resource allocation and managing capacity.• Balancing risk, reward, and alignment across the project portfolio.3. Program Management and Benefits Realization• Structuring programs to deliver value through multiple projects.• Establishing benefit tracking and realization mechanisms.• Program governance for cross-functional alignment.4. Project Management Office (PMO) and Governance• Assessing the value and maturity of PMOs across organizations.• Establishing frameworks for centralized governance.• Implementing project health checks and audits.5. Agile and Hybrid Methodologies• Adapting frameworks like SAFe and LeSS to organizational scale.• Managing iterative and incremental delivery alongside predictive approaches.• Combining Agile sprints with Waterfall milestones in hybrid projects.6. Quantitative Methods in Project Management• Developing financial models for project selection and evaluation.• Leveraging optimization techniques for resource allocation.• Analyzing performance trends using statistical and predictive tools.7. Quantitative Risk Management and Decision Analysis• Applying decision analysis techniques to critical project decisions.• Quantifying risk through methods such as probabilistic risk assessment.• Using simulations like Monte Carlo to predict project outcomes.8. Project Metrics and Forecasting Techniques• Developing performance dashboards with integrated project metrics.• Forecasting cost and schedule using EVM trends and machine learning.• Applying statistical methods to predict scope, time, and resource needs.9. AI in Project Management• Leveraging machine learning for predictive risk and issue identification.• Automating project documentation and reporting processes.• Using natural language processing for improved stakeholder communication. 10. Sustainability and Ethics in Project Management• Integrating sustainability considerations in project lifecycle decisions.• Implementing tools to assess Environmental, Social, and Governance (ESG) impacts.• Upholding ethical standards in managing stakeholder expectations.11. Complexity and Systems Thinking in Projects• Analyzing interdependencies in large, complex systems.• Using causal loop diagrams to model project dynamics.• Designing adaptive strategies for volatile project environments.12. Leading Global Teams• Building trust and accountability in virtual teams.• Managing cultural diversity and fostering inclusivity.• Navigating global supply chain challenges and regulatory compliance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PM",
+      "course_num": "595",
+      "course_combined": "PM 595",
+      "title": "Special Topics in Project Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PM&crse_numb_in=595",
+      "course_description": "This course is a project-based course in which students apply the knowledge and skills they have acquired throughout the program by working on projects related to the performance management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

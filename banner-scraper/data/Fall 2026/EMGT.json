@@ -3,6 +3,74 @@
   "courses": [
     {
       "course_code": "EMGT",
+      "course_num": "363",
+      "course_combined": "EMGT 363",
+      "title": "Creativity/Inventions/Entrepre",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EMGT&crse_numb_in=363",
+      "course_description": "This course will introduce students to theories, processes, and best practices that invoke creativity, innovation, inventions, and entrepreneurship in engineers and scientists to create a patentable technology by the end of the semester. Skills will be developed in understanding and searching for patents, learning and applying brainstorming, team learning, exploring deep needs, market and industry analysis, finding \"white space,\" and creating effective elevator pitches for your idea. Students will learn to support and pitch the need, uniqueness of their approach, cost versus benefits, competition, and alternatives so their ideas can take advantage of the exponential economy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "EMGT",
+      "course_num": "406",
+      "course_combined": "EMGT 406",
+      "title": "Entrepreneurship & IP Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EMGT&crse_numb_in=406",
+      "course_description": "This course intends to introduce and develop a number of diversified professional skills necessary for success in an engineering research and development environment. Selected topics in the areas of technology entrepreneurship, opportunity assessment, creativity and innovation, project management, management of organizational change, and entrepreneurial leadership are discussed. Significant effort is placed on understanding and managing intellectual property.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "EMGT",
+      "course_num": "470",
+      "course_combined": "EMGT 470",
+      "title": "Project Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EMGT&crse_numb_in=470",
+      "course_description": "Introduction and practice of project form of organization for accomplishing tasks in engineering firms. Develops the attributes required of a project manager. Introduction to project management form most appropriate for engineering tasks, evaluating projects for funding, establishing planning, budgeting, and initiation process, extensive analysis of scheduling techniques, resource allocation during scheduling, monitoring project progress, the project control cycle, avoiding scope creep, auditing projects and completion of the project. The case study method is used throughout the class to provide students experiential-learning opportunities. This class cannot be substituted for courses in the construction management major in CAEE.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "EMGT",
+      "course_num": "523",
+      "course_combined": "EMGT 523",
+      "title": "Statistical Analysis of Engine",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EMGT&crse_numb_in=523",
+      "course_description": "Descriptive statistics and graphs, probability distribution, random sampling, independence, significance tests, design of experiments, regression, time series analysis, statistical process control, and introduction to multivariate analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "EMGT",
       "course_num": "574",
       "course_combined": "EMGT 574",
       "title": "Economic Decision Analysis",
@@ -10,7 +78,11 @@
       "course_description": "Basic economic concepts including interest calculations, economic comparison of alternatives, replacement decisions, depreciation and depletion, tax considerations, and sensitivity analysis. Evaluation of public projects, the effect of inflation, decision making under risk and/or uncertainty, economic decision models. Case studies from industry.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +91,8 @@
           "crn": "13558",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13558",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +112,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +120,8 @@
           "crn": "13560",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13560",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,12 +141,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "EMGT",
+      "course_num": "575",
+      "course_combined": "EMGT 575",
+      "title": "Systems Analysis in Engineerin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EMGT&crse_numb_in=575",
+      "course_description": "Management and system concepts, linear programming, graphical methods, Simplex, two-phase Simplex, the transportation problem, the assignment problem, integer programming, and sensitivity analysis. System modeling by activity networks; maximal-low flow, longest-path and shortest-path analyses, flow graphs, decision-tree analysis, stochastic-network modeling, queuing systems, and analysis of inventory systems. Case studies from industry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

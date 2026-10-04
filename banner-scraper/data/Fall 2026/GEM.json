@@ -10,7 +10,11 @@
       "course_description": "This class introduces to game design and experiential media development as professional practice. Students work collaboratively in a studio environment to produce work through iterative design. Additionally, students explore multiple professional specializations within the broader field and develop individual plans for professional development to help guide them towards their academic and professional goals throughout the program.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Game Design and Experiential M Game Design and Experiential M Must be enrolled in one of the following Minors: Game Design and Experiential M",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Game Design and Experiential M Game Design and Experiential M Must be enrolled in one of the following Minors: Game Design and Experiential M",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "15932",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15932",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +44,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Game Design and Experiential M Game Design and Experiential M Must be enrolled in one of the following Minors: Game Design and Experiential M",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "180",
+      "course_combined": "GEM 180",
+      "title": "Illness, Care, & Moving Image",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=180",
+      "course_description": "This course introduces students to how films, video games, and literary texts depict medicine, illness, the human body, and practices of care. Through narrative and documentary media, the course explores how cultural representations shape public understandings of health, suffering, disability, death, and medical authority. Designed for students with no prior background in film studies or medical humanities, the course emphasizes critical viewing, discussion, and reflective analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "GEM",
@@ -57,7 +74,11 @@
       "course_description": "Game Design II focuses on professional development cycles and practices as applied to digital game development using a professional development engine. Students work together to form studios and collaborate to complete the development cycle for a single digital game.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +87,8 @@
           "crn": "17413",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17413",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +108,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "220",
+      "course_combined": "GEM 220",
+      "title": "Worldbuilding for Storytellers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=220",
+      "course_description": "This course will take students through the many different aspects of creating an immersive world for storytelling in multiple media, especially fiction writing and game design. Topics covered include, but are not limited to maps, geographic and geopolitical history of a fictional world, environment, ethics and morality, constructed languages, character creation, and backstory.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "GEM",
@@ -104,7 +138,11 @@
       "course_description": "Digital Art introduces students to the fundamentals of using modern digital tools creatively. Understanding the tools available is the first step to creative freedom, whether that freedom means being able to make business cards, edit out blemishes from portraits, create digital paintings or making complex memes. The power of software like Photoshop, Illustrator and After Effects becomes available to anyone who has the time it takes to get to know them.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +151,8 @@
           "crn": "17414",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17414",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +172,94 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "251",
+      "course_combined": "GEM 251",
+      "title": "Character Art",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=251",
+      "course_description": "Character Art is a course about the art of crafting, understanding, developing and then embellishing created characters. The course is not solely focused on any one aspect of character related art and design, the course is a robust full-bodied splash-course into all of the related elements of \"character\" as it applies to fine and commercial art. In this course students will be investigating what makes a successful character for production as well as developing their own characters with the opportunity to work on commercial designs for small indie studios. This course involves writing, acting and image making along with opportunities for collective collaboration between students, faculty & professionals at various levels of industry. Successful, strong, well-developed characters often transcend the stories & mediums they start in, whether traditional or digital, text-based or visual; our aim with this course is an attempt to build successful believable characters that bring the characters, the worlds they inhabit & their stories to life.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "271",
+      "course_combined": "GEM 271",
+      "title": "Philosophy of Games",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=271",
+      "course_description": "In this course, students will apply philosophical concepts to various dimensions of gaming. Topics will include examining what games are, the ethics of games and gamification, how games can serve as tools for addressing philosophical questions such as identity and agency, and the broader impact of values on individuals and society. Students will challenge their views on games and fundamental philosophical questions through readings, discussions, and activities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "276",
+      "course_combined": "GEM 276",
+      "title": "Game Design I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=276",
+      "course_description": "This course introduces fundamental principles and practices in game design, including game mechanics. During this project-based course, students complete individual and group design projects focused on analog games.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "277",
+      "course_combined": "GEM 277",
+      "title": "Interactive Storytelling",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=277",
+      "course_description": "Interactive Storytelling examines methods and forms of interactive storytelling in multiple forms. This project-based course provides instruction in narrative techniques while engaging students in the production of original interactive works.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "278",
+      "course_combined": "GEM 278",
+      "title": "Elements of Art",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=278",
+      "course_description": "Elements of art is a course intended to provide the basic vocabulary of art for both creation and critique AND to develop foundational skills in art for yourself. Art and visual expression has been around as long as we find evidence of human habitation as humans attempt to both capture and record the world and express themselves in it. Students will be drawing a lot. And I mean a lot. Some of these will be quick thumbnail studies that take about a minute each. Some of these will be full compositions that will take multiple hours. We will be engaging in learning communication skills for artists. You will be quizzed on the basic vocabulary, you will write short essays using the terminology of the field, and you will give presentations of your work within the framework of the class. Because it is a humanities class (and because of the nature of art), you will need to talk about art in terms of humanistic expression—what does art have to tell us about who we are as humans? What is included and what is excluded, and why were those decisions made? What, if we dare to ask, is the purpose of individual art pieces or art in general?",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "GEM",
@@ -151,7 +270,11 @@
       "course_description": "Topics in Game Design and Experiential Media investigates a current topic of interest within the field of Game Design and Experiential Media. Specific topics are listed in the course schedule each semester the class is offered. This course fulfills GEM elective credit for majors and minors and may be repeated for credit when the topic varies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +283,8 @@
           "crn": "17341",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17341",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,10 +304,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -193,9 +312,8 @@
           "crn": "17342",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17342",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -215,10 +333,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -226,9 +341,8 @@
           "crn": "17433",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17433",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -248,10 +362,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -259,9 +370,8 @@
           "crn": "17432",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17432",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,10 +391,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -292,9 +399,8 @@
           "crn": "17431",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17431",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -314,10 +420,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -330,7 +433,11 @@
       "course_description": "The Game Design and Experiential Media Capstone is a two-semester capstone experience for majors in Game Design. In this two-course sequence, students form studios, conceptualize and develop an original capstone project for an external client.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -339,9 +446,8 @@
           "crn": "17334",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17334",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,12 +467,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "GEM",
+      "course_num": "401",
+      "course_combined": "GEM 401",
+      "title": "Game Design Capstone II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=GEM&crse_numb_in=401",
+      "course_description": "The Game Design and Experiential Media Capstone is a two-semester capstone experience for majors in Game Design. In this two-course sequence, students form studios, conceptualize and develop an original capstone project for an external client.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

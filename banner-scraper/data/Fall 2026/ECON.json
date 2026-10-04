@@ -10,7 +10,11 @@
       "course_description": "This course develops and applies economic models to understand the behavior of firms and consumers in the marketplace. The course explores microeconomic concepts such as demand and supply, market structures and pricing, market efficiency, public goods, externalities, and equilibrium. Combining knowledge from microeconomics and game theory, students will study interactions among firms and consumers given a wide range of market conditions, regulatory regimes, and competitive landscapes.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
+      "levels": "Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "10010",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10010",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +52,8 @@
           "crn": "16583",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16583",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,12 +73,84 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Colleges: Stuart School of Business",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "M01",
+          "section_name": "",
+          "crn": "17515",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17515",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "2:00 PM - 3:15 PM",
+              "days": "WF",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Pallavi Mody",
+              "instructor_email": "pmody3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 48,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "M02",
+          "section_name": "",
+          "crn": "17516",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17516",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India-Mumbai Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:30 AM - 12:45 PM",
+              "days": "WF",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Pallavi Mody",
+              "instructor_email": "pmody3@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 60,
+            "actual": 54,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ECON",
+      "course_num": "152",
+      "course_combined": "ECON 152",
+      "title": "Macroeconomics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ECON&crse_numb_in=152",
+      "course_description": "This course exposes students to the economic framework for understanding global and national macroeconomic events. Students will learn the aggregate demand-aggregate supply (AD-AS) model and its related components to understand and evaluate monetary and fiscal policy. The course will provide an introduction to national income theories and models describing economic fluctuations and growth, money and banking, and international economics. In addition, the course will explore macroeconomic concepts including inflation, unemployment, trade, and economic growth.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ECON",
@@ -90,7 +161,11 @@
       "course_description": "The determination of output, employment and the rate of inflation. Topics include a broad-based discussion of the controversies in macro-economics, the appropriate use of fiscal and monetary policy, the effects of a budget deficit, determination of the rate of exchange, and the trade deficit. Offered in fall and spring. ECON 211 should not be taken by business majors, economics majors or economics minors.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +174,8 @@
           "crn": "10011",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10011",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +195,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -132,9 +203,8 @@
           "crn": "11874",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11874",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,10 +224,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -170,7 +237,11 @@
       "course_description": "This course develops the theory and applications of regression analysis, which is the primary tool for empirical work in economics. The majority of the course will be devoted to (i) the derivation of econometric theory results, and (ii) their applications to particular problems in the analysis of economic data. The first few lectures will review the pertinent material from Business Statistics (BUS 221). Students should be comfortable with the basic concepts of probability theory and statistical inference, and, more generally, with mathematical derivations. Topics will cover simple and multivariate linear regression analysis, assessing regression results when using panel and cross-sectional data, instrumental variable regression, running experiments and quasi-experiments, identifying misspecification problems, non-linear regressions, and big data analysis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: BUS 221 May not be taken concurrently. ) or ( Course or Test: PSYC 203 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -179,9 +250,8 @@
           "crn": "16159",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16159",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +271,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: BUS 221 May not be taken concurrently. ) or ( Course or Test: PSYC 203 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -217,7 +284,11 @@
       "course_description": "The purpose of this course is to introduce students to some of the quantitative and analytical techniques and modeling tools used in microeconomics. The course covers price determination and its role in directing consumption, production and distribution under both competitive and non-competitive markets, and an introduction of quantitative models of productivity and economic growth. The course is designed for students that have some knowledge of calculus and have taken an introductory economics course. ECON 211 or ECON 151 is a prerequisite for this course. We will study consumer and producer theory, competitive market equilibrium, and general equilibrium. Subsequently, we will look at monopolistic markets. Students will be introduced to the game-theoretic approaches of modeling strategic behavior in markets with only few competitors. The main objective of the course is to help students develop analytical and modeling capabilities in order to think about economic problems in a systematic manner and derive economically-sound intuitions and solutions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ECON 211 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECON 151 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -226,9 +297,8 @@
           "crn": "15571",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15571",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -248,12 +318,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ECON 211 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECON 151 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ECON",
+      "course_num": "312",
+      "course_combined": "ECON 312",
+      "title": "Intermediate Macroeconomics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ECON&crse_numb_in=312",
+      "course_description": "This course examines the functioning of the aggregate economy, beginning from basic aggregate data measurement and concepts. Given a review of macroeconomic definitions, the course moves to examining the classical macro equilibrium for an open economy. The course then takes both a short and a long-term view of the economy, and aims to help students understand how modern macroeconomics can shed light on facts such as business cycles, economic growth, unemployment, and money. The course then evaluates the scope for policy interventions to improve macroeconomic performance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ECON",
@@ -264,7 +348,11 @@
       "course_description": "Course Goal: To introduce fundamental topics in microeconomic analysis and industrial organization, and the analytical tools used to study them; to provide economic intuition and to strengthen understanding of a variety of market conditions and market forces. • Why are markets commonly believed to be the best way of allocating resources and organizing economic activity? •Why do governments intervene in markets and regulate them in fundamental ways?",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ECON 151 May not be taken concurrently. ) or ( Course or Test: ECON 211 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -273,9 +361,8 @@
           "crn": "17095",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17095",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -295,10 +382,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ECON 151 May not be taken concurrently. ) or ( Course or Test: ECON 211 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -311,7 +395,11 @@
       "course_description": "The purpose of this course is to introduce students to the economics of sports, which includes budgeting and financing for professional teams, leagues, and sports stadiums and venues. The course will give students a basic understanding of the concepts and skills needed to evaluate the different intricacies of sports business along with special topics covered such as esports, social media, and diversity, equity, and inclusion and how they impact the current sports market. Emphasizing current sports relate articles and case studies students will develop an understanding of the intricacies and nuances of the sports business industry and why it is different. Students will combine the skills and knowledge in application in both the midterm and final projects. Guest speakers will also be brought into class to speak on behalf of real world experience and to offer advice for those looking to break into the sports industry.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -320,9 +408,8 @@
           "crn": "16161",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16161",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -342,12 +429,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ECON",
+      "course_num": "391",
+      "course_combined": "ECON 391",
+      "title": "Upper-Level Social Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ECON&crse_numb_in=391",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ECON",
+      "course_num": "392",
+      "course_combined": "ECON 392",
+      "title": "Upper-Level Social Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ECON&crse_numb_in=392",
+      "course_description": "Upper level social science course",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ECON",
@@ -358,7 +476,11 @@
       "course_description": "This course explores the valuation of proposed capital investments in both the public and private sectors. Students will learn how to determine the relevant cash flows associated with a proposed capital investment. Then, they will subject these cash flows to analysis by three major decision models that incorporate time value of the following money concepts: Net Present Value; Equivalent Uniform Benefit/Cost; and Internal Rate of Return. Students will also learn how to incorporate income taxes, inflation, risk, and capital rationing in the analysis of a project. (Business students may take ECON 423 in place of BUS 351 with their advisor's permission.)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -367,9 +489,8 @@
           "crn": "10012",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10012",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -389,10 +510,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -400,9 +518,8 @@
           "crn": "10013",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10013",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -422,10 +539,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -433,9 +547,8 @@
           "crn": "15572",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15572",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -455,10 +568,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -466,9 +576,8 @@
           "crn": "15573",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15573",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -488,10 +597,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

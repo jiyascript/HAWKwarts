@@ -3,6 +3,142 @@
   "courses": [
     {
       "course_code": "MSC",
+      "course_num": "511",
+      "course_combined": "MSC 511",
+      "title": "Mathematical Economics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=511",
+      "course_description": "This is the first of a two-semester sequence in advanced-level mathematical economics. It introduces students to economic models, microeconomics theory, equilibrium analysis and optimization problems. The course examines various market settings such as competitive markets, oligopolies, and monopolies; the course addresses contexts involving the firm decision making under uncertainty, and game theory. Focus is on major topics of economic analysis and the tools used to study them. Some mathematics background, particularly calculus and matrix algebra, is essential.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "512",
+      "course_combined": "MSC 512",
+      "title": "Econometrics and Statistics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=512",
+      "course_description": "This course provides a comprehensive introduction to econometrics; linear and nonlinear regression, popular probability distributions, confidence intervals, hypothesis testing, sample size and power, endogeneity and instrumental variables estimation, models of panel data, and maximum likelihood estimation. Students will become familiar in using STATA and other advanced statistical software and research databases.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "514",
+      "course_combined": "MSC 514",
+      "title": "Mathematical Economics II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=514",
+      "course_description": "This is the second course in the two-course sequence in mathematical economics. It focuses on optimization problems in addition to discussing nonlinear programming, Kuhn-Tucker conditions, and dynamic analysis. In addition, it continues discussion on game theory and explores its use in modern economics and business through examinations of classic and current papers. Students are also introduced to models used in modern macroeconomics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "515",
+      "course_combined": "MSC 515",
+      "title": "Econometrics and Statistics II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=515",
+      "course_description": "The course introduces Bayesian estimation, and emphasizes simulation-based inference, statistical computing, discrete choice, limited dependent variables (truncation, censoring and sample selection), time series analysis including advanced forecasting techniques. This course intends to integrate modern theories and empirical applications in a manner that many useful tools will be discussed. The course is heavily project oriented and is organized around Big Data applications and statistical packages. Students will be expected to work with modern statistical packages and large datasets.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "517",
+      "course_combined": "MSC 517",
+      "title": "Analytics for Decision Making",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=517",
+      "course_description": "Spreadsheets are a popular model-building environment for managers. Add-ins and enhancements to Excel have made powerful decision-making tools available to the manager. This course covers how to use the spreadsheet to develop and utilize some of these decision-making aids. Visual Basic for Excel allows the nonprogrammer to create modules for functions, subroutines, and procedures. Topics include forecasting (both regression and time series), decision-making under uncertainty and decision trees, using SOLVER for optimization, and probabilistic simulation using @RISK.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "611",
+      "course_combined": "MSC 611",
+      "title": "Philosophy of Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=611",
+      "course_description": "This course introduces doctoral students to the history and evolution of thinking in the management discipline. It focuses attention on theories of leadership and innovation, and showcase contributions of influential thought leaders in management. It also includes epistemological perspectives with substantial potential for enhancing business research. Finally, it will address fundamental approaches and criteria for successful theory development.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "612",
+      "course_combined": "MSC 612",
+      "title": "Advanced Research Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=612",
+      "course_description": "This course is a required course for all PhD students at the Stuart School of Business. It offers a comprehensive overview of the General Linear Model at both univariate and multivariate research levels. The course will review measurement issues (reliability, types of validity), multiple regression analysis, ANOVA, MANOVA, step-down analysis, factor analysis, structural equation models (exploratory and confirmatory factor analysis), discriminant analysis, redundancy analysis, canonical correlation analysis, repeated measures analysis, categorical data analysis, contingent valuation method, conjoint analysis, cluster analysis, multidimensional scaling, correspondence analysis, choice models, and relatively new areas such as multi-level analysis, meta-analysis, data warehousing, data mining, and neural networks. Additionally, nonlinear models will also be discussed. Students will be introduced to SAS and other software packages.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "613",
+      "course_combined": "MSC 613",
+      "title": "Struct Fixed Income Portfolios",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=613",
+      "course_description": "This course will cover the characteristics, valuation and risk management of fixed income instruments. These instruments include bonds, repos, interest rate derivatives, inflation indexed securities, mortgage-backed and asset-backed securities, CDOs and default swaps. The focus will be on understanding how these instruments are structured and used. Term structure modeling and hedging techniques will be presented, with a minimum of mathematics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
       "course_num": "614",
       "course_combined": "MSC 614",
       "title": "Quant Investment Strategies",
@@ -10,7 +146,11 @@
       "course_description": "This course develops the primary quantitative tools used in the portfolio selection process. The applied focus of the course centers on the process of moving from a data set of historical information to the formulation of a forecasting model, the estimation of mean-variance efficient portfolios, and the testing of efficiency hypotheses within an in-sample and post-sample setting. The course covers the estimation of efficient portfolios, factor models, forecasting models, and risk analysis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +159,8 @@
           "crn": "12480",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12480",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +180,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +193,11 @@
       "course_description": "The digital enterprise captures significantly more data about its customers, suppliers, and partners. The challenge, however, is to transform this vast data repository into actionable business intelligence. Both the structure and content of information from databases and data warehouses will be studied. Basic skills for designing and retrieving information from a database (e.g., MS Access) will be mastered. Data mining and predictive analytics can provide valuable business insights. A leading data mining tool, e.g., IBM/SPSS Modeler, will be used to investigate hypotheses and discover patterns in enterprise data repositories. Analysis tools include decision trees, neural networks, market basket analysis, time series, and discriminant analysis. Both data cleaning and analyses will be discussed and applied to sample data. Applications of data mining in a variety of industries will be discussed. Software exercises, case studies, and a major project will prepare the students to use these tools effectively during their careers.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +206,8 @@
           "crn": "12346",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12346",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +227,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -104,7 +240,11 @@
       "course_description": "",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +253,8 @@
           "crn": "17103",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17103",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +274,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "621",
+      "course_combined": "MSC 621",
+      "title": "Corporate Finance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=621",
+      "course_description": "The primary objective of this course is to provide doctoral students an overview of introductory topics in corporate finance including capital structure, agency theory, corporate governance, payout policy, compensation, mergers and acquisitions, diversification, equity issuance, private equity, and financial intermediation. We will focus on both theories and empirics of financial economics in the area of corporate finance. Students should expect a rigorous course with substantial academic rather than applied content, and expect an intensive reading list. Another objective is to train students to read, understand, and present background papers in corporate finance and recognize the interesting/important problems in corporate finance in the \"right\" institutional structure.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "622",
+      "course_combined": "MSC 622",
+      "title": "Enterprise Risk Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=622",
+      "course_description": "This course focuses on the two main silos of risk in the financial industry, namely, credit risk and operational risk. The course will also discuss asset and liability management, interest rate risk management, integration of credit risk and market risk, regulatory and compliance issues and performance measurement and capital management. The quantitative aspects of the course include: volatility and correlation modeling, Monte Carlo simulation, stress-testing scenarios analysis, and extreme and tail events modeling.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "623",
+      "course_combined": "MSC 623",
+      "title": "Investments",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=623",
+      "course_description": "The world of investments is changing rapidly as investment responsibilities and power move into the hands of individuals. This course discuss the properties of investment instruments, different investment theories, and the professional investors. Topics include the characteristics of various financial assets, the time series and cross sectional of returns, asset pricing theory and empirical methods, mutual funds and hedge funds. Moreover, there is a reading list of the most influential academic papers in the investment field, students are required to understand and follow the most advanced development in the investment field.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "631",
+      "course_combined": "MSC 631",
+      "title": "Theory of Finance I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=631",
+      "course_description": "This course is intended as an in depth review of the following areas of finance: (1) utility theory and expected utility valuation techniques; (2) the Markowitz portfolio problem and the CAPM model; (3) the APT theory and general linear arbitrage factor model; (4) single period consumption-based asset pricing models; (5) state preference theoretic approaches; (6) multi-period discrete time utility based models and associated mathematical techniques; (7) equilibrium and price bubbles in the preceding model (the \"Lucas\" model); (8) basic binomial derivative pricing; and (9) Ito's Lemma, Black-Scholes, and related models.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "633",
+      "course_combined": "MSC 633",
+      "title": "Theory of Finance II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=633",
+      "course_description": "This course is intended as an in depth review of the following areas of finance: (1) continuous time risk neutral pricing; (2) jump diffusion models; (3) continuous time utility optimization modeling (with dynamic programming); (4) consumption CAPM modeling; (5) non-time seperable utility modeling; and (6) behavioral finance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSC",
@@ -151,7 +372,11 @@
       "course_description": "This seminar will acquaint students with quantitative models used in marketing research literature. It will survey a variety of econometric models ranging from basic choice models to the latest structural models which have been used to analyze problems in the marketing domain. In summary, the course will provide an overview of the quantitative modeling field in marketing. The emphasis will be on understanding the estimation procedure employed to estimate these models.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MSC 512 Minimum Grade of C May not be taken concurrently. and Course or Test: MSC 515 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +385,8 @@
           "crn": "14235",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14235",
           "credits": 3.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Business Graduate Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +406,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MSC 512 Minimum Grade of C May not be taken concurrently. and Course or Test: MSC 515 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "652",
+      "course_combined": "MSC 652",
+      "title": "Supply Chain Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=652",
+      "course_description": "This course focuses on modeling and analytical skills by introducing (1) an integrated view of the production and logistics functions in organizations by discussing models such as facility location, capacity allocation, warehousing, transportation, forecasting, inventory management, and risk-pooling models and (2) how firms interact with each other in a supply chain by discussing topics such as value of information, supply chain contracting and coordination, price-based and quantity-based revenue management. In addition to developing quantitative modeling skills, this course focuses on data analytics in the supply chain context and the interface of supply chain analytics and customer analytics. The course will help students (1) gain an understanding of various aspects, issues, and initiatives in contemporary supply chain practice and (2) develop their ability to conduct quantitative research in supply chain management using recent literature published in top tier journals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "653",
+      "course_combined": "MSC 653",
+      "title": "Topics in Marketing Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=653",
+      "course_description": "The focus of this course would be to stay up-to-date with cutting edge academic research in the field of marketing analytics. Students will read and implement quantitative models to optimize marketing predictions. Students would need to be reasonably well-versed in a variety of analytics approaches coming in and capable of learning new methods that appear in the literature through interaction with large data sets. The emphasis would be on critical discussion of cutting-edge marketing analytics techniques and application, self-study of methods and current digital platforms to keep pace with trends and breakthroughs in the field, and research idea generation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "654",
+      "course_combined": "MSC 654",
+      "title": "Social Network Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=654",
+      "course_description": "This course focuses on the following: (1) analyzing social networks through statistical descriptors of networks (link analysis, centrality, and prestige), network clustering (modularity and community detection), dynamics of information and epidemics spreading (threshold and information cascade models), and network visualization algorithms (spring-like layouts, multidimensional scaling, Gephi). (2) applications of text and document analysis using natural language processing and part-of-speech tagging, sentiment analysis, and topic modeling. (3) assessing collective intelligence using recommender systems, collaborative filtering, and machine learning, in particular deep learning.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "655",
+      "course_combined": "MSC 655",
+      "title": "Visual Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=655",
+      "course_description": "This course has the following objectives: (a) to teach students the link between analytics and business value; (b) to expose students to techniques useful to for visualizing and for drawing insights from complex data; (c) to introduce methods for both gaining insights from historical data (descriptive data mining) and predicting possible future outcomes (predictive data mining); (d) to enable students to use decision analysis to develop an optimal strategy when faced with several decision alternatives given risk-preferences and uncertain event outcomes; and (e) to improve students' critical thinking skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "MSC",
@@ -198,7 +487,11 @@
       "course_description": "",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business",
+      "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +500,8 @@
           "crn": "15504",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15504",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +521,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "104",
@@ -240,9 +529,8 @@
           "crn": "11319",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11319",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -262,10 +550,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "112",
@@ -273,9 +558,8 @@
           "crn": "11538",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11538",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -295,10 +579,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "113",
@@ -306,9 +587,8 @@
           "crn": "12776",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12776",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -328,10 +608,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "115",
@@ -339,9 +616,8 @@
           "crn": "11612",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11612",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,10 +637,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "119",
@@ -372,9 +645,8 @@
           "crn": "16094",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16094",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -394,10 +666,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "128",
@@ -405,9 +674,8 @@
           "crn": "16066",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16066",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -427,10 +695,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "132",
@@ -438,9 +703,8 @@
           "crn": "11133",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11133",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -460,10 +724,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "138",
@@ -471,9 +732,8 @@
           "crn": "11158",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11158",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -493,10 +753,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "148",
@@ -504,9 +761,8 @@
           "crn": "17479",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17479",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -526,10 +782,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "151",
@@ -537,9 +790,8 @@
           "crn": "11268",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11268",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -559,10 +811,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "158",
@@ -570,9 +819,8 @@
           "crn": "11269",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11269",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -592,10 +840,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "165",
@@ -603,9 +848,8 @@
           "crn": "11574",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11574",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -625,10 +869,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -636,9 +877,8 @@
           "crn": "12390",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12390",
           "credits": 15.0,
-          "instructional_method": "Business Graduate Tuition Rate\nDowntown Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business",
-          "attributes": "Forced to Full-Time Course, Business Graduate Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -658,12 +898,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "MSC",
+      "course_num": "697",
+      "course_combined": "MSC 697",
+      "title": "Special Research Issues",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=MSC&crse_numb_in=697",
+      "course_description": "This course is in lieu of MSC 691 that PhD-MSC legacy students can register for after they have already completed the MSC 691 credit requirements for graduation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

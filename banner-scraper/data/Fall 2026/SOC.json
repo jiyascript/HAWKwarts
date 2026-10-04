@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "SOC",
+      "course_num": "108",
+      "course_combined": "SOC 108",
+      "title": "Social Psychology and Society",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=108",
+      "course_description": "Explores different aspects of everyday judgments and their sometimes undesirable social consequences, especially the Fundamental Attribution Error. Other topics include various types of group influences on individual judgment and behavior, as well as persuasion, \"brainwashing,\" helping behavior, and prejudice. Formerly called SOC 308.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
       "course_num": "111",
       "course_combined": "SOC 111",
       "title": "Intro to Sociology of Space",
@@ -10,7 +27,11 @@
       "course_description": "This introductory sociology course deals with people's general experience of space and how space and spatial arrangements affect people, social interaction, and the sense of community. It is designed to develop knowledge and understanding as well as analytical and perceptive skills. Our experiences of the spatial dimension of reality will be examined from various perspectives: emotional; cognitive; functional; symbolic; and cross-cultural. Our study objects range from everyday experiences to questions of community and city planning. Basic sociological concepts and research methods will be introduced and related to the topics covered. This course is required for SOC 311 (Social Use of Space).",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "17281",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17281",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +61,128 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "180",
+      "course_combined": "SOC 180",
+      "title": "Introduction to Sociology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=180",
+      "course_description": "Introduces students to the structure and operation of society. The course analyzes individual behavior and emphasizes social problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "185",
+      "course_combined": "SOC 185",
+      "title": "Introductory Special Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=185",
+      "course_description": "Investigates a topic of current interest at an introductory level. Topic will be announced by instructor at scheduling time. There are no prerequisites for this course. Course may be taken multiple times, provided the topic is different each time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "201",
+      "course_combined": "SOC 201",
+      "title": "Social Dimension of Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=201",
+      "course_description": "Examines how social and psychological factors influence the reasoning and behavior of scientists. By contrasting traditional views of science with actual scientific practice, the course aims to understand such phenomena as \"hype,\" resistance to scientific discovery, controversy, vicious competition, error, self-deception, and fraud.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "202",
+      "course_combined": "SOC 202",
+      "title": "Science and Belief",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=202",
+      "course_description": "Explores the relationship between science and belief by comparing Western science with other belief systems, science with religion, and science with pseudo-science. The course also examines cultural and ideological influences on scientific knowledge and public faith in science.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "205",
+      "course_combined": "SOC 205",
+      "title": "Social Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=205",
+      "course_description": "Studies the variety of subtle ways, verbal and nonverbal, in which humans communicate in personal, professional, and public life, and how to identify and solve problems and misunderstandings that typically arise. Topics include the social nature of humans, interpersonal communication, interaction within and between groups, teamwork, leadership, and intercultural communication.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "206",
+      "course_combined": "SOC 206",
+      "title": "Science in Society",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=206",
+      "course_description": "Examines the role of the institution of science, scientific knowledge, and scientists in society. The course focuses on areas where science significantly influences and is influenced by political, economic, and cultural institutions and contexts.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "213",
+      "course_combined": "SOC 213",
+      "title": "Social Use of Space",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=213",
+      "course_description": "Gives students basic insights into people's experience of space and the effect of spatial arrangements on people's behavior. The course explores the differences in conceptions between planners and users and the need to take the user into account in spatial design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SOC",
@@ -57,7 +193,11 @@
       "course_description": "Analyzes the definition, development, and control of deviant behavior in relation to social processes. Societal reaction to and the amount, distribution, and behavioral systems of various forms of deviance (drug addiction, suicide, crime, alcoholism, illegitimacy, etc.) are examined.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +206,8 @@
           "crn": "17283",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17283",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +227,60 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "262",
+      "course_combined": "SOC 262",
+      "title": "Technology Social Change",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=262",
+      "course_description": "Examines the social implications of selected emerging and cutting-edge technologies with an emphasis on recent developments and events. The course investigates the consequences of those technologies for society using both short-term and long-term perspectives and including moral, ethical, socioeconomic, and educational considerations. Same as PS 362.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "286",
+      "course_combined": "SOC 286",
+      "title": "Topics in Sociology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=286",
+      "course_description": "Investigates a topic of current interest in Sociology which will be announced by the instructor when the course is scheduled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SOC",
+      "course_num": "312",
+      "course_combined": "SOC 312",
+      "title": "Medical Sociology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SOC&crse_numb_in=312",
+      "course_description": "This is a course on sociological perspectives on medicine, health and illness. While medicine is a natural science, very much like any other branches of knowledge it is influenced by social forces. Thus we will try to understand the social, economic and political forces that have shaped cultural perceptions of health and illness and the development of the medical sciences. In the course of surveying the sociological literature on medicine, we will pay special attention to the politics and economics of modern healthcare, the relation between social power and medical technology, effects of social inequality on health and healthcare as well as the experiential and cultural domains of illness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SOC",
@@ -104,7 +291,11 @@
       "course_description": "Working with a member of the sociology faculty, students will choose a topic, conduct research, and complete an original, independent research project.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +304,8 @@
           "crn": "11368",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11368",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,10 +325,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     },
@@ -151,7 +338,11 @@
       "course_description": "Consists of independent reading or analysis, centered on particular problems and supervised by a member of the Sociology faculty. Credit: Variable; maximum 3 credit hours.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +351,8 @@
           "crn": "12627",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12627",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,10 +372,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: SOC 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: SOC 300 to 399 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     }

@@ -10,7 +10,11 @@
       "course_description": "",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "13489",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13489",
           "credits": 18.0,
-          "instructional_method": "Standard Tuition Rate\nInternational Program Campus\nSeminar Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "International Program Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +44,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "EXCH",
+      "course_num": "302",
+      "course_combined": "EXCH 302",
+      "title": "Exchange Program-Scotland",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EXCH&crse_numb_in=302",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "EXCH",
+      "course_num": "501",
+      "course_combined": "EXCH 501",
+      "title": "Exchange Program",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=EXCH&crse_numb_in=501",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

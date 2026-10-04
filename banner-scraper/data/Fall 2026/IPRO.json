@@ -3,6 +3,40 @@
   "courses": [
     {
       "course_code": "IPRO",
+      "course_num": "100",
+      "course_combined": "IPRO 100",
+      "title": "Intro Interprofessional Proj",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IPRO&crse_numb_in=100",
+      "course_description": "Introduction to the interprofessional project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IPRO",
+      "course_num": "397",
+      "course_combined": "IPRO 397",
+      "title": "IPRO Project Techniques",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IPRO&crse_numb_in=397",
+      "course_description": "This course teaches the strategic thinking skills that employers consistently rank as most valuable: problem definition, creative solution generation, and effective implementation. Whether you're pursuing technology, business, science, policy, or any other field, the ability to define problems insightfully, discern quality solutions, and deploy them effectively will amplify your professional impact and help future-proof your career in an era of rapid change. As AI tools automate routine tasks, the human skills that matter most are strategic: identifying which problems deserve solving, evaluating solution quality amid countless options, and navigating the complexity of real-world implementation. These are precisely the capabilities employers seek—and the ones that remain valuable regardless of technological disruption. This course teaches design methods as a practical toolkit for any professional domain, not as a path to becoming a designer. You'll learn systematic approaches to problems that apply whether you're developing software, managing projects, conducting research, building organizations, or creating policy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IPRO",
       "course_num": "497",
       "course_combined": "IPRO 497",
       "title": "IPRO",
@@ -10,7 +44,11 @@
       "course_description": "Interprofessional projects allow students to learn teamwork, leadership and project management skills, while working in multidisciplinary teams on projects involving technical, ethical, environmental, economic, public policy, and legal issues. IPRO project teams are typically comprised of 10-12 students from sophomore through graduate level and from all disciplines that can contribute to a project. Every effort will be made to accommodate students' first choices; however, it may be necessary to balance students across all projects scheduled for the semester or to consolidate students into fewer projects to meet minimum team requirement. Specific rules about selection of IPRO projects may apply to certain degree programs. Some projects may carry Humanities or Social Science credit. Students are encouraged to consult the lead faculty member for the project and their faculty advisor before registering for a project.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +57,8 @@
           "crn": "13200",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13200",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +78,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "301",
@@ -52,9 +86,8 @@
           "crn": "16810",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16810",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +107,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "309",
@@ -85,9 +115,8 @@
           "crn": "15327",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15327",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -107,10 +136,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "403",
@@ -118,9 +144,8 @@
           "crn": "15328",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15328",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -140,10 +165,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "614",
@@ -151,9 +173,8 @@
           "crn": "13223",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13223",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -173,10 +194,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "615",
@@ -184,9 +202,8 @@
           "crn": "15320",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15320",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -206,10 +223,7 @@
             "waitlist_capacity": 15,
             "waitlist_actual": 0,
             "waitlist_remaining": 15
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "625",
@@ -217,9 +231,8 @@
           "crn": "15342",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15342",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -239,10 +252,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "626",
@@ -250,9 +260,8 @@
           "crn": "15341",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15341",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -272,10 +281,7 @@
             "waitlist_capacity": 6,
             "waitlist_actual": 0,
             "waitlist_remaining": 6
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "981",
@@ -283,9 +289,8 @@
           "crn": "17231",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17231",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -305,10 +310,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "982",
@@ -316,9 +318,8 @@
           "crn": "17232",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17232",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -338,10 +339,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "985",
@@ -349,9 +347,8 @@
           "crn": "17233",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17233",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -371,10 +368,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "986",
@@ -382,9 +376,8 @@
           "crn": "17234",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17234",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -404,10 +397,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "987",
@@ -415,9 +405,8 @@
           "crn": "17235",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17235",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -437,10 +426,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "988",
@@ -448,9 +434,8 @@
           "crn": "17236",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17236",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -470,10 +455,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "989",
@@ -481,9 +463,8 @@
           "crn": "17180",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17180",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -503,10 +484,7 @@
             "waitlist_capacity": 2,
             "waitlist_actual": 0,
             "waitlist_remaining": 2
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "990",
@@ -514,9 +492,8 @@
           "crn": "17179",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17179",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -536,10 +513,7 @@
             "waitlist_capacity": 2,
             "waitlist_actual": 0,
             "waitlist_remaining": 2
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "991",
@@ -547,9 +521,8 @@
           "crn": "17338",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17338",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -569,10 +542,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "992",
@@ -580,9 +550,8 @@
           "crn": "17423",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17423",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -602,10 +571,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "993",
@@ -613,9 +579,8 @@
           "crn": "17448",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17448",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -635,12 +600,84 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "Must be enrolled in one of the following Classifications: Third Year Undergraduate Fourth Year Undergraduate Fifth Year Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A01",
+          "section_name": "IPRO: New Tech Ventures",
+          "crn": "17303",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17303",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Jennifer deWinter",
+              "instructor_email": "jdewinter@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 9,
+            "remaining": 21,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          }
+        },
+        {
+          "section": "B01",
+          "section_name": "IPRO: Energy Efficiency",
+          "crn": "17302",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17302",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Daniel Tomal",
+              "instructor_email": "tomal@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 8,
+            "remaining": 22,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          }
         }
       ]
+    },
+    {
+      "course_code": "IPRO",
+      "course_num": "499",
+      "course_combined": "IPRO 499",
+      "title": "Interprofessional (IPRO) Proje",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=IPRO&crse_numb_in=499",
+      "course_description": "Illinois Tech’s Interprofessional Projects (IPRO) Program is piloting a new “Studio” model designed to enhance interdisciplinary learning, career preparedness, and collaboration between students, faculty, and industry partners. This pilot, launching in Spring 2026 brings together multiple IPRO sections working on independent projects connected by a shared theme: creating a more sustainable future. Within the Studio, students will engage in unified educational experiences aligned with IPRO’s four core learning objectives through common lectures, industry seminars, and shared online materials. These sessions provide a consistent framework for developing teamwork, communication, ethics, and applied problem-solving skills while fostering connections to real-world sustainability challenges across disciplines.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

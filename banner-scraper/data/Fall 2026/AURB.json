@@ -10,7 +10,11 @@
       "course_description": "This class explores urban form and systems and introduces a synthetic overview of the interdependent factors that influence the design of 21st-century cities. The course covers cities spanning the globe through case studies to expose students to a range of city-planning strategies. The course addresses contemporary urban challenges such as urban sprawl, infrastructure, and aspects of sustainability addressed in the agenda 2030 of the United Nations. Vital issues affecting contemporary architecture and urban design are addressed including globalization, technology, social engineering, the environment, and cultural politics. The course enables students to establish a broader definition of \"urban\" by investigating both common and distinct design strategies of divergent cities.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Programs: Bachelor Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Bachelor Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "16634",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16634",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Programs: Bachelor Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

@@ -3,6 +3,40 @@
   "courses": [
     {
       "course_code": "PS",
+      "course_num": "114",
+      "course_combined": "PS 114",
+      "title": "State and Local Government",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=114",
+      "course_description": "Investigates the relationships among federal, state/provincial, metropolitan/regional, and local units of government, examining theories of federalism, constitutional foundations, judicial interpretations, administrative actions, and current trends and debates. The United States and other federal systems serve as case countries. The course also explores how federalism is being shaped by such factors as globalization, environmental challenges, tribal sovereignty, and terrorism.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "130",
+      "course_combined": "PS 130",
+      "title": "International Relations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=130",
+      "course_description": "Introduces students to the major theories and concepts needed to understand compelling issues confronting the international system. Students will examine how thinking and practice have evolved on such fundamental matters as war, peace, and national security; weapons proliferation; human rights; political economy; international aid and sustainable development; regional integration; and the roles and functions of international and non-governmental organizations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
       "course_num": "132",
       "course_combined": "PS 132",
       "title": "Democracy, Dictator, & Develop",
@@ -10,7 +44,11 @@
       "course_description": "Introduces students to the most common theories and approaches in contemporary comparative political analysis. Students then employ the tools of comparison developed in an examination of the causes and consequences of political instability and conflict and transitions to stable democracy.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +57,8 @@
           "crn": "17279",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17279",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +78,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PS",
+      "course_num": "142",
+      "course_combined": "PS 142",
+      "title": "American Foreign Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=142",
+      "course_description": "Explores how American foreign policy is made and why it matters both in the context of domestic politics and for the international system as a whole. Students will identify U. S. foreign policy goals and critique foreign policy implementation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PS",
@@ -57,7 +108,11 @@
       "course_description": "Surveys American politics and government. Informal political institutions, such as parties and interest groups, are analyzed and related to formal governmental institutions, such as the presidency and the Congress. Emphasis is placed on how the American political culture shapes these institutions and how public policies are produced.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +121,8 @@
           "crn": "17278",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17278",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +142,43 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PS",
+      "course_num": "185",
+      "course_combined": "PS 185",
+      "title": "Special Topics in Pol Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=185",
+      "course_description": "Investigates a topic of current interest at the introductory level. Topic will be announced by instructor at scheduling time. There are no prerequisites for this course. Course may be taken multiple times provided the topic is different each time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "213",
+      "course_combined": "PS 213",
+      "title": "Comparative Public Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=213",
+      "course_description": "Considers why policies on issues like social welfare, health care, education, immigration, and others differ from country to country, looking for answers in such factors as political culture, level of economic development and equality, institutional frameworks and actors, social organization, or some mix of those explanations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PS",
@@ -104,7 +189,11 @@
       "course_description": "Studies Chicago's politics and government from both historical and contemporary perspectives. Emphasis is placed on changes that have significantly shaped the direction of Chicago's politics. Special attention is devoted to social class, ethnicity, race, and ideology as factors that have influenced the Democratic political machine and its opponents.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +202,8 @@
           "crn": "17280",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17280",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +223,179 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "PS",
+      "course_num": "229",
+      "course_combined": "PS 229",
+      "title": "Environmental Politics/Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=229",
+      "course_description": "Students look at the complexities of making and implementing environmental policy at the local, national, regional, and/or global levels. Emphasis will be placed the ways that conflict and cooperation among multiple economic, social, and political interests contribute to the successes and failures of environmental policy. Topics for in depth study may include global warming, air and water pollution, depletion of natural resources, biodiversity conservation, environmental communication, and the roles played by international organizations, local and national governments, businesses, and non-governmental organizations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "233",
+      "course_combined": "PS 233",
+      "title": "Politics of Sci and Technolgy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=233",
+      "course_description": "Explores the complex interrelationships among science, technology, and politics, with emphasis on the political issues created by contemporary scientific advances. The course gives roughly equal attention to the politics of scientific discovery; the development of organizations providing scientific advice to government; the impact of industrialized science and advanced technology on the economy and society; and the growing debate over the social implications of science and technology and how they can be predicted, measured, and controlled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "238",
+      "course_combined": "PS 238",
+      "title": "Energy Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=238",
+      "course_description": "This course traces our dependence on fossil fuels and government-based attempts to promote energy conservation and develop alternate energy sources. Assessed are the economic and political effects of the supply and demand for energy; the implications of different energy production and consumption methods; and efforts to minimize the environmental consequences through increased energy efficiency and/or regulation. The course explores such problems as fossil fuel dependence, greenhouse gas emissions reductions, nuclear waste, rapid industrialization, and national and international attempts to provide economic, political, and technological solutions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "251",
+      "course_combined": "PS 251",
+      "title": "Public Administration",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=251",
+      "course_description": "Examines the nature of administrative organization, decision-making in organization, and organizational structures and processes: division of work, authority, communications, and planning. The course considers the role of the government executive and analyzes the relationship between fiscal procedures and personnel management in organizations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "254",
+      "course_combined": "PS 254",
+      "title": "Urban Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=254",
+      "course_description": "Explores major dilemmas facing cities today, including changing economic and tax bases, fiscal stresses, marginalized populations, new forms of consumption, and adaptation to structural change. Responses of politicians to pressures to develop new policies and leverage the productive capacity of the city and the impact of citizen preferences are analyzed. Same as SOC 354.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "260",
+      "course_combined": "PS 260",
+      "title": "Global Political Economy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=260",
+      "course_description": "Examines the economic, socio-political, and cultural aspects of globalization within the context of both contemporary discussions about the phenomenon and wider debates in the field of political economy. The course also covers aspects of international development, both economic and political.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "272",
+      "course_combined": "PS 272",
+      "title": "Govt and Politics in Africa",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=272",
+      "course_description": "Surveys contemporary African politics in its historical, economic, and cultural context. Both individual country cases and regional issues are examined, and approaches to comparative political analysis are used to understand the causes and consequences of observed patterns of political similarities and differences.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "274",
+      "course_combined": "PS 274",
+      "title": "East Asian Political Economy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=274",
+      "course_description": "Surveys contemporary East Asian politics in its historical, economic, and cultural context. Both individual country cases and regional issues are examined, and approaches to comparative political analysis are used to understand the causes and consequences of observed patterns of political similarities and differences.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "284",
+      "course_combined": "PS 284",
+      "title": "Topics in Political Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=284",
+      "course_description": "Investigates a topic of current interest in Political Science, which will be announced by the instructor when the course is scheduled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PS",
+      "course_num": "288",
+      "course_combined": "PS 288",
+      "title": "International Law and Orgs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PS&crse_numb_in=288",
+      "course_description": "This course examines structures of global governance using analytical lenses developed by both political scientist and international legal scholars to understand the depth and scope of international law. We will explore the relationships between power, rules, and norms as well as the relative impact of hard versus soft law and more or less legalized institutional structures. These themes will guide us through a comparative survey of international and legal frameworks attached to the US, the International Criminal Court, and the World Trade Organization and those created by regional economic institutions such as the EU and NAFTA.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PS",
@@ -151,7 +406,11 @@
       "course_description": "Working with a member of the political science faculty, students will choose a topic, conduct research, and complete an original, independent research project.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: PS 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: PS 300 to 399 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +419,8 @@
           "crn": "11635",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11635",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,10 +440,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: PS 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: PS 300 to 399 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     },
@@ -198,7 +453,11 @@
       "course_description": "Consists of independent reading and analysis, centered on particular problems and supervised by a member of the Political Science faculty. (Credit: Variable; maximum 3 credit hours)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: PS 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: PS 300 to 399 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +466,8 @@
           "crn": "11647",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11647",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +487,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: PS 190 to 299 Minimum Grade of D May not be taken concurrently. and Course or Test: PS 300 to 399 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     }

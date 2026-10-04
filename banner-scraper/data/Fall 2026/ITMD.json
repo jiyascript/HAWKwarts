@@ -10,7 +10,11 @@
       "course_description": "Basic data modeling concepts are introduced. Hands-on database design, implementation, and administration of single-user and shared multi-user database applications using a contemporary relational database management system.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "13225",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13225",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -52,9 +52,8 @@
           "crn": "13226",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13226",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +73,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )"
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16726",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16726",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Barry Eugene Speller",
+              "instructor_email": "bspeller1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 8,
+            "remaining": 242,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -90,7 +115,11 @@
       "course_description": "This course covers the creation and deployment of modern, standards-compliant web pages written in HTML, CSS, and JavaScript in the context of the client-server architecture of the web. Students create and deploy a website with multiple, structured pages cross-linked by a site navigation structure.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +128,8 @@
           "crn": "12076",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12076",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +149,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -132,9 +157,8 @@
           "crn": "12077",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12077",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,10 +178,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -165,9 +186,8 @@
           "crn": "16071",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16071",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -187,10 +207,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be assigned one of the following Student Attributes: Dual Enrollment Pre College Pre College",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -198,9 +215,8 @@
           "crn": "17376",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17376",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -220,10 +236,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16436",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16436",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Daniel John Krieglstein",
+              "instructor_email": "kriedan@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 15,
+            "remaining": 235,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -236,7 +278,11 @@
       "course_description": "Students in this course will learn the importance of human-computer interaction design and the effectiveness of user-centered design. The course will cover a survey of methods frequently used in the HCI profession, such as usability testing and prototyping, as well as general design principles and the use design guidelines. A particular emphasis will be placed on usability for website engineering. Students will apply knowledge from the field in the design and construction of user-centered websites.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: ITMD 361 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -245,9 +291,8 @@
           "crn": "12199",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12199",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -267,10 +312,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: ITMD 361 Minimum Grade of D May not be taken concurrently."
+          }
         },
         {
           "section": "02",
@@ -278,9 +320,8 @@
           "crn": "12200",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12200",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -300,10 +341,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: ITMD 361 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     },
@@ -316,7 +354,11 @@
       "course_description": "This course covers a broad spectrum of object-oriented programming concepts and application programming interfaces. The student considers the details of object-orientated development in topics of multi-threading, data structure collections, stream I/O and client interfaces. Software engineering topics of packaging and deployment are covered as well. Hands-on exercises reinforce concepts taught throughout the course.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITM 311 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 116 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 201 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: ITM 312 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITM 313 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 331 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -325,9 +367,8 @@
           "crn": "12078",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12078",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -347,10 +388,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITM 311 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 116 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 201 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: ITM 312 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITM 313 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 331 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -358,9 +396,8 @@
           "crn": "12079",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12079",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -380,12 +417,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITM 311 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 116 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 201 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: ITM 312 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITM 313 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 331 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "412",
+      "course_combined": "ITMD 412",
+      "title": "Adv Structured & Systems Prg",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=412",
+      "course_description": "Structured programming continues with advanced concepts including strings, arrays, pointers, data structures, file manipulation, and dynamic memory management. Students create more complex applications that work with user input, manipulate user supplied text or text obtained from a file, apply standard library routines for working with literal text, use pointers to store complex structures within arrays, and read and write data from files, the console, and the terminal. The object-oriented programming (OOP) paradigm is covered in depth including the philosophy of OOP, classes and objects, inheritance, template classes, and making use of class libraries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "413",
+      "course_combined": "ITMD 413",
+      "title": "Open-Source Programming",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=413",
+      "course_description": "Contemporary open-source programming languages and frameworks are presented. The student considers design and development topics in system, graphical user interface, network, and web programming. Dynamic scripting languages are covered using object-oriented, concurrent, and functional programming paradigms. Concepts gained throughout the course are reinforced with numerous exercises which will culminate in an open-source programming project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "415",
+      "course_combined": "ITMD 415",
+      "title": "Adv Software Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=415",
+      "course_description": "This course considers Web container application development for enterprise systems. The primary focus is on database connectivity (JDBC) integration with Web application programming using an enterprise-level application framework. A Web application term project considers the design and implementation of a database instance that serves as the information tier in a contemporary 3-tier enterprise solution.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "419",
+      "course_combined": "ITMD 419",
+      "title": "Topics in Software Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=419",
+      "course_description": "This course will cover a particular topic in software development, varying from semester to semester, in which there is particular student or staff interest. This course may be taken more than once but only 9 hours of ITMD 419/519 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "422",
+      "course_combined": "ITMD 422",
+      "title": "Advanced Database Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=422",
+      "course_description": "Advanced topics in database management and programming including client server application development are introduced. Expands knowledge of data modeling concepts and introduces object-oriented data modeling techniques. Students will learn the use of Structured Query Language in a variety of application and operating system environments.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -396,7 +515,11 @@
       "course_description": "In this course students examine core web technologies that are integral in the creation of web-based applications typically delivered in a browser. The course will cover fundamental web protocols, web application architectures, markup, and scripting languages. A focus will be placed on writing modern, standards-compliant JavaScript and how it is used to interact with HTML and CSS to enable rich user interfaces and communication with other services. Current frameworks, libraries, and tools will also be explored.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "Course or Test: ITMD 361 May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -405,9 +528,8 @@
           "crn": "15205",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15205",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -427,10 +549,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "Course or Test: ITMD 361 May not be taken concurrently."
+          }
         },
         {
           "section": "02",
@@ -438,9 +557,8 @@
           "crn": "15206",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15206",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -460,12 +578,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "Course or Test: ITMD 361 May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "442",
+      "course_combined": "ITMD 442",
+      "title": "Full-Stack Web Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=442",
+      "course_description": "This course covers the fundamental concepts and techniques of full-stack web development, focusing on server-delivered front-end content such as server-rendered HTML or JSON and its integration with back-end architectures and data stores.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "443",
+      "course_combined": "ITMD 443",
+      "title": "Front-End Web Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=443",
+      "course_description": "Catalog description: This course emphasizes front-end, browser-based components of web application development. It includes a robust survey of Web APIs in addition to advanced coverage of visual design executed in leading-edge CSS.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "444",
+      "course_combined": "ITMD 444",
+      "title": "Back-End Dev",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=444",
+      "course_description": "This course emphasizes back-end, server-side components of web application development. It provides broad coverage of server-side data stores and languages, and surveys multiple leading server-side web development frameworks.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "445",
+      "course_combined": "ITMD 445",
+      "title": "Web Real-Time Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=445",
+      "course_description": "This course covers the WebRTC specification’s set of protocols, architectures, and APIs designed to enable browser-to-browser real-time communication of voice, video, and data. Students will learn to apply basic technologies including WebSockets, HTTP, HTML5, Web Sockets, NAT, STUN, TURN, and ICE to ensure two-way real-time communication. Students will use JavaScript and development environments to create basic data and media applications based on WebRTC technologies and will analyze the impact of their applications on the performance and behavior of the networks that carry them.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "446",
+      "course_combined": "ITMD 446",
+      "title": "Web Microservices and APIs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=446",
+      "course_description": "This course covers fundamental principles and methods for programmatically accessing and parsing data returned by internet-available data APIs. The course guides students in carefully examining the structure of API endpoints expressed as URLs and the conventions of RESTful architecture.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -476,7 +676,11 @@
       "course_description": "In this project-based course, student teams will build an enterprise-grade website and web infrastructure integrating server-side applications, databases, and client-side rich internet applications as a solution to a defined business problem.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMD 442 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -485,9 +689,8 @@
           "crn": "15766",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15766",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -507,10 +710,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 442 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -518,9 +718,8 @@
           "crn": "15755",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15755",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -540,12 +739,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 442 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "449",
+      "course_combined": "ITMD 449",
+      "title": "Topics in Web Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=449",
+      "course_description": "This course will cover a particular topic in web development, varying from semester to semester, in response to a specific student or faculty interest. This course may be taken more than once, but only 9 hours of ITMD 449 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "453",
+      "course_combined": "ITMD 453",
+      "title": "Enterprise Intelligent Device",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=453",
+      "course_description": "Intelligent device application development is covered with proprietary enterprise and open-source technologies on media device, mobile, and robotic platforms. Utilizing contemporary toolkits, the student considers design and development on simulated and real \"smart\" devices including smart phones, tablets, sensors, actuators, drones, and robots. Numerous exercises reinforce concepts gained throughout the course. A term project will integrate course topics into a comprehensive intelligent device application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "454",
+      "course_combined": "ITMD 454",
+      "title": "Mass-Market Intelligent Device",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=454",
+      "course_description": "Intelligent device application development is covered with leading mass-market and open-source technologies on media device, mobile, and robotic platforms. Utilizing contemporary toolkits, the student considers design and development on simulated and real \"smart\" devices including smart phones, tablets, sensors, actuators, drones, and robots. Numerous exercises reinforce concepts gained throughout the course. A term project will integrate course topics into a comprehensive intelligent device application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "455",
+      "course_combined": "ITMD 455",
+      "title": "Open-Source Intelligent Device",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=455",
+      "course_description": "Intelligent device application development is covered with various technologies on mobile and robotic platforms. Utilizing contemporary toolkits, the student considers design and development on emulated and real \"smart\" devices including smart phones, personal digital assistants, sensors, actuators, and robots. Numerous exercises reinforce concepts gained throughout the course. A term project will integrate course topics into a comprehensive intelligent device application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "460",
+      "course_combined": "ITMD 460",
+      "title": "Fundamentals of Multimedia",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=460",
+      "course_description": "Students are introduced to computer-based multimedia theory, concepts, and applications. Topics include desktop publishing, hypermedia, presentation graphics, graphic images, animation, sound, video, multimedia on the World Wide Web and integrated multimedia authoring techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -556,7 +837,11 @@
       "course_description": "This course covers IT enterprise systems employing web services technologies in SOA and ESB architectural patterns. The student considers SOA which defines and provisions IT infrastructure and allows for a loosely-coupled data exchange over disparate applications participating in business processes. The simplification of integration and flexible reuse of business components within SOA is greatly furthered by ESB. Lab exercises using contemporary tool-kits are utilized to reinforce platform-agnostic course topics.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: ITMD 361 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMD 411 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -565,9 +850,8 @@
           "crn": "12202",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12202",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -587,10 +871,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: ITMD 361 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMD 411 Minimum Grade of D May not be taken concurrently."
+          }
         },
         {
           "section": "02",
@@ -598,9 +879,8 @@
           "crn": "12203",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12203",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -620,12 +900,158 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: ITMD 361 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMD 411 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "469",
+      "course_combined": "ITMD 469",
+      "title": "Topics in Application Develop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=469",
+      "course_description": "This course will cover a particular topic in application development, varying from semester to semester, in which there is particular student or staff interest. This course may be taken more than once but only 9 hours of ITMD 469/569 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "504",
+      "course_combined": "ITMD 504",
+      "title": "Programing and App Foundations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=504",
+      "course_description": "This course covers creation and deployment of modern, standards-compliant web pages written in HTML, CSS, and JavaScript in the context of the client-server architecture of the web. Fundamentals of programming in a modern programming language is covered. Basic data modeling concepts are also introduced, including hands-on database design, implementation, and administration of single-user and shared multi-user database applications using a contemporary relational database management system. These topics are taught in an integrated hands-on manner, where students will learn how frontend, backend, and database systems are written and deployed to work together in a full stack web application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "15931",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15931",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Raj Krishnan",
+              "instructor_email": "rkrish20@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 18,
+            "remaining": 32,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "505",
+      "course_combined": "ITMD 505",
+      "title": "Programing & Appl Foundations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=505",
+      "course_description": "This course covers creation and deployment of modern, standards-compliant web pages written in HTML, CSS, and JavaScript in the context of the client-server architecture of the web. Fundamentals of programming in a modern programming language is covered. Basic data modeling concepts are also introduced, including hands-on database design, implementation, and administration of single-user and shared multi-user database applications using a contemporary relational database management system. These topics are taught in an integrated hands-on manner, where students will learn how frontend, backend, and database systems are written and deployed to work together in a full stack web application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "510",
+      "course_combined": "ITMD 510",
+      "title": "Object-Oriented App Develop",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=510",
+      "course_description": "This course covers a broad spectrum of object-oriented programming concepts and application programming interfaces. The student considers the details of object-oriented development in topics of multi-threading, data structure collections, stream I/O and clientinterfaces. Software engineering topics of packaging and deployment are covered as well. Strong emphasis is placed on the creation of applications providing solutions for defined business problems. Hands-on exercises reinforce concepts taught throughout the course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "511",
+      "course_combined": "ITMD 511",
+      "title": "Application Dev Methodologies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=511",
+      "course_description": "Students learn concepts in a systematic approach to the analysis, design, implementation and maintenance of software. Includes studies of the various models of the software life-cycle, software development project management, system requirements analysis, and methodologies for practical application of these models to software development, including the use of CASE (Computer Aided Software Engineering) tools. Students apply these principles in projects to improve the quality of their development process and final products.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "512",
+      "course_combined": "ITMD 512",
+      "title": "Structured/Systems Programming",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=512",
+      "course_description": "Structured programming with advanced concepts including strings, arrays, pointers, data structures, file manipulation, and dynamic memory management. Students create complex applications that work with user input, manipulate user supplied text or text obtained from a file, apply standard library routines for working with literal text, use pointers to store complex structures within arrays, and read and write data from files, the console, and the terminal. The object-oriented programming (OOP) paradigm is covered in depth including the philosophy of OOP, classes and objects, inheritance, template classes, and making use of class libraries. Strong emphasis is placed on the creation of applications providing solutions for defined business problems or specific operating system issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "513",
+      "course_combined": "ITMD 513",
+      "title": "Open Source Programming",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=513",
+      "course_description": "Contemporary open-source programming languages and frameworks are presented. The student considers design and development topics in system, graphical user interface, network and web programming. Dynamic scripting languages are covered using object-oriented, concurrent and functional programming paradigms. Concepts gained throughout the course are reinforced with numerous exercises which will culminate in an open-source programming project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -636,7 +1062,11 @@
       "course_description": "This course will introduce essential programming concepts and techniques used in analytics. Students will learn and make use of industry standard programming languages widely used in application programming for data and statistical analysis as well as other purposes. Students will understand and use various libraries for data manipulation, preparation, and analysis, and will be equipped to use the programming languages covered in real world scenarios and circumstances upon completion.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: India Program within country",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -645,9 +1075,8 @@
           "crn": "13858",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13858",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -667,10 +1096,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -678,9 +1104,8 @@
           "crn": "13859",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13859",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -700,10 +1125,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -711,9 +1133,8 @@
           "crn": "13860",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13860",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -733,12 +1154,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "515",
+      "course_combined": "ITMD 515",
+      "title": "Advanced Software Programming",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=515",
+      "course_description": "This course considers Web container application development for enterprise systems. The primary focus is on database connectivity (JDBC) integration with Web application programming using an enterprise-level application framework. A Web application term project considers the design and implementation of a database instance that serves as the information tier in a contemporary 3-tier enterprise solution.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "519",
+      "course_combined": "ITMD 519",
+      "title": "Topics in Software Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=519",
+      "course_description": "This course will cover a particular topic in software development varying from semester to semester in which there is particular student or staff interest. The course may be taken more than once but only 9 hours of ITMD 419/519 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -749,7 +1201,11 @@
       "course_description": "This course covers both concepts and practical applications of distributed data paradigms. This provides a comparison between SQL and MapReduce. The course focuses on how to treat and prepare unstructured data to be used in the MapReduce framework in a parallel fashion. Students will be tasked with learning and demonstrating the MapReduce framework through implementing the Hadoop framework and associated Java technology.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -758,9 +1214,8 @@
           "crn": "16489",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16489",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -780,10 +1235,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -791,9 +1243,8 @@
           "crn": "16490",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16490",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -813,10 +1264,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -824,9 +1272,8 @@
           "crn": "16491",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16491",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -846,10 +1293,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -857,9 +1301,8 @@
           "crn": "17440",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17440",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -879,10 +1322,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -895,7 +1335,11 @@
       "course_description": "Data mining is a useful tool to uncover patterns and underlying relationships in large data by using data analytics and knowledge discovery techniques. Machine learning algorithms additionally learn from the data and make predictions or decisions by different optimization methods. This course is a graduate level survey of concepts, principles and techniques related to data mining and machine learning. Students will be familiar with data preprocessing skills and the popular data mining and machine learning techniques, including the supervised learning (regressions and classification) and unsupervised learning(clustering and association rules analysis), as well as semi-supervised learning and ensemble learning. Students will also learn the related applications, including text mining/NLP, Web mining, information retrieval and recommender systems. Students will learn R and Python programming for data mining and machine learning and be able to handle real-world data or applications.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Graduate level ITMD 514 Minimum Grade of C or Graduate level ITMS 514 Minimum Grade of C",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -904,9 +1348,8 @@
           "crn": "17072",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17072",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -926,10 +1369,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Graduate level ITMD 514 Minimum Grade of C or Graduate level ITMS 514 Minimum Grade of C",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -937,9 +1377,8 @@
           "crn": "17073",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17073",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -959,10 +1398,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Graduate level ITMD 514 Minimum Grade of C or Graduate level ITMS 514 Minimum Grade of C",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -970,9 +1406,8 @@
           "crn": "17074",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17074",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -992,10 +1427,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Graduate level ITMD 514 Minimum Grade of C or Graduate level ITMS 514 Minimum Grade of C",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -1003,9 +1435,8 @@
           "crn": "17442",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17442",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1025,12 +1456,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Graduate level ITMD 514 Minimum Grade of C or Graduate level ITMS 514 Minimum Grade of C",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "523",
+      "course_combined": "ITMD 523",
+      "title": "Adv Topics in Data Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=523",
+      "course_description": "Advanced topics in database management and programming including client server application development are introduced. Students will learn the use of Structured Query Language in a variety of application and operating system environments. Expands knowledge of data modeling concepts and introduces object-oriented data modeling techniques with specific attention to the use of database management systems in response to defined business problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "524",
+      "course_combined": "ITMD 524",
+      "title": "Applied AI & Deep Learning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=524",
+      "course_description": "Artificial Intelligence (AI) is being used extensively to solve real-world complex problems. This course will deliver concepts and skills in both classical AI and modern AI. The classical AI refers to the fundamental knowledge in AI, such as search, logic, planning, uncertainty, game theory, Markov models, etc. Modern AI, by contrast, will be concentrated on machine learning and deep learning techniques, especially their applications in NLP, object recognition, recommender systems, etc. Students will learn how to use Python to solve specific AI problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "525",
+      "course_combined": "ITMD 525",
+      "title": "Topics in Data Science & Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=525",
+      "course_description": "This course will cover a particular topic in databases, data science, data management, or data analytics, varying from semester to semester, in which there is particular student or staff interest.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -1041,7 +1520,11 @@
       "course_description": "This class will introduce the student to concepts needed for successfully designing, building and implementing a data warehouse. The class will provide the technological and managerial knowledge base for data modeling approaches such as the star schema and database de-normalization issues. Topics such as loading the warehouse, performance considerations, and other concepts unique to the data warehouse environment will be discussed demonstrated in detail.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMD 523 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1050,9 +1533,8 @@
           "crn": "16335",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16335",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1072,10 +1554,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 523 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1083,9 +1562,8 @@
           "crn": "16336",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16336",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1105,10 +1583,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 523 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -1116,9 +1591,8 @@
           "crn": "16337",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16337",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1138,12 +1612,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 523 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "529",
+      "course_combined": "ITMD 529",
+      "title": "Advanced Data Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=529",
+      "course_description": "Informatics is the application of information technology to solve problems in other fields. Informaticists use technology and information to build intelligent systems used to bridge the gaps between information, technology, and the people who use it. The study of informatics is about blending applied mathematics with technology while understanding the broader consequences of computing on society and the problem being solved. It is important for any student to develop a broad perspective of technology and the people it serves. This course builds upon the student's knowledge of mathematical concepts of predictive modeling of samples and populations with an emphasis on applying technology to solve real world problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "532",
+      "course_combined": "ITMD 532",
+      "title": "UML-Based Software Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=532",
+      "course_description": "Study of software development using the Unified Modeling Language (UML). Covers architecture-driven and component based techniques for modeling object-oriented applications. Particular emphasis is placed on the hands on application of tools and components used for object oriented systems modeling.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -1154,7 +1659,11 @@
       "course_description": "Introduction to human-computer interaction, a discipline concerned with the design, evaluation and implementation of interactive computing systems for human use. Emphasis is given to the structure of communication between people and computers, capabilities of people to use computers, concerns that arise in designing and building interfaces, design trade-offs, and the process of specification, design, and implementation of user interfaces. Particular emphasis is placed on practical design and usability of computer system user interfaces.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1163,9 +1672,8 @@
           "crn": "11699",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11699",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1185,10 +1693,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1196,9 +1701,8 @@
           "crn": "11700",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11700",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1218,10 +1722,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -1229,9 +1730,8 @@
           "crn": "11701",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11701",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1251,12 +1751,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "535",
+      "course_combined": "ITMD 535",
+      "title": "Human-Computer Interaction Des",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=535",
+      "course_description": "Advanced study in human-computer interaction with a particular focus on the design of application and web interfaces.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -1267,7 +1781,11 @@
       "course_description": "This course covers the basic concepts of software testing and maintenance. The Testing Maturity Model provides a framework for developing a more mature test process. Testing techniques, test metrics and test plan management concepts are described within this framework",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMD 510 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1276,9 +1794,8 @@
           "crn": "11702",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11702",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1298,10 +1815,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 510 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1309,9 +1823,8 @@
           "crn": "11703",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11703",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1331,10 +1844,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 510 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -1342,9 +1852,8 @@
           "crn": "11704",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11704",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1364,12 +1873,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 510 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "537",
+      "course_combined": "ITMD 537",
+      "title": "Data Science Practicum",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=537",
+      "course_description": "In this project-oriented course, students will work in small groups to solve real-world data analysis problems and communicate their results. Innovation, soundness of solutions and evaluations, and clarity of presentation will be key elements of evaluation. The topic of the projects may come from university research faculty or from industry partners.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -1380,7 +1903,11 @@
       "course_description": "In this course students examine core web technologies that are integral in the creation of web-based applications typically delivered in a browser. The course will cover fundamental web protocols, web application architectures, markup, and scripting languages. A focus will be placed on writing modern, standards-compliant JavaScript and how it is used to interact with HTML and CSS to enable rich user interfaces and communication with other services. Current frameworks, libraries, and tools will also be explored.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1389,9 +1916,8 @@
           "crn": "15213",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15213",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1411,10 +1937,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1422,9 +1945,8 @@
           "crn": "15207",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15207",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1444,10 +1966,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -1455,9 +1974,8 @@
           "crn": "15208",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15208",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1477,10 +1995,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -1488,9 +2003,8 @@
           "crn": "17362",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17362",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1510,12 +2024,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "542",
+      "course_combined": "ITMD 542",
+      "title": "Full-Stack Web Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=542",
+      "course_description": "This course covers the fundamental concepts and techniques of full-stack web development, focusing on server-delivered front-end content such as server-rendered HTML or JSON and its integration with back-end architectures and data stores.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "543",
+      "course_combined": "ITMD 543",
+      "title": "Front-End Web Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=543",
+      "course_description": "This course emphasizes front-end, browser-based components of web application development. It includes a robust survey of Web APIs in addition to advanced coverage of visual design executed in leading-edge CSS.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "544",
+      "course_combined": "ITMD 544",
+      "title": "Back-End Dev",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=544",
+      "course_description": "This course emphasizes back-end, server-side components of web application development. It provides broad coverage of server-side data stores and languages, and surveys multiple leading server-side web development frameworks.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "545",
+      "course_combined": "ITMD 545",
+      "title": "Web Real-Time Communication",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=545",
+      "course_description": "This course covers the WebRTC specification’s set of protocols, architectures, and APIs designed to enable browser-to-browser real-time communication of voice, video, and data. Students will learn to apply basic technologies including WebSockets, HTTP, HTML5, Web Sockets, NAT, STUN, TURN, and ICE to ensure two- way real-time communication. Students will use JavaScript and development environments to create basic data and media applications based on WebRTC technologies and will analyze the impact of their applications on the performance and behavior of the networks that carry them.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "546",
+      "course_combined": "ITMD 546",
+      "title": "Web Microservices and APIs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=546",
+      "course_description": "This course covers fundamental principles and methods for programmatically accessing and parsing data returned by internet-available data APIs. The course guides students in carefully examining the structure of API endpoints expressed as URLs and the conventions of RESTful architecture.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -1526,7 +2122,11 @@
       "course_description": "In this project-based course, student teams will build an enterprise-grade website and web infrastructure integrating server-side applications, databases, and client-side rich internet applications as a solution to a defined business problem.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMD 542 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1535,9 +2135,8 @@
           "crn": "15753",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15753",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1557,10 +2156,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 542 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1568,9 +2164,8 @@
           "crn": "15754",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15754",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1590,10 +2185,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 542 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -1601,9 +2193,8 @@
           "crn": "15756",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15756",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1623,12 +2214,111 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMD 542 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "549",
+      "course_combined": "ITMD 549",
+      "title": "Topics in Web Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=549",
+      "course_description": "This course will cover a particular topic in web development, varying from semester to semester, in response to a specific student or faculty interest. This course may be taken more than once, but only 9 hours of ITMD 549 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "553",
+      "course_combined": "ITMD 553",
+      "title": "Enterprise Intelligent Device",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=553",
+      "course_description": "Intelligent device application development is covered with proprietary enterprise and open-source technologies on media device, mobile, and robotic platforms. Utilizing contemporary toolkits, the student considers design and development on simulated and real \"smart\" devices including smart phones, tablets, sensors, actuators, drones, and robots. Numerous exercises reinforce concepts gained throughout the course. A term project will integrate course topics into a comprehensive intelligent device application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "554",
+      "course_combined": "ITMD 554",
+      "title": "Mass-Market Intelligent Device",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=554",
+      "course_description": "Intelligent device application development is covered with leading mass-market and open-source technologies on media device, mobile, and robotic platforms. Utilizing contemporary toolkits, the student considers design and development on simulated and real \"smart\" devices including smart phones, tablets, sensors, actuators, drones, and robots. Numerous exercises reinforce concepts gained throughout the course. A term project will integrate course topics into a comprehensive intelligent device application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "555",
+      "course_combined": "ITMD 555",
+      "title": "Open-Source Intelligent Device",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=555",
+      "course_description": "Intelligent device application development is covered with various technologies on mobile and robotic platforms. Utilizing contemporary toolkits, the student considers design and development on emulated and real \"smart\" devices including smart phones, personal digital assistants, sensors, actuators, and robots. Numerous exercises reinforce concepts gained throughout the course. A term project will integrate course topics into a comprehensive intelligent device application.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "556",
+      "course_combined": "ITMD 556",
+      "title": "Intelligent Device Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=556",
+      "course_description": "Students create projects that exercise and expand their understanding of intelligent device application development. Instructional materials and lectures are provided as needed to support projects. Scope and deliverables will be determined through joint decision of the instructor and students. Students will describe requirements, create test plans as needed, demonstrate the application when applicable, create a written description of the work, and may deliver a formal presentation to an audience appropriate to the scope and scale of the work completed. This course may be taken more than once but only 6 hours of ITMD 556 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "561",
+      "course_combined": "ITMD 561",
+      "title": "Web Intelligence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=561",
+      "course_description": "Embrace the dynamic landscape of the digital realm with our groundbreaking course in Web Intelligence. This course is designed to empower students with a profound understanding of Web Mining, Natural Language Processing (NLP), Information Retrieval (IR), and Recommender Systems (RecSys), pivotal components in shaping the intelligent future of the web. Web Mining can uncover the hidden gems within the vast expanse of the web through the exploration of web mining techniques. NLP is a popular topic in AI and job market. From sentiment analysis to language generation, students will gain hands-on experience in developing systems that can understand, interpret, and generate human language effectively. We will also navigate the intricacies of IR and learn the art of efficiently accessing and presenting relevant information from the vast web ecosystem. Topics in RecSys help students explore the art and science of personalized content delivery. This course will feature both knowledge (e.g., concepts, algorithms) and practical skills (e.g., tools and libraries by Python) in these related topics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMD",
@@ -1639,7 +2329,11 @@
       "course_description": "This course covers IT enterprise systems employing web services technologies in SOA and ESB architectural patterns. The student considers SOA which defines and provisions IT infrastructure and allows for a loosely-coupled data exchange over disparate applications participating in business processes. The simplification of integration and flexible reuse of business components within SOA is greatly furthered by ESB. Lab exercises using contemporary toolkits are utilized to reinforce platform-agnostic course topics.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1648,9 +2342,8 @@
           "crn": "12098",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12098",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1670,10 +2363,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1681,9 +2371,8 @@
           "crn": "12099",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12099",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1703,10 +2392,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -1714,9 +2400,8 @@
           "crn": "12100",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12100",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1736,10 +2421,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -1747,9 +2429,8 @@
           "crn": "17435",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17435",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1769,12 +2450,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMD",
+      "course_num": "569",
+      "course_combined": "ITMD 569",
+      "title": "Topics in Application Devlmpnt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMD&crse_numb_in=569",
+      "course_description": "This course will cover a particular topic in application development, varying from semester to semester, in which there is a particular student or staff interest. This course may be taken more than once but only 9 hours of ITMD 569 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

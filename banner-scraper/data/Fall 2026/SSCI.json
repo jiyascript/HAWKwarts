@@ -10,7 +10,11 @@
       "course_description": "The course introduces students to social science professions, career possibilities, and the range of skill sets utilized by professionals in the field. This will be cross listed with PSYC 100 and we are raising the credit to 3 to make it consistent",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "17480",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17480",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +44,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "104",
+      "course_combined": "SSCI 104",
+      "title": "States, Markets, and Society",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=104",
+      "course_description": "This course examines theoretical explanations for the relationship between governments, society, and the global economy. It considers structural industrial shifts and the impact of technology on production, economic competitiveness and social welfare. Themes include labor value, bureaucratic theory, class conflicts and in the internationalization of capital.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -57,7 +74,11 @@
       "course_description": "This is an introductory course on public policy processes with a primary focus on the United States and a secondary focus on cross-country comparisons involving the U.S. The overarching concerns in this course address the following problems related to implementing effective policies: a polarized public, incrementalism in policy making, preferences toward elites, moving/changing targets of policy outcomes, and challenges related to information transfer and communication. To this end, the student will become familiar with models and determinants of public policy making, learn about the dominant policy areas, and select a specific area for political and economic analyses.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +87,8 @@
           "crn": "16269",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16269",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +108,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -104,7 +121,11 @@
       "course_description": "Through readings, lectures, and field trips to local neighborhoods, this course will look at the ways that Chicago has become a global city and what that means for local government, businesses, educators, and the non-profit sector. The course explores how Chicago has become a node in the global economy and a gateway to immigrants from all over the world.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +134,8 @@
           "crn": "17285",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17285",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +155,128 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "184",
+      "course_combined": "SSCI 184",
+      "title": "Special Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=184",
+      "course_description": "Investigates a topic of current interest at the introductory level. Course may be taken multiple times provided the topic is different each time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "185",
+      "course_combined": "SSCI 185",
+      "title": "Intro Special Topics Social Sc",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=185",
+      "course_description": "This is a special topics course that would explore a topic of current interest in the social sciences at an introductory level. Topic will be announced by instructor at scheduling time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "209",
+      "course_combined": "SSCI 209",
+      "title": "Social Science Research Method",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=209",
+      "course_description": "Introduces students to explanation in the social sciences and both qualitative and the quantitative research methods. Topics covered include the formulation of research questions, measurement, data collection, survey research, significance tests, experimental and quasi-experimental design, sampling, and various techniques of qualitative research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "210",
+      "course_combined": "SSCI 210",
+      "title": "Social and Political Thought",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=210",
+      "course_description": "Examines central social and political theories and their ideas concerning the relationship between individual and society, social harmony and conflict, social equality, and the state.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "218",
+      "course_combined": "SSCI 218",
+      "title": "Global Health",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=218",
+      "course_description": "Multidisciplinary course that addresses the most critical issues and initiatives in global health, covering the history of the field and its basic principles and goals, the determinants of health and its links with development, competing perspectives on global health challenges and ways to meet them, the most important causes of disease and death, and the organizations and governance mechanisms that are endeavoring to improve outcomes. The course is geared toward developing theories and methods to understand the social, economic, political, and environmental causes of health outcomes with a focus on disadvantaged communities and health inequalities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "221",
+      "course_combined": "SSCI 221",
+      "title": "Social Inequality",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=221",
+      "course_description": "Evaluates the patterns and dimensions of social, economic, and political inequality in American society and how these compare with other societies, who gets ahead and why, the consequences of social stratification, and the outlooks for the future of inequality in developed countries like the United States.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "223",
+      "course_combined": "SSCI 223",
+      "title": "Problems of Multi-Ethnic/Relig",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=223",
+      "course_description": "Focuses on the political challenges arising in multi-ethnic, multi-religious societies in which there has been substantial conflict or balkanization. Developed and developing countries receive attention.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -151,7 +287,11 @@
       "course_description": "This course introduces students to the use of digital geographic information in reasoning about the world. Topics include geographic data collection and management, geographic data models, and basic geographic analysis. A variety of GIS applications will be described across a range of disciplines with an emphasis on geographic problem solving. The social, economic, and legal context of geographic information will also be examined. Principles and concepts will be provided in lectures and reinforced through a series of hands-on exercises.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +300,8 @@
           "crn": "16658",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16658",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +321,77 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "242",
+      "course_combined": "SSCI 242",
+      "title": "Criminal Justice Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=242",
+      "course_description": "This course is focused on crime control policies in the United States. There will be discussions about how the social sciences can inform policy debates on crime, and how crime control policies of America have been shaped by social inequality.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "245",
+      "course_combined": "SSCI 245",
+      "title": "AI and Public Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=245",
+      "course_description": "This course will explore the application, regulation, as well as the larger social consequences of AI technology. We will look at theoretical works as well as specific case studies on the transformative potential of AI.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "254",
+      "course_combined": "SSCI 254",
+      "title": "Urban Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=254",
+      "course_description": "Explores major dilemmas facing cities today including changing economic and tax bases, fiscal stresses, immigration, marginalized populations, new forms of consumption, and adaptation to structural change. Responses of politicians to pressures to develop new policies and leverage the productive capacity of the city and the impact of citizen preferences are analyzed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "255",
+      "course_combined": "SSCI 255",
+      "title": "Regional Economic Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=255",
+      "course_description": "This course focuses on methods of analyzing why regions differ economically, how they interrelate, and why and how they react to changes in economic policies and conditions. Students will learn about models and metrics of regional structure and growth.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -198,7 +402,11 @@
       "course_description": "This course will examine how racial inequality has shaped government policy and the justice system in the United States. Specific areas of focus will be the criminal justice system, housing, education, employment, and social services at local, state, or the federal level.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +415,8 @@
           "crn": "17288",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17288",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,12 +436,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "276",
+      "course_combined": "SSCI 276",
+      "title": "Global Migration",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=276",
+      "course_description": "This course will examine the history of migration and present-day situations in Europe, the Americas, the Asia-Pacific region, Africa, and the Middle East including the policies that let some people in but keep others out. Significant attention will also be paid to the process by which foreign \"outsiders\" become integrated (or not) in their new home. Course draws on research from political scientists, sociologists, demographers, economists, and anthropologists.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -245,7 +466,11 @@
       "course_description": "This course examines government-based attempts to promote innovation. Covered here are the distinctions between “research” and “development” (R&D), the roles states play in guiding specific areas of research, and the rise of the “innovation-based developmental state”. Particularly important for this course are problems relating to green R&D, public and private research coordination, patent policy, and international R&D collaboration. Instructor permission is required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +479,8 @@
           "crn": "17289",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17289",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,12 +500,60 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "280",
+      "course_combined": "SSCI 280",
+      "title": "International Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=280",
+      "course_description": "This course reviews multidisciplinary perspectives on international development over the last century. It includes a survey of social science theories of development and parallel shifts in the definition of development and development approaches. The role of development stakeholders is also addressed. Topics may include international aid, environmental sustainability, migration, investment, and resources. The course aims to provide students with the necessary knowledge to critically evaluate the successes and failures of current development policies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "281",
+      "course_combined": "SSCI 281",
+      "title": "Computational Social Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=281",
+      "course_description": "The social sciences are about society and the interactions between its constituents. In this course, we will discuss computational models of social interactions that give rise to wealth inequality, ethnic conflict, and environmental degradation. Using computational tools, we can gain insight into the micro-foundations of societies and institutions. We can ask, for example, how political attitudes contribute to social movements, such as mass riots, rebellions, and collective altruism. We will experiment with agent-based models to learn how macro-patterns—racial segregation, cultural norms, and collective actions—arise spontaneously from the interactions of individuals making up a social system. Class assignments and the term paper project will focus on how to extend an existing computer model and interpret the results in the context of a social science research investigation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "286",
+      "course_combined": "SSCI 286",
+      "title": "Qual Soc Sci Research Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=286",
+      "course_description": "Introduces research methods used in a variety of social science disciplines. Students may explore theoretical and practical issues in research interviewing, ethnographic fieldwork, experiments, conversation analysis, the construction of investigable research questions, data generation and recording, and analytic approaches such as grounded theory and analytic induction. The course combines in-class instruction and workshops with opportunities to apply research methods in on- and off-campus settings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -292,7 +564,11 @@
       "course_description": "This course is designed to provide students with the opportunity to work on a real-world project that is or will be taking place \"in the field.\"",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +577,8 @@
           "crn": "17290",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17290",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,10 +598,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -339,7 +611,11 @@
       "course_description": "Students learn methods used by practicing professionals to integrate environmental and social dimensions of policymaking into the framework of economic impact analysis including input-output techniques and social accounting models. Students will learn to use specialized databases and software to quantify the impact of exogenous forces on the U.S. national, state, and local economies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -348,9 +624,8 @@
           "crn": "17291",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17291",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -370,10 +645,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -386,7 +658,11 @@
       "course_description": "Urban planning plays a critical role in promoting a full and productive life for people around the world; therefore, planners must be able to evaluate the effectiveness of planning responses to particular situations. This course introduces methods for developing and evaluating empirical information in support of urban planning, applying methods widely used by planning and policy professionals.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -395,9 +671,8 @@
           "crn": "17438",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17438",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -417,12 +692,107 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 May not be taken concurrently. ) or ( Course or Test: HUM 104 May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "325",
+      "course_combined": "SSCI 325",
+      "title": "Intermediate Geo Info Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=325",
+      "course_description": "This course builds on introduction to geographic information systems (GIS) and emphasizes GIS spatial modeling skills to solve real world problems. Topics covered include vector and raster data models and conversions, common map algebra functions, surface analysis, 3-D rendering, network analysis, and solve road network problems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "385",
+      "course_combined": "SSCI 385",
+      "title": "Special Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=385",
+      "course_description": "Investigates an interdisciplinary topic of current interest in the social sciences. Course may be taken multiple times provided the topic is different each time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Social Sciences Requirement, Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A01",
+          "section_name": "Media, Elections and Politics",
+          "crn": "17356",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17356",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Daniel Bliss",
+              "instructor_email": "dbliss@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 13,
+            "remaining": 37,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "480",
+      "course_combined": "SSCI 480",
+      "title": "Intro to Survey Methodology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=480",
+      "course_description": "This course will introduce advanced undergraduate students to the set of principles of survey research design that are the basis of standard practices in the social sciences. The course will discuss how to formulate research questions and develop hypotheses suitable for testing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "486",
+      "course_combined": "SSCI 486",
+      "title": "Program Evaluation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=486",
+      "course_description": "The purpose of this course is to provide students with an introduction to applied research methodologies which are commonly used by public and non-profit managers to assess the effectiveness of service delivery. We will explore the theoretical underpinnings and practical application of the range activities involved in planning, implementing, and evaluating programs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -433,7 +803,11 @@
       "course_description": "Students will submit a topic for instructor’s approval, conduct research, and complete an original, independent research project regarding spatial distribution of economic activities.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -442,9 +816,8 @@
           "crn": "15525",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15525",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -464,12 +837,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "492",
+      "course_combined": "SSCI 492",
+      "title": "Social Sciences Colloquium",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=492",
+      "course_description": "Lectures by invited prominent scientists in areas of social sciences generally not covered in the department. This course exposes students to current and active research in social sciences both within and outside the IIT community. It helps prepare students for a professional and academic career. It is complementary to our academic courses and provides examples of professional/scientific presentations. This course may be used to satisfy the social sciences and communication general education requirements.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "SSCI",
@@ -480,7 +867,11 @@
       "course_description": "This course is designed to give students in a Social Science major the opportunity to combine classroom theory with practical application through job-related experiences. Students will complete a 120-hour internship with an approved industry, government, or non-profit organization with a work focus which relates to their academic training and career objectives. Instructor permission is required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -489,9 +880,8 @@
           "crn": "11760",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11760",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nInternship Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Internship",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -511,12 +901,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "SSCI",
+      "course_num": "586",
+      "course_combined": "SSCI 586",
+      "title": "Planning, Fundraising, & Eval",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=SSCI&crse_numb_in=586",
+      "course_description": "The purpose of this course is to provide students with an introduction to applied research methodologies which are commonly used by public and non-profit managers to assess the effectiveness of service delivery. We will explore the theoretical underpinnings and practical application of the range activities involved in planning, implementing, and evaluating programs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

@@ -10,7 +10,11 @@
       "course_description": "Introduces students to data science as a profession, as currently practiced and continuing to develop. Presents various elements of the data science life cycle at an introductory level, culminating with a start-to-finish data analysis project. Includes guest lectures from data science practitioners and faculty. Explores real-world examples of ethical issues, bias, and privacy in data science. Survey careers in data science and familiarize students with elements of career development.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "15542",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15542",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "This course introduces the critical concepts and skills in statistical inference, machine learning, and computer programming, through hands-on analysis of real-world datasets from various fields.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Computing Requirement, Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "15429",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15429",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Computing Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +91,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "DS",
+      "course_num": "251",
+      "course_combined": "DS 251",
+      "title": "Math Foundations for DS",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=251",
+      "course_description": "This course introduces the critical mathematical foundation knowledge for data science. Specifically, this course covers the basic topics on linear algebra and discrete math that are most relevant to the data science major.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "DS",
+      "course_num": "261",
+      "course_combined": "DS 261",
+      "title": "Data Ethics and Responsible AI",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=261",
+      "course_description": "Students learn foundational principles and develop practical skills for identifying, analyzing, and mitigating ethical risks in data science and AI systems. Data ethics topics include bias and algorithmic fairness, data privacy and governance, and the social and political dimensions of data-driven systems. The course also addresses the responsible use of AI tools requiring human management and oversight, examining ethical frameworks for evaluating AI applications, environmental and social impacts, professional and organizational accountability, proper attribution and disclosure practices, security and privacy risks, and regulatory frameworks. Students gain experience through hands-on exercises and real-world case studies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "DS",
+      "course_num": "351",
+      "course_combined": "DS 351",
+      "title": "Math Foundation for DS II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=351",
+      "course_description": "This course introduces mathematical tools from optimization, differential equations, and numerical analysis etc. that are relevant to the data science major.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "DS",
@@ -104,7 +155,11 @@
       "course_description": "Students will conduct the project life cycle of data science through industrial and scientific case studies. Stages include problem identification and requirements gathering; data acquisition, cleaning, and preparation; exploratory data analysis and visualization; and model selection and evaluation. Students will work with real-world data sets, communicate effectively, and evaluate the ethical implications of their decisions. Teamwork and professional communication are practiced through collaborative project work.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: CS 331 May not be taken concurrently. ) or ( Course or Test: CS 401 May not be taken concurrently. ) or ( Course or Test: CSSP 401 May not be taken concurrently. ) and ( Course or Test: CS 425 May not be taken concurrently. ) and ( Course or Test: MATH 474 May not be taken concurrently. ) or ( Course or Test: MATH 476 May be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +168,8 @@
           "crn": "17081",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17081",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +189,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: CS 331 May not be taken concurrently. ) or ( Course or Test: CS 401 May not be taken concurrently. ) or ( Course or Test: CSSP 401 May not be taken concurrently. ) and ( Course or Test: CS 425 May not be taken concurrently. ) and ( Course or Test: MATH 474 May not be taken concurrently. ) or ( Course or Test: MATH 476 May be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "DS",
+      "course_num": "472",
+      "course_combined": "DS 472",
+      "title": "Data Science Practicum",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=472",
+      "course_description": "In this project-oriented course, students will work in small groups to solve real-world data analysis problems and communicate their results. Innovation and clarity of the presentation will be key elements of evaluation. Students will have an option to do this as an independent data analytics internship with an industry partner.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "DS",
+      "course_num": "480",
+      "course_combined": "DS 480",
+      "title": "DS Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=DS&crse_numb_in=480",
+      "course_description": "In this capstone course, students will work in teams to explore a data-rich real-world issue from business, industry, government, or scientific research. Teams will identify a problem, then model, solve, and communicate their solution using data science techniques such as data mining, regression, machine learning, hypothesis testing, and data visualization. Emphasis will be placed on team building, planning, reflection and course correction, and reporting in written and presentation form. Ethics and privacy implications will be identified and explored, so that each team conducts the modeling and reporting process appropriately.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

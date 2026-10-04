@@ -3,6 +3,91 @@
   "courses": [
     {
       "course_code": "HIST",
+      "course_num": "101",
+      "course_combined": "HIST 101",
+      "title": "World Civilizations to 1500",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=101",
+      "course_description": "This course provides an overview of world civilizations from prehistory to 1500, and covers the development of major civilizations in Eurasia, Africa, and the Americas. Topics include: the rise of river civilizations, trade and cultural exchange, the rise of states and empires, and major religious systems to 1500 C.E.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "103",
+      "course_combined": "HIST 103",
+      "title": "World Civilizations Since 1500",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=103",
+      "course_description": "This course examines the making of the modern world, focusing on the major geopolitical, social, and economic interactions of civilizations around the globe. Topics include: The Age of Colonization and the “Columbian Exchange,” the global impact of the rise of Capitalism and Liberalism, the emergence of Nationalism and Totalitarianism, two world wars, the post-war world and decolonization, and the new geopolitical balance of the new millennium.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "104",
+      "course_combined": "HIST 104",
+      "title": "Western Civilization to 1500",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=104",
+      "course_description": "A survey of Western Civilization up to 1500. The course covers the rise of cultures and states in Mesopotamia, Greece and Rome, the emergence of important religious systems, medieval Europe, the Crusades, the Black Death, the Renaissance, and the fall of the Eastern Roman Empire in 1453.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "105",
+      "course_combined": "HIST 105",
+      "title": "Western Civ. Since 1500",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=105",
+      "course_description": "A survey of Western Civilization from 1500. The course covers the Protestant Reformation and the religious wars of the sixteenth and seventeenth centuries, the Scientific Revolution and the Enlightenment, the French and Industrial Revolutions, the rise of nation states, Nationalism and Imperialism, both world wars, the Cold War, and decolonization.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "106",
+      "course_combined": "HIST 106",
+      "title": "History of the U.S. to 1877",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=106",
+      "course_description": "This course covers U.S. history up to 1877. Topics covered include the exploration and colonization of North America, colonial society, the American Revolution, the formation of the Constitution, the early years fo the Republic, slavery and the Civil War, and Reconstruction.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
       "course_num": "107",
       "course_combined": "HIST 107",
       "title": "History of the U.S. Since 1877",
@@ -10,7 +95,11 @@
       "course_description": "This class explores how the United States attained economic and military power, and what it did with that power at home and abroad. It covers the Gilded Age, Progressivism, the U.S.’s role in two world wars, the Cold War, the Civil Rights movement, the societal transformation of the 1960s and 1970s, the Reagan and Clinton eras, and the United States in the early years of the new millennium.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +108,8 @@
           "crn": "17057",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17057",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +129,141 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "252",
+      "course_combined": "HIST 252",
+      "title": "History of Chicago",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=252",
+      "course_description": "Basic institutions of the contemporary city studied in their historical context, using Chicago as a case study. Political machines, social and political reform traditions, planning agencies, ethnic neighborhoods, organized crime and many other urban institutions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "253",
+      "course_combined": "HIST 253",
+      "title": "Prohibition Chicago",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=253",
+      "course_description": "A study of the people, places, demographics, institutions, politics, culture, and national context of the federal Prohibition (of alcohol) era in Chicago. Students will learn not only about historical events and personages but also consider the interplay of various social, political and economic factors which made the Prohibition era within Chicago unique.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "254",
+      "course_combined": "HIST 254",
+      "title": "Chicago LGBTQ history",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=254",
+      "course_description": "Development of LGBTQ narratives, cultures and organizations within Chicago with reference to their historical context. Students will learn not only about leaders and significant developments within Chicago LGBTQ history but also learn about local, national, and international developments which aided in formation and development of sexual orientations and gender identities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "271",
+      "course_combined": "HIST 271",
+      "title": "History of A.I.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=271",
+      "course_description": "This course covers the history of artificial intelligence from the mid-20th century up to the present. It explores not only technological developments in the field, but also the philosophy behind the creation and implementation of A.I., as well as its impact on culture, socioeconomics, and the environment today.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "273",
+      "course_combined": "HIST 273",
+      "title": "History of Video Games",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=273",
+      "course_description": "This course introduces students to the history of video gaming while providing instruction in scholarly practice with an emphasis on research and writing. Topics include the technical and cultural history of the video games, academic writing, and humanities research methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A01",
+          "section_name": "",
+          "crn": "17320",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17320",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Carly Kocurek",
+              "instructor_email": "ckocurek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 22,
+            "remaining": 28,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "280",
+      "course_combined": "HIST 280",
+      "title": "Topics in History",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=280",
+      "course_description": "An investigation into a topic or period of enduring interest in History, which will be announced by the instructor when the course is scheduled; for example, The Middle Ages, The Ancient Mediterranean, A History of China, etc.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "HIST",
@@ -57,7 +274,11 @@
       "course_description": "An investigation into a topic of current or enduring interest in history, which will be announced by the instructor when the course is scheduled.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +287,8 @@
           "crn": "17062",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17062",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +308,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "HIST",
+      "course_num": "491",
+      "course_combined": "HIST 491",
+      "title": "Independent Reading and Res",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=HIST&crse_numb_in=491",
+      "course_description": "Consent of department. For advanced students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

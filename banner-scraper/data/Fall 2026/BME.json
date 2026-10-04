@@ -10,7 +10,11 @@
       "course_description": "Introduces the student to the scope of the biomedical engineering profession and its role in society, and develops a sense of professionalism in the student. Provides an overview of biomedical engineering through lectures, presentations by outside speakers, hands-on exercises, and scientific literature analyses. Develops professional communication and teamwork skills.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Engineering Theme Health, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "10098",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10098",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Engineering Theme Health, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +44,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "200",
+      "course_combined": "BME 200",
+      "title": "BME Computer Applications",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=200",
+      "course_description": "In this course, students will apply programming to solve quantitative biomedical engineering problems across cell/tissue engineering, neural engineering, and medical imaging. Students will also be exposed to additional engineering and product development programming tools and environments.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "301",
+      "course_combined": "BME 301",
+      "title": "Bio Fluid Mechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=301",
+      "course_description": "Basic properties of fluids in motion. Lagrangian and Eulerian viewpoints, material derivative, streamlines. Continuity, energy, angular and linear momentum equations in integral and differential forms. Applications in biofluids and biomedical devices; rheology of biological fluids.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -57,7 +91,11 @@
       "course_description": "An introduction to biomedical imaging concepts and modalities. Topics covered include general principles of image science (image quality, sampling, etc.), X-ray-based imaging [conventional x-ray imaging, mammography, computed tomography (CT), and digital subtraction angiography (DSA)], and nuclear medicine [gamma camera, single photon emission computed tomography (SPECT), and positron emission tomography (PET)].",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BME 330 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: ECE 308 Minimum Grade of D May be taken concurrently. ) and ( Course or Test: PHYS 221 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +104,8 @@
           "crn": "17088",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17088",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +125,145 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BME 330 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: ECE 308 Minimum Grade of D May be taken concurrently. ) and ( Course or Test: PHYS 221 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "310",
+      "course_combined": "BME 310",
+      "title": "Biomaterials",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=310",
+      "course_description": "Applications of biomaterials in different tissue and organ systems. Relationship between physical and chemical structure of materials and biological system response. Choosing, fabricating, and modifying materials for specific biomedical applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "315",
+      "course_combined": "BME 315",
+      "title": "Instrumentation Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=315",
+      "course_description": "Laboratory exercises stress instrumentation usage and data analysis used to determine physiological functions and variables and the relations to the physiological variability.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "320",
+      "course_combined": "BME 320",
+      "title": "Fluids Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=320",
+      "course_description": "Laboratory experiments in thermodynamics, biological fluid flow, and heat transfer. Emphasis is placed on current methods, instrumentation, and equipment used in biomedical engineering; oral presentation of results; and on the writing of comprehensive reports. Open only to Biomedical Engineering majors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "325",
+      "course_combined": "BME 325",
+      "title": "Bioelectronics Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=325",
+      "course_description": "Practical hands on design, construction and testing of electric and electronic circuitry for biomedical applications. Basic concepts will be presented with emphasis on their relevance to the design of systems that can be used for clinical and basic scientific research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "330",
+      "course_combined": "BME 330",
+      "title": "Anlys of Biosignals and Systs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=330",
+      "course_description": "This course is a junior level introduction to the theoretical and practical aspects of signal processing and dynamic systems behavior as they relate to physiological, biological, and biomedical systems. The topics covered will include sampling theory, continuous and discrete Fourier transforms and series, Laplace transforms, Linear systems theory, signal filtering, models of biological and physiological systems, and analysis of dynamic and feedback systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "331",
+      "course_combined": "BME 331",
+      "title": "Modeling & Control of Biol Sys",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=331",
+      "course_description": "The course expands upon the systems and signal processing concepts introduced in BME 330 to develop the tools to model physiological processes and the feedback control of these processes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "335",
+      "course_combined": "BME 335",
+      "title": "Thermodynamics of Livng Systms",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=335",
+      "course_description": "Principles of thermodynamics and conservation of mass applied to living systems and biomedical devices. The first and second laws of thermodynamics, pHs and chemical equilibrium, metabolic stoichiometry and energetics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "402",
+      "course_combined": "BME 402",
+      "title": "Intro Reg Science Engr",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=402",
+      "course_description": "Engineers must be equipped to answer the growing demands for new medical technologies. Introduction to Regulatory Science teaches engineers how the regulated environment impacts the design, testing. and delivery of medical devices. It will equip students with the essential skills and tools critical to the practice of engineering in the medical device industry. In this course, students will be exposed to the core concepts, processes, and tools surrounding the global medical device regulatory framework, and will gain foundational knowledge for the practical application of regulations throughout the product development lifecycle. From knowledge gained in the class, students will be expected to work in teams and use critical thinking, data analysis and interpretation skills to research, evaluate, and present a scientific, technical, and legally justifiable approach for the global introduction of a new medical device.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -104,7 +274,11 @@
       "course_description": "A laboratory course which demonstrates basic concepts of bioengineering design through experimental procedures involving humans and experimental animals. Statistical principles of experimental design. Study of possible errors. Experiments include nerve action, electrocardiography, mechanics of muscle, membranes, and noninvasive diagnostics in humans. Open only to Biomedical Engineering majors.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering Corequisites: BME 453",
+      "levels": "Undergraduate",
+      "attributes": "Engineering Theme Health, Lab Safety Instruction, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering Corequisites: BME 453",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BME 315 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +287,8 @@
           "crn": "15561",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15561",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Engineering Theme Health, Lab Safety Instruction, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +308,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering Corequisites: BME 453",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BME 315 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "417",
+      "course_combined": "BME 417",
+      "title": "Tech for Treatment of Diabetes",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=417",
+      "course_description": "Study of physiological control systems and engineering of external control of biological systems by focusing on an endocrine system disorder -- diabetes. The effects of type 1 diabetes on glucose homeostasis and various treatment technologies for regulation of glucose concentration. Development of mathematical models describing the dynamics of glucose and insulin concentration variations, blood glucose concentration measurement and inference techniques, insulin pumps, and artificial pancreas systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -151,7 +338,11 @@
       "course_description": "This course focuses on analysis of rate data and single and multiple reaction schemes. Biomedical topics include biological systems, enzymatic pathways, enzyme and receptor-ligand kinetics, pharmacokinetics, heterogeneous reactions, microbial cell growth and product formation, and the design and analysis of biological reactors.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BME 335 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +351,8 @@
           "crn": "10707",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10707",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,10 +372,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BME 335 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -198,7 +385,11 @@
       "course_description": "Introduction to Design Concepts in Biomedical Engineering. This course aims to educate students on project definition, and on the design, development and technology transfer of potential biomedical products in the context of the student's major capstone project. Students will learn best practices for designing a marketable medical device, including the design process from the clinical problem definition through prototype fabrication and functional testing..",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering May not be enrolled as the following Classifications: First Year Undergraduate Second Year Undergraduate Third Year Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering May not be enrolled as the following Classifications: First Year Undergraduate Second Year Undergraduate Third Year Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BME 320 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BME 325 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +398,8 @@
           "crn": "10104",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10104",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,12 +419,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering May not be enrolled as the following Classifications: First Year Undergraduate Second Year Undergraduate Third Year Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BME 320 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BME 325 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "420",
+      "course_combined": "BME 420",
+      "title": "Design Concepts in BME",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=420",
+      "course_description": "An introduction to the strategies and fundamental bioengineering design criteria behind the development of biomedical engineering systems and implantable devices that use either synthetic materials or hybrid (biological-synthetic)systems. Analysis and design of replacements for the heart, kidneys, and lungs. Specification and realization of structures for artificial organ systems. Students will be required to complete a team-oriented design project in their chosen track.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "422",
+      "course_combined": "BME 422",
+      "title": "Math Methods for Boimdel Engrs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=422",
+      "course_description": "This course integrates mathematical and computational tools that address directly the needs of biomedical engineers. The topics covered include the mathematics of diffusion, pharmacokinetic models, biological fluid mechanics, and biosignal representations and analysis. The use of MATLAB will be emphasized for numerically solving problems of practical relevance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "423",
+      "course_combined": "BME 423",
+      "title": "Cell Biomechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=423",
+      "course_description": "This course will provide students an opportunity to learn about mechanical forces that develop in the human body and how they can influence cell functions in a range of biological processes from embryogenesis, wound healing, and regenerative medicine to pathological conditions such as cancer invasion. Examples of research methods for investigating cell biomechanics in various biological systems will be discussed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "424",
+      "course_combined": "BME 424",
+      "title": "Quant Aspects Cell/Tissue Engg",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=424",
+      "course_description": "This course is designed to cover fundamentals of cell and tissue engineering from a quantitative perspective. Topics addressed include elements of tissue development, cell growth and differentiation, cell adhesion, migration, molecular and cellular transport in tissues and polymeric hydrogels for tissue engineering and drug delivery applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -245,7 +500,11 @@
       "course_description": "This course will present fundamentals and applications of medical devices, BioMEMS, and microfluidic technologies for applications in the broad health and biomedical engineering. It will provide a broad view of the general field and a knowledge of relevant fabrication methods and analysis techniques. Fabrication and analytical techniques, interfacing with biological materials, and techniques for analyte detection will be emphasized. The course will include individual projects and critical paper reviews in which each student will be encouraged to master basic concepts in design and fabrication for devices for specific applications.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +513,8 @@
           "crn": "13038",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13038",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,12 +534,60 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "427",
+      "course_combined": "BME 427",
+      "title": "ECM Bio",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=427",
+      "course_description": "The Extra Cellular Matrix (ECM) is that which connects cells in tissues and provides much of the organization and support in almost every tissue and or organ system of the body. Thus the aim of this course is to give students insights into ECM biology and its relevance to modern medicine and biomedical (tissue) engineering. A significant portion of working population is suffering from ECM-related maladies, and the focus of research has shifted into creating ECM implants. The ECM implant market is growing rapidly. For instance, the collagen meniscus implant market was reported to be at $308.6 million in 20181. Understanding the implications of the molecular biology of ECM to feed into this research is highly relevant for students considering careers (academic and industry) in life sciences in industry, academia and healthcare. Extracellular Matrix (ECM) is a highly complex system in mammalian biology responsible for structural support and functional (biochemical) signals for physiology. Specific amino acid sequences on the various ECM elements are responsible to trigger intra- and extracellular cascades leading to cell division, proliferation, tissue regeneration, wound healing and inflammation. This course will focus on the following key concepts: a) Gene expression, structure and function of various ECM proteins and complexes and the physiological processes. b) Etiology and the molecular progression of diseases caused by abnormalities to ECM proteins. c) Mechanobiology of various ECM proteins. d) Structure function and mechanical function of ECM interfaces with other tissues (muscle, bone, skin etc.) e) Implications for tissue engineering and development of novel biomimetic and biological ECM implants.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "428",
+      "course_combined": "BME 428",
+      "title": "Engineering World Health",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=428",
+      "course_description": "This course covers the major types of medical equipment, including the principles of operation, the physiology underlying the measurement, the major functional (system) pieces for each instrument, and typical problems/applications of each instrument. Special focus is placed on making reliable and safe repairs in a low resource setting: Troubleshooting, creative problem solving, calibration and testing. Laboratory sessions will focus on learning hands on and technical knowledge required for completing basic electronic and mechanical repairs. Basic electronics through simple power supply design will be covered. Over the course of the semester, the class will travel to a hospital or training laboratory to troubleshoot and repair medical equipment as a group",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "431",
+      "course_combined": "BME 431",
+      "title": "Modern Optics and Lasers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=431",
+      "course_description": "This is an undergraduate course covering the basics of optics and modern aspects of the field such as lasers and nonlinear optics. Connections to other fields such as acoustics, microwaves, electron-beam optics, quantum mechanics will be pointed out. The theory will be supplemented with demonstration experiments of optical phenomena. Practical problems will be discussed such as the design of an optical imaging system or precision interferometry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -292,7 +598,11 @@
       "course_description": "Application of modern computing methods to the statistical analysis of biomedical data. Sampling, estimation, analysis of variance, and the principles of experimental design and clinical trials are emphasized.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MATH 251 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -301,9 +611,8 @@
           "crn": "11271",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11271",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -323,12 +632,128 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: MATH 251 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "437",
+      "course_combined": "BME 437",
+      "title": "Intro to Molecular Imaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=437",
+      "course_description": "This course provides an overview of molecular imaging, a subcategory of medical imaging that focuses on noninvasively imaging molecular pathways in living organisms. Topics include imaging systems, contrast agents, reporter genes and proteins, tracer kinetic modeling. Preclinical and clinical applications will also be discussed with an emphasis on cancer and the central nervous system.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "438",
+      "course_combined": "BME 438",
+      "title": "Neuroimaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=438",
+      "course_description": "This course describes the use of different imaging modalities to study brain function and connectivity. The first part of the course deals with brain function. It includes an introduction to energy metabolism in the brain, cerebral blood flow, and brain activation. It continues with an introduction to magnetic resonance imaging (MRI), perfusion-based fMRI, BOLD fMRI, fMRI paradigm design and statistical analysis, introduction to positron emission tomography (PET) and studying brain function with PET, introduction to magneto encephalography and studying brain function with (MEG). The second part of the course deals with brain connectivity. It includes an introduction to diffusion tensor MRI, explanation to the relationship between the diffusion properties of tissue and its structural characteristics, white matter fiber tractography.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "439",
+      "course_combined": "BME 439",
+      "title": "Advanced Medical Imaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=439",
+      "course_description": "This course introduces advanced clinical imaging modalities, research imaging techniques, and concepts from image science and image perception. The first part of the course introduces the perception of image data by human observers and the visualization of brain structure and function. It includes an introduction to magnetic resonance imaging (MRI) and a survey of neurological imaging via functional MRI (fMRI). The second part of the course covers image science, clinical imaging applications, and novel research imaging techniques. It includes an introduction to radiation detection and image quality evaluation, a survey of clinical cases, and an overview of new imaging methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "443",
+      "course_combined": "BME 443",
+      "title": "Biomdel Instrmntn and Elect",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=443",
+      "course_description": "Principles of circuit analysis are applied to typical transducer and signal recording situations found in biomedical engineering.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "445",
+      "course_combined": "BME 445",
+      "title": "Quantitative Neural Function",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=445",
+      "course_description": "Computational approach to basic neural modeling and function, including cable theory, ion channels, presynaptic potentials, stimulation thresholds, and nerve blocking techniques. Synaptic function is examined at the fundamental level.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "450",
+      "course_combined": "BME 450",
+      "title": "Animal Physiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=450",
+      "course_description": "Respiration; circulation; energy metabolism; temperature regulation; water and osmotic regulation; digestion and excretion; muscle and movement; nerve excitation; information control and integration; chemical messengers. Emphasis on general principles with examples drawn from various animal phyla. Same as BIOL 430.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "452",
+      "course_combined": "BME 452",
+      "title": "Cntrl Systms for BioMed Engnrs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=452",
+      "course_description": "Control systems design and analysis in biomedical engineering. Time and frequency domain analysis, impulse vs. step response, open vs. closed loop response, stability, adaptive control, system modeling. Emphasis is on understanding physiological control systems and the engineering of external control of biological systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -339,7 +764,11 @@
       "course_description": "This course provides a quantitative approach to fundamental physiological principles and systems. The course covers basic cell physiology, membrane transport, action potentials and excitable tissue, and skeletomuscular, nervous, cardiovascular, respiratory, renal, and endocrine systems.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate Corequisites: BME 405",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate Corequisites: BME 405",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -348,9 +777,8 @@
           "crn": "11355",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11355",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -370,12 +798,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate Corequisites: BME 405",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "455",
+      "course_combined": "BME 455",
+      "title": "Cardiovascular Fluid Mechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=455",
+      "course_description": "Anatomy of the cardiovascular system. Scaling principles. Lumped parameter, one-dimensional linear and nonlinear wave propagation, and three-dimensional modeling techniques applied to simulate blood flow in the cardiovascular system. Steady and pulsatile flow in rigid and elastic tubes. Form and function of blood, blood vessels, and the heart from an engineering perspective. Sensing, feedback, and control of the circulation. Possible project using custom software to run blood flow simulations. Same as MMAE 455.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "475",
+      "course_combined": "BME 475",
+      "title": "Neuromechanics of Human Mvmnt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=475",
+      "course_description": "Concepts from mechanics and neurophysiology will be introduced and employed to analyze and model human movement, especially of the extremities. Topics will include forward and inverse kinematics and dynamics, muscle modeling, and feedback control.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -386,7 +845,11 @@
       "course_description": "This course seeks to provide students with an introduction to advanced concepts of mass transport with an emphasis on biological systems. Students will be exposed to derivation of the conservation equations for heat, mass, and momentum. Following derivation of these laws, focus will be placed on mass transport applications, including diffusion, convection-diffusion, diffusion with reactions, and facilitated diffusion. Students will be able to apply mass transport equations to solve problems in biological systems.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BME 301 Minimum Grade of D May not be taken concurrently. and Course or Test: CHE 202 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -395,9 +858,8 @@
           "crn": "10106",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10106",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -417,12 +879,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BME 301 Minimum Grade of D May not be taken concurrently. and Course or Test: CHE 202 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "490",
+      "course_combined": "BME 490",
+      "title": "Senior Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=490",
+      "course_description": "Professional issues in bioengineering. Role of bioengineers in industry. Professional identity. Structure of bioengineering industries and product development process. Job market analysis. Current employment opportunities. Recruiting process and interview. Analysis of employer. Marketing versus engineering. Management by objective. Role of higher degrees.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -433,7 +909,11 @@
       "course_description": "Focused reading and study under the supervision of a BME faculty member. A final written report is required to receive credit. **Instructor permission required.**",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -442,9 +922,8 @@
           "crn": "15006",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15006",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -464,10 +943,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -480,7 +956,11 @@
       "course_description": "Independent research (experimental or theoretical/computational) under the supervision of a BME faculty member. A final written report is required to receive credit. **Instructor permission required.**",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -489,9 +969,8 @@
           "crn": "12788",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12788",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -511,10 +990,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "113",
@@ -522,9 +998,8 @@
           "crn": "11330",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11330",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -544,10 +1019,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "155",
@@ -555,9 +1027,8 @@
           "crn": "13615",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13615",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -577,10 +1048,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "156",
@@ -588,9 +1056,8 @@
           "crn": "15013",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15013",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -610,12 +1077,281 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "493",
+      "course_combined": "BME 493",
+      "title": "Undergraduate Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=493",
+      "course_description": "Research or design projecting involving 2 or more students under supervision of a BME faculty member. A final written report from each student is required to receive credit. **Instructor permission required.**",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "497",
+      "course_combined": "BME 497",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=497",
+      "course_description": "Design, development, analysis or research on special topics defined by a faculty member or the department. **Instructor permission required.**",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "500",
+      "course_combined": "BME 500",
+      "title": "Intro to Biomedical Engrg",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=500",
+      "course_description": "Introduction to the concepts and research in biomedical engineering. Provides an overview of current biomedical engineering research areas, emphasis on application of an engineering approach to medicine and physiology signals. The focus is on connecting theory with practice: students are expected to critically analyze research manuscripts and perform corresponding analysis on relevant biomedical data.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "501",
+      "course_combined": "BME 501",
+      "title": "Communication Skills in BME",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=501",
+      "course_description": "Students will be taught to communicate biomedical engineering research findings through written, poster, and oral presentation formats. Masters of Science with Thesis and PhD program students will be required to present their own research annually at the BME Seminar while enrolled in their thesis program.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "502",
+      "course_combined": "BME 502",
+      "title": "Intro to Reg Sci Engr",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=502",
+      "course_description": "Engineers must be equipped to answer the growing demands for new medical technologies. Introduction to Regulatory Science teaches engineers how the regulated environment impacts the design, testing. and delivery of medical devices. It will equip students with the essential skills and tools critical to the practice of engineering in the medical device industry. In this course, students will be exposed to the core concepts, processes, and tools surrounding the global medical device regulatory framework, and will gain foundational knowledge for the practical application of regulations throughout the product development lifecycle. From knowledge gained in the class, students will be expected to work in teams and use critical thinking, data analysis and interpretation skills to research, evaluate, and present a scientific, technical, and legally justifiable approach for the global introduction of a new medical device.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "503",
+      "course_combined": "BME 503",
+      "title": "Math Statistics Neuroscience I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=503",
+      "course_description": "This quarter introduces mathematical ideas and techniques in a neuroscience context. Topics will include some coverage of matrices and complex variables; eigen value problems, spectral methods and Greens functions for differential equations; and some discussion of both deterministic and probabilistic modeling in the neurosciences. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "504",
+      "course_combined": "BME 504",
+      "title": "Neurobiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=504",
+      "course_description": "This course is concerned with the structure and function of systems of neurons, and how these are related to behavior. Common patterns of organization are described from the anatomical, physiological, and behavioral perspectives of analysis. The comparative approach is emphasized throughout. Laboratories include exposure to instrumentation and electronics, and involve work with live animals. A central goal of the laboratory is to expose students to in vivo extracellular electrophysiology in vertebrate preparations. Laboratories will be attended only on one day a week but may run well beyond the canonical period. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "505",
+      "course_combined": "BME 505",
+      "title": "Math Statistics Neurosci II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=505",
+      "course_description": "This quarter treats statistical methods important in understanding nervous system function. It includes basic concepts of mathematical probability; information theory, discrete Markov processes, and time series. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "506",
+      "course_combined": "BME 506",
+      "title": "Comp Neurosci II: Vision",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=506",
+      "course_description": "This course considers computational approaches to vision. It discusses the basic anatomy and physiology of the retina and central visual pathways, and then examines computational approaches to vision based on linear and non-linear systems theory, and algorithms derived from computer vision.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "507",
+      "course_combined": "BME 507",
+      "title": "Cognitive Neuroscience",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=507",
+      "course_description": "This course is concerned with the relationship of the nervous system to higher order behaviors such as perception and encoding, action, attention and learning and memory. Modern methods of imaging neural activity are introduced, and information theoretic methods for studying neural coding in individual neurons and populations of neurons are discussed. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "508",
+      "course_combined": "BME 508",
+      "title": "Math & Stats: Neuroscience III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=508",
+      "course_description": "This course covers more advanced topics including perturbation and bifurcation methods for the study of dynamical systems, symmetry methods, and some group theory. A variety of applications to neuroscience with be described. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "509",
+      "course_combined": "BME 509",
+      "title": "Vertebrate Neural Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=509",
+      "course_description": "This lab-centered course teaches students the fundamental principles of mammation neuroanatomy. Students learn the major structures and the basic circuitry of the CNS and PNS. Students become practiced at recognizing the nuclear organization and cellular architecture of many regions in animal brain models. This course is taught at the University of Chicago. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "510",
+      "course_combined": "BME 510",
+      "title": "Neurobiology of Disease I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=510",
+      "course_description": "This seminar course is devoted to basic clinical and pathological features and pathogenic mechanisms of neurological diseases. The first semester is devoted to a broad set of disorders ranging from developmental to acquired disorders of the central and peripheral nervous system. Weekly seminars are given by experts in the clinical and scientific aspects of the disease under discussion. For each lecture, students are given a brief description of clinical and pathological features of a given set of neurological diseases followed by a more detailed description of the current status of knowledge of several of the prototypic pathogenic mechanisms.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "511",
+      "course_combined": "BME 511",
+      "title": "Extracellular Matrices",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=511",
+      "course_description": "Advanced topics dealing with the biology and chemistry of the extracellular matrix, cell-matrix interactions, and current methodologies for engineering these interfaces.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "512",
+      "course_combined": "BME 512",
+      "title": "Behavioral Neurosciences",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=512",
+      "course_description": "This course is concerned with the structure and function of systems of neurons and how these are related to behavior. Common patterns of organization are described from the anatomical, physiological, and behavioral perspectives of analysis. The comparative approach is emphasized throughout. Laboratories include exposure to instrumentation and electronics and work involvement with live animals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "513",
+      "course_combined": "BME 513",
+      "title": "Methods of Comp Neuroscience",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=513",
+      "course_description": "Topics include, but are not limited to, Hodgkin-Huxley equations, cable theory, single neuron models, information theory, signal detection theory, reverse correlation, relating neural responses to behavior, and rate versus temporal codes. Instructor permission is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -626,7 +1362,11 @@
       "course_description": "This course will provide students opportunity to learn about the field of biotechnology and how to apply engineering principles to biological systems and living organisms for betterment of medicines as well as agricultural products. The course covers the introduction to biotechnology with information about cell and molecular biology, the role of enzyme and growth kinetics, media preparations for cell culture and various chromatographic techniques, and antibiotics and its role in secondary metabolic production. Biological effluent treatment and regulatory issues to obtain FDA will be taught. Instructor permission is required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -635,9 +1375,8 @@
           "crn": "11385",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11385",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -657,12 +1396,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "517",
+      "course_combined": "BME 517",
+      "title": "Tech for Treatment of Diabetes",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=517",
+      "course_description": "Study of physiological control systems and engineering of external control of biological systems by focusing on an endocrine system disorder -- diabetes. The effects of type 1 diabetes on glucose homeostasis and various treatment technologies for regulation of glucose concentration. Development of mathematical models describing the dynamics of glucose and insulin concentration variations, blood glucose concentration measurement and inference techniques, insulin pumps, and artificial pancreas systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -673,7 +1426,11 @@
       "course_description": "This course is an introduction to the fundamentals of chemical kinetics. Analysis of rate data; single and multiple reaction schemes. Biomedical topics include biological systems, enzymatic pathways, enzyme and receptor-ligand kinetics, pharmacokinetics, heterogeneous reactions, microbial cell growth and product formation, and the design and analysis of biological reactors.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Corequisites: BME 482",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Corequisites: BME 482",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BME 301 Minimum Grade of D May not be taken concurrently. and Course or Test: BME 335 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -682,9 +1439,8 @@
           "crn": "10708",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10708",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -704,10 +1460,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Corequisites: BME 482",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BME 301 Minimum Grade of D May not be taken concurrently. and Course or Test: BME 335 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently."
+          }
         },
         {
           "section": "02",
@@ -715,9 +1468,8 @@
           "crn": "15842",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15842",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -737,12 +1489,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Corequisites: BME 482",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BME 301 Minimum Grade of D May not be taken concurrently. and Course or Test: BME 335 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "519",
+      "course_combined": "BME 519",
+      "title": "Cardiovascular Fluid Mechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=519",
+      "course_description": "Anatomy of the cardiovascular system. Scaling principles. Lumped parameter, one-dimensional linear and nonlinear wave propagation, and three-dimensional modeling techniques applied to simulate blood flow in the cardiovascular system. Steady and pulsatile flow in rigid and elastic tubes. Form and function of blood, blood vessels, and the heart from an engineering perspective. Sensing, feedback, and control of the circulation. Includes a student project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "521",
+      "course_combined": "BME 521",
+      "title": "Medical Imaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=521",
+      "course_description": "Study of modern technology for medical imaging. Theory and operation of CAT, SPECT, PET, MRI, X-ray and echo imaging modalities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -753,7 +1536,11 @@
       "course_description": "Graduate standing in BME or consent of instructor This course is an introductory graduate level course that integrates mathematical and computational tools that address directly the needs of biomedical engineers. The topics covered include the mathematics of diffusion, pharmacokinetic models, biological fluid mechanics, and biosignal representations and analysis. The use of MATLAB will be emphasized for numerically solving problems of practical relevance.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Majors: Biomedical Engineering",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Majors: Biomedical Engineering",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -762,9 +1549,8 @@
           "crn": "13945",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13945",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -784,10 +1570,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Majors: Biomedical Engineering",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -795,9 +1578,8 @@
           "crn": "15836",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15836",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -817,12 +1599,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Majors: Biomedical Engineering",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "523",
+      "course_combined": "BME 523",
+      "title": "Cell Biomechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=523",
+      "course_description": "This course will provide students an opportunity to learn about mechanical forces that develop in the human body and how they can influence cell functions in a range of biological processes from embryogenesis, wound healing, and regenerative medicine to pathological conditions such as cancer invasion. Examples of research methods for investigating cell biomechanics in various biological systems will be discussed. Permission of instructor is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "524",
+      "course_combined": "BME 524",
+      "title": "Quant Aspects Cell/Tissue Engg",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=524",
+      "course_description": "This course is designed to cover fundamentals of cell and tissue engineering from a quantitative perspective. Topics addressed include elements of tissue development, cell growth and differentiation, cell adhesion, migration, molecular and cellular transport in tissues and polymeric hydrogels for tissue engineering and drug delivery applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -833,7 +1646,11 @@
       "course_description": "This course will present fundamentals and applications of medical devices, BioMEMS, and microfluidic technologies for applications in the broad health and biomedical engineering. It will provide a broad view of the general field and a knowledge of relevant fabrication methods and analysis techniques. Fabrication and analytical techniques, interfacing with biological materials, and techniques for analyte detection will be emphasized. The course will include individual projects and critical paper reviews in which each student will be encouraged to master basic concepts in design and fabrication for devices for specific applications.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -842,9 +1659,8 @@
           "crn": "13592",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13592",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -864,12 +1680,111 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "526",
+      "course_combined": "BME 526",
+      "title": "Advanced Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=526",
+      "course_description": "This course aims to educate students on project definition, and on the design, development, and technology transfer of potential biomedical products in the context of the student's major capstone project. Students will learn best practices for designing a marketable medical device, including the design process from the clinical problem definition through prototype and clinical testing to market readiness. Permission from instructor is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "527",
+      "course_combined": "BME 527",
+      "title": "ECM Bio",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=527",
+      "course_description": "This course is a the same as the BME 427 Extracellular Matrix Biology course that has been approved for banner listing for Summer 2020. BME527 is the same class to extend this course to graduate students. The Extra Cellular Matrix (ECM) is that which connects cells in tissues and provides much of the organization and support in almost every tissue and or organ system of the body. Thus the aim of this course is to give students insights into ECM biology and its relevance to modern medicine and biomedical (tissue) engineering. A significant portion of working population is suffering from ECM-related maladies, and the focus of research has shifted into creating ECM implants. The ECM implant market is growing rapidly. For instance, the collagen meniscus implant market was reported to be at $308.6 million in 20181. Understanding the implications of the molecular biology of ECM to feed into this research is highly relevant for students considering careers (academic and industry) in life sciences in industry, academia and healthcare. Extracellular Matrix (ECM) is a highly complex system in mammalian biology responsible for structural support and functional (biochemical) signals for physiology. Specific amino acid sequences on the various ECM elements are responsible to trigger intra- and extracellular cascades leading to cell division, proliferation, tissue regeneration, wound healing and inflammation. This course will focus on the following key concepts: a) Gene expression, structure and function of various ECM proteins and complexes and the physiological processes. b) Etiology and the molecular progression of diseases caused by abnormalities to ECM proteins. c) Mechanobiology of various ECM proteins. d) Structure function and mechanical function of ECM interfaces with other tissues (muscle, bone, skin etc.) e) Implications for tissue engineering and development of novel biomimetic and biological ECM implants.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "528",
+      "course_combined": "BME 528",
+      "title": "Engineering World Health",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=528",
+      "course_description": "This course covers the major types of medical equipment, including the principles of operation, the physiology underlying the measurement, the major functional (system) pieces for each instrument, and typical problems/applications of each instrument. Special focus is placed on making reliable and safe repairs in a low resource setting: Troubleshooting, creative problem solving, calibration and testing. Laboratory sessions will focus on learning hands on and technical knowledge required for completing basic electronic and mechanical repairs. Basic electronics through simple power supply design will be covered. Over the course of the semester, the class will travel to a hospital or training laboratory to troubleshoot and repair medical equipment as a group.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "529",
+      "course_combined": "BME 529",
+      "title": "Design Pharm. Prot. Form.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=529",
+      "course_description": "This course introduces the discovery and development of pharmaceutical proteins and vaccines. The course focuses on understanding protein structure physical and chemical stability and identifying the cause of degradation processes in protein-based pharmaceutical products. Additionally, this course deals with vaccine-based formulations and their manufacturing process.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "530",
+      "course_combined": "BME 530",
+      "title": "Inverse Probl Biomed Imgng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=530",
+      "course_description": "This course will introduce graduate students to the mathematical theory of inverse problems. Concept from functional analysis will be applied for understanding and characterizing mathematical properties of inverse problems. This will permit for the analysis of the stability and resolution of image reconstruction algorithms for various existing and novel biomedical imaging systems. The singular value decomposition (SVD) is introduced and applied for understanding fundamental properties of imaging systems and reconstruction algorithms. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "532",
+      "course_combined": "BME 532",
+      "title": "Medical Imgng Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=532",
+      "course_description": "This course is an introduction to basic concepts in medical imaging, such as: receiver operating characteristics, the rose model, point spread function and transfer function, covariance and auto covariance, noise, filters, sampling, aliasing, interpolation, and image registration. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -880,7 +1795,11 @@
       "course_description": "This course is designed to cover the tools and techniques of modern statistics with specific applications to biomedical and clinical research. Both parametric and nonparametric analysis will be presented. Descriptive statistics will be discussed although emphasis is on inferential statistics and experimental design.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -889,9 +1808,8 @@
           "crn": "11272",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11272",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -911,10 +1829,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -922,9 +1837,8 @@
           "crn": "15838",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15838",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -944,12 +1858,179 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "535",
+      "course_combined": "BME 535",
+      "title": "Magnetic Resonance Imgng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=535",
+      "course_description": "This is an introduction to the Physics and technology of magnetic resonance imaging (MRI). the topics that are covered include: basic MR physics, source of signal, signal acquisition, pulse sequences, hardware, artifacts, spectroscopy, and advanced imaging techniques. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "537",
+      "course_combined": "BME 537",
+      "title": "Intro to Molecular Imaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=537",
+      "course_description": "This course provides an overview of molecular imaging, a subcategory of medical imaging that focuses on noninvasively imaging molecular pathways in living organisms. Topics include imaging systems, contrast agents, reporter genes and proteins, tracer kinetic modeling. Preclinical and clinical applications will also be discussed with an emphasis on cancer and the central nervous system.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "538",
+      "course_combined": "BME 538",
+      "title": "Neuroimaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=538",
+      "course_description": "This course describes the use of different imaging modalities to study brain function and connectivity. The first part of the course deals with brain function. It includes an introduction to energy metabolism in the brain, cerebral blood flow, and brain activation. It continues with an introduction to magnetic resonance imaging (MRI), perfusion-based fMRI, Bold fMRI, fMRI paradigm design and statistical analysis, introduction to positron emission tomography, (PET) and studying brain function with PET, introduction to magneto encephalography (MEG) and studying brain function with MEG. The second part of the deals with brain connectivity. It includes an introduction to diffusion tensor MRI, explanation of the relationship between the diffusion properties of tissue its structural characteristics, and white matter fiber tractography techniques. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "539",
+      "course_combined": "BME 539",
+      "title": "Advanced Medical Imaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=539",
+      "course_description": "This course introduces advanced clinical imaging modalities, research imaging techniques, and concepts from image science and image perception. The first part of the course introduces the perception of image data by human observers and the visualization of brain structure and function. It includes an introduction to magnetic resonance imaging (MRI) and a survey of neurological imaging via functional MRI (fMRI). The second part of the course covers image science, clinical imaging applications, and novel research imaging techniques. It includes an introduction to radiation detection and image quality evaluation, a survey of clinical cases, and an overview of new imaging methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "540",
+      "course_combined": "BME 540",
+      "title": "Wave Phys&Appl Optcs for Imag",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=540",
+      "course_description": "This course will introduce students to fundamental concepts in wave physics and the analysis of optical wave fields. These principles will be utilized for understanding existing and novel imaging methods that employ coherent radiation. Solutions to inverse scattering and inverse source problems will be derived and algorithmic realizations of the solutions will be developed. Phase contrast imaging techniques and X-ray imaging systems that employ coherent radiation will be studied. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "542",
+      "course_combined": "BME 542",
+      "title": "Adv Concepts in Image Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=542",
+      "course_description": "This graduate level course introduces students to fundamental concepts in image science that are related to the optimization and evaluation of biomedical imaging systems. Topics covered include: deterministic descriptions of imaging systems, stochastic descriptions of imaging systems, statistical decision theory, and objective assessment of image quality.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "543",
+      "course_combined": "BME 543",
+      "title": "Bioinstrumention & Electronics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=543",
+      "course_description": "Principles of circuit analysis are applied to typical transducer and signal recording situations found in biomedical engineering. Basic electrical and electronic circuit theory is reviewed with an emphasis on biomedical measurement applications. a special topic is individually studied by the student and presented to the class electrical physics class or basic circuits.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "545",
+      "course_combined": "BME 545",
+      "title": "Quantitative Neural Function",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=545",
+      "course_description": "Computational approach to basic neural modeling and function, including cable theory, ion channels, presynaptic potentials, stimulation thresholds, and nerve blocking techniques. Synaptic function is examined at the fundamental level.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "551",
+      "course_combined": "BME 551",
+      "title": "Phycal Sgl Analys Ctl Thry I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=551",
+      "course_description": "This is the first of a 2 part course co-taught at IIT and the University of Chicago. essential elements of signal processing and control theory as it is applied to physiological systems will be covered. Part I will cover data acquisition and sampling, Laplace and Fourier transforms, filtering, time and frequency domains, system descriptions and lumped vs. distributed parameters. Students will use Mat lab to test concepts presented in class.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "552",
+      "course_combined": "BME 552",
+      "title": "Ctrl Systms for BioMed Engrs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=552",
+      "course_description": "Control systems design and analysis in biomedical engineering. Time and frequency domain analysis, impulse vs. step response, open vs. closed loop response, stability, adaptive control, system modeling. Emphasis is on understanding physiological control systems and the engineering of external control of biological systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -960,7 +2041,11 @@
       "course_description": "The main systems that control the human body functions will be reviewed to enable the students to understand the individual role of each major functional system as well as the need for the integration or coordination of the activities of the various systems.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -969,9 +2054,8 @@
           "crn": "15424",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15424",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -991,10 +2075,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1002,9 +2083,8 @@
           "crn": "16828",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16828",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1024,12 +2104,60 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "560",
+      "course_combined": "BME 560",
+      "title": "Methods in Biomedical Data Sci",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=560",
+      "course_description": "The course provides an overview of predictive and descriptive statistical modeling methods for large biomedical datasets. Building on undergraduate-level knowledge of statistics, the course introduces Bayes and information theory, develops from these modeling algorithms and provides a series of biomedical application areas. Methods include meta-analytic techniques, linear and non-linear dimensionality reduction, traditional “non-deep” predictive tools (e.g. perceptron, support vector machines, logistic regression, decision trees, boosting, etc.), and some applications of deep neural networks. Application areas may include medical imaging (e.g. image segmentation), EEG and ECG signal analysis (e.g. anomaly detection), genetics (e.g. imputation methods, polygenic risk score computation, cell-free DNA analysis, etc.). Each course module involves analysis of real data using existing modeling libraries and students’ own implementation. The predictive results may be compared to the state-of-the-art for each example dataset to assess the usefulness of the models. (3-0-3)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "575",
+      "course_combined": "BME 575",
+      "title": "Nueromechanics of Hum Movmnt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=575",
+      "course_description": "This course will explore how we control movement of our extremities, with concepts drawn from mechanics and neurophysiology. The progression from neurological signals to muscle activation and resulting movement of the hand or foot will be modeled, starting at the periphery and moving back toward the central nervous system. Biomechanics of the limbs will be modeled using dynamic simulation software (Working Model) which will be driven by a neural controller, implemented in MATLAB. Issues related to sensory feedback and redundancy will be addresses.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BME",
+      "course_num": "581",
+      "course_combined": "BME 581",
+      "title": "Fluid Dynmcs Biomed Engrgs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=581",
+      "course_description": "This course is primarily focused on the development of theoretical and experimental principles necessary for the delineation of fluid flow in various in vitro chambers and the cardiovascular system. Its content will primarily deal with the basic concepts of flow in various geometries, the heterogeneous nature of blood and the application of such principles in flow chambers designed to expose blood elements to defined flow conditions. The relationship to flow in the normal and diseased vascular system will also be considered. A basic Fluid Dynamics Course is recommended. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -1040,7 +2168,11 @@
       "course_description": "This course is primarily focused on the development of theoretical and mathematical principles necessary for the delineation of mass transport processes in biological & medical systems. The content includes heterogeneous reactions that occur at or in the vicinity of cells or vascular structures under applied laminar flow and transport across cell membranes and within tissues.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1049,9 +2181,8 @@
           "crn": "10652",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10652",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1071,12 +2202,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "585",
+      "course_combined": "BME 585",
+      "title": "Comput Modls of Hum Cardio Sys",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=585",
+      "course_description": "This course will focus on the use of computational fluid dynamics for the modeling and analysis of the human cardiovascular system. The course will cover both computational methods for fluid dynamics and biomedical aspects of the human cardiovascular system. Computer models for the simulation and analysis of hemodynamic phenomena will be developed. Requires an Introductory fluid dynamics",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -1087,7 +2232,11 @@
       "course_description": "Research and thesis for master of science degree students. Instructor permission required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1096,9 +2245,8 @@
           "crn": "11918",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11918",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1118,10 +2266,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "113",
@@ -1129,9 +2274,8 @@
           "crn": "11816",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11816",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1151,10 +2295,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "120",
@@ -1162,9 +2303,8 @@
           "crn": "16572",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16572",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1184,10 +2324,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "126",
@@ -1195,9 +2332,8 @@
           "crn": "13633",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13633",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1217,10 +2353,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "140",
@@ -1228,9 +2361,8 @@
           "crn": "11817",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11817",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1250,10 +2382,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "155",
@@ -1261,9 +2390,8 @@
           "crn": "11777",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11777",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1283,10 +2411,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "195",
@@ -1294,9 +2419,8 @@
           "crn": "11814",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11814",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1316,10 +2440,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -1327,9 +2448,8 @@
           "crn": "17463",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17463",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Engineering Theme Health, Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1349,10 +2469,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1365,7 +2482,11 @@
       "course_description": "Special projects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1374,9 +2495,8 @@
           "crn": "12382",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12382",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1396,10 +2516,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "111",
@@ -1407,9 +2524,8 @@
           "crn": "16420",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16420",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1429,12 +2545,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BME",
+      "course_num": "595",
+      "course_combined": "BME 595",
+      "title": "Seminar in Biomed Engrng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BME&crse_numb_in=595",
+      "course_description": "Current research and development topics in biomedical engineering as presented by outside speakers, faculty and advanced students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BME",
@@ -1445,7 +2575,11 @@
       "course_description": "Special problems.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1454,9 +2588,8 @@
           "crn": "13616",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13616",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1476,10 +2609,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "110",
@@ -1487,9 +2617,8 @@
           "crn": "12022",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12022",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1509,10 +2638,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "113",
@@ -1520,9 +2646,8 @@
           "crn": "12381",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12381",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1542,10 +2667,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "126",
@@ -1553,9 +2675,8 @@
           "crn": "12760",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12760",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1575,10 +2696,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "155",
@@ -1586,9 +2704,8 @@
           "crn": "15527",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15527",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1608,10 +2725,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "195",
@@ -1619,9 +2733,8 @@
           "crn": "12024",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12024",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1641,10 +2754,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -1652,9 +2762,8 @@
           "crn": "15012",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15012",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1674,10 +2783,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1690,7 +2796,11 @@
       "course_description": "Research and Thesis for PhD degree. (variable credit)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1699,9 +2809,8 @@
           "crn": "10648",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10648",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1721,10 +2830,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "110",
@@ -1732,9 +2838,8 @@
           "crn": "12021",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12021",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1754,10 +2859,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "113",
@@ -1765,9 +2867,8 @@
           "crn": "10571",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10571",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1787,10 +2888,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "120",
@@ -1798,9 +2896,8 @@
           "crn": "14356",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14356",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1820,10 +2917,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "123",
@@ -1831,9 +2925,8 @@
           "crn": "10572",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10572",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1853,10 +2946,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "126",
@@ -1864,9 +2954,8 @@
           "crn": "13588",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13588",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1886,10 +2975,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "129",
@@ -1897,9 +2983,8 @@
           "crn": "10573",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10573",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1919,10 +3004,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "140",
@@ -1930,9 +3012,8 @@
           "crn": "11131",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11131",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1952,10 +3033,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "141",
@@ -1963,9 +3041,8 @@
           "crn": "10574",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10574",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1985,10 +3062,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "155",
@@ -1996,9 +3070,8 @@
           "crn": "11601",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11601",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2018,10 +3091,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "195",
@@ -2029,9 +3099,8 @@
           "crn": "11815",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11815",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2051,10 +3120,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -2062,9 +3128,8 @@
           "crn": "15005",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15005",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2084,10 +3149,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "197",
@@ -2095,9 +3157,8 @@
           "crn": "15426",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15426",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2117,10 +3178,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

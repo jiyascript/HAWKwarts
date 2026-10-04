@@ -10,7 +10,11 @@
       "course_description": "Review, analyze and practice verbal and written communication formats found in the workplace. Emphasis is on developing skills in technical writing, oral presentations, business correspondence, and interpersonal communication using electronic and traditional media.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "11484",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11484",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "An introduction to the world of industrial enterprises and the organizational priorities required to achieve efficiency and competitiveness. Students learn to assess the present state of a company, address performance issues, foster functional communication and cooperation between departments, identify sources and impacts of waste, identify value-added activities, and transform outdated business practices into flexible, customer-driven processes.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "10441",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10441",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +91,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -99,9 +99,8 @@
           "crn": "10454",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10454",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,12 +120,60 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "319",
+      "course_combined": "INTM 319",
+      "title": "Electronics in Industry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=319",
+      "course_description": "Basic overview of electrical and electronic technology in industry. Emphasis on electrical and electronic components, industrial devices, electrical theory, application and basic troubleshooting. Students select and complete an electrical or electronic class project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "322",
+      "course_combined": "INTM 322",
+      "title": "Ind Project Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=322",
+      "course_description": "Projects are the driving force behind innovation and improvement in any organization. This course identifies the tools and techniques needed to lead any project to its intended conclusion. Topics include project plans, managing expectations and contingencies, building a winning team, gaining commitments, managing project risks, and development of personal skills critical to the successful project manager.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "403",
+      "course_combined": "INTM 403",
+      "title": "Management and Leadership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=403",
+      "course_description": "Effective management of employees, teams, and organizations at large requires understanding the principles of organizational behavior and how leaders engage and motivate others to help them achieve organizational goals. Course topics focus on interpersonal skills, emotional intelligence, decision-making and problem-solving strategies, team and organizational communications, team dynamics, conflict and negotiation, power and influence in the workplace, leadership theories and attributes, organizational structures, organizational culture, and change management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -137,7 +184,11 @@
       "course_description": "Provides an integrated view of modern marketing, sales strategies, e-commerce systems, and the process of introducing new products. Students learn how to identify customer needs, develop offerings, sell effectively, and leverage digital platforms to bring products to market successfully.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -146,9 +197,8 @@
           "crn": "17067",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17067",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -168,10 +218,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -179,9 +226,8 @@
           "crn": "17063",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17063",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +247,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -217,7 +260,11 @@
       "course_description": "Maintenance of facilities and building systems is a major concern for all industrial operations. Facility managers must maintain heating, ventilation, air conditioning, plumbing, fire-life safety, electrical and other building systems, many of which are interrelated. Dysfunction in one system can cause problems in another, leading to occupant discomfort, poor energy efficiency and premature equipment failure. Equipment maintenance techniques have evolved to include more scientific diagnosis for increased uptime reliability. Preventive, predictive and prescriptive maintenance command a high percentage of modern behaviors to keep facilities running at peak efficiency. This course blends both the technical and managerial sides of maintenance with a focus on procedural analysis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -226,9 +273,8 @@
           "crn": "13723",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13723",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -248,10 +294,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -259,9 +302,8 @@
           "crn": "13725",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13725",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,12 +323,77 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "406",
+      "course_combined": "INTM 406",
+      "title": "Quality Management Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=406",
+      "course_description": "This course focuses on how organizations manage quality in a competitive marketplace regardless of the nature of the industry. Students learn how quality is determined, measured, controlled and improved in an organization. Core quality concepts and associated tools are covered, inclusive of quality management principles, various process improvement methodologies, and the role of statistics in decision-making. Quality function deployment, value stream mapping, process capability, measurement system analysis, risk assessment using Failure Mode and Effects Analysis (FMEA), hypothesis testing, analysis of variance (ANOVA), design of experiments, and statistical process control (SPC). Students utilize Minitab to explore quality tools and perform data analysis to support decision-making.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "407",
+      "course_combined": "INTM 407",
+      "title": "Construction Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=407",
+      "course_description": "Introduces the full range of technologies involved in construction of both new and modified facilities, including steel, concrete and timber construction as well as supporting specialties such as HVAC, electrical, plumbing, etc. the interaction between the various construction trades will be covered along with the role of the architects and engineers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "408",
+      "course_combined": "INTM 408",
+      "title": "Cost Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=408",
+      "course_description": "This course introduces accounting information used for decision-making within a business enterprise. Financial reporting, financial terminology, and the three major financial statements are reviewed. Product costing, short-term and long-term decision-making, budgeting, control of operations, and performance evaluations are covered as are cost-volume-profit relationships, relevant costs, flexible budgets, and standard costs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "409",
+      "course_combined": "INTM 409",
+      "title": "Inventory Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=409",
+      "course_description": "Fundamentals of inventory control including inventory classifications, i.e. raw materials, work-in-process (WIP), and finished goods. Topics include inventory record keeping, inventory turnover, the 80/20 (or ABC) approach, safety stock, forecasting, dependent and independent demand, lead times, excess/obsolete inventory, and inventory controls. Material Resource Planning (MRP) and Enterprise Resource Planning (ERP) are included.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -297,7 +404,11 @@
       "course_description": "Focuses on core processes within an organization -- the activities that add value. An operations strategy depends on the industrial sector as well as the organization. This course introduces a variety of qualitative and quantitative tools for such activities as project management, process analysis, job design, forecasting, resource planning, productivity, quality, inventory, and scheduling. The objective of this course is to provide the framework for integrating approaches covered in other INTM courses.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -306,9 +417,8 @@
           "crn": "16231",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16231",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -328,10 +438,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -339,9 +446,8 @@
           "crn": "15797",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15797",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,12 +467,77 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "411",
+      "course_combined": "INTM 411",
+      "title": "Functional Facilities Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=411",
+      "course_description": "Covers key activities in facilities management, the role and responsibilities of the facilities manager, and the functional aspects of management and maintenance activities by building type (commercial, high rise, hotels, hospital, data center). Budgeting, strategic planning, and coordination of capital and operating projects; inspection, repair, and renovation of equipment and buildings in accordance with health and safety standards; managing internal staffing, external contractors, insurance and control activities (parking, waste disposal, building security, etc.). Information systems, real estate management, sustainability issues and emergency preparedness also covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "413",
+      "course_combined": "INTM 413",
+      "title": "Contract Admn for Construction",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=413",
+      "course_description": "This course covers fundamentals of project administration and characteristics of the construction industry. Pre-construction discussion includes technical and economic feasibility, project delivery systems, documents, bonding, and bidding. Duties and liabilities of parties at pre-contract stage and during contract administration to include scheduling and time extensions, payments, retainage, substantial and final completion, change orders, suspension of work, contract termination, and dispute resolution. Labor law, labor relations, safety, and general management of a construction company.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "415",
+      "course_combined": "INTM 415",
+      "title": "Advncd Project Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=415",
+      "course_description": "This course covers project management in the PMP framework and provides a structured approach to managing projects using Microsoft Project and Excel. Coverage includes creation of key project management charts (Gantt, Pert, CPM, timelines and resource utilization), basic statistics used in estimating task times, critical path generation in Excel and Project, project cost justification in Excel, SPC and acceptance sampling for machine acceptance, project analysis via simulation, and management of personnel, teams, subcontractors and vendors. Case studies are utilized to demonstrate core concepts and dynamic scheduling.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "416",
+      "course_combined": "INTM 416",
+      "title": "Integrated Facilities Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=416",
+      "course_description": "Integrated Facilities Management involves understanding the processes and tools needed to successfully manage new construction and renovation projects, building systems improvements, ongoing facilities management functions, and integration of new technologies within buildings and infrastructure. Students learn to assess facilities projects, develop project scope, plan for implementation, and create a project team. Explores real world successes and failures in buildings, equipment and technologies. Coursework focuses on completion of a comprehensive project, from conceptualization to development and implementation, inclusive of costing, team building and creating a pitch for project funding to upper management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -377,7 +548,11 @@
       "course_description": "General approaches for estimating construction costs are covered. Several commercially available software packages are introduced. Emphasis is on acquiring the knowledge required to develop cost estimates for construction, renovation and maintenance projects for buildings, facilities and equipment.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -386,9 +561,8 @@
           "crn": "10465",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10465",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -408,10 +582,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -419,9 +590,8 @@
           "crn": "11068",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11068",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -441,12 +611,60 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "418",
+      "course_combined": "INTM 418",
+      "title": "Industrial Risk Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=418",
+      "course_description": "Each year, industrial companies are affected by critical incidents which cause disruption in operations and significant monetary losses due to repairs and/or lost revenue. Whether it is a small fire, an extended electrical outage or an incident of a more serious magnitude, all company stakeholders - from the board of directors to the employees to the customers - are impacted. The key to understanding the complexities of industrial resiliency lies in focusing on the issues of preparedness: prevention, mitigation, and control. This course is designed to prepare the student for managing a critical incident, including understanding risk and business impact, emergency preparedness, contingency planning and damage control.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "419",
+      "course_combined": "INTM 419",
+      "title": "Budgeting and Finance for FM",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=419",
+      "course_description": "Budgeting for facility operations is a critical business activity which can have profound impacts for an organization due to operational subsystems and interdependencies. Overlooking system maintenance in one area by not including it in the budgeting process can affect other systems, leading to overall functional deterioration. Financial decision-making requires detailed analyses of up-front costs, life cycle costs, cost containment measures, lease vs. purchase opportunities, anticipated income and expenses, and benchmarking. This course covers generally accepted accounting principles (GAAP) and financial concepts, business planning, annual and capital budgets, costs and cost controls, project accounting, financial aspects of property development, leasing and letting, and current trends impacting/applicable to facility management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "420",
+      "course_combined": "INTM 420",
+      "title": "Applied Strategies Competitive",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=420",
+      "course_description": "Course covers the application of proven management principles and operational practices. Learn how high performance companies create a competitive advantage despite economic challenges and a transitional customer base. Factors covered include strategy deployment, financial analysis, new product development, quality, customer service, and attaining market leadership. Case studies illustrate variable impacts on business situations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -457,7 +675,11 @@
       "course_description": "Maintaining and managing buildings and facilities is a challenging, multifaceted occupation. Facilities are becoming smarter and greener as the goals of energy conservation and occupant comfort have shifted to include environmental responsibility. This course examines facility operations and management (O&M) related to sustainability and green technology, with an emphasis on the U.S. Green Building Council's (USGBC) Leadership in Energy and Environmental Design (LEED) requirements, rating system, and the process for properties to apply for certification as a resource-efficient operation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -466,9 +688,8 @@
           "crn": "15791",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15791",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -488,10 +709,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -499,9 +717,8 @@
           "crn": "15798",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15798",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -521,12 +738,26 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "425",
+      "course_combined": "INTM 425",
+      "title": "Human Resrcs Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=425",
+      "course_description": "This course will introduce students to key aspects of HR management, including legal requirements for all normal HR activities as well as techniques for dealing with employees when hiring, evaluating, promoting and terminating.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -537,7 +768,11 @@
       "course_description": "Provides a practical, systems-focused introduction to modern manufacturing management by guiding students through the complete production cycle of a discrete component. Starting with initial prototyping and moving to full-scale production, students develop applied knowledge in production planning, process selection, machining sequences, quality control, and the coordination of essential manufacturing activities. Students examine how decisions involving tooling and process selection, capacity planning, cost analysis, equipment evaluation, workflow organization, and quality systems influence manufacturing productivity and managerial decision making. Sustainability, lean practices, Industry 4.0 technologies, and data driven metrics – including safety, cycle time, throughput, and cost – are integrated to highlight how modern plants are planned, managed, and continuously improved. Students gain a comprehensive, big picture understanding of how production planning, engineering, machining, inspection, logistics, and manufacturing management align to deliver consistent, high quality products in contemporary manufacturing environments.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -546,9 +781,8 @@
           "crn": "17131",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17131",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -568,10 +802,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -579,9 +810,8 @@
           "crn": "17132",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17132",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -601,12 +831,26 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "430",
+      "course_combined": "INTM 430",
+      "title": "Global Logistics Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=430",
+      "course_description": "Logistics encompasses all activities necessary for moving products and information to and from partners and entities within the supply chain. Students gain an understanding of advanced logistical practices, examine challenges and strategies involved in designing and effectively integrating logistics within a global supply chain, and analyze the logistics value creation process to achieve a competitive advantage. Key topics include cross-organizational collaboration, international trade, performance measurement, risk management and finance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -617,7 +861,11 @@
       "course_description": "This course covers sales and operations planning (S&OP) processes, objectives, and procedures utilized by leading global supply chain companies. Key elements of the S&OP process are explained, including demand plans, forecasts, and capacity plans. Students also learn how to develop, maintain, and manage supplier relationships (SRM) and how companies use customer relationship management (CRM) tools to enhance business relationships.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -626,9 +874,8 @@
           "crn": "12929",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12929",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -648,10 +895,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -659,9 +903,8 @@
           "crn": "12930",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12930",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -681,12 +924,26 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "434",
+      "course_combined": "INTM 434",
+      "title": "Digital Transformation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=434",
+      "course_description": "Explores current and emerging trends in the adoption of various digital technologies to help transform business operations. Key elements include IoT, Artificial Intelligence, Machine Learning, Data Analytics, RPA, Virtual Reality, Augmented Reality (and more) and how those are applied in various industries like Construction, Manufacturing, Transportation, Facility Management, etc. Students learn to identify and evaluate digital solutions to improve processes and/or products for any business. Emphasis on implementation and change management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -697,7 +954,11 @@
       "course_description": "Provides an overall industry-oriented introduction to modern AI for industrial technology, management and operations. Students learn the core building blocks of AI, how to choose Machine Learning (ML), Deep Learning (DL), generative AI, Retrieval-Augmented Generation (RAG), and multimodal/agent-based approaches, and how to use prompting and verification to deliver dependable business outputs. Covers responsible AI practices focused on privacy, data retention, and bias mitigation, along with practical methods to quantify and critique AI projects using benefits vs. costs, implementation time, and resource constraints. A capstone projects culminates in an AI value case and implementation plan to gain hands-on experience with AI tools. Overall, students develop a strategy for staying current with rapidly evolving AI advancements.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -706,9 +967,8 @@
           "crn": "17069",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17069",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -728,10 +988,7 @@
             "waitlist_capacity": 12,
             "waitlist_actual": 0,
             "waitlist_remaining": 12
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -739,9 +996,8 @@
           "crn": "17070",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17070",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -761,12 +1017,77 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "436",
+      "course_combined": "INTM 436",
+      "title": "Manufacturing Tech for Ind App",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=436",
+      "course_description": "This course provides an in-depth exploration of manufacturing technologies and management principles across multiple industry sectors. Students will analyze and compare the distinct manufacturing ecosystems of these industries while focusing on manufacturing equipment, engineering processes, automation systems, operational controls and product workflows. Using real-world examples, these topics will be explored to determine the necessary mechanical equipment, computing technology, workforce personnel, and financial investments to sustain these manufacturing operations. Health and safety systems, regulatory compliance practices, risk assessment, and workplace safety protocols will be examined as they relate to each industry. Continuous improvement methods and quality control techniques will be evaluated for their applications and impacts. Through critical analysis and practical application, this course teaches students the skills required to optimize manufacturing operations and address the challenges faced in diverse, technology-driven industries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "437",
+      "course_combined": "INTM 437",
+      "title": "Smart Factory Automation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=437",
+      "course_description": "Technology changes how companies operate, impacting internal processes and how comprehensive manufacturing solutions are established to serve customer needs. The challenge lies in connecting independent processes into systems that are reliable, self-adjusting, and communicate in real time. Internal systems must successfully blend hardware, software, sensors and codes, and integrate new technologies to automate, assess and control manufacturing operations. The goal is to achieve a transparent system with faster processing times, fewer interruptions and a more continuous flow, resulting in competitive advantage throughout the entire value stream. This course covers interconnection, optimization and automation of processes to achieve competitive advantage in manufacturing operations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "438",
+      "course_combined": "INTM 438",
+      "title": "Advanced Machining for MFG 1",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=438",
+      "course_description": "Today's leading edge manufacturing environment has advanced technology and systems embedded throughout its framework. This course exposes students to the functional aspects and capabilities of a 5-axis CNC machining center, and the processes involved in taking a machined part from prototype to production. This state-of-the-art technology is used by high-production companies around the world to create complex, precision-machined parts and products with tight tolerances and extreme repeatability. Students gain experience using SinuTrain simulators and hands-on learning on a 5-axis CNC machine. Coverage includes CNC programming and use of IIoT system technologies embedded in the machine to obtain internal diagnostics with real time data and connect with internal departments, suppliers and customers. Prior completion of a course in manufacturing processes highly recommended. First course in a two-course sequence.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "439",
+      "course_combined": "INTM 439",
+      "title": "Advanced Machining for MFG 2",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=439",
+      "course_description": "Continues exploration of the functional aspects, capabilities and limitations of a 5-axis CNC machining center, building upon skills and knowledge obtained in AMM I. Students increase proficiency in metrology, geometric dimensioning and tolerancing per ASME standards, material sciences, and use of computer integrated technology (CAD, CAM and CIM). This course provides a top-to-bottom, hands-on experience for the manufacturing process and the technologies that surround it, with consideration of managerial perspectives and concerns.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -777,7 +1098,11 @@
       "course_description": "This course covers the full range of activities involved in the supply chain. This includes management tools for optimizing of supply chains, relationships with other parts of the organization, in-house versus third party approaches, and suitable performance measurements. Topics covered include: Warehouse Management Systems (WMS), Transportation Management Systems (TMS), Advanced Planning and Scheduling Systems (APS), as well as cost benefit analysis to determine the most appropriate approach.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -786,9 +1111,8 @@
           "crn": "11069",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11069",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -808,10 +1132,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -819,9 +1140,8 @@
           "crn": "12020",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12020",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -841,12 +1161,111 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "442",
+      "course_combined": "INTM 442",
+      "title": "Inventory Mgmt Distrib Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=442",
+      "course_description": "Covers the logical progression and methods for creating a distribution strategy, identifying inventory levels for multiple locations and management approaches to achieve target values, followed by the design and layout of the physical warehouse and needed equipment. Distribution topics include material and demand planning, network design, customer service, global distribution, and 3PLs. Inventory topics include defining what to stock and how much, forecasting, maintaining LT/SS/EOQ, and adjusting the order cycle. Warehousing topics include layout, equipment, material control, cost management, technology, and KPIs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "443",
+      "course_combined": "INTM 443",
+      "title": "Strategic Procurement & SC Inn",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=443",
+      "course_description": "Covers modern purchasing practices, the critical interplay between purchasing and supply chain management, and how to strategically manage procurement functions and innovate in a globalized, technology-driven environment. Students examine the strategic role of purchasing organizations, development of effective sourcing strategies, negotiation techniques, and cost management approaches, to include cost modeling, cost breakdown analysis, identification of key cost drivers, global procurement challenges, and the transformative role of e-procurement technologies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "444",
+      "course_combined": "INTM 444",
+      "title": "Export/Import",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=444",
+      "course_description": "Internationalization of industry requires special expertise and knowledge, which must be taken into consideration throughout all interactions with overseas companies either as customers or suppliers. Topics covered include custom clearance, bonded shipping, international shipping options, import financing and letters of credit, customer regulations, insurance, import duties and trade restrictions, exchange rates, and dealing with different cultures.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "446",
+      "course_combined": "INTM 446",
+      "title": "Manufacturing & Logistics Info",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=446",
+      "course_description": "Provides an overview of manufacturing, logistics and supply chain management (SCM) information systems and software packages, as well as practical tools and techniques for effective decision making. Emphasis on the importance of accurate and timely data, efficient business processes, and utilizing state-of-the-art information tools and technologies. Students gain hands-on experience using a modern ERP system to understand the features, functionality, and end-to-end dependencies of the core ERP modules used in an enterprise.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "448",
+      "course_combined": "INTM 448",
+      "title": "Agile Methods New Product Dev",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=448",
+      "course_description": "The development of new products and operational processes in a manufacturing setting requires collaboration and teamwork across multiple departments and flexible (agile) methods to expediently assess product/process viability and implement production without interrupting current operations. This course explores agile methodologies and management strategies involved in developing a new product or process, to include innovation and design, environmental concerns, market analysis, timing, budgets, collaborative strategies, patents and trade secrets, licensing and distribution, and marketing/pricing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "452",
+      "course_combined": "INTM 452",
+      "title": "Pharma Mfg Tech, Reg & Prac",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=452",
+      "course_description": "Pharmaceutical manufacturing is a highly regulated and collaborative industry. This course presents the multiple interactions of engineering technology, manufacturing, process, formulation and analytical chemistries, and regulatory disciplines that are involved in the development and manufacture of pharmaceutical drug products and devices, as well as the regulatory approval process. Key practical aspects of manufacturing are addressed, to include 1) the process of drug product development from discovery to manufacturing, 2) drug products in Phase 1 to Phase 3 clinical trials, and 3) the regulatory approval of a new drug product application. Issues related to medical devices, supply chain and packaging are also presented. Understanding industry practices enables proactive interactions with various internal departments to get a final approved product manufactured, packaged and delivered to the customer (patient or pharmacy).",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -857,7 +1276,11 @@
       "course_description": "Examines the concept of sustainability and its application in the industrial environment. Identifies underlying stresses on natural and human environments and the resultant problems for business and society including legal, ethical, and political issues related to sustainability. Global warming, peak oil, and commodity pricing are considered as indicators of the need for improvements in sustainability. Industrial ecology will be discussed as well as strategies for developing sustainable practices in manufacturing, power generation, construction, architecture, logistics, and environmental quality. Coverage includes case studies on businesses that have developed successful sustainability programs.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -866,9 +1289,8 @@
           "crn": "11485",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11485",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -888,10 +1310,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -899,9 +1318,8 @@
           "crn": "11486",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11486",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -921,12 +1339,145 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "460",
+      "course_combined": "INTM 460",
+      "title": "Sustainability Critical Matrls",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=460",
+      "course_description": "This course explores the limitations in supply and the need for sustainable use of carbon and non-carbon-based materials such as oil, minerals, food, water, and other natural resources used by industry. Limitations in the global availability of such resources pose challenges to industry which will require careful consideration and planning to ensure continued prosperity for current and future generations. Course will cover strategies and options to mitigate anticipated shortages and optimize the use of non-renewable natural resources, review of fuel and raw material pricing, and cost/benefit analysis of sustainable development proposals. Technical analyses will be presented during class discussions, but a technical background is not required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "461",
+      "course_combined": "INTM 461",
+      "title": "Energy Options for Industry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=461",
+      "course_description": "Explores how energy is used, produced, managed and regulated. Covers existing and new energy technologies and policies, with focus on sustainability, efficiency, electrification and decarbonization, including alternatives to fossil carbon-based fuels (coal, gas and petroleum) such as nuclear, hydroelectric, solar, wind and geothermal. Topics include energy storage systems, including batteries and the role of hydrogen and carbon dioxide removal or carbon capture, use and storage (CCUS). Energy supply side trends, options and constraints in generation, transmission and distribution of electricity by power utilities and by industrial firms, including data center operators. Demand side technologies and distributed energy resources, to include industrial energy efficiency, smart buildings, the Internet of Things (IoT), combined heat and power (CHP), microgrids, demand response, virtual power plants (VPPs) and power system flexibility. Energy regulations and policy incentives, implications for industry and best practices in the US and overseas, including regulatory compliance and environmental, societal and governance (ESG) issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "462",
+      "course_combined": "INTM 462",
+      "title": "Special Topics Sustainability",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=462",
+      "course_description": "This course allows the student to research and report on an industrial sustainability issue of interest and relevance to their career objectives. Topics may focus on industrial ecology, energy sources/systems, sustainable operations, integrated technologies, regulations, environmental issues, resource use, alternative manufacturing methods, facilities, logistics, etc. Special topics of current interest may be taught as group lecture.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "477",
+      "course_combined": "INTM 477",
+      "title": "Entrepreneurship Industry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=477",
+      "course_description": "Introduces various forms of entrepreneurship with emphasis towards industrial organizations. Provides helpful tools for developing and implementing significant \"game-changing\" actions to effect change within an existing organization or develop a new business venture. Students complete an opportunity assessment (OPASS) project wherein they identify, evaluate, and develop an approach for a \"real-life\" business and produce a formal report and presentation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "491",
+      "course_combined": "INTM 491",
+      "title": "Undergraduate Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=491",
+      "course_description": "Undergraduate research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "497",
+      "course_combined": "INTM 497",
+      "title": "Special Projects INTM",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=497",
+      "course_description": "Special projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "498",
+      "course_combined": "INTM 498",
+      "title": "Undergrad Research Experience",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=498",
+      "course_description": "Team research experience; topic determined by supervising faculty.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "502",
+      "course_combined": "INTM 502",
+      "title": "Indust Eng Concepts/Applicatns",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=502",
+      "course_description": "Focuses on integration of systems, processes and human resources to enhance productivity and efficiency in various industries. Key topics include systems optimization, process improvement methodologies, and aspects of quality management. Emphasis on data analysis, decision-making, quality, and measurement systems while identifying inefficiencies in industrial systems, proposing effective solutions, and implementing strategies that drive continuous improvement. Case studies and industry examples highlight the diverse applications of industrial engineering across manufacturing and service sectors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -937,7 +1488,11 @@
       "course_description": "Maintenance of facilities and building systems is a major concern for all industrial operations. Facility managers must maintain heating, ventilation, air conditioning, plumbing, fire-life safety, electrical and other building systems, many of which are interrelated. Dysfunction in one system can cause problems in another, leading to occupant discomfort, poor energy efficiency and premature equipment failure. Equipment maintenance techniques have evolved to include more scientific diagnosis for increased uptime reliability. Preventive, predictive and prescriptive maintenance command a high percentage of modern behaviors to keep facilities running at peak efficiency. This course blends both the technical and managerial sides of maintenance with a focus on procedural analysis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -946,9 +1501,8 @@
           "crn": "13722",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13722",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -968,10 +1522,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -979,9 +1530,8 @@
           "crn": "13724",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13724",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1001,12 +1551,162 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "507",
+      "course_combined": "INTM 507",
+      "title": "Construction Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=507",
+      "course_description": "Introduces the full range of technologies involved in construction of both new and modified facilities, including steel, concrete and timber construction as well as supporting specialties such as HVAC, electrical, plumbing, etc. The interactions between the various construction trades will be covered along with the role of the architects and engineers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "508",
+      "course_combined": "INTM 508",
+      "title": "Cost Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=508",
+      "course_description": "This course introduces accounting information used for decision-making within a business enterprise. Financial reporting, financial terminology, and the three major financial statements are reviewed. Product costing, short-term and long-term decision-making, budgeting, control of operations, and performance evaluations are covered as are cost-volume-profit relationships, relevant costs, flexible budgets, and standard costs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "509",
+      "course_combined": "INTM 509",
+      "title": "Inventory Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=509",
+      "course_description": "Fundamentals of inventory control including inventory classifications, i.e. raw materials, work-in-process (WIP) and finished goods. Topics include inventory record keeping, inventory turnover, the 80/20 (or ABC) approach, external and internal lead times, excess/obsolete inventory, and inventory controls. Material Resource Planning (MRP) are included.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "511",
+      "course_combined": "INTM 511",
+      "title": "Industrial Leadership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=511",
+      "course_description": "Supervision and management practices are key to all components and sectors of industry. People are the key resources and their effective use is critical to a successful operation. As companies move to become high performance organizations, traditional management tools and techniques have to be reviewed and reconsidered. Skills covered include motivation, developing consensus, conflict avoidance and negotiations. Group dynamics along with handling of individual workers is critical.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "515",
+      "course_combined": "INTM 515",
+      "title": "Advanced Project Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=515",
+      "course_description": "This course covers project management in the PMP framework and provides a structured approach to managing projects using Microsoft Project and Excel. Coverage includes creation of key project management charts (Gantt, Pert, CPM, timelines and resource utilization), basic statistics used in estimating task times, critical path generation in Excel and Project, project cost justification in Excel, SPC and acceptance sampling for machine, project analysis via simulation, and management of personnel, teams subcontractors and vendors. Case studies are utilized to demonstrate core concepts and dynamic scheduling.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "516",
+      "course_combined": "INTM 516",
+      "title": "Integrated Facilities Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=516",
+      "course_description": "Integrated Facilities Management involves understanding the processes and tools needed to successfully manage new construction and renovation projects, building systems improvements, ongoing facilities management functions, and integration of new technologies within buildings and infrastructure. Students learn to assess facilities projects, develop project scope, plan for implementation, and create a project team. Explores real world successes and failures in buildings, equipment and technologies. Coursework focuses on completion of a comprehensive project, from conceptualization to development and implementation, inclusive of costing, team building and creating a pitch for project funding to upper management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "518",
+      "course_combined": "INTM 518",
+      "title": "Industrial Risk Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=518",
+      "course_description": "Each year industrial companies are affected by critical incidents which cause disruptions in operations and significant monetary losses due to repairs and/or lost revenue. Whether it is a small fire, an extended electrical outage or an incident of a more serious magnitude, all company stakeholders-from the board of directors to the employees to the customers -are impacted. The key to understanding the complexities of industrial resiliency lies in focusing on the issues of preparedness: prevention, mitigation and control. This course is designed to prepare the student for managing a critical incident, including understanding risk and business impact, emergency preparedness, contingency planning and damage control.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "520",
+      "course_combined": "INTM 520",
+      "title": "Appl Strat for Competitive Ent",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=520",
+      "course_description": "Course covers the application of proven management principles and operational practices. Learn how high performance companies create a competitive advantage despite economic challenges and a transitional customer base. Factors covered include strategy deployment, financial analysis, new product development, quality, customer service, and attaining market leadership. Case studies illustrate variable impacts on business situations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "522",
+      "course_combined": "INTM 522",
+      "title": "Modeling for Decision-Making",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=522",
+      "course_description": "Management Information Systems (MIS) are utilized in all industrial sectors to manage, analyze, and optimize operational processes. This course examines the integration of MIS for a range of operational activities, including production scheduling, inventory control, purchasing, shipping, and invoicing. Students will be exposed to the theory of MIS by reviewing case studies and successful applications. Students learn how to build spreadsheet models for multiple business problems using linear programming (LP) and integer programming (IP) and perform regression analysis and basic time series forecasting. A variety of Microsoft Excel tools are introduced.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -1017,7 +1717,11 @@
       "course_description": "Maintaining and managing buildings and facilities is a challenging, multifaceted occupation. Facilities are becoming smarter and greener as the goals of energy conservation and occupant comfort have shifted to include environmental responsibility. This course examines facility operations and management (O&M) related to sustainability and green technology, with an emphasis on the U.S. Green Building Council's (USGBC) Leadership in Energy and Environmental Design (LEED) requirements, rating system, and the process for properties to apply for certification as a resource-efficient operation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1026,9 +1730,8 @@
           "crn": "15799",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15799",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1048,10 +1751,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1059,9 +1759,8 @@
           "crn": "15800",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15800",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1081,12 +1780,43 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "530",
+      "course_combined": "INTM 530",
+      "title": "Global Logistics Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=530",
+      "course_description": "Logistics encompasses all activities necessary for moving products and information to and from partners and entities within the supply chain. Students gain an understanding of advanced logistical practices, examine challenges and strategies involved in designing and effectively integrating logistics within a global supply chain, and analyze the logistics value creation process to achieve a competitive advantage. Key topics include cross-organizational collaboration, international trade, performance measurement, risk management and finance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "534",
+      "course_combined": "INTM 534",
+      "title": "Digital Transformation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=534",
+      "course_description": "Explores current and emerging trends in the adoption of various digital technologies to help transform business operations. Key elements include IoT, Artificial Intelligence, Machine Learning, Data Analytics, RPA, Virtual Reality, Augmented Reality (and more) and how those are applied in various industries like Construction, Manufacturing, Transportation, Facility Management, etc. Students learn to identify and evaluate digital solutions to improve processes and/or products for any business. Emphasis on implementation and change management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -1097,7 +1827,11 @@
       "course_description": "Provides an overall industry-oriented introduction to modern AI for industrial technology, management and operations. Students learn the core building blocks of AI, how to choose Machine Learning (ML), Deep Learning (DL), generative AI, Retrieval-Augmented Generation (RAG), and multimodal/agent-based approaches, and how to use prompting and verification to deliver dependable business outputs. Covers responsible AI practices focused on privacy, data retention, and bias mitigation, along with practical methods to quantify and critique AI projects using benefits vs. costs, implementation time, and resource constraints. A capstone project culminates in an AI value case and implementation plan to gain hands-on experience with AI tools. Overall, students develop a strategy for staying current with rapidly evolving AI advancements.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1106,9 +1840,8 @@
           "crn": "17065",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17065",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1128,10 +1861,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1139,9 +1869,8 @@
           "crn": "17066",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17066",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1161,12 +1890,60 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Majors: Industrial Technology and Mgmt Industrial Technology and Oprn",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "537",
+      "course_combined": "INTM 537",
+      "title": "Smart Factory Automation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=537",
+      "course_description": "Technology changes how companies operate, impacting internal processes and how comprehensive manufacturing solutions are established to serve customer needs. The challenge lies in connecting independent processes into systems that are reliable, self-adjusting, and communicate in real time. Internal systems must successfully blend hardware, software, sensors and codes, and integrate new technologies to automate, assess and control manufacturing operations. The goal is to achieve a transparent system with faster processing times, fewer interruptions and a more continuous flow, resulting in competitive advantage throughout the entire value stream. This course covers interconnection, optimization and automation of processes to achieve competitive advantage in manufacturing operations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "538",
+      "course_combined": "INTM 538",
+      "title": "Adv Machining for Mfg 1",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=538",
+      "course_description": "Today's leading edge manufacturing environment has advanced technology and systems embedded throughout its framework. This course exposes students to the functional aspects and capabilities of a 5-axis CNC machining center, and the processes involved in taking a machined part from prototype to production. This state-of-the-art technology is used by high-production companies around the world to create complex, precision-machined parts and products with tight tolerances and extreme repeatability. Students gain experience using SinuTrain simulators and hands-on learning on a 5-axis CNC machine. Coverage includes CNC programming and use of IIoT system technologies embedded in the machine to obtain internal diagnostics with real time data and connect with internal departments, suppliers and customers. Prior completion of a course in manufacturing processes highly recommended. First course in a two-course sequence.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "539",
+      "course_combined": "INTM 539",
+      "title": "Advanced Machining for MFG 2",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=539",
+      "course_description": "Continues exploration of the functional aspects, capabilities and limitations of a 5-axis CNC machining center, building upon skills and knowledge obtained in AMM I. Students increase proficiency in metrology, geometric dimensioning and tolerancing per ASME standards, material sciences, and use of computer integrated technology (CAD, CAM and CIM). This course provides a top-to-bottom, hands-on experience for the manufacturing process and the technologies that surround it, with consideration of managerial perspectives and concerns.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -1177,7 +1954,11 @@
       "course_description": "This course covers the full range of activities involved in the supply chain. This includes management tools for optimizing of supply chains, relationships with other parts of the organization, in-house versus third party approaches, and suitable performance measurements. Topics covered include Warehouse Management Systems (WMS), Transportation Management Systems (TMS), Advanced Planning and Scheduling Systems (APS) as well as cost benefit analysis to determine the most appropriate approach.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1186,9 +1967,8 @@
           "crn": "12689",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12689",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1208,10 +1988,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1219,9 +1996,8 @@
           "crn": "12933",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12933",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1241,12 +2017,145 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "542",
+      "course_combined": "INTM 542",
+      "title": "Inventory Mgmt Distrib Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=542",
+      "course_description": "Covers the logical progression and methods for creating a distribution strategy, identifying inventory levels for multiple locations and management approaches to achieve target values, followed by the design and layout of the physical warehouse and needed equipment. Distribution topics include material and demand planning, network design, customer service, global distribution, and 3PLs. Inventory topics include defining what to stock and how much, forecasting, maintaining LT/SS/EOQ, and adjusting the order cycle. Warehousing topics include layout, equipment, material control, cost management, technology, and KPIs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "543",
+      "course_combined": "INTM 543",
+      "title": "Strategic Procurement & SC Inn",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=543",
+      "course_description": "Covers modern purchasing practices, the critical interplay between purchasing and supply chain management, and how to strategically manage procurement functions and innovate in a globalized, technology-driven environment. Students examine the strategic role of purchasing organizations, development of effective sourcing strategies, negotiation techniques, and cost management approaches, to include cost modeling, cost breakdown analysis, identification of key cost drivers, global procurement challenges, and the transformative role of e-procurement technologies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "544",
+      "course_combined": "INTM 544",
+      "title": "Export/Import",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=544",
+      "course_description": "Internationalization of industry requires special expertise and knowledge, which must be taken into consideration throughout all interactions with overseas companies either as customers or suppliers. Topics covered include custom clearance, bonded shipping, international shipping options, import financing and letters of credit, customer regulations, insurance, import duties and trade restrictions, exchange rates, and dealing with different cultures.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "545",
+      "course_combined": "INTM 545",
+      "title": "Strategic Intrntl Business",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=545",
+      "course_description": "Organizational involvement in international business activities -- whether sourcing material and designs, expanding product sales and reach, or creating economies of scale and scope -- requires an understanding of various factors in international finance, marketing, and strategy. This course brings together these disciplines to explore financial factors that may add or transform risks, the necessary adjustments in the creation of global marketing strategy, and the strategies for creating and preserving a competitive advantage in the international arena.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "546",
+      "course_combined": "INTM 546",
+      "title": "Manufacturing & Logistics Info",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=546",
+      "course_description": "Provides an overview of manufacturing, logistics and supply chain management (SCM) information systems and software packages, as well as practical tools and techniques for effective decision making. Emphasis on the importance of accurate and timely data, efficient business processes, and utilizing state-of-the-art information tools and technologies. Students gain hands-on experience using a modern ERP system to understand the features, functionality, and end-to-end dependencies of the core ERP modules used in an enterprise.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "547",
+      "course_combined": "INTM 547",
+      "title": "Supply Chain Strategies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=547",
+      "course_description": "The range of supply chain strategies to be considered when assessing a firm's internal and external supply chain network. Strategies involved in the end-to-end supply chain including product life cycle management (PLM), inventory optimization, network design optimization, management tools for optimizing supply chains, relationships with other parts of the organization, in-house versus third-party approaches, and suitable performance measurements.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "548",
+      "course_combined": "INTM 548",
+      "title": "Agile Methods New Product Dev",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=548",
+      "course_description": "The development of new products and operational processes in a manufacturing setting requires collaboration and teamwork across multiple departments and flexible (agile) methods to expediently assess product/process viability and implement production without interrupting current operations. This course explores agile methodologies and management strategies involved in developing a new product or process, to include innovation and design, environmental concerns, market analysis, timing, budgets, collaborative strategies, patents and trade secrets, licensing and distribution, and marketing/pricing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "550",
+      "course_combined": "INTM 550",
+      "title": "Demand Planning & Forecasting",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=550",
+      "course_description": "Foundations, methodologies and strategies of demand management, planning and forecasting. Course covers the range of factors that influence, shape and control demand, digitization of the supply chain, use of technology and big data, forecasting techniques and performance metrics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -1257,7 +2166,11 @@
       "course_description": "Organizations of all types employ rigorous analysis of vast amounts of internal and external data to improve the quality of decision making. This course prepares students to define and organize data, perform exploratory analysis, and select and implement analytical models, with a focus on applications in the areas of operations and marketing. Excel plugins, statistical packages (R, SAS or SPSS), and business intelligence products like Tableau will be used extensively for modeling. The course covers descriptive and inferential statistics, principles of design of experiments and analysis of variance (ANOVA), and supervised and unsupervised learning methods including regression, classification, clustering and neural networks. Students will also learn social network data analysis and text mining methods. Prior completion of a course in elementary probability and statistics highly recommended.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1266,9 +2179,8 @@
           "crn": "16754",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16754",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1288,10 +2200,7 @@
             "waitlist_capacity": 30,
             "waitlist_actual": 0,
             "waitlist_remaining": 30
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1299,9 +2208,8 @@
           "crn": "16755",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16755",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1321,12 +2229,26 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "552",
+      "course_combined": "INTM 552",
+      "title": "Pharma Mfg Tech, Reg & Prac",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=552",
+      "course_description": "Pharmaceutical manufacturing is a highly regulated and collaborative industry. This course presents the multiple interactions of engineering technology, manufacturing, process, formulation and analytical chemistries, and regulatory disciplines that are involved in the development and manufacture of pharmaceutical drug products and devices, as well as the regulatory approval process. Key practical aspects of manufacturing are addressed, to include 1) the process of drug product development from discovery to manufacturing, 2) drug products in Phase 1 to Phase 3 clinical trials, and 3) the regulatory approval of a new drug product application. Issues related to medical devices, supply chain and packaging are also presented. Understanding industry practices enables proactive interactions with various internal departments to get a final approved product manufactured, packaged and delivered to the customer (patient or pharmacy).",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -1337,7 +2259,11 @@
       "course_description": "Examines the concept of sustainability and its application in the industrial environment. Identifies underlying stresses on natural and human environments and the resultant problems for business and society including legal, ethical, and political issues related to sustainability. Global warming, peak oil, and commodity pricing are considered as indicators of the need for improvements in sustainability. Industrial ecology will be discussed as well as strategies for developing sustainable practices in manufacturing, power generation, construction, architecture, logistics, and environmental quality. Coverage includes case studies on businesses that have developed successful sustainability programs.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1346,9 +2272,8 @@
           "crn": "11488",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11488",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1368,10 +2293,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1379,9 +2301,8 @@
           "crn": "11489",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11489",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1401,12 +2322,77 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "560",
+      "course_combined": "INTM 560",
+      "title": "Sustainability Critical Matrls",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=560",
+      "course_description": "This course explores the limitations in supply and the need for sustainable use of carbon and non-carbon-based materials such as oil, minerals, food, water, and other natural resources used by industry. Limitations in the global availability of such resources pose challenges to industry which will require careful consideration and planning to ensure continued prosperity for current and future generations. Course will cover strategies and options to mitigate anticipated shortages and optimize the use of non-renewable natural resources, review of fuel and raw material pricing, and cost/benefit analysis of sustainable development proposals. Technical analyses will be presented during class discussions, but a technical background is not required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "561",
+      "course_combined": "INTM 561",
+      "title": "Energy Options in Industry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=561",
+      "course_description": "Explores how energy is used, produced, managed and regulated. Covers existing and new energy technologies and policies, with focus on sustainability, efficiency, electrification and decarbonization, including alternatives to fossil carbon-based fuels (coal, gas and petroleum) such as nuclear, hydroelectric, solar, wind and geothermal. Topics include energy storage systems, including batteries and the role of hydrogen and carbon dioxide removal or carbon capture, use and storage (CCUS). Energy supply side trends, options and constraints in generation, transmission and distribution of electricity by power utilities and by industrial firms, including data center operators. Demand side technologies and distributed energy resources, to include industrial energy efficiency, smart buildings, the Internet of Things (IoT), combined heat and power (CHP), microgrids, demand response, virtual power plants (VPPs) and power system flexibility. Energy regulations and policy incentives, implications for industry and best practices in the US and overseas, including regulatory compliance and environmental, societal and governance (ESG) issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "562",
+      "course_combined": "INTM 562",
+      "title": "Special Topics Sustainability",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=562",
+      "course_description": "This course allows the student to research and report on an industrial sustainability issue of interest and relevance to their career objectives. Topics may focus on industrial ecology, energy sources/systems, sustainable operations, integrated technologies, regulations, environmental issues, resource use, alternative manufacturing methods, facilities, logistics, etc. Special topics of current interest may be taught as group lecture.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "INTM",
+      "course_num": "594",
+      "course_combined": "INTM 594",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=INTM&crse_numb_in=594",
+      "course_description": "Special project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "INTM",
@@ -1417,7 +2403,11 @@
       "course_description": "Independent study and project. Permission of instructor required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1426,9 +2416,8 @@
           "crn": "12014",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12014",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1448,10 +2437,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

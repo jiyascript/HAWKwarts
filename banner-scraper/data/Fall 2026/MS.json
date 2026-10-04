@@ -10,7 +10,11 @@
       "course_description": "The scientific principles determining the structure of metallic, polymeric, ceramic, semiconductor and composite materials; electronic structure, atomic bonding, atomic structure, microstructure and macrostructure. The basic principles of structure-property relationships in the context of chemical, mechanical and physical properties of materials.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 124 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "10442",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10442",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 124 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     }

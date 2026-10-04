@@ -10,7 +10,11 @@
       "course_description": "This course covers current and evolving data network technologies, protocols, network components, and the networks that use them, focusing on the Internet and related LANs. The state of worldwide networking and its evolution will be discussed. This course covers the Internet architecture, organization, and protocols including Ethernet, 802.11, routing, the TCP/UDP/IP suite, DNS, SNMP, DHCP, and more. Students will be presented with Internet-specific networking tools for searching, testing, debugging, and configuring networks and network-connected host computers. There will be opportunities for network configuration and hands-on use of tools.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "13228",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13228",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -52,9 +52,8 @@
           "crn": "13227",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13227",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +73,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "15934",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15934",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Philip M Matuszak",
+              "instructor_email": "matuphi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 5,
+            "remaining": 245,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
     },
@@ -90,7 +115,11 @@
       "course_description": "Students learn to set up and configure an industry-standard open source operating system including system installation and basic system administration; system architecture; package management; command-line commands; devices, filesystems, and the filesystem hierarchy standard. Also addressed are applications, shells, scripting and data management; user interfaces and desktops; administrative tasks; essential system services; networking fundamentals; and security, as well as support issues for open source software. Multiple distributions are covered with emphasis on the two leading major distribution forks.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +128,8 @@
           "crn": "13229",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13229",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +149,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -132,9 +157,8 @@
           "crn": "15348",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15348",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,10 +178,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16437",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16437",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Raymond E. Trygstad",
+              "instructor_email": "trygstad@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 18,
+            "remaining": 232,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -170,7 +220,11 @@
       "course_description": "Focuses on preparation of shell scripts to enhance and streamline system administration tasks in all contemporary server operating systems. Scripting will be taught in both native and portable environments. The course will address shell programming, regular expressions, common and system-specific shell utilities and built-in commands, user defined and shell variables, flow control structures, shell functions, and the creation and execution of shell scripts. Homework and hands-on exercises will provide practical experience in contemporary server environments.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -179,9 +233,8 @@
           "crn": "11395",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11395",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +254,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -212,9 +262,8 @@
           "crn": "11396",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11396",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -234,12 +283,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "433",
+      "course_combined": "ITMO 433",
+      "title": "Enterprise Server Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=433",
+      "course_description": "Students learn to set up, maintain, and administer X86-based servers and associated networks using a contemporary industry-standard proprietary operating system. Topics include hardware requirements; software compatibility; system installation, configuration and options, and post-installation topics; administrative and technical practices required for system security; process management; performance monitoring and tuning; storage management; back-up and restoration of data; and disaster recovery and prevention. Also addressed is configuration and administration of common network and server services such as DNS, DHCP, remote access, email, basic virtualization, web and web services, and more.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "441",
+      "course_combined": "ITMO 441",
+      "title": "Network Admin & Operations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=441",
+      "course_description": "Students learn the details, use, and configuration of network applications. Currently protocols and application technologies considered include SNMP, SMTP, IMAP, POP, MIME, BOOTP, DHCP, SAMBA, NFS, AFS, X, HTTP, DNS, NetBIOS, and CIFS/SMB. Windows workgroups and domains: file and printer sharing, remote access, and Windows networking are addressed. A research paper in the above topic areas is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_catalog_syllabus?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=441",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMO",
@@ -250,7 +330,11 @@
       "course_description": "Computing applications hosted on dynamically-scaled virtual resources available as services are considered. Collaborative and non-collaborative \"cloud-resident\" applications are analyzed with respect to cost, device/location independence, scalability, reliability, security, and sustainability. Commercial and local cloud architectures are examined. A group-based integration of course topics will result in a project employing various cloud computing technologies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -259,9 +343,8 @@
           "crn": "12113",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12113",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,10 +364,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -292,9 +372,8 @@
           "crn": "12114",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12114",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -314,12 +393,281 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16438",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16438",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Vikas Jayaram Sanil",
+              "instructor_email": "vsanil1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 5,
+            "remaining": 245,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "446",
+      "course_combined": "ITMO 446",
+      "title": "Telecomm Over Data Networks",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=446",
+      "course_description": "This course covers a suite of application protocols known as Voice over IP (VoIP). It covers key protocols within that suite, including Session Initiation Protocol (SIP), Real-time Transport Protocol (RTP) and Session Description Protocol (SDP) as well as the architectures of various VoIP installations including on-net to on-net; on-net to PSTN; and inter-domain scenarios. The functions of the Network Elements in these architectures are defined and examples of products that include these network elements are examined. Contrast with circuit-switched and web-based communications systems is provided.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "450",
+      "course_combined": "ITMO 450",
+      "title": "Enterprise End-User Sys Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=450",
+      "course_description": "Students learn to set up, configure, and maintain end-user desktop and portable computers and devices in an enterprise environment using a contemporary proprietary operating system, including the actual installation of the operating system in a networked client-server environment. User account management, security, printing, disk configuration, and backup procedures are addressed with particular attention to coverage of networked applications. System installation, configuration, and administration issues as well as network file systems, network access, and compatibility with other operating systems are also addressed. Administration of central server resources associated with management and provisioning of end-user systems in workgroups, domains, or forests is also addressed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "453",
+      "course_combined": "ITMO 453",
+      "title": "Open Source Server Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=453",
+      "course_description": "Students learn the administration topics and concepts of IT orchestration, automation, monitoring, and metric collection. Topics include configuring industry standard automation tooling and using scripting to achieve immutable infrastructure. Students will learn how to monitor and collect and present metrics in regards to the infrastructure they deploy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "454",
+      "course_combined": "ITMO 454",
+      "title": "Operating Sys Virtualization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=454",
+      "course_description": "This course will cover technologies allowing multiple instances of operating systems to be run on a single physical system. Concepts addressed will include hypervisors, virtual machines, paravirtualization and virtual appliances. Both server and desktop virtualization will be examined in detail, with brief coverage of storage virtualization and application virtualization. Business benefits, business cases and security implications of virtualization will be discussed. Extensive hands-on assignments and a group project will allow students to gain first-hand experience of this technology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16439",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16439",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Philip M Matuszak",
+              "instructor_email": "matuphi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 6,
+            "remaining": 244,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "463",
+      "course_combined": "ITMO 463",
+      "title": "Cloud: Software as a Service",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=463",
+      "course_description": "Software as a Service (SaaS) allows consumers to use a provider’s applications running on a cloud infrastructure, accessible from client devices over a network through either a thin client interface, such as a web browser, or a program interface. Stu-dents will explore different approaches, techniques, tools and technologies to build, deploy, and manage cloud native applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16445",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16445",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Jeremy Robert Hajek",
+              "instructor_email": "hajek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 13,
+            "remaining": 237,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "464",
+      "course_combined": "ITMO 464",
+      "title": "Cloud: Platform as a Service",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=464",
+      "course_description": "Platform as a Service (PaaS) allows developers to deploy onto the cloud infrastructure developer-created or acquired applications created using programming languages, libraries, services, and tools supported by the cloud provider. Students learn to develop applications and services using popular platforms and service tools, and to manage deployed applications as well as configuration settings for the applica-tion-hosting environment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16440",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16440",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Rahul Patel",
+              "instructor_email": "rpatel37@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 1,
+            "remaining": 249,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "465",
+      "course_combined": "ITMO 465",
+      "title": "Cloud: Infrastr as a Service",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=465",
+      "course_description": "Infrastructure as a Service (SaaS) allows users to provision processing, storage, networks, and other fundamental computing resources which then allows them to deploy and run arbitrary software, which can include operating systems and applications. Students will learn how to provision, deploy and manage operating systems, storage, and deployed applications as well as virtual networking components such as switches, routers, and firewalls in a cloud environment accessible remotely through a network.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "503",
+      "course_combined": "ITMO 503",
+      "title": "Hardware and OS Foundations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=503",
+      "course_description": "Explores the basics of computer architecture and use of contemporary operating systems and networking. Covers hardware requirements, components, software compatibility, and system installation topics as well as other key operating systems functions. Networking, virtualization, cloud computing, and security concepts are introduced. Intro-duces features of an advanced operating system, including basic commands, file and directory manipulation, security, and suitability for server ap-plications. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "504",
+      "course_combined": "ITMO 504",
+      "title": "Hardware and OS Foundations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=504",
+      "course_description": "Explores the basics of computer architecture and use of contemporary operating systems and networking. Covers hardware requirements, components, software compatibility, and system installation topics as well as other key operating systems functions. Networking, virtualization, cloud computing, and security concepts are introduced. Introduces features of an advanced operating system, including basic commands, file and directory manipulation, security, and suitability for server applications. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMO",
@@ -330,7 +678,11 @@
       "course_description": "Focuses on preparation of shell scripts to enhance and streamline system administration tasks in all contemporary server operating systems. Scripting will be taught in both native and portable environments. The course will address shell programming, regular expressions, common and system-specific shell utilities and built-in commands, user defined and shell variables, flow control structures, shell functions, and the creation and execution of shell scripts. Homework and hands-on exercises will provide practical experience in contemporary server environments. Same as ITMO 417.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITMO 556 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -339,9 +691,8 @@
           "crn": "11397",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11397",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,10 +712,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 556 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -372,9 +720,8 @@
           "crn": "11398",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11398",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -394,10 +741,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 556 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -405,9 +749,8 @@
           "crn": "14678",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14678",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -427,12 +770,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 556 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "533",
+      "course_combined": "ITMO 533",
+      "title": "Enterprise Server Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=533",
+      "course_description": "Students learn to set up, maintain, and administer X86-based servers and associated networks using a contemporary industry-standard proprietary operating system. Topics include hardware requirements; software compatibility; system installation, configuration, and options and post-installation topics; administrative and technical practices required for system security; process management; performance monitoring and tuning; storage management; back-up and restoration of data; and disaster recovery and prevention. Also addressed is configuration and administration of common network and server services such as DNS, DHCP, remote access, email, basic virtualization, web and web services, and more.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMO",
@@ -443,7 +800,11 @@
       "course_description": "This course covers current and evolving data network technologies, protocols, network components, and the networks that use them, focusing on the Internet and related LANs. The state of worldwide networking and its evolution will be discussed. This course covers the Internet architecture, organization, and protocols including Ethernet, 802.11, routing, the TCP/UDP/IP suite, DNS, SNMP, DHCP, and more. Students will be presented with Internet-specific networking tools for searching, testing, debugging, and configuring networks and network-connected host computers. There will be opportunities for network configuration and hands-on use of tools.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -452,9 +813,8 @@
           "crn": "12115",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12115",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -474,10 +834,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -485,9 +842,8 @@
           "crn": "12116",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12116",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -507,10 +863,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -518,9 +871,8 @@
           "crn": "12117",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12117",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -540,12 +892,72 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16433",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16433",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Philip M Matuszak",
+              "instructor_email": "matuphi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 21,
+            "remaining": 229,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "541",
+      "course_combined": "ITMO 541",
+      "title": "Network Admin & Operations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=541",
+      "course_description": "Students learn the details, use, and configuration of network applications. Currently protocols and application technologies considered include SNMP, SMTP, IMAP, POP, MIME, BOOTP, DHCP, SAMBA, NFS, AFS, X, HTTP, DNS, NetBIOS, and CIFS/SMB. Windows workgroups and domains: file and printer sharing, remote access, and Windows networking are addressed. A research paper in the above topic areas is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "542",
+      "course_combined": "ITMO 542",
+      "title": "Wireless Technologies & Apps",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=542",
+      "course_description": "This course will provide students with the knowledge of wireless communication technologies. The course will focus on the 3G and 4G wireless networks such as UMTS, LTE, and WiMAX. Students will have the opportunity to study the different wireless networks architectures and major network elements including devices, base stations, base station controller, and core networks. Major topics of the course include air interfaces, protocols, session management, QoS, security, mobility, and handoff.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMO",
@@ -556,7 +968,11 @@
       "course_description": "Computing applications hosted on dynamically-scaled, virtual resources available as services are considered. Collaborative and non-collaborative \"cloud-resident\" applications are analyzed with respect to cost, device/location independence, scalability, reliability, security, and sustainability. Commercial and local cloud architectures are examined. A group-based integration of course topics will result in a project employing various cloud computing technologies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -565,9 +981,8 @@
           "crn": "12118",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12118",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -587,10 +1002,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -598,9 +1010,8 @@
           "crn": "12119",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12119",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -620,10 +1031,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -631,9 +1039,8 @@
           "crn": "12120",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12120",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -653,10 +1060,168 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16430",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16430",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Vikas Jayaram Sanil",
+              "instructor_email": "vsanil1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 23,
+            "remaining": 227,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "545",
+      "course_combined": "ITMO 545",
+      "title": "Telecommunications Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=545",
+      "course_description": "This course introduces technologies underlying telecommunications and real-time communications systems and services. Topics will include: wire-line and fiber systems including those associated with the public switched telephone networks and cable service providers; wireless systems including cellular, WiFi and WiMAX. Methods and architectures for delivery of signaling, voice and video are introduced; analog telephone systems, digital telephone systems on circuit switched networks both wire-line and cellular; digital telecommunications on packet switched networks. Codecs and transformation of voice and video into digital formats are introduced. Physical and data-link layer protocols are studied with emphasis on how they carry voice and video. Channelization and multiple-access methods are introduced. Switching methods studied include circuit switching, virtual circuit switching and packet switching.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "546",
+      "course_combined": "ITMO 546",
+      "title": "Telecomm Over Data Networks",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=546",
+      "course_description": "This course covers a suite of application protocols known as Voice over IP (VoIP). It describes important protocols within that suite including RTP, SDP, MGCP and SIP and the architecture of various VoIP installations including on-net to on-net to PSATN and inter-domain scenarios. the functions of the Network Elements that play significant roles in this architecture will be defined. Examples of network elements that are currently available as products will be examined.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "547",
+      "course_combined": "ITMO 547",
+      "title": "Projects & Advanced Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=547",
+      "course_description": "Mentored projects focused on real-time media applications, systems and services. HTTP-based and SIP-based systems are studied; reference is made to RTCWeb, W3C and IETF specifications and initiatives. Topics may include web-based real-time media applications; web-conferencing and distributed class-room applications; communications systems using SIP and Web technologies; standards-based systems supporting emergency calls over IP backbone networks; metrics for performance characteristics of real-time systems; security of streaming media; interoperability/conformance testing of real-time applications and services. Students present/demonstrate projects in a public meeting. Students should have previous or concurrent experience with one or more of the following: SIP, HTTP, HTML, and scripting or coding languages.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "550",
+      "course_combined": "ITMO 550",
+      "title": "Enterprise End-User Sys Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=550",
+      "course_description": "Students learn to set up, configure, and maintain end-user desktop and portable computers and devices in an enterprise environment using a contemporary proprietary operating system, including the actual installation of the operating system in a networked client-server environment. User account management, security, printing, disk configuration, and backup procedures are addressed with particular attention to coverage of networked applications. System installation, configuration, and administration issues as well as network file systems, network access, and compatibility with other operating systems are also addressed. Administration of central server resources associated with management and provisioning of end-user systems in workgroups, domains, or forests is also addressed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "553",
+      "course_combined": "ITMO 553",
+      "title": "Open Source System Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=553",
+      "course_description": "Students learn to set up, configure, and administer an industry-standard open source server operating system including integration with client systems using a variety of operating systems in a mixed environment. Topics include hardware requirements; software compatibility; administrative and technical practices required for system security; process management; performance monitoring and tuning; storage management; back-up and restoration of data; and disaster recovery and prevention. Also addressed are configuration and administration of common network and server services such as DNS, DHCP, firewall, proxy, remote access, file and printer sharing, email, web, and web services as well as support issues for open source software.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "554",
+      "course_combined": "ITMO 554",
+      "title": "Operating Sys Virtualization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=554",
+      "course_description": "This course will cover technologies allowing multiple instances of operating systems to be run on a single physical system. Concepts addressed will include hypervisors, virtual machines, paravirtualization and virtual appliances. Both server and desktop virtualization will be examined in detail, with brief coverage of storage virtualization and application virtualization. Business benefits, business cases and security implications of virtualization will be discussed. Extensive hands-on assignments and a group project will allow students to gain first-hand experience of this technology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16431",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16431",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Philip M Matuszak",
+              "instructor_email": "matuphi@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 18,
+            "remaining": 232,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -669,7 +1234,11 @@
       "course_description": "This course will cover the fundamental concepts and philosophy behind free and open source software (FOSS). The course will discuss open source and free software licensing; open source business strategies and impact; FOSS utilization in the enterprise; and development methodologies. Students will learn to set up and configure an industry-standard open source operating system, including system installation, and basic system administration; system architecture; package management; command–line commands; devices, filesystems, and the filesystem hierarchy standard. Also addressed are applications, shells, scripting and data management; user interfaces and desktops; administrative tasks; essential system services; networking fundamentals; and security, as well as support issues for open source software. Multiple distributions are covered with emphasis on the two leading major distribution forks.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -678,9 +1247,8 @@
           "crn": "11705",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11705",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -700,10 +1268,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -711,9 +1276,8 @@
           "crn": "11744",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11744",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -733,10 +1297,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -744,9 +1305,8 @@
           "crn": "11991",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11991",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -766,12 +1326,136 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16545",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16545",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Raymond E. Trygstad",
+              "instructor_email": "trygstad@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 999,
+            "actual": 19,
+            "remaining": 980,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "557",
+      "course_combined": "ITMO 557",
+      "title": "Storage Technologies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=557",
+      "course_description": "Modern enterprise data storage technologies and architectures are examined in depth. Topics include storage devices, file systems, storage networks, virtual storage, RAID, NAS, SAN, and other current enterprise-level storage models. Storage management, replication, deduplication, storage tiers, backups as well as fundamentals of business continuity, application workload, system integration, and storage/system administration are addressed. Specific knowledge and skills required to configure networked storage to include archive, backup, and restoration technologies are covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "563",
+      "course_combined": "ITMO 563",
+      "title": "Cloud: Software as a Service",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=563",
+      "course_description": "Software as a Service (SaaS) allows consumers to use a provider’s applications running on a cloud infrastructure, accessible from client devices over a network through either a thin client interface, such as a web browser, or a program interface. Students will explore different approaches, techniques, tools and technologies to build, deploy, and manage cloud native applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "564",
+      "course_combined": "ITMO 564",
+      "title": "Cloud: Platform as a Service",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=564",
+      "course_description": "Platform as a Service (PaaS) allows developers to deploy onto the cloud infrastructure developer-created or acquired applications created using programming languages, libraries, services, and tools supported by the cloud provider. Students learn to develop applications and services using popular platforms and service tools, and to manage deployed applications as well as configuration settings for the application-hosting environment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16480",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16480",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Rahul Patel",
+              "instructor_email": "rpatel37@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 18,
+            "remaining": 232,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMO",
+      "course_num": "565",
+      "course_combined": "ITMO 565",
+      "title": "Cloud: Infrastructure as a Ser",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMO&crse_numb_in=565",
+      "course_description": "Infrastructure as a Service (SaaS) allows users to provision processing, storage, networks, and other fundamental computing resources which then allows them to deploy and run arbitrary software, which can include operating systems and ap-plications. Students will learn how to provision, deploy and manage operating systems, storage, and deployed applications as well as virtual networking components such as switches, routers, and firewalls in a cloud environment accessible remotely through a network.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

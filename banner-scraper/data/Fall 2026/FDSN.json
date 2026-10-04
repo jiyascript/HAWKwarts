@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "FDSN",
+      "course_num": "100",
+      "course_combined": "FDSN 100",
+      "title": "Introduction to the Profession",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=100",
+      "course_description": "In this course students will survey the professional landscape of the food industry. The course provides an introduction to the different career roles and opportunities within the food industry. The rich Chicago food industry will serve as a backdrop to learn about the current and emerging food ecosystem. Students will hear from industry guest speakers about the legacy and latest start-up enterprises that comprise various professional paths. Field trips to local food business incubators and food processing plants are planned. The course will also provide an introduction to food regulations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
       "course_num": "201",
       "course_combined": "FDSN 201",
       "title": "Nutrition and Wellness",
@@ -10,7 +27,11 @@
       "course_description": "Introduction to the basic principles of nutrition and the relationship of the human diet to health. Overview of the nutrition profession, the biological uses of nutrients, and tools for dietary planning and assessment in various settings. Examination of specific issues such as weight management, sports nutrition, food safety, the diet-disease relationship, and global nutrition. Analysis of special nutritional requirements and needs during the life cycle.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Natural Science or Engr Req., Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "13089",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13089",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Natural Science or Engr Req., Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +61,196 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "210",
+      "course_combined": "FDSN 210",
+      "title": "Introduction to Culinology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=210",
+      "course_description": "This course gives a broad overview of the new field of culinology: the blending of culinary arts and food science training. Topics include Principles of Cooking, Formula and Recipe Development, Culinary Fundamentals and Production Systems, Culinary Uses and Applications of Products, Flavor Building, and Functional Ingredients, and how these all integrate with Food Safety and Sanitation Principles.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "300",
+      "course_combined": "FDSN 300",
+      "title": "Nutrition Thru the Life Cycle",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=300",
+      "course_description": "This course analyzes the changing nutritional requirements and relative dietary and psycho-social issues which are specific to the different stages of the life cycle. Expected student outcomes include the following: (1) the student will be able to identify specific nutrient requirements for each stage of the life cycle; (2) the student will be able to relate nutrient needs to developmental levels, including biochemical and physiological structure/function of the body, and have a general understanding of dietary planning that will adequately meet nutritional needs of given levels; (3) the student will be able to describe the importance of environment, feeding skills, psychosocial situations, and other factors to total nutrition and eating habits through the life cycle (development through aging); (4) the student will be able to identify risk factors associated with major health problems over the life span and acquire appropriate knowledge for addressing through dietary and lifestyle choices; (5) the student will be able to select, utilize, and evaluate appropriate materials and methods for communication of nutrition information to a given audience; (6) the student will be able to evaluate dietary intakes and feeding programs for individuals throughout the life cycle; and (7) the student will effectively communicate knowledge through exams, writing, and/or oral projects. Successful completion of BIOL 107 or BIOL 115 is recommended, though not required, before taking this class.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "301",
+      "course_combined": "FDSN 301",
+      "title": "Exploring Food Science & Tech",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=301",
+      "course_description": "In this course students will explore the wide array of disciplines in which engineering, biological, and physical sciences are used to study and produce food products. An overview of the relationship between food nutrition, chemistry, microbiology, safety, processing, engineering, sensory, and product development will be discussed. The food science and technology industry will be studied to understand food processing, food safety, quality and packaging of specific categories of foods. The course also provides a brief introduction to different career opportunities within the food and technology industry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "304",
+      "course_combined": "FDSN 304",
+      "title": "Food Biotechnology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=304",
+      "course_description": "This course is designed for undergraduate students to learn various biotechnologies and applications used by modern food industry. These may include but limited to genetic engineering of microorganisms, polymerase chain reaction, molecular detection, DNA fingerprinting, and epidemiology of foodborne pathogen, genetically modified organisms (GMOs), food plant biotechnology, dairy and animal biotechnology, biotechnology in fermentation industry and dietary supplements, consumer perspectives and governmental regulations of GMOs, organic foods and more. Also covered in this course: fundamentals of microbial genomics and proteomics, introduction of bioinformatics tools including database search, gene prediction, PCR primer design, structural and functional prediction of proteins. Also examined are applications of high-throughput sequencing technology and data security in food safety and public health sectors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "310",
+      "course_combined": "FDSN 310",
+      "title": "Food Chemistry with Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=310",
+      "course_description": "The course applies basic scientific principles to food systems and practical applications. Chemical/biochemical reactions of carbohydrates, lipids, proteins, and other constituents in fresh and processed foods are discussed with respect to food quality. Reaction conditions and processes that affect color, flavor, aroma, texture, nutrition, and safety of food are emphasized. Other topics include activation and control of enzymatic reactions in fruits and vegetables; consequences of water migration on food quality; gelatinization‐retrogradation in starch‐based foods (e.g., pudding, bread, and rice); initiation and control of non‐enzymatic browning (e.g.,pretzels, meat); food emulsions (e.g., salad dressings, commutated meats products), crystal structures in foods and general properties of food materials. The interaction of food components with packaging and the environment will be examined.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "311",
+      "course_combined": "FDSN 311",
+      "title": "Food Analysis and Properties",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=311",
+      "course_description": "In this course students will learn about the physical and chemical properties of foods that can be instrumentally measured as a means to derive product and ingredient specifications. Such measurements enable the food industry to define foods on an objective basis and meet regulatory requirements for food labeling. Properties such as color, acidity, total solids, viscosity, water activity, particle size and moisture content will be demonstrated in a hands-on lab experience setting. This course will also cover the types of instrumentation used for nutritional label contents (protein, fat, sugars, salt etc.) versus that used for research purposes and trouble-shooting for product design issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "312",
+      "course_combined": "FDSN 312",
+      "title": "Food & Nat Products Toxicology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=312",
+      "course_description": "Food toxicology is concerned with assessing the injurious effects on living systems of chemicals present in foods. The chemical agents can be man-made (e.g., pesticide residues, food additives, contaminants originating with processing machinery, or packaging materials) or of natural origin (e.g., microbial, animal or plant derived). They can also be generated in the course of preparing, processing, and preserving foods (e.g., mutagens and carcinogens). This course presents the chemical and biological principles that determine toxicity and, by presenting typical examples of the toxic substances found in foods, it hopes to let students become familiar with their properties, modes of action, and methods of analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "314",
+      "course_combined": "FDSN 314",
+      "title": "Sustainable Food Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=314",
+      "course_description": "This course is designed to give students an appreciation of the complex intersections and relationships among food and culture, economics, the environment, labor, policy, population health, and social justice. Students will have opportunities to work on projects that model and analyze these relationships, and consider trade-offs impacting production and consumption, global nutrition and health, scarcity in resources, and more. Students will visit urban and rural farms, introduced to alternative farming techniques and their challenges, how sustainability is measured and reported in the food and related industries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "316",
+      "course_combined": "FDSN 316",
+      "title": "Cultural Foods with Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=316",
+      "course_description": "This course examines the regional, ethnic, cultural, religious, historical and social influences on food patterns and cuisine. Students will study cultural food and nutrition principles related to the following topics: Food as identity and food in social organization; Evolutionary and revolutionary developments in food and cuisine; Food as spectacle; Food technology in non-industrialized and industrialized food systems; Food and health: political inputs and obesity; Food branding and marketing; Food in world religions; Global hunger: root causes and proposed solutions; Hunger in America; and Food and social change.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "318",
+      "course_combined": "FDSN 318",
+      "title": "Culinary Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=318",
+      "course_description": "This course surveys the new trends in food business entrepreneurship from a culinary perspective. Guest speakers with backgrounds in food science and culinary arts will review the steps in taking a kitchen recipe concept into the local marketplace. Topics will include formulating your business plan, preparing the product pitch for investors, choosing when to work with a shared kitchen versus a food incubator space, when and how to use consultants, building a support team and how to scale the product. Local chef and food entrepreneurs will co-instruct this course and students will visit several of Chicago’s start-up entrepreneurial centers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "320",
+      "course_combined": "FDSN 320",
+      "title": "Food Law, Labels & Hlth Claims",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=320",
+      "course_description": "This course is designed to give students an in depth understanding of food laws and regulations that govern the food and dietary supplement industries. Students will apply their knowledge in simulated and real world experiences preparing students for rigid food safety requirements and navigating the complex landscape of food labels, including Health and related claims and communications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -57,7 +261,11 @@
       "course_description": "Study of chemical structures, types, and metabolism of carbohydrates, lipids, and proteins. Discussion of the biological and chemical roles of vitamins and minerals. Application and integration of metabolic knowledge with health promotion and chronic disease.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +274,8 @@
           "crn": "13092",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13092",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +295,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -99,9 +303,8 @@
           "crn": "13093",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13093",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,12 +324,94 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "402",
+      "course_combined": "FDSN 402",
+      "title": "Develop, Deliver, Disseminate",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=402",
+      "course_description": "This course is an introduction to writing and presenting on scientific research with a focus on skills necessary for research at IIT's Institute for Food Safety and Health. Topics will include defining a problem, structuring a literature review, creating a research proposal, and written and oral presentation of research results.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "405",
+      "course_combined": "FDSN 405",
+      "title": "Food and Behavior",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=405",
+      "course_description": "The course aims to develop an understanding of food and food intake behavior by examining the intersection of nutritional science with other disciplines and expertise. The course will be an analysis of the factors that impact food choice/intake. Examination of physiological regulation, physiological and psychological moderators, food marketing, technology, economics, food policy and regulations, media, food safety, and agricultural practices as well as how food intake behavior feeds back and influences these factors. Influence of sex, BMI, and age will also be considered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "408",
+      "course_combined": "FDSN 408",
+      "title": "Food Product Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=408",
+      "course_description": "Students in this class will learn how to do the following: identify the key steps in the food product development process and stage gate concepts; develop a formulation approach with ability to effectively understand how to work well with vendors, handle labeling regulations, food safety, and consumer acceptability requirements; create a product unit costing with trade-offs and contingencies for market launch; identify key performance requirements for product shelf life testing and packaging specifications; evaluate product quality and safety with traditional and state of the art assessment tools; how to conduct consumer tests, plant trials, and introduce new products and processes into the manufacturing operation and contingency planning; and develop a strategy to monitor and improve product performance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "410",
+      "course_combined": "FDSN 410",
+      "title": "Food Plant Operations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=410",
+      "course_description": "The food processing line types for the major food and beverage manufacturing segments are reviewed as integrated systems. The unit operations specific to each of the dairy, meat, poultry, seafood, juice, bakery and produce industries are reviewed. Students will each draft their own virtual commercial plant layout using vendor equipment specifications with principles of mass balance of material inputs and outputs. Industry guest speakers and trips to local food plants will provide real-world exposure to current manufacturing issues. Principles of plant layout for Good Manufacturing Practices, sanitation, and material flow through the plant will be highlighted. Trends in digitalization of the food plant and plant operations using Industry 4.0 concepts will be discussed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "411",
+      "course_combined": "FDSN 411",
+      "title": "Food Microbiology with Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=411",
+      "course_description": "In this course, students will build upon the basic principles of microbiology. Students will explore the intrinsic and extrinsic parameters that affect microbial survival, growth, and inactivation. Students will learn about beneficial bacteria used as probiotics and fermentative microorganisms. Students will learn about foodborne spoilage microorganisms associated with common food commodities. Major foodborne pathogenic microorganisms (their habitats, dissemination, symptoms, and potential mitigation strategies) will be discussed in depth. Methods to assess the microbiological quality and safety of foods will be investigated via hands on experimentation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -137,7 +422,11 @@
       "course_description": "This course will cover the fundamental aspects of food preservation, various methods used in food preservation, and engineering calculations related to preservation processing. Perishability of different categories of food products, shelf life, microbial growth and spoilage in foods; Principles of mass and energy balance, heat transfer, and fluid flow; preservation by heat (canning, blanching, pasteurization); preservation by additives (chemical preservatives, antimicrobials, bio preservatives), preservation by pH (addition of acids, fermentation), novel methods of food preservation; preservation by temperature reduction (freezing, refrigeration); thermal process engineering calculations; preservation by water activity (dehydration, drying, evaporation, the addition of salt or sugar); preservation by other conventional methods (smoking, pickling, etc.); food packaging as a preservation aid; preservation by novel food processing technologies; special considerations for the preservation of various food products; validation of preservation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -146,9 +435,8 @@
           "crn": "15174",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15174",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -168,10 +456,7 @@
             "waitlist_capacity": 30,
             "waitlist_actual": 0,
             "waitlist_remaining": 30
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -179,9 +464,8 @@
           "crn": "15175",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15175",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,12 +485,26 @@
             "waitlist_capacity": 15,
             "waitlist_actual": 0,
             "waitlist_remaining": 15
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "413",
+      "course_combined": "FDSN 413",
+      "title": "Food Fermentation with Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=413",
+      "course_description": "Role and history of fermentation; the role of microorganisms in fermentation; microbial growth kinetics during food fermentation; biological pathways in fermentation; factors affecting fermentation; fermented food products; industrial-scale fermentation; operation of fermenter; the role of sterilization in fermentation; design of a fermenter; role of different types of fermentation (alkaline, alcoholic, acetic acid, high salt, savory fermentation). Students will explore processing of fermented foods via in class and hands on learning experiences.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -217,7 +515,11 @@
       "course_description": "This course will introduce the students to various food processing technologies used in the food industry. Students will learn about a wide range of unit operations such as mixing, separation, concentration, blanching, pasteurization, evaporation, extrusion, dehydration, baking, roasting, frying, chilling, controlled atmospheric storage, freeze drying, coating, enrobing, filling and sealing. The emphasis will be on implementation of unit operations in the food industry and the impact of these unit operations on food safety, nutrition and consumer acceptability.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -226,9 +528,8 @@
           "crn": "15386",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15386",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -248,10 +549,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -259,9 +557,8 @@
           "crn": "15387",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15387",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,12 +578,111 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "417",
+      "course_combined": "FDSN 417",
+      "title": "Mgmt of Food Quality Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=417",
+      "course_description": "This course centers on the modern food processing facility which requires full time quality control management. A unique QC lab mock-up is used to provide a hands-on training experience to prepare the student for management of a QC lab. Taught by faculty with in-plant experience, students will learn how to select and integrate modern ingredient and finished product test methods with operational data from the production line. Statistical Process Control (SPC) charting methods, design of sampling protocols, handling of retention samples, dealing with product recall plans, record keeping and management of consumer complaint data will be discussed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "418",
+      "course_combined": "FDSN 418",
+      "title": "Introduction to Food Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=418",
+      "course_description": "Food design is a relatively new field to the food industry but is increasingly a critical aspect of bringing a successful food product to market. Students will learn the basic tools of human centric design thinking. This will include how to gain insights from observing and listening to the consumer. Skills for understanding unmet needs and how to frame the problem will be taught through team product design challenges sourced from the local community. Teams will have the opportunity to validate their design concepts to invited industry mentors. This course is co-taught with the IIT Design Institute in the Kaplan Institute.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "420",
+      "course_combined": "FDSN 420",
+      "title": "US Food Safety Reg Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=420",
+      "course_description": "This course gives a broad overview of the food safety regulatory systems in the US. It will cover the roles of FDA, USDA, EPA, CDC, DoC in regulating the production and sale of food. Regulations covered include Low Acid Canned Foods, HACCP, dietary supplements, infant formula, food additives and packaging, and the six parts of the Food Safety Modernization Act (FSMA).",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "430",
+      "course_combined": "FDSN 430",
+      "title": "FDSN Capstone",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=430",
+      "course_description": "Students choose one of two options based on area of focus: FSMA or Human Nutrition. The FSMA capstone will include hands-on team-based practical experience implementing the Food Safety Modernization Act (FSMA) Preventative Controls for Human Foods. The experience will involve the drafting a food safety plan consistent with current laws and regulations. The Human Nutrition capstone will be a hands-on team-based practicum designing foods for specific claims petition, including developing validation strategy and drafting appropriate claims petition consistent with current law/regulations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "435",
+      "course_combined": "FDSN 435",
+      "title": "Perf Mgmt in Food Operation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=435",
+      "course_description": "Creating an organization-wide culture of quality and performance is critical to managing the unique demands of a food processing company. Learn how to develop, manage, and improve food production processes, implement lean principles to eliminate waste and improve yields, and measure operational performance. Topics covered include budgeting and financial tools, introducing new food products and processes, Total Quality Management (TQM), evaluation and management of supply chain activities, and strategy deployment techniques. This course includes a Project Team Assignment from the participating plant personnel with at least one - two visits to a Food Processing Plant in the Chicago Area. An introductory course in Food Processing or Food Safety is helpful. Experience in MS Excel Worksheets, MS Word, and MS Power Point is highly recommended. This course ideally follows the FSN 408 508 Food Product Development Course as it teaches the final phases of food product development of taking a product into a manufacturing operation and how to ensure optimum performance in production.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "480",
+      "course_combined": "FDSN 480",
+      "title": "Juice HACCP Short Course",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=480",
+      "course_description": "This two-day Juice HACCP course is an instructor-led interactive course, using the FDA-recognized standardized Juice HACCP curriculum that was developed by the Illinois Tech IFSH/NCFST led Juice HACCP Alliance. This course is designed to meet the HACCP training requirements established under 21 CFR Part 120.13 of the U.S. Food and Drug Administration's mandatory juice HACCP inspection program.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -297,7 +693,11 @@
       "course_description": "Advanced projects in food processing and packaging, food microbiology and safety, food chemistry, and nutrition.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -306,9 +706,8 @@
           "crn": "15428",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15428",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -328,12 +727,60 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "501",
+      "course_combined": "FDSN 501",
+      "title": "Adv. Nutritional Biochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=501",
+      "course_description": "This course is designed to understand the biochemistry of energy and nutrient metabolism from consumption through digestion, absorption, distribution, assimilation and excretion, including cellular metabolism and regulation with a multisystem, integrative physiology approach. Acid-base and fluid balance, urea and biliary metabolism, inherited and acquired disorders, including the influence of environment and dietary factors will also be covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "502",
+      "course_combined": "FDSN 502",
+      "title": "Develop, Deliver, Disseminate",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=502",
+      "course_description": "This course is an introduction to writing and presenting on scientific research with a focus on skills necessary for research at IIT's Institute for Food Safety and Health. Topics will include defining a problem, structuring a literature review, creating a research proposal, and written and oral presentation of research results.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "504",
+      "course_combined": "FDSN 504",
+      "title": "Food Biotechnology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=504",
+      "course_description": "Introduction of biotechnology in the food industry including genetic engineering of microorganisms. Fundamentals of microbial genomics and proteomics. Practice of a variety of software and bioinformatics tools including database search, sequence alignment, phylogenetic and cluster analyses, gene production, genomic map construction, and structural and functional prediction of proteins. Applications of DNA fingerprinting techniques in food safety and public health.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -344,7 +791,11 @@
       "course_description": "Principles of occurrence and control. Importance of sanitation and prevention of public health problems. Microbiological contaminants and methods for their detection. Mechanisms of microbial inactivation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -353,9 +804,8 @@
           "crn": "13096",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13096",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -375,10 +825,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -386,9 +833,8 @@
           "crn": "13097",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13097",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -408,12 +854,111 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "506",
+      "course_combined": "FDSN 506",
+      "title": "Food Microbiology Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=506",
+      "course_description": "Introductory Microbiology. Basic microbiological techniques and safe laboratory practices. Introductory Food Microbiology. Isolation pathogenic bacteria. Spoilage microorganisms. Fermentation. Environmental Monitoring. Rapid Identification tests. Sporeformers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "507",
+      "course_combined": "FDSN 507",
+      "title": "Food Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=507",
+      "course_description": "Techniques for analyzing food toxins, food constituents of public health concern, intentional and unintentional food additives, modern separation and analytic techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "508",
+      "course_combined": "FDSN 508",
+      "title": "Food Product Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=508",
+      "course_description": "Students in this class will learn how to do the following: identify the key steps in the food product development process and stage gate concepts; develop a formulation approach with ability to effectively understand how to work well with vendors, handle labeling regulations, food safety, and consumer acceptability requirements; create a product unit costing with trade-offs and contingencies for market launch; identify key performance requirements for product shelf life testing and packaging specifications; evaluate product quality and safety with traditional and state of the art assessment tools; how to conduct consumer tests, plant trials, and introduce new products and processes into the manufacturing operation and contingency planning; and develop a strategy to monitor and improve product performance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "509",
+      "course_combined": "FDSN 509",
+      "title": "Biostatistics & Epidemiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=509",
+      "course_description": "This course covers fundamental concepts in biostatistics and epidemiology with an emphasis on applications to food science, food safety, and nutrition. The course will emphasize study designs and epidemiologic and statistical methods used to investigate the relationships between health-related variables with particular attention to food-related exposures in health and disease.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "510",
+      "course_combined": "FDSN 510",
+      "title": "Fund Biostats/Epidemiology Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=510",
+      "course_description": "This laboratory course covers fundamental concepts in biostatistics and epidemiology with an emphasis on applications to food safety and nutrition. The course will emphasize study designs and epidemiologic and statistical methods used to investigate the relationships between health-related variables with particular attention to food-related exposures in health and disease. Self-directed course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "511",
+      "course_combined": "FDSN 511",
+      "title": "Food Law and Regulations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=511",
+      "course_description": "Legal and scientific issues in regulating the nation's food supply and nutritional status. Roles of regulatory agencies; Federal Food, Drug and Cosmetic Act; definitions and standards for food and adulterated foods. Manufacturing processed foods in compliance with regulations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -424,7 +969,11 @@
       "course_description": "This course will cover the fundamental aspects of food preservation, various methods used in food preservation, and engineering calculations related to preservation processing. Perishability of different categories of food products, shelf life, microbial growth and spoilage in foods; Principles of mass and energy balance, heat transfer, and fluid flow; preservation by heat (canning, blanching, pasteurization); preservation by additives (chemical preservatives, antimicrobials, bio preservatives), preservation by pH (addition of acids, fermentation), novel methods of food preservation; preservation by temperature reduction (freezing, refrigeration); thermal process engineering calculations; preservation by water activity (dehydration, drying, evaporation, the addition of salt or sugar); preservation by other conventional methods (smoking, pickling, etc.); food packaging as a preservation aid; preservation by novel food processing technologies; special considerations for the preservation of various food products; validation of preservation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -433,9 +982,8 @@
           "crn": "16639",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16639",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -455,10 +1003,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -466,9 +1011,8 @@
           "crn": "16640",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16640",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -488,12 +1032,26 @@
             "waitlist_capacity": 5,
             "waitlist_actual": 0,
             "waitlist_remaining": 5
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "513",
+      "course_combined": "FDSN 513",
+      "title": "Food Fermentation (w/lab)",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=513",
+      "course_description": "Role and history of fermentation; the role of microorganisms in fermentation; microbial growth kinetics during food fermentation; biological pathways in fermentation; factors affecting fermentation; fermented food products; industrial-scale fermentation; operation of fermenter; the role of sterilization in fermentation; design of a fermenter; role of different types of fermentation (alkaline, alcoholic, acetic acid, high salt, savory fermentation). Students will explore processing of fermented foods via in class and hands on learning experiences.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -504,7 +1062,11 @@
       "course_description": "This course will introduce the students to various food processing technologies used in the food industry. Students will learn about a wide range of unit operations such as mixing, separation, concentration, blanching, pasteurization, evaporation, extrusion, dehydration, baking, roasting, frying, chilling, controlled atmospheric storage, freeze drying, coating, enrobing, filling and sealing. The emphasis will be on implementation of unit operations in the food industry and the impact of these unit operations on food safety, nutrition and consumer acceptability.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -513,9 +1075,8 @@
           "crn": "15451",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15451",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -535,10 +1096,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -546,9 +1104,8 @@
           "crn": "15452",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15452",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -568,12 +1125,128 @@
             "waitlist_capacity": 5,
             "waitlist_actual": 0,
             "waitlist_remaining": 5
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "515",
+      "course_combined": "FDSN 515",
+      "title": "Adv. Thermal Processing Techs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=515",
+      "course_description": "This course will provide students with an in-depth understanding of various traditional and novel thermal food processing technologies such as infrared heating, ohmic heating, microwave heating, microwave assisted thermal sterilization, and aseptic processing. Though use of these technologies for inactivation of microorganisms will be the primary focus, other applications of the technologies will also be explored.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "516",
+      "course_combined": "FDSN 516",
+      "title": "Adv. Non-Thermal Process Techs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=516",
+      "course_description": "This course will provide students with an in-depth understanding of various novel and emerging non-thermal food processing technologies such as high pressure processing, pulsed light, LED light, cold plasma, ozone processing, irradiation, pulsed electric field, supercritical technology, and high pressure homogenization. Though use of these technologies for inactivation of microorganisms will be the primary focus, other applications of the technologies will also be explored.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "519",
+      "course_combined": "FDSN 519",
+      "title": "Food Process Engineering Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=519",
+      "course_description": "This course provides hands on experience to students on various unit operations. Students will be exposed to heat and mass transfer in food processing, fluid flow, preservation processes, cooling, freezing, freeze drying, thermometry and alternative methods of food processing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "520",
+      "course_combined": "FDSN 520",
+      "title": "Low-Acid Canned Food Regs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=520",
+      "course_description": "Regulatory requirements for the U. S. Food and Drug Administration and the broad microbial issues associated with low-acid canned foods (LACF) products. Topics will include the U. S. Food Drug & Cosmetic (FD&C) Act, Emergency Permit Control, 21 Code of Federal Register (CFR) parts 108, 113, and 114, record requirements, sources of microbial contamination, characteristics of clostridium botulinum, mesosphelic sporeformers, indicator organisms, and introduction to microbial heat resistance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "521",
+      "course_combined": "FDSN 521",
+      "title": "Food Process Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=521",
+      "course_description": "Food engineering fundamentals, heat transfer in food processing, food rheology, freezing of foods, food dehydration, kinetics of chemical reactions in foods, refrigeration and thermal process calculations, and alternative methods of food processing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "522",
+      "course_combined": "FDSN 522",
+      "title": "Adv Food Process Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=522",
+      "course_description": "Process calculations for food processing methods such as canning, aseptic processing, ohmic heating, microwave processing and pulsed energy processing. Extrusion techniques in food processing. Discussion of new food processing techniques and safety implications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "523",
+      "course_combined": "FDSN 523",
+      "title": "Food Engineering Proc Delivery",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=523",
+      "course_description": "Requirements for the U. S. Food and Drug Administration food canning regulations, including system design, process establishment, operational, and inspection records. Operations and calibration requirements of thermal processing equipment. Process design, documentation of process deviation, and calculation of process delivery.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -584,7 +1257,11 @@
       "course_description": "This course will cover the central food science issues encountered with storage and processing of all major American food commodities including meats, grains, confections, vegetables, eggs, and dairy. It will also review the relevant chemistry, physics, and engineering required to understand common food-related unit operations such as drying, freezing, sterilization, and radiation treatment of foods. An introduction to microbial and chemical issues of food quality and safety will also be covered.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -593,9 +1270,8 @@
           "crn": "13101",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13101",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -615,10 +1291,7 @@
             "waitlist_capacity": 20,
             "waitlist_actual": 0,
             "waitlist_remaining": 20
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -626,9 +1299,8 @@
           "crn": "13102",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13102",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -648,12 +1320,94 @@
             "waitlist_capacity": 5,
             "waitlist_actual": 0,
             "waitlist_remaining": 5
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "526",
+      "course_combined": "FDSN 526",
+      "title": "Engineering Principles of Food",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=526",
+      "course_description": "Methods for conducting seal integrity examinations, spoilage diagnosis, and traceability, defining and classifying package defects. Types of packaging materials, including metal, glass, plastics, flexible and composite containers, and their closure and sealing systems. Aseptic and alternative process delivery systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "530",
+      "course_combined": "FDSN 530",
+      "title": "Clinical Nutrition Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=530",
+      "course_description": "This course is designed to give students experience in human and clinical nutrition research. The course will include shadowing and hands-on opportunities of assessment and technologies used in qualifying health and disease risk status. Students will learn about different research models and the techniques to assess effects of dietary components on physiological processes. Students will work with anonymized data derived from clinical trials. Statistical approaches will be taught along with differences between statistical and biological relevance. Study design and ethics in human research will be covered. Regulatory standards in health claims and drug and biologics development governed by FDA will also be addressed. Physiology strongly advised. Human biology recommended.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "531",
+      "course_combined": "FDSN 531",
+      "title": "HACCP Planning/Implementation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=531",
+      "course_description": "Examination of the Hazard Analysis and Critical Control Point (HACCP) principles; microbiological and process overviews; generic HACCP models, Good Manufacturing Practices (GMP); monitoring of critical control points (CCPs), process control and implementation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "535",
+      "course_combined": "FDSN 535",
+      "title": "Perf Mgmt in Food Operation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=535",
+      "course_description": "Creating an organization-wide culture of quality and performance is critical to managing the unique demands of a food processing company. Learn how to develop, manage, and improve food production processes, implement lean principles to eliminate waste and improve yields, and measure operational performance. Topics covered include budgeting and financial tools, introducing new food products and processes, Total Quality Management (TQM), evaluation and management of supply chain activities, and strategy deployment techniques. This course includes a Project Team Assignment from the participating plant personnel with at least one - two visits to a Food Processing Plant in the Chicago Area. An introductory course in Food Processing or Food Safety is helpful. Experience in MS Excel Worksheets, MS Word, and MS Power Point is highly recommended. This course ideally follows the FSN 408 508 Food Product Development Course as it teaches the final phases of food product development of taking a product into a manufacturing operation and how to ensure optimum performance in production.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "541",
+      "course_combined": "FDSN 541",
+      "title": "Principles of Food Packaging",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=541",
+      "course_description": "Type and application of packaging materials. Migration theories and food package interaction, package testing to ensure safety, and recycling of package materials.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -664,7 +1418,11 @@
       "course_description": "Research and Thesis for Master of Science Degree students.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -673,9 +1431,8 @@
           "crn": "13110",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13110",
           "credits": 8.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -695,10 +1452,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "187",
@@ -706,9 +1460,8 @@
           "crn": "13112",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13112",
           "credits": 8.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -728,10 +1481,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "188",
@@ -739,9 +1489,8 @@
           "crn": "13113",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13113",
           "credits": 8.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -761,12 +1510,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "593",
+      "course_combined": "FDSN 593",
+      "title": "Seminars in FDSN",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=593",
+      "course_description": "Students attend seminars offered during the semester. Each student is also required to give a 30-minute presentation on a topic of his/her interest or a research project on which she/he has worked.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -777,7 +1540,11 @@
       "course_description": "Advanced projects in food processing and packaging, food microbiology and safety, food chemistry, and nutrition.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -786,9 +1553,8 @@
           "crn": "13129",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13129",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -808,10 +1574,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "187",
@@ -819,9 +1582,8 @@
           "crn": "13131",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13131",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -841,10 +1603,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "188",
@@ -852,9 +1611,8 @@
           "crn": "13132",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13132",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -874,10 +1632,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -890,7 +1645,11 @@
       "course_description": "Independent study of advanced topics in food science and nutrition including food processing and packaging, food microbiology and safety, food chemistry, and nutrition.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -899,9 +1658,8 @@
           "crn": "17011",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17011",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -921,10 +1679,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "187",
@@ -932,9 +1687,8 @@
           "crn": "17010",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17010",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -954,10 +1708,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "188",
@@ -965,9 +1716,8 @@
           "crn": "17008",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17008",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -987,12 +1737,94 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "600",
+      "course_combined": "FDSN 600",
+      "title": "Continuing of Residence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=600",
+      "course_description": "Continuing of residence.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "610",
+      "course_combined": "FDSN 610",
+      "title": "Adv Topics Food Microbiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=610",
+      "course_description": "This course is an advanced course in food safety microbiology covering the latest development and trends in food safety related microbiology, including emerging foodborne pathogens of public health significance, as well as the use of the latest technologies for the detection and control of these microbial food safety hazards. This course can be used as credits towards candidature for a Ph.D. degree in Food Safety and Technology/Food Science and Nutrition.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "620",
+      "course_combined": "FDSN 620",
+      "title": "Adv Topics Food Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=620",
+      "course_description": "This course can be used as credits towards candidature for a Ph.D. degree in Food Science and Nutrition. This course is expected to cover advanced knowledge in the chemistry of the components of foods, their physiochemical properties and chemical interactions, and the chemical changes that occur during processing, storage, and packaging. Students are expected to work on evidence derived from original research literature, interpretation of research findings, and problem solving based on the scientific principles of food chemistry. This advanced program is open to individuals who hold undergraduate degrees in chemistry, food science, or related disciplines. Students who have completed the FDSN 524 Fundamentals of Food Science and Technology and FDSN 507 Food Analysis courses with a B or higher may also apply. Upon successful completion of this course, students are expected to be able to translate theory and research into practice.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "630",
+      "course_combined": "FDSN 630",
+      "title": "Adv Topics Nutrition",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=630",
+      "course_description": "This course can be used as credits towards candidature for a Ph.D. degree in Food Science and Nutrition. This course is expected to cover advanced knowledge in nutrition, metabolism, disease prevention and health promotion. This advanced program is open to individuals who hold undergraduate degrees in nutritional science, food science, health science, biology, biochemistry, chemistry or related disciplines. Students who have completed the FDSN 501 course with a B or higher may also apply. Upon successful completion of this course, students are expected to be able to translate theory and research into practice.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "640",
+      "course_combined": "FDSN 640",
+      "title": "Adv Topics Food Process Engg",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=640",
+      "course_description": "This course covers recent advancements and developments in food engineering and food processing including novel and emerging processing technologies, advanced thermal process calculations, modeling, simulation, sustainable food processing, process controls & automation and kinetics of food transformations, energy reduction, and food rheology. This course can be used towards candidature for a Ph.D. degree in Food Safety and Technology/Food Science and Nutrition.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "FDSN",
@@ -1003,7 +1835,11 @@
       "course_description": "Research and Thesis for Ph.D. Food Science Candidates.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1012,9 +1848,8 @@
           "crn": "13119",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13119",
           "credits": 10.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1034,10 +1869,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "188",
@@ -1045,9 +1877,8 @@
           "crn": "15476",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15476",
           "credits": 10.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1067,12 +1898,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "FDSN",
+      "course_num": "695",
+      "course_combined": "FDSN 695",
+      "title": "Research Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=FDSN&crse_numb_in=695",
+      "course_description": "This course is designed for Ph.D. students to attend research seminars that are presented by invited speakers from academia, food industry and federal government agencies to broaden their understandings and knowledge of various scientific topics and original research in Food Science and Nutrition. This course is mandatory for all Ph.D. students enrolled in the FDSN program. A minimum of 2 credits or 2 semesters of attendance is required for each student. It does not deal with specific techniques per se, but rather with the assumptions and the logic underlying food science and nutrition research. Students will become acquainted with a variety of approaches to research design from the speakers which, in turn, will help to develop their own research projects. A written report that summarizes the major impacts and findings of all presentations is due at the end of the semester.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

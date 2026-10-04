@@ -76,27 +76,24 @@ def get_catalog_data(soup):
             if syllabus_url.startswith("/"):
                 syllabus_url = "https://ssb.iit.edu" + syllabus_url
 
-        # catalog_info = catalog_json.get(course_num, {})
         catalog_courses[course_code + course_num] = {
+            "course_code": course_code,
+            "course_num": course_num,
             "title": title,
             "catalog_entry_url": catalog_url,
             "course_description": description,
             "catalog_syllabus_url": syllabus_url,
-            # "mutual_exclusions": catalog_info.get("mutual_exclusion", "")
         }
 
     return catalog_courses
 
 def process_department(semester, department):
     catalog_html_path = os.path.join(CACHE_DIR, semester, "catalog", department + ".html")
-    # catalog_json_path = os.path.join(CACHE_DIR, semester, "catalog", department + ".json")
     schedule_html_path = os.path.join(CACHE_DIR, semester, "schedule", department + ".html")
     schedule_json_path = os.path.join(CACHE_DIR, semester, "schedule", department + ".json")
 
     with open(catalog_html_path, "r", encoding="utf-8") as f:
         catalog_soup = BeautifulSoup(f, "html.parser")
-    # with open(catalog_json_path, "r", encoding="utf-8") as f:
-    #     catalog_json = json.load(f)
 
     catalog_courses = get_catalog_data(catalog_soup)
 
@@ -115,7 +112,7 @@ def process_department(semester, department):
         heading_text = clean_text(link.get_text(" ", strip=True))
 
         match = re.search(
-            r"^(.*?)\s*-\s*(\d+)\s*-\s*([A-Z0-9]+)\s+(\d+)\s*-\s*(\d+)$",
+            r"^(.*?)\s*-\s*(\d+)\s*-\s*([A-Z0-9]+)\s+(\d+)\s*-\s*([A-Z0-9]+$)",
             heading_text
         )
         if not match:
@@ -173,8 +170,16 @@ def process_department(semester, department):
         credits_match = re.search(r"([\d.]+)\s+Credits", text)
         credits = float(credits_match.group(1)) if credits_match else None
 
-        instructional_method_match = re.search(r"([\w/]+(?:\s[\w/]+)*)\s+Instructional Method", text)
-        instructional_method = instructional_method_match.group(1) if instructional_method_match else ""
+        schedule_type = ""
+        campus = ""
+        for line in text.split("\n"):
+            line = line.strip()
+            type_match = re.match(r"^([\w/]+(?: [\w/]+)*) Schedule Type$", line)
+            
+            if type_match:
+                schedule_type = type_match.group(1)
+            elif line.endswith(" Campus"):
+                campus = line
 
         catalog_entry_url = ""
         catalog_link = info_cell.find(
@@ -203,6 +208,8 @@ def process_department(semester, department):
                     continue
 
                 values = [clean_text(cell.get_text(" ", strip=True)) for cell in cells]
+                if values[0] == "Final Exam":
+                    continue
 
                 instructor_email = ""
                 email_link = cells[6].find("a", href=True)
@@ -229,11 +236,10 @@ def process_department(semester, department):
                 })
 
         section_availability = availability.get(crn, {})
-        learning_objectives = section_availability.get(
-            "learning_objectives",
-            ""
-        )
+        learning_objectives = section_availability.get("learning_objectives", "")
         restrictions = section_availability.get("restrictions", "")
+        prerequisites = section_availability.get("prerequisites", "")
+        general_requirements = section_availability.get("general_requirements", "")
         mutual_exclusion = section_availability.get("mutual_exclusion", "")
 
         section_data = {
@@ -242,9 +248,8 @@ def process_department(semester, department):
             "crn": crn,
             "section_url": course_url,
             "credits": credits,
-            "instructional_method": instructional_method,
-            "levels": levels,
-            "attributes": attributes,
+            "schedule_type": schedule_type,
+            "campus": campus,
             "notes": notes,
             "meetings": meetings,
             "availability": {
@@ -254,10 +259,7 @@ def process_department(semester, department):
                 "waitlist_capacity": section_availability.get("waitlist_capacity"),
                 "waitlist_actual": section_availability.get("waitlist_actual"),
                 "waitlist_remaining": section_availability.get("waitlist_remaining")
-            },
-            "restrictions": section_availability.get("restrictions", ""),
-            "prerequisites": section_availability.get("prerequisites", ""),
-            "general_requirements": section_availability.get("general_requirements", "")
+            }
         }
 
         if course_key not in courses:
@@ -270,15 +272,61 @@ def process_department(semester, department):
                 "course_description": catalog_course.get("course_description", ""),
                 "learning_objectives": learning_objectives,
                 "catalog_syllabus_url": catalog_course.get("catalog_syllabus_url", ""),
-                "catalog_restrictions": restrictions,
+                "levels": levels,
+                "attributes": attributes,
+                "restrictions": restrictions,
+                "prerequisites": prerequisites,
+                "general_requirements": general_requirements,
                 "mutual_exclusions": mutual_exclusion,
                 "sections": []
             }
+        else:
+            existing = courses[course_key]
+            if not existing["restrictions"] and restrictions:
+                existing["restrictions"] = restrictions
+            if not existing["prerequisites"] and prerequisites:
+                existing["prerequisites"] = prerequisites
+            if not existing["general_requirements"] and general_requirements:
+                existing["general_requirements"] = general_requirements
+            if not existing ["mutual_exclusions"] and mutual_exclusion:
+                existing["mutual_exclusions"] = mutual_exclusion
+            if not existing["levels"] and levels:
+                existing["levels"] = levels
+            if not existing["attributes"] and attributes:
+                existing["attributes"] = attributes
+            if not existing["learning_objectives"] and learning_objectives:
+                existing["learning_objectives"] = learning_objectives
+
         courses[course_key]["sections"].append(section_data)
+
+    for course_key, catalog_course in catalog_courses.items():
+        if course_key in courses:
+            continue
+            
+        courses[course_key] = {
+            "course_code": catalog_course["course_code"],
+            "course_num": catalog_course["course_num"],
+            "course_combined": catalog_course["course_code"] + " " + catalog_course["course_num"],
+            "title": catalog_course.get("title", ""),
+            "catalog_entry_url": catalog_course.get("catalog_entry_url", ""),
+            "course_description": catalog_course.get("course_description", ""),
+            "learning_objectives": "",
+            "catalog_syllabus_url": catalog_course.get("catalog_syllabus_url", ""),
+            "levels": "",
+            "attributes": "",
+            "restrictions": "",
+            "prerequisites": "",
+            "general_requirements": "",
+            "mutual_exclusions": "",
+            "sections": []
+        }
 
     output = {
         "term": semester,
-        "courses": list(courses.values())
+        "courses": sorted(
+            courses.values(),
+            key=lambda c: int(c["course_num"] if c["course_num"].isdigit() else c["course_num"])
+        )
     }
 
     output_dir = os.path.join(OUTPUT_DIR, semester)
@@ -290,15 +338,25 @@ def process_department(semester, department):
 
     print("Created", output_path)
 
-for semester in os.listdir(CACHE_DIR):
-    schedule_dir = os.path.join(CACHE_DIR, semester, "schedule")
-    if not os.path.isdir(schedule_dir):
-        continue
-
-    for filename in os.listdir(schedule_dir):
-        if not filename.endswith(".html"):
+def combine_and_clean(semester_filters=None, departments_filter= None):
+    for semester in os.listdir(CACHE_DIR):
+        if semester_filters is not None and semester not in semester_filters:
             continue
-        department = filename[:-len(".html")]
-        process_department(semester, department)
 
-print("combine_and_clean done")
+        schedule_dir = os.path.join(CACHE_DIR, semester, "schedule")
+        if not os.path.isdir(schedule_dir):
+            continue
+
+        for filename in os.listdir(schedule_dir):
+            if not filename.endswith(".html"):
+                continue
+            department = filename[:-len(".html")]
+
+            if departments_filter is not None and department not in departments_filter:
+                continue
+            process_department(semester, department)
+
+    print("\nData parsed into JSON")
+
+if __name__ == "__main__":
+    combine_and_clean()

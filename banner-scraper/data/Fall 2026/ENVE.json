@@ -10,7 +10,11 @@
       "course_description": "This course introduces students to the fundamentals of earth and environmental science. Topics include: earth systems science; geologic processes, soils, and minerals; global tectonics and earthquakes; environmental systems and biogeochemical cycles; land resources and agriculture; renewable and nonrenewable energy; water resources and water pollution; air pollution; solid waste; climate alteration and global climate change; and environmental sustainability.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 124 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "14609",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14609",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 124 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "The theory and practice involved in planning and design of water systems are introduced in this course. Topics include hydraulics, hydrology, storm water management, water supply distribution, and waste water collection and transport systems. Hydraulics includes flow of fluids through orifices, weirs, venturi meters, laminar and turbulent flow in closed conduits, open channel flow. Hydrology includes rainfall, runoff, and collection and distribution of water. Model analysis using the principles of dimensional analysis and software applications.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "CAEE Design Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CAE 302 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CAE 209 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: MMAE 313 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHE 301 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "15624",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15624",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "CAEE Design Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +91,162 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CAE 302 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CAE 209 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: MMAE 313 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHE 301 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "402",
+      "course_combined": "ENVE 402",
+      "title": "Introduction to Environmental",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=402",
+      "course_description": "This course provides an overview of how environmental engineers integrate biological, chemical, and physical sciences with engineering design methods to develop solutions to environmental problems. Topics include air pollution, water pollution, solid waste management, fate and transport of contaminants, pollution prevention, environmental regulation, risk assessment, climate science, and sustainability assessment. Focuses on applications and actual design practice.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "403",
+      "course_combined": "ENVE 403",
+      "title": "Occupational and Environmental",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=403",
+      "course_description": "This course is intended to introduce students to the basics of occupational and environmental safety and health. Topics include fundamental principles in industrial hygiene and occupational and environmental safety based in the anticipation, recognition, evaluation, and control of chemical, biological, physical, and ergonomic hazards that can be encountered in the workplace and other settings. Applications include indoor air pollution control, natural disaster mitigation, and infectious disease transmission and control. Understanding of basic chemistry and elementary statistics is recommended.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "404",
+      "course_combined": "ENVE 404",
+      "title": "Water & Wastewater Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=404",
+      "course_description": "Water quality and water supply issues make up this course including the physical, chemical, and biological processes involved in water treatment. Process design, operations, and management are also considered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "422",
+      "course_combined": "ENVE 422",
+      "title": "Global Change Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=422",
+      "course_description": "This course introduces students to concepts of global biogeochemistry and environmental sustainability, including the practice of life cycle assessment (LCA). The course begins with an overview of the global energy, water, carbon, and nitrogen cycles and their relationships to human activities. The focus then shifts to LCA, which is an analytical approach for quantifying the relationships between economic activities and environmental issues. LCA is often used to develop sustainability metrics to compare alternative approaches to meet economic needs such as transportation, food provision, and building construction. This course is open to all majors with familiarity in basic chemistry, but students will be expected to conduct quantitative analyses and perform basic engineering calculations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "423",
+      "course_combined": "ENVE 423",
+      "title": "Geoenvironmental Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=423",
+      "course_description": "This course provides students with a comprehensive understanding of global geoenvironmental challenges. Subject matter includes interactions between soils, rocks, groundwater, and contaminants; issues related to hazardous and non-hazardous waste management; contaminated site remediation; and the principles of sustainable development. Essential topics include (1) geoenvironmental problems and the need for geoenvironmental engineering, (2) the fundamental background needed to understand and address geoenvironmental problems, (3) management of wastes through engineered landfills and impoundments, (4) characterizing, assessing, and remediating contaminated sites, (5) beneficial use of waste and recycled materials, and (6) incorporating sustainability in waste management and pollution control. By the end of the course, students will be equipped with the fundamental knowledge and practical skills to address and resolve a range of geoenvironmental issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "444",
+      "course_combined": "ENVE 444",
+      "title": "Carbon Cap Util Stor",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=444",
+      "course_description": "To address the climate impacts of anthropogenic sources of carbon dioxide (CO2), it has become increasingly important to focus on solutions for CO2 removal processes, especially directly from CO2 emission sources. Carbon capture and sequestration/storage (CCS) is the process of capturing CO₂ formed during power generation and other industrial processes and sequestering it so that it is not emitted into the atmosphere. CCS technologies have significant potential to reduce CO2 emissions in energy systems. This course will review and explore, in detail, the engineering design principles for solutions of carbon capture at the source or direct air capture (DAC) from the atmosphere, utilization, and storage. Topics include an overview of the importance current and future potential of CCS and other technologies such as direct air capture; power generation fundamentals related to carbon emissions and our reliance on fossil energy; current state of research and development on carbon capture technologies; storage, monitoring, and utilization of CO2; CO2 transportation (e.g., pipeline and marine modes); and economics of technologies for removing CO2 from the atmosphere and additional methods of reducing CO2 concentrations and other greenhouse gases in the atmosphere.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "463",
+      "course_combined": "ENVE 463",
+      "title": "Intro Air Pollution Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=463",
+      "course_description": "Air pollution sources and characteristics of source emissions, atmospheric reactions, effects of pollutants, and techniques of emission control are presented in this course. Legal and administrative aspects of air pollution control are also described.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "476",
+      "course_combined": "ENVE 476",
+      "title": "Engrg Control Ind Hazards",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=476",
+      "course_description": "Design of control systems to enhance occupational safety and health; how to recognize and control existing or potential safety and health hazards.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "485",
+      "course_combined": "ENVE 485",
+      "title": "Industrial Ecology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=485",
+      "course_description": "This course provides an overview of industrial ecology, the study of the science and engineering relationships between cultural and ecological systems, and how those relationships can be managed to achieve a more sustainable economy. Because it is an interdisciplinary field, topics include technology (science and engineering), public policy and regulatory issues, and business administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ENVE",
@@ -104,7 +257,11 @@
       "course_description": "This is a project-based course requiring the integration of multiple disciplines to satisfy client requirements for a real environmental engineering design project. By completing this course, students are expected to demonstrate that they can work in multidisciplinary teams to solve an environmental problem; design an environmental engineering system that includes considerations of risk, uncertainty, sustainability, life-cycle principles, and environmental impacts; and communicate an environmental design in written reports, drawings, and oral presentations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "CAEE Design Course, Ethics Content, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +270,8 @@
           "crn": "17364",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17364",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "CAEE Design Course, Ethics Content, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +291,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "497",
+      "course_combined": "ENVE 497",
+      "title": "Special Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=497",
+      "course_description": "Special design project under individual supervision of instructor. Consent of instructor is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "501",
+      "course_combined": "ENVE 501",
+      "title": "Environmental Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=501",
+      "course_description": "Chemical processes in environmental systems with an emphasis on equilibrium conditions in aquatic systems. Processes examined include acid-base, dissolution precipitation, air-water exchange, and oxidation-reduction reactions. Methods presented for describing chemical speciation include analytical and graphical techniques as well as computer models.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "503",
+      "course_combined": "ENVE 503",
+      "title": "Occupational and Environmental",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=503",
+      "course_description": "This course is intended to introduce students to the basics of occupational and environmental safety and health. Topics include fundamental principles in industrial hygiene and occupational and environmental safety based in the anticipation, recognition, evaluation, and control of chemical, biological, physical, and ergonomic hazards that can be encountered in the workplace and other settings. Applications include indoor air pollution control, natural disaster mitigation, and infectious disease transmission and control.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ENVE",
@@ -151,7 +355,11 @@
       "course_description": "Processes that determine the fate and transport of contaminants in the environment. Upon successful completion of this course, students should be able to formulate creative, comprehensive solutions to transport problems, critically evaluate proposed solutions to transport problems, and acquire and integrate new information to build on these fundamentals.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ENVE 402 May not be taken concurrently. ) or ( Course or Test: CAE 402 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +368,8 @@
           "crn": "17256",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17256",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +389,230 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ENVE 402 May not be taken concurrently. ) or ( Course or Test: CAE 402 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "513",
+      "course_combined": "ENVE 513",
+      "title": "Biotech Processes in ENVE",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=513",
+      "course_description": "Fundamentals and applications of biological mixed culture processes for air, water, wastewater, and hazardous waste treatment. Topics include biochemical reactions, stoichometry, enzyme and microbial kinetics, detoxification of toxic chemicals, and suspended growth and attached growth treatment processes. The processes discussed include activated sludge process and its modifications, biofilm processes including trickling filters and biofilters, nitrogen and phosphorous removal processes, sludge treatment processes including mesophilic and thermophilic systems, and natural systems including wetlands and lagoons.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "522",
+      "course_combined": "ENVE 522",
+      "title": "Global Change Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=522",
+      "course_description": "This course introduces students to concepts of global biogeochemistry and environmental sustainability, including the practice of life cycle assessment (LCA). The course begins with an overview of the global energy, water, carbon, and nitrogen cycles and their relationships to human activities. The focus then shifts to LCA, which is an analytical approach for quantifying the relationships between economic activities and environmental issues. LCA is often used to develop sustainability metrics to compare alternative approaches to meet economic needs such as transportation, food provision, and building construction. This course is open to all majors with familiarity in basic chemistry, but students will be expected to conduct quantitative analyses and perform basic engineering calculations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "523",
+      "course_combined": "ENVE 523",
+      "title": "Geoenvironmental Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=523",
+      "course_description": "This course provides students with a comprehensive understanding of global geoenvironmental challenges. Subject matter includes interactions between soils, rocks, groundwater, and contaminants; issues related to hazardous and non-hazardous waste management; contaminated site remediation; and the principles of sustainable development. Essential topics include (1) geoenvironmental problems and the need for geoenvironmental engineering, (2) the fundamental background needed to understand and address geoenvironmental problems, (3) management of wastes through engineered landfills and impoundments, (4) characterizing, assessing, and remediating contaminated sites, (5) beneficial use of waste and recycled materials, and (6) incorporating sustainability in waste management and pollution control. By the end of the course, students will be equipped with the fundamental knowledge and practical skills to address and resolve a range of geoenvironmental issues.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "528",
+      "course_combined": "ENVE 528",
+      "title": "Modeling of Envrmtl Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=528",
+      "course_description": "To introduce students to mathematical modeling as a basic tool for problem solving in engineering and research. Environmental problems will be used as examples to illustrate the procedures of model development, solution techniques, and computer programming. These models will then be used to demonstrate the application of the models including simulation, parameter estimation, and experimental design. The goal is to show that mathematical modeling is not only a useful tool but also an integral part of process engineering.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "542",
+      "course_combined": "ENVE 542",
+      "title": "Physicochemical Processes in E",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=542",
+      "course_description": "Fundamentals and applications of physicochemical processes used in air, water, wastewater, and hazardous waste treatment systems. Topics include reaction kinetics and reactors, particle characterization, coagulation and flocculation, sedimentation, filtration, membrane separation, adsorption, and absorption.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "543",
+      "course_combined": "ENVE 543",
+      "title": "Carbon Cap Util Stor",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=543",
+      "course_description": "To address the climate impacts of anthropogenic sources of carbon dioxide (CO2), it has become increasingly important to focus on solutions for CO2 removal processes, especially directly from CO2 emission sources. Carbon capture and sequestration/storage (CCS) is the process of capturing CO₂ formed during power generation and other industrial processes and sequestering it so that it is not emitted into the atmosphere. CCS technologies have significant potential to reduce CO2 emissions in energy systems. This course will review and explore, in detail, the engineering design principles for solutions of carbon capture at the source or direct air capture (DAC) from the atmosphere, utilization, and storage. Topics include an overview of the importance current and future potential of CCS and other technologies such as direct air capture; power generation fundamentals related to carbon emissions and our reliance on fossil energy; current state of research and development on carbon capture technologies; storage, monitoring, and utilization of CO2; CO2 transportation (e.g., pipeline and marine modes); and economics of technologies for removing CO2 from the atmosphere and additional methods of reducing CO2 concentrations and other greenhouse gases in the atmosphere.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "551",
+      "course_combined": "ENVE 551",
+      "title": "Industrial Waste Treatment",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=551",
+      "course_description": "Industrial waste sources and characteristics, significance of industrial waste as environmental pollutants; applications of standard and special treatment processes including physical, chemical, and biological systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "561",
+      "course_combined": "ENVE 561",
+      "title": "Dsgn of Envrmtl Engr Prcs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=561",
+      "course_description": "Design of water and wastewater treatment systems. System economics and optimal design principles.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "570",
+      "course_combined": "ENVE 570",
+      "title": "Air Pollution Meteorology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=570",
+      "course_description": "Physical processes associated with the dispersion of windborne materials from industrial and other sources. Atmospheric motion including turbulence and diffusion, mathematical models, and environmental impact assessment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "576",
+      "course_combined": "ENVE 576",
+      "title": "Indoor Air Pollution",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=576",
+      "course_description": "Indoor air pollution sources, indoor pollutant levels, monitoring instruments and designs, and indoor pollution control strategies; source control, control equipment and ventilation; energy conservation and indoor air pollution; exposure studies and population time budgets; effects of indoor air population; risk analysis; models for predicting source emission rates and their impact on indoor air environments.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "577",
+      "course_combined": "ENVE 577",
+      "title": "Dsgn of Air Poltn Control Dvcs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=577",
+      "course_description": "Principles and modern practices employed in the design of engineering systems for the removal of pollutants. Design of control devices based on physical and chemical characteristics of polluted gas streams.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "578",
+      "course_combined": "ENVE 578",
+      "title": "Phys&Chem Prcs Indus Gas Clng",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=578",
+      "course_description": "Application of physical and chemical processes in the design of air treatment systems; fundamentals of standard and special treatment processes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ENVE",
+      "course_num": "580",
+      "course_combined": "ENVE 580",
+      "title": "Hazardous Waste Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ENVE&crse_numb_in=580",
+      "course_description": "Sources and characteristics of hazardous wastes, legal aspects of hazardous waste management, significance of hazardous wastes as air, water, and soil pollutants. Principles and applications of conventional and specialized hazardous waste control technologies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ENVE",
@@ -198,7 +623,11 @@
       "course_description": "Graduate research.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +636,8 @@
           "crn": "10593",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10593",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +657,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "135",
@@ -240,9 +665,8 @@
           "crn": "11361",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11361",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -262,10 +686,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -273,9 +694,8 @@
           "crn": "11362",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11362",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -295,10 +715,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "171",
@@ -306,9 +723,8 @@
           "crn": "14367",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14367",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -328,10 +744,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -344,7 +757,11 @@
       "course_description": "Independent study and project. (Variable credit)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -353,9 +770,8 @@
           "crn": "10144",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10144",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -375,10 +791,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "135",
@@ -386,9 +799,8 @@
           "crn": "10594",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10594",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -408,10 +820,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -419,9 +828,8 @@
           "crn": "11363",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11363",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -441,10 +849,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "171",
@@ -452,9 +857,8 @@
           "crn": "14366",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14366",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -474,10 +878,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -490,7 +891,11 @@
       "course_description": "Graduate research.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Non Credit",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -499,9 +904,8 @@
           "crn": "10145",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10145",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -521,10 +925,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "135",
@@ -532,9 +933,8 @@
           "crn": "10595",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10595",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -554,10 +954,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -565,9 +962,8 @@
           "crn": "11364",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11364",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -587,10 +983,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "171",
@@ -598,9 +991,8 @@
           "crn": "14368",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14368",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -620,10 +1012,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

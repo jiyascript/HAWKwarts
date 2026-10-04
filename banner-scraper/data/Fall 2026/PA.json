@@ -3,6 +3,40 @@
   "courses": [
     {
       "course_code": "PA",
+      "course_num": "150",
+      "course_combined": "PA 150",
+      "title": "PA Visiting Away",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=150",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "501",
+      "course_combined": "PA 501",
+      "title": "Introduction to Public Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=501",
+      "course_description": "This course provides an understanding of the fundamental theories, key practices and underlying values that provide the framework for contemporary American public administration. It will discuss the political and administrative values affecting the theory and practice of public administration in the United States; review the historical development of American public administrative systems and processes; examine key issues facing public administrators in the light of both traditional and contemporary values and views; critically evaluate administrative approaches to public service delivery; and explore contemporary strategies to address critical problems in a rapidly changing world",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
       "course_num": "502",
       "course_combined": "PA 502",
       "title": "Organizational Behavior",
@@ -10,7 +44,11 @@
       "course_description": "PA 502 builds awareness and understanding of the behavior of individuals and groups in organizations, preparing managers to be more effective within their organizational contexts. Topics include individual differences in motivation, perception, culture and learning style, group and organizational dynamics, and the impact of organizational structure and culture on behavior. Leadership techniques for influencing other organizational members, creative problem-solving and decision-making, ethics and values-based managing are covered. This course helps students relate basic theories, concepts, and techniques to real-world situations through the extensive use of case studies.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+      "attributes": "MPA Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +57,8 @@
           "crn": "17096",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17096",
           "credits": 3.0,
-          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
-          "attributes": "MPA Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +78,94 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "510",
+      "course_combined": "PA 510",
+      "title": "Managerial Communications",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=510",
+      "course_description": "This course provides hands-on training and practice in the styles of writing and related communications skills needed by all public managers, including memoranda, letters, and formal reports. Emphasis is placed on learning and practicing effective writing and communication related to real-world administrative and managerial situations relevant to the student's particular current or chosen professional position.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "512",
+      "course_combined": "PA 512",
+      "title": "Public Advocacy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=512",
+      "course_description": "The goal of this course is to assist students functioning as strong advocates in their future careers and to help them prepare for their thesis or final project presentation. This is an advanced research and writing course. Public Advocacy is the study of effective argument. The course is designed to allow students to focus their prior learning experiences through problem analysis and advocacy. Using individual topics, students will address the problems of advocacy including different types of advocacy situations requiring different information, analyses, and presentations. Substantive topics of current interest and controversy will be discussed in the context of developing and advocating a particular position.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "516",
+      "course_combined": "PA 516",
+      "title": "Info Tech in Publc Admin",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=516",
+      "course_description": "The course has the learning objective of becoming aware of the general management challenges that the use of information technology presents for governments and to be able to develop appropriate policies that address these challenges. Upon completion, students should be able to apply best practices to the management of computer hardware, software, networking, and other technologies in government and appreciate how the use of electronic government technology can transform government and be able to help governments develop and manage effective programs of e-government use.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "522",
+      "course_combined": "PA 522",
+      "title": "Human Resource Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=522",
+      "course_description": "This course focuses on human resource planning, recruitment, examination, and promotion of procedure. It familiarizes students with the key human resources management factors involved in supervising employees as well as collective bargaining, affirmative action, and employee productivity and performance evaluation. It is directed towards practical applications in dealing with these topics as managers and employees working in their teams or individually and covers employee professional responsibility and behavior. Students in this class will learn to utilize human resource planning, recruiting, interviewing and selection processes to improve organizational outcomes; analyze the legal/cultural aspects of personnel when making organizational decisions; identify the key components of performance management to improve themselves and their direct reports; develop specific solutions to solve critical workplace personnel issues; and apply a variety of motivation and team performance techniques in current and future organizational settings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "523",
+      "course_combined": "PA 523",
+      "title": "Strategic Planning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=523",
+      "course_description": "This course will focus on the three sets of key questions: (1) mission and vision (\"What areas or activities should we be working in or on?\"); (2) strategy and operations (\"How can we perform effectively in this area?\"); and (3) leadership (“What leadership skills are needed to develop and implement strategies effectively?”). We will cover both strategy formulation (\"What should our strategy be?\") and strategy implementation (\"What do we need to do to make this strategy work?\"). All organizations – government agencies as well as non-profit or private companies with a public purpose – face substantial challenges that demand strategic responses, often in uncertain economic, social, or political contexts. To deal effectively with these challenges, managers need knowledge and skills in strategic management and leadership: setting and aligning goals with the organization’s mission; handling complex trade-offs between demand for services and resource constraints; defining measures of success; motivating staff and other stakeholders; developing relationships with relevant groups; dealing with crises and environments in transition; and leading organizational change. In short, the course emphasizes the multiple, related requirements of the leader/manager's job: analysis, creativity, and action.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PA",
@@ -57,7 +176,11 @@
       "course_description": "The purpose of this course is to introduce students to public budgeting, governmental accounting and related areas of public fiscal administration. The course will give students a basic understanding of the concepts and skills needed to evaluate budget processes and documents and to assess the financial condition of governments. It is also designed to provide students with an understanding of the public finance environment and an opportunity to explore practical challenges in managing government resources. Emphasizing best practice models and case studies, the course will focus primarily on local government finance with some reference to state governmental policies and practices and nonprofit organizations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+      "attributes": "MPA Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +189,8 @@
           "crn": "15579",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15579",
           "credits": 3.0,
-          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
-          "attributes": "MPA Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -83,17 +205,48 @@
           ],
           "availability": {
             "capacity": 10,
-            "actual": 6,
-            "remaining": 4,
+            "actual": 7,
+            "remaining": 3,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate May not be assigned one of the following Student Attributes: Coursera PBA Course Blocker Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "535",
+      "course_combined": "PA 535",
+      "title": "Resource Dev in the Nonprofit",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=535",
+      "course_description": "Resource Development in the Nonprofit Sector provides insight and learning into fundraising, marketing, and strategic planning in the nonprofit sector. This course offers an in-depth look into finding and securing the resources necessary to the success of nonprofit organizations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "541",
+      "course_combined": "PA 541",
+      "title": "Performance Measurement",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=541",
+      "course_description": "Performance management is a process of measuring progress toward specific organizational goals and objectives through the use of quantitative indicators of efficiency, effectiveness and quality. It is an essential tool that can help nonprofit and government leaders and staff plan and manage the programs and services they offer to customers, clients, and the public. This is an applied course which will help students understand performance management concepts, develop specific performance measures, and apply performance management techniques to solve real world problems in both the nonprofit and public sectors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PA",
@@ -104,7 +257,11 @@
       "course_description": "The effective development, planning, execution, and communication of special projects are critical to all types of public service organizations and private sector organizations. Service organizations, healthcare providers, nonprofits, government organizations, and private sector organizations constantly pursue new initiatives and projects to address the demands of their constantly changing environments. This course will offer an introduction to basic concepts and methods for directing projects and will provide students with tools that prepare them for success in project management. Examples in this course will be drawn from both the public and private sector. The course will be divided into the following components: • Project Plan Definition (Purpose, Goals, Objectives, Expectations, Roles, and Quality Management, Approach and Ground Rules) • Scope of the Project (Definition, Costs, Benefits, Risks, Products, Deliverables, Milestone, and Impacted Business Areas) • Assumptions (Specific and Measurable) • Constraints (Limitations to the Project, Related Projects, Critical Dependencies) • Quality Management Approach (Activity Reviews/Walkthroughs, Tools and Techniques, Test Approach, Performance/Quality Standards, Quality Management Roles, and Training) • Project Management Approach (Work Breakdown, Basis of Estimates, Project Effort Estimation, Project Standards, Project Roles and Responsibilities, Change and Issues Management Approach, Communication and Control Approach) • Attachments (Any pertinent work, flow charts, and approvals that need to be added to flesh out the project) • Project Budget • Project Impact Report • Approvals (Sign-off sheets)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "MPA Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +270,8 @@
           "crn": "17097",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17097",
           "credits": 3.0,
-          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "MPA Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,10 +291,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -151,7 +304,11 @@
       "course_description": "This course gives students a practical introduction to the exciting and rapidly growing field of social entrepreneurship. The course will begin by introducing students to contemporary understandings of poverty, its causes, and traditional poverty alleviation strategies. It will then turn to key concepts regarding social ventures including entrepreneurship, organizational structures (for profit, nonprofit, and hybrid), financing, marketing, and performance assessment (social and environmental impact). We will also examine the challenges that are faced in creating and operating social enterprises in different parts of the world. The course includes guest lectures by the Stuart School of Business faculty and social entrepreneurs working in different areas (such as health, education, and environment). Students will gain hands-on experience by either developing a business plan for a social enterprise to address a specific real world problem or assisting an existing social venture in developing a business plan geared towards an expansion of its services. It is expected that the plans can be entered into a variety of social venture competitions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+      "attributes": "MPA Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +317,8 @@
           "crn": "15581",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15581",
           "credits": 3.0,
-          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
-          "attributes": "MPA Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +338,128 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "551",
+      "course_combined": "PA 551",
+      "title": "Infrastructure Mgmt Financing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=551",
+      "course_description": "A city’s built environment begins with its underlying foundation or infrastructure. Historically, infrastructure had been built and financed by individuals and the private sector, but most infrastructure today is in the public domain. Governments plan, budget, and finance their fixed assets or capital facilities. This course will examine the capital budgeting process and its evolution, the linkages between the capital budget and the capital improvement plan, methods and techniques of financing capital improvements, prioritization of capital projects, capital budgeting concepts and investment strategies and evaluation techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "553",
+      "course_combined": "PA 553",
+      "title": "Public Safety Administration",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=553",
+      "course_description": "This course deals with contemporary public safety and security management in communities for public safety professionals, public administrators, and law enforcement officials who deal with public safety issues existing in post-9/11 American society. Examines the relationship between police/public safety policy, operations, and administration. Addresses various current problems and issues through case studies. Focuses mainly on the City of Chicago and surrounding metropolitan area.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "565",
+      "course_combined": "PA 565",
+      "title": "The Nonprofit Sector",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=565",
+      "course_description": "This course considers the role played by the nonprofit sector in the larger American society and economy. Topics include major organizational forms, financial management, human resource policies, leadership, board-executive relations, and private-public connections.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "566",
+      "course_combined": "PA 566",
+      "title": "Nonprofits and the Public Sctr",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=566",
+      "course_description": "Nonprofits and the Public Sector provides an overview of the complex and important relationship between government and nonprofits. This course includes a review of the history, funding schemes, the differences between grant and contract funding, recent trends, and more.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "568",
+      "course_combined": "PA 568",
+      "title": "Policy Optimization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=568",
+      "course_description": "This course is a strategy, competitiveness, and leadership laboratory for public sector managers and leaders of the 21st century. Students will gain an understanding of IIT Stuart's unique core concept of strategic competitiveness as well as frameworks from theories of entrepreneurial government, strategic management, and economic competitiveness. Students will critically analyze conventional frameworks for relevance to various contexts across the public sector in the rapidly changing Next Economy. Cases discussing the public sector's efforts to transform its management processes to meet the challenges of the Next Economy and to successfully interact with the business community are emphasized. The course employs a dynamic classroom environment using case method, class discussions, and group projects. Students will appreciate the challenges, complexities, and characteristics needed to effectively lead and be successful in the competitive global economy by delving into questions such as: How do countries, regions, states, and cities compete in the global economy? How do public leaders create innovative economic development strategies by influencing firms' strategic decisions regarding investment and trade? How can public leaders enhance the competitiveness of their business environment by adopting entrepreneurial government strategies? What are best practices for economic development in the Next Economy?",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "570",
+      "course_combined": "PA 570",
+      "title": "Social Capital & the Community",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=570",
+      "course_description": "The 21st century confronts the public sector with new challenges and opportunities. Many of these challenges and opportunities will take place on the community level, and many of those challenges and opportunities will be centered on the notion of social capital and the community. Social capital means the building of and use of community assets -- those resources available to the community through its residents or citizens, association, institutions, and economic life. Using an asset-based community development approach, the objective of this course is to help the student understand and use the concepts of asset-based approaches to social capital and community as it relates to public administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "579",
+      "course_combined": "PA 579",
+      "title": "Ethics & Prof Responsibility",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=579",
+      "course_description": "This course focuses on the ethical problems and issues faced by individuals in public service organizations. It also examines questions related to corruption, abuse of power, financial impropriety, ethics codes and standards in government and professional fields, whistle-blowing, and other topics related to front-page concerns and individual problems of conscience and judgment. The course traces the growth of concern about the standards of ethical behavior in government in the U.S.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PA",
@@ -198,7 +470,11 @@
       "course_description": "This course will present a variety of tools and techniques to evaluate existing programs and policies to determine and measure their most important elements, and to give policy-makers the necessary information to fund, improve or terminate programs based on empirical evidence regarding factors such as cost/benefit, efficiency, effectiveness, equity, and other important characteristics. Evaluation can also allow policy-makers and staff to focus budgets and efforts to best achieve policy or program goals.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
+      "attributes": "MPA Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +483,8 @@
           "crn": "11198",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11198",
           "credits": 3.0,
-          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Law, Non Credit, Undergraduate",
-          "attributes": "MPA Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,12 +504,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "581",
+      "course_combined": "PA 581",
+      "title": "Policy Economic Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=581",
+      "course_description": "This course considers methods that help design effective Public Policy Design by presenting and examining practical, cost-effective techniques that can be used to make better decisions regarding the allocation of scarce resources. Includes problem identification, goal development, data needs and collection, generation of alternative solutions, projecting impacts, goals-oriented evaluation, and strategies for implementation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "587",
+      "course_combined": "PA 587",
+      "title": "Social Policy",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=587",
+      "course_description": "Social Policy is the overarching program that includes aging, education, health, housing, and social welfare policy. Each area represents a major and enduring aspect of public policy concern, in which the need for leadership in public management and policy analysis is critical and can be expected to grow. The Social Policy area of study examines the roles and responsibilities of the public sector in designing, managing, and evaluating human resource programs for at-risk populations in the areas of health, education, and welfare. It is concerned with issues related to distributional equity and equality of opportunity and access, particularly for those least able to help themselves in a market society—the elderly, children, the disabled, the sick and the unemployed. Social policy involves elements of policy analysis, policy design, program evaluation, public management, and program implementation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "589",
+      "course_combined": "PA 589",
+      "title": "Collaborative Emergency Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=589",
+      "course_description": "Preplanned and emergent events. Roles of community and other nongovernmental organizations will be explored in planning for and responding to these types of events in the 21st century. Students will explore past events in preparation for future success. There will be several tabletop exercises during the course where students will have various responsibilities. Then, those roles will be exchanged with other students to learn from their own experiences. Finally, a capstone project will be developed independently, where students will choose a sector or subsector to develop their projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "PA",
@@ -245,7 +568,11 @@
       "course_description": "This course provides practical experience in public administration and may be taken only by students lacking extensive work experience in governmental administration.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "MPA Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: PA 501 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -254,9 +581,8 @@
           "crn": "17468",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17468",
           "credits": 3.0,
-          "instructional_method": "MPA Tuition Rate\nDowntown Campus\nInternship Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "MPA Tuition Rate",
+          "schedule_type": "Internship",
+          "campus": "Downtown Campus",
           "notes": "",
           "meetings": [
             {
@@ -276,12 +602,77 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: PA 501 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "PA",
+      "course_num": "592",
+      "course_combined": "PA 592",
+      "title": "Directed Readings in PA",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=592",
+      "course_description": "This course consists of independent reading and analysis centered on particular problems and supervised by a member of the public administration faculty.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "595",
+      "course_combined": "PA 595",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=595",
+      "course_description": "PA 595 is a course on special topics in public administration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "597",
+      "course_combined": "PA 597",
+      "title": "Independent Study",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=597",
+      "course_description": "The subject matter of this course will vary with the interests and the background of the students and the instructor, and the course may be taken more than once. Instructor permission is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PA",
+      "course_num": "599",
+      "course_combined": "PA 599",
+      "title": "Practicum",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PA&crse_numb_in=599",
+      "course_description": "PA 599 is a capstone course where students apply concepts and theories they have studied to analyze an organizational or policy problem and deliver a report that normally specifies the problem or task, defines alternatives, and proposes recommended course of action. The recommendation will be supported by reasons and evidence. PA 599 should be taken in the student's last semester.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

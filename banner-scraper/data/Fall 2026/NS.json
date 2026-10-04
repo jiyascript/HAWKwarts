@@ -10,7 +10,11 @@
       "course_description": "A general introduction to the USN and USMC that emphasizes organizational structure, warfare components, and assigned roles/missions of USN/USMC, covers all aspects of Naval Science from its relative position within DoD to the specific warfare communities/career paths, and includes basic elements of leadership and Navy Core Values. The course will provide students with initial exposure to many elements of Naval culture and provides conceptual framework/working vocabulary for students to use on summer cruise.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "17046",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17046",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +44,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "102",
+      "course_combined": "NS 102",
+      "title": "Naval Ships Systems I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=102",
+      "course_description": "Students learn detailed ship design, hydrodynamic forces, stability, propulsion, electrical theory and distribution, hydraulic theory and ship control, and damage control. The course includes basic concepts of theory/design of steam, gas turbine, diesel, and nuclear propulsion. Case studies on leadership/ethical issues in the engineering arena are also covered. Not required for Nurse and Marine Corps options.)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "NS",
+      "course_num": "201",
+      "course_combined": "NS 201",
+      "title": "Naval Ships Systems II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=201",
+      "course_description": "The course outlines the theory and employment of weapons systems. Students explore the processes of detection, evaluation, threat analysis, weapon selection, delivery, guidance, and explosives. Fire control systems and major weapon types are discussed, including capabilities and limitations. The physical aspects of radar and underwater sound are described. Facets of command, control, communications, computers, and intelligence are explored as a means of weapons systems integration. The tactical and strategic significance of command and control warfare and information warfare is discussed. This course is supplemented with review/analysis of case studies involving the moral and ethical responsibilities of leaders in the employment of weapons. Not required for Nurse and Marine Corps options.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "NS",
@@ -57,7 +91,11 @@
       "course_description": "A study of the U. S. Navy and the influence of sea power upon history that incorporates both a historical and political science process to explore the major events, attitudes, personalities, and circumstances that have done the following: imbued the U. S. Navy with its proud history and rich tradition; deals with issues of national imperatives in peacetime, as well as war, varying maritime philosophies that were interpreted into Naval strategies/doctrines, budgetary concerns which shaped force realities, and the pursuit of American diplomatic objectives; and concludes with a discussion of the Navy's strategic and structural changes at the end of the Cold War and its new focus, mission, and strategy in the post September 11, 2001, world. For Nurse Corps only; course may be taken in sophomore year.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +104,8 @@
           "crn": "16838",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16838",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,12 +125,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "301",
+      "course_combined": "NS 301",
+      "title": "Navigation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=301",
+      "course_description": "In-depth study of the theory, principles, procedures, and application of plotting, piloting, and electronic navigation as well as an introduction to maneuvering boards. Students learn piloting techniques, the use of charts, the use of visual and electronic aids, and the theory of operation of both magnetic and gyrocompasses. Students develop practical skills in plotting and electronic navigation. Other topics include tides, currents, effects of wind/weather, voyage planning, and an application and introduction to the international/inland rules of navigation. The course is supplemented with a review/analysis of case studies involving moral/ethical/leadership issues pertaining to the concepts listed above. Not required for Nurse and Marice Corps options.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "NS",
@@ -104,7 +155,11 @@
       "course_description": "A continued study of relative motion, formation tactics, and ship employment. Introductions to naval operations and operations analysis, ship behavior and characteristics in maneuvering, applied aspects of ship handling, afloat communications, naval command and control, naval warfare areas, and joint warfare are also included. The course is supplemented with a review/analysis of case studies involving moral/ethical/leadership issues pertaining to the concepts listed above. Not required for Nurse and Marine Corps options.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +168,8 @@
           "crn": "17047",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17047",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +189,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "310",
+      "course_combined": "NS 310",
+      "title": "Evolution of Warfare",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=310",
+      "course_description": "Students trace the development of warfare to the present day. This course is designed to cover the causes of continuity and change in the means and methods of warfare. It addresses the influence of political, economic, and societal factors on the conduct of war with significant attention focused on the role of technological innovation in changing the battlefield. Students will explore the contribution of preeminent military theorists and battlefield commanders to our modern understanding of the art and science of war. Required for Marine option and MECEP students; optional for Navy students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "NS",
@@ -151,7 +219,11 @@
       "course_description": "The course introduces the student to many of the fundamental concepts of leading Sailors and Marines which shall be expanded upon during the continuum of leadership development throughout NROTC, and develops the elements of leadership vital to the effectiveness of Navy/Marine Corps officers by reviewing the theories and parameters of leadership and management within and outside of the Naval service and progressing through values development, interpersonal skills, management skills, and application theory. Practical applications are explored through the use of experiential exercises, readings, case studies, and laboratory discussions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Non Credit, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -160,9 +232,8 @@
           "crn": "17048",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17048",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Non Credit, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +253,77 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "NS",
+      "course_num": "402",
+      "course_combined": "NS 402",
+      "title": "Naval Leadership and Ethics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=402",
+      "course_description": "The course completes the final preparations of ensigns and second lieutenants for service in the Fleet and Marine Corps. The course integrates an intellectual exploration of Western moral traditions and ethical philosophy with a variety of topics such as the following: military leadership, core values, and professional ethics; the UCMJ and Navy regulations; and discussions relating to the roles of enlisted members, junior and senior officers, command relationships, and the conduct of warfare. The course provides midshipmen with a foundation of moral traditions combined with a discussion of actual current and historical events in the United States Navy and Marine Corps to prepare them for the role and responsibilities of leadership in the Naval Science of the 21st century.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "NS",
+      "course_num": "405",
+      "course_combined": "NS 405",
+      "title": "Leadership and Mgmt Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=405",
+      "course_description": "A six-hour seminar augmenting Theory of Organization and Management (BUS 301). This seminar addresses leadership, management, and other organizational behavior issues facing junior officers, to include strategic and tactical planning, time-management, communication, counseling, team-building, and decision-making in a stressful environment. Required for Naval ROTC students. Normally taken concurrently with BUS 301 and in place of NS 401.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "NS",
+      "course_num": "411",
+      "course_combined": "NS 411",
+      "title": "Fund of Maneuver Warfare",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=411",
+      "course_description": "This course introduces broad aspects of armed conflict and interactions using modern maneuver warfare doctrine. Students trace historical influences on the tactical, operational, and strategic implications of maneuver warfare practices in current and future operations. This course also covers the structure and capabilities of the present day U.S. Marine Corps organization as a forward deployed and rapid response force and its development of expeditionary maneuver warfare concepts. The focus is to train students to be practitioners of maneuver warfare and use lessons from the past as the basis for making practical judgments during armed conflict. Required for Marine options and MECEP students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "NS",
+      "course_num": "497",
+      "course_combined": "NS 497",
+      "title": "Special Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=NS&crse_numb_in=497",
+      "course_description": "This course provides midshipmen with an opportunity to work under the supervision of an officer/instructor on projects related to professional development. Department permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "NS",
@@ -198,7 +334,11 @@
       "course_description": "Topics deal with general Navy/Marine Corps mission and policies, force protection, operational security, watch standing, physical fitness, nutrition, stress management, and other professional development subjects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +347,8 @@
           "crn": "11058",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11058",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +368,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

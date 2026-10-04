@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "PD",
+      "course_num": "889",
+      "course_combined": "PD 889",
+      "title": "Internship Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=PD&crse_numb_in=889",
+      "course_description": "Students who intend to do the 6 week internship as part of the international certificate program are required to first complete this methods course. In weekly workshops students will review the business culture in the U.S., how to research companies for appropriate placements; learn to craft a professional resume; discuss and practice interview skills; and improve business writing. Students will implement these tools to acquire a 6 week internship placement. Internships will take place at the beginning of the following semester, upon successful completion of the methods course. 0.000 TO 3.800 Continuing Education Units 3.000 Lecture hours Levels: Continuing Education Schedule Types: Lecture Continuing Educ Prof Dev Department PD 899 - Internship A six-week placement in an American company, business, or organization. Students will be expected to submit weekly timesheets. A final essay of their experiences must be submitted to the Internship Manager. The grade is dependent upon the essay and the internship supervisor's evaluation of the student. 0.000 Continuing Education Units 15.000 Other hours Levels: Continuing Education Schedule Types: Internship Continuing Educ Prof Dev Department",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "PD",
       "course_num": "899",
       "course_combined": "PD 899",
       "title": "Internship",
@@ -10,7 +27,11 @@
       "course_description": "A six-week placement in an American company, business, or organization. Students will be expected to submit weekly timesheets. A final essay of their experiences must be submitted to the Internship Manager. The grade is dependent upon the essay and the internship supervisor's evaluation of the student. 0.000 Continuing Education Units 15.000 Other hours Levels: Continuing Education Schedule Types: Internship Continuing Educ Prof Dev Department",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Continuing Education",
+      "levels": "Continuing Education",
+      "attributes": "",
+      "restrictions": "Must be enrolled in one of the following Levels: Continuing Education",
+      "prerequisites": "Continuing Education level PD 889 Minimum Grade of P or Continuing Education level PD 399 Minimum Grade of P",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "12307",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12307",
           "credits": null,
-          "instructional_method": "Continuing Education\nMies Campus\nInternship Schedule Type\nNon Traditional",
-          "levels": "Continuing Education",
-          "attributes": "",
+          "schedule_type": "Internship",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +61,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Continuing Education",
-          "prerequisites": "Continuing Education level PD 889 Minimum Grade of P or Continuing Education level PD 399 Minimum Grade of P",
-          "general_requirements": ""
+          }
         }
       ]
     }

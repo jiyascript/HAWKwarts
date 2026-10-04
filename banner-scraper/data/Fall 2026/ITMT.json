@@ -10,7 +10,11 @@
       "course_description": "Introduces students to concepts of systems, systems theory and modeling, information systems, and system integration. Examines the steps necessary to analyze a business problem and identify and define the computing and information requirements appropriate to its solution, with a focus on how to design, implement, and evaluate a technology-based system to meet desired needs. Students learn to analyze the local and global impact of computing on individuals, organizations, and society. Leads students to recognize of the need for continuing professional development, and imparts an understanding of professional, ethical, legal, security and social issues and responsibilities in information technology. Students write and present, building their ability to communicate effectively with a range of audiences, and using standard planning methodologies design an information system to meet the information needs of a small business. This course meets the university Introduction to the Profession Core Course requirement.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "15825",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15825",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITM 301 May not be taken concurrently. ) or ( Course or Test: ITM 303 May not be taken concurrently. ) and ( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -52,9 +52,8 @@
           "crn": "15826",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15826",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +73,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITM 301 May not be taken concurrently. ) or ( Course or Test: ITM 303 May not be taken concurrently. ) and ( Course or Test: ITM 311 May not be taken concurrently. ) or ( Course or Test: ITM 312 May not be taken concurrently. ) or ( Course or Test: ITM 313 May not be taken concurrently. ) or ( Course or Test: CS 116 May not be taken concurrently. ) or ( Course or Test: CS 201 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -85,9 +81,8 @@
           "crn": "17446",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17446",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -107,10 +102,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -118,9 +110,8 @@
           "crn": "17447",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17447",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -140,12 +131,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "430",
+      "course_combined": "ITMT 430",
+      "title": "System Integration",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=430",
+      "course_description": "In this capstone course, students will identify, gather, analyze, and write requirements based on user needs and will then design, construct, integrate, and implement an information system as a solution to a business problem. Students will document integration requirements using business process models and will learn and apply key systems integration architecture, methodologies, and technologies using industry best practices. User needs and user centered design will be applied in the selection, creation, evaluation, and administration of the resulting system. The system design process will take into account professional, ethical, legal, security, and social issues and responsibilities and stress the local and global impact of computing on individuals, organizations, and society. Discussion will also cover the need to engage in continuing professional development.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMT",
@@ -156,7 +161,11 @@
       "course_description": "Undergraduate research. Written consent of instructor is required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -165,9 +174,8 @@
           "crn": "11367",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11367",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -187,12 +195,145 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "492",
+      "course_combined": "ITMT 492",
+      "title": "Intro to Smart Technologies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=492",
+      "course_description": "This course covers reconfigurable intelligent devices programmed with modern high level languages focusing on design and integration to modern environments. The course will also cover the topic and deployment of wireless sensor networks and the use of rapid prototyping for commercial application. Students will discover hardware, software and firmware design trade-offs as well as best practices in current embedded systems development. A final project will integrate course topics into a system using an embeddable single-board microcontroller.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "495",
+      "course_combined": "ITMT 495",
+      "title": "Topics in ITM",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=495",
+      "course_description": "This course will cover a particular topic varying from semester to semester in which there is particular student or staff interest.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "499",
+      "course_combined": "ITMT 499",
+      "title": "Experiential Learning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=499",
+      "course_description": "This course is for undergraduate students interested in getting academic credit for approved experiential learning. Students will have to get approval from their academic advisor and faculty supervising the course.50 <= hours of experiential learning <100 is equivalent to 1 credit hour, 100 <=hours of experiential learning<150 is granted 2 credit hours, and hours of experiential learning >=150 will be granted 3 credit hours. The department will have policies to ensure the integrity in assessment. Students are required to keep time logs approved on a weekly basis by their supervisor",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "514",
+      "course_combined": "ITMT 514",
+      "title": "Enterprise App Architecture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=514",
+      "course_description": "This course examines current enterprise application architectures from the perspective of senior technology planners and managers. Topics such as models and patterns of enterprise application architecture, application virtualization, cloud application architectures, integration of custom application infrastructure with major vendor products, and full systems integration issues will be addressed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "531",
+      "course_combined": "ITMT 531",
+      "title": "OO Syst Anlys Mod & Des",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=531",
+      "course_description": "This course will cover object oriented approaches to system analysis, data modeling and design that combine both process and data views of systems. Emphasis is given to practical problems and the techniques needed to create solutions in systems design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "533",
+      "course_combined": "ITMT 533",
+      "title": "Operating Sys Dsgn Implement",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=533",
+      "course_description": "This course introduces students to the fundamental principles of operating systems design and gives them hands-on experience with real operating systems installation, design, and implementation. The students apply what they learn about operation systems design to practical implementation by modifying and extending the MINIX Operating System. MS Windows and LINUX are briefly discussed as case studies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "535",
+      "course_combined": "ITMT 535",
+      "title": "Data Center Architecture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=535",
+      "course_description": "The course deals with building integrated data center information infrastructures, including facility, hardware, software, and network components as solutions to particular enterprise information management needs and requirements. Students will learn critical elements of modern data center design including physical plant construction; network infrastructure; data storage technologies; power provisioning and conditioning; environmental controls and HVAC; system and physical security; modular component use; and planning for growth.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "537",
+      "course_combined": "ITMT 537",
+      "title": "Instructional Technologies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=537",
+      "course_description": "In this course students will create, assess, and deploy current technologies used for K-College instruction and corporate training environments. Topics covered include developing training materials, courses, individualized instruction, websites, multimedia projects, and on-line instruction in educational settings. focus will be given to modern programming environments and models for developing instructional materials.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMT",
@@ -203,7 +344,11 @@
       "course_description": "Research and Thesis for Masters' degrees. Instructor permission required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -212,9 +357,8 @@
           "crn": "15010",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15010",
           "credits": 8.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -234,12 +378,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "593",
+      "course_combined": "ITMT 593",
+      "title": "Embedded Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=593",
+      "course_description": "This course introduces embedded systems concepts and technology, illustrates the trade-offs which occur as part of embedded systems design, as well as providing practical applications of embedded systems technology. Particular emphasis is given to embedded systems hardware, software and development tools. The course labs include hands-on development of several stand-alone embedded applications using development tools such as compilers, simulators and evaluation boards. Prerequisite: ITM 301 or equivalent computer architecture course; C/C++ programming experience.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMT",
@@ -250,7 +408,11 @@
       "course_description": "Special projects.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -259,9 +421,8 @@
           "crn": "16571",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16571",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,12 +442,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "595",
+      "course_combined": "ITMT 595",
+      "title": "Topics in IT",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=595",
+      "course_description": "This course will cover a particular topic, varying from semester to semester, in which there is particular student or staff interest.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "596",
+      "course_combined": "ITMT 596",
+      "title": "Graduate Honors Study in IT",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=596",
+      "course_description": "Graduate honors project, thesis or whitepaper. Prerequisites: Graduate honors status and consent of the instructor.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMT",
@@ -297,7 +489,11 @@
       "course_description": "Independent study and project.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -306,9 +502,8 @@
           "crn": "11799",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11799",
           "credits": 12.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -328,10 +523,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "127",
@@ -339,9 +531,8 @@
           "crn": "14250",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14250",
           "credits": 12.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,10 +552,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -372,9 +560,8 @@
           "crn": "11347",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11347",
           "credits": 12.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -394,10 +581,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "180",
@@ -405,9 +589,8 @@
           "crn": "12688",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12688",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -427,10 +610,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "190",
@@ -438,9 +618,8 @@
           "crn": "11613",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11613",
           "credits": 12.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -460,10 +639,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "221",
@@ -471,9 +647,8 @@
           "crn": "17313",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17313",
           "credits": 12.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -493,12 +668,55 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "Special Problems in IT",
+          "crn": "16556",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16556",
+          "credits": 3.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructor": "Jeremy Robert Hajek",
+              "instructor_email": "hajek@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMT",
+      "course_num": "599",
+      "course_combined": "ITMT 599",
+      "title": "Experiential Learning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMT&crse_numb_in=599",
+      "course_description": "This course is for graduate students interested in getting academic credit for approved experiential learning. Students will have to get approval from their academic advisor and faculty supervising the course. 50 <= hours of experiential learning <100 is equivalent to 1 credit hour, 100 <=hours of experiential learning<150 is granted 2 credit hours, and hours of experiential learning >=150 will be granted 3 credit hours. The department will have policies to ensure the integrity in assessment. Students are required to keep time logs approved on a weekly basis by their supervisor.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

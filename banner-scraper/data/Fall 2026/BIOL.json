@@ -10,7 +10,11 @@
       "course_description": "Introduction to the biological sciences, scientific method, computing tools, and critical thinking.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "10014",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10014",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "This course, designed for non-majors, considers basic concepts and selected topics in biology beginning at the molecular level and ending with the biosphere. Topics include the following: the chemistry and structure of cells in plants and animals; how cells obtain and use energy; basic genetics and the role of biotechnology in agriculture and medicine; evolution, natural selection, and species formation; the origin and diversity of microbial, plant, and animal life; ecology, organisms, and their environments; and the impact of human population growth and human activity on the systems and resources of our planet. This course is not available to those students for whom BIOL 107 is a required course, including students majoring in Biology, Biochemistry, Chemical and Biological Engineering, Molecular Biochemistry and Biophysics, or any pre-health professional major or minor. BIOL 105 and BIOL 114 constitute a one-year sequence in biology. Acceptable as part of the science component of the General Education Program. Course does not satisfy graduation requirements for Biology, Biochemistry, Chemical and Biological Engineering, Molecular Biochemistry and Biophysics majors.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Fields of Study (Major, Minor, or Concentration): Biochemistry Biological Engineering Biology Chemical Engineering Molecular Bchm and Biophysics",
+      "levels": "Undergraduate",
+      "attributes": "Natural Science or Engr Req., Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Fields of Study (Major, Minor, or Concentration): Biochemistry Biological Engineering Biology Chemical Engineering Molecular Bchm and Biophysics",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "11189",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11189",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Natural Science or Engr Req., Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +91,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Fields of Study (Major, Minor, or Concentration): Biochemistry Biological Engineering Biology Chemical Engineering Molecular Bchm and Biophysics",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -104,7 +104,11 @@
       "course_description": "This course emphasizes biology at the organismal level. It provides an introduction to the study of the structure and function of plants and animals, their origin and evolution, their reproduction and genetics, and their diversity and ecological relations. BIOL 107 plus BIOL 115 constitutes a one-year sequence in biology. Acceptable as part of the science component of the General Education Program.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -113,9 +117,8 @@
           "crn": "10015",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10015",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -135,12 +138,199 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "109",
+      "course_combined": "BIOL 109",
+      "title": "General Biology Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=109",
+      "course_description": "A laboratory course to accompany BIOL 107. An introduction to laboratory techniques and their application to the understanding of general biological concepts.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Lab Safety Instruction, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 105 Minimum Grade of D May be taken concurrently. ) or ( Course or Test: BIOL 107 Minimum Grade of D May be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "L01",
+          "section_name": "General Biology Laboratory",
+          "crn": "10017",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10017",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "W",
+              "location": "Robert A. Pritzker Science Ctr 306",
+              "schedule_type": "Lab",
+              "instructor": "Yuting Lin",
+              "instructor_email": "yutilin@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 15,
+            "remaining": 9,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L02",
+          "section_name": "",
+          "crn": "14407",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14407",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "W",
+              "location": "Robert A. Pritzker Science Ctr 306",
+              "schedule_type": "Lab",
+              "instructor": "Yuting Lin",
+              "instructor_email": "yutilin@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 18,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "L03",
+          "section_name": "",
+          "crn": "17000",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17000",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "W",
+              "location": "Robert A. Pritzker Science Ctr 306",
+              "schedule_type": "Lab",
+              "instructor": "Yuting Lin",
+              "instructor_email": "yutilin@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 18,
+            "remaining": 6,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "114",
+      "course_combined": "BIOL 114",
+      "title": "Introduction to Human Biology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=114",
+      "course_description": "This course, designed for non-majors in biology, covers selected topics in biology of particular relevance to humans and to human health and disease. Topics include: Introductory biochemistry and cell structure, organization, and regulation of body systems; human genetics; human development; biotechnology; introduction to human pathogens and infectious diseases including sexually-transmitted diseases and immunologic diseases such as AIDS; human ecology; and human evolution. This course is not available to those students for whom BIOL 115 is a required course, including students majoring in Biology, Biochemistry, Molecular Biochemistry and Biophysics, Chemical Engineering, or Biomedical Engineering, and students in any pre-health profession major or minor. BIOL 107 and BIOL 114 constitutes a one-year sequence in biology. Acceptable as part of science component of the General Education Program.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "115",
+      "course_combined": "BIOL 115",
+      "title": "Human Biology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=115",
+      "course_description": "This course covers selected topics in biology of particular relevance to humans and to human health and disease. Topics include biology of human cells and selected organ systems; neurobiology including psychoactive drugs and drug addiction; development and birth defects; genetics and genetic diseases; toxicology; the immune system and immunologic diseases such as AIDS; human nutrition and nutritional effects; microbial human diseases. BIOL 107 plus BIOL 115 constitutes a one-year sequence in biology. Acceptable as part of science component of the General Education Program.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "117",
+      "course_combined": "BIOL 117",
+      "title": "Human Biology Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=117",
+      "course_description": "A biology laboratory course to accompany BIOL 114 or BIOL 115. A cellular approach to the functional organization of organs and organ systems. Laboratories will include the application of experimental methods and techniques for understanding the relationship between cell structure and function.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "200",
+      "course_combined": "BIOL 200",
+      "title": "Urban Ecology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=200",
+      "course_description": "Urban Ecology investigates the interactions between ecological processes and urban environments. Students will examine how cities shape, and are shaped by, natural systems, with a focus on biodiversity, conservation, and public health. The course integrates ecological theory with urban planning, restoration, and public policy to address the challenges and opportunities of sustainable urban living. Topics include green infrastructure, urban wildlife, environmental justice, conservation and restoration efforts, and climate resilience. Assessment of local issues and initiatives coupled with data, case studies, and site visits will provide hands-on experience in assessing ecological patterns and designing nature-based solutions for urban sustainability. By the end of the course, students will be equipped to critically evaluate urban ecosystems and contribute to building more livable, equitable, and ecologically sound cities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "210",
+      "course_combined": "BIOL 210",
+      "title": "Microbiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=210",
+      "course_description": "This course covers basics of microbiology including structure, genetics, growth, and metabolic diversity of microorganisms. Topics relating to the importance of microorganisms in health, ecosystems, industry, and water and food safety are also covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -151,7 +341,11 @@
       "course_description": "An introduction to transmission and molecular genetics designed for both biology and other science and engineering majors. Applications of genetics to solution of various practical problems will also be discussed.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 107 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 114 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "This course carries a mutual exclusion with the following courses; you may not enroll in it if you have completed any of the following with a passing grade: BIOL 414",
       "sections": [
         {
@@ -160,9 +354,8 @@
           "crn": "10018",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10018",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -182,12 +375,43 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 107 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 114 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "225",
+      "course_combined": "BIOL 225",
+      "title": "Microbiology Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=225",
+      "course_description": "Exercises focus on sterile technique, growth requirements of microorganisms, identification of microorganisms using biochemical activities, food, and water microbiology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "240",
+      "course_combined": "BIOL 240",
+      "title": "Neurobiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=240",
+      "course_description": "This course will focus on identification of the anatomical and functional organization of the nervous system and the understanding of the principles of inter-neuronal communication and the integrative functions of the nervous system. Failures in brain functions that can lead to a disease will also be discussed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -198,7 +422,11 @@
       "course_description": "Basic principles of biological chemistry: the building blocks, structure, function, and practical methods for characterizing, separating, and purifying proteins, nucleic acids, carbohydrates, and lipids; enzyme catalysis and regulation; biological membranes, transport, and signaling; and the storage, expression, and transmission of genetic information. The course emphasizes mechanistic reasoning, structure–function relationships, and the role of biochemistry in homeostasis and evolution.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 107 May not be taken concurrently. ) or ( Course or Test: BIOL 115 May not be taken concurrently. ) and ( Course or Test: CHEM 235 May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. ) or ( May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -207,9 +435,8 @@
           "crn": "17294",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17294",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -229,10 +456,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 107 May not be taken concurrently. ) or ( Course or Test: BIOL 115 May not be taken concurrently. ) and ( Course or Test: CHEM 235 May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -240,9 +464,8 @@
           "crn": "17293",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17293",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -262,10 +485,7 @@
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 107 May not be taken concurrently. ) or ( Course or Test: BIOL 115 May not be taken concurrently. ) and ( Course or Test: CHEM 235 May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -278,7 +498,11 @@
       "course_description": "This course will provide a comprehensive overview of the structural, functional, and developmental anatomy of the human body. Particular consideration will be given to the bony structures, vasculature, innervation, musculature, and relationships of the various structures to one another.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 107 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 114 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -287,9 +511,8 @@
           "crn": "10019",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10019",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -309,12 +532,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 107 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 114 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "327",
+      "course_combined": "BIOL 327",
+      "title": "Introduction to Immunology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=327",
+      "course_description": "Covers general principles of innate and adaptive immunity including structure and function of immune system components, T and B cell development, responses of the immune system to infection, and consequences of immune system failure.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "402",
+      "course_combined": "BIOL 402",
+      "title": "Metabolic Biochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=402",
+      "course_description": "The logic, regulation, and integration of metabolism in living systems, focusing on the coordinated control of carbohydrate, lipid, and nitrogen metabolism. Central pathways such as glycolysis, gluconeogenesis, the citric acid cycle, electron transport, and oxidative phosphorylation are explored in physiological and evolutionary contexts: metabolic homeostasis; tissue and organismal specialization; hormonal integration; and predicting system-level responses to metabolic perturbations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "403",
+      "course_combined": "BIOL 403",
+      "title": "Biochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=403",
+      "course_description": "Molecular organization of cell structures and cell membranes. Proteins, nucleic acids, carbohydrates and lipids, their molecular structure, characterization and chemical reactions. Enzymes and enzyme-catalyzed reactions and metabolism. Does not satisfy biochemistry requirement for Biology, Biochemistry, or Molecular Biochemistry and Biophysics majors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "404",
+      "course_combined": "BIOL 404",
+      "title": "Biochemistry Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=404",
+      "course_description": "Analytical methods in the chemistry and metabolism of proteins, amino acids, and nucleic acids, including chromatography, spectrophotometry, and electrophoresis. Enzyme reactions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -325,7 +613,11 @@
       "course_description": "Properties of pathogenic bacteria, fungi, viruses, and parasites and their mechanisms of pathogenesis with a focus on organisms that cause human disease.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 210 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -334,9 +626,8 @@
           "crn": "16149",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16149",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -356,10 +647,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 210 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -367,9 +655,8 @@
           "crn": "16355",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16355",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -389,12 +676,128 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 210 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "412",
+      "course_combined": "BIOL 412",
+      "title": "Struct and Mech Biochem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=412",
+      "course_description": "An advanced, evidence-driven examination of protein structure, enzyme mechanism, and biochemical regulation. Topics include structure determination methods, transition‑state theory, enzyme kinetics beyond the steady‑state approximation, inhibition and allostery, binding energetics and specificity, and the relationships among protein stability, folding, and function. Emphasis is placed on understanding how experimental data support mechanistic claims and on developing quantitative reasoning skills to interpret biochemical measurements. Students develop and defend mechanistic models using quantitative data. The role of evolutionary processes such as gene duplication and divergence in shaping the regulation of biochemical processes is evaluated.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "413",
+      "course_combined": "BIOL 413",
+      "title": "Genomics and Transcriptomics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=413",
+      "course_description": "Modern nucleic acid sequencing technology has revolutionized the analysis of genes and genomes. In this course, students will learn to use sequence data to analyze the structure and function of genomes. Topics will include sequencing technologies and data, genome assembly, genome annotation and gene expression analysis. Classes will consist of a mixture of lecture and hands-on exercises. A laptop is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "414",
+      "course_combined": "BIOL 414",
+      "title": "Genetics Engineering Scientist",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=414",
+      "course_description": "A course in genetics designed for advanced students in engineering and related disciplines. The course will cover transmission and molecular genetics and their application to the solution of various practical problems. A term paper will be required in addition to in-class examinations. **Instructor permission required.**",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "420",
+      "course_combined": "BIOL 420",
+      "title": "Population Genetics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=420",
+      "course_description": "The study of genetic variation in natural populations is the foundation for modern evolutionary biology. Population genetics covers both the theoretical study of the effects of various forces on genetic diversity and the empirical analysis of genetic variation observed in real populations. Throughout the course, students’ understanding of population genetics theory will be reinforced with examples of applications. Topics will include genetic drift, genealogical approaches and coalescence, structured populations and migration mutation and natural selection.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "426",
+      "course_combined": "BIOL 426",
+      "title": "Concepts of Cancer Biology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=426",
+      "course_description": "The course is designed to provide a complete overview of cancer as a disease. It will cover normal and abnormal cell signaling pathways, cancer genes and their regulation, experimental chemical carcinogenesis, metastasis, cancer prevention and therapy, drug development for cancer treatment, cancers of individual organ sites and application of biotechnology for cancer detection and treatment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "430",
+      "course_combined": "BIOL 430",
+      "title": "Human Physiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=430",
+      "course_description": "This course is designed to provide the students with comprehensive knowledge about how the human body functions. It will cover cell physiology, autonomic nervous system, neurophysiology, acid base physiology, cardiovascular physiology, respiratory physiology, renal physiology, gastrointestinal physiology, endocrine physiology, and reproductive physiology. Credits cannot be earned to both BIOL 430 and BIOL 530.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "431",
+      "course_combined": "BIOL 431",
+      "title": "Animal Physiology Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=431",
+      "course_description": "This course provides an introduction to some of the basic concepts of physiology through experimental procedures involving laboratory animals and humans. Experiments include EKG, producing and measuring nerve action potential, muscle contraction generation and its mechanism, human blood pressure measurement, human lung capacity measurement, and some other human noninvasive experiments.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -405,7 +808,11 @@
       "course_description": "Modern studies of cell structure and function at the cellular, subcellular, and molecular levels. Topics include molecular components of cells, membranes, membrane-bound organelles, microtubular and cytoskeletal components and principles of bioenergetics.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 107 Minimum Grade of D May not be taken concurrently. and Course or Test: CHEM 237 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. and Course or Test: CHEM 237 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -414,9 +821,8 @@
           "crn": "10023",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10023",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -436,10 +842,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 107 Minimum Grade of D May not be taken concurrently. and Course or Test: CHEM 237 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently. and Course or Test: CHEM 237 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -452,7 +855,11 @@
       "course_description": "A laboratory course in cell biology to accompany BIOL 445.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Lab Safety Instruction, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BIOL 445 Minimum Grade of D May be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -461,9 +868,8 @@
           "crn": "16150",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16150",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Lab Safety Instruction, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -483,12 +889,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BIOL 445 Minimum Grade of D May be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "451",
+      "course_combined": "BIOL 451",
+      "title": "Biological Literature",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=451",
+      "course_description": "Library research on advanced topics in biology followed by oral presentations of this research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "470",
+      "course_combined": "BIOL 470",
+      "title": "Systems and Behavioral Neurosc",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=470",
+      "course_description": "In this course we will learn about the networks of neurons that form sensory systems (how we perceive our environment), learning/memory/cognition, and decision making + behavior. We will cover a wide range of organisms, from worms (C. elegans) to humans. The course will be structured into two core parts: 1) concept introduction & discussion 2) project and activity based learning.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -499,7 +936,11 @@
       "course_description": "The course will discuss biological and medical aspects related to the diseases commonly seeing in the modern society such as diabetes, depression, cancer, Alzheimer’s, and autism. The goal of the course is to provoke students' interest in health-related issues and link the life-style to health problems in the modern society. Course will cover basic clinical and molecular aspects of the diseases, and raise awareness of latest discoveries and challenge in the treatment and prevention of the diseases.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -508,9 +949,8 @@
           "crn": "17106",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17106",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -530,10 +970,7 @@
             "waitlist_capacity": 5,
             "waitlist_actual": 0,
             "waitlist_remaining": 5
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: BIOL 115 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     },
@@ -546,7 +983,11 @@
       "course_description": "Individual study. Consent of instructor required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -555,9 +996,8 @@
           "crn": "10956",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10956",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -577,10 +1017,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "181",
@@ -588,9 +1025,8 @@
           "crn": "10924",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10924",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -610,10 +1046,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -626,7 +1059,11 @@
       "course_description": "An opportunity for advanced undergraduates to participate in research. A written report covering the procedures, data, and conclusion of the problem is required. **Instructor permission required.**",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -635,9 +1072,8 @@
           "crn": "10528",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10528",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -657,10 +1093,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "170",
@@ -668,9 +1101,8 @@
           "crn": "11975",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11975",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -690,10 +1122,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "181",
@@ -701,9 +1130,8 @@
           "crn": "10981",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10981",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -723,10 +1151,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "193",
@@ -734,9 +1159,8 @@
           "crn": "16595",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16595",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -756,10 +1180,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -772,7 +1193,11 @@
       "course_description": "Lectures by prominent scientists. This course exposes students to current and active research in biology both within and outside the IIT community. It helps prepare students for a career in research. It is complementary to our academic courses and provides examples of professional/scientific presentations. This course may not be used to satisfy the natural science general education requirement.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -781,9 +1206,8 @@
           "crn": "10026",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10026",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -803,10 +1227,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -814,9 +1235,8 @@
           "crn": "11382",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11382",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nSeminar Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -836,12 +1256,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "501",
+      "course_combined": "BIOL 501",
+      "title": "Graduate Laboratory Techniques",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=501",
+      "course_description": "This course will provide training in biological laboratory techniques. This will include basic laboratory protocols, safety, record keeping, proper use of equipment, and fundamental techniques common to many sub-specializations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "503",
+      "course_combined": "BIOL 503",
+      "title": "Virology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=503",
+      "course_description": "This course will cover topics related to animal viruses including the life cycles of major viral classes, viral pathogenesis, emergence, and control. Recent advances in these areas will be discussed in conjunction with readings from the original literature.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "504",
+      "course_combined": "BIOL 504",
+      "title": "Biochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=504",
+      "course_description": "Molecules of biological significance; reaction thermodynamics and kinetics; metabolism; cellular localization of biochemical function; proteins; nucleic acids; transcription; translation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -852,7 +1320,11 @@
       "course_description": "Properties of pathogenic bacteria, fungi, viruses, and parasites and their mechanisms of pathogenesis with a focus on organisms that cause human disease, including current trends in infectious disease. Credits cannot be granted for both BIOL 510 and BIOL 410.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -861,9 +1333,8 @@
           "crn": "16153",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16153",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -883,10 +1354,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -894,9 +1362,8 @@
           "crn": "16356",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16356",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -916,12 +1383,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "512",
+      "course_combined": "BIOL 512",
+      "title": "Struct and Mech Biochem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=512",
+      "course_description": "A rigorous, research‑oriented analysis of protein structure, enzyme mechanism, and biochemical regulation, emphasizing quantitative model development and critical evaluation of experimental evidence. Topics include protein structure determination, transition‑state theory, advanced enzyme kinetics and inhibition, allosteric regulation, binding energetics and specificity, protein stability and folding landscapes, and strategies for mechanistic inference. Students critically assess primary literature, defend competing mechanistic models, and design experiments to test biochemical hypotheses. The course integrates evolutionary perspectives, including gene duplication, divergence, and regulatory adaptation, to evaluate how biochemical mechanisms and control strategies emerge and are reshaped across biological systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -932,7 +1413,11 @@
       "course_description": "A survey of topics including structure of nucleic acids, translation, transcription, replication, organization of DNA, RNA processing, genomics, and control of gene expression.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -941,9 +1426,8 @@
           "crn": "10964",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10964",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -963,10 +1447,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -974,9 +1455,8 @@
           "crn": "16288",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16288",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -996,10 +1476,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1012,7 +1489,11 @@
       "course_description": "Independent study in the research laboratory of a faculty member.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1021,9 +1502,8 @@
           "crn": "10975",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10975",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1043,10 +1523,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "157",
@@ -1054,9 +1531,8 @@
           "crn": "10978",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10978",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1076,12 +1552,145 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "521",
+      "course_combined": "BIOL 521",
+      "title": "Population Genetics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=521",
+      "course_description": "The study of genetic variation in natural populations is the foundation for modern evolutionary biology. Population genetics covers both the theoretical study of the effects of various forces on genetic diversity and the empirical analysis of genetic variation observed in real populations. Throughout the course, students' understanding of population genetics theory will be reinforced with examples of applications. Topics will include genetic drift, genealogical approaches and coalescence, structured populations and migration mutation and natural selection.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "526",
+      "course_combined": "BIOL 526",
+      "title": "Developmental Biology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=526",
+      "course_description": "This course covers the cellular and molecular processes involved in generating an embryo, in creating various tissues and organs, and the effect of external stimuli on development. Topics include: genome structure, gene expression and regulation, cell cycle control, pattern formation, signal transduction, gametogenesis, organogenesis, and methods used in studying developmental biology. In addition to studies of model organisms, examples relevant to human diseases are covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "527",
+      "course_combined": "BIOL 527",
+      "title": "Immunology and Immunochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=527",
+      "course_description": "Basic concepts of immunology, immunochemistry, both biological and molecular.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "530",
+      "course_combined": "BIOL 530",
+      "title": "Human Physiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=530",
+      "course_description": "This course is designed to provide the students with comprehensive knowledge about how the human body functions. It will cover cell physiology, autonomic nervous system, neurophysiology, acid base physiology, cardiovascular physiology, respiratory physiology, renal physiology, gastrointestinal physiology, endocrine physiology, and reproductive physiology. Credits cannot be earned to both BIOL 430 and BIOL 530.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "533",
+      "course_combined": "BIOL 533",
+      "title": "Adv Graduate Lab Techniques",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=533",
+      "course_description": "This course covers a number of essential techniques in cell and molecular biology, biochemistry, and structural biology with emphases on both the methodologies and the experimental details. Laboratory procedures include cell culture skills and relevant laboratory procedures. This course is arranged modules from which students choose according to their areas of specialization.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "540",
+      "course_combined": "BIOL 540",
+      "title": "Human neurological diseases",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=540",
+      "course_description": "This 3-credit graduate course will focus on the neurological mechanisms related to nervous system diseases in human. In the first half of the semester, the students will learn nerve cell structures, cell-cell communication, neural signaling transmission, and to some extent, higher-order cognitive brain functions. In the second half of the semester, the students will discuss the scientific basis underlying the symptoms of common neurological diseases, and present papers from clinical researches for up-to-date treatment for human neurological diseases.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "542",
+      "course_combined": "BIOL 542",
+      "title": "Advanced Microbiology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=542",
+      "course_description": "Advanced Microbiology (Biol 542) is a lecture course designed to review concepts of contemporary microbiology and the diversity of the microbial world with an emphasis on the biochemical and molecular strategies used to survive in different environments. The course will cover diverse microbiological topics such as metabolism, growth, production of foods, agriculture, biotechnology, fuel production, bioremediation, environment, etc.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "543",
+      "course_combined": "BIOL 543",
+      "title": "Adv Microbiol & Immunology Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=543",
+      "course_description": "This course provides hands-on experience on the main techniques used in microbiology and immunology. The course allows graduate and undergraduate students to acquire the necessary experience to continue their careers in academy or in industry. Focus on implementing aseptic technique, identification of microorganisms by several methods and Biotechnology procedures such as bacterial genome editing and yeast fermentation. Antibody properties will be explored and exploited, including antigen-antibody reaction, immunodetection of microorganisms, co-immunoprecipitation of proteins and ELISA. Properties of immune cells will be studied, such as phagocytosis and macrophage migration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -1092,7 +1701,11 @@
       "course_description": "This is a graduate-level cell biology course. The course contains two parts: initial lectures cover cellular structure and function emphasizing the molecular components, organelles, and regulation of cellular processes; the second part covers special topics emphasizing experimental approaches and molecular mechanisms of cellular regulation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1101,9 +1714,8 @@
           "crn": "11691",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11691",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1123,10 +1735,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1134,9 +1743,8 @@
           "crn": "11692",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11692",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1156,12 +1764,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "545",
+      "course_combined": "BIOL 545",
+      "title": "Advanced Cell Biology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=545",
+      "course_description": "This course is a continuation of BIOL 544 and focuses on recent advances in the area of cell biology. The course covers, in depth, eukaryotic cellular processes, structure-function relationships, and cellular signaling networks in response to physiological and pathological stimuli. The course will also cover frontier topics in the area of cell biology. Emphasis will be on experimental approaches. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "550",
+      "course_combined": "BIOL 550",
+      "title": "Bioinformatics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=550",
+      "course_description": "This course is tailored for life science graduates having little to no prior knowledge of Unix/Linux-like operating systems. Topics covered will include Linux/UNIX-like operating systems, the Bash shell, Perl programming, collecting and storing sequences in the lab, multiple sequence alignments, database searching for similar sequences, gene prediction, genome analysis, and phylogenetic prediction.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "555",
+      "course_combined": "BIOL 555",
+      "title": "Macromolecular Structure",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=555",
+      "course_description": "Macromolecular crystallographic methods, including crystallization, data processing, phasing, and structure refinement, multi-dimensional NMR techniques, spectroscopic techniques, structural comparisons and characterizations, fiber diffraction, and solution scattering. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "562",
+      "course_combined": "BIOL 562",
+      "title": "Current Topics in Biology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=562",
+      "course_description": "This course is designed to give students a foundation in advanced theoretical and applied methods in modern molecular research. It will emphasize both established and novel approaches to solving problems of functional and comparative genomics, and systems biology. It will also focus on applications of advanced molecular techniques in areas of significant economic and biomedical importance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -1172,7 +1845,11 @@
       "course_description": "In this course, students will be provided with the opportunity to perform a research project that is the culmination of their Master's education. This course involves the research and preparation of a group project. Students will develop a formal work reflecting integration of the scientific knowledge and technical skills learned in the Master's programs through a project chosen by the group. The course will explore online collaboration tools to allow participation of online students. Each group will present its Capstone project at the end of the class. Instructor consent is required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1181,9 +1858,8 @@
           "crn": "16290",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16290",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1203,10 +1879,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1214,9 +1887,8 @@
           "crn": "16874",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16874",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1236,10 +1908,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1252,7 +1921,11 @@
       "course_description": "Instructor permission required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1261,9 +1934,8 @@
           "crn": "10031",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10031",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1283,10 +1955,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "130",
@@ -1294,9 +1963,8 @@
           "crn": "10658",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10658",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1316,10 +1984,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "145",
@@ -1327,9 +1992,8 @@
           "crn": "10531",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10531",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1349,10 +2013,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "157",
@@ -1360,9 +2021,8 @@
           "crn": "10532",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10532",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1382,10 +2042,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "161",
@@ -1393,9 +2050,8 @@
           "crn": "10533",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10533",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1415,12 +2071,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "594",
+      "course_combined": "BIOL 594",
+      "title": "Research Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=594",
+      "course_description": "Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -1431,7 +2101,11 @@
       "course_description": "Lectures by invited scientists in areas of biology generally not covered in the department.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1440,9 +2114,8 @@
           "crn": "10032",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10032",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1462,10 +2135,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1473,9 +2143,8 @@
           "crn": "10965",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10965",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nSeminar Schedule Type\nOnline",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1495,10 +2164,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1511,7 +2177,11 @@
       "course_description": "Special problems in biology. Instructor permission required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1520,9 +2190,8 @@
           "crn": "10536",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10536",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1542,10 +2211,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "181",
@@ -1553,9 +2219,8 @@
           "crn": "10969",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10969",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1575,10 +2240,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "193",
@@ -1586,9 +2248,8 @@
           "crn": "16602",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16602",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1608,10 +2269,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -1619,9 +2277,8 @@
           "crn": "17459",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17459",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1641,12 +2298,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "BIOL",
+      "course_num": "600",
+      "course_combined": "BIOL 600",
+      "title": "Continuation of Residence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=BIOL&crse_numb_in=600",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "BIOL",
@@ -1657,7 +2328,11 @@
       "course_description": "Research and Thesis for Ph. D. students.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1666,9 +2341,8 @@
           "crn": "10539",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10539",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1688,10 +2362,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "145",
@@ -1699,9 +2370,8 @@
           "crn": "10541",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10541",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1721,10 +2391,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "152",
@@ -1732,9 +2399,8 @@
           "crn": "12108",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12108",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1754,10 +2420,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "157",
@@ -1765,9 +2428,8 @@
           "crn": "10542",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10542",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1787,10 +2449,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "161",
@@ -1798,9 +2457,8 @@
           "crn": "10543",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10543",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1820,10 +2478,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "193",
@@ -1831,9 +2486,8 @@
           "crn": "16410",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16410",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1853,10 +2507,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -1864,9 +2515,8 @@
           "crn": "16611",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16611",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1886,10 +2536,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

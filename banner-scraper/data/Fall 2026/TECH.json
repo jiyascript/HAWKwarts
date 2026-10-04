@@ -3,6 +3,23 @@
   "courses": [
     {
       "course_code": "TECH",
+      "course_num": "465",
+      "course_combined": "TECH 465",
+      "title": "Intro to Social Commerce",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=TECH&crse_numb_in=465",
+      "course_description": "Provides an introduction and basic knowledge of social commerce to help students develop a practical understanding of the design, construction, market readiness, and synergistic integration of a business mobile application. The course will provide a practitioner focus that will benefit students in a start-up or company/corporate setting.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "TECH",
       "course_num": "497",
       "course_combined": "TECH 497",
       "title": "Special Projects",
@@ -10,7 +27,11 @@
       "course_description": "Independent study and projects in applied technology that are multi/cross-disciplinary not tied to a specific department.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +40,8 @@
           "crn": "17296",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17296",
           "credits": 6.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,12 +61,77 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "TECH",
+      "course_num": "565",
+      "course_combined": "TECH 565",
+      "title": "Intro to Social Commerce",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=TECH&crse_numb_in=565",
+      "course_description": "Provides an introduction and basic knowledge of social commerce to help students develop a practical understanding of the design, construction, market readiness, and synergistic integration of a business mobile application. The course will provide a practitioner focus that will benefit students in a start-up or company/corporate setting.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "TECH",
+      "course_num": "580",
+      "course_combined": "TECH 580",
+      "title": "Topics in Mngt of Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=TECH&crse_numb_in=580",
+      "course_description": "This course will cover a particular topic, varying from semester to semester, in which there is particular student or staff interest. This course may be taken more than once but only 9 hours of TECH 580 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "TECH",
+      "course_num": "581",
+      "course_combined": "TECH 581",
+      "title": "Consulting for Technical Prof",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=TECH&crse_numb_in=581",
+      "course_description": "This course explores the application of technology and technical management skills to working with business, industry, or various professions in solving specific problems for an organization as an internal or external consultant. Students learn how to involve clients in all phases of problem identification and solution with the goal that, at the end of a consulting assignment, the clients are able to sustain the necessary changes in their organization. Particular attention is paid to managing expectations among change agents, managers, executives, technical professionals, and other members of the organization. The course will cover the most critical, high-level, functional frameworks used by top consulting firms today as well as the tools commonly used by consulting professionals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "TECH",
+      "course_num": "597",
+      "course_combined": "TECH 597",
+      "title": "Special Problems in Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=TECH&crse_numb_in=597",
+      "course_description": "Independent study and projects in applied technology that are multi/cross-disciplinary not tied to a specific department.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }

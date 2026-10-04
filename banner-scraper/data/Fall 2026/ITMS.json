@@ -3,6 +3,57 @@
   "courses": [
     {
       "course_code": "ITMS",
+      "course_num": "416",
+      "course_combined": "ITMS 416",
+      "title": "Found. of Secure AI Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=416",
+      "course_description": "This course provides a rigorous foundation in the design, analysis, and security of Artificial Intelligence systems across their lifecycle. Students examine AI systems through mathematical, algorithmic, defensive, and offensive lenses, emphasizing how foundational AI methods can be secured, attacked, and defended in operational environments. The course integrates mathematical reasoning, AI fundamentals, and applied cybersecurity use cases to prepare students for advanced Secure AI systems engineering and defense coursework.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "418",
+      "course_combined": "ITMS 418",
+      "title": "Coding Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=418",
+      "course_description": "This course examines security architecture elements within modern object oriented programming languages that create the framework for secure programming. Analysis of components and services with their inherent strength and weaknesses give rise to common coding security challenges. An exploration of identity management, encryption services and common hacking techniques will enable the student’s ability to develop secure code. Homework assignments and projects will reinforce theories taught.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "428",
+      "course_combined": "ITMS 428",
+      "title": "Database Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=428",
+      "course_description": "Students will engage in an in-depth examination of topics in data security including security considerations in applications and systems development, encryption methods, cryptography law and security architecture and models.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
       "course_num": "438",
       "course_combined": "ITMS 438",
       "title": "Cyber Forensics",
@@ -10,7 +61,11 @@
       "course_description": "This course will address methods to properly conduct a computer and/or network forensics investigation including digital evidence collection and evaluation and legal issues involved in network forensics. Technical issues in acquiring court admissible chains-of-evidence using various forensic tools that reconstruct criminally liable actions at the physical and logical levels are also addressed. Technical topics covered include detailed analysis of hard disks, files systems (including FAT, NTFS, and EXT) and removable storage media; mechanisms for hiding and detecting hidden information; and the hands-on use of powerful forensic analysis tools.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMS 448 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +74,8 @@
           "crn": "14748",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14748",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +95,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMS 448 Minimum Grade of D May not be taken concurrently."
+          }
         },
         {
           "section": "02",
@@ -52,9 +103,8 @@
           "crn": "14749",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14749",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -74,10 +124,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMS 448 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
     },
@@ -90,7 +137,11 @@
       "course_description": "This course addresses hands-on ethical hacking, penetration testing, and detection of malicious probes and their prevention. It provides students with in-depth theoretical and practical knowledge of the vulnerabilities of networks of computers including the networks themselves, operating systems, and important applications. Integrated with the lectures are laboratories focusing on the use of open source and freeware tools; students will learn in a closed environment to probe, penetrate, and hack other networks.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -99,9 +150,8 @@
           "crn": "12121",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12121",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +171,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -132,9 +179,8 @@
           "crn": "12122",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12122",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,10 +200,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. and Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -170,7 +213,11 @@
       "course_description": "This course covers the duties of cybersecurity analysts who are responsible for monitoring and detecting security incidents in information systems and networks, and for executing a proper response to such incidents. The course introduces tools and tactics to manage cybersecurity risks, identify various types of common threats, evaluate the organization's security, collect and analyze cybersecurity intelligence, and handle incidents as they occur.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -179,9 +226,8 @@
           "crn": "15309",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15309",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -201,10 +247,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -212,9 +255,8 @@
           "crn": "15355",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15355",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -234,10 +276,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -250,7 +289,11 @@
       "course_description": "Prepares students for a role as a network security analyst and administrator. Topics include viruses, worms, and other attack mechanisms, vulnerabilities, and countermeasures; network security protocols, encryption, identity and authentication, scanning, firewalls, security tools, and organizations addressing security. A component of this course is a self-contained team project that, if the student wishes, can be extended into a fully operational security system in a subsequent course.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -259,9 +302,8 @@
           "crn": "11220",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11220",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -281,10 +323,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -292,9 +331,8 @@
           "crn": "13213",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13213",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -314,10 +352,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. )"
+          }
+        },
+        {
+          "section": "A88",
+          "section_name": "",
+          "crn": "16442",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16442",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructor": "Jovany Melchor",
+              "instructor_email": "jmelchor@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 11,
+            "remaining": 239,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -330,7 +394,11 @@
       "course_description": "This course will address theoretical concepts of operating system security, security architectures of current operating systems, and details of security implementation using best practices to configure operating systems to industry security standards. Server configuration, system-level firewalls, file system security, logging, anti-virus and anti-spyware measures and other operating system security strategies will be examined.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -339,9 +407,8 @@
           "crn": "13855",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13855",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,10 +428,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -372,9 +436,8 @@
           "crn": "15311",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15311",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -394,12 +457,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: ITMO 356 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "460",
+      "course_combined": "ITMS 460",
+      "title": "Secure AI Systems Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=460",
+      "course_description": "This course focuses on the engineering, evaluation, and defense of secure artificial intelligence systems deployed in adversarial and high-risk environments. Building on machine learning fundamentals, students design and defend AI systems across the full AI lifecycle, addressing adversarial manipulation, model integrity, secure deployment, monitoring, incident response, and AI supply-chain risk. Emphasis is placed on operationally realistic SecureAI engineering, consistent with national security, defense, and critical-infrastructure use cases.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -410,7 +487,11 @@
       "course_description": "Students will learn how to effectively secure cloud-based services and infrastructure in an enterprise setting. Areas addressed will include de-sign principles of secure cloud computing, data security, platform and infrastructure security, application security and the Secure Software Development Life Cycle (SDLC) and DevSecOps processes, and security operations. The course will cover legal, risk, and compliance aspects of cloud computing, all in the context of a set of industry-standard learning domains.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMO 444 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -419,9 +500,8 @@
           "crn": "17346",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17346",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -441,10 +521,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 444 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -452,9 +529,8 @@
           "crn": "17347",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17347",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -474,12 +550,55 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 444 May not be taken concurrently. )"
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16443",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16443",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Vikas Jayaram Sanil",
+              "instructor_email": "vsanil1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 12,
+            "remaining": 238,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "465",
+      "course_combined": "ITMS 465",
+      "title": "Intro to Quantum Cybersecurity",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=465",
+      "course_description": "This course provides a comprehensive introduction to the cybersecurity challenges, vulnerabilities, and protection mechanisms associated with quantum computing systems, post‑quantum classical systems, and hybrid classical–quantum environments. Students examine both offensive and defensive perspectives across quantum algorithms, hardware, networks, and interfaces. Core topics include post‑quantum cryptography; quantum key distribution and its security assumptions; threat models for quantum processors and quantum clouds; the security of classical systems in the post‑quantum era; and secure‑by‑design principles for emerging quantum technologies. The course emphasizes current research, real‑world attack demonstrations, and open R&D challenges in building trustworthy, fault‑tolerant, and securely controlled quantum systems. Hands‑on labs or simulation exercises may be included.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -490,7 +609,11 @@
       "course_description": "Students will examine Zero Trust architecture focusing on its design and implementation as a model that treats all network hosts as exposed to the internet and assumes the network is always at risk. The course explores the transition from traditional perimeter-based defenses to zero trust strategies that directly incorporate authentication protocols, authorization protocols, and encryption into the network's infrastructure. Utilizing NIST Special Publication (SP) 1800-35, students will learn how to apply zero trust concepts across different organizations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMS 448 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -499,9 +622,8 @@
           "crn": "16802",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16802",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -521,10 +643,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMS 448 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -532,9 +651,8 @@
           "crn": "16804",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16804",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -554,10 +672,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMS 448 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -570,7 +685,11 @@
       "course_description": "In-depth examination of topics in the management of information technology security including access control systems and methodology, business continuity and disaster recovery planning, legal issues in information system security, ethics, computer operations security, physical security and security architecture & models using current standards and models",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -579,9 +698,8 @@
           "crn": "11228",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11228",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -601,10 +719,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -612,9 +727,8 @@
           "crn": "11229",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11229",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -634,12 +748,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "479",
+      "course_combined": "ITMS 479",
+      "title": "Topics in Information Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=479",
+      "course_description": "This course will cover a particular topic in Information Security, varying from semester to semester, in which there is particular student or staff interest. This course may be taken more than once but only 9 hours of ITMS 479/579 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "483",
+      "course_combined": "ITMS 483",
+      "title": "Digital Evidence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=483",
+      "course_description": "In this course, students learn the fundamental principles and concepts in the conduct of investigations in the digital realm. Students will learn the process and methods of obtaining, preserving and presenting digital information for use as evidence in civil, criminal, or administrative cases. Topics include legal concepts and terminology, ethics, computer crime, investigative procedures, chain of custody, digital evidence controls, processing crime and incident scenes, data acquisition, e-mail Investigations, applicable case law, and appearance as an expert witness in a judicial or administrative proceeding.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "484",
+      "course_combined": "ITMS 484",
+      "title": "Governance, Risk, & Compliance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=484",
+      "course_description": "This course is an in-depth examination of topics in information technology/information security governance, risk, and compliance including information assurance policies, standards, and compliance as well as the examination of security risk analysis and the performance of systems certification and accreditation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -650,7 +812,11 @@
       "course_description": "This course will introduce essential programming concepts and techniques used in analytics. Students will learn and make use of industry standard programming languages widely used in application programming for data and statistical analysis in cybersecurity as well as other purposes. Students will understand and use various libraries for data manipulation, preparation, and analysis, and will be equipped to use the programming languages covered in real world scenarios and circumstances upon completion.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: India Program within country",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -659,9 +825,8 @@
           "crn": "13861",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13861",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -681,10 +846,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -692,9 +854,8 @@
           "crn": "13862",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13862",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -714,10 +875,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -725,9 +883,8 @@
           "crn": "13863",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13863",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -747,12 +904,77 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "518",
+      "course_combined": "ITMS 518",
+      "title": "Coding Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=518",
+      "course_description": "This course examines security architecture elements within modern object-oriented programming languages that create the framework for secure programming. Analysis of components and services with their inherent strength and weaknesses give rise to common coding security challenges. An exploration of identity management, encryption services and common hacking techniques will enable the student's ability to develop secure code. Homework assignments and projects will reinforce theories taught.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "527",
+      "course_combined": "ITMS 527",
+      "title": "AI for Cybersecurity",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=527",
+      "course_description": "This course is designed to equip students with knowledge and skills necessary to understand, implement, and leverage artificial intelligence (AI) techniques in the realm of cybersecurity. In an era where cyber threats continue to evolve and grow in complexity, AI has emerged as a powerful tool to defend against and mitigate these threats. This course explores the intersection of AI and cybersecurity, providing a comprehensive understanding of how AI technologies can be used to protect computing systems. By the end of this course, students will be well-equipped to leverage the power of AI to enhance cybersecurity efforts, making them valuable assets in the ever-evolving landscape of digital security. Join us on this exciting journey into the world of “AI for Cybersecurity” and prepare to defend against the digital threats of tomorrow. The course is intended for students with a basic understanding of computing and cybersecurity concepts.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "528",
+      "course_combined": "ITMS 528",
+      "title": "Database Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=528",
+      "course_description": "Students will engage in an in-depth examination of topics in data security including security considerations in applications & systems development, encryption methods, cryptography law, and security architecture & models.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "534",
+      "course_combined": "ITMS 534",
+      "title": "Human Factors in Cybersecurity",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=534",
+      "course_description": "This course introduces the applied theories relevant to human factors in information security, digitalization, and sociotechnical environments. Examines the human element through a comprehensive approach that explores human errors, new technologies, and cybersecurity incidents. Investigates human-related aspects that have an impact on the practices, policies, and procedures that are in place in an organization to secure the firm’s information. Topic areas include human behavior, ethics, psychology, social engineering, the culture of hacking, cybercrimes, security fatigue, and burnout. The analysis covers techniques to prevent intrusions and attacks that threaten organizational data and methods to identify potential insider threats.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -763,7 +985,11 @@
       "course_description": "This course will address methods to properly conduct a computer and/or network forensics investigation including digital evidence collection and evaluation and legal issues involved in network forensics. Technical issues in acquiring court-admissible chains of evidence using various forensic tools that reconstruct criminally liable actions at the physical and logical levels are also addressed. Technical topics covered include detailed analysis of hard disks, files systems (including FAT, NTFS and EXT), and removable storage media; mechanisms for hiding and detecting hidden information; and the hands-on use of powerful forensic analysis tools.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -772,9 +998,8 @@
           "crn": "14750",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14750",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -794,10 +1019,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -805,9 +1027,8 @@
           "crn": "14751",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14751",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -827,10 +1048,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -838,9 +1056,8 @@
           "crn": "14752",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14752",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -860,12 +1077,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "539",
+      "course_combined": "ITMS 539",
+      "title": "Steganography",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=539",
+      "course_description": "Digital steganography is the science of hiding covert information in otherwise innocent carrier files so that the observer is unaware that hidden information exists. This course studies both digital steganography and digital steganalysis (the science of discovering the existence of and extracting the covert information). In addition to understanding the science and the pathologies of specific carriers and hiding algorithms, students will have hands-on experience with tools to both hide and extract information. Carrier files such as image, audio, and video files will be investigated.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -876,7 +1107,11 @@
       "course_description": "This course addresses hands-on ethical hacking, penetration testing, and detection of malicious probes and their prevention. It provides students with in-depth theoretical and practical knowledge of the vulnerabilities of networks of computers including the networks themselves, operating systems and important applications. Integrated with the lectures are laboratories focusing on the use of open source and freeware tools; students will learn in a closed environment to probe, penetrate and hack other networks",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -885,9 +1120,8 @@
           "crn": "12123",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12123",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -907,10 +1141,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -918,9 +1149,8 @@
           "crn": "12124",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12124",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -940,10 +1170,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -951,9 +1178,8 @@
           "crn": "14376",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14376",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -973,10 +1199,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -989,7 +1212,11 @@
       "course_description": "This course covers the duties of cybersecurity analysts who are responsible for monitoring and detecting security incidents in information systems and networks, and for executing a proper response to such incidents. The course introduces tools and tactics to manage cybersecurity risks, identify various types of common threats, evaluate the organization's security, collect and analyze cybersecurity intelligence, and handle incidents as they occur.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITMS 540 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -998,9 +1225,8 @@
           "crn": "15312",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15312",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1020,10 +1246,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITMS 540 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1031,9 +1254,8 @@
           "crn": "15356",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15356",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1053,10 +1275,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITMS 540 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -1064,9 +1283,8 @@
           "crn": "15310",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15310",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1086,10 +1304,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 340 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ITMS 540 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 542 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: CS 544 Minimum Grade of C May not be taken concurrently. ) or ( Course or Test: ECE 407 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: ECE 408 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -1102,7 +1317,11 @@
       "course_description": "Prepares students for a role as a network security administrator and analyst. Topics include viruses, worms, other attack mechanisms, vulnerabilities and countermeasures, network security protocols, encryption, identity and authentication, scanning, firewalls, security tools, and organizations addressing security. A component of this course is a self-contained team project that, if the student wishes, can he extended into a full operational security system in a follow-course,",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. and Course or Test: ITMO 556 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1111,9 +1330,8 @@
           "crn": "12949",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12949",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1133,10 +1351,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. and Course or Test: ITMO 556 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1144,9 +1359,8 @@
           "crn": "13857",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13857",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1166,10 +1380,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. and Course or Test: ITMO 556 May not be taken concurrently. )"
+          }
         },
         {
           "section": "03",
@@ -1177,9 +1388,8 @@
           "crn": "14377",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14377",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1199,12 +1409,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 540 May not be taken concurrently. and Course or Test: ITMO 556 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "549",
+      "course_combined": "ITMS 549",
+      "title": "CST: Projects & Adv Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=549",
+      "course_description": "Prepares students for a role as a network security analyst and developer and gives the student experience in developing a production security system. Topics may include computer and network forensics, advances in cryptography and security protocols and systems; operating system security, analysis of recent security attacks, vulnerability and intrusion detection, incident analysis and design and development of secure networks. This course includes a significant real world team project that results in an fully operational security system. Students should have previous experience with object-oriented and/or scripting languages.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "555",
+      "course_combined": "ITMS 555",
+      "title": "Mobile Device Forensics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=555",
+      "course_description": "This course will address methods for recovering digital data or evidence and conducting forensic analysis of mobile devices such as smart phones and tablets. Various devices will be compared including iPhone, Android, and Blackberry. A brief review of Linux and related forensic tools. ANAND technology and mobile file systems will be discussed. Students will learn how to unlock and root mobile devices and recover data from actual mobile devices.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "557",
+      "course_combined": "ITMS 557",
+      "title": "Introduction to Cyber Warfare",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=557",
+      "course_description": "Cyber warfare is defined as \"warfare waged in cyberspace,\" which can include defending information and computer networks and deterring information attacks as well as denying an adversary's ability to do the same. It can include offensive information operations mounted against an adversary or even dominating information on the battlefield. Students participating in this discussion-based course will explore the current state of cyber security from national and international perspectives and consider cyber-based operations through the lens of a government pursuing strategic goals. How might their actions impact the industry's ability to conduct business operations? What does the current threat environment look like? The course will include extensive discussions and student presentations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -1215,7 +1473,11 @@
       "course_description": "This course will address theoretical concepts of operating system security, security architectures of current operating systems, and details of security implementation using best practices to configure operating systems to industry security standards. Server configuration, system-level firewalls, file system security, logging, anti-virus and anti-spyware measures and other operating system security strategies will be examined.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1224,9 +1486,8 @@
           "crn": "13856",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13856",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture/Lab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1246,10 +1507,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1257,9 +1515,8 @@
           "crn": "14746",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14746",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1279,10 +1536,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -1290,9 +1544,8 @@
           "crn": "14747",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14747",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture/Lab Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture/Lab",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1312,10 +1565,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1328,7 +1578,11 @@
       "course_description": "Students will learn how to effectively secure cloud-based services and infrastructure in an enterprise setting. Areas addressed will include de-sign principles of secure cloud computing, data security, platform and infrastructure security, application security and the Secure Software Development Life Cycle (SDLC) and DevSecOps processes, and security operations. The course will cover legal, risk, and compliance aspects of cloud computing, all in the context of a set of industry-standard learning domains.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMO 544 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1337,9 +1591,8 @@
           "crn": "17078",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17078",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1359,10 +1612,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 544 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1370,9 +1620,8 @@
           "crn": "17079",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17079",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1392,10 +1641,36 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMO 544 May not be taken concurrently. )"
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "16434",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16434",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructor": "Vikas Jayaram Sanil",
+              "instructor_email": "vsanil1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 17,
+            "remaining": 233,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
         }
       ]
     },
@@ -1408,7 +1683,11 @@
       "course_description": "Students will examine Zero Trust architecture focusing on its design and implementation as a model that treats all network hosts as exposed to the internet and assumes the network is always at risk. The course explores the transition from traditional perimeter-based defenses to zero trust strategies that directly incorporate authentication protocols, authorization protocols, and encryption into the network's infrastructure. Utilizing NIST Special Publication (SP) 1800-35, students will learn how to apply zero trust concepts across different organizations.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMS 548 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1417,9 +1696,8 @@
           "crn": "16803",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16803",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1439,10 +1717,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMS 548 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -1450,9 +1725,8 @@
           "crn": "16805",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16805",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1472,10 +1746,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite Required",
-          "general_requirements": "( Course or Test: ITMS 548 May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -1488,7 +1759,11 @@
       "course_description": "In-depth examination of topics in the management of information technology security including access control systems & methodology, business continuity & disaster recovery planning, legal issues in information system security, ethics, computer operations security, physical security and security architecture & models using current standards and models.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1497,9 +1772,8 @@
           "crn": "11230",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11230",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1519,10 +1793,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1530,9 +1801,8 @@
           "crn": "11231",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11231",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1552,10 +1822,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -1563,9 +1830,8 @@
           "crn": "11232",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11232",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1585,12 +1851,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "579",
+      "course_combined": "ITMS 579",
+      "title": "Topics in Information Security",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=579",
+      "course_description": "This course will cover a particular topic in Information Security, varying from semester to semester, in which there is particular student or staff interest. This course may be taken more than once but only 9 hours of ITMS 579 credit may be applied to a degree.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "583",
+      "course_combined": "ITMS 583",
+      "title": "Digital Evidence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=583",
+      "course_description": "In this course, students learn the fundamental principles and concepts in the conduct of investigations in the digital realm. Students will learn the process and methods of obtaining, preserving and presenting digital information for use as evidence in civil, criminal, or administrative cases. Topics include legal concepts and terminology, ethics, computer crime, investigative procedures, chain of custody, digital evidence controls, processing crime and incident scenes, data acquisition, e-mail investigations, applicable case law, and appearance as an expert witness in a judicial or administrative proceeding.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMS",
+      "course_num": "584",
+      "course_combined": "ITMS 584",
+      "title": "Governance, Risk, & Compliance",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ITMS&crse_numb_in=584",
+      "course_description": "This course is an in-depth examination of topics in information technology/information security governance, risk, and compliance including information assurance policies, standards, and compliance as well as the examination of security risk analysis and the performance of systems certification and accreditation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "ITMS",
@@ -1601,7 +1915,11 @@
       "course_description": "Students learn to design and manage key business information security functions including incident response plans and incident response teams disaster recovery plans; and business continuity plans. Reporting, response planning and budgeting are all addressed. Students working in reams will prepare an incident response, disaster recovery, or business continuity plan for a real-world organizations such as a business or a government body or agency.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1610,9 +1928,8 @@
           "crn": "13962",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13962",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1632,10 +1949,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1643,9 +1957,8 @@
           "crn": "13964",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13964",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1665,10 +1978,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -1676,9 +1986,8 @@
           "crn": "13963",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13963",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nIndia International Internet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1698,10 +2007,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be assigned one of the following Student Attributes: India Program within country",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     }

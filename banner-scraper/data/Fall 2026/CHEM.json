@@ -10,7 +10,11 @@
       "course_description": "Introduction to the chemical sciences, scientific method, computing tools, green chemistry, and interrelations of chemical sciences with biology, physics and other professions.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -19,9 +23,8 @@
           "crn": "17359",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17359",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -41,10 +44,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -57,7 +57,11 @@
       "course_description": "An introduction to the foundations of chemistry, including: atoms and molecules; stoichiometry of chemical reactions; thermochemistry; properties of gases; states of matter, chemical solutions; the molecular basis for chemical reactivity; atomic structure; periodicity; and chemical bonding.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -66,9 +70,8 @@
           "crn": "10035",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10035",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -88,10 +91,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -99,9 +99,8 @@
           "crn": "14602",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14602",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -121,10 +120,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "03",
@@ -132,9 +128,8 @@
           "crn": "11997",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11997",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -154,10 +149,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "04",
@@ -165,9 +157,8 @@
           "crn": "14601",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14601",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -187,10 +178,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "05",
@@ -198,9 +186,8 @@
           "crn": "16304",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16304",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -220,10 +207,199 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "123",
+      "course_combined": "CHEM 123",
+      "title": "General Chemistry Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=123",
+      "course_description": "General chemistry laboratory. The laboratory portion of CHEM 122.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Lab Safety Instruction, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 122 Minimum Grade of D May be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "L01",
+          "section_name": "",
+          "crn": "14871",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14871",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "M",
+              "location": "Wishnick Hall 212",
+              "schedule_type": "Lab",
+              "instructor": "Cinthya E Osuna",
+              "instructor_email": "cosuna@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 29,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L02",
+          "section_name": "",
+          "crn": "15254",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15254",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "W",
+              "location": "Wishnick Hall 212",
+              "schedule_type": "Lab",
+              "instructor": "Cinthya E Osuna",
+              "instructor_email": "cosuna@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 14,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L03",
+          "section_name": "",
+          "crn": "14872",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14872",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 5:55 PM",
+              "days": "T",
+              "location": "Wishnick Hall 212",
+              "schedule_type": "Lab",
+              "instructor": "Cinthya E Osuna",
+              "instructor_email": "cosuna@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 31,
+            "actual": 29,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L04",
+          "section_name": "",
+          "crn": "15255",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15255",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "W",
+              "location": "Wishnick Hall 212",
+              "schedule_type": "Lab",
+              "instructor": "Cinthya E Osuna",
+              "instructor_email": "cosuna@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 30,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L05",
+          "section_name": "",
+          "crn": "15256",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15256",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "R",
+              "location": "Wishnick Hall 212",
+              "schedule_type": "Lab",
+              "instructor": "Cinthya E Osuna",
+              "instructor_email": "cosuna@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 32,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L06",
+          "section_name": "",
+          "crn": "14019",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14019",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "M",
+              "location": "Wishnick Hall 212",
+              "schedule_type": "Lab",
+              "instructor": "Cinthya E Osuna",
+              "instructor_email": "cosuna@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 31,
+            "remaining": 1,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
     },
@@ -236,7 +412,11 @@
       "course_description": "A continuing introduction to the foundations of chemistry, including: chemical equilibria; the chemistry of acids and bases; solubility and precipitation reactions; kinetics; thermodynamics; electrochemistry; nuclear chemistry; and the basics of organic chemistry.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. and Course or Test: CHEM 123 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -245,9 +425,8 @@
           "crn": "16782",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16782",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -267,10 +446,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. and Course or Test: CHEM 123 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
     },
@@ -283,7 +459,11 @@
       "course_description": "Laboratory portion of CHEM 125 (Principles of Chemistry II) covering Chemical Equilibria, the chemistry of acids and bases, solubility, and precipitation reactions. Introduction to thermodynamics and electrochemistry. Chemistry of selected elements and their compounds.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 126 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -292,9 +472,8 @@
           "crn": "16783",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16783",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -314,12 +493,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 126 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "150",
+      "course_combined": "CHEM 150",
+      "title": "Astrochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=150",
+      "course_description": "This course will spotlight the chemical processes in the universe, focusing on the roles of dust and gas in cosmic evolution, interstellar medium, molecular clouds, protoplanetary disks, and planetary atmospheres. It also delves into the chemistry of stars and solar systems. Students will learn about molecular spectra, essential for detecting and identifying molecules in space. Embrace this opportunity to understand the universe through the lens of chemistry, illuminating the connections between the microscopic particles and the vast universe.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -330,7 +523,11 @@
       "course_description": "The constitution and properties of the different classes of organic compounds with considerable attention to stereochemistry and reaction mechanisms.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 126 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -339,9 +536,8 @@
           "crn": "12012",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12012",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -361,10 +557,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 126 May not be taken concurrently. )"
+          }
         },
         {
           "section": "02",
@@ -372,9 +565,8 @@
           "crn": "17218",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17218",
           "credits": 0.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nRecitation/Discussion Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Recitation/Discussion",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -394,10 +586,112 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 126 May not be taken concurrently. )"
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "236",
+      "course_combined": "CHEM 236",
+      "title": "Organic Chemistry I-Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=236",
+      "course_description": "Introduction to the major synthetic and analytical techniques of organic chemistry including the preparation of representative organic compounds from natural sources.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 235 May be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "L01",
+          "section_name": "",
+          "crn": "15597",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15597",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:55 PM",
+              "days": "T",
+              "location": "Wishnick Hall 213",
+              "schedule_type": "Lab",
+              "instructor": "Katherine Leight",
+              "instructor_email": "kleight1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L02",
+          "section_name": "",
+          "crn": "15598",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15598",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:55 PM",
+              "days": "W",
+              "location": "Wishnick Hall 213",
+              "schedule_type": "Lab",
+              "instructor": "Katherine Leight",
+              "instructor_email": "kleight1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 13,
+            "remaining": 2,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "L03",
+          "section_name": "",
+          "crn": "17182",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17182",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:55 PM",
+              "days": "R",
+              "location": "Wishnick Hall 213",
+              "schedule_type": "Lab",
+              "instructor": "Katherine Leight",
+              "instructor_email": "kleight1@illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 20,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
     },
@@ -410,7 +704,11 @@
       "course_description": "Sequel to Organic Chemistry I with more emphasis on structure and reactivity of several classes of organic compounds including introductory discussion on common spectroscopic techniques.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 235 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -419,9 +717,8 @@
           "crn": "17183",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17183",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -441,12 +738,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 235 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "240",
+      "course_combined": "CHEM 240",
+      "title": "Organic Chemistry Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=240",
+      "course_description": "Basic techniques for advanced organic preparations. Interpretation of scientific results including percent yield, melting point, boiling point, IR, and NMR spectra.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -457,7 +768,11 @@
       "course_description": "This course introduces students to the theory and applications of quantitative analytical chemistry. Topics covered include: statistical data analysis; equilibrium constants expressions; acid-base reactions; volumetric analysis; and fundamentals of spectroscopy, electrochemistry, and of separations science. Laboratory experiments include learning about analytical process, calibration of glassware and equipment, wet chemical analysis, electrochemistry, spectroscopy, and chromatography.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -466,9 +781,8 @@
           "crn": "15588",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15588",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -488,12 +802,123 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently."
+          }
+        },
+        {
+          "section": "L01",
+          "section_name": "",
+          "crn": "17184",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17184",
+          "credits": 0.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 12:40 PM",
+              "days": "F",
+              "location": "Wishnick Hall 210",
+              "schedule_type": "Lab",
+              "instructor": "Sadia Afrin",
+              "instructor_email": "safrin1@hawk.illinoistech.edu"
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 8,
+            "remaining": 12,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "248",
+      "course_combined": "CHEM 248",
+      "title": "Analytical Chem Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=248",
+      "course_description": "The laboratory portion of CHEM 247. Laboratory experiments include learning about analytical process, calibration of glassware and equipment, wet chemical analysis, electrochemistry, spectroscopy, and chromatography.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "321",
+      "course_combined": "CHEM 321",
+      "title": "Instrumental Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=321",
+      "course_description": "This course introduces students to theory and application of modern instruments in chemical procedures. Standard spectroscopic methods including atomic spectrometry, molecular spectrometry, ultraviolet spectroscopy, molecular luminescence, Fourier transform infrared spectroscopy, and nuclear magnetic resonance spectroscopy. Separation techniques using high pressure liquid chromatography and gas chromatography. Other topics relevant to advanced chemical instrumentation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "343",
+      "course_combined": "CHEM 343",
+      "title": "Physical Chemistry I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=343",
+      "course_description": "Thermodynamic laws and relationships applied to chemical systems. Kinetic theory of gases. Equations of state for ideal and real gases. Calculation of state functions from arbitrary pathways using measurable partial derivatives. Chemical potential and the prediction of phase and reaction equilibria.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "344",
+      "course_combined": "CHEM 344",
+      "title": "Physical Chemistry II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=344",
+      "course_description": "Introduction to quantum mechanics. Applying quantum mechanics to chemical systems. Atomic structure and spectra. Molecular structure and spectroscopy. Statistical mechanics. Chemical kinetics. The laboratory will include experiments dealing with thermochemistry, phase equilibria, chemical kinetics, spectra, molecular structure, and treatment of data.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "410",
+      "course_combined": "CHEM 410",
+      "title": "Science of Climate Change",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=410",
+      "course_description": "This course will focus on the science underlying global warming/climate change. How can we continue to lead the good life while living in harmony with nature? Although obviously important, commercial/political aspects are not considered here. However, any serious debate about climate change issues eventually has to rest on the underlying scientific facts so we need to be informed. Ultimately the sun is our primary source of power. How do we responsibly access that power in the short, intermediate and long terms? Bio-fuels, carbon dioxide, polar ice caps, and solar power are some of the topics to be discussed. Class time will be divided between lectures and recitation. Permission of instructor required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -504,7 +929,11 @@
       "course_description": "In-depth introduction to the vast subfield of the discipline dealing with all of the elements in the periodic table. Presents balanced blend of facts and theories in modern inorganic chemistry. Emphasis is on bonding, electronic, magnetic, and structural features exhibited by inorganic and organometallic compounds and their reactivities. Modern concepts including symmetry and group theory and their relevance in solving chemical problems. Bioinorganic chemistry and high tech inorganic materials and solids are introduced.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 239 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -513,9 +942,8 @@
           "crn": "11482",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11482",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -535,12 +963,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 239 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "416",
+      "course_combined": "CHEM 416",
+      "title": "Advanced Chemistry Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=416",
+      "course_description": "This advanced laboratory emphasizes chemical synthesis and characterization of inorganic and organometallic compounds. Air and moisture-sensitive techniques are introduced and employed. The synthesis and characterization of nanomaterials is also featured.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "434",
+      "course_combined": "CHEM 434",
+      "title": "Spec Methods in Id and Analys",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=434",
+      "course_description": "Characterization and analysis by mass, vibrational, nuclear magnetic resonance, and electronic spectroscopy. Structure-spectra correlations applied to organic and inorganic compounds with examples drawn from diverse areas, e.g., pollutants, toxic materials, polymers, etc. The laboratory work includes characterization of prepared or separated organic compounds by chromatographic, chemical, and spectroscopic methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "438",
+      "course_combined": "CHEM 438",
+      "title": "Physical Biochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=438",
+      "course_description": "Introduces thermodynamics and kinetics in the context of biological macromolecules and processes. Coverage of thermodynamics focuses on Gibbs energy and chemical equilibria of noncovalent binding and macromolecular stability and folding, including binding specificity, coupled equilibria, and methods for measuring affinity and stoichiometry. Coverage of kinetics focuses on ion/electron transport and enzyme-catalyzed reactions, including types of inhibition and influences on catalytic parameters. Emphasis is placed on interpreting experimental data, connecting thermodynamic and kinetic descriptions, and predicting the effects of perturbations relevant to biological homeostasis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -551,7 +1027,11 @@
       "course_description": "Designed to give research experience in a faculty research laboratory.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -560,9 +1040,8 @@
           "crn": "12040",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12040",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -582,10 +1061,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "127",
@@ -593,9 +1069,8 @@
           "crn": "10709",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10709",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -615,10 +1090,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "154",
@@ -626,9 +1098,8 @@
           "crn": "10546",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10546",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -648,10 +1119,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "162",
@@ -659,9 +1127,8 @@
           "crn": "11166",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11166",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -681,10 +1148,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -692,9 +1156,8 @@
           "crn": "12049",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12049",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -714,10 +1177,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -725,9 +1185,8 @@
           "crn": "14788",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14788",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Pre-Collegiate, Undergraduate",
-          "attributes": "Communications Requirement, Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -747,12 +1206,60 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "451",
+      "course_combined": "CHEM 451",
+      "title": "Undergraduate Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=451",
+      "course_description": "An overview of a variety of chemical information tools and major scientific databases for navigating primary scientific literature. There will be a focus on the written and oral presentation of scientific research and the critical evaluation of the same types of scientific communication. Professional development with discussions of behavior, ethics, and career paths.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "452",
+      "course_combined": "CHEM 452",
+      "title": "Cheminformatics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=452",
+      "course_description": "This course provides an introduction to chemical informatics and an overview of computer technology and computational methods for search, visualization, analysis, management, and mining of chemical and biochemical data and information. Potential topics include: representation of 2D and 3D chemical structures and chemical reactions; molecular coding; chemical structure database; chemical data and structure descriptors; data visualization and non-linear mapping; database design and management; chemical and biological data analysis and mining; cluster and diversity analysis; and software design and programming; cheminformatics in chemical reaction and property, analytical chemistry, and spectral analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "454",
+      "course_combined": "CHEM 454",
+      "title": "Computational Quantum Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=454",
+      "course_description": "A project-based introduction to modern quantum chemistry tools and approaches. Basics of quantum mechanics and Perturbation Theory. Self-Consistent Field Approximation (Hartree-Fock and density functional approximations, post-HF-methods). Concept of orbital interactions (perturbational MO theory. intermolecular perturbations, constructing MO from fragment orbitals). Electronegativity and geometry perturbations. Walsh Diagrams. First and second order Jahn-Teller effects. Analysis of chemical reactivity, clarification of reaction mechanisms, and predicting physical properties associated with molecules. This course will include laboratory work.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -763,7 +1270,11 @@
       "course_description": "This course provides knowledge on classical and modern organic chemistry at the advanced undergraduate and graduate level. Mechanism and theory of organic reactions, synthetic methodology, and total synthesis will be covered.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 239 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -772,9 +1283,8 @@
           "crn": "17186",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17186",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -794,12 +1304,111 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 239 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "456",
+      "course_combined": "CHEM 456",
+      "title": "Computational Biochem/Drug Des",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=456",
+      "course_description": "A project‑based introduction to computational biochemistry and computer‑aided drug design, including: sequence/structure databases and bioinformatics; homology/AI structure prediction; molecular docking and virtual screening; molecular mechanics and molecular dynamics simulation; continuum electrostatics, solvation, and pKa; free energy methods; quantitative structure property relationships, including for activity and membrane permeability; and introductory QM/MM. This course will include computational laboratory work and empathize connecting computational results to experimental validation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "460",
+      "course_combined": "CHEM 460",
+      "title": "Bioanalytical Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=460",
+      "course_description": "This course will provide an introduction to analysis of biomolecules and biologically active molecules and cover analytical and spectroscopic methods for characterization, separation, and detection of biomolecules and biologically active molecules. Students will learn chemical, biochemical, biophysical, chromatographic, electrochemical, and instrumental techniques for detection, qualitative and quantitative analysis, and characterization of small drugs, biomolecules, bioconjugates, biosimilars, and biopharmaceuticals including protein, antibodies, nucleic acid, and enzymes. Potential topics includes acid-base chemistry, chemical kinetics and thermodynamics, biomolecular structure, enzyme and protein chemistry, bioconjugate chemistry, spectroscopy, mass spectrometry, fluorescence microscopy, chromatography, electrochemistry, and analysis and characterization of proteins and nucleic acids.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "461",
+      "course_combined": "CHEM 461",
+      "title": "Bioanalytical Chemistry Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=461",
+      "course_description": "In this laboratory course of bioanalytical chemistry, students will learn chemical, biochemical, and instrumental lab techniques for detection, analysis, separation, and characterization of small drugs, bioactive agents, and biomolecules. Students will gain hands-on lab experience in the biochemical assays, microscopic, and spectroscopic analysis of biologically active molecules including small drugs, proteins, and DNAs. Potential topics include instrumental and spectroscopic analysis using FTIR, Raman, UV-visible, fluorescence, NMR, AFM, ICP, HPLC, calorimetry, fluorescence microscope, and mass spectrometry; DNA and protein electrophoresis; chromatographic separation; immunoassay; DNA profiling; peptide sequencing; PCR; centrifugation; and microdialysis; and statistical analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "463",
+      "course_combined": "CHEM 463",
+      "title": "Analytical Method Develop Lab",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=463",
+      "course_description": "In this laboratory course, students will learn about method development and assessment for analysis of chemicals, organic compounds, polymers, drugs, pharmaceuticals, and biopharmaceuticals. Students will gain hands-on experience in quantitative analysis and quality assurance and control of diverse chemicals and bioactive agents. This course will foster students to develop quantitative and technical analysis techniques, literature comprehension, critical thinking, problem-solving, and communication skills. The literature and guidance on analytical method development and validation reported by the industry and government agencies will be studied. Potential topics include: analytical separation; instrumental analysis; chromatographic and electrophoretic methods; quality assurance and control; analytical method validation; sampling, preparations and storage of samples and standard solutions; physiochemical characterization; statistical analysis; good laboratory practice (GLP) requirement; and validation, verification, and documentation of analytical testing methods and procedure.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "467",
+      "course_combined": "CHEM 467",
+      "title": "Medicinal Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=467",
+      "course_description": "This course will provide an introduction to medicinal chemistry. Potential topics include organic chemistry in drug design and drug action; structure-activity relationship (SAR); mechanism of drug action; pharmaceutical analysis and formulation; binding affinity, selectivity, and specificity; drug efficacy, toxicity, and oral bioavailability; drug absorption, distribution, metabolism and excretion (ADME); pharmacokinetics (PK); pharmacodynamics (PD); interaction of drugs with enzymes, protein receptors, DNAs, and RNAs; protein-protein interaction; enzyme inhibition and mechanism; molecular target identification and detection; prodrugs; biologics; antibody-drug conjugate (ADC) chemistry; drug discovery process; development of therapeutics, diagnostics, and theranostics; pharmaceutical and clinical data analysis; case studies of preclinical and clinical trials.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "470",
+      "course_combined": "CHEM 470",
+      "title": "Introduction to Polymers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=470",
+      "course_description": "Introductory course covering fundamental aspects of polymers with major emphasis on synthesis, polymerization mechanisms, chain architecture, relationship between polymer structures and properties, measurement and control of molecular weights, thermal and mechanical properties, and polymer processing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -810,7 +1419,11 @@
       "course_description": "This course provides an introduction to environmental chemistry and is focused on application of chemical principles and theories to the study of environmental phenomena and issues and covers matters related to environment and earth. Potential topics include aquatic chemistry, water pollution and purification, atmospheric chemistry, air pollution, hydrology and geochemistry, soil chemistry and pollution, natural resource and cycle, energy and sustainability, climate change, chemical bonding and reactions, thermodynamics and kinetics, acid-base chemistry, redox chemistry, bio-inorganic chemistry on earth and living systems, organic and inorganic toxicants and pollutants, hazardous heavy metals, nuclear wastes, waste and recycling, green chemistry, environmental toxicology, and chemical and environmental health and safety.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 126 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: CHEM 247 Minimum Grade of D May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -819,9 +1432,8 @@
           "crn": "17187",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17187",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -841,12 +1453,60 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: CHEM 125 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 126 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: CHEM 247 Minimum Grade of D May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "473",
+      "course_combined": "CHEM 473",
+      "title": "Environmental Analytical Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=473",
+      "course_description": "This course provides an overview of applications of analytical chemistry to environment and environmental problems. Students will learn spectrometric, chromatographic, electrochemical measurement methods and concepts for analysis of environmental samples and tracing and monitoring of environmental problems. Potential topics include: quality assurance (QA) and quality control (QC) in environmental sampling and analysis; determination of trace elements, toxicants, organics, pollutants, heavy metals, and radionuclides in environmental samples and drinking water; analytical tools for tracing and monitoring of pollution and contamination; instrumental analysis of environmental samples using ICP-MS (inductively coupled plasma-mass spectrometry), ICP-AAS (atomic absorption spectroscopy), ICP-AES (atomic emission spectrometry), ion chromatography, and gas chromatography (GC), GC-MS, high performance liquid chromatography (HPLC); chemometrics; electrochemical methods; GC/LC separation methods, liquid-liquid and solid phase extraction; statistical data analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "475",
+      "course_combined": "CHEM 475",
+      "title": "Forensic Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=475",
+      "course_description": "This course will provide an introduction to forensic chemistry and prepare students to build a sound knowledge in chemical, biochemical, and instrumental methods for forensic analysis and statistical analysis of forensic data. The class will cover principles and applications of chemical, biochemical, spectroscopic, and chromatographic methods for analysis and characterization of forensic samples. Potential topics include forensic applications of UV-Visible, IR, Raman, NMR, atomic absorption (AA) spectroscopy, fluorescence microscopy, X-ray, mass spectrometry; chromatographic methods (GC, HPLC, and TLC) and capillary electrophoresis for separation of forensics; analysis and identification of enforced drugs; colorimetric methods; microscopy and immunoassays for forensic examination; chemistry in examination and analysis of chemical, biological, and physical forensic samples (alcohol, carbon monoxide, papers, hair, gunpowder, inks, fibers, paints, firearms, fingerprint, palmprint, documents, and body fluid and blood samples); crime lab services; forensic statistics; introduction to international forensic databases.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "476",
+      "course_combined": "CHEM 476",
+      "title": "Forensic Chemistry Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=476",
+      "course_description": "This lab course will cover chemical, spectroscopic, and chromatographic methods for analysis and characterization of forensic samples. Students will gain hands-on lab experience in instrumental, colorimetric, and microscopic analysis of forensic samples, controlled substances, and standards. Potential topics include: colorimetric assay for identification and quantification of illicit drugs; fingerprint chemistry; IR, Raman, Fluorescence, and NMR-based spectroscopic analysis of controlled substances, forensic samples, and gold standards; GC-MS, HPLC, and TLC for detection and separation of forensic samples; spot testing and microscopic analysis and characterization of biologic fluids and forensic samples; construction of calibration curves; analysis of forensic samples using an international database including paint data query (PDQ), NIST’s Forensic database trace evidence table, international ink library, glass evidence reference; introduction to visualization software.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -857,7 +1517,11 @@
       "course_description": "Lectures by prominent scientists. This course exposes students to current and active research in chemistry both within and outside the IIT community. It helps prepare students for a career in research. It is complementary to the academic courses and provides examples of professional/scientific presentations. This course may not be used to satisfy the natural science general education requirement.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: CHEM 239 Minimum Grade of D May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -866,9 +1530,8 @@
           "crn": "10051",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10051",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -888,12 +1551,128 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: CHEM 239 Minimum Grade of D May not be taken concurrently."
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "487",
+      "course_combined": "CHEM 487",
+      "title": "Senior Thesis in Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=487",
+      "course_description": "Original work carried on by the student under the guidance of a staff member. A careful search of the literature is required before the study is begun, and continued reference to the chemical literature is expected as the work progresses. A written report is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "491",
+      "course_combined": "CHEM 491",
+      "title": "Undergraduate Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=491",
+      "course_description": "Student participation in undergraduate research, usually during the junior or senior year.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "495",
+      "course_combined": "CHEM 495",
+      "title": "Seminar in Special Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=495",
+      "course_description": "This seminar course is designed to provide students with opportunities to learn about recent development in specialized chemistry areas including bioanalytical chemistry, environmental chemistry, forensic chemistry, medicinal chemistry, and computational chemistry and biochemistry. Students are expected to develop written and oral communication skills on the advanced and specialized topics. Prerequisites or Instructor Approval",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "497",
+      "course_combined": "CHEM 497",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=497",
+      "course_description": "For juniors and seniors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "500",
+      "course_combined": "CHEM 500",
+      "title": "Advanced Analytical Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=500",
+      "course_description": "An overview of analytical chemistry with discussions of complex ionic equilibria, electro analytical techniques including potentiometric, voltametric, coulometric and conductometric methods, ion chromatography, capillary electrophoresis and sensor technology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "501",
+      "course_combined": "CHEM 501",
+      "title": "Capstone Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=501",
+      "course_description": "This course will educate students in the area of quality process and quality manufacturing. Student will work with the instructor to plan and conduct research on a project that is relevant to the analytical chemistry program of study. The project must be approved by the Master of Chemistry in Analytical Program Director.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "503",
+      "course_combined": "CHEM 503",
+      "title": "Survey of Analytical Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=503",
+      "course_description": "This course covers modern aspects of chemical analysis. It is designed to give the student a solid conceptual ground to understand how a given analytical technique works including its limits and advantages. The emphasis is on solutions analysis and the course is roughly divided into: (i) Basic measurements and concepts; (ii) spectroscopy; and (iii) chromatography and mass spectrometry. Upon completion of this course, the student will be able to: describe the basic setup and operation of separation, mass spectrometric, and spectroscopic instrumentation; interpret spectra from various instruments as a means for qualitative and quantitative analysis; apply basic knowledge of separation technique, mass spectrometry, and spectroscopy for practical problem solving; relate the use of separation technique, mass spectrometry, and spectroscopy to his or her own research interests; and compile, present, and explain modern techniques for analytical research. Topics includes high-performance liquid chromatography, gas chromatography, atomic spectrometry, molecular spectrometry, UV/vis spectroscopy, molecular luminescence, infrared spectrometry, mass spectrometry, radio chemistry, raman spectroscopy, nuclear magnetic resonance spectroscopy, etc.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -904,7 +1683,11 @@
       "course_description": "Theories of spectroscopic transitions and their applications in structural elucidations and quantitative analysis. Topics include ultraviolet/visible, infrared, Raman and nuclear magnetic resonance spectroscopy and mass spectrometry.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -913,9 +1696,8 @@
           "crn": "10055",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10055",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -935,12 +1717,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "506",
+      "course_combined": "CHEM 506",
+      "title": "Sampling and Sample Prep",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=506",
+      "course_description": "Techniques and devices for sampling in diverse media will be treated, followed by a discussion of sample treatment prior to analysis including isolation, concentration, and fractionation of analytes and classes of analytes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -951,7 +1747,11 @@
       "course_description": "A seminar course presenting analytical methods in complex matrices with emphasis on methods development and validation.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -960,9 +1760,8 @@
           "crn": "17188",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17188",
           "credits": 2.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -982,12 +1781,315 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "509",
+      "course_combined": "CHEM 509",
+      "title": "Physcl Meths of Charztn",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=509",
+      "course_description": "A survey of physical methods of characterization including x-ray diffraction and fluorescence surface techniques including SEM, TEM, AES and ESCA, thermal methods and synchrotron radiation methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "510",
+      "course_combined": "CHEM 510",
+      "title": "Electronics and Interfacing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=510",
+      "course_description": "Elementary circuit analysis, operational amplifiers, digital electronics, signal processing and interfacing of instruments using modern computer software and hardware.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "512",
+      "course_combined": "CHEM 512",
+      "title": "Spectroscopic Methods II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=512",
+      "course_description": "A continuation of the study of optical methods covering atomic absorption spectroscopy, atomic and flame emission spectroscopy, chemiluminescence, fluorescence, phosphorescence, light scattering and refractometry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "513",
+      "course_combined": "CHEM 513",
+      "title": "Chemometrics & Statistics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=513",
+      "course_description": "This course is carefully designed to provide a vigorous training on statistical methods to graduate students and industry professionals for analysis of real life projects so they can function effectively as part of an innovative and scientific community. The topics include, but not limited to, advanced error analysis, statistical inference, hypothesis testing, probability density functions, sampling estimation, applied regression and multivariable methods, non-parametric analysis, outlier identification methods, and optimization and experimental design. In this course, an advanced statistical software program is introduced with example problems for comprehensive analysis of data and interpretation of the results. The course also discusses various topics for scientific interpretation of data set for chemical, environmental, and biological engineering disciplines.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "515",
+      "course_combined": "CHEM 515",
+      "title": "Gas Chromatography",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=515",
+      "course_description": "This course will cover theory and concepts of gas chromatographic analysis and its practical application in solving analytical problems. Topics include basic theory of chromatographic separation, separation dynamics, instrumentation, column selection, quantitative techniques, and practical applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "516",
+      "course_combined": "CHEM 516",
+      "title": "Liquid Chromatography",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=516",
+      "course_description": "This course will cover the operating principles and applications of state-of-the-art LC/HPLC instrumentation and analysis. Topics include basic theory of liquid chromatography, instrumentation, optimization of LC separation, quantitative techniques, and the diverse range of analytical applications amenable to LC analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "518",
+      "course_combined": "CHEM 518",
+      "title": "Understanding ICH Guidelines",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=518",
+      "course_description": "The International Conference on Harmonization (ICH) was revolutionized in the 1980's to provide a forum for the pharmaceutical industry to discuss regulatory requirements for registration of new chemical entity. These guidelines have been significantly influenced the content of FDA draft guidelines to develop the scientific information and manufacturing controls. Thus, proper understanding of these guidelines is essential in the drug development process. This course will be designed to focus exclusively on guidelines associated with the registration of small molecules. Completing this course, students will understand the expectations set forth in various FDA and ICH quality topics in order to implement these guidelines and/or engage the regulatory agencies in dialogue in order to provide justification of data or present clear scientific rationale.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "519",
+      "course_combined": "CHEM 519",
+      "title": "Good Manufacturing Practices",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=519",
+      "course_description": "This course provides an introduction to current good manufacturing practices (GMP) regulations and their implementation to different areas of the manufacturing process such as laboratory records, equipment, personnel, facilities, etc. The course will help students to recognize the regulatory actions and financial risks for non-compliance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "520",
+      "course_combined": "CHEM 520",
+      "title": "Advanced Inorganic Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=520",
+      "course_description": "Selective treatment of the chemistries of main group and transition elements with emphasis on coordination complexes, organometallic compounds and inorganic cages and clusters. Discussions of molecular symmetry, stereochemistry, bonding, electronic spectra, magnetic properties, reactions, kinetics and reaction mechanisms are included.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "521",
+      "course_combined": "CHEM 521",
+      "title": "Structural Inorg/Material Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=521",
+      "course_description": "This course covers structure and bonding and structure-property relationships in inorganic molecules and solids. Descriptions of crystal structures, spectroscopic and x-ray diffraction techniques for structure determination and properties of solids are included.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "522",
+      "course_combined": "CHEM 522",
+      "title": "Efficient Cheml&Mtrls Synths",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=522",
+      "course_description": "The design and development of environmentally benign chemical pathways: challenges and opportunities. High-yield and zero-waste chemical processes. Representative processes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "524",
+      "course_combined": "CHEM 524",
+      "title": "Synths & Intellect Prop Mgmt",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=524",
+      "course_description": "This course focuses on the management of intellectual property. Professionals will lead discussions on the control and dissemination of materials concerning intellectual property. This will be combined with the technical presentations by the students in the classroom. Topics of discussion will include invention disclosures, intellectual property rights, proprietary materials, justification for patents, types of patents, the terms of a patent, patents procedure, licensing procedure and security considerations. Access to patented materials and disclosure of materials under patent process will be covered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "526",
+      "course_combined": "CHEM 526",
+      "title": "Graduate Chemistry Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=526",
+      "course_description": "An advanced laboratory with emphasis on synthesis and characterization of inorganic and organometallic compounds.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "530",
+      "course_combined": "CHEM 530",
+      "title": "Organic Reaction Mechanisms",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=530",
+      "course_description": "A study of important mechanism classes and their relationship to the major reactions of organic chemistry. Emphasis will be placed on the study of reaction intermediates and on the methods used to characterize reaction pathways. Topics will include chemical bonding, aromaticity, stereochemistry, substitution, elimination, carbanion chemistry, free radical reactions, photochemistry and concerted reactions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "531",
+      "course_combined": "CHEM 531",
+      "title": "Tactics in Organic Synthesis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=531",
+      "course_description": "A study of modern synthetic strategies used in the preparation of complex organic molecules. Synthetic planning using the disconnection approach and the selection of reagents to solve regiochemical and stereo chemical problems will be the underlying themes. Synthetic strategies to be discussed include tandem reactions, template and chelation effects, biomimetic tactics and the use of chiral terpenes, carbohydrates and amino acids in enantioselective syntheses. Target molecules will include natural products, pharmaceuticals and smart organic materials.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "534",
+      "course_combined": "CHEM 534",
+      "title": "Advanced Spectroscopic Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=534",
+      "course_description": "Characterization and analysis by mass, vibrational, nuclear magnetic resonance, and electronic spectroscopy. Structure spectra correlations applied to organic and inorganic compounds with examples drawn from diverse areas, e.g., pollutants, toxic materials, polymers, etc.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "535",
+      "course_combined": "CHEM 535",
+      "title": "Polymer Synthesis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=535",
+      "course_description": "This course will cover the basics of polymer synthesis including traditional polymerization techniques, such as free-radical and ionic chain polymerizations, and step-growth polymerization. Newer methods of polymer synthesis, such as ring-opening metathesis and controlled free-radical polymerizations, will also be discussed. Students will be introduced to the methods of preparation of advanced polymer structures, such as block, star and brush copolymers, dendrimers, and hyperbranched polymers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "537",
+      "course_combined": "CHEM 537",
+      "title": "Polymer Chemistry Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=537",
+      "course_description": "This course will include the synthesis of a variety of polymers and their characterization using instrumental methods. Emphasis will be placed on factors that control polymer formation, methods for obtaining molecular weights and distributions of polymers, as well as thermal and mechanical characteristics of polymers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -998,7 +2100,11 @@
       "course_description": "Thermodynamics and kinetics in the context of biological macromolecules and processes. Thermodynamic topics include Gibbs energy, chemical equilibria of noncovalent binding and macromolecular folding and stability, including binding specificity, coupled equilibria, and methods for measuring affinity and stoichiometry. Kinetics topics include ion/electron transport and enzyme-catalyzed reactions, including types of inhibition and influences on catalytic parameters. Emphasis is placed on interpreting experimental data from scientific literature, connecting thermodynamic and kinetic descriptions, and predicting the effects of perturbations relevant to biological homeostasis.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: BIOL 107 May not be taken concurrently. ) or ( Course or Test: BIOL 115 May not be taken concurrently. ) and ( Course or Test: CHEM 235 May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. ) or ( May not be taken concurrently. )",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1007,9 +2113,8 @@
           "crn": "17221",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17221",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLecture Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1029,12 +2134,26 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "( Course or Test: BIOL 107 May not be taken concurrently. ) or ( Course or Test: BIOL 115 May not be taken concurrently. ) and ( Course or Test: CHEM 235 May not be taken concurrently. ) or ( Course or Test: CHEM 237 May not be taken concurrently. ) or ( May not be taken concurrently. )"
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "539",
+      "course_combined": "CHEM 539",
+      "title": "Intro to Pharmaceutical Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=539",
+      "course_description": "Fundamental concepts will be discussed, including modern principles of drug design; drug absorption, distribution and metabolism; theories of drug-receptor interactions; approaches to structure-activity relationships; chemical, physicochemical and structural considerations. The various classes of therapeutic agents will be surveyed with emphasis on possible modes of action. Methods of synthesis will be considered.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -1045,7 +2164,11 @@
       "course_description": "This course will provide an overview of the common techniques for polymer characterization, studying structure-property relationships, and polymer morphology. The course will focus on thermal and mechanical characterization of polymers as well as polymer rheology. Examples and uses of major commercial polymers and advanced functional polymers will be introduced.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1054,9 +2177,8 @@
           "crn": "17189",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17189",
           "credits": 3.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nLecture Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1076,12 +2198,145 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "543",
+      "course_combined": "CHEM 543",
+      "title": "Analytical Chem in Pharm Labs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=543",
+      "course_description": "This course is designed to compliment the current curriculum of the professional master degree in analytical chemistry. It is a review of the requirements a student may face as a professional chemist in a regulated industry. The course focus is on the requirements and common topics facing today's pharmaceutical industry. While individual agencies have specific regulations, the fundamental ideas of these regulations are largely consistent across the board. For example, an analytical chemist versed in Good Laboratory Practices (GLP) under FDA can quickly pick up the GLP's required by EPA.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "544",
+      "course_combined": "CHEM 544",
+      "title": "Colloids&Colloid Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=544",
+      "course_description": "This course will begin a general overview of colloid science. This part of the course will introduce various types of colloids, touch on factors and conditions leading to their stability or instability, consider their evolution and will include a very limited discussion of the conditions under which they can form. The second part of the course will consist of a series of discussions of specific analytical techniques used to characterize colloidal systems, with particular emphasis on the physical characterization of the dispersed phase.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "545",
+      "course_combined": "CHEM 545",
+      "title": "Sensor Science and Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=545",
+      "course_description": "This course is designed for students to attain a broad and in-depth acquaintance with the mechanism, platform and targets of various sensors, with a focus on chemical sensors and biosensors. Topical concepts covered include: sensor components and characteristics; synthetic, biological and biomimetic materials used in sensor development; miniaturization and nanotechnology involved in sensor fabrication; various sensing modalities, data analysis and device prototyping. Students will be required to partner with others and consult with academic and industrial scientists to design sensors of their own interests as a final project for assessment. The course is intended for graduate students and senior undergraduate students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "546",
+      "course_combined": "CHEM 546",
+      "title": "Sensor Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=546",
+      "course_description": "This course is designed to offer students the opportunity of hands-on sensor research. It can be in the form of a research project in a sensor research group, a joint project between different sensor research groups, or an internship project in industry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "548",
+      "course_combined": "CHEM 548",
+      "title": "Electrochemical Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=548",
+      "course_description": "Thermodynamics and potential, charge-transfer kinetics and mass transfer. Potential step and potential sweep methods, including hydrodynamic methods. Bulk electrolysis methods. Electrode reactions coupled with homogeneous chemical reactions. Double-layer structure and absorbed intermediates in electrode processes. Digital simulation of electrochemical processes. Students are expected to have some background in the physical chemistry of solutions and electroanalytical chemistry at the level of CHEM 500.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "550",
+      "course_combined": "CHEM 550",
+      "title": "Quantum Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=550",
+      "course_description": "An overview of quantum chemistry ranging from foundational postulates and analytical systems to approximation methods and practical molecular modeling calculations. Postulates of quantum mechanics and applications to model systems relevant to chemistry including the particle in a box, harmonic oscillator, rigid rotor, and hydrogen atom. Approximation methods based on perturbation theory and the variational principle. Principles of computational techniques including basis sets and the Hartree-Fock method. Molecular modeling calculations including geometry optimization, electron density, electrostatic potential, and spectroscopy predictions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "552",
+      "course_combined": "CHEM 552",
+      "title": "Chemical Kinetics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=552",
+      "course_description": "Types of reactions, reaction order, activation energy, transition states, isotope effects and the mechanism of reactions. Determination of the rates of free radical reactions. Primary processes in thermal, photochemical and other radiation-induced reactions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "553",
+      "course_combined": "CHEM 553",
+      "title": "Chemical Statistical Thermo",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=553",
+      "course_description": "Statistical interpretation of the fundamental properties and laws of thermodynamics. Ensembles, partition functions, and principles of molecular simulation. Applications to chemical and phase equilibria including case studies from contemporary literature.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -1092,7 +2347,11 @@
       "course_description": "Advanced chemistry projects to be carried out under the direction of a faculty member. These projects may involve computational, theoretical, experimental work or a combination of these. Projects based on experimental work may be carried out in the research lab of the instructor. Topics of the advanced projects will be selected by the faculty member offering the course and will not necessarily be related to the dissertation topic of the student. May be taken more than once and up to 12 credit hours.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1101,9 +2360,8 @@
           "crn": "12043",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12043",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1123,10 +2381,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "127",
@@ -1134,9 +2389,8 @@
           "crn": "11147",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11147",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1156,10 +2410,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "154",
@@ -1167,9 +2418,8 @@
           "crn": "11160",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11160",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1189,10 +2439,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "162",
@@ -1200,9 +2447,8 @@
           "crn": "10692",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10692",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1222,10 +2468,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "192",
@@ -1233,9 +2476,8 @@
           "crn": "11337",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11337",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1255,10 +2497,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -1266,9 +2505,8 @@
           "crn": "11050",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11050",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nLab Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1288,10 +2526,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -1299,9 +2534,8 @@
           "crn": "14349",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14349",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1321,10 +2555,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "198",
@@ -1332,9 +2563,8 @@
           "crn": "16044",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16044",
           "credits": 4.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1354,12 +2584,43 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "561",
+      "course_combined": "CHEM 561",
+      "title": "Laboratory Rotations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=561",
+      "course_description": "This course requires each student to complete research rotations in three different laboratories, 4 weeks in each lab. It allows students to explore various areas of chemical research before committing to a single lab to conduct thesis research. The course intends to give students an opportunity to learn what research topics excite them, what techniques they favor and what lab environment is a good fit. At the same time, rotations provide faculty the mechanism for evaluating students as candidates to join their lab. Submission of a report is required upon the completion of each rotation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "584",
+      "course_combined": "CHEM 584",
+      "title": "Graduate Seminar in Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=584",
+      "course_description": "To foster scientific communications skills, students are required to present seminars based on the scientific literature. Required of all first year M.S. and PhD students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -1370,7 +2631,11 @@
       "course_description": "Lectures by invited scientists in areas of chemistry generally not covered in the department. Must be taken two time by M.S. students and four time by PhD. students.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1379,9 +2644,8 @@
           "crn": "10052",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10052",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1401,10 +2665,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "02",
@@ -1412,9 +2673,8 @@
           "crn": "15987",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15987",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nSeminar Schedule Type\nOnline",
-          "levels": "Graduate Business, Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1434,10 +2694,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
     },
@@ -1450,7 +2707,11 @@
       "course_description": "(Credit: Variable)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Non Credit",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1459,9 +2720,8 @@
           "crn": "15477",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15477",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1481,10 +2741,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "127",
@@ -1492,9 +2749,8 @@
           "crn": "10548",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10548",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1514,10 +2770,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "154",
@@ -1525,9 +2778,8 @@
           "crn": "10549",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10549",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1547,10 +2799,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -1558,9 +2807,8 @@
           "crn": "11157",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11157",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1580,10 +2828,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -1591,9 +2836,8 @@
           "crn": "15502",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15502",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Non Credit",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1608,17 +2852,48 @@
           ],
           "availability": {
             "capacity": 10,
-            "actual": 1,
-            "remaining": 9,
+            "actual": 2,
+            "remaining": 8,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "594",
+      "course_combined": "CHEM 594",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=594",
+      "course_description": "Designed for non-thesis M.S. only. (Credit: Variable)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "596",
+      "course_combined": "CHEM 596",
+      "title": "Chemistry for Teachers-Elem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=596",
+      "course_description": "Certification as chemistry teacher or approval of instructor. An in-service workshop for pre-college teachers emphasizing the phenomenological approach to the teaching of chemical science. (Credit: variable)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -1629,7 +2904,11 @@
       "course_description": "Independent study to meet the special needs of graduate students in department-approved graduate degree programs. Requires the written consent of the instructor. May be taken more than once. Receives a letter grade. (Credit: Variable)",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1638,9 +2917,8 @@
           "crn": "16779",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16779",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1660,10 +2938,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "127",
@@ -1671,9 +2946,8 @@
           "crn": "16780",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16780",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1693,10 +2967,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "154",
@@ -1704,9 +2975,8 @@
           "crn": "11152",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11152",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1726,10 +2996,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -1737,9 +3004,8 @@
           "crn": "11045",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11045",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1759,10 +3025,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "195",
@@ -1770,9 +3033,8 @@
           "crn": "16544",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=16544",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1792,12 +3054,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "598",
+      "course_combined": "CHEM 598",
+      "title": "Chemistry for Teachers-HS",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=598",
+      "course_description": "Certification as teacher or approved of instructor. An in-service workshop for pre-college teachers emphasizing the phenomenological approach to teaching of chemical science at the high school level. (Credit: variable)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -1808,7 +3084,11 @@
       "course_description": "",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1817,9 +3097,8 @@
           "crn": "17023",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17023",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate, Undergraduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1839,12 +3118,179 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "610",
+      "course_combined": "CHEM 610",
+      "title": "Special Topics in Anlytcl Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=610",
+      "course_description": "Topics of current interest in analytical chemistry including advanced electro-chemistry, surface spectroscopy of electrode surfaces, separations, laboratory automation and new spectroscopic techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "611",
+      "course_combined": "CHEM 611",
+      "title": "Special Topics in Anlytcl Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=611",
+      "course_description": "Topics of current interest in analytical chemistry including advanced electro-chemistry, surface spectroscopy of electrode surfaces, separations, laboratory automation and new spectroscopic techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "620",
+      "course_combined": "CHEM 620",
+      "title": "Spec Topics in Inorganic Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=620",
+      "course_description": "Topics of current interest in inorganic chemistry, including organometallic chemistry, homogeneous catalysis, inorganic reaction mechanisms, inorganic stereochemistry, materials chemistry, x-ray crystallography, synthetic and physical methods in inorganic and materials chemistry and chemical applications of group theory.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "621",
+      "course_combined": "CHEM 621",
+      "title": "Spec Topics in Inorganic Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=621",
+      "course_description": "Topics of current interest in inorganic chemistry, including organometallic chemistry, homogeneous catalysis, inorganic reaction mechanisms, inorganic stereochemistry, materials chemistry, x-ray crystallography, synthetic and physical methods in inorganic and materials chemistry and chemical applications of group theory.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "630",
+      "course_combined": "CHEM 630",
+      "title": "Special Topics in Organic Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=630",
+      "course_description": "Topics of current interest in organic chemistry including photochemistry, fluorine chemistry, heterocyclic chemistry, pharmaceutical chemistry and electro optical organic chemistry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "631",
+      "course_combined": "CHEM 631",
+      "title": "Special Topics in Organic Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=631",
+      "course_description": "Topics of current interest in organic chemistry including photochemistry, fluorine chemistry, heterocyclic chemistry, pharmaceutical chemistry and electro optical organic chemistry.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "635",
+      "course_combined": "CHEM 635",
+      "title": "Heterocyclic Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=635",
+      "course_description": "Of the vast array of structures which organic compounds adopt, many contain ring systems as a component. When the ring is made up of carbon and at least one other element, the compound is classified as a heterocycle. The aims of this course are to identify the effects that the presence of such ring systems have on the chemistry of a molecule; to show how the rings can be made, and to describe some of the uses of the compounds in organic synthesis, in medicine and in other contexts. The chemistry of aromatic five-, six- and seven-membered ring compounds with one or more nitrogen, oxygen and/or sulfur atoms will be emphasized.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "650",
+      "course_combined": "CHEM 650",
+      "title": "Spec Topics in Physical Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=650",
+      "course_description": "Topics of current interest in physical chemistry, including atmospheric chemistry, ion molecule reactions, laser chemistry, theories of gas phase reactions, scattering theory, interaction of radiation with matter and time-dependent relaxation methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "651",
+      "course_combined": "CHEM 651",
+      "title": "Spec Topics in Physical Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=651",
+      "course_description": "Topics of current interests in physical chemistry, including atmospheric chemistry, ion molecule reactions, laser chemistry, theories of gas phase reactions, scattering theory, interaction of radiation with matter and time-dependent relaxation methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "684",
+      "course_combined": "CHEM 684",
+      "title": "Graduate Seminars in Chemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=684",
+      "course_description": "To foster scientific communications skills, students are required to present seminars based on the scientific literature. Required of all Ph.D. students who have passed the written qualifying examination.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     },
     {
       "course_code": "CHEM",
@@ -1855,7 +3301,11 @@
       "course_description": "Lectures by invited scientists in areas of chemistry generally not covered in the department.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
+      "levels": "Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: CHEM 585 Minimum Grade of C May not be taken concurrently.",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1864,9 +3314,8 @@
           "crn": "10053",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10053",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nSeminar Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1886,10 +3335,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: CHEM 585 Minimum Grade of C May not be taken concurrently."
+          }
         },
         {
           "section": "02",
@@ -1897,9 +3343,8 @@
           "crn": "15989",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15989",
           "credits": 1.0,
-          "instructional_method": "Standard Tuition Rate\nInternet Campus\nSeminar Schedule Type\nOnline",
-          "levels": "Graduate",
-          "attributes": "Standard Tuition Rate",
+          "schedule_type": "Seminar",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
@@ -1919,10 +3364,7 @@
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
-          },
-          "restrictions": "Must be enrolled in one of the following Levels: Graduate Must be enrolled in one of the following Degrees: Doctor of Philosophy",
-          "prerequisites": "Prerequisite required",
-          "general_requirements": "Course or Test: CHEM 585 Minimum Grade of C May not be taken concurrently."
+          }
         }
       ]
     },
@@ -1935,7 +3377,11 @@
       "course_description": "(Credit: Variable) Instructor permission required.",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "catalog_restrictions": "",
+      "levels": "Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
       "mutual_exclusions": "",
       "sections": [
         {
@@ -1944,9 +3390,8 @@
           "crn": "15478",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=15478",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1966,10 +3411,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "125",
@@ -1977,9 +3419,8 @@
           "crn": "11762",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11762",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -1999,10 +3440,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "127",
@@ -2010,9 +3448,8 @@
           "crn": "10552",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10552",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2032,10 +3469,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "154",
@@ -2043,9 +3477,8 @@
           "crn": "10553",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=10553",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2065,10 +3498,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "159",
@@ -2076,9 +3506,8 @@
           "crn": "12013",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=12013",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2098,10 +3527,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "194",
@@ -2109,9 +3535,8 @@
           "crn": "11297",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=11297",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nNon Traditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2131,10 +3556,7 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         },
         {
           "section": "196",
@@ -2142,9 +3564,8 @@
           "crn": "13638",
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=13638",
           "credits": 20.0,
-          "instructional_method": "Standard Tuition Rate\nMies Campus\nIndependent Study/Research Schedule Type\nTraditional",
-          "levels": "Graduate",
-          "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
           "notes": "",
           "meetings": [
             {
@@ -2164,12 +3585,26 @@
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
-          },
-          "restrictions": "",
-          "prerequisites": "",
-          "general_requirements": ""
+          }
         }
       ]
+    },
+    {
+      "course_code": "CHEM",
+      "course_num": "700",
+      "course_combined": "CHEM 700",
+      "title": "Practical Lab Analytical Chem",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=CHEM&crse_numb_in=700",
+      "course_description": "In this one-week intensive course, students will gain hands-on experience using analytical instruments. A brief review of theory of instrumentation will be covered. Students will carry out practical problems and will present their findings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
     }
   ]
 }
