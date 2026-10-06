@@ -1,6 +1,6 @@
 import json
-import os
 import time
+from functools import lru_cache
 
 import requests
 from bs4 import BeautifulSoup
@@ -8,59 +8,97 @@ from ddgs import DDGS
 from langchain.agents import create_agent
 from langchain_core.tools import tool
 from langchain_ollama import ChatOllama
+from langgraph.checkpoint.memory import InMemorySaver
 
-SEMANTIC_SCHOLAR_BASE = "https://api.semanticscholar.org/graph/v1"
+OPENALEX_BASE = "https://api.openalex.org"
 DIRECTORY_PATH = "iit_directory.json"
 
-# Optional: set this environment variable once Semantic Scholar API key
-# is approved. The code works with or without it (just rate-limited harder
-# without one).
-SEMANTIC_SCHOLAR_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
+# Illinois Institute of Technology's ROR (Research Organization Registry) ID.
+IIT_ROR_ID = "https://ror.org/037t3ry66"
 
 llm = ChatOllama(
     model="qwen3-vl:8b",
-    temperature=0,      # small nonzero value — helps avoid deterministic repetition/runaway loops
+    temperature=0,
     reasoning=False,
     num_ctx=8192,
-    #num_predict=300,      # hard cap — forces short answers instead of open-ended elaboration
     repeat_penalty=1.3,
+    # Ollama unloads an idle model after 5 minutes by default — if you pause
+    # between questions longer than that, the next question pays the cost of
+    # reloading the whole 8B model before it can even start generating.
+    # "30m" keeps it resident for the whole session instead.
+    keep_alive="30m",
 )
 
 with open(DIRECTORY_PATH) as f:
     DIRECTORY = json.load(f)
 
-# Precompute a lowercase name set once, so other tools can cheaply confirm
-# "is this person actually an IIT faculty member?" without re-reading the file.
 _DIRECTORY_NAMES_LOWER = {p["name"].lower() for p in DIRECTORY}
 
 
+def _names_likely_match(name_a: str, name_b: str) -> bool:
+    """Compare two names by first and last token only, ignoring middle
+    initials/names and case. Plain substring matching fails on cases like
+    'Scott Morris' vs 'Scott B. Morris' — neither contains the other as a
+    substring even though they're the same person. Comparing just the
+    first and last tokens sidesteps that.
+    """
+    def _first_last(name: str):
+        tokens = [t.strip(".") for t in name.lower().split() if t.strip(".")]
+        if not tokens:
+            return None, None
+        return tokens[0], tokens[-1]
+
+    a_first, a_last = _first_last(name_a)
+    b_first, b_last = _first_last(name_b)
+    return a_first is not None and a_first == b_first and a_last == b_last
+
+
 def _find_directory_matches(name_query: str):
-    """Return all directory entries whose name contains name_query (case-insensitive)."""
+    """Return all directory entries matching name_query. Uses substring
+    matching for partial/surname-only queries (e.g. 'Bauer' matching both
+    'Matt Bauer' and 'Matthew Bauer' — intentional, surfaces real ambiguity),
+    plus a first/last-token match for fuller name queries, so a name that
+    includes a middle initial (e.g. 'Scott B. Morris', as the model might
+    pass after seeing it from another source) still matches a directory
+    entry listed without one ('Scott Morris').
+    """
     q = name_query.lower()
-    return [p for p in DIRECTORY if q in p["name"].lower()]
+    q_tokens = q.split()
+    matches = []
+    seen_urls = set()
+
+    for p in DIRECTORY:
+        name_lower = p["name"].lower()
+        is_match = q in name_lower
+        if not is_match and len(q_tokens) >= 2:
+            is_match = _names_likely_match(name_query, p["name"])
+
+        if is_match and p["profile_url"] not in seen_urls:
+            matches.append(p)
+            seen_urls.add(p["profile_url"])
+
+    return matches
 
 
-# ----- Rate-limited, retrying HTTP helper for Semantic Scholar -----
-# Semantic Scholar's introductory tier is capped at 1 request/second across
-# ALL endpoints. This tracks the last request time globally (module-level)
-# and sleeps as needed before every call, then retries with backoff on 429s
-# as a safety net in case we still get rate-limited (e.g. from other traffic
-# sharing the same unauthenticated pool, if no API key is set).
+# ----- Rate-limited GET helper for OpenAlex -----
+# OpenAlex's public rate limits are generous (especially in the "polite pool"
+# with a contact email), but we still pace requests defensively and retry on
+# 429s so a brief burst of testing doesn't cause avoidable failures.
 _last_request_time = 0.0
-_MIN_REQUEST_INTERVAL = 1.05  # slightly over 1 req/sec to leave margin
+_MIN_REQUEST_INTERVAL = 0.2  # OpenAlex allows much faster pacing than Semantic Scholar's 1 req/sec
 
 
-def _semantic_scholar_get(url: str, params: dict, retries: int = 2, backoff: float = 2.0):
+def _openalex_get(url: str, params: dict, retries: int = 2, backoff: float = 2.0):
     global _last_request_time
 
-    headers = {"x-api-key": SEMANTIC_SCHOLAR_API_KEY} if SEMANTIC_SCHOLAR_API_KEY else {}
+    params = dict(params)
 
     for attempt in range(retries + 1):
         elapsed = time.monotonic() - _last_request_time
         if elapsed < _MIN_REQUEST_INTERVAL:
             time.sleep(_MIN_REQUEST_INTERVAL - elapsed)
 
-        resp = requests.get(url, params=params, headers=headers, timeout=10)
+        resp = requests.get(url, params=params, timeout=10)
         _last_request_time = time.monotonic()
 
         if resp.status_code != 429:
@@ -73,6 +111,29 @@ def _semantic_scholar_get(url: str, params: dict, retries: int = 2, backoff: flo
 
 
 # ----- Tools -----
+
+@lru_cache(maxsize=256)
+def _fetch_profile_detail_text(profile_url: str) -> str:
+    """Fetch and extract a directory profile page's text, cached per URL so
+    repeated questions about the same professor in one session don't re-fetch
+    over the network each time. Cache lives only for this process's lifetime.
+    """
+    _fetch_start = time.monotonic()
+    try:
+        resp = requests.get(
+            profile_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10
+        )
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        main = soup.select_one("main") or soup.body
+        if main:
+            return main.get_text(separator=" ", strip=True)[:600]
+    except requests.exceptions.RequestException:
+        pass
+    finally:
+        print(f"[TIMING] profile page fetch took {time.monotonic() - _fetch_start:.1f}s")
+    return ""
+
 
 @tool
 def search_iit_faculty_directory(professor_name: str) -> str:
@@ -93,20 +154,7 @@ def search_iit_faculty_directory(professor_name: str) -> str:
         )
 
     person = matches[0]
-
-    # Fetch the individual profile page for fuller detail (bio, office, etc.)
-    detail_text = ""
-    try:
-        resp = requests.get(
-            person["profile_url"], headers={"User-Agent": "Mozilla/5.0"}, timeout=10
-        )
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        main = soup.select_one("main") or soup.body
-        if main:
-            detail_text = main.get_text(separator=" ", strip=True)[:1500]
-    except requests.exceptions.RequestException:
-        pass  # directory-listing data below is still useful even if the profile page fetch fails
+    detail_text = _fetch_profile_detail_text(person["profile_url"])
 
     titles = person.get("tags", [])
     summary = (
@@ -122,136 +170,131 @@ def search_iit_faculty_directory(professor_name: str) -> str:
 
 @tool
 def search_faculty_research(professor_name: str) -> str:
-    """Search Semantic Scholar for an IIT professor's publications and
-    research areas. Use this when the question involves a professor's
-    research, papers, or academic interests.
+    """Search OpenAlex for an IIT professor's publications and research
+    areas. Use this when the question involves a professor's research,
+    papers, or academic interests. Results are filtered by confirmed
+    IIT institutional affiliation (via ROR ID), not just name matching.
     """
     try:
-        # NOTE: query is the name ONLY. Semantic Scholar's author-search does
-        # fuzzy name matching on the whole query string — appending institution
-        # words here causes it to search for a *name* containing those words
-        # and silently returns zero candidates. Institution confirmation
-        # happens afterward, against the returned candidates' affiliation
-        # field and our own directory JSON (see the "author = next(...)"
-        # fallback chain below), not by polluting the search query.
-        resp = _semantic_scholar_get(
-            f"{SEMANTIC_SCHOLAR_BASE}/author/search",
+        # Filter directly by confirmed IIT affiliation — this is the key
+        # advantage over name-only matching. A candidate only comes back
+        # here if OpenAlex has them on record as affiliated with IIT.
+        #
+        # NOTE: last_known_institutions.ror (not affiliations.institution.id)
+        # is the correct filter here. OpenAlex's own filter reference lists
+        # affiliations.institution.id as valid on /works (via
+        # authorships.institutions.id), but the supported author-level
+        # institution filter is last_known_institutions — and since we're
+        # filtering by a ROR *URL* (not OpenAlex's internal "I..." ID format),
+        # we need the .ror sub-field specifically, not .id. Using the wrong
+        # field name or ID format returns a 400 "Unknown filter field" error.
+        resp = _openalex_get(
+            f"{OPENALEX_BASE}/authors",
             params={
-                "query": professor_name,
-                "fields": "name,affiliations,paperCount,hIndex",
+                "search": professor_name,
+                "filter": f"last_known_institutions.ror:{IIT_ROR_ID}",
+                "per_page": 5,
             },
         )
         if resp.status_code == 429:
             return (
-                "Semantic Scholar rate-limited this request (429) even after retrying. "
+                "OpenAlex rate-limited this request (429) even after retrying. "
                 "Try search_iit_faculty_directory instead for this professor."
             )
         resp.raise_for_status()
-        candidates = resp.json().get("data", [])
+        results = resp.json().get("results", [])
 
-        if not candidates:
-            return f"No Semantic Scholar author profile found for '{professor_name}'."
-
-        # Preference order for picking the right candidate:
-        # 1. Semantic Scholar's own affiliation field explicitly mentions IIT.
-        # 2. The candidate's name also appears in our own IIT directory —
-        #    this is a strong, independent confirmation even when Semantic
-        #    Scholar's affiliation metadata is missing (which is common).
-        # 3. There's only one candidate at all returned for this name, so
-        #    even with no affiliation data either way, it's reasonable to
-        #    treat it as the person being asked about.
-        author = next(
-            (
-                c for c in candidates
-                if any(
-                    "Illinois Institute of Technology" in (aff or "") or "IIT" in (aff or "")
-                    for aff in c.get("affiliations", [])
-                )
-            ),
-            None,
-        )
-
-        if author is None:
-            author = next(
-                (c for c in candidates if c["name"].lower() in _DIRECTORY_NAMES_LOWER),
-                None,
-            )
-
-        if author is None and len(candidates) == 1:
-            author = candidates[0]
-
-        if author is None:
-            # Don't rely on the model to decide to call the directory tool
-            # next — do the cross-check here directly. If exactly one
-            # candidate's name matches our own IIT directory, that's a
-            # confident resolution even without Semantic Scholar affiliation
-            # data.
+        if not results:
+            # No IIT-affiliated match on OpenAlex. Don't give up immediately —
+            # check whether this person is confirmed in our own directory, so
+            # we can at least point to their official info even if OpenAlex
+            # doesn't have (or doesn't attribute) their research to IIT.
             directory_matches = _find_directory_matches(professor_name)
             if len(directory_matches) == 1:
                 person = directory_matches[0]
                 return (
-                    f"Semantic Scholar's affiliation data was inconclusive, but '{person['name']}' "
-                    f"was confirmed in the official IIT faculty directory ({person['profile_url']}). "
-                    f"Semantic Scholar candidates considered: "
-                    + "; ".join(c["name"] for c in candidates[:5])
-                    + ". Call search_iit_faculty_directory for this person's official info; "
-                    "research/publication details from Semantic Scholar could not be confidently "
-                    "matched to them."
+                    f"No OpenAlex publications found with a confirmed IIT affiliation for "
+                    f"'{professor_name}'. However, '{person['name']}' is listed in the official "
+                    f"IIT faculty directory ({person['profile_url']}) — call "
+                    f"search_iit_faculty_directory for their official info. OpenAlex may not have "
+                    f"indexed their work, or may not have IIT listed as their affiliation."
                 )
+            return f"No OpenAlex author profile with a confirmed IIT affiliation found for '{professor_name}'."
 
-            names = "; ".join(
-                f"{c['name']} ({', '.join(c.get('affiliations') or ['no listed affiliation'])})"
-                for c in candidates[:5]
+        # IMPORTANT: "IIT-affiliated" per OpenAlex's last_known_institutions
+        # filter is broader than "IIT faculty" — it also catches grad
+        # students, postdocs, visiting researchers, research staff, and
+        # alumni who've since left, none of whom are in our faculty
+        # directory. Narrow the candidate list down to names that actually
+        # appear there, so we don't present a non-faculty researcher as a
+        # possible match for a faculty question.
+        faculty_results = [
+            r for r in results
+            if any(
+                _names_likely_match(r.get("display_name", ""), dn)
+                for dn in _DIRECTORY_NAMES_LOWER
             )
+        ]
+
+        # Prefer the faculty-confirmed subset when we have it; otherwise fall
+        # back to the full OpenAlex result set (still IIT-affiliated, just
+        # not confirmed as current faculty specifically).
+        candidate_results = faculty_results if faculty_results else results
+
+        if len(candidate_results) > 1:
+            names = "; ".join(r.get("display_name", "Unknown") for r in candidate_results[:5])
+            qualifier = "IIT faculty" if faculty_results else "IIT-affiliated researchers (not confirmed as current faculty)"
             return (
-                f"Found possible matches for '{professor_name}' but could not confirm IIT "
-                f"affiliation: {names}. Ask the user to confirm which person they mean."
+                f"Multiple {qualifier} matched '{professor_name}' on OpenAlex: "
+                f"{names}. Ask the user to confirm which person they mean."
             )
 
-        author_id = author["authorId"]
-        profile_link = f"https://www.semanticscholar.org/author/{author['name'].replace(' ', '-')}/{author_id}"
+        results = candidate_results
 
-        papers_resp = _semantic_scholar_get(
-            f"{SEMANTIC_SCHOLAR_BASE}/author/{author_id}/papers",
-            params={"fields": "title,abstract,year,venue", "limit": 5},
+        author = results[0]
+        author_id = author["id"]
+
+        works_resp = _openalex_get(
+            f"{OPENALEX_BASE}/works",
+            params={
+                "filter": f"authorships.author.id:{author_id}",
+                "sort": "publication_date:desc",
+                "per_page": 5,
+            },
         )
-        if papers_resp.status_code == 429:
+        if works_resp.status_code == 429:
             return (
-                f"Name: {author['name']}\n"
-                f"h-index: {author.get('hIndex', 'N/A')}\n"
-                f"Total papers: {author.get('paperCount', 'N/A')}\n"
-                f"(Could not fetch individual publications — Semantic Scholar rate-limited this "
-                f"request.)\nSource: {profile_link}"
+                f"Name: {author.get('display_name')}\n"
+                f"Works count: {author.get('works_count', 'N/A')}\n"
+                f"Citations: {author.get('cited_by_count', 'N/A')}\n"
+                f"(Could not fetch individual publications — OpenAlex rate-limited this request.)\n"
+                f"Source: {author.get('id')}"
             )
-        papers_resp.raise_for_status()
-        papers = papers_resp.json().get("data", [])
+        works_resp.raise_for_status()
+        works = works_resp.json().get("results", [])
 
-        if not papers:
+        if not works:
             return (
-                f"{author['name']} has a Semantic Scholar profile "
-                f"(h-index: {author.get('hIndex', 'N/A')}) but no listed papers.\n"
-                f"Source: {profile_link}"
+                f"{author.get('display_name')} has a confirmed IIT-affiliated OpenAlex profile "
+                f"(works count: {author.get('works_count', 'N/A')}) but no listed publications.\n"
+                f"Source: {author.get('id')}"
             )
 
-        papers = sorted(papers, key=lambda p: p.get("year") or 0, reverse=True)
-        paper_summaries = []
-        for p in papers:
-            venue = p.get("venue")
-            line = f"- {p.get('title', 'Untitled')} ({p.get('year', 'n.d.')})"
-            if venue:
-                line += f", {venue}"
-            paper_summaries.append(line)
+        paper_summaries = [
+            f"- {w.get('title', 'Untitled')} ({w.get('publication_year', 'n.d.')})"
+            for w in works
+        ]
 
         return (
-            f"Name: {author['name']}\n"
-            f"h-index: {author.get('hIndex', 'N/A')}\n"
-            f"Total papers: {author.get('paperCount', 'N/A')}\n"
-            f"Recent publications:\n" + "\n".join(paper_summaries) +
-            f"\n\nSource: {profile_link}"
+            f"Name: {author.get('display_name')}\n"
+            f"Works count: {author.get('works_count', 'N/A')}\n"
+            f"Citations: {author.get('cited_by_count', 'N/A')}\n"
+            f"Recent publications (confirmed IIT affiliation):\n" + "\n".join(paper_summaries) +
+            f"\n\nSource: {author.get('id')}"
         )
 
     except requests.exceptions.RequestException as e:
-        return f"An error occurred while searching Semantic Scholar: {str(e)}"
+        return f"An error occurred while searching OpenAlex: {str(e)}"
 
 
 @tool
@@ -288,27 +331,46 @@ SYSTEM_PROMPT = (
     "If a tool returns multiple matches or nothing found, ask the user one short clarifying "
     "question — do not guess, speculate, or describe people from other universities. "
     "Cite only URLs that appeared in a tool result; never invent one. "
+    "When relaying a tool result, state only what the tool actually returned — do not add "
+    "departments, titles, or any other detail that wasn't in the tool's output, even if you "
+    "believe you know it. If a tool result is just a list of names, present only those names. "
     "If every relevant tool reports 'not found', tell the user plainly and ask them to check the "
     "spelling — never leave your response empty. "
     "Keep answers short: 2-4 sentences, or a brief bullet list for publications. "
     "If the question isn't about IIT academic advising, say so and decline."
 )
 
+# InMemorySaver keeps conversation history in memory, keyed by thread_id, so
+# the agent remembers earlier turns (e.g. "did you mean Scott Morris or Scott
+# Dawson?") when the user replies with a follow-up. History is lost when the
+# process exits — this is short-term, in-session memory only.
+checkpointer = InMemorySaver()
+
 agent = create_agent(
     model=llm,
     tools=TOOLS,
     system_prompt=SYSTEM_PROMPT,
+    checkpointer=checkpointer,
 )
 
 
-def ask(question: str, retries: int = 2):
-    """Run one question through the agent and return a guaranteed non-empty answer.
-    Retries the whole agent call if the model produces a blank final response
-    (observed occasionally as local-model flakiness, unrelated to tool logic).
+def ask(question: str, config: dict, retries: int = 2):
+    """Run one question through the agent (within the conversation identified
+    by config's thread_id) and return a guaranteed non-empty answer. Earlier
+    turns in the same thread are automatically included as context, so a
+    follow-up like "I meant Scott Dawson" will be understood in light of the
+    prior disambiguation question.
     """
     result = None
     for attempt in range(retries + 1):
-        result = agent.invoke({"messages": [{"role": "user", "content": question}]})
+        _turn_start = time.monotonic()
+        result = agent.invoke(
+            {"messages": [{"role": "user", "content": question}]},
+            config=config,
+        )
+        _turn_elapsed = time.monotonic() - _turn_start
+        print(f"[TIMING] agent.invoke() took {_turn_elapsed:.1f}s this turn")
+
         final_content = result["messages"][-1].content
         if final_content:
             return final_content, result["messages"]
@@ -322,15 +384,30 @@ def ask(question: str, retries: int = 2):
 
 
 if __name__ == "__main__":
-    question = "What research has Prof. Saniie done?"
-    answer, trace = ask(question)
+    # One thread_id per run of the program — every question asked in this
+    # session shares the same conversation history until the process exits.
+    config = {"configurable": {"thread_id": "faculty-advisor-session"}}
 
-    # Debug trace — comment this block out once things are working reliably
-    for msg in trace:
-        print("---")
-        print(type(msg).__name__)
-        print("content:", repr(getattr(msg, "content", None)))
-        if getattr(msg, "tool_calls", None):
-            print("tool_calls:", msg.tool_calls)
+    print("IIT Faculty Advisor — ask about a professor. Type 'exit' to quit.\n")
 
-    print("\nAnswer:", answer)
+    # Tracks how many messages existed before the current turn, so we only
+    # print what's new (tool calls + final answer) rather than the whole
+    # growing history every time.
+    prev_message_count = 0
+
+    while True:
+        question = input("You: ").strip()
+        if not question or question.lower() == "exit":
+            break
+
+        answer, trace = ask(question, config=config)
+
+        new_messages = trace[prev_message_count:]
+        for msg in new_messages:
+            if getattr(msg, "tool_calls", None):
+                for call in msg.tool_calls:
+                    print(f"[tool call] {call['name']}({call['args']})")
+
+        print(f"\nAdvisor: {answer}\n")
+
+        prev_message_count = len(trace)
