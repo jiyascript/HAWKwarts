@@ -1,0 +1,2042 @@
+[
+  {
+    "id": "ai-fluency:cer",
+    "name": "AI Fluency",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/interdisciplinary-education/certificate-ai-fluency/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "ai-management:cer",
+    "name": "AI Management",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/interdisciplinary-education/certificate-ai-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "advanced-electronics:cer",
+    "name": "Advanced Electronics",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/advanced-electronics-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "advanced-manufacturing:m-s",
+    "name": "Advanced Manufacturing",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/ms-advanced-manufacturing/index.html",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "advanced-software-development:cer",
+    "name": "Advanced Software Development",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/applied-technology/department-information-technology-management/advanced-software-development-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "aerospace-engineering:bs-bac-ba",
+    "name": "Aerospace Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/aerospace-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "aerospace-engineering:dual-degree",
+    "name": "Aerospace Engineering",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/undergraduate-education/special-programs/#Dual",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "analytical-chemistry:m-s",
+    "name": "Analytical Chemistry",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/ms-analytical-chemistry/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "analytical-method-development:cer",
+    "name": "Analytical Method Development",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/certificate-analytical-method-development/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "analytical-spectroscopy:cer",
+    "name": "Analytical Spectroscopy",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/certificate-analytical-spectroscopy/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "applied-cybersecurity-and-digital-forensics:m-s",
+    "name": "Applied Cybersecurity and Digital Forensics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/ms-applied-cybersecurity-digital-forensics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "applied-cybersecurity-and-information-technology:bs-bac-ba",
+    "name": "Applied Cybersecurity and Information Technology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bs-applied-cybersecurity-information-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "applied-mathematics:bs-bac-ba",
+    "name": "Applied Mathematics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "applied-mathematics:m-s",
+    "name": "Applied Mathematics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-applied-mathematics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "applied-mathematics:mas",
+    "name": "Applied Mathematics",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/master-applied-mathematics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "applied-mathematics:phd",
+    "name": "Applied Mathematics",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/phd-applied-mathematics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architectural-engineering:bs-bac-ba",
+    "name": "Architectural Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/architectural-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architectural-engineering:cer",
+    "name": "Architectural Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/architectural-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architectural-engineering:m-s",
+    "name": "Architectural Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/ms-architectural-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architectural-engineering:phd",
+    "name": "Architectural Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/phd-architectural-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architectural-studies:bs-bac-ba",
+    "name": "Architectural Studies",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/architecture/ba-architectural-studies/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architectural-studies-with-artificial-intelligence:bs-bac-ba",
+    "name": "Architectural Studies with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/architecture/ba-architectural-studies-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architecture:bs-bac-ba",
+    "name": "Architecture",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/architecture/barch/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architecture:dual-degree",
+    "name": "Architecture",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/march-mla-dual-degree/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architecture:m-s",
+    "name": "Architecture",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/ms-architecture-post-professional/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architecture:mas",
+    "name": "Architecture",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/march-professional-degree/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "architecture:phd",
+    "name": "Architecture",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/phd/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "artificial-intelligence:bs-bac-ba",
+    "name": "Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-artificial-intelligence",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "artificial-intelligence:cer",
+    "name": "Artificial Intelligence",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/artificial-intelligence-certificate",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "artificial-intelligence:mas",
+    "name": "Artificial Intelligence",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-artificial-intelligence",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "astrophysics:bs-bac-ba",
+    "name": "Astrophysics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/bs-astrophysics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "astrophysics-with-artificial-intelligence:bs-bac-ba",
+    "name": "Astrophysics with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/bs-astrophysics-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "autonomous-systems-and-robotics:m-s",
+    "name": "Autonomous Systems and Robotics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/ms-autonomous-systems_robotics-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biochemistry:bs-bac-ba",
+    "name": "Biochemistry",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/bs-biochemistry/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biochemistry:dual-degree",
+    "name": "Biochemistry",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science/biology/bs-biochemistry-bs-psychological-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biochemistry-with-artificial-intelligence:bs-bac-ba",
+    "name": "Biochemistry with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/bs-biochemistry-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biological-engineering:cer",
+    "name": "Biological Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/biological-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biological-engineering:m-s",
+    "name": "Biological Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/ms-biological-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biology:bs-bac-ba",
+    "name": "Biology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/bs-biology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biology:dual-degree",
+    "name": "Biology",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/bs-biology-bs-psychological-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biology:m-s",
+    "name": "Biology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/biology/#degreesofferedtext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biology:phd",
+    "name": "Biology",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/biology/phd-biology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biology-for-the-health-professions:dual-degree",
+    "name": "Biology for the Health Professions",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biology-for-the-health-professions:m-s",
+    "name": "Biology for the Health Professions",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/biology/ms-biology-health-professions/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biomedical-data-science-and-modeling:m-s",
+    "name": "Biomedical Data Science and Modeling",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/bme/ms-biomedical-data-science-modeling/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biomedical-engineering:bs-bac-ba",
+    "name": "Biomedical Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/bme/bs-biomedical-engineering",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biomedical-engineering:m-s",
+    "name": "Biomedical Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/bme/ms-biomedical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "biomedical-engineering:phd",
+    "name": "Biomedical Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/bme/phd-biomedical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "building-commissioning:cer",
+    "name": "Building Commissioning",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/building-commissioning-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "building-energy-modeling:cer",
+    "name": "Building Energy Modeling",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/building-energy-modeling-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration:bs-bac-ba",
+    "name": "Business Administration",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-administration/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration:dual-degree",
+    "name": "Business Administration",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration:jd",
+    "name": "Business Administration",
+    "credential": "JD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration:mas",
+    "name": "Business Administration",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/mba/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration-with-artificial-intelligence:bs-bac-ba",
+    "name": "Business Administration with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-administration-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration-business-analytics:mas",
+    "name": "Business Administration: Business Analytics",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/mba-business-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-administration-technological-entrepreneurship:mas",
+    "name": "Business Administration: Technological Entrepreneurship",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/mba-technological-entrepreneurship/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-analytics:bs-bac-ba",
+    "name": "Business Analytics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-analytics:m-s",
+    "name": "Business Analytics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-business-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-analytics-and-applied-artificial-intelligence-a-i:m-s",
+    "name": "Business Analytics and Applied Artificial Intelligence (A.I.)",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-business-analytics-applied-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-management:cer",
+    "name": "Business Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-business-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-and-cybersecurity:bs-bac-ba",
+    "name": "Business and Cybersecurity",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-cybersecurity/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-and-engineering:bs-bac-ba",
+    "name": "Business and Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-and-information-technology:bs-bac-ba",
+    "name": "Business and Information Technology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-information-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "business-and-psychology:bs-bac-ba",
+    "name": "Business and Psychology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-business-psychology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cell-and-molecular-biology:cer",
+    "name": "Cell and Molecular Biology",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/biology/certificate-cell-molecular-biology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chemical-engineering:bs-bac-ba",
+    "name": "Chemical Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/bs-chemical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chemical-engineering:m-s",
+    "name": "Chemical Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/ms-chemical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chemical-engineering:phd",
+    "name": "Chemical Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/phd-chemical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chemistry:bs-bac-ba",
+    "name": "Chemistry",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/chemistry/bs/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chemistry:m-s",
+    "name": "Chemistry",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/ms-chemistry/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chemistry:phd",
+    "name": "Chemistry",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/phd-chemistry/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "chromatography:cer",
+    "name": "Chromatography",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/certificate-chromatography/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "civil-engineering:bs-bac-ba",
+    "name": "Civil Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/civil-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "civil-engineering:m-s",
+    "name": "Civil Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/ms-civil-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "civil-engineering:phd",
+    "name": "Civil Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/phd-civil-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "clinical-counseling:m-s",
+    "name": "Clinical Counseling",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/ms-clinical-counseling",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "clinical-counseling-with-advanced-standing:m-s",
+    "name": "Clinical Counseling with Advanced Standing",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/ms-clinical-counseling-adv-stand/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "clinical-psychology:phd",
+    "name": "Clinical Psychology",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/phd-clinical-psychology",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "clinical-psychology-respecialization:cer",
+    "name": "Clinical Psychology Respecialization",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/certificate-clinical-psychology-respecialization/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "compliance-and-pollution-prevention:cer",
+    "name": "Compliance and Pollution Prevention",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-compliance-and-pollution-prevention/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computational-decision-sciences-and-operations-research:m-s",
+    "name": "Computational Decision Sciences and Operations Research",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-computational-decision-sciences-operations-research/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-engineering:bs-bac-ba",
+    "name": "Computer Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/bs-computer-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-engineering:dual-degree",
+    "name": "Computer Engineering",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/bs-electrical-engineering-bs-computer-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-engineering:m-s",
+    "name": "Computer Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/msce/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-engineering:phd",
+    "name": "Computer Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/phd-computer-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba",
+    "name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-information-systems:dual-degree",
+    "name": "Computer Information Systems",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-computer-information-systems-bs-psychology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-integrated-design-and-manufacturing:cer",
+    "name": "Computer Integrated Design and Manufacturing",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/computer-integrated-design-manufacturing-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba",
+    "name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-science:m-s",
+    "name": "Computer Science",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/ms-computer-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-science:mas",
+    "name": "Computer Science",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-computer-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-science:phd",
+    "name": "Computer Science",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/phd-computer-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "computer-and-cybersecurity-engineering:bs-bac-ba",
+    "name": "Computer and Cybersecurity Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/bs-computer-cybersecurity-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "construction-engineering-and-management:m-s",
+    "name": "Construction Engineering and Management",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/ms-construction-engineering-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "construction-management:cer",
+    "name": "Construction Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/construction-management-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "construction-management-and-architectural-technology:bs-bac-ba",
+    "name": "Construction Management and Architectural Technology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/architecture/bs-construction-management-architectural-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "corporate-finance-and-valuation:cer",
+    "name": "Corporate Finance and Valuation",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-corporate-finance-valuation/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "current-energy-issues:cer",
+    "name": "Current Energy Issues",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/current-energy-issues-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cyber-forensics-and-security:mas",
+    "name": "Cyber Forensics and Security",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-cyber-forensics-security/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cyber-security-engineering:mas",
+    "name": "Cyber Security Engineering",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/master-cyber-security-engineering",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cyber-security-management:cer",
+    "name": "Cyber Security Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/cyber-security-management-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cyber-security-technologies:cer",
+    "name": "Cyber Security Technologies",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/cyber-security-technologies-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cyber-physical-systems:cer",
+    "name": "Cyber-Physical Systems",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/cyber-physical-systems-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cybersecurity:m-s",
+    "name": "Cybersecurity",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/interdisciplinary-education/ms-cybersecurity/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cybersecurity:mas",
+    "name": "Cybersecurity",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-cybersecurity",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "cybersecurity-with-artificial-intelligence:bs-bac-ba",
+    "name": "Cybersecurity with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bs-cybersecurity-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "data-analytics:cer",
+    "name": "Data Analytics",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/data-analytics-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "data-science:bs-bac-ba",
+    "name": "Data Science",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs-data-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "data-science:mas",
+    "name": "Data Science",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/master-data-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "data-science-in-engineering:cer",
+    "name": "Data Science in Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/data-science-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "data-science-in-engineering:m-s",
+    "name": "Data Science in Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ms-data-science-engineering",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "data-science-with-applied-artificial-intelligence:mas",
+    "name": "Data Science with Applied Artificial Intelligence",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/master-data-science-applied-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "database-systems:cer",
+    "name": "Database Systems",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/database-systems-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "design:dual-degree",
+    "name": "Design",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/design/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "design:mas",
+    "name": "Design",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/design/master-design/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "design:phd",
+    "name": "Design",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/design/phd-design/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "distributed-and-cloud-computing:cer",
+    "name": "Distributed and Cloud Computing",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/distributed-cloud-computing-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "earthquake-and-wind-engineering-design:cer",
+    "name": "Earthquake and Wind Engineering Design",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/earthquake-wind-engineering-design-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "electrical-engineering:bs-bac-ba",
+    "name": "Electrical Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/bs-electrical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "electrical-engineering:dual-degree",
+    "name": "Electrical Engineering",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/bs-electrical-engineering-bs-computer-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "electrical-engineering:m-s",
+    "name": "Electrical Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/msee/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "electrical-engineering:phd",
+    "name": "Electrical Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/phd-ee/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "electrical-and-computer-engineering:m-s",
+    "name": "Electrical and Computer Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/ece/ms-ece",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "emerging-technologies-in-business:cer",
+    "name": "Emerging Technologies in Business",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-emerging-technologies-business/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "energy-systems-engineering:m-s",
+    "name": "Energy Systems Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/ms-energy-systems-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba",
+    "name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "engineering-management:m-s",
+    "name": "Engineering Management",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/ms-engineering-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "engineering-physics:bs-bac-ba",
+    "name": "Engineering Physics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/bs-engineering-physics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "environmental-engineering:cer",
+    "name": "Environmental Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/environmental-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "environmental-engineering:m-s",
+    "name": "Environmental Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/ms-environmental-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "environmental-engineering:phd",
+    "name": "Environmental Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/phd-environmental-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "finance:bs-bac-ba",
+    "name": "Finance",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-finance/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "finance:cer",
+    "name": "Finance",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/certificate-finance/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "finance:dual-degree",
+    "name": "Finance",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "finance:m-s",
+    "name": "Finance",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-finance/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "finance:phd",
+    "name": "Finance",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/phd-finance/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-economics:bs-bac-ba",
+    "name": "Financial Economics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-financial-economics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-economics:m-s",
+    "name": "Financial Economics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-financial-economics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-markets-and-technology:m-s",
+    "name": "Financial Markets and Technology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-financial-markets-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-services-law:jd",
+    "name": "Financial Services Law",
+    "credential": "JD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-technology:cer",
+    "name": "Financial Technology",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-financial-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-technology:m-s",
+    "name": "Financial Technology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-financial-technology-fintech/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-technology:mas",
+    "name": "Financial Technology",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/master-financial-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "financial-toolbox:cer",
+    "name": "Financial Toolbox",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-financial-toolbox/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "food-processing-specialist:cer",
+    "name": "Food Processing Specialist",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/food-science-nutrition/food-processing-specialist-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "food-safety-and-industrial-management:cer",
+    "name": "Food Safety and Industrial Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/food-science-nutrition/food-safety-industrial-management-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "food-safety-and-technology:cer",
+    "name": "Food Safety and Technology",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/food-science-nutrition/food-safety-technology-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "food-safety-and-technology:m-s",
+    "name": "Food Safety and Technology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/food-science-nutrition/ms-food-safety-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "food-science-and-nutrition:phd",
+    "name": "Food Science and Nutrition",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/food-science-nutrition/phd-food-science-nutrition/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "foundations-of-business:cer",
+    "name": "Foundations of Business",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/certificate-foundations-business/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "foundations-of-computer-science:cer",
+    "name": "Foundations of Computer Science",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/certificate-foundations-computer-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "foundations-of-data-science:cer",
+    "name": "Foundations of Data Science",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/interdisciplinary-education/certificate-foundations-data-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "foundations-of-economics:cer",
+    "name": "Foundations of Economics",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/certificate-foundations-economics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "fundamentals-of-finance:cer",
+    "name": "Fundamentals of Finance",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-fundamentals-finance/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "game-design-and-experiential-media:bs-bac-ba",
+    "name": "Game Design and Experiential Media",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/bs-game-design-experiential-media/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "game-design-and-experiential-media-with-artificial-intelligence:bs-bac-ba",
+    "name": "Game Design and Experiential Media with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/bs-game-design-experiential-media-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "game-production-management:bs-bac-ba",
+    "name": "Game Production Management",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-game-production-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "genomics:cer",
+    "name": "Genomics",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/biology/certificate-genomics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "health-physics-and-radiation-protection:m-s",
+    "name": "Health Physics and Radiation Protection",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/physics/ms-health-physics-radiation-protection",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "high-performance-buildings:mas",
+    "name": "High Performance Buildings",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/master-high-performance-buildings/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "humanities:bs-bac-ba",
+    "name": "Humanities",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/bs-humanities/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-technology-and-management:bs-bac-ba",
+    "name": "Industrial Technology and Management",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/bitm/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-technology-and-management:cer",
+    "name": "Industrial Technology and Management",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/certificate-industrial-technology-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-technology-and-operations:dual-degree",
+    "name": "Industrial Technology and Operations",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-technology-and-operations:mas",
+    "name": "Industrial Technology and Operations",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/industrial-technology-management/master-industrial-technology-operations/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-training:cer",
+    "name": "Industrial Training",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/certificate-industrial-training/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-organizational-psychology:m-s",
+    "name": "Industrial-Organizational Psychology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/ms-industrial-organizational-psychology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "industrial-organizational-psychology:phd",
+    "name": "Industrial-Organizational Psychology",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/phd-industrial-organizational-psychology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-security-and-assurance:cer",
+    "name": "Information Security and Assurance",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/information-security-assurance-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology:bs-bac-ba",
+    "name": "Information Technology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology:mas",
+    "name": "Information Technology",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology:phd",
+    "name": "Information Technology",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/phd-information-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology-innovation-leadership-and-entrepreneurship:cer",
+    "name": "Information Technology Innovation, Leadership, and Entrepreneurship",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/information-technology-innovation-leadership-entrepreneurship-certificate",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba",
+    "name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology-and-management:m-s",
+    "name": "Information Technology and Management",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/ms-information-technology-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "information-technology-and-management:mas",
+    "name": "Information Technology and Management",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "infrastructure-engineering-and-management:cer",
+    "name": "Infrastructure Engineering and Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/infrastructure-engineering-and-management-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "instructional-design:cer",
+    "name": "Instructional Design",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/humanities/certificate-instructional-design/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "landscape-architecture:dual-degree",
+    "name": "Landscape Architecture",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/march-mla-dual-degree/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "landscape-architecture:mas",
+    "name": "Landscape Architecture",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/master-landscape-architecture/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "law:cer",
+    "name": "Law",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#certificatestext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "law:dual-degree",
+    "name": "Law",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "law:jd",
+    "name": "Law",
+    "credential": "JD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "law:jsd",
+    "name": "Law",
+    "credential": "JSD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "management:mas",
+    "name": "Management",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/master-management",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "management-science-and-analytics:m-s",
+    "name": "Management Science and Analytics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-management-science-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "management-science-and-analytics:phd",
+    "name": "Management Science and Analytics",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/phd-management-science-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "marketing:cer",
+    "name": "Marketing",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/certificate-marketing/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "marketing-analytics:bs-bac-ba",
+    "name": "Marketing Analytics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/bs-marketing-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "marketing-analytics:cer",
+    "name": "Marketing Analytics",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-marketing-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "marketing-analytics:m-s",
+    "name": "Marketing Analytics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-marketing-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "materials-chemistry:cer",
+    "name": "Materials Chemistry",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/graduate-certificate-program-materials-chemistry/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "materials-chemistry:mas",
+    "name": "Materials Chemistry",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/mchem-materials-chemistry/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "materials-science-and-engineering:dual-degree",
+    "name": "Materials Science and Engineering",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "materials-science-and-engineering:m-s",
+    "name": "Materials Science and Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/ms-materials-science-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "materials-science-and-engineering:phd",
+    "name": "Materials Science and Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/phd-materials-science-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "mechanical-engineering:bs-bac-ba",
+    "name": "Mechanical Engineering",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/mechanical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "mechanical-and-aerospace-engineering:m-s",
+    "name": "Mechanical and Aerospace Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/ms-mechanical-aerospace-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "mechanical-and-aerospace-engineering:phd",
+    "name": "Mechanical and Aerospace Engineering",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/phd-mechanical-aerospace-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "medical-devices-and-biomaterials:m-s",
+    "name": "Medical Devices and Biomaterials",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/bme/ms-medical-devices-biomaterials/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "microbiology-and-immunology:cer",
+    "name": "Microbiology and Immunology",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/biology/certificate-microbiology-immunology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "networking-and-communications:cer",
+    "name": "Networking and Communications",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/networking-communications-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "nonprofit-and-mission-driven-management:cer",
+    "name": "Nonprofit and Mission-Driven Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-nonprofit-mission-driven-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "nutrition-science:m-s",
+    "name": "Nutrition Science",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/food-science-nutrition/ms-nutrition-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "people-analytics:m-s",
+    "name": "People Analytics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/ms-people-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "pharmaceutical-engineering:cer",
+    "name": "Pharmaceutical Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/pharmaceutical-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "pharmaceutical-engineering:m-s",
+    "name": "Pharmaceutical Engineering",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/ms-pharmaceutical-engineering/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "physics:bs-bac-ba",
+    "name": "Physics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/bs/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "physics:m-s",
+    "name": "Physics",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/physics/ms-physics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "physics:phd",
+    "name": "Physics",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/physics/phd-physics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "physics-with-artificial-intelligence:bs-bac-ba",
+    "name": "Physics with Artificial Intelligence",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/bs-physics-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "polymer-science-and-engineering:cer",
+    "name": "Polymer Science and Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/polymer-science-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "portfolio-management:cer",
+    "name": "Portfolio Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-portfolio-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "process-operations-management:cer",
+    "name": "Process Operations Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/chbe/process-operations-management-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "product-quality-and-reliability-assurance:cer",
+    "name": "Product Quality and Reliability Assurance",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/mmae/product-quality-and-reliability-assurance-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "project-management-technology:m-s",
+    "name": "Project Management - Technology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-project-management-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "psychiatric-rehabilitation:cer",
+    "name": "Psychiatric Rehabilitation",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/certificate-psychiatric-rehabilitation/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "psychology:bs-bac-ba",
+    "name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "psychology:dual-degree",
+    "name": "Psychology",
+    "credential": "DUAL DEGREE",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-computer-information-systems-bs-psychology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "psychology:m-s",
+    "name": "Psychology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/ms-psychology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "public-administration:dual-degree",
+    "name": "Public Administration",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "public-administration:mas",
+    "name": "Public Administration",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/mpa/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "public-administration-analytics:mas",
+    "name": "Public Administration: Analytics",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/mpa-analytics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "public-health:dual-degree",
+    "name": "Public Health",
+    "credential": "DUAL DEGREE",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/law/#degreeprogramstext",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "public-management:cer",
+    "name": "Public Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-public-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "public-policy:bs-bac-ba",
+    "name": "Public Policy",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/social-sciences/bs-public-policy/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "quantitative-methods-for-business:cer",
+    "name": "Quantitative Methods for Business",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/certificate-quantitative-methods-business/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "quantitative-modeling-and-trading:cer",
+    "name": "Quantitative Modeling and Trading",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-quantitative-modeling-trading/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "radiation-protection:cer",
+    "name": "Radiation Protection",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/physics/certificate-radiation-protection",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "recovery-support:cer",
+    "name": "Recovery Support",
+    "credential": "CER",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/certificate-recovery-support/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "regulatory-science:cer",
+    "name": "Regulatory Science",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/certificate-regulatory-science/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "rehabilitation-counseling:cer",
+    "name": "Rehabilitation Counseling",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/certificate-rehabilitation-counseling/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "rehabilitation-counseling-education:phd",
+    "name": "Rehabilitation Counseling Education",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/phd-rehabilitation-counseling-education/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "rehabilitation-engineering-technology:cer",
+    "name": "Rehabilitation Engineering Technology",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/certificate-rehabilitation-engineering-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "risk-management:cer",
+    "name": "Risk Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-risk-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "sensor-science-and-technology:m-s",
+    "name": "Sensor Science and Technology",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/ms-sensor-science-technology/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "sensor-technology-for-experiential-learning:cer",
+    "name": "Sensor Technology for Experiential Learning",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/chemistry/graduate-certificate-sensor-technology-experiential-learning/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "software-engineering:cer",
+    "name": "Software Engineering",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/software-engineering-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "statistics:bs-bac-ba",
+    "name": "Statistics",
+    "credential": "BS/BAC/BA",
+    "level": "undergraduate",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs-statistics/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "strategic-design-leadership:m-s",
+    "name": "Strategic Design Leadership",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/design/ms-strategic-design-leadership/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "strategic-management:cer",
+    "name": "Strategic Management",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-strategic-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "sustainability-analytics-and-management:m-s",
+    "name": "Sustainability Analytics and Management",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-sustainability-analytics-management/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "sustainable-enterprise:cer",
+    "name": "Sustainable Enterprise",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-sustainable-enterprise/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "system-administration:cer",
+    "name": "System Administration",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/system-administration-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "systems-analysis:cer",
+    "name": "Systems Analysis",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/systems-analysis-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "tall-buildings-and-vertical-urbanism:mas",
+    "name": "Tall Buildings and Vertical Urbanism",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/architecture/master-tall-building-vertical-urbanism/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "technical-communication:cer",
+    "name": "Technical Communication",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/humanities/certificate-technical-communication/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "technological-entrepreneurship:mas",
+    "name": "Technological Entrepreneurship",
+    "credential": "MAS",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/master-technological-entrepreneurship/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "technology-and-humanities:phd",
+    "name": "Technology and Humanities",
+    "credential": "PHD",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/humansciences/humanities/phd-technology-humanities/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "technology-and-social-innovation:m-s",
+    "name": "Technology and Social Innovation",
+    "credential": "M.S.",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/humanities/ms-technology-social-innovation/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "trading-post-graduate:cer",
+    "name": "Trading (Post-Graduate)",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/business/certificate-trading-postgrad/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "transportation-systems-planning:cer",
+    "name": "Transportation Systems Planning",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/engineering/caee/transportation-systems-planning-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "user-experience-and-user-interface:cer",
+    "name": "User Experience and User Interface",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/humanities/certificate-user-experience-user-interface",
+    "source_url": "https://catalog.iit.edu/programs/"
+  },
+  {
+    "id": "web-design-and-application-development:cer",
+    "name": "Web Design and Application Development",
+    "credential": "CER",
+    "level": "graduate",
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/web-design-application-development-certificate/",
+    "source_url": "https://catalog.iit.edu/programs/"
+  }
+]
