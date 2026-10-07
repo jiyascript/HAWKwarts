@@ -1,0 +1,3770 @@
+[
+  {
+    "minor_id": "aerospace-science",
+    "name": "Aerospace Science",
+    "title": "Minor in Aerospace Science",
+    "total_credits": 15,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "Required Courses - Materials Science Engineering Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "MMAE 304",
+            "title": "Mechanics of Aerostructures",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 311",
+            "title": "Compressible Flow",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 312",
+            "title": "Aerodynamics of Aerospace Vehicles",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 313",
+            "title": "Fluid Mechanics",
+            "credits": 3
+          },
+          {
+            "type": "choose",
+            "count": 1,
+            "options": [
+              "MMAE 350",
+              "MMAE 352",
+              "MMAE 410"
+            ],
+            "raw_text": "Select a minimum of one course from the following:",
+            "minimum": true,
+            "credits_required": 3
+          },
+          {
+            "type": "free_text",
+            "raw_text": "or MMAE 411 | Spacecraft Dynamics",
+            "parsed": false
+          },
+          {
+            "type": "course",
+            "course": "MMAE 443",
+            "title": "Systems Analysis and Control",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "Required Courses - Mechanical Engineering Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "MMAE 311",
+            "title": "Compressible Flow",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 312",
+            "title": "Aerodynamics of Aerospace Vehicles",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 352",
+            "title": "Aerospace Propulsion",
+            "credits": 3
+          },
+          {
+            "type": "choose",
+            "count": 1,
+            "options": [
+              "MMAE 410"
+            ],
+            "raw_text": "Select one course from each of the following groups of courses:",
+            "credits_required": 6
+          },
+          {
+            "type": "free_text",
+            "raw_text": "or MMAE 411 | Spacecraft Dynamics",
+            "parsed": false
+          },
+          {
+            "type": "one_of",
+            "options": [
+              "MMAE 412",
+              "MMAE 414"
+            ]
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-aerospace-science/"
+  },
+  {
+    "minor_id": "applied-mathematics",
+    "name": "Applied Mathematics",
+    "title": "Minor in Applied Mathematics",
+    "total_credits": 16,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 230",
+        "title": "Introduction to Discrete Math",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 252",
+        "title": "Introduction to Differential Equations",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "MATH 332",
+        "title": "Linear Algebra: Theory and Applications",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select at least two mathematics courses at the 400-level 1 | 6",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-applied-mathematics/"
+  },
+  {
+    "minor_id": "applied-mechanics",
+    "name": "Applied Mechanics",
+    "title": "Minor in Applied Mechanics",
+    "total_credits": 15,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "Required Courses - Aerospace Engineering Majors only",
+        "requirements": [
+          {
+            "type": "one_of",
+            "options": [
+              "MMAE 432",
+              "MMAE 433"
+            ]
+          },
+          {
+            "type": "choose",
+            "count": 4,
+            "options": [
+              "MMAE 302"
+            ],
+            "raw_text": "Select a minimum of four courses from the following:",
+            "minimum": true,
+            "credits_required": 12
+          },
+          {
+            "type": "free_text",
+            "raw_text": "or MMAE 332 | Design of Machine Elements",
+            "parsed": false
+          },
+          {
+            "type": "course",
+            "course": "MMAE 321",
+            "title": "Applied Thermodynamics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 323",
+            "title": "Heat and Mass Transfer",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 445",
+            "title": "Computer-Aided Design and Manufacturing",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 485",
+            "title": "Manufacturing Processes",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "Required Courses - Materials Science Engineering Majors only",
+        "requirements": [
+          {
+            "type": "one_of",
+            "options": [
+              "MMAE 302",
+              "MMAE 332"
+            ]
+          },
+          {
+            "type": "course",
+            "course": "MMAE 313",
+            "title": "Fluid Mechanics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 323",
+            "title": "Heat and Mass Transfer",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 350",
+            "title": "Computational Mechanics",
+            "credits": 3
+          },
+          {
+            "type": "one_of",
+            "options": [
+              "MMAE 432",
+              "MMAE 445"
+            ]
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-applied-mechanics/"
+  },
+  {
+    "minor_id": "architecture",
+    "name": "Architecture",
+    "title": "Minor in Architecture",
+    "total_credits": 18,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ARCH 100",
+        "title": "Introduction to Architecture",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ARCH 107",
+        "title": "Design Communication I: Introduction",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ARCH 113",
+        "title": "Architecture Studio I: Elements",
+        "credits": 6
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "AAH 119",
+          "AAH 120"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ARCH 108",
+          "ARCH 114",
+          "ARCH 321",
+          "ARCH 413",
+          "AURB 465"
+        ],
+        "raw_text": "Select a minimum of one course from the following:",
+        "minimum": true,
+        "credits_required": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/architecture/minor-architecture/"
+  },
+  {
+    "minor_id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "title": "Minor in Artificial Intelligence",
+    "total_credits": 16,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 201",
+        "title": "Accelerated Introduction to Computer Science",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CS 422",
+          "CS 429",
+          "CS 480",
+          "CS 481",
+          "CS 484"
+        ],
+        "raw_text": "Select a minimum of three courses.",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-artificial-intelligence/"
+  },
+  {
+    "minor_id": "astrophysics",
+    "name": "Astrophysics",
+    "title": "Minor in Astrophysics",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "PHYS 223",
+          "PHYS 224"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "PHYS 360",
+        "title": "Introduction to Astrophysics",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Pick 6-10 Credits from the following:",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "PHYS 361",
+        "title": "Observational Astrophysics 1",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "PHYS 425",
+        "title": "High Energy Astrophysics 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 460",
+        "title": "Stellar Astrophysics 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 461",
+        "title": "Extragalactic Astrophysics 1",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Pick 0-3 Credits from any PHYS 300 + level courses. Some options include the following:",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "PHYS 300",
+        "title": "Instrumentation Laboratory",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "PHYS 304",
+        "title": "Thermodynamics and Statistical Physics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 404",
+        "title": "Subatomic Physics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 485",
+        "title": "Physics Colloquium 2",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "PHYS 427",
+        "title": "Advanced Physics Laboratory I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 491",
+        "title": "Undergraduate Research",
+        "credits_text": "1-6"
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/minor-astrophysics/"
+  },
+  {
+    "minor_id": "biochemistry",
+    "name": "Biochemistry",
+    "title": "Minor in Biochemistry",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 235 & CHEM 236 | Organic Chemistry I and Organic Chemistry I-Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "BIOL 107",
+          "BIOL 115"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "BIOL 301",
+        "title": "Introductory Biochemistry",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "BIOL 402",
+          "BIOL 404",
+          "BIOL 412",
+          "BIOL 445",
+          "CHEM 438",
+          "CHEM 456",
+          "FDSN 201",
+          "FDSN 300",
+          "FDSN 401",
+          "PHYS 410"
+        ],
+        "raw_text": "Select as least two of the following"
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-biochemistry/"
+  },
+  {
+    "minor_id": "bioinformatics",
+    "name": "Bioinformatics",
+    "title": "Minor in Bioinformatics",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "BIOL 105",
+        "title": "Introduction to Biology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 214",
+        "title": "Genetics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 413",
+        "title": "Genomics and Transcriptomics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 201",
+        "title": "Accelerated Introduction to Computer Science",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "BIOL 114",
+          "BIOL 420",
+          "BIOL 445",
+          "CS 330",
+          "CS 422",
+          "CS 425",
+          "MATH 425"
+        ],
+        "raw_text": "Select a minimum of six credit hours from the following:",
+        "minimum": true
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-bioinformatics/"
+  },
+  {
+    "minor_id": "biology",
+    "name": "Biology",
+    "title": "Minor in Biology",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BIOL 107",
+        "title": "General Biology Lectures",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 115",
+        "title": "Human Biology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 214",
+        "title": "Genetics",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "BIOL 210",
+          "BIOL 305",
+          "BIOL 327",
+          "BIOL 301",
+          "BIOL 402",
+          "BIOL 404",
+          "BIOL 410",
+          "BIOL 426",
+          "BIOL 430",
+          "BIOL 446"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or an approved biology elective at the 500-level",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-biology/"
+  },
+  {
+    "minor_id": "building-systems-engineering",
+    "name": "Building Systems Engineering",
+    "title": "Minor in Building Systems Engineering",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CAE 331",
+        "title": "Building Science",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 461",
+        "title": "Plumbing and Fire Protection Design",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 464",
+        "title": "HVAC Systems Design",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "CAE 424",
+          "CAE 425",
+          "CAE 438",
+          "CAE 453",
+          "CAE 463",
+          "CAE 465",
+          "CAE 466",
+          "CAE 467"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-building-systems-engineering/"
+  },
+  {
+    "minor_id": "business",
+    "name": "Business",
+    "title": "Minor in Business",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "one_of",
+        "options": [
+          "BUS 210",
+          "BUS 211"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "ECON 211",
+          "ECON 151"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "BUS 301",
+        "title": "Organizational Behavior",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "BUS 305",
+          "BUS 371",
+          "ECON 423"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Additional restriction for Chemical Engineering students: Chemical Engineering majors must also take CHE 426 or another engineering science course.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-business/"
+  },
+  {
+    "minor_id": "business-analytics",
+    "name": "Business Analytics",
+    "title": "Minor in Business Analytics",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BUS 102",
+        "title": "Business Analytics Fundamentals",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "BUS 221",
+          "STAT 225"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or PSYC 203 | Undergraduate Statistics for the Behavioral Sciences",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ECON 251",
+        "title": "Introduction to Econometrics",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Minimum of Two of the Following: | 6",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "BUS 473",
+        "title": "Marketing Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 475",
+        "title": "Sales Management and Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 477",
+        "title": "Analytics for Decision Making",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 484",
+        "title": "Data Analytics and Visualization",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Additional restriction for Chemical Engineering students: Chemical Engineering majors must also take CHE 426 or another engineering science course.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-business-analytics/"
+  },
+  {
+    "minor_id": "chemistry",
+    "name": "Chemistry",
+    "title": "Minor in Chemistry",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CHEM 247",
+        "title": "Analytical Chemistry",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select one of the following course sequences: | 7",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 235 & CHEM 236 & CHEM 239 | Organic Chemistry I and Organic Chemistry I-Lab and Organic Chemistry II | 7",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 343 & CHEM 344 | Physical Chemistry I and Physical Chemistry II | 7",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select electives chosen from 300-level and 400-level chemistry courses | 5",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/chemistry/minor-chemistry/"
+  },
+  {
+    "minor_id": "circuits-and-systems",
+    "name": "Circuits and Systems",
+    "title": "Minor in Circuits and Systems",
+    "total_credits": 17,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ECE 211",
+        "title": "Circuit Analysis I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 213",
+        "title": "Circuit Analysis II",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 218",
+        "title": "Digital Systems",
+        "credits": 4
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select one of the following course sequences: | 6-7",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "ECE 308 & ECE 403 | Signals and Systems and Digital and Data Communication Systems | 6",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "ECE 308 & ECE 438 | Signals and Systems and Control Systems | 6",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "ECE 319 & ECE 418 | Fundamentals of Power Engineering and Power System Analysis | 7",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/minor-circuits-systems/"
+  },
+  {
+    "minor_id": "communication",
+    "name": "Communication",
+    "title": "Minor in Communication",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "This minor consists of 15 credit hours of communication coursework chosen in consultation with the minor adviser. At least nine credit hours must be at or above the 300-level.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-communication/"
+  },
+  {
+    "minor_id": "computational-mathematics",
+    "name": "Computational Mathematics",
+    "title": "Minor in Computational Mathematics",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 350",
+        "title": "Introduction to Computational Mathematics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 477",
+        "title": "Computational Linear Algebra for Science and Engineering",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 478",
+        "title": "Numerical Methods for Differential Equations",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 431",
+          "MATH 435"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 461 | Fourier Series and Boundary-Value Problems",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 476",
+          "MATH 486"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 488 | Data-Driven Dynamical Systems",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-computational-mathematics/"
+  },
+  {
+    "minor_id": "computer-architecture",
+    "name": "Computer Architecture",
+    "title": "Minor in Computer Architecture",
+    "total_credits": 17,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 201",
+        "title": "Accelerated Introduction to Computer Science",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 350",
+        "title": "Computer Organization and Assembly Language Programming",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 470",
+        "title": "Computer Architecture",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 218",
+        "title": "Digital Systems",
+        "credits": 4
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-computer-architecture/"
+  },
+  {
+    "minor_id": "computer-science",
+    "name": "Computer Science",
+    "title": "Minor in Computer Science",
+    "total_credits": 16,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 201",
+        "title": "Accelerated Introduction to Computer Science",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Three 300-level or 400-level computer science courses chosen in consultation with the Department of Computer Science | 9",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-computer-science/"
+  },
+  {
+    "minor_id": "construction-management",
+    "name": "Construction Management",
+    "title": "Minor in Construction Management",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CAE 470",
+        "title": "Construction Methods and Cost Estimating",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 471",
+        "title": "Construction Planning and Scheduling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 472",
+        "title": "Construction Site Operation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 473",
+        "title": "Construction Contract Administration",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 474",
+        "title": "Introduction to Building Information Modeling",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-construction-management/"
+  },
+  {
+    "minor_id": "critical-ai",
+    "name": "Critical AI",
+    "title": "Minor in Critical AI",
+    "total_credits": null,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": null,
+        "requirements": [
+          {
+            "type": "free_text",
+            "raw_text": "Core (take both courses) | 6",
+            "parsed": false
+          },
+          {
+            "type": "course",
+            "course": "COM 235",
+            "title": "Ethics of Technology and Communication",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHIL 285",
+            "title": "Trustworthy AI",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": null,
+        "requirements": [
+          {
+            "type": "free_text",
+            "raw_text": "Take any 3 electives from below | 9",
+            "parsed": false
+          },
+          {
+            "type": "course",
+            "course": "HIST 271",
+            "title": "A History of Artificial Intelligence from Turing to the Present",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "HIST 273",
+            "title": "History of Video Games",
+            "credits_text": "1 TO 3"
+          },
+          {
+            "type": "course",
+            "course": "PHIL 330",
+            "title": "Philosophy of Data Science",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHIL 331",
+            "title": "Political Philosophy of Artificial Intelligence",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHIL 281",
+            "title": "Artificial Intelligence, Philosophy and Ethics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PS 233",
+            "title": "Politics of Science and Technology",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "SOC 262",
+            "title": "Technology and Social Change",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "SSCI 245",
+            "title": "AI and Public Policy",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "SSCI 278",
+            "title": "Innovation Policy",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "SSCI 385",
+            "title": "Special Topics",
+            "credits": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-critical-ai/"
+  },
+  {
+    "minor_id": "cyber-defense",
+    "name": "Cyber Defense",
+    "title": "Minor in Cyber Defense",
+    "total_credits": 21,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 321",
+        "title": "Data Modeling and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 411",
+        "title": "Intermediate Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 340",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 356",
+        "title": "Introduction to Open Source Operating Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 428",
+        "title": "Database Security",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 448",
+        "title": "Cyber Security Technologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 478",
+        "title": "Cyber Security Management",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-cyber-defense/"
+  },
+  {
+    "minor_id": "cyber-security-foundations",
+    "name": "Cyber Security Foundations",
+    "title": "Minor in Cyber Security Foundations",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITM 301",
+        "title": "Introduction to Contemporary Operating Systems and Hardware I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITM 311",
+        "title": "Introduction to Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 321",
+        "title": "Data Modeling and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 411",
+        "title": "Intermediate Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 340",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-cyber-security-foundations/"
+  },
+  {
+    "minor_id": "data-science",
+    "name": "Data Science",
+    "title": "Minor in Data Science",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "DS 151",
+        "title": "Introduction to Data Science",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "DS 261",
+        "title": "Data Ethics and Responsible AI",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 474",
+          "MATH 476"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 484",
+          "CS 422"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or CS 484 | Introduction to Machine Learning",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "DS 451",
+          "CSP 571"
+        ]
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-data-science/index.html"
+  },
+  {
+    "minor_id": "database-management",
+    "name": "Database Management",
+    "title": "Minor in Database Management",
+    "total_credits": 16,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 201",
+        "title": "Accelerated Introduction to Computer Science",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 422",
+          "CS 429"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CS 425",
+        "title": "Database Organization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 445",
+        "title": "Object Oriented Design and Programming",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-database-management/"
+  },
+  {
+    "minor_id": "economics",
+    "name": "Economics",
+    "title": "Minor in Economics",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ECON 151",
+        "title": "Microeconomics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECON 152",
+        "title": "Macroeconomics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECON 423",
+        "title": "Economics of Capital Investments",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ECON 251",
+          "ECON 311",
+          "ECON 312"
+        ],
+        "raw_text": "Select a minimum of two course from the following:",
+        "minimum": true,
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Additional restriction for Chemical Engineering students: Chemical Engineering majors must also take CHE 426 or another engineering science course.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-economics/"
+  },
+  {
+    "minor_id": "electromechanical-systems",
+    "name": "Electromechanical Systems",
+    "title": "Minor in Electromechanical Systems",
+    "total_credits": 18,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (18-19)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ECE 211",
+        "title": "Circuit Analysis I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 213",
+        "title": "Circuit Analysis II",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 311",
+        "title": "Engineering Electronics",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 319",
+        "title": "Fundamentals of Power Engineering",
+        "credits": 4
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ECE 411",
+          "ECE 412",
+          "ECE 420"
+        ],
+        "raw_text": "Select one of the following courses:",
+        "credits_required": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-electromechanical-systems/index.html"
+  },
+  {
+    "minor_id": "energy-environment-economics-e3",
+    "name": "Energy/Environment/Economics (E3)",
+    "title": "Minor in Energy/Environment/Economics",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CHE 543",
+        "title": "Energy, Environment, and Economics",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "CHE 465",
+          "CHE 467",
+          "CHE 489",
+          "CHE 491",
+          "CHE 541",
+          "CHE 542",
+          "CHE 565",
+          "CHE 582",
+          "ECE 319",
+          "ECE 411",
+          "ECE 419",
+          "ECE 420",
+          "ECE 438",
+          "MMAE 425",
+          "MMAE 426"
+        ],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MMAE 522 | Nuclear, Fossil-Fuel, and Sustainable Energy Systems",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "MMAE 524",
+        "title": "Fundamentals of Combustion",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 525",
+        "title": "Fundamentals of Heat Transfer",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "ECE 491",
+          "ECE 497",
+          "ECON 423",
+          "ENVE 404",
+          "ENVE 463",
+          "ENVE 485",
+          "MMAE 491",
+          "MMAE 494",
+          "MMAE 497",
+          "PS 338"
+        ],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/minor-energy-environment-economics/"
+  },
+  {
+    "minor_id": "engineering-graphics-and-cad",
+    "name": "Engineering Graphics and CAD",
+    "title": "Minor in Engineering Graphics and CAD",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 15,
+        "options": [
+          "CAE 100",
+          "CAE 101",
+          "CAE 439",
+          "CAE 468",
+          "CAE 474",
+          "CAE 497",
+          "EG 419",
+          "EG 430",
+          "EG 497",
+          "MMAE 232",
+          "MMAE 445",
+          "MMAE 497"
+        ],
+        "raw_text": "Select a minimum of 15 hours from the following:",
+        "minimum": true,
+        "credits_required": 15
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-engineering-graphics-cad/"
+  },
+  {
+    "minor_id": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "title": "Minor in Entrepreneurship",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BUS 210",
+        "title": "Accounting Principles",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 371",
+        "title": "Marketing Fundamentals",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 469",
+        "title": "Entrepreneurship Capstone",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECON 211",
+        "title": "Introduction to Economics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECON 423",
+        "title": "Economics of Capital Investments",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-entrepreneurship/"
+  },
+  {
+    "minor_id": "environmental-engineering",
+    "name": "Environmental Engineering",
+    "title": "Minor in Environmental Engineering",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 15,
+        "options": [
+          "ENVE 201",
+          "ENVE 401",
+          "ENVE 402",
+          "ENVE 403",
+          "ENVE 404",
+          "ENVE 463",
+          "ENVE 485",
+          "ENVE 497",
+          "CAE 401",
+          "CAE 439",
+          "CAE 482"
+        ],
+        "raw_text": "Select 15 credit hours from the following:",
+        "credits_required": 15
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-environmental-engineering/"
+  },
+  {
+    "minor_id": "finance",
+    "name": "Finance",
+    "title": "Minor in Finance",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "one_of",
+        "options": [
+          "BUS 210",
+          "BUS 211"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "ECON 211",
+          "ECON 151"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "ECON 423",
+        "title": "Economics of Capital Investments",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "BUS 452",
+          "BUS 454",
+          "BUS 455",
+          "BUS 458"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Additional restriction for Chemical Engineering students: Chemical Engineering majors must also take CHE 426 or another engineering science course.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-finance/"
+  },
+  {
+    "minor_id": "food-science-and-nutrition",
+    "name": "Food Science and Nutrition",
+    "title": "Minor in Food Science and Nutrition",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | 6",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "FDSN 201",
+        "title": "Nutrition and Wellness",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 301",
+        "title": "Exploring Food Science & Tech",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "You must take at least three of the following: | 9",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "FDSN 300",
+        "title": "Nutrition Through the Life Cycle",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 304",
+        "title": "Food Biotechnology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 314",
+        "title": "Sustainable Food Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 401",
+        "title": "Nutrition, Metabolism, and Health",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 405",
+        "title": "Food and Behavior",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 408",
+        "title": "Food Product Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 412",
+        "title": "Preservation Processing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 413",
+        "title": "Food Fermentation (w/lab and plant field trips)",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "FDSN 414",
+        "title": "Unit Operations in Food Processing",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/food-science-nutrition/minor-food-science-nutrition/"
+  },
+  {
+    "minor_id": "game-design-and-experiential-media",
+    "name": "Game Design and Experiential Media",
+    "title": "Minor in Game Design and Experiential Media",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "GEM 100",
+        "title": "Game Design and Experiential Media Intro to the Professions",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Game Design Foundation | (3)",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "GEM 276",
+          "GEM 277"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "GEM Human Factors Elective | (3)",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "HIST 273",
+          "GEM 220"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or GEM 271 | Philosophy of Games",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or PHIL 330 | Philosophy of Data Science",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or PHIL 281 | Artificial Intelligence, Philosophy and Ethics",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "GEM Technical Electives | (6)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "CS 415",
+          "ID 410",
+          "ITM 311",
+          "ITM 313",
+          "ITMD 413",
+          "ITMD 361",
+          "ITMD 362",
+          "ITMO 356"
+        ],
+        "raw_text": "Select 6 credit hours from any other GEM courses or the following list:",
+        "credits_required": 6
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-game-design-experiential-media/"
+  },
+  {
+    "minor_id": "graphics-and-cad-for-non-engineers",
+    "name": "Graphics and CAD for Non-Engineers",
+    "title": "Minor in Graphics and CAD for Non-Engineers",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "EG 225",
+        "title": "Engineering Graphics for Non-Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "EG 325",
+        "title": "Advanced Engineering Graphics for Non-Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "EG 329",
+        "title": "Graphic Representation for Non-Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "EG 425",
+        "title": "Computer Graphics for Non-Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "EG 429",
+        "title": "Computer Graphics for Desktop Publishing",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-graphics-cad/"
+  },
+  {
+    "minor_id": "human-resources",
+    "name": "Human Resources",
+    "title": "Minor in Human Resources",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "one_of",
+        "options": [
+          "PSYC 203",
+          "PSYC 320"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "PSYC 211",
+        "title": "Industrial Psychology",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "PSYC 210",
+          "PSYC 370",
+          "PSYC 409",
+          "PSYC 455",
+          "PSYC 481"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-human-resources/index.html"
+  },
+  {
+    "minor_id": "human-centered-design",
+    "name": "Human-Centered Design",
+    "title": "Minor in Human-Centered Design",
+    "total_credits": null,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "Required courses (choose a minimum of 6 credits)",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "IPRO 497",
+            "title": "Interprofessional (IPRO) Project",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "Domain-specific electives (choose a minimum of 6 credits**)",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "BME 419",
+            "title": "Introduction to Design Concepts in Biomedical Engineering",
+            "credits": 2
+          },
+          {
+            "type": "course",
+            "course": "BME 420",
+            "title": "Design Concepts in Biomedical Engineering",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "GEM 276",
+            "title": "Game Design I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "GEM 277",
+            "title": "Interactive Storytelling",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "ITMD 361",
+            "title": "Fundamentals of Web Development",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "ITMD 362",
+            "title": "Human-Computer Interaction and Web Design",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 232",
+            "title": "Design for Innovation",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 445",
+            "title": "Computer-Aided Design and Manufacturing",
+            "credits": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/design/minor-human-centered-design/"
+  },
+  {
+    "minor_id": "industrial-technology-and-management",
+    "name": "Industrial Technology and Management",
+    "title": "Minor in Industrial Technology and Management",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Choose 15 credit hours from the following: | 15",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "INTM 315",
+        "title": "Industrial Enterprises",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 322",
+        "title": "Industrial Project Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 403",
+        "title": "Management and Leadership",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 410",
+        "title": "Operations Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 418",
+        "title": "Industrial Risk Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 425",
+        "title": "Human Resource Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 434",
+        "title": "Digital Transformation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 441",
+        "title": "Supply Chain Management",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/minor-industrial-technology-management/"
+  },
+  {
+    "minor_id": "information-security",
+    "name": "Information Security",
+    "title": "Minor in Information Security",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 321",
+        "title": "Data Modeling and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 340",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 428",
+        "title": "Database Security",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 448",
+        "title": "Cyber Security Technologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 478",
+        "title": "Cyber Security Management",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-security/"
+  },
+  {
+    "minor_id": "information-system-administration",
+    "name": "Information System Administration",
+    "title": "Minor in Information System Administration",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITM 301",
+        "title": "Introduction to Contemporary Operating Systems and Hardware I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 340",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 356",
+        "title": "Introduction to Open Source Operating Systems",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ITMO 417",
+          "ITMO 433",
+          "ITMO 444",
+          "ITMO 450",
+          "ITMO 453",
+          "ITMO 454",
+          "ITMS 458"
+        ],
+        "raw_text": "Select two courses from the following:",
+        "credits_required": 6
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-system-administration/"
+  },
+  {
+    "minor_id": "information-system-network-management",
+    "name": "Information System Network Management",
+    "title": "Minor in Information System Network Management",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMM 471",
+        "title": "Project Management for Information Technology and Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 340",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 441",
+        "title": "Network Administration and Operations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 448",
+        "title": "Cyber Security Technologies",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ITMD 361",
+          "ITMO 356",
+          "ITMO 444"
+        ],
+        "raw_text": "Select one course from the following:",
+        "credits_required": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-system-network-management/"
+  },
+  {
+    "minor_id": "information-technology-foundations",
+    "name": "Information Technology Foundations",
+    "title": "Minor in Information Technology Foundations",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITM 301",
+        "title": "Introduction to Contemporary Operating Systems and Hardware I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITM 311",
+        "title": "Introduction to Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 321",
+        "title": "Data Modeling and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 361",
+        "title": "Fundamentals of Web Development",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select any 400-level ITM elective | 3",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-technology-foundations/"
+  },
+  {
+    "minor_id": "information-technology-and-management",
+    "name": "Information Technology and Management",
+    "title": "Minor in Information Technology and Management",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITM 301",
+        "title": "Introduction to Contemporary Operating Systems and Hardware I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 471",
+        "title": "Project Management for Information Technology and Management",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 321",
+          "ITMD 361",
+          "ITMD 411",
+          "ITMO 340",
+          "ITMO 356"
+        ],
+        "raw_text": "Select three courses from the following:",
+        "credits_required": 9
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-technology-management/index.html"
+  },
+  {
+    "minor_id": "internet-application-development",
+    "name": "Internet Application Development",
+    "title": "Minor in Internet Application Development",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITM 311",
+        "title": "Introduction to Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 361",
+        "title": "Fundamentals of Web Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 441",
+        "title": "Web Application Foundations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 442",
+        "title": "Full-Stack Web Development",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ITMD 362",
+          "ITMD 443",
+          "ITMD 444",
+          "ITMD 445",
+          "ITMD 446",
+          "ITMD 447",
+          "ITMD 449"
+        ],
+        "raw_text": "Select one course from the following:",
+        "credits_required": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-internet-application-development/"
+  },
+  {
+    "minor_id": "leadership",
+    "name": "Leadership",
+    "title": "Minor in Leadership",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 150",
+        "title": "Introduction to Leadership: Concepts and Practices",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "BUS 301",
+          "COM 380",
+          "COM 335",
+          "INTM 301",
+          "INTM 322",
+          "ITMM 470",
+          "ITMM 471",
+          "MILS 301",
+          "MILS 302",
+          "MILS 401",
+          "PS 132",
+          "PS 251",
+          "PSYC 210",
+          "PSYC 312",
+          "PSYC 481",
+          "SOC 205",
+          "SSCI 210"
+        ],
+        "raw_text": "Select a minimum of four courses from the following:",
+        "minimum": true,
+        "credits_required": 12
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-leadership/"
+  },
+  {
+    "minor_id": "manufacturing-engineering",
+    "name": "Manufacturing Engineering",
+    "title": "Minor in Manufacturing Engineering",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 15,
+        "options": [
+          "CAE 523"
+        ],
+        "raw_text": "Select a minimum of 15 credit hours from the following: 1",
+        "minimum": true,
+        "credits_required": 15
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or CHE 426 | Statistical Tools for Engineers",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "EMGT 406",
+        "title": "Entrepreneurship and Intellectual Property Management 2",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "EMGT 470",
+        "title": "Project Management 2",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "ENGR 200 & ENGR 411 | Entrepreneurship NOW! -- Introduction to the Entrepreneurial Mind Set and Fabrication Practices for Engineers 2 | 4",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "INTM 436",
+        "title": "Manufacturing Technologies for Industrial Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 441",
+        "title": "Supply Chain Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 446",
+        "title": "Manufacturing and Logistics Information Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 485",
+        "title": "Manufacturing Processes",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 546",
+        "title": "Advanced Manufacturing Engineering",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 547",
+        "title": "Computer-Integrated Manufacturing Technologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 557",
+        "title": "Computer-Integrated Manufacturing Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 560",
+        "title": "Statistical Quality and Process Control",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 589",
+        "title": "Applications in Reliability Engineering I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 590",
+        "title": "Applications in Reliability Engineering II",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-manufacturing-engineering/"
+  },
+  {
+    "minor_id": "manufacturing-technology",
+    "name": "Manufacturing Technology",
+    "title": "Minor in Manufacturing Technology",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "INTM 406",
+        "title": "Quality Management Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 434",
+        "title": "Digital Transformation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 435",
+        "title": "Artificial Intelligence for Industrial Operations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 436",
+        "title": "Manufacturing Technologies for Industrial Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 437",
+        "title": "Smart Factory Automation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 438",
+        "title": "Advanced Machining for Manufacturing 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 439",
+        "title": "Advanced Machining for Manufacturing 2",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 446",
+        "title": "Manufacturing and Logistics Information Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 448",
+        "title": "Agile Methodologies for New Product/Process Development",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/minor-manufacturing-technology/"
+  },
+  {
+    "minor_id": "marketing-analytics",
+    "name": "Marketing Analytics",
+    "title": "Minor in Marketing Analytics",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BUS 371",
+        "title": "Marketing Fundamentals",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 472",
+        "title": "New Product Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 473",
+        "title": "Marketing Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 475",
+        "title": "Sales Management and Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 476",
+        "title": "Consumer Behavior",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Additional restriction for Chemical Engineering students: Chemical Engineering majors must also take CHE 426 or another engineering science course.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-marketing-analytics/"
+  },
+  {
+    "minor_id": "materials-science",
+    "name": "Materials Science",
+    "title": "Minor in Materials Science",
+    "total_credits": 15,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "Required Courses - Aerospace Engineering Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "MMAE 365",
+            "title": "Structure and Properties of Materials I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 370",
+            "title": "Materials Laboratory I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 463",
+            "title": "Structure and Properties of Materials II",
+            "credits": 3
+          },
+          {
+            "type": "choose",
+            "count": 2,
+            "options": [
+              "MMAE 465",
+              "MMAE 470",
+              "MMAE 472"
+            ],
+            "raw_text": "Select a minimum of two courses from the following:",
+            "minimum": true,
+            "credits_required": 6
+          },
+          {
+            "type": "free_text",
+            "raw_text": "or MMAE 482 | Composites",
+            "parsed": false
+          },
+          {
+            "type": "course",
+            "course": "MMAE 476",
+            "title": "Materials Laboratory II",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 485",
+            "title": "Manufacturing Processes",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "Required Courses - Mechanical Engineering Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "MMAE 365",
+            "title": "Structure and Properties of Materials I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 370",
+            "title": "Materials Laboratory I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 463",
+            "title": "Structure and Properties of Materials II",
+            "credits": 3
+          },
+          {
+            "type": "choose",
+            "count": 2,
+            "options": [
+              "MMAE 465",
+              "MMAE 470",
+              "MMAE 472"
+            ],
+            "raw_text": "Select a minimum of two courses from the following:",
+            "minimum": true,
+            "credits_required": 6
+          },
+          {
+            "type": "free_text",
+            "raw_text": "or MMAE 482 | Composites",
+            "parsed": false
+          },
+          {
+            "type": "course",
+            "course": "MMAE 476",
+            "title": "Materials Laboratory II",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "context": "Required Courses - Non-MMAE Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "MMAE 365",
+            "title": "Structure and Properties of Materials I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 463",
+            "title": "Structure and Properties of Materials II",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MMAE 465",
+            "title": "Electrical, Magnetic, and Optical Properties of Materials",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "MS 201",
+            "title": "Materials Science",
+            "credits": 3
+          },
+          {
+            "type": "choose",
+            "count": 1,
+            "options": [
+              "MMAE 370",
+              "MMAE 470"
+            ],
+            "raw_text": "Select a minimum of one course from the following:",
+            "minimum": true,
+            "credits_required": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-materials-science/"
+  },
+  {
+    "minor_id": "medical-humanities",
+    "name": "Medical Humanities",
+    "title": "Minor in Medical Humanities",
+    "total_credits": null,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "Both of these courses",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "HUM 100",
+            "title": "Reading Methods for the Humanities",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHIL 257",
+            "title": "Philosophy of Medicine",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "Any three from below",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "GEM 180",
+            "title": "Illness, Care, and the Moving Image",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "FDSN 201",
+            "title": "Nutrition and Wellness",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "FDSN 300",
+            "title": "Nutrition Through the Life Cycle",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "FDSN 405",
+            "title": "Food and Behavior",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "FDSN 494",
+            "title": "Special Projects",
+            "credits_text": "1 TO 6"
+          },
+          {
+            "type": "course",
+            "course": "PHIL 282",
+            "title": "Bioethics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "SSCI 218",
+            "title": "Global Health",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "SOC 248",
+            "title": "Deviant Behavior and Conformity",
+            "credits": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-medical-humanities/"
+  },
+  {
+    "minor_id": "physics",
+    "name": "Physics",
+    "title": "Minor in Physics",
+    "total_credits": 3,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "One of the following:",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "PHYS 223",
+            "title": "General Physics III",
+            "credits_text": "0 OR 4"
+          },
+          {
+            "type": "course",
+            "course": "PHYS 224",
+            "title": "General Physics III for Engineers",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "At least two of the following:",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "PHYS 304",
+            "title": "Thermodynamics and Statistical Physics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 308",
+            "title": "Classical Mechanics I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 405",
+            "title": "Fundamentals of Quantum Theory I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 413",
+            "title": "Electromagnetism I",
+            "credits": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/minor-physics/"
+  },
+  {
+    "minor_id": "polymer-science-and-engineering",
+    "name": "Polymer Science and Engineering",
+    "title": "Minor in Polymer Science and Engineering",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 470",
+          "CHEM 470",
+          "MMAE 470"
+        ],
+        "raw_text": "Select a minimum of one course from the following:",
+        "minimum": true,
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CHE 538",
+          "CHE 555",
+          "CHE 575",
+          "CHEM 535",
+          "CHEM 537",
+          "CHEM 542",
+          "MMAE 579"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 9
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 426",
+          "CHE 489",
+          "CHE 491",
+          "CHE 582",
+          "MMAE 451",
+          "MMAE 485"
+        ],
+        "raw_text": "Select one of the following:",
+        "credits_required": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/minor-polymer-science-engineering/"
+  },
+  {
+    "minor_id": "pre-medical-studies",
+    "name": "Pre-Medical Studies",
+    "title": "Minor in Pre-Medical Studies",
+    "total_credits": 70,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BIOL 107",
+        "title": "General Biology Lectures",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "BIOL 109",
+          "BME 405"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "BIOL 115",
+        "title": "Human Biology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 117",
+        "title": "Human Biology Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BIOL 214",
+        "title": "Genetics",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOL 403",
+          "BIOL 301"
+        ],
+        "raw_text": "Select one of the following:",
+        "credits_required": 4
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "BIOL 430",
+          "BIOL 445",
+          "BME 453"
+        ],
+        "raw_text": "Select one of the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 122 & CHEM 123 | Principles of Chemistry I and General Chemistry Laboratory | 4",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 126 & CHEM 140 | Principles of Chemistry II Without Laboratory and Principles of Chemistry II Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 235 & CHEM 236 | Organic Chemistry I and Organic Chemistry I-Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CHEM 239",
+        "title": "Organic Chemistry II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHEM 240",
+        "title": "Organic Chemistry Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 147",
+          "MATH 148"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 151 | Calculus I",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Choose one of the following statistics courses: | 3-4",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "BME 433",
+        "title": "Biomedical Engineering Applications of Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BUS 221",
+        "title": "Business Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 426",
+        "title": "Statistical Tools for Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 374",
+        "title": "Probability and Statistics for Electrical and Computer Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 425",
+        "title": "Statistical Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 474",
+        "title": "Probability and Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 476",
+        "title": "Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 203",
+        "title": "Undergraduate Statistics for the Behavioral Sciences",
+        "credits": 4
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Physics Requirements | 8",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Choose 1 of the 2 options",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "PHYS 123 & PHYS 221 | General Physics I: Mechanics and General Physics II: Electricity and Magnetism | 8",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "PHYS 113 & PHYS 211 | Fundamental Physics I and Fundamental Physics II | 8",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Humanities 200-level course | 3",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Choose one of the following ethics courses: | 3",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "PHIL 260",
+        "title": "Ethics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHIL 204",
+        "title": "Judgment and Decision-Making",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHIL 282",
+        "title": "Bioethics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHIL 380",
+        "title": "Seminar in Philosophy (Philosophy of Medicine)",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Choose one of the following communication courses: | 3",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "COM 121",
+        "title": "Introduction to Linguistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 208",
+        "title": "Structure of Modern English",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 321",
+        "title": "Technical Communication",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 310",
+        "title": "The Human Voice: Description, Analysis and Application",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 328",
+        "title": "Verbal and Visual Communication",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 335",
+        "title": "Intercultural Communication",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SOC 180",
+        "title": "Introduction to Sociology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 121",
+        "title": "Introduction to Psychology",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Choose one of the following psychology courses: | 3",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "PSYC 212",
+        "title": "Introduction to Psychopathology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 210",
+        "title": "Social Psychology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 330",
+        "title": "Health Psychology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 414",
+        "title": "Neural and Biological Bases of Behavior 1",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Choose one of the following PS or SSCI courses: | 3",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "PS 213",
+        "title": "Comparative Public Policy",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SOC 248",
+        "title": "Deviant Behavior and Conformity",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SOC 205",
+        "title": "Social Communication",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 385",
+        "title": "Special Topics (Medical Sociology)",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 218",
+        "title": "Global Health",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 221",
+        "title": "Social Inequality",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-premedical-studies/"
+  },
+  {
+    "minor_id": "professional-and-technical-communication",
+    "name": "Professional and Technical Communication",
+    "title": "Minor in Professional and Technical Communication",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "COM 321 and 12 credit hours of communication coursework chosen in consultation with the minor adviser.",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-ptc/"
+  },
+  {
+    "minor_id": "psychology",
+    "name": "Psychology",
+    "title": "Minor in Psychology",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 121",
+        "title": "Introduction to Psychology",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select at least 12 additional credit hours of psychology courses. | 12",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-psychology/"
+  },
+  {
+    "minor_id": "public-administration",
+    "name": "Public Administration",
+    "title": "Minor in Public Administration",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PS 200",
+        "title": "3"
+      },
+      {
+        "type": "course",
+        "course": "PS 214",
+        "title": "3"
+      },
+      {
+        "type": "course",
+        "course": "PS 306",
+        "title": "3"
+      },
+      {
+        "type": "course",
+        "course": "PS 315",
+        "title": "3"
+      },
+      {
+        "type": "course",
+        "course": "PS 351",
+        "title": "3"
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-public-administration/"
+  },
+  {
+    "minor_id": "public-policy",
+    "name": "Public Policy",
+    "title": "Minor in Public Policy",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "SSCI 106",
+        "title": "Introduction to Public Policy",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PS 213",
+        "title": "Comparative Public Policy",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Select three additional PS, SOC, or SSCI courses | 9",
+        "parsed": false
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/social-sciences/minor-public-policy/"
+  },
+  {
+    "minor_id": "quantum-science",
+    "name": "Quantum Science",
+    "title": "Minor in Quantum Science",
+    "total_credits": null,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "One of the following:",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "PHYS 223",
+            "title": "General Physics III",
+            "credits_text": "0 OR 4"
+          },
+          {
+            "type": "course",
+            "course": "PHYS 224",
+            "title": "General Physics III for Engineers",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "The following two courses:",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "PHYS 405",
+            "title": "Fundamentals of Quantum Theory I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 407",
+            "title": "Introduction to Quantum Computing",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "context": "At least 6 additional credit hours selected from the following:",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "PHYS 300",
+            "title": "Instrumentation Laboratory",
+            "credits": 4
+          },
+          {
+            "type": "course",
+            "course": "PHYS 404",
+            "title": "Subatomic Physics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 406",
+            "title": "Fundamentals of Quantum Theory II",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 412",
+            "title": "Modern Optics and Lasers",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 415",
+            "title": "Solid State Electronics",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 427",
+            "title": "Advanced Physics Laboratory I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "PHYS 437",
+            "title": "Solid State Physics",
+            "credits": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/minor-quantum-science/"
+  },
+  {
+    "minor_id": "railroad-engineering",
+    "name": "Railroad Engineering",
+    "title": "Minor in Railroad Engineering",
+    "total_credits": null,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (15)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CAE 417",
+        "title": "Railroad Engineering and Design",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 419",
+        "title": "Introduction to Transportation Engineering and Design",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CAE 408",
+          "CAE 416",
+          "CAE 437",
+          "CAE 439",
+          "CAE 471",
+          "MATH 426",
+          "MATH 435"
+        ],
+        "raw_text": "Select a minimum of 3 courses from the list below:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-railroad-engineering/"
+  },
+  {
+    "minor_id": "rehabilitation-services",
+    "name": "Rehabilitation Services",
+    "title": "Minor in Rehabilitation Services",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 410",
+        "title": "Introduction to Rehabilitation and Mental Health Counseling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 411",
+        "title": "Medical Aspects of Disabling Conditions",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 412",
+        "title": "Multicultural and Psychosocial Issues in Rehabilitation and Mental Health Counseling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 583",
+        "title": "Rehabilitation Engineering Technology I: Survey of Interdisciplinary Application of RET",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 590",
+        "title": "Psychiatric Rehabilitation",
+        "credits": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-rehabilitation-services/"
+  },
+  {
+    "minor_id": "statistics",
+    "name": "Statistics",
+    "title": "Minor in Statistics",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "STAT 225",
+        "title": "Introductory Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 332",
+        "title": "Linear Algebra: Theory and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 475",
+        "title": "Probability",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 476",
+        "title": "Statistics",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "MATH 446",
+          "MATH 481",
+          "MATH 483",
+          "MATH 484"
+        ],
+        "raw_text": "Select a minimum of three credit hours from the following:",
+        "minimum": true,
+        "credits_required": 3
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-statistics/"
+  },
+  {
+    "minor_id": "structural-engineering",
+    "name": "Structural Engineering",
+    "title": "Minor in Structural Engineering",
+    "total_credits": 15,
+    "requirements": [],
+    "requirement_groups": [
+      {
+        "group": 1,
+        "context": "Required Courses - Architecture Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "CAE 303",
+            "title": "Steel Structures I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 304",
+            "title": "Structural Analysis I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 307",
+            "title": "Concrete Structures I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 431",
+            "title": "Steel Structures II",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 432",
+            "title": "Concrete Structures II",
+            "credits": 3
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "context": "Required Courses - Non-CAEE, Non-ARCH Majors only",
+        "requirements": [
+          {
+            "type": "course",
+            "course": "CAE 303",
+            "title": "Steel Structures I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 304",
+            "title": "Structural Analysis I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 307",
+            "title": "Concrete Structures I",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 315",
+            "title": "Materials of Construction",
+            "credits": 3
+          },
+          {
+            "type": "course",
+            "course": "CAE 431",
+            "title": "Steel Structures II",
+            "credits": 3
+          }
+        ]
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-structural-engineering/"
+  },
+  {
+    "minor_id": "supply-chain-management",
+    "name": "Supply Chain Management",
+    "title": "Minor in Supply Chain Management",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "INTM 441",
+        "title": "Supply Chain Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 446",
+        "title": "Manufacturing and Logistics Information Systems",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "INTM 427",
+          "INTM 430",
+          "INTM 432",
+          "INTM 442",
+          "INTM 443",
+          "INTM 444"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/minor-supply-chain-management/"
+  },
+  {
+    "minor_id": "sustainability",
+    "name": "Sustainability",
+    "title": "Minor in Sustainability",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ENVE 201",
+        "title": "Earth Environ Sci",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "PS 229",
+          "PS 238"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "FDSN 314",
+          "SAM 504"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ARCH 421",
+          "ARCH 460",
+          "ARCH 462",
+          "BIOL 200",
+          "CAE 331",
+          "CAE 462",
+          "CAE 465",
+          "CAE 556",
+          "CAE 557",
+          "CHE 543",
+          "CHEM 410",
+          "CHEM 472",
+          "ECE 412",
+          "ECE 418",
+          "ECE 580",
+          "SAM 502",
+          "SAM 503",
+          "SAM 504",
+          "SAM 541",
+          "ENVE 401",
+          "ENVE 402",
+          "ENVE 403",
+          "ENVE 404",
+          "ENVE 422",
+          "ENVE 423",
+          "ENVE 444",
+          "ENVE 463",
+          "FDSN 410",
+          "INTM 416",
+          "INTM 423",
+          "INTM 459",
+          "INTM 461",
+          "INTM 462",
+          "MMAE 522",
+          "MMAE 524"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-sustainability/index.html"
+  },
+  {
+    "minor_id": "telecommunications",
+    "name": "Telecommunications",
+    "title": "Minor in Telecommunications",
+    "total_credits": 17,
+    "requirements": [
+      {
+        "type": "one_of",
+        "options": [
+          "CS 116",
+          "CS 201"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "ECE 403",
+        "title": "Digital and Data Communication Systems",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "ECE 406",
+          "ECE 407"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "ECE 437",
+        "title": "Digital Signal Processing I",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "CS 331",
+          "CS 450",
+          "ECE 449"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/minor-telecommunications/"
+  },
+  {
+    "minor_id": "transportation-engineering",
+    "name": "Transportation Engineering",
+    "title": "Minor in Transportation Engineering",
+    "total_credits": 15,
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (15)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CAE 416",
+        "title": "Facility Design of Transportation Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 419",
+        "title": "Introduction to Transportation Engineering and Design",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CAE 408",
+          "CAE 417",
+          "CAE 437",
+          "CAE 439",
+          "CAE 471",
+          "MATH 426",
+          "MATH 435"
+        ],
+        "raw_text": "Select a minimum of 3 courses from the list below:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "requirement_groups": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-transportation-engineering/"
+  }
+]

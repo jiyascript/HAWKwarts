@@ -1,0 +1,5198 @@
+[
+  {
+    "id": "applied-mathematics:bs-bac-ba:applied-analysis",
+    "name": "Applied Analysis",
+    "parent_program_id": "applied-mathematics:bs-bac-ba",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 380",
+        "title": "Mathematical Modeling with Data",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 400",
+        "title": "Real Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 461",
+        "title": "Fourier Series and Boundary-Value Problems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 488",
+        "title": "Data-Driven Dynamical Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 489",
+        "title": "Partial Differential Equations",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [
+      {
+        "type": "course",
+        "course": "MATH 402",
+        "title": "Complex Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 478",
+        "title": "Numerical Methods for Differential Equations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 486",
+        "title": "Mathematical Modeling I",
+        "credits": 3
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs/"
+  },
+  {
+    "id": "applied-mathematics:bs-bac-ba:computational-mathematics",
+    "name": "Computational Mathematics",
+    "parent_program_id": "applied-mathematics:bs-bac-ba",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 350",
+        "title": "Introduction to Computational Mathematics",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 435",
+          "MATH 461"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 476",
+        "title": "Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 477",
+        "title": "Computational Linear Algebra for Science and Engineering",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 478",
+        "title": "Numerical Methods for Differential Equations",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [
+      {
+        "type": "course",
+        "course": "MATH 431",
+        "title": "Computational Algebraic Geometry",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 435",
+        "title": "Linear Optimization 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 461",
+        "title": "Fourier Series and Boundary-Value Problems 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 484",
+        "title": "Regression",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 486",
+        "title": "Mathematical Modeling I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 488",
+        "title": "Data-Driven Dynamical Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 489",
+        "title": "Partial Differential Equations",
+        "credits": 3
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs/"
+  },
+  {
+    "id": "applied-mathematics:bs-bac-ba:discrete-applied-mathematics",
+    "name": "Discrete Applied Mathematics",
+    "parent_program_id": "applied-mathematics:bs-bac-ba",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 332",
+        "title": "Linear Algebra: Theory and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 430",
+        "title": "Applied Algebra",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 435",
+        "title": "Linear Optimization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 453",
+        "title": "Combinatorics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 454",
+        "title": "Graph Theory and Applications",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [
+      {
+        "type": "course",
+        "course": "MATH 410",
+        "title": "Number Theory",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 431",
+        "title": "Computational Algebraic Geometry",
+        "credits": 3
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs/"
+  },
+  {
+    "id": "applied-mathematics:bs-bac-ba:mathematical-finance",
+    "name": "Mathematical Finance",
+    "parent_program_id": "applied-mathematics:bs-bac-ba",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 475",
+        "title": "Probability",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 476",
+        "title": "Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 478",
+        "title": "Numerical Methods for Differential Equations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 481",
+        "title": "Introduction to Stochastic Processes",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 485",
+        "title": "Introduction to Mathematical Finance",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [
+      {
+        "type": "course",
+        "course": "MATH 461",
+        "title": "Fourier Series and Boundary-Value Problems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 477",
+        "title": "Computational Linear Algebra for Science and Engineering",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 483",
+        "title": "Design and Analysis of Experiments",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 484",
+        "title": "Regression",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 486",
+        "title": "Mathematical Modeling I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 489",
+        "title": "Partial Differential Equations",
+        "credits": 3
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs/"
+  },
+  {
+    "id": "applied-mathematics:bs-bac-ba:stochastics",
+    "name": "Stochastics",
+    "parent_program_id": "applied-mathematics:bs-bac-ba",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MATH 475",
+        "title": "Probability",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 476",
+        "title": "Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 481",
+        "title": "Introduction to Stochastic Processes",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 485",
+        "title": "Introduction to Mathematical Finance",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 488",
+        "title": "Data-Driven Dynamical Systems",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [
+      {
+        "type": "course",
+        "course": "MATH 453",
+        "title": "Combinatorics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 483",
+        "title": "Design and Analysis of Experiments",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 484",
+        "title": "Regression",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 486",
+        "title": "Mathematical Modeling I",
+        "credits": 3
+      }
+    ],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/bs/"
+  },
+  {
+    "id": "applied-mathematics:m-s:computational-statistics-for-data-science",
+    "name": "Computational Statistics for Data Science",
+    "parent_program_id": "applied-mathematics:m-s",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (9)",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 540",
+          "MATH 475"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 563",
+        "title": "Mathematical Statistics 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 564",
+        "title": "Regression",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (0) 2",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "BIOL 550",
+        "title": "Bioinformatics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 579",
+        "title": "Online Social Network Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 583",
+        "title": "Probabilistic Graphical Models",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 584",
+        "title": "Machine Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 585",
+        "title": "Natural Language Processing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 566",
+        "title": "Machine and Deep Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 483",
+        "title": "Design and Analysis of Experiments",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 535",
+        "title": "Optimization I",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 542",
+          "MATH 481"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 546",
+          "MATH 446"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 561",
+        "title": "Algebraic and Geometric Methods in Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 565",
+        "title": "Monte Carlo Methods",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 567",
+          "MATH 483"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 569",
+        "title": "Statistical Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 574",
+        "title": "Bayesian Computational Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 578",
+        "title": "Computational Mathematics II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 590",
+        "title": "Meshfree Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 440",
+        "title": "Computational Physics",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-applied-mathematics/"
+  },
+  {
+    "id": "applied-mathematics:m-s:discrete-computation-and-optimization",
+    "name": "Discrete Computation and Optimization",
+    "parent_program_id": "applied-mathematics:m-s",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (9)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "MATH 530",
+          "MATH 535",
+          "MATH 553",
+          "MATH 554",
+          "MATH 569"
+        ],
+        "raw_text": "Select nine credit hours from the following:",
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (0) 2",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CS 535",
+        "title": "Design and Analysis of Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 539",
+        "title": "Game Theory: Algorithms and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 579",
+        "title": "Online Social Network Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 583",
+        "title": "Probabilistic Graphical Models",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 584",
+        "title": "Machine Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 565",
+        "title": "Computer Vision and Image Processing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 430",
+        "title": "Applied Algebra",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 454",
+        "title": "Graph Theory and Applications 1",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 542",
+          "MATH 481"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 546",
+          "MATH 446"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 561",
+        "title": "Algebraic and Geometric Methods in Statistics",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 563",
+          "MATH 564"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 565",
+        "title": "Monte Carlo Methods",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 567",
+          "MATH 483"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 574",
+        "title": "Bayesian Computational Statistics",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-applied-mathematics/"
+  },
+  {
+    "id": "applied-mathematics:m-s:industrial-mathematics",
+    "name": "Industrial Mathematics",
+    "parent_program_id": "applied-mathematics:m-s",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (15)",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 540",
+          "MATH 475"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 522",
+        "title": "Mathematical Modeling 1",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 523",
+        "title": "Communicating Science",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 523",
+          "MATH 592"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (0) 2",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CS 535",
+        "title": "Design and Analysis of Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 539",
+        "title": "Game Theory: Algorithms and Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 579",
+        "title": "Online Social Network Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 583",
+        "title": "Probabilistic Graphical Models",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 584",
+        "title": "Machine Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 430",
+        "title": "Applied Algebra",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 454",
+        "title": "Graph Theory and Applications 2",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 542",
+          "MATH 481"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 546",
+          "MATH 446"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 561",
+        "title": "Algebraic and Geometric Methods in Statistics",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 563",
+          "MATH 564"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 565",
+        "title": "Monte Carlo Methods",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 567",
+          "MATH 483"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 574",
+        "title": "Bayesian Computational Statistics",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-applied-mathematics/"
+  },
+  {
+    "id": "applied-mathematics:m-s:quantitative-risk-management",
+    "name": "Quantitative Risk Management",
+    "parent_program_id": "applied-mathematics:m-s",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 540",
+          "MATH 475"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 542",
+          "MATH 543"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 588",
+        "title": "Advanced Quantitative Risk Management",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 565",
+          "MATH 582"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 584 | Mathematical Methods for Algorithmic Trading",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 587 | Theory and Practice of Modeling Risk and Credit Derivatives",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (0) 2",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "MATH 543",
+        "title": "Stochastic Analysis",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 544",
+          "MATH 545"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 546",
+          "MATH 566"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 563",
+          "MATH 564"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MATH 569",
+        "title": "Statistical Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 574",
+        "title": "Bayesian Computational Statistics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 578",
+        "title": "Computational Mathematics II",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 581",
+          "MATH 589"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 590 | Meshfree Methods",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "MATH 586",
+        "title": "Theory and Practice of Fixed Income Modeling",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-applied-mathematics/"
+  },
+  {
+    "id": "applied-mathematics:m-s:stochastic-computation",
+    "name": "Stochastic Computation",
+    "parent_program_id": "applied-mathematics:m-s",
+    "parent_program_name": "Applied Mathematics",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 540",
+          "MATH 475"
+        ]
+      },
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "MATH 542"
+        ],
+        "raw_text": "Select nine credit hours from the following:",
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or MATH 543 | Stochastic Analysis",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "MATH 544",
+        "title": "Stochastic Dynamics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 545",
+        "title": "Stochastic Partial Differential Equations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 565",
+        "title": "Monte Carlo Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 574",
+        "title": "Bayesian Computational Statistics",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (0) 2",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CS 595",
+        "title": "Topics in Computer Science (Advanced Scientific Computing)",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 522",
+        "title": "Mathematical Modeling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 530",
+        "title": "Applied and Computational Algebra",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 546",
+        "title": "Introduction to Time Series",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 569",
+        "title": "Statistical Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 573",
+        "title": "Reliable Mathematical Software",
+        "credits": 0
+      },
+      {
+        "type": "course",
+        "course": "MATH 578",
+        "title": "Computational Mathematics II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 589",
+        "title": "Numerical Methods for Partial Differential Equations",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/applied-mathematics/ms-applied-mathematics/"
+  },
+  {
+    "id": "architectural-engineering:bs-bac-ba:building-systems-engineering",
+    "name": "Building Systems Engineering",
+    "parent_program_id": "architectural-engineering:bs-bac-ba",
+    "parent_program_name": "Architectural Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "CAE 405",
+          "CAE 438",
+          "CAE 453",
+          "CAE 454",
+          "CAE 462",
+          "CAE 463",
+          "CAE 465",
+          "CAE 466",
+          "CAE 467"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/architectural-engineering/"
+  },
+  {
+    "id": "architectural-engineering:bs-bac-ba:construction-and-engineering-management",
+    "name": "Construction and Engineering Management",
+    "parent_program_id": "architectural-engineering:bs-bac-ba",
+    "parent_program_name": "Architectural Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "CAE 472",
+          "CAE 473",
+          "CAE 474",
+          "EMGT 470"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/architectural-engineering/"
+  },
+  {
+    "id": "architectural-engineering:bs-bac-ba:structural-engineering",
+    "name": "Structural Engineering",
+    "parent_program_id": "architectural-engineering:bs-bac-ba",
+    "parent_program_name": "Architectural Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "CAE 411",
+          "CAE 431",
+          "CAE 432",
+          "CAE 436"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/architectural-engineering/"
+  },
+  {
+    "id": "chemical-engineering:bs-bac-ba:bioengineering",
+    "name": "Bioengineering",
+    "parent_program_id": "chemical-engineering:bs-bac-ba",
+    "parent_program_name": "Chemical Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "BIOL 115",
+          "BIOL 210",
+          "BIOL 414",
+          "BIOL 430",
+          "BIOL 445",
+          "BIOL 475",
+          "BME 310",
+          "BME 433",
+          "CHE 416",
+          "CHE 424",
+          "CHE 426",
+          "CHE 514",
+          "CHE 577",
+          "CHE 583",
+          "CHE 585"
+        ],
+        "raw_text": "Select 9 credit hours from the following courses:",
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Undergraduate or Graduate research credits can count towards the specialization as long as the research is related to bioengineering. | 1-6",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Students interested in the Bioengineering Specialization should take Biochemistry Lectures, BIOL 403 as a core course.",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/bs-chemical-engineering/"
+  },
+  {
+    "id": "chemical-engineering:bs-bac-ba:energy-environment-economics-e3",
+    "name": "Energy/Environment/Economics (E3)",
+    "parent_program_id": "chemical-engineering:bs-bac-ba",
+    "parent_program_name": "Chemical Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CHE 543",
+        "title": "Energy, Environment, and Economics",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Energy Sources, Conversion, Utilization, and Distribution | (3)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 465",
+          "CHE 467",
+          "CHE 489",
+          "CHE 491",
+          "CHE 541",
+          "CHE 542",
+          "CHE 565",
+          "CHE 567",
+          "CHE 582",
+          "ECE 319",
+          "ECE 411",
+          "ECE 419",
+          "ECE 420",
+          "ECE 438",
+          "MMAE 425",
+          "MMAE 426",
+          "MMAE 524",
+          "MMAE 525"
+        ],
+        "raw_text": "Select at least one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Energy and Environment, System Analysis, and Special Problems | (3)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 426",
+          "ECE 491",
+          "ECON 423",
+          "ENVE 404",
+          "ENVE 463",
+          "ENVE 485",
+          "IPRO 497",
+          "MMAE 491",
+          "MMAE 494",
+          "MMAE 497",
+          "PS 238"
+        ],
+        "raw_text": "Select at least one course from the following:",
+        "credits_required": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/bs-chemical-engineering/"
+  },
+  {
+    "id": "chemical-engineering:bs-bac-ba:environmental-engineering",
+    "name": "Environmental Engineering",
+    "parent_program_id": "chemical-engineering:bs-bac-ba",
+    "parent_program_name": "Chemical Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Environmental Engineering | (3)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 426",
+          "ENVE 404",
+          "ENVE 463",
+          "ENVE 485"
+        ],
+        "raw_text": "Select at least one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Civil Engineering | (3)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CAE 421",
+          "CAE 482",
+          "IPRO 497"
+        ],
+        "raw_text": "Select at least one course from the following:",
+        "credits_required": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/bs-chemical-engineering/"
+  },
+  {
+    "id": "chemical-engineering:bs-bac-ba:polymer-science-and-engineering",
+    "name": "Polymer Science and Engineering",
+    "parent_program_id": "chemical-engineering:bs-bac-ba",
+    "parent_program_name": "Chemical Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 470",
+          "CHEM 470",
+          "MMAE 470"
+        ],
+        "raw_text": "Select one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 538",
+          "CHE 555",
+          "CHE 575",
+          "CHEM 535",
+          "CHEM 537",
+          "CHEM 542",
+          "MMAE 579"
+        ],
+        "raw_text": "Select at least one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Students may take up to one of the following courses: | 3",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CHE 426",
+        "title": "Statistical Tools for Engineers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 489",
+        "title": "Fluidization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 491",
+        "title": "Undergraduate Research",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "CHE 582",
+        "title": "Interfacial and Colloidal Phenomena with Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 451",
+        "title": "Finite Element Methods in Engineering",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 485",
+        "title": "Manufacturing Processes",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/bs-chemical-engineering/"
+  },
+  {
+    "id": "chemical-engineering:bs-bac-ba:process-design-and-operation",
+    "name": "Process Design and Operation",
+    "parent_program_id": "chemical-engineering:bs-bac-ba",
+    "parent_program_name": "Chemical Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 426",
+          "CHE 508",
+          "CHE 530",
+          "CHE 560"
+        ],
+        "raw_text": "Select at least one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "CHE 465",
+          "CHE 489",
+          "CHE 491",
+          "ENVE 463",
+          "ENVE 476",
+          "ENVE 485",
+          "ENVE 578",
+          "ENVE 580"
+        ],
+        "raw_text": "Select at least one course from the following: 1",
+        "credits_required": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/bs-chemical-engineering/"
+  },
+  {
+    "id": "civil-engineering:bs-bac-ba:environmental-engineering",
+    "name": "Environmental Engineering",
+    "parent_program_id": "civil-engineering:bs-bac-ba",
+    "parent_program_name": "Civil Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "CAE 439",
+          "ENVE 402",
+          "ENVE 403",
+          "ENVE 404",
+          "ENVE 422",
+          "ENVE 423",
+          "ENVE 444",
+          "ENVE 463"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 9",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/civil-engineering/"
+  },
+  {
+    "id": "civil-engineering:bs-bac-ba:construction-engineering-and-management",
+    "name": "Construction Engineering and Management",
+    "parent_program_id": "civil-engineering:bs-bac-ba",
+    "parent_program_name": "Civil Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "CAE 471",
+          "CAE 472",
+          "CAE 473",
+          "EMGT 470"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 9",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/civil-engineering/"
+  },
+  {
+    "id": "civil-engineering:bs-bac-ba:geotechnical-engineering",
+    "name": "Geotechnical Engineering",
+    "parent_program_id": "civil-engineering:bs-bac-ba",
+    "parent_program_name": "Civil Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "CAE 401",
+          "CAE 415",
+          "CAE 486",
+          "ENVE 423",
+          "ENVE 444"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 9",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/civil-engineering/"
+  },
+  {
+    "id": "civil-engineering:bs-bac-ba:structural-engineering",
+    "name": "Structural Engineering",
+    "parent_program_id": "civil-engineering:bs-bac-ba",
+    "parent_program_name": "Civil Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CAE 411",
+        "title": "Structural Analysis II",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "CAE 408",
+          "CAE 410",
+          "CAE 436",
+          "CAE 437"
+        ],
+        "raw_text": "Select a minimum of six credit hours from the following courses:",
+        "minimum": true,
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Other 400- or 500-level courses may be used towards the specialization with the prior approval of the student's adviser. | 3",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 9",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/civil-engineering/"
+  },
+  {
+    "id": "civil-engineering:bs-bac-ba:transportation-engineering",
+    "name": "Transportation Engineering",
+    "parent_program_id": "civil-engineering:bs-bac-ba",
+    "parent_program_name": "Civil Engineering",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CAE 416",
+          "CAE 417",
+          "CAE 437",
+          "CAE 439"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 9",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/civil-engineering/"
+  },
+  {
+    "id": "clinical-psychology:phd:required-rehabilitation-specialization-courses-9-credit-hours-total",
+    "name": "Required Rehabilitation Specialization Courses (9 credit hours total)",
+    "parent_program_id": "clinical-psychology:phd",
+    "parent_program_name": "Clinical Psychology",
+    "credential": "PHD",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 573",
+        "title": "Psychosocial Bases: Disability and Behavior",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 575",
+        "title": "Adult Career Development and Vocational Behavior",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "PSYC 588",
+          "PSYC 581"
+        ]
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/psychology/phd-clinical-psychology"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba:artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "parent_program_id": "computer-information-systems:bs-bac-ba",
+    "parent_program_name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 480",
+        "title": "Introduction to Artificial Intelligence",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CS 422",
+          "CS 429",
+          "CS 481",
+          "CS 484",
+          "CS 512",
+          "CS 577",
+          "CS 579",
+          "CS 581",
+          "CS 584",
+          "CS 585",
+          "CSP 571"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba:computer-science-honors-research",
+    "name": "Computer Science Honors Research",
+    "parent_program_id": "computer-information-systems:bs-bac-ba",
+    "parent_program_name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 492",
+        "title": "Introduction to Computer Science Research",
+        "credits": 1
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 491",
+          "CS 497"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Graduate Computer Science Electives 2 | 6",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba:data-science",
+    "name": "Data Science",
+    "parent_program_id": "computer-information-systems:bs-bac-ba",
+    "parent_program_name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BUS 371",
+        "title": "Marketing Fundamentals",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 422",
+          "CS 584"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CS 451",
+        "title": "Introduction to Parallel and Distributed Computing",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 481",
+          "MATH 483"
+        ]
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba:distributed-and-cloud-computing",
+    "name": "Distributed and Cloud Computing",
+    "parent_program_id": "computer-information-systems:bs-bac-ba",
+    "parent_program_name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CSP 442",
+        "title": "Mobile Applications Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 451",
+        "title": "Introduction to Parallel and Distributed Computing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 455",
+        "title": "Data Communications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 553",
+        "title": "Cloud Computing",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba:information-and-knowledge-management-systems",
+    "name": "Information and Knowledge Management Systems",
+    "parent_program_id": "computer-information-systems:bs-bac-ba",
+    "parent_program_name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 425",
+        "title": "Database Organization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 482",
+        "title": "Information and Knowledge Management Systems",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "CS 422",
+          "CS 429",
+          "CS 481",
+          "CS 585"
+        ],
+        "raw_text": "Select a minimum of two courses from the following:",
+        "minimum": true,
+        "credits_required": 6
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/"
+  },
+  {
+    "id": "computer-information-systems:bs-bac-ba:information-security",
+    "name": "Information Security",
+    "parent_program_id": "computer-information-systems:bs-bac-ba",
+    "parent_program_name": "Computer Information Systems",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 425",
+        "title": "Database Organization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 458",
+        "title": "Introduction to Information Security",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 455",
+        "title": "Data Communications",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 549",
+          "CS 558"
+        ]
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs-computer-information-systems/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba:artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "parent_program_id": "computer-science:bs-bac-ba",
+    "parent_program_name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 480",
+        "title": "Introduction to Artificial Intelligence",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CS 422",
+          "CS 429",
+          "CS 481",
+          "CS 484",
+          "CS 512",
+          "CS 577",
+          "CS 579",
+          "CS 581",
+          "CS 584",
+          "CS 585",
+          "CSP 571"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba:computer-science-honors-research",
+    "name": "Computer Science Honors Research",
+    "parent_program_id": "computer-science:bs-bac-ba",
+    "parent_program_name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 492",
+        "title": "Introduction to Computer Science Research 1",
+        "credits": 1
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 491",
+          "CS 497"
+        ]
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Graduate Computer Science Electives 3 | 6",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba:data-science",
+    "name": "Data Science",
+    "parent_program_id": "computer-science:bs-bac-ba",
+    "parent_program_name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BUS 371",
+        "title": "Marketing Fundamentals",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 422",
+          "CS 584"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CS 451",
+        "title": "Introduction to Parallel and Distributed Computing",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 481",
+          "MATH 483"
+        ]
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba:distributed-and-cloud-computing",
+    "name": "Distributed and Cloud Computing",
+    "parent_program_id": "computer-science:bs-bac-ba",
+    "parent_program_name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CSP 442",
+        "title": "Mobile Applications Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 451",
+        "title": "Introduction to Parallel and Distributed Computing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 455",
+        "title": "Data Communications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 553",
+        "title": "Cloud Computing",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba:information-and-knowledge-management-systems",
+    "name": "Information and Knowledge Management Systems",
+    "parent_program_id": "computer-science:bs-bac-ba",
+    "parent_program_name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 480",
+        "title": "Introduction to Artificial Intelligence",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "CS 422",
+          "CS 429",
+          "CS 481",
+          "CS 484",
+          "CS 512",
+          "CS 577",
+          "CS 579",
+          "CS 581",
+          "CS 584",
+          "CS 585",
+          "CSP 571"
+        ],
+        "raw_text": "Select a minimum of three courses from the following:",
+        "minimum": true,
+        "credits_required": 9
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/"
+  },
+  {
+    "id": "computer-science:bs-bac-ba:information-security",
+    "name": "Information Security",
+    "parent_program_id": "computer-science:bs-bac-ba",
+    "parent_program_name": "Computer Science",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 425",
+        "title": "Database Organization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 458",
+        "title": "Introduction to Information Security",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 455",
+        "title": "Data Communications",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 549",
+          "CS 558"
+        ]
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/bs/"
+  },
+  {
+    "id": "computer-science:mas:master-of-computer-science-with-specialization-in-data-and-cloud-systems",
+    "name": "Master of Computer Science with Specialization in Data and Cloud Systems",
+    "parent_program_id": "computer-science:mas",
+    "parent_program_name": "Computer Science",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Specialization Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "CS 520",
+          "CS 525",
+          "CS 553",
+          "CS 554",
+          "CS 555",
+          "CS 562",
+          "CS 570",
+          "CSP 554",
+          "CSP 571"
+        ],
+        "raw_text": "Select a minimum of four courses from the following:",
+        "minimum": true,
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-computer-science/"
+  },
+  {
+    "id": "computer-science:mas:master-of-computer-science-with-specialization-in-cybersecurity",
+    "name": "Master of Computer Science with Specialization in Cybersecurity",
+    "parent_program_id": "computer-science:mas",
+    "parent_program_name": "Computer Science",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Specialization Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "CS 527",
+          "CS 528",
+          "CS 549",
+          "CS 557",
+          "CS 558",
+          "CSP 544",
+          "CSP 558"
+        ],
+        "raw_text": "Select a minimum of four of the following courses:",
+        "minimum": true,
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-computer-science/"
+  },
+  {
+    "id": "computer-science:mas:master-of-computer-science-with-specialization-in-networking-and-communications",
+    "name": "Master of Computer Science with Specialization in Networking and Communications",
+    "parent_program_id": "computer-science:mas",
+    "parent_program_name": "Computer Science",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Specialization Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "CS 542",
+          "CS 543",
+          "CS 544",
+          "CS 547",
+          "CS 548"
+        ],
+        "raw_text": "Select a minimum of four courses from the following:",
+        "minimum": true,
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-computer-science/"
+  },
+  {
+    "id": "computer-science:mas:master-of-computer-science-with-specialization-in-software-engineering",
+    "name": "Master of Computer Science with Specialization in Software Engineering",
+    "parent_program_id": "computer-science:mas",
+    "parent_program_name": "Computer Science",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Specialization Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "CS 536",
+          "CS 537",
+          "CS 586",
+          "CS 587",
+          "CS 589",
+          "CSP 586",
+          "CSP 587"
+        ],
+        "raw_text": "Select a minimum of four courses from the following:",
+        "minimum": true,
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/computer-science/master-computer-science/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:aerospace-engineering",
+    "name": "Aerospace Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MMAE 202",
+        "title": "Mechanics of Solids",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 304",
+        "title": "Mechanics of Aerostructures",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 311",
+        "title": "Compressible Flow",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 312",
+        "title": "Aerodynamics of Aerospace Vehicles",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 313",
+        "title": "Fluid Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 315",
+        "title": "Aerospace Laboratory I",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "MMAE 320",
+        "title": "Thermodynamics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MS 201",
+        "title": "Materials Science",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:architectural-engineering",
+    "name": "Architectural Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CAE 100",
+        "title": "Introduction to Engineering Drawing and Design",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "CAE 101",
+        "title": "Introduction to AutoCAD Drawing and Design",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "CAE 208",
+        "title": "Thermodynamics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 209",
+        "title": "Fluid Mechanics and Heat Transfer",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 286",
+        "title": "Theory and Concept of Structural Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 287",
+        "title": "Mechanics of Structural Materials",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 312",
+        "title": "Engineering Systems Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 331",
+        "title": "Building Science",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CAE 383",
+          "CAE 464"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CAE 461",
+        "title": "Plumbing and Fire Protection Design",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:biomedical-engineering-cell-and-tissue-track",
+    "name": "Biomedical Engineering: Cell and Tissue Track",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BIOL 115",
+        "title": "Human Biology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 117",
+        "title": "Human Biology Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BME 301",
+        "title": "Bio-Fluid Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BME 309",
+        "title": "Biomedical Imaging",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BME 310",
+        "title": "Biomaterials",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BME 315",
+        "title": "Instrumentation and Measurement Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BME 330",
+        "title": "Analysis of Biosignals and Systems",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CAE 383",
+          "ECE 211"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CHE 202",
+        "title": "Material Energy Balances",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 126 & CHEM 140 | Principles of Chemistry II Without Laboratory and Principles of Chemistry II Lab | 4",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:biomedical-engineering-medical-imaging-track",
+    "name": "Biomedical Engineering: Medical Imaging Track",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BIOL 115",
+        "title": "Human Biology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 117",
+        "title": "Human Biology Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BME 309",
+        "title": "Biomedical Imaging",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BME 310",
+        "title": "Biomaterials",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BME 315",
+        "title": "Instrumentation and Measurement Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BME 330",
+        "title": "Analysis of Biosignals and Systems",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 126 & CHEM 140 | Principles of Chemistry II Without Laboratory and Principles of Chemistry II Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CS 201",
+        "title": "Accelerated Introduction to Computer Science",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 211",
+        "title": "Circuit Analysis I",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 235 & CHEM 236 | Organic Chemistry I and Organic Chemistry I-Lab | 3-4",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or PHYS 224 | General Physics III for Engineers",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:biomedical-engineering-neural-engineering-track",
+    "name": "Biomedical Engineering: Neural Engineering Track",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "BIOL 115",
+        "title": "Human Biology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BIOL 117",
+        "title": "Human Biology Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BME 309",
+        "title": "Biomedical Imaging",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "BME 315",
+        "title": "Instrumentation and Measurement Laboratory",
+        "credits": 1
+      },
+      {
+        "type": "course",
+        "course": "BME 330",
+        "title": "Analysis of Biosignals and Systems",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 126 & CHEM 140 | Principles of Chemistry II Without Laboratory and Principles of Chemistry II Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 235 & CHEM 236 | Organic Chemistry I and Organic Chemistry I-Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ECE 211",
+        "title": "Circuit Analysis I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 216",
+        "title": "Circuit Analysis II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 218",
+        "title": "Digital Systems",
+        "credits": 4
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:chemical-engineering",
+    "name": "Chemical Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CHE 101",
+        "title": "Introduction to the Profession II",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "CHE 202",
+        "title": "Material Energy Balances",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 301",
+        "title": "Fluid Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 302",
+        "title": "Heat and Mass Transfer Operations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 351",
+        "title": "Thermodynamics I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHE 451",
+        "title": "Thermodynamics II",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 126 & CHEM 140 | Principles of Chemistry II Without Laboratory and Principles of Chemistry II Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "CHEM 235 & CHEM 236 | Organic Chemistry I and Organic Chemistry I-Lab | 4",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "CHEM 239",
+        "title": "Organic Chemistry II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CHEM 343",
+        "title": "Physical Chemistry I",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:civil-engineering",
+    "name": "Civil Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CAE 100",
+        "title": "Introduction to Engineering Drawing and Design",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "CAE 101",
+        "title": "Introduction to AutoCAD Drawing and Design",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "CAE 286",
+        "title": "Theory and Concept of Structural Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 287",
+        "title": "Mechanics of Structural Materials",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 302",
+        "title": "Fluid Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CAE 303",
+          "CAE 304"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CAE 312",
+        "title": "Engineering Systems Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 315",
+        "title": "Materials of Construction",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CAE 323",
+        "title": "Introduction to Geotechnical Engineering",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 305",
+        "title": "Dynamics",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:computer-engineering",
+    "name": "Computer Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 116",
+        "title": "Object-Oriented Programming II",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 211",
+        "title": "Circuit Analysis I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 213",
+        "title": "Circuit Analysis II",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 218",
+        "title": "Digital Systems",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 242",
+        "title": "Digital Computers and Computing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 307",
+        "title": "Electrodynamics",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 308",
+        "title": "Signals and Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 311",
+        "title": "Engineering Electronics",
+        "credits": 4
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:computer-science",
+    "name": "Computer Science",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 116",
+        "title": "Object-Oriented Programming II",
+        "credits": 2
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "CS 330",
+          "MATH 230"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "CS 331",
+        "title": "Data Structures and Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 350",
+        "title": "Computer Organization and Assembly Language Programming",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 351",
+        "title": "Systems Programming",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 425",
+        "title": "Database Organization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 430",
+        "title": "Introduction to Algorithms",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "CS 440",
+        "title": "Programming Languages and Translators",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 332",
+          "MATH 333"
+        ]
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MATH 474",
+          "MATH 475"
+        ]
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:electrical-engineering",
+    "name": "Electrical Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "CS 116",
+        "title": "Object-Oriented Programming II",
+        "credits": 2
+      },
+      {
+        "type": "course",
+        "course": "ECE 211",
+        "title": "Circuit Analysis I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 213",
+        "title": "Circuit Analysis II",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 218",
+        "title": "Digital Systems",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 307",
+        "title": "Electrodynamics",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "ECE 308",
+        "title": "Signals and Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ECE 311",
+        "title": "Engineering Electronics",
+        "credits": 4
+      },
+      {
+        "type": "course",
+        "course": "MATH 333",
+        "title": "Matrix Algebra and Complex Variables",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 374",
+        "title": "Probability and Statistics for Electrical and Computer Engineers",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:materials-science-and-engineering",
+    "name": "Materials Science and Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MMAE 202",
+        "title": "Mechanics of Solids",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 232",
+        "title": "Design for Innovation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 320",
+        "title": "Thermodynamics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 365",
+        "title": "Structure and Properties of Materials I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 370",
+        "title": "Materials Laboratory I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 463",
+        "title": "Structure and Properties of Materials II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MS 201",
+        "title": "Materials Science",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "MMAE 372",
+          "MMAE 470",
+          "MMAE 476",
+          "MMAE 485"
+        ],
+        "raw_text": "Select two courses from the following:",
+        "credits_required": 6
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "engineering-management:bs-bac-ba:mechanical-engineering",
+    "name": "Mechanical Engineering",
+    "parent_program_id": "engineering-management:bs-bac-ba",
+    "parent_program_name": "Engineering Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "MMAE 202",
+        "title": "Mechanics of Solids",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 232",
+        "title": "Design for Innovation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MMAE 313",
+        "title": "Fluid Mechanics",
+        "credits": 3
+      },
+      {
+        "type": "one_of",
+        "options": [
+          "MMAE 315",
+          "MMAE 319"
+        ]
+      },
+      {
+        "type": "course",
+        "course": "MMAE 320",
+        "title": "Thermodynamics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MS 201",
+        "title": "Materials Science",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Two MMAE electives | 6",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/engineering-management/"
+  },
+  {
+    "id": "health-physics-and-radiation-protection:m-s:master-of-science-in-health-physics-and-radiation-protection-with-specialization-in-radiological-security-emergency-preparedness-and-response",
+    "name": "Master of Science in Health Physics and Radiation Protection with Specialization in Radiological Security, Emergency Preparedness and Response",
+    "parent_program_id": "health-physics-and-radiation-protection:m-s",
+    "parent_program_name": "Health Physics and Radiation Protection",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (21)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "PHYS 550",
+        "title": "Radiation Instrumentation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 567",
+        "title": "Radiological Emergency Preparedness and Response",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 568",
+        "title": "Radiation Source Security and Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 569",
+        "title": "Seminars on Radiological Emergency Field Experience",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 571",
+        "title": "Radiation Physics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 572",
+        "title": "Introduction to Health Physics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PHYS 575",
+        "title": "Capstone Project 1",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Health Physics Electives | (5)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "PHYS 566",
+          "PHYS 580",
+          "PHYS 582"
+        ],
+        "raw_text": "Select a minimum of five credit hours from the following: 2",
+        "minimum": true,
+        "credits_required": 5
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Professional Electives | (6)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "MATH 525",
+          "COM 523",
+          "PM 501"
+        ],
+        "raw_text": "Select a minimum of six credit hours from the following:",
+        "minimum": true,
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 32",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/science-letters/physics/ms-health-physics-radiation-protection"
+  },
+  {
+    "id": "industrial-technology-and-management:bs-bac-ba:construction-technology-ct",
+    "name": "Construction Technology (CT)",
+    "parent_program_id": "industrial-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Industrial Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "INTM 407",
+          "INTM 413",
+          "INTM 415",
+          "INTM 417",
+          "CAE 471",
+          "CAE 472"
+        ],
+        "raw_text": "Select four courses from the following:",
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/bitm/"
+  },
+  {
+    "id": "industrial-technology-and-management:bs-bac-ba:facilities-management-fm",
+    "name": "Facilities Management (FM)",
+    "parent_program_id": "industrial-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Industrial Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "INTM 405",
+          "INTM 411",
+          "INTM 413",
+          "INTM 415",
+          "INTM 416",
+          "INTM 419",
+          "INTM 423"
+        ],
+        "raw_text": "Select four courses from the following:",
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/bitm/"
+  },
+  {
+    "id": "industrial-technology-and-management:bs-bac-ba:industrial-sustainability-st",
+    "name": "Industrial Sustainability (ST)",
+    "parent_program_id": "industrial-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Industrial Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "INTM 423",
+        "title": "Sustainable Facilities Operations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 460",
+        "title": "Sustainability of Critical Materials",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 461",
+        "title": "Energy Options for Industry",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "INTM 462",
+        "title": "Special Topics in Sustainability",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/bitm/"
+  },
+  {
+    "id": "industrial-technology-and-management:bs-bac-ba:manufacturing-technology-mt",
+    "name": "Manufacturing Technology (MT)",
+    "parent_program_id": "industrial-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Industrial Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "INTM 406",
+          "INTM 427",
+          "INTM 436",
+          "INTM 437",
+          "INTM 438",
+          "INTM 439",
+          "INTM 446",
+          "INTM 448",
+          "INTM 452"
+        ],
+        "raw_text": "Select four courses from the following:",
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/bitm/"
+  },
+  {
+    "id": "industrial-technology-and-management:bs-bac-ba:supply-chain-management-scm",
+    "name": "Supply Chain Management (SCM)",
+    "parent_program_id": "industrial-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Industrial Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "INTM 430",
+          "INTM 432",
+          "INTM 441",
+          "INTM 442",
+          "INTM 443",
+          "INTM 444",
+          "INTM 446"
+        ],
+        "raw_text": "Select four courses from the following:",
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/bitm/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:data-management",
+    "name": "Data Management",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 422",
+        "title": "Advanced Database Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 428",
+        "title": "Database Security",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ITMO 444"
+        ],
+        "raw_text": "Select two courses from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or any ITMD elective(s)",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:it-entrepreneurship-and-management",
+    "name": "IT Entrepreneurship and Management",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMM 470",
+        "title": "Fundamentals of Management for Technology Professionals",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 481",
+        "title": "Information Technology Entrepreneurship",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 482",
+        "title": "Business Innovation",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [],
+        "raw_text": "Select one course from ITMM or the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "any BUS electives at the 200-level or above | 3",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or any INTM electives selected with adviser's approval | 3",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:networking-and-communications",
+    "name": "Networking and Communications",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMO 441",
+        "title": "Network Administration and Operations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 446",
+        "title": "Telecommunications Over Data Networks",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ITMO 433",
+          "ITMO 453"
+        ],
+        "raw_text": "Select one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ITMS 443",
+          "ITMS 478"
+        ],
+        "raw_text": "Select one course from ITMO, ITMT, or the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:software-development",
+    "name": "Software Development",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 415",
+        "title": "Advanced Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 441",
+        "title": "Web Application Foundations",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ITMD 412",
+          "ITMD 413",
+          "ITMD 419",
+          "ITMD 453",
+          "ITMD 454",
+          "ITMD 455"
+        ],
+        "raw_text": "Select two courses from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "or any ITMD elective | 3",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:system-administration",
+    "name": "System Administration",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMO 441",
+        "title": "Network Administration and Operations",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ITMO 433",
+          "ITMO 450",
+          "ITMO 453"
+        ],
+        "raw_text": "Select two courses from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ITMO 417",
+          "ITMO 444",
+          "ITMO 454",
+          "ITMS 458"
+        ],
+        "raw_text": "Select one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:systems-security",
+    "name": "Systems Security",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMS 428",
+        "title": "Database Security",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 478",
+        "title": "Cyber Security Management",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [
+          "ITMO 433",
+          "ITMO 441",
+          "ITMO 450",
+          "ITMO 453"
+        ],
+        "raw_text": "Select one course from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 1,
+        "options": [],
+        "raw_text": "Select one ITMS elective",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:bs-bac-ba:web-design-and-application-development",
+    "name": "Web Design and Application Development",
+    "parent_program_id": "information-technology-and-management:bs-bac-ba",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 441",
+        "title": "Web Application Foundations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 442",
+        "title": "Full-Stack Web Development",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 2,
+        "options": [
+          "ITMD 443",
+          "ITMD 444",
+          "ITMD 445",
+          "ITMD 446",
+          "ITMD 447",
+          "ITMD 449",
+          "ITMD 466"
+        ],
+        "raw_text": "Select two courses from the following;",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/bachelor-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:m-s:master-of-science-in-information-technology-and-management-coursework-only-option-without-specialization",
+    "name": "Master of Science in Information Technology and Management (Coursework only option without specialization)",
+    "parent_program_id": "information-technology-and-management:m-s",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Core Courses | (9)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [],
+        "raw_text": "Select a minimum of three credit hours from Software Development",
+        "minimum": true,
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [],
+        "raw_text": "Select a minimum of three credit hours from System Technologies",
+        "minimum": true,
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [],
+        "raw_text": "Select a minimum of three credit hours from Business Development",
+        "minimum": true,
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (21)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 21,
+        "options": [],
+        "raw_text": "Select 21 credit hours from any 500-level ITM, ITMD, ITMM, ITMO, ITMS, ITMT, or TECH courses selected with the student's adviser. 1",
+        "credits_required": 21
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/ms-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:master-of-information-technology-and-management-with-specialization",
+    "name": "Master of Information Technology and Management (with Specialization)",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Specialization Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 24,
+        "options": [],
+        "raw_text": "Select 24 credit hours from approved core and specialization courses 1",
+        "credits_required": 24
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Elective Courses | (6)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [],
+        "raw_text": "Select six credit hours",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 30",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-software-development",
+    "name": "Subject: Software Development",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 512",
+        "title": "Structured and Systems Programming",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 514",
+        "title": "Programming for Data Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 515",
+        "title": "Advanced Software Programming",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 514",
+        "title": "Programming for Cybersecurity Analytics",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-system-technologies",
+    "name": "Subject: System Technologies",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 541",
+        "title": "Web Application Foundations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 553",
+        "title": "Enterprise Intelligent Device Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 554",
+        "title": "Mass-Market Intelligent Device Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 555",
+        "title": "Open-Source Intelligent Device Applications",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 566",
+        "title": "Service-Oriented Architectures",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMT 593",
+        "title": "Embedded Systems",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-system-technologies",
+    "name": "Subject: System Technologies",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMO 544",
+        "title": "Cloud Computing Technologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 553",
+        "title": "Open Source System Administration",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 556",
+        "title": "Introduction to Open Source Software",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 558",
+        "title": "Operating Systems Security",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-system-technologies",
+    "name": "Subject: System Technologies",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMO 540",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 554",
+        "title": "Operating Systems Virtualization",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 548",
+        "title": "Cyber Security Technologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMT 535",
+        "title": "Data Center Architecture",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-business-development",
+    "name": "Subject: Business Development",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMD 511",
+        "title": "Application Development Methodologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 532",
+        "title": "UML-Based Software Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 534",
+        "title": "Human and Computer Interaction",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMT 531",
+        "title": "Object-Oriented System Analysis, Modeling, and Design",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-business-development",
+    "name": "Subject: Business Development",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMM 537",
+        "title": "Vendor Management and Service Level Agreements",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 570",
+        "title": "Fundamentals of Management for Technology Professionals",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 571",
+        "title": "Project Manangement for Information Technology Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 574",
+        "title": "Information Technology Management Frameworks",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 575",
+        "title": "Networking and Telecommunications Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 578",
+        "title": "Cyber Security Management",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:subject-business-development",
+    "name": "Subject: Business Development",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "ITMM 581",
+        "title": "Information Technology Entrepreneurship",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 582",
+        "title": "Business Innovation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 535",
+        "title": "Human-Computer Interaction Design",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:applied-data-science-and-ai",
+    "name": "Applied Data Science and AI",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 514",
+        "title": "Programming for Data Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 521",
+        "title": "Big Data Infrastructure",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 522",
+        "title": "Data Mining and Machine Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 523",
+        "title": "Advanced Topics in Data Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 524",
+        "title": "Applied Artificial Intelligence and Deep Learning",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 537",
+        "title": "Data Science Practicum",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "INTM 522",
+          "ITMD 525",
+          "ITMD 526",
+          "ITMD 529",
+          "ITMD 566",
+          "ITMD 561",
+          "ITMS 527"
+        ],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:computer-and-information-security",
+    "name": "Computer and Information Security",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMO 540",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 556",
+        "title": "Introduction to Open Source Software",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 514",
+        "title": "Programming for Cybersecurity Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 548",
+        "title": "Cyber Security Technologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 578",
+        "title": "Cyber Security Management",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Any 500-level ITMS elective 1 | 6",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Any 500-level ITMO elective | 3",
+        "parsed": false
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Any 500-level ITMS elective | 3",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMM 586",
+        "title": "Information Technology Auditing",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:data-modeling-and-management",
+    "name": "Data Modeling and Management",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 514",
+        "title": "Programming for Data Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMT 531",
+        "title": "Object-Oriented System Analysis, Modeling, and Design",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 521",
+        "title": "Big Data Infrastructure",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 523",
+        "title": "Advanced Topics in Data Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 526",
+        "title": "Data Warehousing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 528",
+        "title": "Database Security",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "ITMD 522",
+          "ITMD 525",
+          "ITMD 529",
+          "ITMD 541",
+          "ITMD 555",
+          "ITMD 566"
+        ],
+        "raw_text": "Select six credits from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:information-technology-infrastructure",
+    "name": "Information Technology Infrastructure",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 540",
+        "title": "Introduction to Data Networks and the Internet",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 556",
+        "title": "Introduction to Open Source Software",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMM 537",
+          "ITMM 571",
+          "ITMM 574",
+          "ITMM 575",
+          "ITMS 578"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 12,
+        "options": [
+          "ITMD 541",
+          "ITMD 545",
+          "ITMM 576",
+          "ITMO 517",
+          "ITMO 533",
+          "ITMO 541",
+          "ITMO 542",
+          "ITMO 544",
+          "ITMO 546",
+          "ITMO 547",
+          "ITMO 550",
+          "ITMO 553",
+          "ITMO 554",
+          "ITMO 557",
+          "ITMS 558",
+          "ITMS 588",
+          "ITMT 535"
+        ],
+        "raw_text": "Select 12 credit hours from the following:",
+        "credits_required": 12
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:it-management-and-entrepreneurship",
+    "name": "IT Management and Entrepreneurship",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 534",
+        "title": "Human and Computer Interaction",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 570",
+        "title": "Fundamentals of Management for Technology Professionals",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 581",
+        "title": "Information Technology Entrepreneurship",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 582",
+        "title": "Business Innovation",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 553",
+          "ITMD 554",
+          "ITMD 555"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Any 500-level ITMM elective",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 556",
+        "title": "Intelligent Device Projects",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMS 578",
+        "title": "Cyber Security Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "TECH 565",
+        "title": "Introduction to Social Commerce",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "TECH 581",
+        "title": "Consulting for Technical Professionals",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:management-information-systems",
+    "name": "Management Information Systems",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 521",
+        "title": "Big Data Infrastructure",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 523",
+        "title": "Advanced Topics in Data Management",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 566",
+        "title": "Service-Oriented Architectures",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 574",
+        "title": "Information Technology Management Frameworks",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "ITMM 537",
+          "ITMM 572",
+          "ITMM 586",
+          "ITMO 554",
+          "ITMT 531"
+        ],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "INTM 522",
+          "ITMD 514",
+          "ITMD 515",
+          "ITMD 525",
+          "ITMD 526",
+          "ITMD 529",
+          "ITMD 532",
+          "ITMM 537",
+          "ITMO 544",
+          "ITMO 557",
+          "ITMS 528",
+          "TECH 565",
+          "TECH 581"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:smart-technology-and-innovation",
+    "name": "Smart Technology and Innovation",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 556",
+        "title": "Intelligent Device Projects",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 582",
+        "title": "Business Innovation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMO 556",
+        "title": "Introduction to Open Source Software",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMT 593",
+        "title": "Embedded Systems",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 553",
+          "ITMD 554",
+          "ITMD 555"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 511",
+          "ITMD 556",
+          "ITMO 542",
+          "ITMO 544"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 541",
+          "ITMD 545",
+          "ITMD 553",
+          "ITMD 554",
+          "ITMD 555",
+          "ITMD 556",
+          "ITMO 540",
+          "ITMO 541",
+          "ITMO 546",
+          "INTM 522",
+          "TECH 565"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:software-development",
+    "name": "Software Development",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 515",
+        "title": "Advanced Software Programming",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 536",
+        "title": "Software Testing and Maintenance",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 541",
+        "title": "Web Application Foundations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 571",
+        "title": "Project Manangement for Information Technology Management",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 511",
+          "ITMD 513",
+          "ITMD 532"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "ITMD 511",
+          "ITMD 512",
+          "ITMD 513",
+          "ITMD 519",
+          "ITMD 532",
+          "ITMD 534",
+          "ITMD 553",
+          "ITMD 554",
+          "ITMD 555",
+          "ITMD 556",
+          "ITMM 572",
+          "ITMS 518",
+          "ITMT 531",
+          "TECH 565"
+        ],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:systems-analysis",
+    "name": "Systems Analysis",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 510",
+        "title": "Object-Oriented Application Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 511",
+        "title": "Application Development Methodologies",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 534",
+        "title": "Human and Computer Interaction",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 536",
+        "title": "Software Testing and Maintenance",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 572",
+        "title": "Process Engineering for Information Technology Managers",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMT 531",
+        "title": "Object-Oriented System Analysis, Modeling, and Design",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 541",
+          "ITMD 553",
+          "ITMD 554",
+          "ITMD 555"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "INTM 522",
+          "ITMD 532",
+          "ITMM 574",
+          "ITMM 575",
+          "ITMM 586",
+          "ITMS 578",
+          "TECH 581"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "information-technology-and-management:mas:web-design-and-application-development",
+    "name": "Web Design and Application Development",
+    "parent_program_id": "information-technology-and-management:mas",
+    "parent_program_name": "Information Technology and Management",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (24)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "ITMD 534",
+        "title": "Human and Computer Interaction",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 541",
+        "title": "Web Application Foundations",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 542",
+        "title": "Full-Stack Web Development",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 547",
+        "title": "Web Systems Integration",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMM 582",
+        "title": "Business Innovation",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "ITMD 543",
+          "ITMD 544"
+        ],
+        "raw_text": "Select three credit hours from the following:",
+        "credits_required": 3
+      },
+      {
+        "type": "choose",
+        "count": 6,
+        "options": [
+          "ITMD 543",
+          "ITMD 544",
+          "ITMD 545",
+          "ITMD 546",
+          "ITMD 549",
+          "ITMD 566"
+        ],
+        "raw_text": "Select six credit hours from the following:",
+        "credits_required": 6
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 24",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/computing/information-technology-management/master-information-technology-management/"
+  },
+  {
+    "id": "management-science-and-analytics:m-s:analytics",
+    "name": "Analytics",
+    "parent_program_id": "management-science-and-analytics:m-s",
+    "parent_program_name": "Management Science and Analytics",
+    "credential": "M.S.",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (12)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "MSC 615",
+        "title": "Predictive Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MSC 616",
+        "title": "Social Media Marketing Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MSC 651",
+        "title": "Quantitative Marketing Models",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MAX 502",
+        "title": "Analytics for Decision Making (Based on instructor availability and recommendations, MAX 502 will replace MSC 655 in the list of required courses for MS in Management Science and Analytics program students pursuing the Analytics concentration)",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 12",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/business/ms-management-science-analytics/"
+  },
+  {
+    "id": "management-science-and-analytics:phd:analytics",
+    "name": "Analytics",
+    "parent_program_id": "management-science-and-analytics:phd",
+    "parent_program_name": "Management Science and Analytics",
+    "credential": "PHD",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (18)",
+        "parsed": false
+      },
+      {
+        "type": "course",
+        "course": "MSC 615",
+        "title": "Predictive Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MSC 616",
+        "title": "Social Media Marketing Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MSC 651",
+        "title": "Quantitative Marketing Models",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MSC 652",
+        "title": "Supply Chain Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MSC 653",
+        "title": "Current Topics in Marketing Analytics",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MAX 502",
+        "title": "Analytics for Decision Making (Based on instructor availability and recommendations, MAX 502 will replace MSC 655 in the list of required courses for PhD students pursuing the Analytics concentration)",
+        "credits": 3
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 18",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/business/phd-management-science-analytics/"
+  },
+  {
+    "id": "psychology:bs-bac-ba:clinical-behavioral-health-psychology",
+    "name": "Clinical/Behavioral Health Psychology",
+    "parent_program_id": "psychology:bs-bac-ba",
+    "parent_program_name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 212",
+        "title": "Introduction to Psychopathology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 330",
+        "title": "Health Psychology",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 3,
+        "options": [
+          "PSYC 360",
+          "PSYC 435",
+          "PSYC 436",
+          "PSYC 460",
+          "PSYC 465"
+        ],
+        "raw_text": "Select three courses from the following:",
+        "credits_required": 9
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology"
+  },
+  {
+    "id": "psychology:bs-bac-ba:culture-and-diversity",
+    "name": "Culture and Diversity",
+    "parent_program_id": "psychology:bs-bac-ba",
+    "parent_program_name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "choose",
+        "count": 5,
+        "options": [
+          "PSYC 350",
+          "PSYC 355",
+          "PSYC 411",
+          "PSYC 412",
+          "SSCI 120",
+          "SSCI 221",
+          "SSCI 223"
+        ],
+        "raw_text": "Select five courses from the following:",
+        "credits_required": 15
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology"
+  },
+  {
+    "id": "psychology:bs-bac-ba:industrial-organizational-psychology",
+    "name": "Industrial/Organizational Psychology",
+    "parent_program_id": "psychology:bs-bac-ba",
+    "parent_program_name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 211",
+        "title": "Industrial Psychology",
+        "credits": 3
+      },
+      {
+        "type": "choose",
+        "count": 4,
+        "options": [
+          "PSYC 320",
+          "PSYC 355",
+          "PSYC 409",
+          "PSYC 455",
+          "PSYC 481"
+        ],
+        "raw_text": "Select four courses from the following:",
+        "credits_required": 12
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology"
+  },
+  {
+    "id": "psychology:bs-bac-ba:rehabilitation",
+    "name": "Rehabilitation",
+    "parent_program_id": "psychology:bs-bac-ba",
+    "parent_program_name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 410",
+        "title": "Introduction to Rehabilitation and Mental Health Counseling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 411",
+        "title": "Medical Aspects of Disabling Conditions",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 412",
+        "title": "Multicultural and Psychosocial Issues in Rehabilitation and Mental Health Counseling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 583",
+        "title": "Rehabilitation Engineering Technology I: Survey of Interdisciplinary Application of RET",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 590",
+        "title": "Psychiatric Rehabilitation",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology"
+  },
+  {
+    "id": "psychology:bs-bac-ba:digital-psychology",
+    "name": "Digital Psychology",
+    "parent_program_id": "psychology:bs-bac-ba",
+    "parent_program_name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 380",
+        "title": "Topics in Psychology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 409",
+        "title": "Psychological Testing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 423",
+        "title": "Learning Theory",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 426",
+        "title": "Cognitive Science",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 485",
+        "title": "Senior Capstone Project I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 462",
+        "title": "Behavior Design & User Testing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 362",
+        "title": "Human-Computer Interaction and Web Design",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 372",
+        "title": "Mass Media and Society",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 382",
+        "title": "Social Media and Society",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 338",
+        "title": "Exhibit Desisgn",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "COM 380",
+        "title": "Seminar in Communication",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 278",
+        "title": "Innovation Policy",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 281",
+        "title": "Computational Social Science",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SOC 262",
+        "title": "Technology and Social Change",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology"
+  },
+  {
+    "id": "psychology:bs-bac-ba:advanced-research-methods-and-statistics",
+    "name": "Advanced Research Methods and Statistics",
+    "parent_program_id": "psychology:bs-bac-ba",
+    "parent_program_name": "Psychology",
+    "credential": "BS/BAC/BA",
+    "requirements": [
+      {
+        "type": "course",
+        "course": "PSYC 320",
+        "title": "Applied Correlation and Regression",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 380",
+        "title": "Topics in Psychology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 409",
+        "title": "Psychological Testing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 462",
+        "title": "Behavior Design & User Testing",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 485",
+        "title": "Senior Capstone Project I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 545",
+        "title": "Graduate Statistics I",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 546",
+        "title": "Graduate Statistics II",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 571",
+        "title": "Structural Equation Modeling",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 530",
+        "title": "Meta-Analysis",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "PSYC 511",
+        "title": "Psychometric Theory",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 209",
+        "title": "Social Science Research Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 225",
+        "title": "Introduction to Geographic Information Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 325",
+        "title": "Intermediate Geographic Information Systems",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 281",
+        "title": "Computational Social Science",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 286",
+        "title": "Qualitative Social Science Research Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 287",
+        "title": "Fieldwork Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 480",
+        "title": "Introduction to Survey Methodology",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "SSCI 486",
+        "title": "Program Evaluation",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "DS 151",
+        "title": "Introduction to Data Science",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "DS 261",
+        "title": "Data Ethics and Responsible AI",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "MATH 425",
+        "title": "Statistical Methods",
+        "credits": 3
+      },
+      {
+        "type": "course",
+        "course": "ITMD 321",
+        "title": "Data Modeling and Applications",
+        "credits": 3
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/bs-psychology"
+  },
+  {
+    "id": "public-administration:mas:mpa-with-security-safety-and-risk-management-specialization",
+    "name": "MPA with Security, Safety, and Risk Management Specialization",
+    "parent_program_id": "public-administration:mas",
+    "parent_program_name": "Public Administration",
+    "credential": "MAS",
+    "requirements": [
+      {
+        "type": "free_text",
+        "raw_text": "Required Courses | (9)",
+        "parsed": false
+      },
+      {
+        "type": "choose",
+        "count": 9,
+        "options": [
+          "PA 541",
+          "PA 553",
+          "PA 579",
+          "PA 589",
+          "PA 542",
+          "PA 523",
+          "BUS 510",
+          "PA 550"
+        ],
+        "raw_text": "Select a minimum of nine credit hours from the following:",
+        "minimum": true,
+        "credits_required": 9
+      },
+      {
+        "type": "free_text",
+        "raw_text": "Total Credit Hours | 9",
+        "parsed": false
+      }
+    ],
+    "recommended_electives": [],
+    "url": "https://catalog.iit.edu/graduate/colleges/business/mpa/"
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "aerospace-science",
+    "name": "Aerospace Science",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-aerospace-science/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "applied-mathematics",
+    "name": "Applied Mathematics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-applied-mathematics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "applied-mechanics",
+    "name": "Applied Mechanics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-applied-mechanics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "architecture",
+    "name": "Architecture",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/architecture/minor-architecture/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-artificial-intelligence/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "astrophysics",
+    "name": "Astrophysics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/minor-astrophysics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "biochemistry",
+    "name": "Biochemistry",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-biochemistry/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "bioinformatics",
+    "name": "Bioinformatics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-bioinformatics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "biology",
+    "name": "Biology",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-biology/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "building-systems-engineering",
+    "name": "Building Systems Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-building-systems-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-business/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "business-analytics",
+    "name": "Business Analytics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-business-analytics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/chemistry/minor-chemistry/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "circuits-and-systems",
+    "name": "Circuits and Systems",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/minor-circuits-systems/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-communication/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "computational-mathematics",
+    "name": "Computational Mathematics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-computational-mathematics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "computer-architecture",
+    "name": "Computer Architecture",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-computer-architecture/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-computer-science/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "construction-management",
+    "name": "Construction Management",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-construction-management/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "critical-ai",
+    "name": "Critical AI",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-critical-ai/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "cyber-defense",
+    "name": "Cyber Defense",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-cyber-defense/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "cyber-security-foundations",
+    "name": "Cyber Security Foundations",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-cyber-security-foundations/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "data-science",
+    "name": "Data Science",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-data-science/index.html",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "database-management",
+    "name": "Database Management",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/computer-science/minor-database-management/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "economics",
+    "name": "Economics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-economics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "electromechanical-systems",
+    "name": "Electromechanical Systems",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-electromechanical-systems/index.html",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "energy-environment-economics-e3",
+    "name": "Energy/Environment/Economics (E3)",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/minor-energy-environment-economics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "engineering-graphics-and-cad",
+    "name": "Engineering Graphics and CAD",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-engineering-graphics-cad/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-entrepreneurship/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "environmental-engineering",
+    "name": "Environmental Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-environmental-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-finance/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "food-science-and-nutrition",
+    "name": "Food Science and Nutrition",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/food-science-nutrition/minor-food-science-nutrition/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "game-design-and-experiential-media",
+    "name": "Game Design and Experiential Media",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-game-design-experiential-media/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "graphics-and-cad-for-non-engineers",
+    "name": "Graphics and CAD for Non-Engineers",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-graphics-cad/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "human-resources",
+    "name": "Human Resources",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-human-resources/index.html",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "human-centered-design",
+    "name": "Human-Centered Design",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/design/minor-human-centered-design/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "industrial-technology-and-management",
+    "name": "Industrial Technology and Management",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/minor-industrial-technology-management/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "information-security",
+    "name": "Information Security",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-security/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "information-system-administration",
+    "name": "Information System Administration",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-system-administration/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "information-system-network-management",
+    "name": "Information System Network Management",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-system-network-management/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "information-technology-foundations",
+    "name": "Information Technology Foundations",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-technology-foundations/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "information-technology-and-management",
+    "name": "Information Technology and Management",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-information-technology-management/index.html",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "internet-application-development",
+    "name": "Internet Application Development",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/information-technology-management/minor-internet-application-development/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "leadership",
+    "name": "Leadership",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-leadership/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "manufacturing-engineering",
+    "name": "Manufacturing Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-manufacturing-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "manufacturing-technology",
+    "name": "Manufacturing Technology",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/minor-manufacturing-technology/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "marketing-analytics",
+    "name": "Marketing Analytics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-marketing-analytics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "materials-science",
+    "name": "Materials Science",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/mmae/minor-materials-science/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "medical-humanities",
+    "name": "Medical Humanities",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-medical-humanities/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/minor-physics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "polymer-science-and-engineering",
+    "name": "Polymer Science and Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/chbe/minor-polymer-science-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "pre-medical-studies",
+    "name": "Pre-Medical Studies",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/biology/minor-premedical-studies/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "professional-and-technical-communication",
+    "name": "Professional and Technical Communication",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/humanities/minor-ptc/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "psychology",
+    "name": "Psychology",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-psychology/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "public-administration",
+    "name": "Public Administration",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/business/minor-public-administration/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "public-policy",
+    "name": "Public Policy",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/social-sciences/minor-public-policy/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "quantum-science",
+    "name": "Quantum Science",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/physics/minor-quantum-science/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "railroad-engineering",
+    "name": "Railroad Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-railroad-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "rehabilitation-services",
+    "name": "Rehabilitation Services",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/science-letters/psychology/minor-rehabilitation-services/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/computing/applied-mathematics/minor-statistics/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "structural-engineering",
+    "name": "Structural Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-structural-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "supply-chain-management",
+    "name": "Supply Chain Management",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/industrial-technology-management/minor-supply-chain-management/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "sustainability",
+    "name": "Sustainability",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-sustainability/index.html",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "telecommunications",
+    "name": "Telecommunications",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/ece/minor-telecommunications/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  },
+  {
+    "id": "transportation-engineering",
+    "name": "Transportation Engineering",
+    "url": "https://catalog.iit.edu/undergraduate/colleges/engineering/caee/minor-transportation-engineering/",
+    "source_url": "https://catalog.iit.edu/undergraduate/undergraduate-education/minors/"
+  }
+]
