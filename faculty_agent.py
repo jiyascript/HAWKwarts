@@ -17,7 +17,7 @@ DIRECTORY_PATH = "iit_directory.json"
 IIT_ROR_ID = "https://ror.org/037t3ry66"
 
 llm = ChatOllama(
-    model="qwen3-vl:8b",
+    model="qwen3:8b",
     temperature=0,
     reasoning=False,
     num_ctx=8192,
