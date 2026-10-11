@@ -33,8 +33,13 @@
               "days": "TR",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Gorjana Popovic",
-              "instructor_email": "popogor@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gorjana Popovic",
+                  "email": "popogor@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 102",
               "schedule_type": "Lecture",
-              "instructor": "Huiling Liao",
-              "instructor_email": "hliao13@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Huiling Liao",
+                  "email": "hliao13@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -127,8 +137,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 240",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -156,8 +171,7 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": []
             }
           ],
           "availability": {
@@ -220,8 +234,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 102",
               "schedule_type": "Lecture",
-              "instructor": "Huiling Liao",
-              "instructor_email": "hliao13@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Huiling Liao",
+                  "email": "hliao13@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

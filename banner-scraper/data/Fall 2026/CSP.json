@@ -33,8 +33,13 @@
               "days": "R",
               "location": "Stuart Building 112J",
               "schedule_type": "Lecture",
-              "instructor": "Naicheng Wei",
-              "instructor_email": "lwei3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naicheng Wei",
+                  "email": "lwei3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "WF",
               "location": "Stuart Building 225",
               "schedule_type": "Lecture",
-              "instructor": "Michael Kamol Lee",
-              "instructor_email": "saelee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael Kamol Lee",
+                  "email": "saelee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -109,8 +119,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Michael Kamol Lee",
-              "instructor_email": "saelee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael Kamol Lee",
+                  "email": "saelee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -207,8 +222,13 @@
               "days": "MW",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Yousef M. Elmehdwi",
-              "instructor_email": "yelmehdwi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yousef M. Elmehdwi",
+                  "email": "yelmehdwi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -236,8 +256,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yousef M. Elmehdwi",
-              "instructor_email": "yelmehdwi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yousef M. Elmehdwi",
+                  "email": "yelmehdwi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -300,8 +325,13 @@
               "days": "R",
               "location": "Stuart Building 111",
               "schedule_type": "Lecture",
-              "instructor": "Joseph S. Rosen",
-              "instructor_email": "jrosen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph S. Rosen",
+                  "email": "jrosen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -329,8 +359,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joseph S. Rosen",
-              "instructor_email": "jrosen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph S. Rosen",
+                  "email": "jrosen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -358,8 +393,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yousef M. Elmehdwi",
-              "instructor_email": "yelmehdwi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yousef M. Elmehdwi",
+                  "email": "yelmehdwi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -439,8 +479,13 @@
               "days": "TR",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Jawahar J. Panchal",
-              "instructor_email": "jpanchal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jawahar J. Panchal",
+                  "email": "jpanchal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -468,8 +513,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jawahar J. Panchal",
-              "instructor_email": "jpanchal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jawahar J. Panchal",
+                  "email": "jpanchal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -617,8 +667,13 @@
               "days": "MW",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -646,8 +701,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

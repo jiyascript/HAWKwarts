@@ -33,8 +33,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

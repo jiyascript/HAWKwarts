@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Tomal",
-              "instructor_email": "tomal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Tomal",
+                  "email": "tomal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "W",
               "location": "Stuart Building 238",
               "schedule_type": "Lecture",
-              "instructor": "Michael M Cubon",
-              "instructor_email": "cubomi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael M Cubon",
+                  "email": "cubomi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -109,8 +119,13 @@
               "days": "W",
               "location": "Stuart Building 238",
               "schedule_type": "Lecture",
-              "instructor": "Michael M Cubon",
-              "instructor_email": "cubomi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael M Cubon",
+                  "email": "cubomi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -207,8 +222,13 @@
               "days": "R",
               "location": "John T. Rettaliata Engg Center 036",
               "schedule_type": "Lecture",
-              "instructor": "Michael M Cubon",
-              "instructor_email": "cubomi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael M Cubon",
+                  "email": "cubomi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -236,8 +256,13 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Michael M Cubon",
-              "instructor_email": "cubomi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael M Cubon",
+                  "email": "cubomi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -283,8 +308,13 @@
               "days": "T",
               "location": "John T. Rettaliata Engg Center 036",
               "schedule_type": "Lecture",
-              "instructor": "Brian John O'Kane",
-              "instructor_email": "bokane@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian John O'Kane",
+                  "email": "bokane@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -312,8 +342,13 @@
               "days": "T",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian John O'Kane",
-              "instructor_email": "bokane@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian John O'Kane",
+                  "email": "bokane@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -427,8 +462,13 @@
               "days": "M",
               "location": "John T. Rettaliata Engg Center 036",
               "schedule_type": "Lecture",
-              "instructor": "Joseph Nicholas Lazzara",
-              "instructor_email": "jlazzara@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph Nicholas Lazzara",
+                  "email": "jlazzara@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -456,8 +496,13 @@
               "days": "M",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joseph Nicholas Lazzara",
-              "instructor_email": "jlazzara@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph Nicholas Lazzara",
+                  "email": "jlazzara@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -571,8 +616,13 @@
               "days": "F",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Raymond Michael Lemming",
-              "instructor_email": "rlemming@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raymond Michael Lemming",
+                  "email": "rlemming@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -600,8 +650,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Raymond Michael Lemming",
-              "instructor_email": "rlemming@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raymond Michael Lemming",
+                  "email": "rlemming@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -698,8 +753,13 @@
               "days": "W",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "James Coates",
-              "instructor_email": "jcoates@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Coates",
+                  "email": "jcoates@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -727,8 +787,13 @@
               "days": "W",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "James Coates",
-              "instructor_email": "jcoates@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Coates",
+                  "email": "jcoates@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -791,8 +856,13 @@
               "days": "T",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Naser Abas",
-              "instructor_email": "nabas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naser Abas",
+                  "email": "nabas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -820,8 +890,13 @@
               "days": "T",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Naser Abas",
-              "instructor_email": "nabas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naser Abas",
+                  "email": "nabas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -884,8 +959,13 @@
               "days": "T",
               "location": "Robert A. Pritzker Science Ctr 240",
               "schedule_type": "Lecture",
-              "instructor": "Geoffrey E. Shive",
-              "instructor_email": "gshive@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey E. Shive",
+                  "email": "gshive@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -913,8 +993,13 @@
               "days": "T",
               "location": "Robert A. Pritzker Science Ctr 240",
               "schedule_type": "Lecture",
-              "instructor": "Geoffrey E. Shive",
-              "instructor_email": "gshive@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey E. Shive",
+                  "email": "gshive@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -977,8 +1062,13 @@
               "days": "W",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Avinash K. Vaidya",
-              "instructor_email": "avaidya11@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Avinash K. Vaidya",
+                  "email": "avaidya11@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1006,8 +1096,13 @@
               "days": "W",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Avinash K. Vaidya",
-              "instructor_email": "avaidya11@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Avinash K. Vaidya",
+                  "email": "avaidya11@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1121,8 +1216,13 @@
               "days": "M",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Theodossios Rigopoulos",
-              "instructor_email": "trigopoulos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Theodossios Rigopoulos",
+                  "email": "trigopoulos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1150,8 +1250,13 @@
               "days": "M",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Theodossios Rigopoulos",
-              "instructor_email": "trigopoulos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Theodossios Rigopoulos",
+                  "email": "trigopoulos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1299,8 +1404,13 @@
               "days": "R",
               "location": "Stuart Building 225",
               "schedule_type": "Lecture",
-              "instructor": "Blake M Davis",
-              "instructor_email": "davisbl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Blake M Davis",
+                  "email": "davisbl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1328,8 +1438,13 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Blake M Davis",
-              "instructor_email": "davisbl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Blake M Davis",
+                  "email": "davisbl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1511,8 +1626,13 @@
               "days": "T",
               "location": "John T. Rettaliata Engg Center 036",
               "schedule_type": "Lecture",
-              "instructor": "Brian John O'Kane",
-              "instructor_email": "bokane@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian John O'Kane",
+                  "email": "bokane@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1540,8 +1660,13 @@
               "days": "T",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian John O'Kane",
-              "instructor_email": "bokane@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian John O'Kane",
+                  "email": "bokane@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1740,8 +1865,13 @@
               "days": "W",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "James Coates",
-              "instructor_email": "jcoates@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Coates",
+                  "email": "jcoates@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1769,8 +1899,13 @@
               "days": "W",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "James Coates",
-              "instructor_email": "jcoates@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Coates",
+                  "email": "jcoates@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1850,8 +1985,13 @@
               "days": "W",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Avinash K. Vaidya",
-              "instructor_email": "avaidya11@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Avinash K. Vaidya",
+                  "email": "avaidya11@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1879,8 +2019,13 @@
               "days": "W",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Avinash K. Vaidya",
-              "instructor_email": "avaidya11@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Avinash K. Vaidya",
+                  "email": "avaidya11@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1977,8 +2122,13 @@
               "days": "M",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Theodossios Rigopoulos",
-              "instructor_email": "trigopoulos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Theodossios Rigopoulos",
+                  "email": "trigopoulos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2006,8 +2156,13 @@
               "days": "M",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Theodossios Rigopoulos",
-              "instructor_email": "trigopoulos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Theodossios Rigopoulos",
+                  "email": "trigopoulos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2189,8 +2344,13 @@
               "days": "T",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "Andrew L. Kumiega",
-              "instructor_email": "akumiega@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew L. Kumiega",
+                  "email": "akumiega@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2218,8 +2378,13 @@
               "days": "T",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "Andrew L. Kumiega",
-              "instructor_email": "akumiega@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew L. Kumiega",
+                  "email": "akumiega@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2282,8 +2447,13 @@
               "days": "R",
               "location": "Stuart Building 225",
               "schedule_type": "Lecture",
-              "instructor": "Blake M Davis",
-              "instructor_email": "davisbl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Blake M Davis",
+                  "email": "davisbl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2311,8 +2481,13 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Blake M Davis",
-              "instructor_email": "davisbl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Blake M Davis",
+                  "email": "davisbl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2426,8 +2601,13 @@
               "days": "T",
               "location": "Stuart Building 107",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Daniel P. Waterloo",
-              "instructor_email": "dwaterloo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel P. Waterloo",
+                  "email": "dwaterloo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

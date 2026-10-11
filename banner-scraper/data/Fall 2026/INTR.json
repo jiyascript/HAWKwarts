@@ -50,8 +50,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -79,14 +84,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 999,
-            "actual": 6,
-            "remaining": 993,
+            "actual": 5,
+            "remaining": 994,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -126,8 +136,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -155,8 +170,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -202,8 +222,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -231,8 +256,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -278,8 +308,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -307,14 +342,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 999,
-            "actual": 18,
-            "remaining": 981,
+            "actual": 17,
+            "remaining": 982,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0

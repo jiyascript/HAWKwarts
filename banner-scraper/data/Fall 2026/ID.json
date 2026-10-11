@@ -50,8 +50,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Arrenius Karunakaran",
-              "instructor_email": "akarunakaran@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Arrenius Karunakaran",
+                  "email": "akarunakaran@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -97,8 +102,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy P Alexis",
-              "instructor_email": "alexis@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy P Alexis",
+                  "email": "alexis@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -144,8 +154,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Mayfield",
-              "instructor_email": "mayfield@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Mayfield",
+                  "email": "mayfield@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -191,8 +206,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Maura Aileen Shea",
-              "instructor_email": "mshea@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maura Aileen Shea",
+                  "email": "mshea@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -238,8 +258,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy P Alexis",
-              "instructor_email": "alexis@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy P Alexis",
+                  "email": "alexis@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -285,8 +310,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Mayfield",
-              "instructor_email": "mayfield@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Mayfield",
+                  "email": "mayfield@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -332,8 +362,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Maura Aileen Shea",
-              "instructor_email": "mshea@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maura Aileen Shea",
+                  "email": "mshea@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

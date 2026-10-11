@@ -50,8 +50,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 102",
               "schedule_type": "Lecture",
-              "instructor": "Mary Jorgenson Sullivan",
-              "instructor_email": "mjorgens@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary Jorgenson Sullivan",
+                  "email": "mjorgens@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -97,8 +102,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 103",
               "schedule_type": "Lecture",
-              "instructor": "Mary Jorgenson Sullivan",
-              "instructor_email": "mjorgens@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary Jorgenson Sullivan",
+                  "email": "mjorgens@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -144,8 +154,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 106",
               "schedule_type": "Lecture",
-              "instructor": "Brian Casario",
-              "instructor_email": "bcasari1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian Casario",
+                  "email": "bcasari1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -191,8 +206,13 @@
               "days": "TR",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "Renata Phelps",
-              "instructor_email": "rphelps2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Renata Phelps",
+                  "email": "rphelps2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

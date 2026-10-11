@@ -67,8 +67,13 @@
               "days": "W",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -96,8 +101,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -125,8 +135,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -154,8 +169,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -218,8 +238,13 @@
               "days": "TR",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -247,8 +272,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -328,8 +358,13 @@
               "days": "T",
               "location": "IIT Tower 6D6-1",
               "schedule_type": "Lecture",
-              "instructor": "Ramesh N. Rao",
-              "instructor_email": "rrao12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ramesh N. Rao",
+                  "email": "rrao12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -357,8 +392,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Ramesh N. Rao",
-              "instructor_email": "rrao12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ramesh N. Rao",
+                  "email": "rrao12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -386,8 +426,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Ramesh N. Rao",
-              "instructor_email": "rrao12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ramesh N. Rao",
+                  "email": "rrao12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -450,8 +495,13 @@
               "days": "W",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -479,8 +529,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -508,8 +563,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Brian R. Vanderjack",
-              "instructor_email": "bvanderjack@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -674,8 +734,13 @@
               "days": "TR",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -703,8 +768,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -732,8 +802,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -761,8 +836,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -842,8 +922,13 @@
               "days": "M",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Shadi D. Beidas",
-              "instructor_email": "sbeidas1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -871,8 +956,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Shadi D. Beidas",
-              "instructor_email": "sbeidas1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -900,8 +990,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Shadi D. Beidas",
-              "instructor_email": "sbeidas1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

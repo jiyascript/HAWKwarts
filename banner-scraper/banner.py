@@ -4,21 +4,6 @@ import os
 import re
 import json
 
-def compare_semesters(a_name, b_name):
-    '''
-    Takes two semester strings as arguments and behave like the python cmp()
-    function. Semester strings start with Spring, Summer, Fall, or Winter and end
-    with a year (for example, "Fall 2010"). The cmp(a, b) function returns a
-    negative value if a comes before b, zero if a == b, and a positive value if a
-    comes after b.
-    '''
-    seasons = { 'Spring': 0, 'Summer': 1, 'Fall': 2, 'Winter': 3 }
-    a_season, a_year = a_name.split()
-    b_season, b_year = b_name.split()
-    year_cmp = (int(a_year) > int(b_year)) - (int(a_year) < int(b_year))
-    season_cmp = (seasons[a_season] > seasons[b_season]) - (seasons[a_season] < seasons[b_season])
-    return year_cmp if year_cmp else season_cmp
-
 ################################################################################
 # class structure
 ################################################################################
@@ -86,48 +71,6 @@ class Meeting:
         self.where = ''
         self.date_range = ''
         self.instructors = ''
-
-################################################################################
-# xml output
-################################################################################
-
-def _courses_to_xml_helper(doc, parent, obj, name):
-    element = doc.createElement(name)
-    parent.appendChild(element)
-    if isinstance(obj, int) or isinstance(obj, float):
-        obj = str(obj)
-    if isinstance(obj, str):
-        element.appendChild(doc.createTextNode(obj))
-    elif isinstance(obj, list):
-        for x in obj:
-            _courses_to_xml_helper(doc, element, x, x.__class__.__name__.lower())
-    else:
-        for x in obj.__dict__:
-            _courses_to_xml_helper(doc, element, obj.__dict__[x], x)
-
-def courses_to_xml(courses):
-    '''Takes a list of Course objects and returns an XML string.'''
-    import xml.dom.minidom as xml
-    doc = xml.Document()
-    _courses_to_xml_helper(doc, doc, courses, 'courses')
-    return doc.toxml()
-
-################################################################################
-# json output
-################################################################################
-
-def _courses_to_json_helper(obj):
-    if isinstance(obj, int) or isinstance(obj, float) or isinstance(obj, str):
-        return obj
-    elif isinstance(obj, list):
-        return [_courses_to_json_helper(x) for x in obj]
-    else:
-        return dict((x, _courses_to_json_helper(obj.__dict__[x])) for x in obj.__dict__)
-
-def courses_to_json(courses):
-    '''Takes a list of Course objects and returns a JSON string.'''
-    import json
-    return json.dumps(_courses_to_json_helper(courses))
 
 ################################################################################
 # downloading
@@ -635,70 +578,7 @@ def parse_semester(semester_name, subjects=None):
 
     return courses
 
-################################################################################
-# merging
-################################################################################
-
-def merge_courses(old_courses, new_courses):
-    '''
-    Merge courses with the same name in old_courses and new_courses, returns
-    the list of merged courses.
-    '''
-    courses_index = {}
-    old_courses_index = dict((course.name, course) for course in old_courses)
-    new_courses_index = dict((course.name, course) for course in new_courses)
-
-    courses_index = old_courses_index
-    for name in new_courses_index:
-        new_course = new_courses_index[name]
-        if name not in courses_index:
-            courses_index[name] = new_course
-        else:
-            old_course = courses_index[name]
-            old_course.semesters.extend(new_course.semesters)
-
-            if old_course.title != new_course.title:
-                print('warning(%s): title "%s" differs from title "%s", using more recent one' % \
-                    (name, old_course.title, new_course.title))
-
-            if old_course.attributes != new_course.attributes:
-                print('warning(%s): attributes "%s" differ from attributes "%s", using more recent one' % \
-                    (name, old_course.attributes, new_course.attributes))
-
-            if old_course.description != new_course.description:
-                print('warning(%s): description "%s" differs from description "%s", using more recent one' % \
-                    (name, old_course.description, new_course.description))
-
-            # for conflicts, use more recent info (assuming old_course is older than new_course)
-            old_course.title = new_course.title
-            old_course.attributes = new_course.attributes
-            old_course.title = new_course.title
-
-    return list(courses_index.values())
-
-################################################################################
-# unit tests
-################################################################################
-
-import unittest
-
-class _Tester(unittest.TestCase):
-    def test_semester_cmp(self):
-        a, b = 'Spring 2009', 'Spring 2010'
-        self.assertTrue(compare_semesters(a, b) < 0 and compare_semesters(b, a) > 0)
-        a, b = 'Spring 2010', 'Summer 2010'
-        self.assertTrue(compare_semesters(a, b) < 0 and compare_semesters(b, a) > 0)
-        a, b = 'Summer 2010', 'Fall 2010'
-        self.assertTrue(compare_semesters(a, b) < 0 and compare_semesters(b, a) > 0)
-        a, b = 'Fall 2010', 'Winter 2010'
-        self.assertTrue(compare_semesters(a, b) < 0 and compare_semesters(b, a) > 0)
-        a, b = 'Spring 2010', 'Winter 2010'
-        self.assertTrue(compare_semesters(a, b) < 0 and compare_semesters(b, a) > 0)
-        a, b = 'Spring 2010', 'Spring 2010'
-        self.assertTrue(compare_semesters(a, b) == 0)
-
 if __name__ == '__main__':
     import sys
     if 'test' in sys.argv:
         sys.argv.remove('test')
-        unittest.main()

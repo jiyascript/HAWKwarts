@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 119",
               "schedule_type": "Lecture",
-              "instructor": "Kiah Wah Ong",
-              "instructor_email": "kong2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kiah Wah Ong",
+                  "email": "kong2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 102",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -178,8 +188,13 @@
               "days": "TR",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Jawahar J. Panchal",
-              "instructor_email": "jpanchal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jawahar J. Panchal",
+                  "email": "jpanchal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

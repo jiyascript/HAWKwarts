@@ -50,8 +50,13 @@
               "days": "W",
               "location": "Downtown Campus 405",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth J. Durango-Cohen",
-              "instructor_email": "durango-cohen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth J. Durango-Cohen",
+                  "email": "durango-cohen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -114,8 +119,13 @@
               "days": "S",
               "location": "Downtown Campus 210",
               "schedule_type": "Lecture",
-              "instructor": "M Krishna Erramilli",
-              "instructor_email": "merramil@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "M Krishna Erramilli",
+                  "email": "merramil@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -212,8 +222,13 @@
               "days": "TR",
               "location": "Downtown Campus 475",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -241,8 +256,13 @@
               "days": "TR",
               "location": "Downtown Campus 475",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -270,8 +290,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -299,8 +324,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -346,8 +376,13 @@
               "days": "S",
               "location": "Downtown Campus 403",
               "schedule_type": "Lecture",
-              "instructor": "Ketan B Patel",
-              "instructor_email": "kpatel4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ketan B Patel",
+                  "email": "kpatel4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -375,8 +410,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Ketan B Patel",
-              "instructor_email": "kpatel4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ketan B Patel",
+                  "email": "kpatel4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -404,14 +444,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Ketan B Patel",
-              "instructor_email": "kpatel4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ketan B Patel",
+                  "email": "kpatel4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 500,
-            "actual": 29,
-            "remaining": 471,
+            "actual": 35,
+            "remaining": 465,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -451,8 +496,13 @@
               "days": "W",
               "location": "Downtown Campus 401",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -515,8 +565,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

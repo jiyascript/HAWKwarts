@@ -33,8 +33,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Keith Green",
-              "instructor_email": "greenk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Green",
+                  "email": "greenk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "MW",
               "location": "Siegel Hall 204",
               "schedule_type": "Lecture",
-              "instructor": "Keith Green",
-              "instructor_email": "greenk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Green",
+                  "email": "greenk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -195,8 +205,13 @@
               "days": "MW",
               "location": "Siegel Hall 204",
               "schedule_type": "Lecture",
-              "instructor": "Keith Green",
-              "instructor_email": "greenk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Green",
+                  "email": "greenk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -224,8 +239,13 @@
               "days": "TR",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Clarissa Busch",
-              "instructor_email": "cbusch1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Clarissa Busch",
+                  "email": "cbusch1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -253,8 +273,13 @@
               "days": "MW",
               "location": "Siegel Hall 203",
               "schedule_type": "Lecture",
-              "instructor": "Mindy C Pugh",
-              "instructor_email": "pugh@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mindy C Pugh",
+                  "email": "pugh@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -282,8 +307,13 @@
               "days": "MW",
               "location": "Alumni Memorial Hall 222",
               "schedule_type": "Lecture",
-              "instructor": "Hana Hanifah",
-              "instructor_email": "hhanifah@hawk.illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hana Hanifah",
+                  "email": "hhanifah@hawk.illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -311,8 +341,13 @@
               "days": "MW",
               "location": "Alumni Memorial Hall 222",
               "schedule_type": "Lecture",
-              "instructor": "Hana Hanifah",
-              "instructor_email": "hhanifah@hawk.illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hana Hanifah",
+                  "email": "hhanifah@hawk.illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -340,8 +375,13 @@
               "days": "MW",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Kathryn R. Petrozzo",
-              "instructor_email": "kpetrozzo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn R. Petrozzo",
+                  "email": "kpetrozzo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -369,8 +409,13 @@
               "days": "TR",
               "location": "Ed Kaplan Family Institute 225",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Mayfield",
-              "instructor_email": "mayfield@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Mayfield",
+                  "email": "mayfield@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -398,8 +443,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Arrenius Karunakaran",
-              "instructor_email": "akarunakaran@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Arrenius Karunakaran",
+                  "email": "akarunakaran@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -427,8 +477,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 106",
               "schedule_type": "Lecture",
-              "instructor": "Brian Casario",
-              "instructor_email": "bcasari1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian Casario",
+                  "email": "bcasari1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -525,8 +580,13 @@
               "days": "R",
               "location": "Alumni Memorial Hall 222",
               "schedule_type": "Lecture",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -606,8 +666,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Lecture",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -653,8 +718,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Seminar",
-              "instructor": "Tracey S McGee",
-              "instructor_email": "tmcgee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tracey S McGee",
+                  "email": "tmcgee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

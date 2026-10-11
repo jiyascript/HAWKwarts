@@ -50,8 +50,13 @@
               "days": "R",
               "location": "IIT Tower 14C5-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Shadi D. Beidas",
-              "instructor_email": "sbeidas1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -79,8 +84,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Shadi D. Beidas",
-              "instructor_email": "sbeidas1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -126,8 +136,13 @@
               "days": "M",
               "location": "Tech Park - South Building 2030",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Maria Guadalupe Soto",
-              "instructor_email": "msoto6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Guadalupe Soto",
+                  "email": "msoto6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -155,8 +170,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Maria Guadalupe Soto",
-              "instructor_email": "msoto6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Guadalupe Soto",
+                  "email": "msoto6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -202,8 +222,13 @@
               "days": "MW",
               "location": "IIT Tower 14C7-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -231,8 +256,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -295,8 +325,13 @@
               "days": "MW",
               "location": "IIT Tower 14C5-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Barry Eugene Speller",
-              "instructor_email": "bspeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -324,8 +359,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Barry Eugene Speller",
-              "instructor_email": "bspeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -353,8 +393,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Barry Eugene Speller",
-              "instructor_email": "bspeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -382,14 +427,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Scott Akin Spyrison",
-              "instructor_email": "spyrison@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Scott Akin Spyrison",
+                  "email": "spyrison@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 50,
-            "actual": 7,
-            "remaining": 43,
+            "actual": 9,
+            "remaining": 41,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -429,8 +479,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -458,8 +513,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -539,8 +599,13 @@
               "days": "R",
               "location": "John T. Rettaliata Engg Center 036",
               "schedule_type": "Lecture",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -568,8 +633,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -615,8 +685,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yibo Hu",
-              "instructor_email": "yhu89@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yibo Hu",
+                  "email": "yhu89@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -644,8 +719,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Richard Warner",
-              "instructor_email": "rwarner@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard Warner",
+                  "email": "rwarner@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -691,8 +771,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lab",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

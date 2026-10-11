@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 124",
               "schedule_type": "Lecture",
-              "instructor": "Chaoqun Gao",
-              "instructor_email": "cgao20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Chaoqun Gao",
+                  "email": "cgao20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "TR",
               "location": "Siegel Hall 204",
               "schedule_type": "Lecture",
-              "instructor": "Ariel Rogers",
-              "instructor_email": "arogers15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ariel Rogers",
+                  "email": "arogers15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,8 +101,13 @@
               "days": "WF",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Pallavi Mody",
-              "instructor_email": "pmody3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pallavi Mody",
+                  "email": "pmody3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -120,8 +135,13 @@
               "days": "WF",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Pallavi Mody",
-              "instructor_email": "pmody3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pallavi Mody",
+                  "email": "pmody3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -184,8 +204,13 @@
               "days": "MW",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Siyuan Wang",
-              "instructor_email": "swang151@hawk.illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Siyuan Wang",
+                  "email": "swang151@hawk.illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -213,8 +238,13 @@
               "days": "TR",
               "location": "Perlstein Hall 108",
               "schedule_type": "Lecture",
-              "instructor": "Ariel Rogers",
-              "instructor_email": "arogers15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ariel Rogers",
+                  "email": "arogers15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -260,8 +290,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 119",
               "schedule_type": "Lecture",
-              "instructor": "Wenchen Wang",
-              "instructor_email": "wwang141@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Wenchen Wang",
+                  "email": "wwang141@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -307,8 +342,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 103",
               "schedule_type": "Lecture",
-              "instructor": "Wenchen Wang",
-              "instructor_email": "wwang141@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Wenchen Wang",
+                  "email": "wwang141@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -371,8 +411,13 @@
               "days": "TR",
               "location": "Stuart Building 239",
               "schedule_type": "Lecture",
-              "instructor": "Xiaoyun Cao",
-              "instructor_email": "xcao20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Xiaoyun Cao",
+                  "email": "xcao20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -418,8 +463,13 @@
               "days": "TR",
               "location": "Hermann Hall 007",
               "schedule_type": "Lecture",
-              "instructor": "James Tyler McQuality",
-              "instructor_email": "jmcquality@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Tyler McQuality",
+                  "email": "jmcquality@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -499,8 +549,13 @@
               "days": "MW",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "John R. Twombly",
-              "instructor_email": "twombly@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John R. Twombly",
+                  "email": "twombly@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -528,8 +583,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "John R. Twombly",
-              "instructor_email": "twombly@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John R. Twombly",
+                  "email": "twombly@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -557,8 +617,13 @@
               "days": "TR",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "John R. Twombly",
-              "instructor_email": "twombly@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John R. Twombly",
+                  "email": "twombly@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -586,8 +651,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "John R. Twombly",
-              "instructor_email": "twombly@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John R. Twombly",
+                  "email": "twombly@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

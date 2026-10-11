@@ -101,8 +101,13 @@
               "days": "M",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Sania Esmaeilzadeh Seilabi",
-              "instructor_email": "sesmaeilzadehseilabi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sania Esmaeilzadeh Seilabi",
+                  "email": "sesmaeilzadehseilabi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -130,8 +135,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Sania Esmaeilzadeh Seilabi",
-              "instructor_email": "sesmaeilzadehseilabi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sania Esmaeilzadeh Seilabi",
+                  "email": "sesmaeilzadehseilabi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

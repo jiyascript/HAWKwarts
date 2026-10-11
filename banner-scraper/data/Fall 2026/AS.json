@@ -33,14 +33,19 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Timothy Mills",
-              "instructor_email": "tmills5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Timothy Mills",
+                  "email": "tmills5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 35,
-            "actual": 0,
-            "remaining": 35,
+            "actual": 1,
+            "remaining": 34,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -97,8 +102,13 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joel Primm",
-              "instructor_email": "jprimm@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joel Primm",
+                  "email": "jprimm@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -161,8 +171,13 @@
               "days": "T",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Matthew W. Weaver",
-              "instructor_email": "mweaver6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew W. Weaver",
+                  "email": "mweaver6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -225,8 +240,13 @@
               "days": "T",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joel Primm",
-              "instructor_email": "jprimm@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joel Primm",
+                  "email": "jprimm@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -289,14 +309,19 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lab",
-              "instructor": "Joel Primm",
-              "instructor_email": "jprimm@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joel Primm",
+                  "email": "jprimm@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 110,
-            "actual": 1,
-            "remaining": 109,
+            "actual": 2,
+            "remaining": 108,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99

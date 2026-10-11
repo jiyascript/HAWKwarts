@@ -67,8 +67,13 @@
               "days": "R",
               "location": "Robert A. Pritzker Science Ctr 121",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Jeffrey H. Terry",
-              "instructor_email": "terryj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeffrey H. Terry",
+                  "email": "terryj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -96,8 +101,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Karoline Qasem",
-              "instructor_email": "kqasem1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Karoline Qasem",
+                  "email": "kqasem1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -125,8 +135,18 @@
               "days": "T",
               "location": "Robert A. Pritzker Science Ctr 121",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Nicholas G. Menhart , Abhinav Bhushan",
-              "instructor_email": "menhart@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nicholas G. Menhart",
+                  "email": "menhart@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Abhinav Bhushan",
+                  "email": "abhushan@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -154,8 +174,13 @@
               "days": "R",
               "location": "Crown Hall 005",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Cynthia E. Vranas",
-              "instructor_email": "cvranas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia E. Vranas",
+                  "email": "cvranas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -183,8 +208,13 @@
               "days": "R",
               "location": "Tech Park - South Building 2030",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Daniel Tomal",
-              "instructor_email": "tomal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Tomal",
+                  "email": "tomal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -212,8 +242,13 @@
               "days": "W",
               "location": "Tech Park - South Building 2030",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Daniel Tomal",
-              "instructor_email": "tomal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Tomal",
+                  "email": "tomal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -241,8 +276,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Rafiq Ahmed",
-              "instructor_email": "rahmed22@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rafiq Ahmed",
+                  "email": "rahmed22@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -270,8 +310,18 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 107-5",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Edoarda Maria Corradi Dell' Acqua , Alexander R. Mitchell",
-              "instructor_email": "ecorradi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Edoarda Maria Corradi Dell' Acqua",
+                  "email": "ecorradi@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Alexander R. Mitchell",
+                  "email": "amitche8@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -299,8 +349,13 @@
               "days": "R",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Jacek Dzikowski",
-              "instructor_email": "dzikjac@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jacek Dzikowski",
+                  "email": "dzikjac@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -328,8 +383,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Seebany Datta-Barua",
-              "instructor_email": "sdattaba@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Seebany Datta-Barua",
+                  "email": "sdattaba@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -357,8 +417,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Yuanbing Mao",
-              "instructor_email": "ymao17@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuanbing Mao",
+                  "email": "ymao17@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -386,8 +451,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Francisco Ruiz",
-              "instructor_email": "ruiz@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Francisco Ruiz",
+                  "email": "ruiz@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -415,8 +485,18 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Ioan Raicu , Maryam Saleh",
-              "instructor_email": "iraicu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ioan Raicu",
+                  "email": "iraicu@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Maryam Saleh",
+                  "email": "msaleh4@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -444,8 +524,18 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Steven C. Rubinow , Jeremy Robert Hajek",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -473,8 +563,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Elaine Lynne Zmuda",
-              "instructor_email": "ezmuda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elaine Lynne Zmuda",
+                  "email": "ezmuda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -502,8 +597,18 @@
               "days": "R",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Frank D. Balestri , Mark Jirik",
-              "instructor_email": "fbalestri@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Frank D. Balestri",
+                  "email": "fbalestri@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Mark Jirik",
+                  "email": "mjirik@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -531,8 +636,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 107-5",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Keigo Kawaji",
-              "instructor_email": "kkawaji@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keigo Kawaji",
+                  "email": "kkawaji@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -560,8 +670,18 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Paige Safyer , Jennifer deWinter",
-              "instructor_email": "psafyer@hawk.illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paige Safyer",
+                  "email": "psafyer@hawk.illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jennifer deWinter",
+                  "email": "jdewinter@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -589,8 +709,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 107-5",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Cynthia S. Hood",
-              "instructor_email": "hood@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia S. Hood",
+                  "email": "hood@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -618,8 +743,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Jennifer deWinter",
-              "instructor_email": "jdewinter@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jennifer deWinter",
+                  "email": "jdewinter@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -647,8 +777,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Daniel Tomal",
-              "instructor_email": "tomal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Tomal",
+                  "email": "tomal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

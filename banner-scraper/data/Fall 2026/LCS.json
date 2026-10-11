@@ -33,8 +33,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Dummy Course",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

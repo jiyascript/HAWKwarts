@@ -67,8 +67,13 @@
               "days": "MW",
               "location": "Downtown Campus 403",
               "schedule_type": "Lecture",
-              "instructor": "Joanne E. Howard",
-              "instructor_email": "jhowar12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joanne E. Howard",
+                  "email": "jhowar12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -199,8 +204,13 @@
               "days": "MW",
               "location": "Downtown Campus 403",
               "schedule_type": "Lecture",
-              "instructor": "Roland Calia",
-              "instructor_email": "rcalia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Roland Calia",
+                  "email": "rcalia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -280,8 +290,13 @@
               "days": "TR",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Joanne E. Howard",
-              "instructor_email": "jhowar12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joanne E. Howard",
+                  "email": "jhowar12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -327,8 +342,13 @@
               "days": "TR",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Helen N. Ezenwa",
-              "instructor_email": "hezenwa@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Helen N. Ezenwa",
+                  "email": "hezenwa@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -493,8 +513,13 @@
               "days": "S",
               "location": "Downtown Campus 411",
               "schedule_type": "Lecture",
-              "instructor": "Wenchen Wang",
-              "instructor_email": "wwang141@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Wenchen Wang",
+                  "email": "wwang141@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -591,8 +616,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Roland Calia",
-              "instructor_email": "rcalia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Roland Calia",
+                  "email": "rcalia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

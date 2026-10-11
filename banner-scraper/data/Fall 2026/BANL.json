@@ -33,8 +33,13 @@
               "days": "W",
               "location": "Downtown Campus 405",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth J. Durango-Cohen",
-              "instructor_email": "durango-cohen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth J. Durango-Cohen",
+                  "email": "durango-cohen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -114,8 +119,13 @@
               "days": "TR",
               "location": "Downtown Campus 405",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -143,8 +153,13 @@
               "days": "TR",
               "location": "Downtown Campus 475",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

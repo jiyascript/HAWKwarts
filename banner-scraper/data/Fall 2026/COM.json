@@ -33,8 +33,13 @@
               "days": "TR",
               "location": "Stuart Building 106",
               "schedule_type": "Lecture",
-              "instructor": "Naum Neskoski",
-              "instructor_email": "nneskosk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naum Neskoski",
+                  "email": "nneskosk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "TR",
               "location": "Stuart Building 106",
               "schedule_type": "Lecture",
-              "instructor": "Naum Neskoski",
-              "instructor_email": "nneskosk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naum Neskoski",
+                  "email": "nneskosk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,8 +101,13 @@
               "days": "TR",
               "location": "Stuart Building 112E",
               "schedule_type": "Lecture",
-              "instructor": "Naum Neskoski",
-              "instructor_email": "nneskosk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naum Neskoski",
+                  "email": "nneskosk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -120,8 +135,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 213",
               "schedule_type": "Lecture",
-              "instructor": "Tracey S McGee",
-              "instructor_email": "tmcgee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tracey S McGee",
+                  "email": "tmcgee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -149,8 +169,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 213",
               "schedule_type": "Lecture",
-              "instructor": "Tracey S McGee",
-              "instructor_email": "tmcgee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tracey S McGee",
+                  "email": "tmcgee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -178,8 +203,13 @@
               "days": "MW",
               "location": "Stuart Building 106",
               "schedule_type": "Lecture",
-              "instructor": "Katerina Ilievska",
-              "instructor_email": "kilievsk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Katerina Ilievska",
+                  "email": "kilievsk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -207,8 +237,13 @@
               "days": "MW",
               "location": "Stuart Building 106",
               "schedule_type": "Lecture",
-              "instructor": "Katerina Ilievska",
-              "instructor_email": "kilievsk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Katerina Ilievska",
+                  "email": "kilievsk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -236,8 +271,13 @@
               "days": "MW",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth O'Hara Johnson",
-              "instructor_email": "ejohns20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -265,8 +305,13 @@
               "days": "MW",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth O'Hara Johnson",
-              "instructor_email": "ejohns20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -294,8 +339,13 @@
               "days": "T",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth O'Hara Johnson",
-              "instructor_email": "ejohns20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -303,8 +353,13 @@
               "days": "F",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth O'Hara Johnson",
-              "instructor_email": "ejohns20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -350,8 +405,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 102",
               "schedule_type": "Lecture",
-              "instructor": "Mary Jorgenson Sullivan",
-              "instructor_email": "mjorgens@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary Jorgenson Sullivan",
+                  "email": "mjorgens@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -397,8 +457,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 103",
               "schedule_type": "Lecture",
-              "instructor": "Mary Jorgenson Sullivan",
-              "instructor_email": "mjorgens@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary Jorgenson Sullivan",
+                  "email": "mjorgens@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -444,8 +509,13 @@
               "days": "TR",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "Renata Phelps",
-              "instructor_email": "rphelps2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Renata Phelps",
+                  "email": "rphelps2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -559,8 +629,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 124",
               "schedule_type": "Lecture",
-              "instructor": "Renata Phelps",
-              "instructor_email": "rphelps2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Renata Phelps",
+                  "email": "rphelps2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -588,8 +663,13 @@
               "days": "TR",
               "location": "Stuart Building 107",
               "schedule_type": "Lecture",
-              "instructor": "Brian Casario",
-              "instructor_email": "bcasari1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian Casario",
+                  "email": "bcasari1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -652,8 +732,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kathryn R. Petrozzo",
-              "instructor_email": "kpetrozzo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn R. Petrozzo",
+                  "email": "kpetrozzo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -767,8 +852,13 @@
               "days": "TR",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Clarissa Busch",
-              "instructor_email": "cbusch1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Clarissa Busch",
+                  "email": "cbusch1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -899,8 +989,13 @@
               "days": "MW",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Andrew J Roback",
-              "instructor_email": "aroback@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew J Roback",
+                  "email": "aroback@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1014,8 +1109,13 @@
               "days": "TR",
               "location": "Siegel Hall 237",
               "schedule_type": "Lecture",
-              "instructor": "Markus D Dohner",
-              "instructor_email": "mdohner@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Markus D Dohner",
+                  "email": "mdohner@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1095,8 +1195,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Lecture",
-              "instructor": "Maura Aileen Shea",
-              "instructor_email": "mshea@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maura Aileen Shea",
+                  "email": "mshea@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1124,8 +1229,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Lecture",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1153,14 +1263,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 50,
-            "actual": 13,
-            "remaining": 37,
+            "actual": 15,
+            "remaining": 35,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -1251,8 +1366,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1280,8 +1400,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1446,14 +1571,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Paul Maciukenas",
-              "instructor_email": "jmaciuke@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Paul Maciukenas",
+                  "email": "jmaciuke@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 30,
-            "actual": 27,
-            "remaining": 3,
+            "actual": 28,
+            "remaining": 2,
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
@@ -1475,14 +1605,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Paul Maciukenas",
-              "instructor_email": "jmaciuke@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Paul Maciukenas",
+                  "email": "jmaciuke@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 10,
-            "actual": 2,
-            "remaining": 8,
+            "actual": 3,
+            "remaining": 7,
             "waitlist_capacity": 10,
             "waitlist_actual": 0,
             "waitlist_remaining": 10
@@ -1504,8 +1639,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Naum Neskoski",
-              "instructor_email": "nneskosk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Naum Neskoski",
+                  "email": "nneskosk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1657,40 +1797,6 @@
     },
     {
       "course_code": "COM",
-      "course_num": "582",
-      "course_combined": "COM 582",
-      "title": "Social Media and Society",
-      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=582",
-      "course_description": "This course will discuss the development and trends of social media as well as their impacts on individuals and society. It will draw from a broad range of studies related to social media to learn how social media have impacts on interpersonal relationships, psychological well-being, privacy, politics, entertainment, and so on.",
-      "learning_objectives": "",
-      "catalog_syllabus_url": "",
-      "levels": "",
-      "attributes": "",
-      "restrictions": "",
-      "prerequisites": "",
-      "general_requirements": "",
-      "mutual_exclusions": "",
-      "sections": []
-    },
-    {
-      "course_code": "COM",
-      "course_num": "583",
-      "course_combined": "COM 583",
-      "title": "Social Networks",
-      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=COM&crse_numb_in=583",
-      "course_description": "This course will discuss a variety of measures and properties of networks, identify various types of social networkds, describe how position within and the structure of networks matter, use software tools to analyze social network data, and apply social network analysis to areas such as information retrieval, social media, and organizational behavior.",
-      "learning_objectives": "",
-      "catalog_syllabus_url": "",
-      "levels": "",
-      "attributes": "",
-      "restrictions": "",
-      "prerequisites": "",
-      "general_requirements": "",
-      "mutual_exclusions": "",
-      "sections": []
-    },
-    {
-      "course_code": "COM",
       "course_num": "585",
       "course_combined": "COM 585",
       "title": "Internship",
@@ -1738,8 +1844,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1836,8 +1947,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jennifer deWinter",
-              "instructor_email": "jdewinter@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jennifer deWinter",
+                  "email": "jdewinter@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1865,8 +1981,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1894,8 +2015,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Elisabeth Hildt",
-              "instructor_email": "ehildt@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elisabeth Hildt",
+                  "email": "ehildt@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

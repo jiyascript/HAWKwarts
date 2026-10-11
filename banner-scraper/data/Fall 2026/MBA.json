@@ -33,14 +33,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Michael J. Rybak",
-              "instructor_email": "mrybak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael J. Rybak",
+                  "email": "mrybak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 400,
-            "actual": 65,
-            "remaining": 335,
+            "actual": 78,
+            "remaining": 322,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -80,8 +85,13 @@
               "days": "W",
               "location": "Downtown Campus 405",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth J. Durango-Cohen",
-              "instructor_email": "durango-cohen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth J. Durango-Cohen",
+                  "email": "durango-cohen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -109,8 +119,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Tanushri Banerjee",
-              "instructor_email": "tbanerjee1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tanushri Banerjee",
+                  "email": "tbanerjee1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -173,8 +188,13 @@
               "days": "S",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Smriti Anand",
-              "instructor_email": "sanand12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Smriti Anand",
+                  "email": "sanand12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -202,8 +222,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Smriti Anand",
-              "instructor_email": "sanand12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Smriti Anand",
+                  "email": "sanand12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -249,8 +274,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Michael J. Rybak",
-              "instructor_email": "mrybak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael J. Rybak",
+                  "email": "mrybak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -296,8 +326,13 @@
               "days": "S",
               "location": "Downtown Campus 210",
               "schedule_type": "Lecture",
-              "instructor": "M Krishna Erramilli",
-              "instructor_email": "merramil@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "M Krishna Erramilli",
+                  "email": "merramil@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -325,14 +360,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Robert G Nelson",
-              "instructor_email": "rnelson3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Robert G Nelson",
+                  "email": "rnelson3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 200,
-            "actual": 27,
-            "remaining": 173,
+            "actual": 38,
+            "remaining": 162,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -354,8 +394,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Eszter Jakopanecz",
-              "instructor_email": "ejakopanecz@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Eszter Jakopanecz",
+                  "email": "ejakopanecz@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -401,8 +446,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jeffrey A. Berk",
-              "instructor_email": "jberk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeffrey A. Berk",
+                  "email": "jberk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -516,8 +566,13 @@
               "days": "TR",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Helen N. Ezenwa",
-              "instructor_email": "hezenwa@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Helen N. Ezenwa",
+                  "email": "hezenwa@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -563,14 +618,19 @@
               "days": "MW",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Siva Balasubramanian",
-              "instructor_email": "sivakbalas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Siva Balasubramanian",
+                  "email": "sivakbalas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 30,
-            "actual": 16,
-            "remaining": 14,
+            "actual": 17,
+            "remaining": 13,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -592,8 +652,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Siva Balasubramanian",
-              "instructor_email": "sivakbalas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Siva Balasubramanian",
+                  "email": "sivakbalas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -673,8 +738,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "M Krishna Erramilli",
-              "instructor_email": "merramil@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "M Krishna Erramilli",
+                  "email": "merramil@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -737,14 +807,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Shivani Chokshi",
-              "instructor_email": "schokshi2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Shivani Chokshi",
+                  "email": "schokshi2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
-            "capacity": 100,
-            "actual": 89,
-            "remaining": 11,
+            "capacity": 200,
+            "actual": 110,
+            "remaining": 90,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -818,8 +893,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Marian F Cook",
-              "instructor_email": "mcook12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Marian F Cook",
+                  "email": "mcook12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -847,14 +927,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Marian F Cook",
-              "instructor_email": "mcook12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Marian F Cook",
+                  "email": "mcook12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 200,
-            "actual": 28,
-            "remaining": 172,
+            "actual": 40,
+            "remaining": 160,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -911,8 +996,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Nik Rokop",
-              "instructor_email": "nrokop@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nik Rokop",
+                  "email": "nrokop@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -940,8 +1030,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ghazale Haddadian",
-              "instructor_email": "ghaddadi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ghazale Haddadian",
+                  "email": "ghaddadi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -969,8 +1064,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Weslynne Ashton",
-              "instructor_email": "washton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Weslynne Ashton",
+                  "email": "washton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -998,8 +1098,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Helen N. Ezenwa",
-              "instructor_email": "hezenwa@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Helen N. Ezenwa",
+                  "email": "hezenwa@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1027,8 +1132,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Elizabeth J. Durango-Cohen",
-              "instructor_email": "durango-cohen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth J. Durango-Cohen",
+                  "email": "durango-cohen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1056,8 +1166,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "M Krishna Erramilli",
-              "instructor_email": "merramil@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "M Krishna Erramilli",
+                  "email": "merramil@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1085,8 +1200,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Smriti Anand",
-              "instructor_email": "sanand12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Smriti Anand",
+                  "email": "sanand12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1114,8 +1234,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Siva Balasubramanian",
-              "instructor_email": "sivakbalas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Siva Balasubramanian",
+                  "email": "sivakbalas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1212,14 +1337,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "M Krishna Erramilli",
-              "instructor_email": "merramil@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "M Krishna Erramilli",
+                  "email": "merramil@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 500,
-            "actual": 33,
-            "remaining": 467,
+            "actual": 43,
+            "remaining": 457,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -1259,8 +1389,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Dinakar Jayarajan",
-              "instructor_email": "djayaraj@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dinakar Jayarajan",
+                  "email": "djayaraj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1288,14 +1423,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Priyanka Sharma",
-              "instructor_email": "psharm21@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Priyanka Sharma",
+                  "email": "psharm21@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 500,
-            "actual": 23,
-            "remaining": 477,
+            "actual": 27,
+            "remaining": 473,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -1335,8 +1475,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth J. Durango-Cohen",
-              "instructor_email": "durango-cohen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth J. Durango-Cohen",
+                  "email": "durango-cohen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1364,14 +1509,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elizabeth J. Durango-Cohen",
-              "instructor_email": "durango-cohen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth J. Durango-Cohen",
+                  "email": "durango-cohen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 500,
-            "actual": 22,
-            "remaining": 478,
+            "actual": 27,
+            "remaining": 473,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99

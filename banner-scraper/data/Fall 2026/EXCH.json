@@ -33,8 +33,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Seminar",
-              "instructor": "Faculty TBA",
-              "instructor_email": "NoReply-Reg@iit.edu"
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

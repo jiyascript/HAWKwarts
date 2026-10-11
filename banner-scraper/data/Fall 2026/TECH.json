@@ -50,8 +50,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

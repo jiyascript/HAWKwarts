@@ -33,8 +33,13 @@
               "days": "T",
               "location": "Downtown Campus 411",
               "schedule_type": "Lecture",
-              "instructor": "Michael Modica",
-              "instructor_email": "mmodica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael Modica",
+                  "email": "mmodica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "TR",
               "location": "Downtown Campus 405",
               "schedule_type": "Lecture",
-              "instructor": "Haizhi Wang",
-              "instructor_email": "hwang23@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Haizhi Wang",
+                  "email": "hwang23@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -127,8 +137,13 @@
               "days": "TR",
               "location": "Downtown Campus 485",
               "schedule_type": "Lecture",
-              "instructor": "Benjamin E. Van Vliet",
-              "instructor_email": "bvanvliet@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Benjamin E. Van Vliet",
+                  "email": "bvanvliet@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -174,8 +189,13 @@
               "days": "M",
               "location": "Downtown Campus 403",
               "schedule_type": "Lecture",
-              "instructor": "Ricky A Cooper",
-              "instructor_email": "rcooper3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ricky A Cooper",
+                  "email": "rcooper3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -221,8 +241,13 @@
               "days": "W",
               "location": "Downtown Campus 401",
               "schedule_type": "Lecture",
-              "instructor": "Sang-Baum Kang",
-              "instructor_email": "skang21@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sang-Baum Kang",
+                  "email": "skang21@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -268,8 +293,13 @@
               "days": "S",
               "location": "Downtown Campus 490",
               "schedule_type": "Lecture",
-              "instructor": "Michael J. Rybak",
-              "instructor_email": "mrybak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael J. Rybak",
+                  "email": "mrybak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -366,8 +396,13 @@
               "days": "T",
               "location": "Downtown Campus 490",
               "schedule_type": "Lecture",
-              "instructor": "Michael J. Rybak",
-              "instructor_email": "mrybak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael J. Rybak",
+                  "email": "mrybak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -413,8 +448,13 @@
               "days": "W",
               "location": "Downtown Campus 490",
               "schedule_type": "Lecture",
-              "instructor": "Michael J. Rybak",
-              "instructor_email": "mrybak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael J. Rybak",
+                  "email": "mrybak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -477,8 +517,13 @@
               "days": "R",
               "location": "Downtown Campus 403",
               "schedule_type": "Lecture",
-              "instructor": "Ricky A Cooper",
-              "instructor_email": "rcooper3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ricky A Cooper",
+                  "email": "rcooper3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -524,8 +569,13 @@
               "days": "F",
               "location": "Downtown Campus 490",
               "schedule_type": "Lecture",
-              "instructor": "Benjamin E. Van Vliet",
-              "instructor_email": "bvanvliet@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Benjamin E. Van Vliet",
+                  "email": "bvanvliet@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -622,8 +672,13 @@
               "days": "F",
               "location": "Downtown Campus 401",
               "schedule_type": "Lecture",
-              "instructor": "Sang-Baum Kang",
-              "instructor_email": "skang21@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sang-Baum Kang",
+                  "email": "skang21@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -686,8 +741,13 @@
               "days": "M",
               "location": "Downtown Campus 409",
               "schedule_type": "Lecture",
-              "instructor": "Haizhi Wang",
-              "instructor_email": "hwang23@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Haizhi Wang",
+                  "email": "hwang23@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -750,8 +810,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Haizhi Wang",
-              "instructor_email": "hwang23@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Haizhi Wang",
+                  "email": "hwang23@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -779,8 +844,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Michael J. Rybak",
-              "instructor_email": "mrybak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael J. Rybak",
+                  "email": "mrybak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -808,14 +878,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ricky A Cooper",
-              "instructor_email": "rcooper3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ricky A Cooper",
+                  "email": "rcooper3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 10,
-            "actual": 4,
-            "remaining": 6,
+            "actual": 5,
+            "remaining": 5,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -837,8 +912,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Sang-Baum Kang",
-              "instructor_email": "skang21@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sang-Baum Kang",
+                  "email": "skang21@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -866,8 +946,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Benjamin E. Van Vliet",
-              "instructor_email": "bvanvliet@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Benjamin E. Van Vliet",
+                  "email": "bvanvliet@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

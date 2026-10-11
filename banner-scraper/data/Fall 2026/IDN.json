@@ -101,8 +101,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Lecture",
-              "instructor": "Nicholas Marc Paredes",
-              "instructor_email": "nparedes1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nicholas Marc Paredes",
+                  "email": "nparedes1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -148,8 +153,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Studio",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -195,8 +205,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Studio",
-              "instructor": "Martin Thaler",
-              "instructor_email": "mthaler@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin Thaler",
+                  "email": "mthaler@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -259,8 +274,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Studio",
-              "instructor": "Zachary Pino",
-              "instructor_email": "zach.pino@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary Pino",
+                  "email": "zach.pino@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -323,8 +343,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Jennifer deWinter",
-              "instructor_email": "jdewinter@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jennifer deWinter",
+                  "email": "jdewinter@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -370,8 +395,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 211W",
               "schedule_type": "Studio",
-              "instructor": "Martin Thaler",
-              "instructor_email": "mthaler@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin Thaler",
+                  "email": "mthaler@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -434,8 +464,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Studio",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -617,14 +652,19 @@
               "days": "M",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mo Sook Park",
-              "instructor_email": "mpark24@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mo Sook Park",
+                  "email": "mpark24@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 18,
-            "actual": 16,
-            "remaining": 2,
+            "actual": 15,
+            "remaining": 3,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -698,8 +738,13 @@
               "days": "T",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Mayfield",
-              "instructor_email": "mayfield@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Mayfield",
+                  "email": "mayfield@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -813,8 +858,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 227",
               "schedule_type": "Seminar",
-              "instructor": "Ruth K Schmidt",
-              "instructor_email": "rschmid8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ruth K Schmidt",
+                  "email": "rschmid8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -851,17 +901,22 @@
           "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=14304",
           "credits": 1.5,
           "schedule_type": "Lecture",
-          "campus": "Mies Campus",
+          "campus": "Internet Campus",
           "notes": "",
           "meetings": [
             {
               "type": "Class",
-              "time": "8:35 AM - 11:35 AM",
+              "time": "5:00 PM - 8:00 PM",
               "days": "R",
-              "location": "Ed Kaplan Family Institute 226",
+              "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Aaron P McGaffey",
+                  "email": "amcgaffey@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -907,8 +962,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Lecture",
-              "instructor": "Ruth K Schmidt",
-              "instructor_email": "rschmid8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ruth K Schmidt",
+                  "email": "rschmid8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1005,8 +1065,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jennifer deWinter",
-              "instructor_email": "jdewinter@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jennifer deWinter",
+                  "email": "jdewinter@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1103,8 +1168,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Lecture",
-              "instructor": "Weslynne Ashton",
-              "instructor_email": "washton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Weslynne Ashton",
+                  "email": "washton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1184,8 +1254,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 227",
               "schedule_type": "Seminar",
-              "instructor": "Carlos Teixeira",
-              "instructor_email": "carlos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carlos Teixeira",
+                  "email": "carlos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1231,8 +1306,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 227",
               "schedule_type": "Seminar",
-              "instructor": "Weslynne Ashton",
-              "instructor_email": "washton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Weslynne Ashton",
+                  "email": "washton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1278,8 +1358,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 227",
               "schedule_type": "Seminar",
-              "instructor": "Carlos Teixeira",
-              "instructor_email": "carlos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carlos Teixeira",
+                  "email": "carlos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1325,8 +1410,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zachary Pino",
-              "instructor_email": "zach.pino@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary Pino",
+                  "email": "zach.pino@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1354,8 +1444,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Carlos Teixeira",
-              "instructor_email": "carlos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carlos Teixeira",
+                  "email": "carlos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1383,8 +1478,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ruth K Schmidt",
-              "instructor_email": "rschmid8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ruth K Schmidt",
+                  "email": "rschmid8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1412,8 +1512,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Weslynne Ashton",
-              "instructor_email": "washton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Weslynne Ashton",
+                  "email": "washton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

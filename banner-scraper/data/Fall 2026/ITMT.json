@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Perlstein Hall 131",
               "schedule_type": "Lecture",
-              "instructor": "Gurram Gopal",
-              "instructor_email": "gopal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Gurram Gopal",
-              "instructor_email": "gopal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,8 +101,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 036",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -120,8 +135,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Steven C. Rubinow",
-              "instructor_email": "srubinow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -184,8 +204,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -367,8 +392,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -431,8 +461,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -512,8 +547,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -541,8 +581,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yibo Hu",
-              "instructor_email": "yhu89@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yibo Hu",
+                  "email": "yhu89@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -570,8 +615,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -599,8 +649,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -628,8 +683,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Louis Francis McHugh",
-              "instructor_email": "lmchughi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Louis Francis McHugh",
+                  "email": "lmchughi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -657,8 +717,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Gurram Gopal",
-              "instructor_email": "gopal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -686,8 +751,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

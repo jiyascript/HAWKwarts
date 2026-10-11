@@ -33,8 +33,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -109,8 +119,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -138,8 +153,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -185,8 +205,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -214,8 +239,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -261,8 +291,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -290,8 +325,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -337,8 +377,13 @@
               "days": "T",
               "location": "Stuart Building 223",
               "schedule_type": "Lecture",
-              "instructor": "Curtie E Allee",
-              "instructor_email": "callee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Curtie E Allee",
+                  "email": "callee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -366,8 +411,13 @@
               "days": "W",
               "location": "Stuart Building 223",
               "schedule_type": "Lecture",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -430,8 +480,13 @@
               "days": "T",
               "location": "Downtown Campus 490",
               "schedule_type": "Seminar",
-              "instructor": "Justine Grant",
-              "instructor_email": "jgrant2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Justine Grant",
+                  "email": "jgrant2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -459,8 +514,13 @@
               "days": "W",
               "location": "Stuart Building 212",
               "schedule_type": "Seminar",
-              "instructor": "Curtie E Allee",
-              "instructor_email": "callee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Curtie E Allee",
+                  "email": "callee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -488,8 +548,13 @@
               "days": "W",
               "location": "Downtown Campus 470",
               "schedule_type": "Seminar",
-              "instructor": "Yumiko Saito",
-              "instructor_email": "ysaito@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yumiko Saito",
+                  "email": "ysaito@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -517,8 +582,13 @@
               "days": "T",
               "location": "Downtown Campus 490",
               "schedule_type": "Seminar",
-              "instructor": "Yesenia Alarcon",
-              "instructor_email": "yalarcon@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yesenia Alarcon",
+                  "email": "yalarcon@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -564,14 +634,19 @@
               "days": "T",
               "location": "Downtown Campus 470",
               "schedule_type": "Seminar",
-              "instructor": "Justine Grant",
-              "instructor_email": "jgrant2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Justine Grant",
+                  "email": "jgrant2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 10,
-            "actual": 3,
-            "remaining": 7,
+            "actual": 8,
+            "remaining": 2,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -593,8 +668,13 @@
               "days": "W",
               "location": "Stuart Building 213",
               "schedule_type": "Seminar",
-              "instructor": "Curtie E Allee",
-              "instructor_email": "callee@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Curtie E Allee",
+                  "email": "callee@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -622,14 +702,19 @@
               "days": "W",
               "location": "Downtown Campus 470",
               "schedule_type": "Seminar",
-              "instructor": "Yumiko Saito",
-              "instructor_email": "ysaito@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yumiko Saito",
+                  "email": "ysaito@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 10,
-            "actual": 0,
-            "remaining": 10,
+            "actual": 3,
+            "remaining": 7,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -651,14 +736,19 @@
               "days": "T",
               "location": "Downtown Campus 490",
               "schedule_type": "Seminar",
-              "instructor": "Yesenia Alarcon",
-              "instructor_email": "yalarcon@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yesenia Alarcon",
+                  "email": "yalarcon@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 10,
-            "actual": 0,
-            "remaining": 10,
+            "actual": 4,
+            "remaining": 6,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -698,8 +788,13 @@
               "days": "T",
               "location": "Downtown Campus 470",
               "schedule_type": "Seminar",
-              "instructor": "Natalie Champagne",
-              "instructor_email": "nchampagne@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Natalie Champagne",
+                  "email": "nchampagne@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

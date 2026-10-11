@@ -50,8 +50,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kelly A. Roehl , Britt Burton-Freeman",
-              "instructor_email": "kroehl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kelly A. Roehl",
+                  "email": "kroehl@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -284,8 +294,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -313,8 +328,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -445,8 +465,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -474,8 +499,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -538,8 +568,13 @@
               "days": "T",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "John F Hammerstone",
-              "instructor_email": "jhammers@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John F Hammerstone",
+                  "email": "jhammers@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -567,8 +602,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "John F Hammerstone",
-              "instructor_email": "jhammers@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John F Hammerstone",
+                  "email": "jhammers@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -716,8 +756,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -814,8 +859,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -843,8 +893,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -992,8 +1047,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1021,8 +1081,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1085,8 +1150,13 @@
               "days": "T",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "John F Hammerstone",
-              "instructor_email": "jhammers@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John F Hammerstone",
+                  "email": "jhammers@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1114,8 +1184,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "John F Hammerstone",
-              "instructor_email": "jhammers@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John F Hammerstone",
+                  "email": "jhammers@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1280,8 +1355,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture",
-              "instructor": "Amandeep Sandhu",
-              "instructor_email": "asandhu2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Amandeep Sandhu",
+                  "email": "asandhu2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1309,8 +1389,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Amandeep Sandhu",
-              "instructor_email": "asandhu2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Amandeep Sandhu",
+                  "email": "asandhu2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1441,8 +1526,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1470,8 +1560,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1499,8 +1594,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Amandeep Sandhu",
-              "instructor_email": "asandhu2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Amandeep Sandhu",
+                  "email": "asandhu2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1563,8 +1663,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1592,8 +1697,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1621,8 +1731,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Amandeep Sandhu",
-              "instructor_email": "asandhu2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Amandeep Sandhu",
+                  "email": "asandhu2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1668,8 +1783,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kathiravan Krishnamurthy",
-              "instructor_email": "kkrishn2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathiravan Krishnamurthy",
+                  "email": "kkrishn2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1697,8 +1817,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1726,8 +1851,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Amandeep Sandhu",
-              "instructor_email": "asandhu2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Amandeep Sandhu",
+                  "email": "asandhu2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1858,8 +1988,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Britt Burton-Freeman",
-              "instructor_email": "bburton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Britt Burton-Freeman",
+                  "email": "bburton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1887,8 +2022,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Amandeep Sandhu",
-              "instructor_email": "asandhu2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Amandeep Sandhu",
+                  "email": "asandhu2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

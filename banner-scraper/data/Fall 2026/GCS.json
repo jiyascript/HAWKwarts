@@ -50,8 +50,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Faculty TBA",
-              "instructor_email": "NoReply-Reg@iit.edu"
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -79,8 +84,7 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": []
             }
           ],
           "availability": {
@@ -126,8 +130,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Faculty TBA",
-              "instructor_email": "NoReply-Reg@iit.edu"
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

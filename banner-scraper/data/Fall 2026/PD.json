@@ -50,8 +50,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "John Summers Engelhardt",
-              "instructor_email": "jengelha@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John Summers Engelhardt",
+                  "email": "jengelha@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

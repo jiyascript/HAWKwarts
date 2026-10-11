@@ -67,8 +67,13 @@
               "days": "MW",
               "location": "Downtown Campus 485",
               "schedule_type": "Lecture",
-              "instructor": "Weslynne Ashton",
-              "instructor_email": "washton@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Weslynne Ashton",
+                  "email": "washton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -131,8 +136,13 @@
               "days": "MW",
               "location": "Downtown Campus 485",
               "schedule_type": "Lecture",
-              "instructor": "Tannis Jenine Williamson",
-              "instructor_email": "twilliamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tannis Jenine Williamson",
+                  "email": "twilliamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -195,8 +205,13 @@
               "days": "TR",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Helen N. Ezenwa",
-              "instructor_email": "hezenwa@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Helen N. Ezenwa",
+                  "email": "hezenwa@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

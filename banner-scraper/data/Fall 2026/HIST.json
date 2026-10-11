@@ -118,8 +118,13 @@
               "days": "MW",
               "location": "Siegel Hall 237",
               "schedule_type": "Lecture",
-              "instructor": "Keith Green",
-              "instructor_email": "greenk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Green",
+                  "email": "greenk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -233,8 +238,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -297,8 +307,13 @@
               "days": "MW",
               "location": "Siegel Hall 237",
               "schedule_type": "Lecture",
-              "instructor": "Keith Green",
-              "instructor_email": "greenk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Green",
+                  "email": "greenk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

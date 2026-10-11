@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "IIT Tower 14C5-1",
               "schedule_type": "Lecture",
-              "instructor": "Barry Eugene Speller",
-              "instructor_email": "bspeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Barry Eugene Speller",
-              "instructor_email": "bspeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,14 +101,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Barry Eugene Speller",
-              "instructor_email": "bspeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 250,
-            "actual": 8,
-            "remaining": 242,
+            "actual": 9,
+            "remaining": 241,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -138,8 +153,13 @@
               "days": "TR",
               "location": "Wishnick Hall 116",
               "schedule_type": "Lecture",
-              "instructor": "Anita F. Debarlaben",
-              "instructor_email": "adebarla@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anita F. Debarlaben",
+                  "email": "adebarla@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -167,8 +187,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Anita F. Debarlaben",
-              "instructor_email": "adebarla@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anita F. Debarlaben",
+                  "email": "adebarla@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -196,8 +221,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Anita F. Debarlaben",
-              "instructor_email": "adebarla@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anita F. Debarlaben",
+                  "email": "adebarla@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -225,8 +255,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Anita F. Debarlaben",
-              "instructor_email": "adebarla@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anita F. Debarlaben",
+                  "email": "adebarla@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -254,8 +289,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Daniel John Krieglstein",
-              "instructor_email": "kriedan@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel John Krieglstein",
+                  "email": "kriedan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -301,8 +341,13 @@
               "days": "MW",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -330,8 +375,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -377,8 +427,13 @@
               "days": "F",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -406,8 +461,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -538,8 +598,13 @@
               "days": "MW",
               "location": "IIT Tower 6D6-1",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -567,8 +632,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -699,8 +769,13 @@
               "days": "F",
               "location": "Stuart Building 225",
               "schedule_type": "Lecture",
-              "instructor": "Raj Krishnan",
-              "instructor_email": "rkrish20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raj Krishnan",
+                  "email": "rkrish20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -728,8 +803,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Raj Krishnan",
-              "instructor_email": "rkrish20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raj Krishnan",
+                  "email": "rkrish20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -860,8 +940,13 @@
               "days": "M",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Hosea H. Lee",
-              "instructor_email": "hlee110@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hosea H. Lee",
+                  "email": "hlee110@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -889,8 +974,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Hosea H. Lee",
-              "instructor_email": "hlee110@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hosea H. Lee",
+                  "email": "hlee110@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -953,14 +1043,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Raj Krishnan",
-              "instructor_email": "rkrish20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raj Krishnan",
+                  "email": "rkrish20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 50,
-            "actual": 18,
-            "remaining": 32,
+            "actual": 20,
+            "remaining": 30,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -1085,8 +1180,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 240",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1114,8 +1214,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1143,8 +1248,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1224,8 +1334,13 @@
               "days": "TR",
               "location": "Tech Park - South Building 2030",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1253,8 +1368,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1282,8 +1402,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1311,8 +1436,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy Robert Hajek",
-              "instructor_email": "hajek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1358,8 +1488,13 @@
               "days": "TR",
               "location": "Stuart Building 225",
               "schedule_type": "Lecture",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1387,8 +1522,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1416,8 +1556,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1445,8 +1590,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yong Zheng",
-              "instructor_email": "yzheng66@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1543,8 +1693,13 @@
               "days": "TR",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Yibo Hu",
-              "instructor_email": "yhu89@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yibo Hu",
+                  "email": "yhu89@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1572,8 +1727,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yibo Hu",
-              "instructor_email": "yhu89@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yibo Hu",
+                  "email": "yhu89@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1601,8 +1761,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yibo Hu",
-              "instructor_email": "yhu89@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yibo Hu",
+                  "email": "yhu89@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1682,8 +1847,13 @@
               "days": "MW",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1711,8 +1881,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1740,8 +1915,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yun Dong",
-              "instructor_email": "ydong27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yun Dong",
+                  "email": "ydong27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1804,8 +1984,13 @@
               "days": "S",
               "location": "Stuart Building 111",
               "schedule_type": "Lecture",
-              "instructor": "Atef J. Bader",
-              "instructor_email": "abader@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Atef J. Bader",
+                  "email": "abader@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1833,8 +2018,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Atef J. Bader",
-              "instructor_email": "abader@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Atef J. Bader",
+                  "email": "abader@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1862,8 +2052,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Atef J. Bader",
-              "instructor_email": "abader@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Atef J. Bader",
+                  "email": "abader@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1926,8 +2121,13 @@
               "days": "MW",
               "location": "IIT Tower 6D6-1",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1955,8 +2155,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1984,8 +2189,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2013,8 +2223,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Papademas",
-              "instructor_email": "jpapadem@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2145,8 +2360,13 @@
               "days": "F",
               "location": "Stuart Building 225",
               "schedule_type": "Lecture",
-              "instructor": "Raj Krishnan",
-              "instructor_email": "rkrish20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raj Krishnan",
+                  "email": "rkrish20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2174,8 +2394,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Raj Krishnan",
-              "instructor_email": "rkrish20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raj Krishnan",
+                  "email": "rkrish20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2203,8 +2428,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Raj Krishnan",
-              "instructor_email": "rkrish20@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raj Krishnan",
+                  "email": "rkrish20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2352,8 +2582,13 @@
               "days": "M",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Hosea H. Lee",
-              "instructor_email": "hlee110@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hosea H. Lee",
+                  "email": "hlee110@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2381,8 +2616,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Hosea H. Lee",
-              "instructor_email": "hlee110@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hosea H. Lee",
+                  "email": "hlee110@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2410,8 +2650,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Hosea H. Lee",
-              "instructor_email": "hlee110@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hosea H. Lee",
+                  "email": "hlee110@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2439,8 +2684,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Hosea H. Lee",
-              "instructor_email": "hlee110@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Hosea H. Lee",
+                  "email": "hlee110@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

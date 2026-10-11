@@ -84,8 +84,13 @@
               "days": "R",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Rahul Patel",
-              "instructor_email": "rpatel37@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rahul Patel",
+                  "email": "rpatel37@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -113,8 +118,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Rahul Patel",
-              "instructor_email": "rpatel37@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rahul Patel",
+                  "email": "rpatel37@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -160,8 +170,13 @@
               "days": "M",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -189,8 +204,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -236,8 +256,13 @@
               "days": "T",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Louis Francis McHugh",
-              "instructor_email": "lmchughi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Louis Francis McHugh",
+                  "email": "lmchughi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -265,8 +290,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lab",
-              "instructor": "Louis Francis McHugh",
-              "instructor_email": "lmchughi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Louis Francis McHugh",
+                  "email": "lmchughi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -312,8 +342,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 107-5",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -341,8 +376,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -370,8 +410,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Jovany Melchor",
-              "instructor_email": "jmelchor@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovany Melchor",
+                  "email": "jmelchor@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -417,8 +462,13 @@
               "days": "R",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Philip M Matuszak",
-              "instructor_email": "matuphi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Philip M Matuszak",
+                  "email": "matuphi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -446,8 +496,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Philip M Matuszak",
-              "instructor_email": "matuphi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Philip M Matuszak",
+                  "email": "matuphi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -510,8 +565,13 @@
               "days": "T",
               "location": "Stuart Building 238",
               "schedule_type": "Lecture",
-              "instructor": "Vikas Jayaram Sanil",
-              "instructor_email": "vsanil1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vikas Jayaram Sanil",
+                  "email": "vsanil1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -539,8 +599,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Vikas Jayaram Sanil",
-              "instructor_email": "vsanil1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vikas Jayaram Sanil",
+                  "email": "vsanil1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -568,8 +633,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Vikas Jayaram Sanil",
-              "instructor_email": "vsanil1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vikas Jayaram Sanil",
+                  "email": "vsanil1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -632,8 +702,13 @@
               "days": "R",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Jovany Melchor",
-              "instructor_email": "jmelchor@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovany Melchor",
+                  "email": "jmelchor@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -661,8 +736,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovany Melchor",
-              "instructor_email": "jmelchor@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovany Melchor",
+                  "email": "jmelchor@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -708,8 +788,13 @@
               "days": "W",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Thomas Andrew Johnson",
-              "instructor_email": "tjohns15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Andrew Johnson",
+                  "email": "tjohns15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -737,8 +822,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Thomas Andrew Johnson",
-              "instructor_email": "tjohns15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Andrew Johnson",
+                  "email": "tjohns15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -835,8 +925,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 240",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -864,8 +959,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -893,8 +993,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Yuhan Ding",
-              "instructor_email": "yding2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1008,8 +1113,13 @@
               "days": "R",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Rahul Patel",
-              "instructor_email": "rpatel37@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rahul Patel",
+                  "email": "rpatel37@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1037,8 +1147,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Rahul Patel",
-              "instructor_email": "rpatel37@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rahul Patel",
+                  "email": "rpatel37@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1066,8 +1181,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Rahul Patel",
-              "instructor_email": "rpatel37@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rahul Patel",
+                  "email": "rpatel37@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1130,8 +1250,13 @@
               "days": "M",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1159,8 +1284,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1188,8 +1318,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1235,8 +1370,13 @@
               "days": "T",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Louis Francis McHugh",
-              "instructor_email": "lmchughi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Louis Francis McHugh",
+                  "email": "lmchughi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1264,8 +1404,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lab",
-              "instructor": "Louis Francis McHugh",
-              "instructor_email": "lmchughi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Louis Francis McHugh",
+                  "email": "lmchughi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1293,8 +1438,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Louis Francis McHugh",
-              "instructor_email": "lmchughi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Louis Francis McHugh",
+                  "email": "lmchughi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1340,8 +1490,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 107-5",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1369,8 +1524,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1398,8 +1558,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Kevin Vaccaro",
-              "instructor_email": "vacckev@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Vaccaro",
+                  "email": "vacckev@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1496,8 +1661,13 @@
               "days": "R",
               "location": "John T. Rettaliata Engg Center 032",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Philip M Matuszak",
-              "instructor_email": "matuphi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Philip M Matuszak",
+                  "email": "matuphi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1525,8 +1695,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Philip M Matuszak",
-              "instructor_email": "matuphi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Philip M Matuszak",
+                  "email": "matuphi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1554,8 +1729,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Philip M Matuszak",
-              "instructor_email": "matuphi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Philip M Matuszak",
+                  "email": "matuphi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1601,8 +1781,13 @@
               "days": "T",
               "location": "Stuart Building 238",
               "schedule_type": "Lecture",
-              "instructor": "Vikas Jayaram Sanil",
-              "instructor_email": "vsanil1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vikas Jayaram Sanil",
+                  "email": "vsanil1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1630,8 +1815,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Vikas Jayaram Sanil",
-              "instructor_email": "vsanil1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vikas Jayaram Sanil",
+                  "email": "vsanil1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1659,14 +1849,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Vikas Jayaram Sanil",
-              "instructor_email": "vsanil1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vikas Jayaram Sanil",
+                  "email": "vsanil1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 250,
-            "actual": 17,
-            "remaining": 233,
+            "actual": 19,
+            "remaining": 231,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -1706,8 +1901,13 @@
               "days": "R",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "Jovany Melchor",
-              "instructor_email": "jmelchor@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovany Melchor",
+                  "email": "jmelchor@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1735,8 +1935,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovany Melchor",
-              "instructor_email": "jmelchor@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovany Melchor",
+                  "email": "jmelchor@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1782,8 +1987,13 @@
               "days": "W",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Thomas Andrew Johnson",
-              "instructor_email": "tjohns15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Andrew Johnson",
+                  "email": "tjohns15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1811,8 +2021,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Thomas Andrew Johnson",
-              "instructor_email": "tjohns15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Andrew Johnson",
+                  "email": "tjohns15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1840,8 +2055,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Thomas Andrew Johnson",
-              "instructor_email": "tjohns15@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Andrew Johnson",
+                  "email": "tjohns15@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1938,8 +2158,13 @@
               "days": "R",
               "location": "Wishnick Hall 116",
               "schedule_type": "Lecture",
-              "instructor": "Adan K Pope",
-              "instructor_email": "apope4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1967,14 +2192,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Adan K Pope",
-              "instructor_email": "apope4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 12,
-            "actual": 9,
-            "remaining": 3,
+            "actual": 8,
+            "remaining": 4,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -1996,8 +2226,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Adan K Pope",
-              "instructor_email": "apope4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

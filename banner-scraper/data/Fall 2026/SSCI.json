@@ -33,8 +33,13 @@
               "days": "F",
               "location": "Siegel Hall 118",
               "schedule_type": "Lecture",
-              "instructor": "Leslie Johnson",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -97,8 +102,13 @@
               "days": "MW",
               "location": "Perlstein Hall 131",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Shapiro",
-              "instructor_email": "shapiro@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Shapiro",
+                  "email": "shapiro@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -144,8 +154,13 @@
               "days": "TR",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Lecture",
-              "instructor": "Joseph A. Renow",
-              "instructor_email": "jrenow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph A. Renow",
+                  "email": "jrenow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -310,8 +325,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Richard B. Schultz",
-              "instructor_email": "rschultz2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard B. Schultz",
+                  "email": "rschultz2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -425,8 +445,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 119",
               "schedule_type": "Lecture",
-              "instructor": "Saran Ghatak",
-              "instructor_email": "sghatak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Saran Ghatak",
+                  "email": "sghatak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -489,8 +514,13 @@
               "days": "MW",
               "location": "John T. Rettaliata Engg Center 121",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Shapiro",
-              "instructor_email": "shapiro@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Shapiro",
+                  "email": "shapiro@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -587,8 +617,13 @@
               "days": "TR",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Joseph A. Renow",
-              "instructor_email": "jrenow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph A. Renow",
+                  "email": "jrenow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -634,8 +669,13 @@
               "days": "MW",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Yuri S. Mansury",
-              "instructor_email": "ymansury@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuri S. Mansury",
+                  "email": "ymansury@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -681,8 +721,13 @@
               "days": "TR",
               "location": "Wishnick Hall 117",
               "schedule_type": "Lecture",
-              "instructor": "Yuri S. Mansury",
-              "instructor_email": "ymansury@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yuri S. Mansury",
+                  "email": "ymansury@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -745,8 +790,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Bliss",
-              "instructor_email": "dbliss@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Bliss",
+                  "email": "dbliss@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -826,8 +876,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Daniel Bliss",
-              "instructor_email": "dbliss@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Bliss",
+                  "email": "dbliss@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -890,8 +945,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "Saran Ghatak",
-              "instructor_email": "sghatak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Saran Ghatak",
+                  "email": "sghatak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

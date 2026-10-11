@@ -135,8 +135,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -164,8 +169,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -193,8 +203,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -215,7 +230,22 @@
           "schedule_type": "Lecture",
           "campus": "International Program Campus",
           "notes": "",
-          "meetings": [],
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
+            }
+          ],
           "availability": {
             "capacity": 5,
             "actual": 1,
@@ -259,8 +289,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -288,8 +323,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -317,8 +357,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -364,8 +409,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -393,8 +443,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -433,7 +488,22 @@
           "schedule_type": "Lecture",
           "campus": "International Program Campus",
           "notes": "",
-          "meetings": [],
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
+            }
+          ],
           "availability": {
             "capacity": 5,
             "actual": 1,
@@ -459,8 +529,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -523,14 +598,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 5,
-            "actual": 3,
-            "remaining": 2,
+            "actual": 4,
+            "remaining": 1,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -552,8 +632,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -581,8 +666,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -628,8 +718,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -657,14 +752,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 5,
-            "actual": 2,
-            "remaining": 3,
+            "actual": 3,
+            "remaining": 2,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -681,13 +781,48 @@
       "course_description": "",
       "learning_objectives": "",
       "catalog_syllabus_url": "",
-      "levels": "",
-      "attributes": "",
+      "levels": "Master of Laws, Law, Non Credit",
+      "attributes": "CK Law Tuition Rate",
       "restrictions": "",
       "prerequisites": "",
       "general_requirements": "",
       "mutual_exclusions": "",
-      "sections": []
+      "sections": [
+        {
+          "section": "05",
+          "section_name": "Administrative Law-Trinity",
+          "crn": "17532",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202710&crn_in=17532",
+          "credits": 10.0,
+          "schedule_type": "Lecture",
+          "campus": "International Program Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 1,
+            "remaining": 4,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
     },
     {
       "course_code": "LAW",
@@ -806,8 +941,13 @@
               "days": "MW",
               "location": "Downtown Campus 545",
               "schedule_type": "Law Legal Writing 4",
-              "instructor": "Ira Moltz",
-              "instructor_email": "imoltz@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ira Moltz",
+                  "email": "imoltz@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -835,8 +975,13 @@
               "days": "MW",
               "location": "Downtown Campus 580",
               "schedule_type": "Law Legal Writing 4",
-              "instructor": "Matthew P Warren",
-              "instructor_email": "mwarren10@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew P Warren",
+                  "email": "mwarren10@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -864,8 +1009,13 @@
               "days": "MW",
               "location": "Downtown Campus 305",
               "schedule_type": "Law Legal Writing 4",
-              "instructor": "Ira Moltz",
-              "instructor_email": "imoltz@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ira Moltz",
+                  "email": "imoltz@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -893,8 +1043,13 @@
               "days": "TR",
               "location": "Downtown Campus 700",
               "schedule_type": "Law Legal Writing 4",
-              "instructor": "Keith L Southam",
-              "instructor_email": "ksoutham@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith L Southam",
+                  "email": "ksoutham@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -940,8 +1095,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Laurie A Silvestri",
-              "instructor_email": "lsilvest@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Laurie A Silvestri",
+                  "email": "lsilvest@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1259,8 +1419,18 @@
               "days": "TR",
               "location": "Downtown Campus C25",
               "schedule_type": "Lecture",
-              "instructor": "Sheldon L. Solow , Warren J. Fasone",
-              "instructor_email": "ssolow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sheldon L. Solow",
+                  "email": "ssolow@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Warren J. Fasone",
+                  "email": "wfasone@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1782,8 +1952,13 @@
               "days": "TR",
               "location": "Downtown Campus 545",
               "schedule_type": "Lecture",
-              "instructor": "Edward C. Harris",
-              "instructor_email": "eharris@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Edward C. Harris",
+                  "email": "eharris@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2016,8 +2191,13 @@
               "days": "T",
               "location": "Downtown Campus C50",
               "schedule_type": "Lecture",
-              "instructor": "Christopher W Schmidt",
-              "instructor_email": "cschmidt@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Christopher W Schmidt",
+                  "email": "cschmidt@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2437,8 +2617,13 @@
               "days": "W",
               "location": "Downtown Campus 345",
               "schedule_type": "Lecture",
-              "instructor": "Matthew Stanton",
-              "instructor_email": "mstanto1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Stanton",
+                  "email": "mstanto1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2943,8 +3128,13 @@
               "days": "M",
               "location": "Downtown Campus 270",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Martin Katz",
-              "instructor_email": "dkatz3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Martin Katz",
+                  "email": "dkatz3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3296,8 +3486,13 @@
               "days": "T",
               "location": "Downtown Campus 210",
               "schedule_type": "Lecture",
-              "instructor": "Edward C. Harris",
-              "instructor_email": "eharris@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Edward C. Harris",
+                  "email": "eharris@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -3305,8 +3500,13 @@
               "days": "WR",
               "location": "Downtown Campus 210",
               "schedule_type": "Lecture",
-              "instructor": "Edward C. Harris",
-              "instructor_email": "eharris@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Edward C. Harris",
+                  "email": "eharris@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3334,8 +3534,13 @@
               "days": "MWR",
               "location": "Downtown Campus AUD",
               "schedule_type": "Lecture",
-              "instructor": "James Tierney",
-              "instructor_email": "jtierney1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Tierney",
+                  "email": "jtierney1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3398,8 +3603,13 @@
               "days": "MWR",
               "location": "Downtown Campus 510",
               "schedule_type": "Lecture",
-              "instructor": "Noah Smith-Drelich",
-              "instructor_email": "nsmithdrelich@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Noah Smith-Drelich",
+                  "email": "nsmithdrelich@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3427,8 +3637,13 @@
               "days": "TR",
               "location": "Downtown Campus C20",
               "schedule_type": "Lecture",
-              "instructor": "Gregory W. Reilly",
-              "instructor_email": "greilly1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gregory W. Reilly",
+                  "email": "greilly1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -3436,8 +3651,13 @@
               "days": "F",
               "location": "Downtown Campus C20",
               "schedule_type": "Lecture",
-              "instructor": "Gregory W. Reilly",
-              "instructor_email": "greilly1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gregory W. Reilly",
+                  "email": "greilly1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3465,8 +3685,13 @@
               "days": "MTR",
               "location": "Downtown Campus C50",
               "schedule_type": "Lecture",
-              "instructor": "Pedro Gerson",
-              "instructor_email": "pgerson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pedro Gerson",
+                  "email": "pgerson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3494,8 +3719,13 @@
               "days": "TW",
               "location": "Downtown Campus 170",
               "schedule_type": "Lecture",
-              "instructor": "Pedro Gerson",
-              "instructor_email": "pgerson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pedro Gerson",
+                  "email": "pgerson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3592,8 +3822,13 @@
               "days": "TR",
               "location": "Downtown Campus C40",
               "schedule_type": "Lecture",
-              "instructor": "Zachary Sommers",
-              "instructor_email": "zsommers@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary Sommers",
+                  "email": "zsommers@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3621,8 +3856,13 @@
               "days": "TF",
               "location": "Downtown Campus 590",
               "schedule_type": "Lecture",
-              "instructor": "Zachary Sommers",
-              "instructor_email": "zsommers@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary Sommers",
+                  "email": "zsommers@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3650,8 +3890,13 @@
               "days": "TR",
               "location": "Downtown Campus C35",
               "schedule_type": "Lecture",
-              "instructor": "Raffana Donelson",
-              "instructor_email": "rdonelson1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raffana Donelson",
+                  "email": "rdonelson1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3679,8 +3924,13 @@
               "days": "TW",
               "location": "Downtown Campus C35",
               "schedule_type": "Lecture",
-              "instructor": "Harold Krent",
-              "instructor_email": "hkrent@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Harold Krent",
+                  "email": "hkrent@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3726,8 +3976,13 @@
               "days": "MW",
               "location": "Downtown Campus 520",
               "schedule_type": "Lecture",
-              "instructor": "Mary T Nagel",
-              "instructor_email": "mnagel1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary T Nagel",
+                  "email": "mnagel1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3773,8 +4028,13 @@
               "days": "M",
               "location": "TBA",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Elizabeth D. De Armond",
-              "instructor_email": "edearmond@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth D. De Armond",
+                  "email": "edearmond@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -3782,8 +4042,13 @@
               "days": "W",
               "location": "Downtown Campus 700",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Elizabeth D. De Armond",
-              "instructor_email": "edearmond@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth D. De Armond",
+                  "email": "edearmond@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3811,8 +4076,13 @@
               "days": "F",
               "location": "Downtown Campus C40",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Elizabeth D. De Armond",
-              "instructor_email": "edearmond@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth D. De Armond",
+                  "email": "edearmond@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3840,8 +4110,13 @@
               "days": "W",
               "location": "Downtown Campus 520",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Kari Lynn Johnson",
-              "instructor_email": "kjohnson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kari Lynn Johnson",
+                  "email": "kjohnson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3869,8 +4144,13 @@
               "days": "M",
               "location": "Downtown Campus C35",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Kari Lynn Johnson",
-              "instructor_email": "kjohnson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kari Lynn Johnson",
+                  "email": "kjohnson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -3878,8 +4158,13 @@
               "days": "W",
               "location": "Downtown Campus C35",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Kari Lynn Johnson",
-              "instructor_email": "kjohnson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kari Lynn Johnson",
+                  "email": "kjohnson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3907,8 +4192,13 @@
               "days": "M",
               "location": "Downtown Campus C20",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Mary T Nagel",
-              "instructor_email": "mnagel1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary T Nagel",
+                  "email": "mnagel1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3936,8 +4226,13 @@
               "days": "M",
               "location": "Downtown Campus 580",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Mary T Nagel",
-              "instructor_email": "mnagel1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary T Nagel",
+                  "email": "mnagel1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -3945,8 +4240,13 @@
               "days": "R",
               "location": "Downtown Campus 580",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Mary T Nagel",
-              "instructor_email": "mnagel1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mary T Nagel",
+                  "email": "mnagel1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3974,8 +4274,13 @@
               "days": "T",
               "location": "Downtown Campus 520",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Kathryn Harvey",
-              "instructor_email": "kharvey2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn Harvey",
+                  "email": "kharvey2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4003,8 +4308,13 @@
               "days": "W",
               "location": "Downtown Campus 520",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Kathryn Harvey",
-              "instructor_email": "kharvey2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn Harvey",
+                  "email": "kharvey2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4032,8 +4342,13 @@
               "days": "M",
               "location": "Downtown Campus 581",
               "schedule_type": "Law Legal Writing 1",
-              "instructor": "Kathryn M Bjorklund",
-              "instructor_email": "kbjorklund@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn M Bjorklund",
+                  "email": "kbjorklund@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4181,8 +4496,13 @@
               "days": "W",
               "location": "Downtown Campus 583",
               "schedule_type": "Lecture",
-              "instructor": "Marsha L Ross-Jackson",
-              "instructor_email": "mrossjac@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Marsha L Ross-Jackson",
+                  "email": "mrossjac@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4279,8 +4599,13 @@
               "days": "TR",
               "location": "Downtown Campus 210",
               "schedule_type": "Lecture",
-              "instructor": "Douglas Wm. Godfrey",
-              "instructor_email": "dgodfrey@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Douglas Wm. Godfrey",
+                  "email": "dgodfrey@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4360,8 +4685,13 @@
               "days": "MWR",
               "location": "Downtown Campus 270",
               "schedule_type": "Lecture",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4389,8 +4719,13 @@
               "days": "MW",
               "location": "Downtown Campus 590",
               "schedule_type": "Lecture",
-              "instructor": "Richard S. Kling",
-              "instructor_email": "rkling@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard S. Kling",
+                  "email": "rkling@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4453,8 +4788,13 @@
               "days": "TR",
               "location": "Downtown Campus 704",
               "schedule_type": "Lecture",
-              "instructor": "Christopher W Schmidt",
-              "instructor_email": "cschmidt@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Christopher W Schmidt",
+                  "email": "cschmidt@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4482,8 +4822,13 @@
               "days": "MWR",
               "location": "Downtown Campus 510",
               "schedule_type": "Lecture",
-              "instructor": "Carolyn E. Shapiro",
-              "instructor_email": "cshapiro1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carolyn E. Shapiro",
+                  "email": "cshapiro1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4511,8 +4856,13 @@
               "days": "MTR",
               "location": "Downtown Campus 345",
               "schedule_type": "Lecture",
-              "instructor": "Mark D. Rosen",
-              "instructor_email": "mrosen1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mark D. Rosen",
+                  "email": "mrosen1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4575,8 +4925,13 @@
               "days": "M",
               "location": "Downtown Campus 545",
               "schedule_type": "Lecture",
-              "instructor": "Daniel M. Harris",
-              "instructor_email": "dharris6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel M. Harris",
+                  "email": "dharris6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5166,8 +5521,13 @@
               "days": "MW",
               "location": "Downtown Campus 704",
               "schedule_type": "Lecture",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5195,8 +5555,13 @@
               "days": "MW",
               "location": "Downtown Campus C50",
               "schedule_type": "Lecture",
-              "instructor": "Deadra Woods Stokes",
-              "instructor_email": "dstokes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Deadra Woods Stokes",
+                  "email": "dstokes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5531,8 +5896,13 @@
               "days": "W",
               "location": "Downtown Campus 547",
               "schedule_type": "Lecture",
-              "instructor": "Ali F. Ammoura",
-              "instructor_email": "aammoura@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ali F. Ammoura",
+                  "email": "aammoura@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5578,8 +5948,18 @@
               "days": "M",
               "location": "Downtown Campus 545",
               "schedule_type": "Lecture",
-              "instructor": "David A. Gosse , Randy R. Micheletti",
-              "instructor_email": "dgosse@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David A. Gosse",
+                  "email": "dgosse@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Randy R. Micheletti",
+                  "email": "rmichel1@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -5744,8 +6124,13 @@
               "days": "F",
               "location": "Downtown Campus 100",
               "schedule_type": "Lecture",
-              "instructor": "Jeremiah R. Lewellen",
-              "instructor_email": "jlewelle@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremiah R. Lewellen",
+                  "email": "jlewelle@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5773,8 +6158,13 @@
               "days": "R",
               "location": "Downtown Campus 100",
               "schedule_type": "Lecture",
-              "instructor": "Kim L Ward",
-              "instructor_email": "kward1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kim L Ward",
+                  "email": "kward1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5905,8 +6295,13 @@
               "days": "TR",
               "location": "Downtown Campus 270",
               "schedule_type": "Lecture",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6156,8 +6551,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jonathan Decatorsmith , Rhonda E de Freitas",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Rhonda E de Freitas",
+                  "email": "rdefreitas@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -6254,8 +6659,13 @@
               "days": "MW",
               "location": "Downtown Campus 165",
               "schedule_type": "Lecture",
-              "instructor": "Anita K Krug",
-              "instructor_email": "akrug2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anita K Krug",
+                  "email": "akrug2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6352,8 +6762,13 @@
               "days": "TR",
               "location": "Downtown Campus 580",
               "schedule_type": "Lecture",
-              "instructor": "Jason Robert Bent",
-              "instructor_email": "jbent@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jason Robert Bent",
+                  "email": "jbent@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6501,8 +6916,13 @@
               "days": "TR",
               "location": "Downtown Campus 170",
               "schedule_type": "Lecture",
-              "instructor": "Raffana Donelson",
-              "instructor_email": "rdonelson1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Raffana Donelson",
+                  "email": "rdonelson1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6650,8 +7070,18 @@
               "days": "M",
               "location": "Downtown Campus 583",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Martin Katz , Alexander Frang A. Rabanal",
-              "instructor_email": "dkatz3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Martin Katz",
+                  "email": "dkatz3@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Alexander Frang A. Rabanal",
+                  "email": "arabanal@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -6714,8 +7144,13 @@
               "days": "R",
               "location": "Downtown Campus C25",
               "schedule_type": "Lecture",
-              "instructor": "Noah Smith-Drelich",
-              "instructor_email": "nsmithdrelich@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Noah Smith-Drelich",
+                  "email": "nsmithdrelich@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6778,8 +7213,13 @@
               "days": "TR",
               "location": "Downtown Campus 520",
               "schedule_type": "Lecture",
-              "instructor": "Adam J Weber",
-              "instructor_email": "aweber@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adam J Weber",
+                  "email": "aweber@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6944,8 +7384,13 @@
               "days": "R",
               "location": "Downtown Campus 210",
               "schedule_type": "Lecture",
-              "instructor": "Philip Bareck",
-              "instructor_email": "pbareck@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Philip Bareck",
+                  "email": "pbareck@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7025,8 +7470,13 @@
               "days": "MW",
               "location": "Downtown Campus 170",
               "schedule_type": "Lecture",
-              "instructor": "Bradley Hulbert",
-              "instructor_email": "bhulbert@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Bradley Hulbert",
+                  "email": "bhulbert@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7106,8 +7556,13 @@
               "days": "MW",
               "location": "Downtown Campus 170",
               "schedule_type": "Lecture",
-              "instructor": "Cathay Smith",
-              "instructor_email": "csmith102@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cathay Smith",
+                  "email": "csmith102@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7135,8 +7590,13 @@
               "days": "MW",
               "location": "Downtown Campus 704",
               "schedule_type": "Lecture",
-              "instructor": "Graeme B. Dinwoodie",
-              "instructor_email": "gdinwoodie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Graeme B. Dinwoodie",
+                  "email": "gdinwoodie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7182,8 +7642,13 @@
               "days": "T",
               "location": "Downtown Campus 270",
               "schedule_type": "Lecture",
-              "instructor": "Cherish M. Keller",
-              "instructor_email": "ckeller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cherish M. Keller",
+                  "email": "ckeller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7263,8 +7728,13 @@
               "days": "TR",
               "location": "Downtown Campus C40",
               "schedule_type": "Lecture",
-              "instructor": "Cary M. Shelby",
-              "instructor_email": "cshelby@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cary M. Shelby",
+                  "email": "cshelby@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7292,8 +7762,13 @@
               "days": "TR",
               "location": "Downtown Campus C40",
               "schedule_type": "Lecture",
-              "instructor": "Cary M. Shelby",
-              "instructor_email": "cshelby@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cary M. Shelby",
+                  "email": "cshelby@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7339,8 +7814,13 @@
               "days": "T",
               "location": "Downtown Campus 704",
               "schedule_type": "Lecture",
-              "instructor": "Peter H. Hanna",
-              "instructor_email": "phanna1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Peter H. Hanna",
+                  "email": "phanna1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7454,8 +7934,13 @@
               "days": "R",
               "location": "Downtown Campus 580",
               "schedule_type": "Lecture",
-              "instructor": "Sheldon L. Solow",
-              "instructor_email": "ssolow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sheldon L. Solow",
+                  "email": "ssolow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7501,8 +7986,13 @@
               "days": "TR",
               "location": "Downtown Campus 700",
               "schedule_type": "Lecture",
-              "instructor": "Graeme B. Dinwoodie",
-              "instructor_email": "gdinwoodie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Graeme B. Dinwoodie",
+                  "email": "gdinwoodie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7599,8 +8089,18 @@
               "days": "W",
               "location": "Downtown Campus 545",
               "schedule_type": "Lecture",
-              "instructor": "Pari L. Karim , Corinne M. Levitz",
-              "instructor_email": "pkarim@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pari L. Karim",
+                  "email": "pkarim@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Corinne M. Levitz",
+                  "email": "clevitz@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -7646,8 +8146,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Marsha L Ross-Jackson",
-              "instructor_email": "mrossjac@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Marsha L Ross-Jackson",
+                  "email": "mrossjac@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7727,8 +8232,13 @@
               "days": "MW",
               "location": "Downtown Campus 580",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7808,8 +8318,13 @@
               "days": "T",
               "location": "Downtown Campus 165",
               "schedule_type": "Lecture",
-              "instructor": "Evan D Brown",
-              "instructor_email": "ebrown8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Evan D Brown",
+                  "email": "ebrown8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7872,8 +8387,13 @@
               "days": "MW",
               "location": "Downtown Campus 583",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Tomas G. Gonzalez",
-              "instructor_email": "tgonzal1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tomas G. Gonzalez",
+                  "email": "tgonzal1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7901,8 +8421,13 @@
               "days": "TR",
               "location": "Downtown Campus 581",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Alexandra C. Brinkmeier",
-              "instructor_email": "abrinkme@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alexandra C. Brinkmeier",
+                  "email": "abrinkme@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7930,8 +8455,13 @@
               "days": "TR",
               "location": "Downtown Campus 545",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Alexander C. Pappas",
-              "instructor_email": "apappas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alexander C. Pappas",
+                  "email": "apappas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7959,8 +8489,13 @@
               "days": "M",
               "location": "Downtown Campus 583",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Thomas B Cahill",
-              "instructor_email": "tcahill@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas B Cahill",
+                  "email": "tcahill@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7988,8 +8523,13 @@
               "days": "MW",
               "location": "Downtown Campus 355",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Ira Moltz",
-              "instructor_email": "imoltz@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ira Moltz",
+                  "email": "imoltz@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8017,8 +8557,13 @@
               "days": "TR",
               "location": "Downtown Campus 583",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Kwabena Larbi-Siaw",
-              "instructor_email": "klarbisiaw@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kwabena Larbi-Siaw",
+                  "email": "klarbisiaw@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8046,8 +8591,13 @@
               "days": "W",
               "location": "Downtown Campus 581",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Zachary James Wallace",
-              "instructor_email": "zwallace@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary James Wallace",
+                  "email": "zwallace@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8075,8 +8625,13 @@
               "days": "TR",
               "location": "Downtown Campus 545",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Kathryne R. Hayes",
-              "instructor_email": "khayes2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryne R. Hayes",
+                  "email": "khayes2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8104,8 +8659,13 @@
               "days": "TR",
               "location": "Downtown Campus C40",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Andrew P White",
-              "instructor_email": "awhite27@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew P White",
+                  "email": "awhite27@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8133,8 +8693,13 @@
               "days": "W",
               "location": "Downtown Campus 581",
               "schedule_type": "Law Legal Writing 3",
-              "instructor": "Laurie A Silvestri",
-              "instructor_email": "lsilvest@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Laurie A Silvestri",
+                  "email": "lsilvest@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8180,8 +8745,13 @@
               "days": "MW",
               "location": "Downtown Campus 547",
               "schedule_type": "Law Legal Writing 4",
-              "instructor": "Ira Moltz",
-              "instructor_email": "imoltz@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ira Moltz",
+                  "email": "imoltz@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8261,8 +8831,18 @@
               "days": "TR",
               "location": "Downtown Campus 305",
               "schedule_type": "Lecture",
-              "instructor": "Richard Mason , Andrew W. Mason",
-              "instructor_email": "rmason1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard Mason",
+                  "email": "rmason1@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Andrew W. Mason",
+                  "email": "amason5@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -8359,8 +8939,13 @@
               "days": "MW",
               "location": "Downtown Campus C25",
               "schedule_type": "Lecture",
-              "instructor": "Jordana R Goodman",
-              "instructor_email": "jgoodman3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jordana R Goodman",
+                  "email": "jgoodman3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8542,8 +9127,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kathryn M Bjorklund",
-              "instructor_email": "kbjorklund@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn M Bjorklund",
+                  "email": "kbjorklund@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -8571,8 +9161,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kathryn M Bjorklund",
-              "instructor_email": "kbjorklund@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn M Bjorklund",
+                  "email": "kbjorklund@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9077,8 +9672,18 @@
               "days": "T",
               "location": "Downtown Campus 704",
               "schedule_type": "Lecture",
-              "instructor": "Joseph M Claps , Domenica A Stephenson",
-              "instructor_email": "jclaps@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph M Claps",
+                  "email": "jclaps@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Domenica A Stephenson",
+                  "email": "dstephenson2@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -9379,8 +9984,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joseph M Claps",
-              "instructor_email": "jclaps@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph M Claps",
+                  "email": "jclaps@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9408,8 +10018,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Noah Smith-Drelich",
-              "instructor_email": "nsmithdrelich@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Noah Smith-Drelich",
+                  "email": "nsmithdrelich@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9455,8 +10070,13 @@
               "days": "W",
               "location": "Downtown Campus 165",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -9464,8 +10084,13 @@
               "days": "R",
               "location": "Downtown Campus 165",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9528,8 +10153,13 @@
               "days": "M",
               "location": "Downtown Campus 581",
               "schedule_type": "Clinical",
-              "instructor": "Rhonda E de Freitas",
-              "instructor_email": "rdefreitas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rhonda E de Freitas",
+                  "email": "rdefreitas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9557,8 +10187,13 @@
               "days": "M",
               "location": "Downtown Campus 581",
               "schedule_type": "Clinical",
-              "instructor": "Rhonda E de Freitas",
-              "instructor_email": "rdefreitas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rhonda E de Freitas",
+                  "email": "rdefreitas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9621,8 +10256,13 @@
               "days": "W",
               "location": "Downtown Campus 590",
               "schedule_type": "Lecture",
-              "instructor": "Alexander Frang A. Rabanal",
-              "instructor_email": "arabanal@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alexander Frang A. Rabanal",
+                  "email": "arabanal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9702,8 +10342,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9783,8 +10428,13 @@
               "days": "M",
               "location": "Downtown Campus 660",
               "schedule_type": "Clinical",
-              "instructor": "Richard S. Kling",
-              "instructor_email": "rkling@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard S. Kling",
+                  "email": "rkling@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9812,8 +10462,13 @@
               "days": "M",
               "location": "Downtown Campus 660",
               "schedule_type": "Clinical",
-              "instructor": "Richard S. Kling",
-              "instructor_email": "rkling@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard S. Kling",
+                  "email": "rkling@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9893,8 +10548,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -9922,8 +10582,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10037,8 +10702,13 @@
               "days": "M",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10084,8 +10754,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10113,8 +10788,13 @@
               "days": "M",
               "location": "Downtown Campus 355",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10142,8 +10822,13 @@
               "days": "M",
               "location": "Downtown Campus 355",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10206,8 +10891,13 @@
               "days": "M",
               "location": "Downtown Campus 581",
               "schedule_type": "Clinical",
-              "instructor": "Rhonda E de Freitas",
-              "instructor_email": "rdefreitas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rhonda E de Freitas",
+                  "email": "rdefreitas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10235,8 +10925,13 @@
               "days": "M",
               "location": "Downtown Campus 581",
               "schedule_type": "Clinical",
-              "instructor": "Rhonda E de Freitas",
-              "instructor_email": "rdefreitas@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rhonda E de Freitas",
+                  "email": "rdefreitas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10299,8 +10994,13 @@
               "days": "M",
               "location": "Downtown Campus 700",
               "schedule_type": "Clinical",
-              "instructor": "Victoria Carmona",
-              "instructor_email": "vcarmona@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Victoria Carmona",
+                  "email": "vcarmona@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10328,8 +11028,13 @@
               "days": "M",
               "location": "Downtown Campus 700",
               "schedule_type": "Clinical",
-              "instructor": "Victoria Carmona",
-              "instructor_email": "vcarmona@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Victoria Carmona",
+                  "email": "vcarmona@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10426,8 +11131,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10455,8 +11165,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10502,8 +11217,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10531,8 +11251,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10578,8 +11303,13 @@
               "days": "M",
               "location": "Downtown Campus 660",
               "schedule_type": "Clinical",
-              "instructor": "Richard S. Kling",
-              "instructor_email": "rkling@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard S. Kling",
+                  "email": "rkling@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10607,8 +11337,13 @@
               "days": "M",
               "location": "Downtown Campus 660",
               "schedule_type": "Clinical",
-              "instructor": "Richard S. Kling",
-              "instructor_email": "rkling@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Richard S. Kling",
+                  "email": "rkling@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10688,8 +11423,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10717,8 +11457,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10781,8 +11526,13 @@
               "days": "M",
               "location": "Downtown Campus 210",
               "schedule_type": "Clinical",
-              "instructor": "Deadra Woods Stokes",
-              "instructor_email": "dstokes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Deadra Woods Stokes",
+                  "email": "dstokes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10810,8 +11560,13 @@
               "days": "M",
               "location": "Downtown Campus 210",
               "schedule_type": "Clinical",
-              "instructor": "Deadra Woods Stokes",
-              "instructor_email": "dstokes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Deadra Woods Stokes",
+                  "email": "dstokes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10874,8 +11629,13 @@
               "days": "M",
               "location": "Downtown Campus 700",
               "schedule_type": "Clinical",
-              "instructor": "Victoria Carmona",
-              "instructor_email": "vcarmona@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Victoria Carmona",
+                  "email": "vcarmona@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10903,8 +11663,13 @@
               "days": "M",
               "location": "Downtown Campus 700",
               "schedule_type": "Clinical",
-              "instructor": "Victoria Carmona",
-              "instructor_email": "vcarmona@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Victoria Carmona",
+                  "email": "vcarmona@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -10967,8 +11732,13 @@
               "days": "MTWRFS",
               "location": "Downtown Campus 547",
               "schedule_type": "Lecture",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -10976,8 +11746,13 @@
               "days": "MTWRFS",
               "location": "Downtown Campus 547",
               "schedule_type": "Lecture",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11023,8 +11798,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jamie S. Franklin",
-              "instructor_email": "jfranklin5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jamie S. Franklin",
+                  "email": "jfranklin5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11052,8 +11832,13 @@
               "days": "M",
               "location": "Downtown Campus 632",
               "schedule_type": "Clinical",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11184,8 +11969,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11248,8 +12038,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Tierney",
-              "instructor_email": "jtierney1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Tierney",
+                  "email": "jtierney1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11295,8 +12090,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Cherish M. Keller",
-              "instructor_email": "ckeller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cherish M. Keller",
+                  "email": "ckeller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11342,8 +12142,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Cherish M. Keller",
-              "instructor_email": "ckeller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cherish M. Keller",
+                  "email": "ckeller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11389,8 +12194,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Gregory W. Reilly",
-              "instructor_email": "greilly1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gregory W. Reilly",
+                  "email": "greilly1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11418,8 +12228,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Graeme B. Dinwoodie",
-              "instructor_email": "gdinwoodie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Graeme B. Dinwoodie",
+                  "email": "gdinwoodie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11465,8 +12280,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11512,8 +12332,13 @@
               "days": "W",
               "location": "Downtown Campus 100",
               "schedule_type": "Lecture",
-              "instructor": "Michelle M Truesdale",
-              "instructor_email": "mferriga@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michelle M Truesdale",
+                  "email": "mferriga@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11541,8 +12366,18 @@
               "days": "M",
               "location": "Downtown Campus 100",
               "schedule_type": "Lecture",
-              "instructor": "Razaul Haque , Cole Gunter",
-              "instructor_email": "rhaque4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Razaul Haque",
+                  "email": "rhaque4@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Cole Gunter",
+                  "email": "cgunter1@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -11570,8 +12405,13 @@
               "days": "T",
               "location": "Downtown Campus 165",
               "schedule_type": "Lecture",
-              "instructor": "Rachael J. Sinnen",
-              "instructor_email": "rsinnen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rachael J. Sinnen",
+                  "email": "rsinnen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11634,8 +12474,13 @@
               "days": "R",
               "location": "Downtown Campus 155",
               "schedule_type": "Lecture",
-              "instructor": "Jeffrey A Conen",
-              "instructor_email": "jconen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeffrey A Conen",
+                  "email": "jconen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11663,8 +12508,13 @@
               "days": "R",
               "location": "Downtown Campus 100",
               "schedule_type": "Lecture",
-              "instructor": "James Morici",
-              "instructor_email": "jmorici@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Morici",
+                  "email": "jmorici@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11692,8 +12542,13 @@
               "days": "M",
               "location": "Downtown Campus 155",
               "schedule_type": "Lecture",
-              "instructor": "Lawrence Flood",
-              "instructor_email": "lflood@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Lawrence Flood",
+                  "email": "lflood@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11721,8 +12576,18 @@
               "days": "T",
               "location": "Downtown Campus 155",
               "schedule_type": "Lecture",
-              "instructor": "Kristen G Farr Capizzi , Demetrios George Kottaras",
-              "instructor_email": "kfarrcap@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kristen G Farr Capizzi",
+                  "email": "kfarrcap@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Demetrios George Kottaras",
+                  "email": "dkottara@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -11768,8 +12633,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11832,8 +12702,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jordana R Goodman",
-              "instructor_email": "jgoodman3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jordana R Goodman",
+                  "email": "jgoodman3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11861,8 +12736,7 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": []
             }
           ],
           "availability": {
@@ -11908,8 +12782,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Elizabeth D. De Armond",
-              "instructor_email": "edearmond@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth D. De Armond",
+                  "email": "edearmond@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11937,8 +12816,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Elizabeth D. De Armond",
-              "instructor_email": "edearmond@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elizabeth D. De Armond",
+                  "email": "edearmond@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -11984,8 +12868,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "David Erickson",
-              "instructor_email": "derickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Erickson",
+                  "email": "derickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12031,8 +12920,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mark D. Rosen",
-              "instructor_email": "mrosen1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mark D. Rosen",
+                  "email": "mrosen1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12078,14 +12972,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Gregory W. Reilly",
-              "instructor_email": "greilly1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gregory W. Reilly",
+                  "email": "greilly1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 999,
-            "actual": 5,
-            "remaining": 994,
+            "actual": 4,
+            "remaining": 995,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -12107,8 +13006,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Gregory W. Reilly",
-              "instructor_email": "greilly1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Gregory W. Reilly",
+                  "email": "greilly1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12188,8 +13092,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Clinical",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12252,8 +13161,13 @@
               "days": "M",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12299,8 +13213,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12346,8 +13265,13 @@
               "days": "M",
               "location": "Downtown Campus C40",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12393,8 +13317,13 @@
               "days": "M",
               "location": "Downtown Campus C40",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12474,8 +13403,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Externship",
-              "instructor": "Adam J Weber",
-              "instructor_email": "aweber@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adam J Weber",
+                  "email": "aweber@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12521,8 +13455,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Cherish M. Keller",
-              "instructor_email": "ckeller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cherish M. Keller",
+                  "email": "ckeller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12687,8 +13626,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Cherish M. Keller",
-              "instructor_email": "ckeller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cherish M. Keller",
+                  "email": "ckeller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12734,8 +13678,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12781,8 +13730,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12828,8 +13782,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12875,8 +13834,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Tierney",
-              "instructor_email": "jtierney1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Tierney",
+                  "email": "jtierney1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12904,8 +13868,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "James Tierney",
-              "instructor_email": "jtierney1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Tierney",
+                  "email": "jtierney1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12951,8 +13920,13 @@
               "days": "W",
               "location": "Downtown Campus 510",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -12998,8 +13972,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13079,8 +14058,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13126,8 +14110,13 @@
               "days": "T",
               "location": "Downtown Campus C20",
               "schedule_type": "Externship",
-              "instructor": "Jonathan Decatorsmith",
-              "instructor_email": "jdecator@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Decatorsmith",
+                  "email": "jdecator@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13411,8 +14400,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Daniel Martin Katz",
-              "instructor_email": "dkatz3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Martin Katz",
+                  "email": "dkatz3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13440,8 +14434,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Adam J Weber",
-              "instructor_email": "aweber@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adam J Weber",
+                  "email": "aweber@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13469,8 +14468,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Law Faculty TBA",
-              "instructor_email": ""
+              "instructors": [
+                {
+                  "name": "Law Faculty TBA",
+                  "email": "",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13567,8 +14571,13 @@
               "days": "M",
               "location": "Downtown Campus 355",
               "schedule_type": "Seminar",
-              "instructor": "Sheldon Nahmod",
-              "instructor_email": "snahmod@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sheldon Nahmod",
+                  "email": "snahmod@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -13835,8 +14844,23 @@
               "days": "R",
               "location": "Downtown Campus 547",
               "schedule_type": "Seminar",
-              "instructor": "Pamela Ann Paziotopoulos , Gloria Coco , Maura Slattery Boyle",
-              "instructor_email": "ppazioto@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pamela Ann Paziotopoulos",
+                  "email": "ppazioto@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Gloria Coco",
+                  "email": "gcoco@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Maura Slattery Boyle",
+                  "email": "mslatteryboyle@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -14018,8 +15042,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Harold Krent",
-              "instructor_email": "hkrent@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Harold Krent",
+                  "email": "hkrent@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -14150,8 +15179,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Seminar",
-              "instructor": "Harold Krent",
-              "instructor_email": "hkrent@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Harold Krent",
+                  "email": "hkrent@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -14265,8 +15299,13 @@
               "days": "W",
               "location": "Downtown Campus 345",
               "schedule_type": "Seminar",
-              "instructor": "Matthew Stanton",
-              "instructor_email": "mstanto1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Stanton",
+                  "email": "mstanto1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -14601,8 +15640,13 @@
               "days": "MW",
               "location": "Downtown Campus 165",
               "schedule_type": "Seminar",
-              "instructor": "Cary M. Shelby",
-              "instructor_email": "cshelby@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cary M. Shelby",
+                  "email": "cshelby@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -15600,8 +16644,13 @@
               "days": "TR",
               "location": "Downtown Campus 520",
               "schedule_type": "Lecture",
-              "instructor": "Anita K Krug",
-              "instructor_email": "akrug2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anita K Krug",
+                  "email": "akrug2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -15868,8 +16917,18 @@
               "days": "T",
               "location": "Downtown Campus 355",
               "schedule_type": "Lecture",
-              "instructor": "John M Geiringer , Joseph E. Silvia",
-              "instructor_email": "jgeiring@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John M Geiringer",
+                  "email": "jgeiring@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Joseph E. Silvia",
+                  "email": "jsilvia@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -16255,8 +17314,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -16284,14 +17348,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Keith Ian Harley",
-              "instructor_email": "kharley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Keith Ian Harley",
+                  "email": "kharley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 999,
-            "actual": 5,
-            "remaining": 994,
+            "actual": 4,
+            "remaining": 995,
             "waitlist_capacity": 0,
             "waitlist_actual": 0,
             "waitlist_remaining": 0
@@ -16331,8 +17400,13 @@
               "days": "M",
               "location": "Downtown Campus 210",
               "schedule_type": "Clinical",
-              "instructor": "Deadra Woods Stokes",
-              "instructor_email": "dstokes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Deadra Woods Stokes",
+                  "email": "dstokes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -16360,8 +17434,13 @@
               "days": "M",
               "location": "Downtown Campus 210",
               "schedule_type": "Clinical",
-              "instructor": "Deadra Woods Stokes",
-              "instructor_email": "dstokes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Deadra Woods Stokes",
+                  "email": "dstokes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -16424,8 +17503,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Externship",
-              "instructor": "Adam J Weber",
-              "instructor_email": "aweber@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adam J Weber",
+                  "email": "aweber@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -16539,8 +17623,13 @@
               "days": "TR",
               "location": "Downtown Campus 520",
               "schedule_type": "Lecture",
-              "instructor": "Adam J Weber",
-              "instructor_email": "aweber@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adam J Weber",
+                  "email": "aweber@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -16586,8 +17675,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "James Tierney",
-              "instructor_email": "jtierney1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "James Tierney",
+                  "email": "jtierney1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -17551,8 +18645,13 @@
               "days": "MW",
               "location": "Downtown Campus C25",
               "schedule_type": "Seminar",
-              "instructor": "Jordana R Goodman",
-              "instructor_email": "jgoodman3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jordana R Goodman",
+                  "email": "jgoodman3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -17666,8 +18765,13 @@
               "days": "W",
               "location": "Downtown Campus C25",
               "schedule_type": "Lecture",
-              "instructor": "Pedro Gerson",
-              "instructor_email": "pgerson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pedro Gerson",
+                  "email": "pgerson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -17730,8 +18834,13 @@
               "days": "M",
               "location": "Downtown Campus 704",
               "schedule_type": "Lecture",
-              "instructor": "Cathay Smith",
-              "instructor_email": "csmith102@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cathay Smith",
+                  "email": "csmith102@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -17845,8 +18954,13 @@
               "days": "F",
               "location": "Downtown Campus 345",
               "schedule_type": "Lecture",
-              "instructor": "Katherine M Gipe",
-              "instructor_email": "kgipe@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Katherine M Gipe",
+                  "email": "kgipe@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -17892,8 +19006,13 @@
               "days": "R",
               "location": "Downtown Campus 700",
               "schedule_type": "Seminar",
-              "instructor": "Jason Robert Bent",
-              "instructor_email": "jbent@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jason Robert Bent",
+                  "email": "jbent@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

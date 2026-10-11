@@ -33,8 +33,13 @@
               "days": "F",
               "location": "Siegel Hall 118",
               "schedule_type": "Lecture",
-              "instructor": "Leslie Johnson",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "R",
               "location": "Crown Hall UCC",
               "schedule_type": "Lab",
-              "instructor": "Leslie Johnson",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,8 +101,13 @@
               "days": "R",
               "location": "Crown Hall UCC",
               "schedule_type": "Lab",
-              "instructor": "Leslie Johnson",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -138,8 +153,33 @@
               "days": "W",
               "location": "Wishnick Hall 113",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Dillon Pranger , Jacob McCarthy , Mina Rezaeian , Tarjanee Soni , Alican Taylan",
-              "instructor_email": "dpranger@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dillon Pranger",
+                  "email": "dpranger@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jacob McCarthy",
+                  "email": "jmccarthy1@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Mina Rezaeian",
+                  "email": "mrezaeia@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Tarjanee Soni",
+                  "email": "tsoni@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Alican Taylan",
+                  "email": "ataylan@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -202,8 +242,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Alaina Griffin",
-              "instructor_email": "agriffin8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alaina Griffin",
+                  "email": "agriffin8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -231,8 +276,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Kindon Mills",
-              "instructor_email": "kmills2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kindon Mills",
+                  "email": "kmills2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -260,8 +310,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Alessandro Paradiso",
-              "instructor_email": "paradiso@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alessandro Paradiso",
+                  "email": "paradiso@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -289,8 +344,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Ellen Mills",
-              "instructor_email": "emills2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ellen Mills",
+                  "email": "emills2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -318,8 +378,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Kathleen Nagle",
-              "instructor_email": "nagle@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathleen Nagle",
+                  "email": "nagle@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -347,8 +412,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Andres F. Camacho",
-              "instructor_email": "acamacho6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andres F. Camacho",
+                  "email": "acamacho6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -376,8 +446,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Marya Demetra Kanakis",
-              "instructor_email": "mkanakis@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Marya Demetra Kanakis",
+                  "email": "mkanakis@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -405,8 +480,13 @@
               "days": "MF",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Andrew R Tinucci",
-              "instructor_email": "atinucci@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew R Tinucci",
+                  "email": "atinucci@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -434,8 +514,18 @@
               "days": "MF",
               "location": "Tech Park - North Building 208",
               "schedule_type": "Studio",
-              "instructor": "Andrew R Tinucci , Kindon Mills",
-              "instructor_email": "atinucci@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew R Tinucci",
+                  "email": "atinucci@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kindon Mills",
+                  "email": "kmills2@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -463,8 +553,13 @@
               "days": "T",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Andrea Crist",
-              "instructor_email": "acrist1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrea Crist",
+                  "email": "acrist1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -492,8 +587,13 @@
               "days": "T",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Andrea Crist",
-              "instructor_email": "acrist1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrea Crist",
+                  "email": "acrist1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -521,8 +621,13 @@
               "days": "R",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Brian Cassidy",
-              "instructor_email": "bcassidy1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brian Cassidy",
+                  "email": "bcassidy1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -550,8 +655,13 @@
               "days": "R",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Andrea Crist",
-              "instructor_email": "acrist1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrea Crist",
+                  "email": "acrist1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -579,8 +689,13 @@
               "days": "W",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Andrea Crist",
-              "instructor_email": "acrist1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrea Crist",
+                  "email": "acrist1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -608,8 +723,13 @@
               "days": "T",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Pat Melvin",
-              "instructor_email": "pmelvin1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Pat Melvin",
+                  "email": "pmelvin1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -637,8 +757,13 @@
               "days": "R",
               "location": "Minerals and Metals Building MEZZANINE",
               "schedule_type": "Lab",
-              "instructor": "Andrea Crist",
-              "instructor_email": "acrist1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrea Crist",
+                  "email": "acrist1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -701,8 +826,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Allaa Nabil Abdelsaid",
-              "instructor_email": "aabdelsaid@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Allaa Nabil Abdelsaid",
+                  "email": "aabdelsaid@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -730,8 +860,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Claudia Ansorena",
-              "instructor_email": "cansorena@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Claudia Ansorena",
+                  "email": "cansorena@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -759,8 +894,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Thomas Bassett-Dilley",
-              "instructor_email": "tbassettdilley@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Bassett-Dilley",
+                  "email": "tbassettdilley@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -807,8 +947,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Anthony W. Hurtig",
-              "instructor_email": "ahurtig@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Anthony W. Hurtig",
+                  "email": "ahurtig@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -836,8 +981,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Justin McElderry",
-              "instructor_email": "jmcelderry@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Justin McElderry",
+                  "email": "jmcelderry@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -865,8 +1015,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Catherine M Wilmes",
-              "instructor_email": "cwilmes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine M Wilmes",
+                  "email": "cwilmes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -894,8 +1049,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Ziyan Zhang",
-              "instructor_email": "dzhang75@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ziyan Zhang",
+                  "email": "dzhang75@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -923,8 +1083,18 @@
               "days": "M",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Studio",
-              "instructor": "Catherine M Wilmes , Claudia Ansorena",
-              "instructor_email": "cwilmes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine M Wilmes",
+                  "email": "cwilmes@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Claudia Ansorena",
+                  "email": "cansorena@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             },
             {
               "type": "Class",
@@ -932,8 +1102,18 @@
               "days": "M",
               "location": "Tech Park - North Building 102",
               "schedule_type": "Studio",
-              "instructor": "Catherine M Wilmes , Claudia Ansorena",
-              "instructor_email": "cwilmes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine M Wilmes",
+                  "email": "cwilmes@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Claudia Ansorena",
+                  "email": "cansorena@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             },
             {
               "type": "Class",
@@ -941,8 +1121,18 @@
               "days": "WF",
               "location": "Tech Park - North Building 102",
               "schedule_type": "Studio",
-              "instructor": "Catherine M Wilmes , Claudia Ansorena",
-              "instructor_email": "cwilmes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine M Wilmes",
+                  "email": "cwilmes@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Claudia Ansorena",
+                  "email": "cansorena@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1005,8 +1195,18 @@
               "days": "F",
               "location": "Perlstein Hall 131",
               "schedule_type": "Lecture",
-              "instructor": "Nilay D Mistry , Krista E Dawson",
-              "instructor_email": "nmistry1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Krista E Dawson",
+                  "email": "kdawson1@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1069,8 +1269,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Trent Fredrickson",
-              "instructor_email": "tfredrickson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Trent Fredrickson",
+                  "email": "tfredrickson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1098,8 +1303,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Il Hwan Kim",
-              "instructor_email": "ikim16@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Il Hwan Kim",
+                  "email": "ikim16@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1127,8 +1337,7 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": []
             }
           ],
           "availability": {
@@ -1156,8 +1365,7 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": []
             }
           ],
           "availability": {
@@ -1185,8 +1393,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Adam Rostek",
-              "instructor_email": "arostek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adam Rostek",
+                  "email": "arostek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1214,8 +1427,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Catherine Q. Wetzel",
-              "instructor_email": "wetzel@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine Q. Wetzel",
+                  "email": "wetzel@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1243,8 +1461,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Camille Otto Yu",
-              "instructor_email": "cyu14@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Camille Otto Yu",
+                  "email": "cyu14@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1272,8 +1495,18 @@
               "days": "M",
               "location": "Perlstein Hall 131",
               "schedule_type": "Studio",
-              "instructor": "Catherine Q. Wetzel , Il Hwan Kim",
-              "instructor_email": "wetzel@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine Q. Wetzel",
+                  "email": "wetzel@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Il Hwan Kim",
+                  "email": "ikim16@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             },
             {
               "type": "Class",
@@ -1281,8 +1514,18 @@
               "days": "M",
               "location": "Crown Hall LSW",
               "schedule_type": "Studio",
-              "instructor": "Catherine Q. Wetzel , Il Hwan Kim",
-              "instructor_email": "wetzel@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine Q. Wetzel",
+                  "email": "wetzel@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Il Hwan Kim",
+                  "email": "ikim16@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             },
             {
               "type": "Class",
@@ -1290,8 +1533,18 @@
               "days": "WF",
               "location": "Crown Hall LSW",
               "schedule_type": "Studio",
-              "instructor": "Catherine Q. Wetzel , Il Hwan Kim",
-              "instructor_email": "wetzel@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine Q. Wetzel",
+                  "email": "wetzel@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Il Hwan Kim",
+                  "email": "ikim16@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1388,8 +1641,13 @@
               "days": "T",
               "location": "Siegel Hall 118",
               "schedule_type": "Lecture",
-              "instructor": "Stephen Kibler",
-              "instructor_email": "kibler@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Stephen Kibler",
+                  "email": "kibler@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1452,8 +1710,13 @@
               "days": "R",
               "location": "Siegel Hall 118",
               "schedule_type": "Lecture",
-              "instructor": "Michael H Newman",
-              "instructor_email": "mnewman3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael H Newman",
+                  "email": "mnewman3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1516,8 +1779,18 @@
               "days": "W",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Andrew R Tinucci , Brian T. Foote",
-              "instructor_email": "atinucci@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew R Tinucci",
+                  "email": "atinucci@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Brian T. Foote",
+                  "email": "bfoote@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1563,8 +1836,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Michal Ojrzanowski , Alexander Shelly",
-              "instructor_email": "mojrzanowski@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michal Ojrzanowski",
+                  "email": "mojrzanowski@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Alexander Shelly",
+                  "email": "ashelly@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1592,8 +1875,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Jenna Dezinski , Daniel John O'Riley",
-              "instructor_email": "jdezinski@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jenna Dezinski",
+                  "email": "jdezinski@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Daniel John O'Riley",
+                  "email": "doriley1@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1621,8 +1914,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Frank C Flury , Paul Endres",
-              "instructor_email": "flury@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Frank C Flury",
+                  "email": "flury@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Paul Endres",
+                  "email": "pendres@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1650,8 +1953,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Michael H Newman , Susan King",
-              "instructor_email": "mnewman3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michael H Newman",
+                  "email": "mnewman3@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Susan King",
+                  "email": "sking18@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1679,8 +1992,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Studio",
-              "instructor": "Bryant Pitak",
-              "instructor_email": "bpitak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Bryant Pitak",
+                  "email": "bpitak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1708,8 +2026,18 @@
               "days": "M",
               "location": "Wishnick Hall 113",
               "schedule_type": "Studio",
-              "instructor": "Michal Ojrzanowski , Jenna Dezinski",
-              "instructor_email": "mojrzanowski@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michal Ojrzanowski",
+                  "email": "mojrzanowski@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jenna Dezinski",
+                  "email": "jdezinski@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             },
             {
               "type": "Class",
@@ -1717,8 +2045,18 @@
               "days": "M",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Michal Ojrzanowski , Jenna Dezinski",
-              "instructor_email": "mojrzanowski@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michal Ojrzanowski",
+                  "email": "mojrzanowski@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jenna Dezinski",
+                  "email": "jdezinski@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             },
             {
               "type": "Class",
@@ -1726,8 +2064,18 @@
               "days": "WF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Michal Ojrzanowski , Jenna Dezinski",
-              "instructor_email": "mojrzanowski@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Michal Ojrzanowski",
+                  "email": "mojrzanowski@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jenna Dezinski",
+                  "email": "jdezinski@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1790,8 +2138,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Jorge Rovira Jimenez , Jason D. Fisher",
-              "instructor_email": "jrovira@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jorge Rovira Jimenez",
+                  "email": "jrovira@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jason D. Fisher",
+                  "email": "jfisher4@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1819,8 +2177,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Rogelio Cadena , Dirk Spencer Denison",
-              "instructor_email": "rcadena@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rogelio Cadena",
+                  "email": "rcadena@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Dirk Spencer Denison",
+                  "email": "denison@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1848,8 +2216,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1877,8 +2250,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "John J Ronan",
-              "instructor_email": "ronan@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John J Ronan",
+                  "email": "ronan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1906,8 +2284,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Dillon Pranger",
-              "instructor_email": "dpranger@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dillon Pranger",
+                  "email": "dpranger@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1935,8 +2318,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Vladimir Radutny",
-              "instructor_email": "vradutny@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vladimir Radutny",
+                  "email": "vradutny@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1964,8 +2352,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Leslie Johnson , Jonathan Miller",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -1993,8 +2391,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Kevin A Malca Vargas",
-              "instructor_email": "kmalca@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin A Malca Vargas",
+                  "email": "kmalca@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2022,8 +2425,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2051,8 +2459,13 @@
               "days": "MWF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2080,8 +2493,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Leslie Johnson , Martin S. Felsen",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -2109,8 +2532,13 @@
               "days": "MWF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Nilay D Mistry",
-              "instructor_email": "nmistry1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2190,8 +2618,13 @@
               "days": "R",
               "location": "Crown Hall UNC",
               "schedule_type": "Lecture",
-              "instructor": "Kristin Jones",
-              "instructor_email": "kjones24@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kristin Jones",
+                  "email": "kjones24@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2322,8 +2755,13 @@
               "days": "W",
               "location": "Crown Hall 001",
               "schedule_type": "Lab",
-              "instructor": "John R. Manfredy",
-              "instructor_email": "jmanfredy@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John R. Manfredy",
+                  "email": "jmanfredy@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2420,8 +2858,13 @@
               "days": "T",
               "location": "Crown Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Sarah M Holian",
-              "instructor_email": "sholian@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sarah M Holian",
+                  "email": "sholian@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2501,8 +2944,13 @@
               "days": "F",
               "location": "Minerals and Metals Building 201",
               "schedule_type": "Lecture",
-              "instructor": "John Kriegshauser",
-              "instructor_email": "kriegshauser@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John Kriegshauser",
+                  "email": "kriegshauser@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2684,8 +3132,13 @@
               "days": "M",
               "location": "Minerals and Metals Building 201",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Il Hwan Kim",
-              "instructor_email": "ikim16@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Il Hwan Kim",
+                  "email": "ikim16@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2765,8 +3218,13 @@
               "days": "R",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Madeleine P. Bailey",
-              "instructor_email": "mbailey7@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Madeleine P. Bailey",
+                  "email": "mbailey7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2846,8 +3304,13 @@
               "days": "T",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "William Zbaren",
-              "instructor_email": "wzbaren@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "William Zbaren",
+                  "email": "wzbaren@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2910,8 +3373,13 @@
               "days": "M",
               "location": "Hermann Hall 007",
               "schedule_type": "Lecture",
-              "instructor": "Paul Endres",
-              "instructor_email": "pendres@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paul Endres",
+                  "email": "pendres@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2991,8 +3459,13 @@
               "days": "T",
               "location": "Robert A. Pritzker Science Ctr 152",
               "schedule_type": "Lecture",
-              "instructor": "Stephen Kibler",
-              "instructor_email": "kibler@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Stephen Kibler",
+                  "email": "kibler@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3072,8 +3545,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture",
-              "instructor": "Alphonso J Peluso",
-              "instructor_email": "peluso@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alphonso J Peluso",
+                  "email": "peluso@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3101,8 +3579,13 @@
               "days": "R",
               "location": "Tech Park - North Building 110",
               "schedule_type": "Lab",
-              "instructor": "Alphonso J Peluso",
-              "instructor_email": "peluso@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alphonso J Peluso",
+                  "email": "peluso@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3130,8 +3613,13 @@
               "days": "M",
               "location": "Tech Park - North Building 110",
               "schedule_type": "Lecture",
-              "instructor": "Alphonso J Peluso",
-              "instructor_email": "peluso@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alphonso J Peluso",
+                  "email": "peluso@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3177,8 +3665,13 @@
               "days": "W",
               "location": "Crown Hall 003",
               "schedule_type": "Lecture",
-              "instructor": "Sean Keller",
-              "instructor_email": "skeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sean Keller",
+                  "email": "skeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3224,8 +3717,13 @@
               "days": "F",
               "location": "Minerals and Metals Building 202",
               "schedule_type": "Seminar",
-              "instructor": "Frank C Flury",
-              "instructor_email": "flury@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Frank C Flury",
+                  "email": "flury@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3271,8 +3769,13 @@
               "days": "F",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Kevin A Malca Vargas",
-              "instructor_email": "kmalca@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin A Malca Vargas",
+                  "email": "kmalca@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3300,8 +3803,13 @@
               "days": "M",
               "location": "Crown Hall UC2",
               "schedule_type": "Seminar",
-              "instructor": "Catherine M Wilmes",
-              "instructor_email": "cwilmes@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine M Wilmes",
+                  "email": "cwilmes@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3347,8 +3855,13 @@
               "days": "F",
               "location": "Crown Hall UC1",
               "schedule_type": "Lecture",
-              "instructor": "Paulina K Szpiech",
-              "instructor_email": "szpipau@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paulina K Szpiech",
+                  "email": "szpipau@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3376,8 +3889,13 @@
               "days": "R",
               "location": "Crown Hall UC2",
               "schedule_type": "Seminar",
-              "instructor": "Youngjin Hwang",
-              "instructor_email": "yhwang7@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Youngjin Hwang",
+                  "email": "yhwang7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3405,8 +3923,13 @@
               "days": "T",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Andrew J Mack",
-              "instructor_email": "amack3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew J Mack",
+                  "email": "amack3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3452,8 +3975,13 @@
               "days": "T",
               "location": "Crown Hall UC2",
               "schedule_type": "Seminar",
-              "instructor": "Dirk Spencer Denison",
-              "instructor_email": "denison@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dirk Spencer Denison",
+                  "email": "denison@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3481,8 +4009,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Alphonso J Peluso",
-              "instructor_email": "peluso@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alphonso J Peluso",
+                  "email": "peluso@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3510,8 +4043,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Colleen Humer",
-              "instructor_email": "humer@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Colleen Humer",
+                  "email": "humer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3539,8 +4077,13 @@
               "days": "T",
               "location": "Crown Hall 003",
               "schedule_type": "Seminar",
-              "instructor": "Jonathan Miller",
-              "instructor_email": "miller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3568,8 +4111,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Leslie Johnson",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3597,8 +4145,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Leslie Johnson",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3626,8 +4179,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kindon Mills",
-              "instructor_email": "kmills2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kindon Mills",
+                  "email": "kmills2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3655,8 +4213,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jonathan Miller",
-              "instructor_email": "miller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3719,8 +4282,13 @@
               "days": "R",
               "location": "Crown Hall 003",
               "schedule_type": "Lecture",
-              "instructor": "Colleen Humer",
-              "instructor_email": "humer@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Colleen Humer",
+                  "email": "humer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3783,8 +4351,13 @@
               "days": "R",
               "location": "Tech Park - North Building 101",
               "schedule_type": "Lecture",
-              "instructor": "Colleen Humer",
-              "instructor_email": "humer@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Colleen Humer",
+                  "email": "humer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3812,8 +4385,13 @@
               "days": "T",
               "location": "Tech Park - North Building 101",
               "schedule_type": "Lecture",
-              "instructor": "Sean Keller",
-              "instructor_email": "skeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sean Keller",
+                  "email": "skeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3893,8 +4471,13 @@
               "days": "R",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Johann W Friedl",
-              "instructor_email": "jfriedl1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Johann W Friedl",
+                  "email": "jfriedl1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3957,8 +4540,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture",
-              "instructor": "Alphonso J Peluso",
-              "instructor_email": "peluso@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alphonso J Peluso",
+                  "email": "peluso@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4004,8 +4592,13 @@
               "days": "F",
               "location": "Crown Hall UC1",
               "schedule_type": "Lecture",
-              "instructor": "Paulina K Szpiech",
-              "instructor_email": "szpipau@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paulina K Szpiech",
+                  "email": "szpipau@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4033,8 +4626,13 @@
               "days": "R",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Youngjin Hwang",
-              "instructor_email": "yhwang7@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Youngjin Hwang",
+                  "email": "yhwang7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4062,8 +4660,13 @@
               "days": "T",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Andrew J Mack",
-              "instructor_email": "amack3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew J Mack",
+                  "email": "amack3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4109,8 +4712,13 @@
               "days": "R",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Youngjin Hwang",
-              "instructor_email": "yhwang7@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Youngjin Hwang",
+                  "email": "yhwang7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4173,8 +4781,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 107-6",
               "schedule_type": "Lecture",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4220,8 +4833,13 @@
               "days": "MWF",
               "location": "Crown Hall LSE",
               "schedule_type": "Studio",
-              "instructor": "Jordan Hicks",
-              "instructor_email": "jhicks5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jordan Hicks",
+                  "email": "jhicks5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4284,8 +4902,18 @@
               "days": "MWF",
               "location": "Crown Hall LSE",
               "schedule_type": "Studio",
-              "instructor": "Nicole Ashurian , Tyler D Gaeth",
-              "instructor_email": "nashurian@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nicole Ashurian",
+                  "email": "nashurian@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Tyler D Gaeth",
+                  "email": "tgaeth@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4313,8 +4941,18 @@
               "days": "MWF",
               "location": "Crown Hall LSE",
               "schedule_type": "Studio",
-              "instructor": "Catherine M. Baker , James W. Baird",
-              "instructor_email": "cbaker9@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Catherine M. Baker",
+                  "email": "cbaker9@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "James W. Baird",
+                  "email": "jbaird1@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4342,8 +4980,18 @@
               "days": "MWF",
               "location": "Crown Hall LSE",
               "schedule_type": "Studio",
-              "instructor": "David Brininstool , Andrew Metter",
-              "instructor_email": "dbrinins@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Brininstool",
+                  "email": "dbrinins@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Andrew Metter",
+                  "email": "ametter@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4371,8 +5019,13 @@
               "days": "MWF",
               "location": "Crown Hall LSE",
               "schedule_type": "Studio",
-              "instructor": "Thomas E Brock",
-              "instructor_email": "brock@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas E Brock",
+                  "email": "brock@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4400,8 +5053,13 @@
               "days": "MWF",
               "location": "Crown Hall LSE",
               "schedule_type": "Studio",
-              "instructor": "Thomas E Brock",
-              "instructor_email": "brock@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas E Brock",
+                  "email": "brock@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4464,8 +5122,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Jorge Rovira Jimenez , Jason D. Fisher",
-              "instructor_email": "jrovira@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jorge Rovira Jimenez",
+                  "email": "jrovira@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jason D. Fisher",
+                  "email": "jfisher4@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4493,8 +5161,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Rogelio Cadena , Dirk Spencer Denison",
-              "instructor_email": "rcadena@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Rogelio Cadena",
+                  "email": "rcadena@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Dirk Spencer Denison",
+                  "email": "denison@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4522,8 +5200,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4551,8 +5234,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "John J Ronan",
-              "instructor_email": "ronan@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John J Ronan",
+                  "email": "ronan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4580,8 +5268,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Dillon Pranger",
-              "instructor_email": "dpranger@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Dillon Pranger",
+                  "email": "dpranger@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4609,8 +5302,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Vladimir Radutny",
-              "instructor_email": "vradutny@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vladimir Radutny",
+                  "email": "vradutny@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4638,8 +5336,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Leslie Johnson , Jonathan Miller",
-              "instructor_email": "johnsonl@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4667,8 +5375,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Kevin A Malca Vargas",
-              "instructor_email": "kmalca@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin A Malca Vargas",
+                  "email": "kmalca@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4696,8 +5409,13 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4725,8 +5443,13 @@
               "days": "MWF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4754,8 +5477,18 @@
               "days": "MWF",
               "location": "Crown Hall USW",
               "schedule_type": "Studio",
-              "instructor": "Martin S. Felsen , Leslie Johnson",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Leslie Johnson",
+                  "email": "johnsonl@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -4783,8 +5516,13 @@
               "days": "MWF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Nilay D Mistry",
-              "instructor_email": "nmistry1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5034,8 +5772,18 @@
               "days": "W",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Andrew R Tinucci , Brian T. Foote",
-              "instructor_email": "atinucci@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew R Tinucci",
+                  "email": "atinucci@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Brian T. Foote",
+                  "email": "bfoote@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -5098,8 +5846,18 @@
               "days": "R",
               "location": "Siegel Hall 118",
               "schedule_type": "Seminar",
-              "instructor": "Antony D Wood , Kristin Lasorsa",
-              "instructor_email": "wood@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Antony D Wood",
+                  "email": "wood@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kristin Lasorsa",
+                  "email": "klasorsa@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -5162,8 +5920,18 @@
               "days": "R",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Antony D Wood , Kristin Lasorsa",
-              "instructor_email": "wood@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Antony D Wood",
+                  "email": "wood@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kristin Lasorsa",
+                  "email": "klasorsa@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -5226,8 +5994,13 @@
               "days": "T",
               "location": "Crown Hall UC1",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jonathan Miller",
-              "instructor_email": "miller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5255,8 +6028,13 @@
               "days": "R",
               "location": "Crown Hall UC1",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5302,8 +6080,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jonathan Miller",
-              "instructor_email": "miller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5331,8 +6114,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5412,8 +6200,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Youngjin Hwang",
-              "instructor_email": "yhwang7@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Youngjin Hwang",
+                  "email": "yhwang7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5441,8 +6234,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Paul Endres",
-              "instructor_email": "pendres@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paul Endres",
+                  "email": "pendres@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5470,8 +6268,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Sean Keller",
-              "instructor_email": "skeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sean Keller",
+                  "email": "skeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5499,8 +6302,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5528,8 +6336,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "John J Ronan",
-              "instructor_email": "ronan@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John J Ronan",
+                  "email": "ronan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5557,8 +6370,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5586,8 +6404,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Colleen Humer",
-              "instructor_email": "humer@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Colleen Humer",
+                  "email": "humer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5615,8 +6438,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5644,8 +6472,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Antony D Wood",
-              "instructor_email": "wood@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Antony D Wood",
+                  "email": "wood@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5708,8 +6541,13 @@
               "days": "R",
               "location": "Crown Hall UC1",
               "schedule_type": "Seminar",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5772,8 +6610,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jonathan Miller",
-              "instructor_email": "miller@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan Miller",
+                  "email": "miller@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5801,8 +6644,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Youngjin Hwang",
-              "instructor_email": "yhwang7@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Youngjin Hwang",
+                  "email": "yhwang7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5830,8 +6678,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Paul Endres",
-              "instructor_email": "pendres@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paul Endres",
+                  "email": "pendres@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5859,8 +6712,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Sean Keller",
-              "instructor_email": "skeller1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sean Keller",
+                  "email": "skeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5888,8 +6746,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5917,8 +6780,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "John J Ronan",
-              "instructor_email": "ronan@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "John J Ronan",
+                  "email": "ronan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5946,8 +6814,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Vedran Mimica",
-              "instructor_email": "vmimica@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Vedran Mimica",
+                  "email": "vmimica@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5975,8 +6848,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6004,8 +6882,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kristin Jones",
-              "instructor_email": "kjones24@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kristin Jones",
+                  "email": "kjones24@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6033,8 +6916,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Antony D Wood",
-              "instructor_email": "wood@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Antony D Wood",
+                  "email": "wood@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

@@ -33,8 +33,13 @@
               "days": "W",
               "location": "Crown Hall UCC",
               "schedule_type": "Lecture",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

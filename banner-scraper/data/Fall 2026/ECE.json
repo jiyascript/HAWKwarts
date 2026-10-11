@@ -33,8 +33,13 @@
               "days": "M",
               "location": "Perlstein Hall 108",
               "schedule_type": "Lecture",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "T",
               "location": "Siegel Hall 326",
               "schedule_type": "Lab",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,8 +101,13 @@
               "days": "W",
               "location": "Siegel Hall 326",
               "schedule_type": "Lab",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -120,8 +135,13 @@
               "days": "F",
               "location": "Siegel Hall 326",
               "schedule_type": "Lab",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -167,8 +187,13 @@
               "days": "TR",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Guanting Chen",
-              "instructor_email": "gchen30@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guanting Chen",
+                  "email": "gchen30@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -214,8 +239,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -243,8 +273,13 @@
               "days": "M",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -272,8 +307,13 @@
               "days": "M",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -336,8 +376,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Lecture",
-              "instructor": "Zhengyu Xia",
-              "instructor_email": "zxia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zhengyu Xia",
+                  "email": "zxia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -365,8 +410,13 @@
               "days": "T",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Zhengyu Xia",
-              "instructor_email": "zxia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zhengyu Xia",
+                  "email": "zxia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -394,8 +444,13 @@
               "days": "T",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Zhengyu Xia",
-              "instructor_email": "zxia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zhengyu Xia",
+                  "email": "zxia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -423,8 +478,13 @@
               "days": "F",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Zhengyu Xia",
-              "instructor_email": "zxia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zhengyu Xia",
+                  "email": "zxia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -452,8 +512,13 @@
               "days": "R",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Zhengyu Xia",
-              "instructor_email": "zxia@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zhengyu Xia",
+                  "email": "zxia@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -516,8 +581,13 @@
               "days": "MW",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -563,8 +633,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -592,8 +667,13 @@
               "days": "F",
               "location": "IIT Tower 16E4-1",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -639,8 +719,13 @@
               "days": "TR",
               "location": "Hermann Hall 010",
               "schedule_type": "Lecture",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -686,8 +771,18 @@
               "days": "MW",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Tianjiao Liu , Thomas Wong",
-              "instructor_email": "tliu32@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tianjiao Liu",
+                  "email": "tliu32@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -715,8 +810,18 @@
               "days": "W",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Tianjiao Liu , Thomas Wong",
-              "instructor_email": "tliu32@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tianjiao Liu",
+                  "email": "tliu32@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -744,8 +849,18 @@
               "days": "R",
               "location": "Siegel Hall 311",
               "schedule_type": "Lab",
-              "instructor": "Tianjiao Liu , Thomas Wong",
-              "instructor_email": "tliu32@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tianjiao Liu",
+                  "email": "tliu32@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -842,8 +957,13 @@
               "days": "TR",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Sanggil Lee",
-              "instructor_email": "slee255@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sanggil Lee",
+                  "email": "slee255@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -871,8 +991,13 @@
               "days": "T",
               "location": "Siegel Hall 301A",
               "schedule_type": "Lab",
-              "instructor": "Sanggil Lee",
-              "instructor_email": "slee255@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sanggil Lee",
+                  "email": "slee255@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -918,8 +1043,13 @@
               "days": "TR",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "Sanggil Lee",
-              "instructor_email": "slee255@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sanggil Lee",
+                  "email": "slee255@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -947,8 +1077,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Sanggil Lee",
-              "instructor_email": "slee255@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sanggil Lee",
+                  "email": "slee255@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -994,8 +1129,13 @@
               "days": "M",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Fei Shang",
-              "instructor_email": "fshang2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Fei Shang",
+                  "email": "fshang2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1023,8 +1163,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Fei Shang",
-              "instructor_email": "fshang2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Fei Shang",
+                  "email": "fshang2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1052,8 +1197,13 @@
               "days": "R",
               "location": "Siegel Hall 001",
               "schedule_type": "Lab",
-              "instructor": "Fei Shang",
-              "instructor_email": "fshang2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Fei Shang",
+                  "email": "fshang2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1081,8 +1231,13 @@
               "days": "W",
               "location": "Siegel Hall 001",
               "schedule_type": "Lab",
-              "instructor": "Fei Shang",
-              "instructor_email": "fshang2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Fei Shang",
+                  "email": "fshang2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1145,8 +1300,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1174,8 +1334,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1203,8 +1368,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1301,8 +1471,13 @@
               "days": "TR",
               "location": "Hermann Hall MEZZANINE",
               "schedule_type": "Lecture",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1330,8 +1505,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1359,8 +1539,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1388,8 +1573,13 @@
               "days": "W",
               "location": "Siegel Hall 301A",
               "schedule_type": "Lab",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1452,8 +1642,13 @@
               "days": "MW",
               "location": "Stuart Building 238",
               "schedule_type": "Lecture",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1481,8 +1676,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1510,8 +1710,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1539,8 +1744,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1603,8 +1813,13 @@
               "days": "F",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Tianyang Fang",
-              "instructor_email": "tfang3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tianyang Fang",
+                  "email": "tfang3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1632,8 +1847,13 @@
               "days": "R",
               "location": "Siegel Hall 310B",
               "schedule_type": "Lab",
-              "instructor": "Tianyang Fang",
-              "instructor_email": "tfang3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tianyang Fang",
+                  "email": "tfang3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1661,8 +1881,13 @@
               "days": "R",
               "location": "Siegel Hall 310B",
               "schedule_type": "Lab",
-              "instructor": "Tianyang Fang",
-              "instructor_email": "tfang3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Tianyang Fang",
+                  "email": "tfang3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1708,8 +1933,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1737,8 +1967,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1766,8 +2001,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1847,8 +2087,13 @@
               "days": "TR",
               "location": "Robert A. Pritzker Science Ctr 129",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1876,8 +2121,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1905,8 +2155,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1986,8 +2241,13 @@
               "days": "M",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -1995,8 +2255,13 @@
               "days": "W",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2024,8 +2289,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2053,8 +2323,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2134,8 +2409,13 @@
               "days": "TR",
               "location": "Wishnick Hall 116",
               "schedule_type": "Lecture",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2163,8 +2443,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2192,8 +2477,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2256,8 +2546,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jafar Saniie",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2285,8 +2580,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Geoffrey Williamson",
-              "instructor_email": "williamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey Williamson",
+                  "email": "williamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2314,8 +2614,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2343,8 +2648,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Miles Wernick",
-              "instructor_email": "wernick@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Miles Wernick",
+                  "email": "wernick@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2372,8 +2682,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Thomas Wong",
-              "instructor_email": "wong@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2401,8 +2716,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Guillermo E Atkin",
-              "instructor_email": "atkin@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guillermo E Atkin",
+                  "email": "atkin@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2430,8 +2750,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yang Xu",
-              "instructor_email": "yxu19@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yang Xu",
+                  "email": "yxu19@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2459,8 +2784,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yongyi Yang",
-              "instructor_email": "yangyo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yongyi Yang",
+                  "email": "yangyo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2488,8 +2818,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2517,8 +2852,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yu Cheng",
-              "instructor_email": "cheng@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yu Cheng",
+                  "email": "cheng@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2546,8 +2886,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2575,8 +2920,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zuyi Li",
-              "instructor_email": "lizu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zuyi Li",
+                  "email": "lizu@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2604,8 +2954,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2633,8 +2988,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2662,8 +3022,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth Zdunek",
-              "instructor_email": "kzdunek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth Zdunek",
+                  "email": "kzdunek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2691,8 +3056,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2720,8 +3090,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2767,8 +3142,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2796,8 +3176,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jafar Saniie",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2825,8 +3210,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Geoffrey Williamson",
-              "instructor_email": "williamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey Williamson",
+                  "email": "williamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2854,8 +3244,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2883,8 +3278,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2912,8 +3312,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Miles Wernick",
-              "instructor_email": "wernick@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Miles Wernick",
+                  "email": "wernick@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2941,8 +3346,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Thomas Wong",
-              "instructor_email": "wong@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2970,8 +3380,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Guillermo E Atkin",
-              "instructor_email": "atkin@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guillermo E Atkin",
+                  "email": "atkin@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -2999,8 +3414,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yang Xu",
-              "instructor_email": "yxu19@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yang Xu",
+                  "email": "yxu19@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3028,8 +3448,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yongyi Yang",
-              "instructor_email": "yangyo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yongyi Yang",
+                  "email": "yangyo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3057,8 +3482,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3086,8 +3516,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yu Cheng",
-              "instructor_email": "cheng@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yu Cheng",
+                  "email": "cheng@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3115,8 +3550,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3144,8 +3584,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zuyi Li",
-              "instructor_email": "lizu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zuyi Li",
+                  "email": "lizu@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3173,8 +3618,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3202,8 +3652,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3231,8 +3686,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth Zdunek",
-              "instructor_email": "kzdunek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth Zdunek",
+                  "email": "kzdunek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3260,8 +3720,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3289,8 +3754,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mahesh Krishnamurthy",
-              "instructor_email": "ukrishn1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mahesh Krishnamurthy",
+                  "email": "ukrishn1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3318,8 +3788,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zheng John Shen",
-              "instructor_email": "zshen6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zheng John Shen",
+                  "email": "zshen6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3347,8 +3822,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3376,8 +3856,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3405,8 +3890,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 107-3",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Donald DeLoach",
-              "instructor_email": "ddeloach@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Donald DeLoach",
+                  "email": "ddeloach@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3503,8 +3993,13 @@
               "days": "T",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -3512,8 +4007,13 @@
               "days": "R",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3541,8 +4041,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3570,8 +4075,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3599,8 +4109,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3701,23 +4216,6 @@
     },
     {
       "course_code": "ECE",
-      "course_num": "517",
-      "course_combined": "ECE 517",
-      "title": "Wireless Ntwrk Protocols/Stand",
-      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ECE&crse_numb_in=517",
-      "course_description": "This course introduces cutting-edge wireless networking technologies with focus on the network protocols and standards of the current and next generation wireless networks including cellular networks, wireless local area networks, and wireless ad hoc networks. Specifically, it will cover topics relevant to wireless communications, radio resource management, mobility management, wireless medium access control, wireless routing protocols, and wireless TCP protocols.",
-      "learning_objectives": "",
-      "catalog_syllabus_url": "",
-      "levels": "",
-      "attributes": "",
-      "restrictions": "",
-      "prerequisites": "",
-      "general_requirements": "",
-      "mutual_exclusions": "",
-      "sections": []
-    },
-    {
-      "course_code": "ECE",
       "course_num": "518",
       "course_combined": "ECE 518",
       "title": "Computer Cyber Security",
@@ -3748,8 +4246,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3777,8 +4280,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3806,8 +4314,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -3835,8 +4348,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4222,8 +4740,13 @@
               "days": "F",
               "location": "IIT Tower 16E4-1",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4251,8 +4774,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4349,8 +4877,13 @@
               "days": "TR",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4378,8 +4911,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4407,8 +4945,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4436,8 +4979,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4517,8 +5065,13 @@
               "days": "TR",
               "location": "Wishnick Hall 115",
               "schedule_type": "Lecture",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4546,8 +5099,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4575,8 +5133,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4622,8 +5185,13 @@
               "days": "M",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             },
             {
               "type": "Class",
@@ -4631,8 +5199,13 @@
               "days": "W",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4660,8 +5233,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4689,8 +5267,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4718,8 +5301,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4820,23 +5408,6 @@
     },
     {
       "course_code": "ECE",
-      "course_num": "584",
-      "course_combined": "ECE 584",
-      "title": "VLSI Archs Sgnl Prcs Commnctns",
-      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202710&subj_code_in=ECE&crse_numb_in=584",
-      "course_description": "This course aims to convey knowledge of advanced concepts in VLSI signal processing. Emphasis is on the architectural research, design and optimization of signal processing systems used in telecommunications, compression, encryption and coding applications. Topics covered include the principles of datapath design; FIR and IIR filtering architectures; communication systems including OFDM, multirate signal processing; fast transforms and algorithms including fast Fourier transform; discrete cosine transform; Walsh-Hadamard transform; and wavelet transform. Furthermore, advanced computer arithmetic methods including Galois fields, CORDIC, residue number systems, distributed arithmetic, canonic signed digit systems and reduced adder graph algorithms are examined.",
-      "learning_objectives": "",
-      "catalog_syllabus_url": "",
-      "levels": "",
-      "attributes": "",
-      "restrictions": "",
-      "prerequisites": "",
-      "general_requirements": "",
-      "mutual_exclusions": "",
-      "sections": []
-    },
-    {
-      "course_code": "ECE",
       "course_num": "585",
       "course_combined": "ECE 585",
       "title": "Computer Org and Design",
@@ -4867,8 +5438,13 @@
               "days": "TR",
               "location": "Wishnick Hall 116",
               "schedule_type": "Lecture",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4896,8 +5472,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -4925,8 +5506,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5006,8 +5592,13 @@
               "days": "TR",
               "location": "Hermann Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5035,8 +5626,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5064,8 +5660,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5111,8 +5712,13 @@
               "days": "TR",
               "location": "Robert A. Pritzker Science Ctr 129",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5140,8 +5746,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5169,8 +5780,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5198,8 +5814,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5245,8 +5866,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5274,8 +5900,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jafar Saniie",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5303,8 +5934,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Geoffrey Williamson",
-              "instructor_email": "williamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey Williamson",
+                  "email": "williamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5332,8 +5968,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5361,8 +6002,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Miles Wernick",
-              "instructor_email": "wernick@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Miles Wernick",
+                  "email": "wernick@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5390,8 +6036,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Thomas Wong",
-              "instructor_email": "wong@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5419,8 +6070,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Guillermo E Atkin",
-              "instructor_email": "atkin@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guillermo E Atkin",
+                  "email": "atkin@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5448,8 +6104,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yang Xu",
-              "instructor_email": "yxu19@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yang Xu",
+                  "email": "yxu19@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5477,8 +6138,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yongyi Yang",
-              "instructor_email": "yangyo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yongyi Yang",
+                  "email": "yangyo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5506,8 +6172,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5535,8 +6206,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yu Cheng",
-              "instructor_email": "cheng@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yu Cheng",
+                  "email": "cheng@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5564,8 +6240,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5593,8 +6274,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zuyi Li",
-              "instructor_email": "lizu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zuyi Li",
+                  "email": "lizu@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5622,8 +6308,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5651,8 +6342,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5680,8 +6376,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth Zdunek",
-              "instructor_email": "kzdunek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth Zdunek",
+                  "email": "kzdunek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5709,8 +6410,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5738,8 +6444,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mahesh Krishnamurthy",
-              "instructor_email": "ukrishn1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mahesh Krishnamurthy",
+                  "email": "ukrishn1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5767,8 +6478,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Qingchang Zhong",
-              "instructor_email": "qzhong2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Qingchang Zhong",
+                  "email": "qzhong2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5796,8 +6512,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenji Suzuki",
-              "instructor_email": "ksuzuki@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenji Suzuki",
+                  "email": "ksuzuki@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5825,8 +6546,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ian Brown",
-              "instructor_email": "ibrown1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ian Brown",
+                  "email": "ibrown1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5854,8 +6580,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zheng John Shen",
-              "instructor_email": "zshen6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zheng John Shen",
+                  "email": "zshen6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5883,8 +6614,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5947,8 +6683,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jafar Saniie",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -5976,8 +6717,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Geoffrey Williamson",
-              "instructor_email": "williamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey Williamson",
+                  "email": "williamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6005,8 +6751,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6034,8 +6785,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Miles Wernick",
-              "instructor_email": "wernick@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Miles Wernick",
+                  "email": "wernick@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6063,8 +6819,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Thomas Wong",
-              "instructor_email": "wong@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6092,8 +6853,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Guillermo E Atkin",
-              "instructor_email": "atkin@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guillermo E Atkin",
+                  "email": "atkin@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6121,8 +6887,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yang Xu",
-              "instructor_email": "yxu19@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yang Xu",
+                  "email": "yxu19@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6150,8 +6921,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yongyi Yang",
-              "instructor_email": "yangyo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yongyi Yang",
+                  "email": "yangyo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6179,8 +6955,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6208,8 +6989,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yu Cheng",
-              "instructor_email": "cheng@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yu Cheng",
+                  "email": "cheng@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6237,8 +7023,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6266,8 +7057,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zuyi Li",
-              "instructor_email": "lizu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zuyi Li",
+                  "email": "lizu@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6295,8 +7091,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6324,8 +7125,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6353,8 +7159,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth Zdunek",
-              "instructor_email": "kzdunek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth Zdunek",
+                  "email": "kzdunek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6382,8 +7193,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6411,8 +7227,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ian Brown",
-              "instructor_email": "ibrown1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ian Brown",
+                  "email": "ibrown1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6440,8 +7261,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6487,8 +7313,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Hassan Modir Shanechi",
-              "instructor_email": "shanechi@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Hassan Modir Shanechi",
+                  "email": "shanechi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6516,8 +7347,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jafar Saniie",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6545,8 +7381,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Geoffrey Williamson",
-              "instructor_email": "williamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey Williamson",
+                  "email": "williamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6574,8 +7415,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6603,8 +7449,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Miles Wernick",
-              "instructor_email": "wernick@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Miles Wernick",
+                  "email": "wernick@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6632,8 +7483,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Thomas Wong",
-              "instructor_email": "wong@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6661,8 +7517,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Guillermo E Atkin",
-              "instructor_email": "atkin@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guillermo E Atkin",
+                  "email": "atkin@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6690,8 +7551,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yang Xu",
-              "instructor_email": "yxu19@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yang Xu",
+                  "email": "yxu19@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6719,8 +7585,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yongyi Yang",
-              "instructor_email": "yangyo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yongyi Yang",
+                  "email": "yangyo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6748,8 +7619,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6777,8 +7653,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yu Cheng",
-              "instructor_email": "cheng@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yu Cheng",
+                  "email": "cheng@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6806,8 +7687,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6835,8 +7721,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zuyi Li",
-              "instructor_email": "lizu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zuyi Li",
+                  "email": "lizu@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6864,8 +7755,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6893,8 +7789,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6922,8 +7823,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth Zdunek",
-              "instructor_email": "kzdunek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth Zdunek",
+                  "email": "kzdunek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6951,8 +7857,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -6980,8 +7891,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mahesh Krishnamurthy",
-              "instructor_email": "ukrishn1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mahesh Krishnamurthy",
+                  "email": "ukrishn1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7009,8 +7925,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Qingchang Zhong",
-              "instructor_email": "qzhong2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Qingchang Zhong",
+                  "email": "qzhong2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7038,8 +7959,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenji Suzuki",
-              "instructor_email": "ksuzuki@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenji Suzuki",
+                  "email": "ksuzuki@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7067,8 +7993,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ian Brown",
-              "instructor_email": "ibrown1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ian Brown",
+                  "email": "ibrown1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7096,8 +8027,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zheng John Shen",
-              "instructor_email": "zshen6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zheng John Shen",
+                  "email": "zshen6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7125,8 +8061,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7154,8 +8095,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Won Jae Yi",
-              "instructor_email": "wyi3@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7218,8 +8164,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jafar Saniie",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7247,8 +8198,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Geoffrey Williamson",
-              "instructor_email": "williamson@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Geoffrey Williamson",
+                  "email": "williamson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7276,8 +8232,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mohammad Shahidehpour",
-              "instructor_email": "ms@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mohammad Shahidehpour",
+                  "email": "ms@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7305,8 +8266,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Miles Wernick",
-              "instructor_email": "wernick@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Miles Wernick",
+                  "email": "wernick@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7334,8 +8300,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Thomas Wong",
-              "instructor_email": "wong@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Thomas Wong",
+                  "email": "wong@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7363,8 +8334,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Guillermo E Atkin",
-              "instructor_email": "atkin@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Guillermo E Atkin",
+                  "email": "atkin@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7392,8 +8368,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yang Xu",
-              "instructor_email": "yxu19@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yang Xu",
+                  "email": "yxu19@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7421,8 +8402,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yongyi Yang",
-              "instructor_email": "yangyo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yongyi Yang",
+                  "email": "yangyo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7450,8 +8436,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kyuwon Choi",
-              "instructor_email": "kchoi12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kyuwon Choi",
+                  "email": "kchoi12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7479,8 +8470,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Yu Cheng",
-              "instructor_email": "cheng@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Yu Cheng",
+                  "email": "cheng@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7508,8 +8504,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jovan Brankov",
-              "instructor_email": "brankov@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jovan Brankov",
+                  "email": "brankov@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7537,8 +8538,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Zuyi Li",
-              "instructor_email": "lizu@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zuyi Li",
+                  "email": "lizu@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7566,8 +8572,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Suresh R Borkar",
-              "instructor_email": "borkar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Suresh R Borkar",
+                  "email": "borkar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7595,8 +8606,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Jia Wang",
-              "instructor_email": "jwang34@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jia Wang",
+                  "email": "jwang34@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7624,8 +8640,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth Zdunek",
-              "instructor_email": "kzdunek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth Zdunek",
+                  "email": "kzdunek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7653,8 +8674,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Joohee Kim",
-              "instructor_email": "jkim61@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joohee Kim",
+                  "email": "jkim61@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7682,8 +8708,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Mahesh Krishnamurthy",
-              "instructor_email": "ukrishn1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mahesh Krishnamurthy",
+                  "email": "ukrishn1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7711,8 +8742,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Qingchang Zhong",
-              "instructor_email": "qzhong2@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Qingchang Zhong",
+                  "email": "qzhong2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7740,8 +8776,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ashfaq A. Khokhar",
-              "instructor_email": "akhokhar@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ashfaq A. Khokhar",
+                  "email": "akhokhar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7769,8 +8810,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenji Suzuki",
-              "instructor_email": "ksuzuki@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenji Suzuki",
+                  "email": "ksuzuki@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7798,8 +8844,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ian Brown",
-              "instructor_email": "ibrown1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ian Brown",
+                  "email": "ibrown1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7827,8 +8878,18 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ian Brown , Zheng John Shen",
-              "instructor_email": "ibrown1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ian Brown",
+                  "email": "ibrown1@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Zheng John Shen",
+                  "email": "zshen6@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -7856,8 +8917,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ren Wang",
-              "instructor_email": "rwang74@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ren Wang",
+                  "email": "rwang74@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -7903,8 +8969,18 @@
               "days": "F",
               "location": "Wishnick Hall 113",
               "schedule_type": "Seminar",
-              "instructor": "Jafar Saniie , Won Jae Yi",
-              "instructor_email": "saniie@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jafar Saniie",
+                  "email": "saniie@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Won Jae Yi",
+                  "email": "wyi3@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {

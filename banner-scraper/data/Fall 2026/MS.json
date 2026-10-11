@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Wishnick Hall 113",
               "schedule_type": "Lecture",
-              "instructor": "Sayed M Saghaian",
-              "instructor_email": "ssaghaian@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sayed M Saghaian",
+                  "email": "ssaghaian@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

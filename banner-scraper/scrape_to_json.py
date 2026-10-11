@@ -211,19 +211,27 @@ def process_department(semester, department):
                 if values[0] == "Final Exam":
                     continue
 
-                instructor_email = ""
-                email_link = cells[6].find("a", href=True)
-                if email_link:
-                    href = email_link["href"]
+                instructors = []
+                name_parts = []
+                is_primary = False
 
-                    if href.startswith("mailto:"):
-                        instructor_email = href[7:]
+                for node in list(cells[6].children) + [None]: 
+                    is_mailto = getattr(node, "name", None) == "a" and node.get("href", "").startswith("mailto:")
 
-                instructor = re.sub(
-                    r"\s*\(\s*[A-Z]\s*\)",
-                    "",
-                    values[6]
-                ).strip()
+                    if node is None or is_mailto:
+                        name = clean_text(re.sub(r"\(\s*\)", "", " ".join(name_parts))).strip(" ,")
+                        if name:
+                            instructors.append({
+                                "name": name,
+                                "email": node["href"][7:] if is_mailto else "",
+                                "primary": is_primary
+                            })
+                        name_parts = []
+                        is_primary = False
+                    elif getattr(node, "name", None) == "abbr":
+                        is_primary = node.get("title") == "Primary"
+                    else:
+                        name_parts.append(node.get_text(" ", strip=True) if hasattr(node, "get_text") else str(node))
 
                 meetings.append({
                     "type": values[0],
@@ -231,8 +239,7 @@ def process_department(semester, department):
                     "days": values[2],
                     "location": values[3],
                     "schedule_type": values[5],
-                    "instructor": instructor,
-                    "instructor_email": instructor_email
+                    "instructors": instructors 
                 })
 
         section_availability = availability.get(crn, {})

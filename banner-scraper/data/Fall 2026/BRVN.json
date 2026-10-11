@@ -33,8 +33,13 @@
               "days": "W",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kevin W Cassel",
-              "instructor_email": "cassel@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin W Cassel",
+                  "email": "cassel@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "R",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Kevin W Cassel",
-              "instructor_email": "cassel@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin W Cassel",
+                  "email": "cassel@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

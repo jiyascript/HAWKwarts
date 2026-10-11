@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Prasad Satya Kodukula",
-              "instructor_email": "pkodukul@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Prasad Satya Kodukula",
+                  "email": "pkodukul@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "TR",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Joanne E. Howard",
-              "instructor_email": "jhowar12@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joanne E. Howard",
+                  "email": "jhowar12@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -91,14 +101,19 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Prasad Satya Kodukula",
-              "instructor_email": "pkodukul@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Prasad Satya Kodukula",
+                  "email": "pkodukul@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
             "capacity": 20,
-            "actual": 9,
-            "remaining": 11,
+            "actual": 10,
+            "remaining": 10,
             "waitlist_capacity": 99,
             "waitlist_actual": 0,
             "waitlist_remaining": 99
@@ -155,8 +170,13 @@
               "days": "S",
               "location": "Downtown Campus 470",
               "schedule_type": "Lecture",
-              "instructor": "Frank Biga",
-              "instructor_email": "fbiga@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Frank Biga",
+                  "email": "fbiga@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -219,8 +239,13 @@
               "days": "S",
               "location": "Downtown Campus 485",
               "schedule_type": "Lecture",
-              "instructor": "Jonathan M Lee",
-              "instructor_email": "jlee363@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jonathan M Lee",
+                  "email": "jlee363@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

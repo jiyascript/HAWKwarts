@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy P Alexis",
-              "instructor_email": "alexis@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy P Alexis",
+                  "email": "alexis@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -148,8 +153,13 @@
               "days": "MW",
               "location": "IIT Tower 6D6-1",
               "schedule_type": "Lecture",
-              "instructor": "Kathryn R. Petrozzo",
-              "instructor_email": "kpetrozzo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn R. Petrozzo",
+                  "email": "kpetrozzo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -212,8 +222,13 @@
               "days": "TR",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Clarissa Busch",
-              "instructor_email": "cbusch1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Clarissa Busch",
+                  "email": "cbusch1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -310,8 +325,13 @@
               "days": "MW",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Elisabeth Hildt",
-              "instructor_email": "ehildt@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elisabeth Hildt",
+                  "email": "ehildt@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -408,8 +428,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 104",
               "schedule_type": "Lecture",
-              "instructor": "Sydney Harvey",
-              "instructor_email": "sharvey5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sydney Harvey",
+                  "email": "sharvey5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -437,8 +462,13 @@
               "days": "MW",
               "location": "Siegel Hall 202",
               "schedule_type": "Lecture",
-              "instructor": "Bjorn R Kristensen",
-              "instructor_email": "bkristensen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Bjorn R Kristensen",
+                  "email": "bkristensen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -484,8 +514,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Clarissa Busch",
-              "instructor_email": "cbusch1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Clarissa Busch",
+                  "email": "cbusch1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -513,8 +548,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kathryn R. Petrozzo",
-              "instructor_email": "kpetrozzo@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kathryn R. Petrozzo",
+                  "email": "kpetrozzo@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

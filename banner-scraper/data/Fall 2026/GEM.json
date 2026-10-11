@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Siegel Hall 203",
               "schedule_type": "Lecture",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -97,8 +102,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Adryen J Gonzalez",
-              "instructor_email": "agonzalez64@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adryen J Gonzalez",
+                  "email": "agonzalez64@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -161,8 +171,13 @@
               "days": "TR",
               "location": "TBA",
               "schedule_type": "Accelerated Course",
-              "instructor": "Adryen J Gonzalez",
-              "instructor_email": "agonzalez64@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Adryen J Gonzalez",
+                  "email": "agonzalez64@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -293,8 +308,13 @@
               "days": "TR",
               "location": "Ed Kaplan Family Institute 116",
               "schedule_type": "Lecture",
-              "instructor": "Paige Safyer",
-              "instructor_email": "psafyer@hawk.illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paige Safyer",
+                  "email": "psafyer@hawk.illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -322,8 +342,13 @@
               "days": "TR",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Lecture",
-              "instructor": "Warner B. Rodda",
-              "instructor_email": "wrodda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Warner B. Rodda",
+                  "email": "wrodda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -351,8 +376,13 @@
               "days": "R",
               "location": "Siegel Hall 203",
               "schedule_type": "Lecture",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -380,8 +410,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Lecture",
-              "instructor": "Seulgi Kim",
-              "instructor_email": "skim179@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Seulgi Kim",
+                  "email": "skim179@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -409,8 +444,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 211E",
               "schedule_type": "Lecture",
-              "instructor": "Zachary Pino",
-              "instructor_email": "zach.pino@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary Pino",
+                  "email": "zach.pino@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -456,8 +496,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Lecture",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

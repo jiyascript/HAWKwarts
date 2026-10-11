@@ -33,8 +33,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -127,8 +137,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -174,8 +189,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -221,8 +241,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -268,8 +293,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -315,8 +345,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -362,8 +397,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Cooperative Education COOP",
-              "instructor": "Cynthia Stewart",
-              "instructor_email": "cstewart4@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Cynthia Stewart",
+                  "email": "cstewart4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

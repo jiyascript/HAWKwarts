@@ -67,8 +67,13 @@
               "days": "MW",
               "location": "Siegel Hall 203",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Bliss",
-              "instructor_email": "dbliss@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Bliss",
+                  "email": "dbliss@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -131,8 +136,13 @@
               "days": "TR",
               "location": "Siegel Hall 203",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Bliss",
-              "instructor_email": "dbliss@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Bliss",
+                  "email": "dbliss@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -212,8 +222,13 @@
               "days": "MW",
               "location": "Siegel Hall 204",
               "schedule_type": "Lecture",
-              "instructor": "Daniel Bliss",
-              "instructor_email": "dbliss@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Daniel Bliss",
+                  "email": "dbliss@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -429,8 +444,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Matthew Shapiro",
-              "instructor_email": "shapiro@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Shapiro",
+                  "email": "shapiro@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -476,8 +496,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Matthew Shapiro",
-              "instructor_email": "shapiro@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Shapiro",
+                  "email": "shapiro@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

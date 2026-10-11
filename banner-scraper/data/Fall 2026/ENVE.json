@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Robert A. Pritzker Science Ctr 129",
               "schedule_type": "Lecture",
-              "instructor": "Boyoung Jeong",
-              "instructor_email": "bjeong1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Boyoung Jeong",
+                  "email": "bjeong1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -80,8 +85,13 @@
               "days": "TR",
               "location": "John T. Rettaliata Engg Center 104",
               "schedule_type": "Lecture",
-              "instructor": "David Lampert",
-              "instructor_email": "dlampert1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Lampert",
+                  "email": "dlampert1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -280,8 +290,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lab",
-              "instructor": "Karoline Qasem",
-              "instructor_email": "kqasem1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Karoline Qasem",
+                  "email": "kqasem1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -378,8 +393,13 @@
               "days": "TR",
               "location": "Stuart Building 220",
               "schedule_type": "Lecture",
-              "instructor": "David Lampert",
-              "instructor_email": "dlampert1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Lampert",
+                  "email": "dlampert1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -646,8 +666,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Paul R. Anderson",
-              "instructor_email": "andersonp@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paul R. Anderson",
+                  "email": "andersonp@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -675,8 +700,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth E. Noll",
-              "instructor_email": "noll@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth E. Noll",
+                  "email": "noll@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -704,8 +734,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Brent Robert Stephens",
-              "instructor_email": "bstephe5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brent Robert Stephens",
+                  "email": "bstephe5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -733,8 +768,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "David Lampert",
-              "instructor_email": "dlampert1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Lampert",
+                  "email": "dlampert1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -780,8 +820,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Paul R. Anderson",
-              "instructor_email": "andersonp@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paul R. Anderson",
+                  "email": "andersonp@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -809,8 +854,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth E. Noll",
-              "instructor_email": "noll@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth E. Noll",
+                  "email": "noll@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -838,8 +888,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Brent Robert Stephens",
-              "instructor_email": "bstephe5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brent Robert Stephens",
+                  "email": "bstephe5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -867,8 +922,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "David Lampert",
-              "instructor_email": "dlampert1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Lampert",
+                  "email": "dlampert1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -914,8 +974,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Paul R. Anderson",
-              "instructor_email": "andersonp@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Paul R. Anderson",
+                  "email": "andersonp@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -943,8 +1008,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Kenneth E. Noll",
-              "instructor_email": "noll@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kenneth E. Noll",
+                  "email": "noll@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -972,8 +1042,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Brent Robert Stephens",
-              "instructor_email": "bstephe5@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Brent Robert Stephens",
+                  "email": "bstephe5@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1001,8 +1076,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "David Lampert",
-              "instructor_email": "dlampert1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "David Lampert",
+                  "email": "dlampert1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

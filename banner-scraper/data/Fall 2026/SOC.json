@@ -50,8 +50,13 @@
               "days": "T",
               "location": "Robert A. Pritzker Science Ctr 111",
               "schedule_type": "Lecture",
-              "instructor": "Joseph A. Renow",
-              "instructor_email": "jrenow@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Joseph A. Renow",
+                  "email": "jrenow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -216,8 +221,13 @@
               "days": "MW",
               "location": "Stuart Building 104",
               "schedule_type": "Lecture",
-              "instructor": "Saran Ghatak",
-              "instructor_email": "sghatak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Saran Ghatak",
+                  "email": "sghatak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -314,8 +324,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Saran Ghatak",
-              "instructor_email": "sghatak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Saran Ghatak",
+                  "email": "sghatak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -361,8 +376,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Saran Ghatak",
-              "instructor_email": "sghatak@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Saran Ghatak",
+                  "email": "sghatak@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

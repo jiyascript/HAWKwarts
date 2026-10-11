@@ -33,8 +33,13 @@
               "days": "T",
               "location": "Crown Hall 005",
               "schedule_type": "Lecture",
-              "instructor": "Sarah M Holian",
-              "instructor_email": "sholian@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Sarah M Holian",
+                  "email": "sholian@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -62,8 +67,13 @@
               "days": "F",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Kevin A Malca Vargas",
-              "instructor_email": "kmalca@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin A Malca Vargas",
+                  "email": "kmalca@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -109,8 +119,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 107-6",
               "schedule_type": "Lecture",
-              "instructor": "Martin S. Felsen",
-              "instructor_email": "felsen@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin S. Felsen",
+                  "email": "felsen@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -190,8 +205,13 @@
               "days": "W",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -237,8 +257,18 @@
               "days": "W",
               "location": "IIT Tower 1F6-1",
               "schedule_type": "Lecture",
-              "instructor": "Andrew R Tinucci , Brian T. Foote",
-              "instructor_email": "atinucci@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Andrew R Tinucci",
+                  "email": "atinucci@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Brian T. Foote",
+                  "email": "bfoote@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -284,8 +314,13 @@
               "days": "T",
               "location": "Crown Hall UC1",
               "schedule_type": "Lecture",
-              "instructor": "Charles Haller",
-              "instructor_email": "challer@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Charles Haller",
+                  "email": "challer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -331,8 +366,13 @@
               "days": "R",
               "location": "Crown Hall UC2",
               "schedule_type": "Lecture",
-              "instructor": "Johann W Friedl",
-              "instructor_email": "jfriedl1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Johann W Friedl",
+                  "email": "jfriedl1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -395,8 +435,18 @@
               "days": "MWF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Nilay D Mistry , Krista E Dawson",
-              "instructor_email": "nmistry1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Krista E Dawson",
+                  "email": "kdawson1@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -459,8 +509,13 @@
               "days": "MWF",
               "location": "Crown Hall USE",
               "schedule_type": "Studio",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -540,8 +595,18 @@
               "days": "R",
               "location": "Ed Kaplan Family Institute 107-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Frank D. Balestri , Mark Jirik",
-              "instructor_email": "fbalestri@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Frank D. Balestri",
+                  "email": "fbalestri@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Mark Jirik",
+                  "email": "mjirik@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
@@ -604,8 +669,13 @@
               "days": "M",
               "location": "Crown Hall 003",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Elaine Lynne Zmuda",
-              "instructor_email": "ezmuda@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Elaine Lynne Zmuda",
+                  "email": "ezmuda@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -668,8 +738,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Maria Villalobos Hernandez",
-              "instructor_email": "mvillaloboshernandez@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -697,8 +772,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Nilay D Mistry",
-              "instructor_email": "nmistry1@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

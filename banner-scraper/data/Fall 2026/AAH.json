@@ -33,8 +33,13 @@
               "days": "MW",
               "location": "Siegel Hall 118",
               "schedule_type": "Lecture",
-              "instructor": "Alican Taylan",
-              "instructor_email": "ataylan@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alican Taylan",
+                  "email": "ataylan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -97,8 +102,13 @@
               "days": "MW",
               "location": "Hermann Hall 002",
               "schedule_type": "Lecture",
-              "instructor": "Alaina Griffin",
-              "instructor_email": "agriffin8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Alaina Griffin",
+                  "email": "agriffin8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -144,8 +154,13 @@
               "days": "TR",
               "location": "Siegel Hall 237",
               "schedule_type": "Lecture",
-              "instructor": "Markus D Dohner",
-              "instructor_email": "mdohner@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Markus D Dohner",
+                  "email": "mdohner@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

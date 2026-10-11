@@ -33,8 +33,13 @@
               "days": "R",
               "location": "Ed Kaplan Family Institute 227",
               "schedule_type": "Lecture",
-              "instructor": "Martin Thaler",
-              "instructor_email": "mthaler@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Martin Thaler",
+                  "email": "mthaler@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -199,8 +204,13 @@
               "days": "F",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Lecture",
-              "instructor": "Zachary Pino",
-              "instructor_email": "zach.pino@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Zachary Pino",
+                  "email": "zach.pino@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -297,8 +307,13 @@
               "days": "M",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Workshop",
-              "instructor": "Seulgi Kim",
-              "instructor_email": "skim179@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Seulgi Kim",
+                  "email": "skim179@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -480,8 +495,13 @@
               "days": "R",
               "location": "Ed Kaplan Family Institute 227",
               "schedule_type": "Lecture",
-              "instructor": "Jeremy P Alexis",
-              "instructor_email": "alexis@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Jeremy P Alexis",
+                  "email": "alexis@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -544,8 +564,13 @@
               "days": "W",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Studio",
-              "instructor": "Maura Aileen Shea",
-              "instructor_email": "mshea@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maura Aileen Shea",
+                  "email": "mshea@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -744,8 +769,7 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Internship",
-              "instructor": "TBA",
-              "instructor_email": ""
+              "instructors": []
             }
           ],
           "availability": {
@@ -808,8 +832,13 @@
               "days": "R",
               "location": "Ed Kaplan Family Institute 225",
               "schedule_type": "Studio",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -837,8 +866,13 @@
               "days": "T",
               "location": "Ed Kaplan Family Institute 226",
               "schedule_type": "Lecture",
-              "instructor": "Carlos Teixeira",
-              "instructor_email": "carlos@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carlos Teixeira",
+                  "email": "carlos@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -866,8 +900,13 @@
               "days": "MW",
               "location": "Stuart Building 104",
               "schedule_type": "Lecture",
-              "instructor": "Mark Roman Miller",
-              "instructor_email": "mmiller30@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Mark Roman Miller",
+                  "email": "mmiller30@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -895,8 +934,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -942,8 +986,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Matthew Mayfield",
-              "instructor_email": "mayfield@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matthew Mayfield",
+                  "email": "mayfield@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -971,8 +1020,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Maura Aileen Shea",
-              "instructor_email": "mshea@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Maura Aileen Shea",
+                  "email": "mshea@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1000,8 +1054,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Ruth K Schmidt",
-              "instructor_email": "rschmid8@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Ruth K Schmidt",
+                  "email": "rschmid8@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -1029,8 +1088,13 @@
               "days": "",
               "location": "TBA",
               "schedule_type": "Independent Study/Research",
-              "instructor": "Carly Kocurek",
-              "instructor_email": "ckocurek@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Carly Kocurek",
+                  "email": "ckocurek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

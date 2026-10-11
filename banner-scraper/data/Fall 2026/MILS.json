@@ -33,8 +33,13 @@
               "days": "W",
               "location": "Keating Hall NONE",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -114,8 +119,13 @@
               "days": "TRF",
               "location": "Keating Hall NONE",
               "schedule_type": "Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -195,8 +205,13 @@
               "days": "TR",
               "location": "Keating Hall NONE",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -259,8 +274,13 @@
               "days": "TRF",
               "location": "Keating Hall NONE",
               "schedule_type": "Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -323,8 +343,13 @@
               "days": "F",
               "location": "Keating Hall NONE",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -387,8 +412,13 @@
               "days": "TRF",
               "location": "Keating Hall NONE",
               "schedule_type": "Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -502,8 +532,13 @@
               "days": "T",
               "location": "Keating Hall NONE",
               "schedule_type": "Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -566,8 +601,13 @@
               "days": "TRF",
               "location": "Keating Hall NONE",
               "schedule_type": "Lab",
-              "instructor": "Matt Cronk",
-              "instructor_email": "mcronk@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Matt Cronk",
+                  "email": "mcronk@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {

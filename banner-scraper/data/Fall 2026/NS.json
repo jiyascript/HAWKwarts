@@ -33,8 +33,13 @@
               "days": "TR",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture",
-              "instructor": "Kasie Lee Braun",
-              "instructor_email": "kbraun@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kasie Lee Braun",
+                  "email": "kbraun@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -114,8 +119,13 @@
               "days": "W",
               "location": "IIT Tower 6D6-1",
               "schedule_type": "Lecture",
-              "instructor": "Darwin Chen",
-              "instructor_email": "dchen51@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Darwin Chen",
+                  "email": "dchen51@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -178,8 +188,13 @@
               "days": "MW",
               "location": "IIT Tower 15F6-2",
               "schedule_type": "Lecture",
-              "instructor": "August Kasten",
-              "instructor_email": "gkasten@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "August Kasten",
+                  "email": "gkasten@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -242,8 +257,13 @@
               "days": "TR",
               "location": "IIT Tower 15F6-2",
               "schedule_type": "Lecture",
-              "instructor": "Kevin Riley",
-              "instructor_email": "kriley6@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Kevin Riley",
+                  "email": "kriley6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
             }
           ],
           "availability": {
@@ -357,8 +377,18 @@
               "days": "R",
               "location": "IIT Tower 6C7-1",
               "schedule_type": "Lecture/Lab",
-              "instructor": "Samuel Wehner , Darwin Chen",
-              "instructor_email": "swehner@illinoistech.edu"
+              "instructors": [
+                {
+                  "name": "Samuel Wehner",
+                  "email": "swehner@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Darwin Chen",
+                  "email": "dchen51@illinoistech.edu",
+                  "primary": false
+                }
+              ]
             }
           ],
           "availability": {
