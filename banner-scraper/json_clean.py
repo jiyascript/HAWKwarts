@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 DATA_DIR = "data"
 DATA_DIR2 = "cleaned_data"
@@ -51,6 +52,11 @@ def merge_meetings(meetings):
             days = merged[key]["days"] + meeting["days"]
             merged[key]["days"] = "".join(sorted(set(days), key=DAY_ORDER.find))
     return list(merged.values())
+
+def parse_days(days):
+    if days and all(letter in DAY_ORDER for letter in days):
+        return list(days)
+    return []
 
 def build_relational(semester, courses):
     course_rows = []
@@ -199,12 +205,65 @@ def build_vector(semester, courses):
 
     return records
 
+def build_scheduling(semester, courses):
+    scheduling_courses = []
+
+    for course in courses:
+        if not course["sections"]:
+            continue 
+
+        sections = []
+        for section in course["sections"]:
+            meetings = []
+            for meeting in merge_meetings(section["meetings"]):
+                building, room = split_location(meeting["location"])
+                meetings.append({
+                    "type": meeting["type"],
+                    "days": parse_days(meeting["days"]),
+                    # "start_minutes": start,
+                    # "end_minutes": end,
+                    "time": meeting["time"],
+                    "building": building,
+                    "room": room,
+                    "instructors": [i for i in meeting["instructors"]
+                                    if not i["name"].upper().startswith("TBA")],
+                })
+
+            sections.append({
+                "section_id": semester + ":" + section["crn"],
+                "crn": section["crn"],
+                "section": section["section"],
+                "section_name": section["section_name"],
+                "credits": section["credits"],
+                "schedule_type": section["schedule_type"],
+                "campus": section["campus"],
+                "notes": section["notes"],
+                "meetings": meetings,
+                "availability": section["availability"],
+            })
+
+        scheduling_courses.append({
+            "course_id": course["course_combined"],
+            "title": course["title"],
+            "levels": course["levels"],
+            "attributes": course["attributes"],
+            "restrictions": course["restrictions"],
+            "prerequisites": course["prerequisites"],
+            "general_requirements": course["general_requirements"],
+            "mutual_exclusions": course["mutual_exclusions"],
+            "sections": sections,
+        })
+
+    scheduling_courses.sort(key=lambda course: course["course_id"])
+    return {"term": semester, "courses": scheduling_courses}
+
 def build_databases(semester):
     courses = load_semester_courses(semester)
     relational = build_relational(semester, courses)
     vector = build_vector(semester, courses)
 
     semester_dir = os.path.join(DATA_DIR2, semester)
+    print("")
 
     for table_name, rows in relational.items():
         path = os.path.join(semester_dir, "r_" + table_name + ".json") # r for relational
@@ -216,6 +275,11 @@ def build_databases(semester):
     with open(vector_path, "w", encoding="utf-8") as file:
         json.dump(vector, file, indent=2, ensure_ascii=False)
     print("Created", vector_path)
+
+    scheduling_path = os.path.join(semester_dir, "scheduling.json")
+    with open(scheduling_path, "w", encoding="utf-8") as file:
+        json.dump(build_scheduling(semester, courses), file, indent=2, ensure_ascii=False)
+    print("Created", scheduling_path)
 
 if __name__ == "__main__":
     semester = "Fall 2026" # adjust semester here 
