@@ -1,0 +1,10 @@
+{
+  "description": "A trustworthy, reliable agentic AI that can assist with queries relating to registration, courses, professors, and other FAQs",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
