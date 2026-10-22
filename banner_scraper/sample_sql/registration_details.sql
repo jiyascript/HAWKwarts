@@ -1,4 +1,4 @@
--- details about phys123
+-- details about fdsn201
 SELECT s.crn, s.section, m.days, m.time, m.location,
     GROUP_CONCAT(p.name, ', ') AS instructors,
     s.remaining AS seats_left, s.waitlist_remaining AS waitlist_left
