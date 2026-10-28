@@ -1,4 +1,5 @@
 import json
+import re
 import time
 from functools import lru_cache
 
@@ -9,6 +10,9 @@ from langchain.agents import create_agent
 from langchain_core.tools import tool
 from langchain_ollama import ChatOllama
 from langgraph.checkpoint.memory import InMemorySaver
+
+from internship_search import find_internships
+from research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
 
 OPENALEX_BASE = "https://api.openalex.org"
 DIRECTORY_PATH = "iit_directory.json"
@@ -170,10 +174,11 @@ def search_iit_faculty_directory(professor_name: str) -> str:
 
 @tool
 def search_faculty_research(professor_name: str) -> str:
-    """Search OpenAlex for an IIT professor's publications and research
-    areas. Use this when the question involves a professor's research,
-    papers, or academic interests. Results are filtered by confirmed
-    IIT institutional affiliation (via ROR ID), not just name matching.
+    """Search OpenAlex for a SPECIFIC, NAMED IIT professor's publications and
+    research areas. Use this only when the question names a professor. To find
+    which professors work in a topic, use find_research_opportunities instead.
+    Results are filtered by confirmed IIT institutional affiliation (via ROR
+    ID), not just name matching.
     """
     try:
         # Filter directly by confirmed IIT affiliation — this is the key
@@ -318,14 +323,32 @@ def web_search(query: str) -> str:
         return f"An error occurred while searching the web: {str(e)}"
 
 
-TOOLS = [search_iit_faculty_directory, search_faculty_research, web_search]
+TOOLS = [
+    search_iit_faculty_directory,
+    search_faculty_research,
+    web_search,
+    find_internships,
+    find_research_opportunities,
+]
 
 SYSTEM_PROMPT = (
     "You are an academic advisor at Illinois Institute of Technology. Answer only using tool "
     "results — never your own prior knowledge about any person. "
     "For a professor's title, department, or contact info, call search_iit_faculty_directory. "
     "For a professor's research or publications, call search_faculty_research. "
-    "Use web_search only if neither tool finds anything relevant, and say so when you do. "
+    "Respond in English only. "
+    "If the user names a professor, even by last name only, use search_iit_faculty_directory or "
+    "search_faculty_research, never find_research_opportunities. "
+    "To find which professors work in a research area, or for research opportunities, call "
+    "find_research_opportunities with the student's topic. Present the results as faculty who "
+    "work in that area, never as having open positions or taking students, and suggest the "
+    "student email the professor. Spell out abbreviations in the topic (for example "
+    "'human-computer interaction', not 'HCI'). If it finds no close match, relay its message "
+    "exactly, add nothing to it, and do not use web_search for this. "
+    "For internship opportunities, call find_internships with the student's field of interest "
+    "and location if given; mention that results come from The Muse and may not cover every "
+    "employer or show an application deadline. "
+    "Use web_search only if none of the above tools find anything relevant, and say so when you do. "
     "When searching, use only the key terms from the question — never add a year or your own "
     "assumption of what 'recent' means. "
     "If a tool returns multiple matches or nothing found, ask the user one short clarifying "
@@ -336,7 +359,8 @@ SYSTEM_PROMPT = (
     "believe you know it. If a tool result is just a list of names, present only those names. "
     "If every relevant tool reports 'not found', tell the user plainly and ask them to check the "
     "spelling — never leave your response empty. "
-    "Keep answers short: 2-4 sentences, or a brief bullet list for publications. "
+    "Keep answers short: 2-4 sentences, or a brief bullet list for publications, listings, or "
+    "faculty matches. "
     "If the question isn't about IIT academic advising, say so and decline."
 )
 
@@ -354,6 +378,66 @@ agent = create_agent(
 )
 
 
+RESEARCH_REMINDER = (
+    "Note: these matches reflect public research profiles and do not mean a professor has an "
+    "open position or is taking students. Please email the professor directly."
+)
+
+
+def _research_tool_result(messages):
+    """The find_research_opportunities result from THIS turn (the part of the
+    history after the latest user message), or None if the tool wasn't called."""
+    for msg in reversed(messages):
+        kind = getattr(msg, "type", "")
+        if kind == "human":
+            break  # reached the start of this turn
+        if kind == "tool" and getattr(msg, "name", "") == "find_research_opportunities":
+            return msg.content if isinstance(msg.content, str) else ""
+    return None
+
+
+def _research_no_match_reply(messages):
+    """If this turn's research search found no match, return the tool's own
+    sentence. The 8B chat model tends to pad that sentence with invented
+    suggestions (departments, fields), so we show the tool's text as-is.
+    Returns None otherwise.
+    """
+    content = _research_tool_result(messages)
+    return content if content and content.startswith(NO_MATCH_PREFIX) else None
+
+
+def _with_research_reminder(messages, answer: str) -> str:
+    """Append the fixed 'matches are not open positions' reminder when this turn's
+    research search returned matches. The model often drops that caveat, so it is
+    added in code. Skipped if the model already said 'open position'."""
+    content = _research_tool_result(messages)
+    if content and content.startswith(MATCHES_PREFIX) and "open position" not in answer.lower():
+        return f"{answer.rstrip()}\n\n{RESEARCH_REMINDER}"
+    return answer
+
+
+# The 8B model sometimes answers "I cannot find any information on ..." without
+# calling any tool (seen after a long conversation). The system prompt forbids
+# answering from anything but tool results, so a not-found answer with no tool
+# call this turn is a mistake worth one retry with a nudge.
+_NOT_FOUND_PATTERN = re.compile(
+    r"\b(cannot|can't|can not|couldn't|could not|unable to)\s+find\b|\bno information\b",
+    re.IGNORECASE,
+)
+_TOOL_NUDGE = "\n\n(Use the appropriate tool to look this up before answering.)"
+
+
+def _tool_called_this_turn(messages) -> bool:
+    """True if a tool was called (or returned) after the latest user message."""
+    for msg in reversed(messages):
+        kind = getattr(msg, "type", "")
+        if kind == "human":
+            return False
+        if kind == "tool" or getattr(msg, "tool_calls", None):
+            return True
+    return False
+
+
 def ask(question: str, config: dict, retries: int = 2):
     """Run one question through the agent (within the conversation identified
     by config's thread_id) and return a guaranteed non-empty answer. Earlier
@@ -362,17 +446,36 @@ def ask(question: str, config: dict, retries: int = 2):
     prior disambiguation question.
     """
     result = None
+    message_text = question
+    nudged = False
     for attempt in range(retries + 1):
         _turn_start = time.monotonic()
         result = agent.invoke(
-            {"messages": [{"role": "user", "content": question}]},
+            {"messages": [{"role": "user", "content": message_text}]},
             config=config,
         )
         _turn_elapsed = time.monotonic() - _turn_start
         print(f"[TIMING] agent.invoke() took {_turn_elapsed:.1f}s this turn")
 
+        no_match_reply = _research_no_match_reply(result["messages"])
+        if no_match_reply:
+            return no_match_reply, result["messages"]
+
         final_content = result["messages"][-1].content
+
+        if (
+            final_content
+            and not nudged
+            and not _tool_called_this_turn(result["messages"])
+            and _NOT_FOUND_PATTERN.search(final_content)
+        ):
+            # Refused without searching: retry once, asking it to use a tool.
+            nudged = True
+            message_text = question + _TOOL_NUDGE
+            continue
+
         if final_content:
+            final_content = _with_research_reminder(result["messages"], final_content)
             return final_content, result["messages"]
 
     return (
