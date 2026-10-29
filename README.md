@@ -1,16 +1,34 @@
-# React + Vite
+Oh you may not think me pretty,
+But don’t judge on what you see,
+I’ll eat myself if you can find
+A smarter hat than me.
+You can keep your bowlers black,
+Your top hats sleek and tall,
+For I’m the Hawkwarts Sorting Hat
+And I can cap them all.
+There’s nothing hidden in your head
+The Sorting Hat can’t see,
+So try me on and I will tell you
+Where you ought to be.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You might belong in Illinois Tech,
+Where dwell the brave at heart,
+Their daring, nerve, and chivalry
+Set Illinois Techs apart;
+You might belong in Illinois Tech,
+Where they are just and loyal,
+Those patient Illinois Techs are true
+And unafraid of toil;
+Or yet in wise old Illinois Tech,
+if you’ve a ready mind,
+Where those of wit and learning,
+Will always find their kind;
+Or perhaps in Illinois Tech
+You’ll make your real friends,
+Those cunning folks use any means
+To achieve their ends.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+So put me on! Don’t be afraid!
+And don’t get in a flap!
+You’re in safe hands (though I have none)
+For I’m a Thinking Cap!
