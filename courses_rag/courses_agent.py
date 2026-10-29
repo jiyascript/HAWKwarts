@@ -3,9 +3,8 @@ import os
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
-from requirements_lookup import get_requirements
-from retrieval import search_catalog
-from requirements_lookup import get_requirements
+from .requirements_lookup import get_requirements
+from .retrieval import search_catalog
 from typing import Literal
 
 load_dotenv()

@@ -11,11 +11,11 @@ from langchain_core.tools import tool
 from langchain_ollama import ChatOllama
 from langgraph.checkpoint.memory import InMemorySaver
 
-from internship_search import find_internships
-from research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
+from .internship_search import find_internships
+from .research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
 
 OPENALEX_BASE = "https://api.openalex.org"
-DIRECTORY_PATH = "iit_directory.json"
+DIRECTORY_PATH = "./faculty_agent/iit_directory.json"
 
 # Illinois Institute of Technology's ROR (Research Organization Registry) ID.
 IIT_ROR_ID = "https://ror.org/037t3ry66"

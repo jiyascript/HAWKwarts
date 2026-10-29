@@ -13,7 +13,7 @@ from pathlib import Path
 import time
 import requests
 from bs4 import BeautifulSoup
-from audit_program_structures import classify_table
+from .audit_program_structures import classify_table
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; iit-catalog-rag/1.0)"

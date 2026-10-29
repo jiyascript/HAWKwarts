@@ -1,6 +1,6 @@
 from langchain_ollama import ChatOllama
-from courses_rag.agent import ask_agent
-from faculty_agent import ask
+from courses_rag.courses_agent import ask_agent
+from faculty_agent.faculty_agent import ask
 faculty_config = {"configurable": {"thread_id": "faculty-advisor-session"}}
 
 def run_course_agent(question):
@@ -25,7 +25,7 @@ COURSE_WORDS = [
     # banner prof
     "teaches", "taught", "who",
 ]
-FACULTY_WORDS = ["publication", "publish", "paper", "research", "interest", ]
+FACULTY_WORDS = ["publication", "publish", "paper", "research", "interest", "internship"]
 
 def keyword_route(question):
     question = question.lower()

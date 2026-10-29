@@ -2,7 +2,7 @@
 import os
 from dotenv import load_dotenv
 from pinecone import Pinecone
-from catalog_lib import get_model
+from .catalog_lib import get_model
 
 load_dotenv()
 _model = None

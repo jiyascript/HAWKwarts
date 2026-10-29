@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 from pinecone import Pinecone, ServerlessSpec
-from catalog_lib import EMBED_DIM, course_to_metadata, course_to_text, get_model, minor_to_chunks, program_to_chunks, specialization_to_chunks
+from .catalog_lib import EMBED_DIM, course_to_metadata, course_to_text, get_model, minor_to_chunks, program_to_chunks, specialization_to_chunks
 
 load_dotenv()
 

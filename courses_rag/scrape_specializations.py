@@ -4,7 +4,7 @@ import time
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
-from scrape_requirements import (
+from .scrape_requirements import (
     clean_text,
     get_row_values,
     is_course_code,
