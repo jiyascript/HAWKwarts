@@ -1,0 +1,1771 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&family=Fraunces:opsz,wght@9..144,400..700&display=swap');
+@import 'tailwindcss';
+
+/* ── Design tokens ──
+   Warm editorial palette shared by landing, onboarding, chat, and planner:
+   warm-white canvas, white surfaces, dark readable text, restrained brand red.
+   Fraunces is reserved for display moments; DM Sans carries the interface. */
+
+:root {
+  --hw-bg: #F7F6F2;
+  --hw-surface: #FFFFFF;
+  --hw-surface-subtle: #F1EEE8;
+  --hw-text: #262626;
+  --hw-text-secondary: #47433F;
+  /* Muted text passes AA on the canvas and white, but not on --hw-surface-subtle. */
+  --hw-text-muted: #716D68;
+  --hw-text-disabled: #948F88;
+  --hw-brand: #C90818;
+  --hw-brand-hover: #AD0715;
+  --hw-border: #E8E5DF;
+  --hw-border-strong: #CCC5BD;
+  /* Checkbox and radio outlines keep 3:1 contrast against white and the canvas. */
+  --hw-border-control: #948F88;
+  --hw-track: #DCD8D1;
+  --hw-selected-bg: #FFF4F3;
+  --hw-selected-icon-bg: #F9DEDC;
+  --hw-focus-halo: rgba(201, 8, 24, 0.12);
+  /* Course status pills; each text color passes AA on its own background. */
+  --hw-success-bg: #E7F2EA;
+  --hw-success-text: #2D6A43;
+  --hw-warning-bg: #FBEFD9;
+  --hw-warning-text: #85570C;
+  --hw-font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --hw-font-ui: 'DM Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --hw-radius-control: 8px;
+  --hw-radius-card: 12px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-7px); }
+}
+
+@keyframes float-hover {
+  0%, 100% { transform: translateY(0px) scale(1.06); }
+  50% { transform: translateY(-10px) scale(1.06); }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--hw-bg);
+  font-family: var(--hw-font-ui);
+  color: var(--hw-text);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-shell {
+  position: relative;
+  min-height: 100dvh;
+  background-color: var(--hw-bg);
+}
+
+.page-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: var(--hw-bg);
+}
+
+/* The landing stays mounted beneath onboarding and chat; keep its hero from widening the mobile viewport. */
+.landing-screen {
+  overflow-x: clip;
+}
+
+.chat-screen-overlay {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.onboarding-screen {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;
+  overflow: hidden;
+  z-index: 12;
+}
+
+.flying-hat {
+  position: fixed;
+  z-index: 1000;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  will-change: left, top, width, height;
+}
+
+.landing-header {
+  flex-shrink: 0;
+  background: var(--hw-brand);
+}
+
+.landing-header-inner {
+  display: flex;
+  align-items: center;
+  width: min(100%, 1100px);
+  min-height: 3.5rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.landing-header-school {
+  flex-shrink: 0;
+  color: var(--hw-surface);
+  font-family: var(--hw-font-display);
+  font-size: 1.375rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.05;
+}
+
+.landing-header-divider {
+  width: 1px;
+  height: 1.125rem;
+  margin-inline: 0.875rem;
+  background: color-mix(in srgb, var(--hw-surface) 48%, transparent);
+}
+
+.landing-header-product {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--hw-surface);
+  font-family: var(--hw-font-display);
+  font-size: 1.375rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.05;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hero {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem 1rem;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.logo-btn {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline-offset: 8px;
+  border-radius: 8px;
+}
+
+.logo-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+}
+
+.logo-img-stack {
+  width: 510px;
+  height: 510px;
+  position: relative;
+  top: -50px;
+  animation: float 1.6s ease-in-out infinite;
+  transition: transform 0.2s ease;
+  will-change: transform;
+}
+
+.logo-btn:hover .logo-img-stack {
+  animation: float-hover 1.2s ease-in-out infinite;
+}
+
+/* While a flying copy stands in for the hat, rest it so its measured box is where it reappears. */
+.logo-btn .logo-img-stack.is-resting,
+.logo-btn:hover .logo-img-stack.is-resting {
+  animation: none;
+}
+
+.logo-mascot-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  transition: opacity 0.28s ease;
+}
+
+.logo-hint {
+  font-size: 11px;
+  font-weight: 600;
+  height: 14px;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  color: var(--hw-text-muted);
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: -84px;
+  transition: color 0.2s ease;
+}
+
+.logo-btn:hover .logo-hint {
+  color: var(--hw-brand);
+}
+
+.hero-text {
+  flex: 1;
+  transform: translateY(32px);
+}
+
+.title {
+  /* Brand wordmark: Fraunces SemiBold, shared with the chat name label. */
+  font-family: var(--hw-font-display);
+  font-size: 3.0417rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: var(--hw-brand);
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.title em {
+  font-style: italic;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--hw-text-secondary);
+  max-width: 26.25rem;
+  text-wrap: pretty;
+}
+
+.runaround-svg {
+  display: inline-block;
+  width: 94px;
+  height: 27px;
+  vertical-align: -10px;
+  margin-left: -2px;
+  margin-right: -2px;
+  overflow: visible;
+}
+
+/* CSS overrides the SVG presentation attributes so the flourish matches the new type. */
+.runaround-svg text {
+  font-family: var(--hw-font-display);
+  font-weight: 500;
+  fill: var(--hw-text-secondary);
+}
+
+.landing-return {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin-top: 1.75rem;
+}
+
+.landing-return-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0.8125rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #FFFFFF;
+  background: var(--hw-brand);
+  border: none;
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.landing-return-btn:hover:not(:disabled) {
+  background: var(--hw-brand-hover);
+}
+
+.landing-return-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 3px;
+}
+
+.landing-return-hint {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+}
+
+/* ── Chat screen ── */
+
+.chat-header {
+  padding: 1.25rem 2.5rem 0;
+}
+
+.chat-header-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--hw-brand);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.chat-header-divider {
+  height: 1px;
+  background-color: var(--hw-border);
+}
+
+.chat-header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.chat-header-row .chat-header-title {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.chat-context {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  min-width: 0;
+}
+
+.chat-context-summary {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.chat-context-item + .chat-context-item::before {
+  content: '·';
+  margin: 0 0.45em;
+  opacity: 0.7;
+}
+
+.chat-edit-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--hw-text-secondary);
+  background: none;
+  border: none;
+  /* Padding enlarges the hit area; the negative margin keeps the text where it was. */
+  padding: 0.375rem 0.5rem;
+  margin: -0.375rem -0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.chat-edit-btn:hover {
+  color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.chat-edit-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+.chat-back-btn {
+  position: fixed;
+  bottom: 1rem;
+  left: 1.125rem;
+  z-index: 20;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--hw-text-secondary);
+  background: none;
+  border: none;
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  padding: 0.5rem 0.625rem;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.chat-back-btn:hover {
+  color: var(--hw-text);
+  background: var(--hw-surface-subtle);
+}
+
+.chat-back-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* ── Academic workspace ──
+   Academic context (46%) beside the advisor conversation (54%); each column scrolls on its own. */
+
+.workspace {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 46fr) minmax(0, 54fr);
+}
+
+.ws-panel {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 1.75rem 2.5rem 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hw-border-strong) transparent;
+}
+
+.ws-advisor {
+  border-left: 1px solid var(--hw-border);
+}
+
+.ws-intro {
+  flex-shrink: 0;
+}
+
+.ws-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+}
+
+.ws-heading {
+  margin-top: 0.5rem;
+  font-family: var(--hw-font-display);
+  font-size: clamp(1.625rem, 1.05rem + 1.1vw, 2.125rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: var(--hw-text);
+  text-wrap: balance;
+}
+
+.ws-heading-accent {
+  display: block;
+  color: var(--hw-brand);
+}
+
+.ws-description {
+  margin-top: 0.625rem;
+  max-width: 52ch;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--hw-text-secondary);
+  text-wrap: pretty;
+}
+
+/* Segmented control: the workspace pane switch and the academic view switch. */
+.ws-segmented {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  max-width: 100%;
+  background: var(--hw-surface-subtle);
+  border: 1px solid var(--hw-border);
+  border-radius: 10px;
+}
+
+.ws-segmented button {
+  flex: 1 1 auto;
+  min-height: 2.25rem;
+  padding: 0 0.875rem;
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: var(--hw-text-secondary);
+  background: transparent;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ws-segmented button:hover {
+  color: var(--hw-text);
+}
+
+.ws-segmented button[aria-pressed='true'] {
+  font-weight: 600;
+  color: var(--hw-text);
+  background: var(--hw-surface);
+  box-shadow: 0 1px 2px rgba(38, 38, 38, 0.08), 0 0 0 1px var(--hw-border);
+}
+
+.ws-segmented button:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 1px;
+}
+
+.ws-view-switch {
+  align-self: flex-start;
+  margin-top: 1.25rem;
+}
+
+/* The pane switch only appears once the workspace stacks. */
+.ws-switch {
+  display: none;
+}
+
+/* The 50px top margin is the bird's patrol lane above the conversation card. */
+.chat-wrapper {
+  position: relative;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 22rem;
+  margin-top: 50px;
+}
+
+/* The bird's patrol (left + scaleX) is driven from AdvisorBird so it can stop, sit, and
+   resume in place. Every pose shares this box and flip, so asset swaps never shift it. */
+.chat-hawk {
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--hw-radius-card);
+  background: none;
+  mix-blend-mode: multiply;
+  z-index: 2;
+  cursor: pointer;
+  will-change: left, transform;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.chat-hawk[aria-disabled='true'] {
+  cursor: default;
+}
+
+.chat-hawk:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+.chat-hawk-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  outline: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 2px;
+}
+
+.chat-container {
+  width: 100%;
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border);
+  border-radius: var(--hw-radius-card);
+  box-shadow: 0 1px 2px rgba(38, 38, 38, 0.04), 0 8px 24px -16px rgba(38, 38, 38, 0.12);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Compact advisor header; the top padding keeps its text clear of the perched bird. */
+.advisor-header {
+  flex-shrink: 0;
+  padding: 1.5rem 1.5rem 0.75rem;
+  border-bottom: 1px solid var(--hw-border);
+}
+
+.advisor-name {
+  font-family: var(--hw-font-display);
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--hw-brand);
+}
+
+.advisor-status {
+  margin-top: 0.125rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--hw-text-muted);
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  scrollbar-width: none;
+}
+
+.chat-messages::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  gap: 0.5rem;
+}
+
+.chat-empty-heading {
+  font-family: var(--hw-font-display);
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--hw-text);
+  margin: 0;
+}
+
+.chat-empty-sub {
+  font-size: 1rem;
+  color: var(--hw-text-muted);
+  line-height: 1.5;
+  margin: 0;
+  max-width: 36ch;
+}
+
+.chat-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.chat-suggestion {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--hw-text-secondary);
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-strong);
+  border-radius: 0;
+  padding: 0.5rem 0.875rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+
+.chat-suggestion:hover {
+  border-color: var(--hw-brand);
+  color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.chat-suggestion:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* Suggested questions sit just above the composer and fill it through the existing handler. */
+.advisor-chips {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0;
+  border-top: 1px solid var(--hw-border);
+}
+
+.advisor-chips .chat-suggestion {
+  font-size: 1rem;
+  padding: 0.4375rem 0.75rem;
+}
+
+/* Once the conversation is going, the chips collapse to one row that pans sideways. */
+.advisor-chips-compact {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* A soft edge signals that more chips are a swipe away. */
+  mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+}
+
+.advisor-chips-compact::-webkit-scrollbar {
+  display: none;
+}
+
+.advisor-chips-compact .chat-suggestion {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.advisor-chips + .chat-input-row {
+  border-top: 0;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 76%;
+}
+
+.message:has(.course-cards) {
+  max-width: 100%;
+}
+
+.message-hawkwarts {
+  align-self: flex-start;
+}
+
+.message-student {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message-label {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.375rem;
+}
+
+.message-hawkwarts .message-label {
+  color: var(--hw-brand);
+  font-family: var(--hw-font-display);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  line-height: 1.2;
+}
+
+.message-student .message-label {
+  color: var(--hw-text-muted);
+}
+
+.message-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--hw-text);
+  margin: 0;
+}
+
+.message-hawkwarts .message-text {
+  background: var(--hw-surface-subtle);
+  padding: 0.75rem 1rem;
+  border-radius: 4px 12px 12px 12px;
+}
+
+.message-student .message-text {
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-strong);
+  padding: 0.75rem 1rem;
+  border-radius: 12px 4px 12px 12px;
+}
+
+.message-note {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--hw-text-muted);
+  margin: 0.5rem 0 0;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--hw-border);
+}
+
+.chat-input-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--hw-border);
+  padding: 0.75rem;
+  gap: 0.5rem;
+  background: var(--hw-surface);
+}
+
+.chat-input {
+  flex: 1;
+  min-width: 0;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: var(--hw-text);
+  background: var(--hw-bg);
+  border: 1px solid var(--hw-border-strong);
+  border-radius: var(--hw-radius-control);
+  outline: none;
+  padding: 0 0.875rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.chat-input::placeholder {
+  color: var(--hw-text-muted);
+}
+
+.chat-input:focus {
+  background: var(--hw-surface);
+  border-color: var(--hw-brand);
+  box-shadow: 0 0 0 3px var(--hw-focus-halo);
+}
+
+.chat-send-btn {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--hw-brand);
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease;
+}
+
+.chat-send-btn:hover {
+  background: var(--hw-brand-hover);
+}
+
+.chat-send-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* ── Schedule Builder shell ── */
+
+/* Full-height timeline; the academic column scrolls around it while the chat stays put. */
+.builder {
+  flex: none;
+  min-width: 0;
+  display: flex;
+  container: builder / inline-size;
+  flex-direction: column;
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border);
+  border-radius: var(--hw-radius-card);
+  box-shadow: 0 1px 2px rgba(38, 38, 38, 0.04);
+  overflow: hidden;
+}
+
+.builder-header {
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem 1.35rem 0.875rem;
+  border-bottom: 1px solid var(--hw-border);
+  gap: 0.375rem 1rem;
+}
+
+/* When the card is too narrow for one line, the track meta wraps beneath the title instead of overflowing. */
+.builder-head-left { min-width: 0; }
+
+.builder-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--hw-text);
+  letter-spacing: -0.01em;
+  margin: 0 0 0.125rem;
+}
+
+.builder-subtitle {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+  margin: 0;
+}
+
+.builder-head-right {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.builder-edit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  min-height: 1.875rem;
+  margin-left: 0.35rem;
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--hw-border-strong);
+  border-radius: var(--hw-radius-control);
+  background: var(--hw-surface);
+  color: var(--hw-text-secondary);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+
+.builder-edit-btn:hover {
+  border-color: var(--hw-brand);
+  color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.builder-edit-btn[aria-pressed='true'] {
+  border-color: var(--hw-brand);
+  color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.builder-edit-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+.builder-edit-btn:disabled {
+  color: var(--hw-text-disabled);
+  background: var(--hw-surface-subtle);
+  cursor: wait;
+}
+
+.builder-edit-icon {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.builder-pdf-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.builder-import-status {
+  padding: 0.625rem 1.35rem;
+  border-bottom: 1px solid var(--hw-border);
+  background: var(--hw-surface-subtle);
+  color: var(--hw-text-secondary);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.builder-import-status.is-success {
+  color: var(--hw-success-text);
+  background: var(--hw-success-bg);
+}
+
+.builder-import-status.is-error {
+  color: var(--hw-brand-hover);
+  background: var(--hw-selected-bg);
+}
+
+.builder-meta {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--hw-text-muted);
+}
+
+.builder-meta-rem { color: var(--hw-brand); font-weight: 600; }
+
+.builder-meta-sep {
+  color: var(--hw-text-disabled);
+  font-size: 0.75rem;
+}
+
+/* ── Scrollable plan content ── */
+
+.builder-scroll {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hw-border-strong) transparent;
+}
+
+.builder-scroll::-webkit-scrollbar { width: 4px; }
+.builder-scroll::-webkit-scrollbar-thumb { background: var(--hw-border-strong); border-radius: 2px; }
+
+.builder-content {
+  position: relative;
+  padding: 0.9rem 1.35rem 0.5rem;
+}
+
+/* SVG overlay for prerequisite arrows */
+.builder-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* ── Section dividers ── */
+
+.plan-section-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.plan-section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--hw-border);
+}
+
+.plan-section-divider-upcoming { margin-top: 1rem; }
+
+.plan-section-divider-upcoming::after { background: var(--hw-track); }
+
+.plan-section-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.plan-section-divider-upcoming .plan-section-label { color: var(--hw-brand); }
+
+/* ── Semester rows ── */
+
+.sem-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.55rem;
+}
+
+.sem-row-upcoming { margin-bottom: 0.65rem; }
+
+.sem-label-col {
+  width: 76px;
+  flex-shrink: 0;
+  padding-top: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.sem-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--hw-text-muted);
+  line-height: 1.2;
+}
+
+.sem-name-upcoming { color: var(--hw-text); }
+
+.sem-badge {
+  font-size: 0.65625rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  border-radius: 4px;
+  padding: 0.0625rem 0.375rem;
+  display: inline-block;
+  width: fit-content;
+}
+
+.sem-badge-done {
+  background: var(--hw-surface-subtle);
+  color: var(--hw-text-secondary);
+}
+
+.sem-badge-plan {
+  background: var(--hw-selected-bg);
+  color: var(--hw-brand);
+}
+
+.sem-track {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  align-items: flex-start;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Course blocks ── */
+
+.cb {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 155px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  position: relative;
+}
+
+/* Completed course blocks — visually muted */
+.cb-done {
+  background: var(--hw-bg);
+  border: 1px solid var(--hw-border);
+}
+
+/* Planned course blocks — more prominent */
+.cb-plan {
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-strong);
+}
+
+.builder-editing .cb-plan {
+  border-color: var(--hw-brand);
+  box-shadow: 0 0 0 2px var(--hw-focus-halo);
+}
+
+/* HAWKwarts-suggested planned blocks */
+.cb-suggested {
+  border-color: rgba(201, 8, 24, 0.35);
+  background: var(--hw-selected-bg);
+}
+
+.cb-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.25rem;
+}
+
+.cb-code {
+  font-size: 0.65625rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--hw-text-muted);
+}
+
+.cb-code-plan { color: var(--hw-brand); }
+
+.cb-check {
+  font-size: 0.625rem;
+  color: var(--hw-text-muted);
+}
+
+.cb-plan-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--hw-text-disabled);
+  flex-shrink: 0;
+}
+
+.cb-hw-badge {
+  font-size: 0.625rem;
+  color: var(--hw-brand);
+  flex-shrink: 0;
+}
+
+.cb-name {
+  font-size: 0.6875rem;
+  color: var(--hw-text-muted);
+  line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cb-name-plan { color: var(--hw-text); }
+
+.cb-credits {
+  font-size: 0.65625rem;
+  color: var(--hw-text-muted);
+  margin-top: 0.1rem;
+}
+
+/* ── Builder legend ── */
+
+.builder-legend {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  padding: 0.625rem 1.35rem;
+  border-top: 1px solid var(--hw-border);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--hw-text-muted);
+}
+
+.legend-sep {
+  width: 1px;
+  height: 12px;
+  background: var(--hw-border-strong);
+  flex-shrink: 0;
+}
+
+.legend-chip {
+  font-size: 0.65625rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 0 0.3125rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.legend-chip-done { background: var(--hw-bg); border-color: var(--hw-border); color: var(--hw-text-muted); }
+.legend-chip-plan { background: var(--hw-surface); border-color: var(--hw-border-strong); color: var(--hw-text-muted); }
+.legend-chip-hw   { background: var(--hw-selected-bg); border-color: rgba(201, 8, 24, 0.35); color: var(--hw-brand); }
+
+/* ── Course cards ── */
+
+.course-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  width: 100%;
+}
+
+.course-card {
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border);
+  border-radius: var(--hw-radius-card);
+  padding: 1rem 1.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.course-card-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.course-card-identity {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.course-code {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hw-brand);
+  white-space: nowrap;
+}
+
+.course-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--hw-text);
+  line-height: 1.3;
+}
+
+.course-credits {
+  font-size: 0.75rem;
+  color: var(--hw-text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.course-desc {
+  font-size: 0.84375rem;
+  line-height: 1.55;
+  color: var(--hw-text-secondary);
+  margin: 0;
+}
+
+.course-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.course-tag {
+  font-size: 0.71875rem;
+  font-weight: 500;
+  color: var(--hw-text-secondary);
+  background: var(--hw-surface-subtle);
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+}
+
+.course-prereqs {
+  font-size: 0.75rem;
+  color: var(--hw-text-muted);
+  line-height: 1.4;
+}
+
+.course-prereqs-label {
+  font-weight: 600;
+  color: var(--hw-text-secondary);
+}
+
+.course-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.2rem;
+  padding-top: 0.625rem;
+  border-top: 1px solid var(--hw-border);
+}
+
+.course-btn-secondary {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--hw-text-muted);
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.course-btn-secondary:hover {
+  color: var(--hw-text);
+}
+
+.course-btn-primary {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--hw-brand);
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-brand);
+  border-radius: 6px;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.course-btn-primary:hover {
+  background: var(--hw-brand);
+  color: #FFFFFF;
+}
+
+.course-btn-secondary:focus-visible,
+.course-btn-primary:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* ── Disclaimer ── */
+.disclaimer {
+  padding: 1rem 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+.disclaimer-icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: var(--hw-text-muted);
+}
+
+.disclaimer-text {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--hw-text-muted);
+}
+
+.disclaimer-text strong {
+  color: var(--hw-text-secondary);
+  font-weight: 600;
+}
+
+/* Narrow desktop: tighten the hero columns so the text keeps its width. */
+@media (max-width: 1100px) {
+  .hero-inner {
+    gap: 2.5rem;
+  }
+
+  /* The centred disclaimer reaches the bottom-left corner here, so Back joins the page flow beneath it. */
+  .chat-back-btn {
+    position: static;
+    align-self: flex-start;
+    margin: 0.25rem 0 calc(0.75rem + env(safe-area-inset-bottom)) 1.875rem;
+  }
+
+  .chat-screen-overlay .disclaimer {
+    padding-bottom: 0;
+  }
+
+  /* Narrower gutters give the academic column room for the table and planner. */
+  .chat-header,
+  .ws-panel {
+    padding-inline: 1.75rem;
+  }
+}
+
+/* Tablet and below: stack the mascot above the text so nothing is clipped. */
+@media (max-width: 900px) {
+  .landing-header-inner {
+    min-height: 3.25rem;
+    padding-inline: 1.5rem;
+  }
+
+  .landing-header-school,
+  .landing-header-product {
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .logo-img-stack {
+    width: 360px;
+    height: 360px;
+  }
+
+  /* Keeps the caption just below the brim at the smaller hat size. */
+  .logo-hint {
+    margin-top: -70px;
+  }
+
+  .hero-text {
+    flex: none;
+    width: 100%;
+    max-width: 30rem;
+    transform: none;
+    text-align: center;
+  }
+
+  .title {
+    white-space: normal;
+  }
+
+  .description {
+    margin-inline: auto;
+  }
+
+  .landing-return {
+    justify-content: center;
+  }
+}
+
+/* Tablets, phones, and short landscape screens: the workspace shows one pane at a time and the whole screen scrolls. */
+@media (max-width: 900px), (max-height: 520px) {
+  .chat-screen-overlay {
+    overflow-y: auto;
+  }
+
+  .ws-switch {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 0.75rem 1.75rem 0.25rem;
+    background: var(--hw-bg);
+  }
+
+  .ws-switch .ws-segmented {
+    display: flex;
+    width: 100%;
+  }
+
+  .workspace {
+    flex: 1 0 auto;
+    display: block;
+  }
+
+  /* Hidden panes stay mounted, so the conversation, draft, and planner keep their state. */
+  .workspace[data-pane='advisor'] .ws-academic,
+  .workspace[data-pane='academic'] .ws-advisor {
+    display: none;
+  }
+
+  .ws-panel {
+    overflow: visible;
+    padding: 1.25rem 1.75rem 0.5rem;
+  }
+
+  .ws-advisor {
+    border-left: 0;
+  }
+
+  /* Sized so the composer stays on screen beneath the header, switch, and intro. */
+  .chat-wrapper {
+    flex: none;
+    min-height: 0;
+    height: clamp(16rem, 100vh - 21.5rem, 42rem);
+    height: clamp(16rem, 100dvh - 21.5rem, 42rem);
+  }
+}
+
+/* Phones, small tablets, and short landscape screens: the planner timeline keeps its full height and pans sideways. */
+@media (max-width: 760px), (max-height: 520px) {
+  /* Full-height timeline; it pans sideways only when wider than the card. */
+  .builder-scroll {
+    flex: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .builder-scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero {
+    padding: 2.5rem 1.25rem 1.5rem;
+  }
+
+  .logo-img-stack {
+    width: 200px;
+    height: 200px;
+  }
+
+  .logo-hint {
+    margin-top: -57px;
+  }
+
+  .title {
+    font-size: 2.6667rem;
+  }
+
+  .description {
+    font-size: 0.9375rem;
+  }
+
+  .chat-header {
+    padding-inline: 1.25rem;
+  }
+
+  .ws-switch,
+  .ws-panel {
+    padding-inline: 1.25rem;
+  }
+
+  /* Planner: tighter gutters so three readable course columns fit a 390px phone; text keeps the 1.25rem edge. */
+  .ws-academic {
+    padding-inline: 0.75rem;
+  }
+
+  .ws-academic .ws-intro,
+  .ws-academic .ws-view-switch,
+  .ws-academic-body > .ws-notice {
+    margin-inline: 0.5rem;
+  }
+
+  /* Three views share the row; the longest label wraps rather than overflowing a 320px phone. */
+  .ws-view-switch {
+    display: flex;
+    align-self: stretch;
+  }
+
+  .ws-view-switch button {
+    flex: 1 1 0;
+    padding-inline: 0.5rem;
+    white-space: normal;
+  }
+
+  .ws-advisor .ws-description {
+    display: none;
+  }
+
+  /* Phones lose the intro description, so the conversation can take that height back. */
+  .chat-wrapper {
+    height: clamp(16rem, 100vh - 19rem, 42rem);
+    height: clamp(16rem, 100dvh - 19rem, 42rem);
+  }
+
+  .ws-tab-extra {
+    display: none;
+  }
+  .advisor-header {
+    padding-inline: 1.125rem;
+  }
+
+  .chat-messages {
+    padding: 1.25rem 1.125rem;
+  }
+
+  .chat-context-summary {
+    display: none;
+  }
+
+  .chat-back-btn {
+    margin-left: 0.625rem;
+  }
+
+  .disclaimer {
+    padding: 1rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom));
+  }
+
+  .disclaimer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Phones and short landscape screens: suggested questions stay on one swipeable row so the conversation keeps its height. */
+@media (max-width: 660px), (max-height: 520px) {
+  .advisor-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent);
+  }
+
+  .advisor-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .advisor-chips .chat-suggestion {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+}
+
+/* Short landscape screens: drop the intros so the conversation keeps its height. */
+@media (max-height: 520px) {
+  .ws-advisor .ws-intro,
+  .ws-academic .ws-description {
+    display: none;
+  }
+
+  .ws-advisor {
+    padding-top: 0.25rem;
+  }
+
+  /* The bird and the message labels identify the advisor; the extra header would crowd out the conversation. */
+  .advisor-header {
+    display: none;
+  }
+
+  .ws-switch {
+    padding-top: 0.5rem;
+  }
+
+  .chat-wrapper {
+    height: clamp(13rem, 100vh - 10rem, 32rem);
+    height: clamp(13rem, 100dvh - 10rem, 32rem);
+  }
+}
+
+/* Narrow Schedule Builder cards (phones and the narrow-desktop academic column): tighter
+   gutters so three readable course columns fit; the card width, not the viewport, decides. */
+@container builder (max-width: 30rem) {
+  .builder-header {
+    padding: 0.875rem 1rem 0.75rem;
+  }
+
+  /* The minimum keeps course blocks at 82px or wider; narrower phones pan sideways. */
+  .builder-content {
+    min-width: 22.625rem;
+    padding: 0.75rem 1rem 0.5rem;
+  }
+
+  .sem-row {
+    gap: 0.5rem;
+  }
+
+  .sem-label-col {
+    width: 64px;
+  }
+
+  .sem-badge {
+    font-size: 0.625rem;
+    padding-inline: 0.25rem;
+  }
+
+  .sem-track {
+    gap: 0.375rem;
+  }
+
+  .cb {
+    padding: 0.35rem 0.375rem;
+  }
+
+  .cb-code {
+    white-space: nowrap;
+  }
+
+  .cb-head {
+    gap: 0.125rem;
+  }
+
+  /* A word wider than the block (e.g. "Understanding") breaks so the two-line clamp can show its ellipsis. */
+  .cb-name {
+    overflow-wrap: break-word;
+  }
+
+  .builder-legend {
+    gap: 0.5rem 1rem;
+    padding: 0.625rem 1rem;
+  }
+
+  /* Once the legend wraps, the divider would dangle at the end of a line. */
+  .legend-sep {
+    display: none;
+  }
+}

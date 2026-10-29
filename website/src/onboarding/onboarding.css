@@ -1,0 +1,1155 @@
+/* ── Onboarding ─────────────────────────────────────────────────
+   Uses the shared --hw-* tokens from index.css: warm-white canvas, white
+   cards with hairline borders, Fraunces questions over DM Sans UI, and
+   brand red reserved for progress, selection, focus, and the primary action. */
+
+@keyframes ob-step-in {
+  from { opacity: 0; transform: translateX(var(--ob-step-from, 18px)); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes ob-reveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes ob-spin {
+  to { transform: rotate(360deg); }
+}
+
+.ob {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  font-family: var(--hw-font-ui);
+  color: var(--hw-text);
+  background: var(--hw-bg);
+}
+
+.ob-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Native inputs stay in the accessibility tree and keyboard order; the card draws the state. */
+.ob-sr-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.ob fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.ob button {
+  font-family: inherit;
+}
+
+/* ── Hat + progress (fixed above the scrolling question) ── */
+
+.ob-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(0.75rem, 3.5vh, 2.25rem) 1.5rem 0;
+}
+
+.ob-hat-stack {
+  position: relative;
+  width: 148px;
+  height: 148px;
+  flex-shrink: 0;
+  animation: float 1.8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.ob-hat-stack.is-resting {
+  animation: none;
+}
+
+.ob-hat-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  transform-origin: 50% 78%;
+}
+
+.ob-progress {
+  width: min(340px, 100%);
+  margin-top: 0.15rem;
+}
+
+.ob-progress-track {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ob-progress-seg {
+  height: 3px;
+  border-radius: 999px;
+  background: var(--hw-track);
+  transition: background-color 0.3s ease;
+}
+
+.ob-progress-seg.is-done,
+.ob-progress-seg.is-current {
+  background: var(--hw-brand);
+}
+
+/* Skipped steps read as passed-over rather than complete. */
+.ob-progress-seg.is-skipped {
+  background: repeating-linear-gradient(90deg, var(--hw-text-disabled) 0 5px, transparent 5px 9px);
+}
+
+.ob-progress-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
+  margin-top: 0.625rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+}
+
+.ob-progress-path {
+  font-weight: 600;
+  color: var(--hw-text-secondary);
+}
+
+.ob-dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.6;
+}
+
+.ob-tag {
+  padding: 0.0625rem 0.5rem;
+  border: 1px solid var(--hw-border-strong);
+  border-radius: 999px;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--hw-text-secondary);
+  background: var(--hw-surface);
+}
+
+/* ── Question ── */
+
+.ob-scroll {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 1.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hw-border-strong) transparent;
+  /* Soften the edge where scrolled content passes under the hat and progress header. */
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 0.9rem);
+  mask-image: linear-gradient(to bottom, transparent, #000 0.9rem);
+}
+
+.ob-step {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(1.1rem, 3.5vh, 2.25rem) 0 2.5rem;
+  text-align: center;
+  animation: ob-step-in 0.38s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.ob-step.is-back {
+  --ob-step-from: -18px;
+}
+
+.ob-title {
+  font-family: var(--hw-font-display);
+  font-size: clamp(1.625rem, 2.6vw + 0.5rem, 2rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--hw-text);
+  text-wrap: balance;
+}
+
+.ob-title:focus {
+  outline: none;
+}
+
+.ob-sub {
+  max-width: 52ch;
+  margin: 0.625rem auto 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--hw-text-muted);
+  text-wrap: pretty;
+}
+
+.ob-content {
+  margin-top: clamp(1.4rem, 4vh, 2.25rem);
+  text-align: left;
+}
+
+/* ── Selectable cards ── */
+
+.ob-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.ob-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ob-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ob-card {
+  position: relative;
+  display: flex;
+  gap: 0.875rem;
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border);
+  border-radius: var(--hw-radius-card);
+  cursor: pointer;
+  transition:
+    border-color 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.ob-card:hover {
+  border-color: var(--hw-border-strong);
+  box-shadow: 0 1px 3px rgba(38, 38, 38, 0.05);
+}
+
+/* Follows :hover at equal specificity so a hovered selected card keeps its state.
+   The inset ring doubles the 1px border to a 2px visual edge without shifting layout. */
+.ob-card.is-selected {
+  border-color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+  box-shadow: inset 0 0 0 1px var(--hw-brand);
+}
+
+.ob-card:has(.ob-sr-input:focus-visible) {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 3px;
+}
+
+.ob-card-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--hw-radius-control);
+  background: var(--hw-surface-subtle);
+  color: var(--hw-text-secondary);
+  transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+.ob-card.is-selected .ob-card-icon {
+  background: var(--hw-selected-icon-bg);
+  color: var(--hw-brand);
+}
+
+.ob-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.ob-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--hw-text);
+}
+
+.ob-card-desc {
+  font-size: 0.84375rem;
+  line-height: 1.5;
+  color: var(--hw-text-muted);
+}
+
+.ob-indicator {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--hw-border-control);
+  border-radius: 50%;
+  color: #FFFFFF;
+  background: var(--hw-surface);
+  transition: background-color 0.18s ease, border-color 0.18s ease;
+}
+
+.ob-indicator svg {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.18s ease, transform 0.22s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+.ob-card.is-selected .ob-indicator {
+  background: var(--hw-brand);
+  border-color: var(--hw-brand);
+}
+
+.ob-card.is-selected .ob-indicator svg {
+  opacity: 1;
+  transform: none;
+}
+
+/* Large stacked cards (goal step). */
+.ob-card-stack {
+  flex-direction: column;
+  min-height: 184px;
+  padding: 1.25rem;
+}
+
+.ob-card-stack .ob-card-icon {
+  margin-bottom: 0.375rem;
+}
+
+.ob-card-stack .ob-indicator {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* Wide row cards (transcript choice). */
+.ob-card-row {
+  align-items: flex-start;
+  padding: 1.25rem;
+}
+
+.ob-card-row .ob-card-body {
+  flex: 1;
+  padding-top: 0.125rem;
+}
+
+/* Compact single-line cards (year, Undecided/Other); the indicator sits at the right like the others. */
+.ob-card-compact {
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 3.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+}
+
+.ob-card-compact .ob-indicator {
+  width: 18px;
+  height: 18px;
+}
+
+.ob-card-compact .ob-card-body {
+  flex: 1;
+  gap: 0.125rem;
+}
+
+.ob-card-compact .ob-card-title {
+  font-size: 0.9375rem;
+  line-height: 1.3;
+}
+
+.ob-card-compact .ob-card-desc {
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+/* ── Major ── */
+
+.ob-major {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.ob .ob-search-panel {
+  overflow: hidden;
+  background: var(--hw-surface);
+  /* The panel border is the search field's visible boundary, so it uses the control tone. */
+  border: 1px solid var(--hw-border-control);
+  border-radius: var(--hw-radius-card);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* Mouse-selecting a row moves focus into the list; keep the strong ring for typing. */
+.ob .ob-search-panel:focus-within {
+  border-color: var(--hw-text-muted);
+}
+
+.ob .ob-search-panel:has(.ob-search-input:focus) {
+  border-color: var(--hw-brand);
+  box-shadow: 0 0 0 3px var(--hw-focus-halo);
+}
+
+.ob-search {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.8125rem 1rem;
+  color: var(--hw-text-muted);
+  border-bottom: 1px solid var(--hw-border);
+}
+
+.ob-search:focus-within {
+  color: var(--hw-brand);
+}
+
+.ob-search-input {
+  flex: 1;
+  min-width: 0;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--hw-text);
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.ob-search-input::placeholder {
+  color: var(--hw-text-muted);
+}
+
+/* Native clear button: warm muted glyph instead of the browser's blue default. */
+.ob-search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  margin: 0 0 0 0.5rem;
+  background-color: var(--hw-text-muted);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 4.5l7 7M11.5 4.5l-7 7' fill='none' stroke='%23000' stroke-width='1.75' stroke-linecap='round'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 4.5l7 7M11.5 4.5l-7 7' fill='none' stroke='%23000' stroke-width='1.75' stroke-linecap='round'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+  cursor: pointer;
+}
+
+.ob-search-input::-webkit-search-cancel-button:hover {
+  background-color: var(--hw-brand);
+}
+
+.ob-major-status {
+  padding: 0.5rem 1rem;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+  background: var(--hw-bg);
+  border-bottom: 1px solid var(--hw-border);
+}
+
+.ob-major-status strong {
+  color: var(--hw-brand);
+  font-weight: 700;
+}
+
+.ob-major-list {
+  max-height: clamp(168px, 30vh, 280px);
+  overflow-y: auto;
+  padding: 0.35rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hw-border-strong) transparent;
+}
+
+.ob-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  line-height: 1.35;
+  color: var(--hw-text);
+  cursor: pointer;
+  transition: background-color 0.14s ease, color 0.14s ease;
+}
+
+.ob-row:hover {
+  background: var(--hw-bg);
+}
+
+.ob-row.is-selected {
+  background: var(--hw-selected-bg);
+  color: var(--hw-brand);
+  font-weight: 600;
+}
+
+.ob-row:has(.ob-sr-input:focus-visible) {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: -2px;
+}
+
+.ob-row-check {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background: var(--hw-brand);
+  opacity: 0;
+  transform: scale(0.6);
+  transition: opacity 0.16s ease, transform 0.2s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+.ob-row.is-selected .ob-row-check {
+  opacity: 1;
+  transform: none;
+}
+
+.ob-mark {
+  padding: 0 1px;
+  border-radius: 2px;
+  color: inherit;
+  background: rgba(201, 8, 24, 0.12);
+}
+
+.ob-major-empty {
+  padding: 1.1rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--hw-text-muted);
+}
+
+.ob-major-empty strong {
+  font-weight: 600;
+  color: var(--hw-text-secondary);
+}
+
+.ob-major-alt {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+/* ── Text fields ── */
+
+.ob-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  animation: ob-reveal 0.24s ease both;
+}
+
+.ob-field-narrow {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.ob-field-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-secondary);
+}
+
+.ob-text-input {
+  width: 100%;
+  padding: 0.75rem 0.875rem;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--hw-text);
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-control);
+  border-radius: var(--hw-radius-control);
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ob-text-input::placeholder {
+  color: var(--hw-text-muted);
+}
+
+.ob-text-input:focus {
+  border-color: var(--hw-brand);
+  box-shadow: 0 0 0 3px var(--hw-focus-halo);
+}
+
+/* ── Year ── */
+
+.ob-year {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ob .ob-grid-years {
+  display: grid;
+  /* Four columns on desktop, three on narrow tablets, so every year label stays on one line. */
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ── Transcript ── */
+
+.ob-transcript {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+/* Compact rhythm so the opened panel fits a 900px-tall desktop without nudging the title under the header. */
+.ob-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border);
+  border-radius: var(--hw-radius-card);
+  scroll-margin: 0.75rem;
+  animation: ob-reveal 0.26s ease both;
+}
+
+.ob-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 1rem;
+  color: var(--hw-text);
+  background: var(--hw-bg);
+  border: 1.5px dashed var(--hw-border-control);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.ob-dropzone:hover,
+.ob-upload.is-dragging .ob-dropzone {
+  border-color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.ob-upload.is-dragging {
+  border-color: var(--hw-brand);
+}
+
+.ob-dropzone:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 3px;
+}
+
+.ob-dropzone-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.375rem;
+  border-radius: 50%;
+  color: var(--hw-brand);
+  background: var(--hw-selected-icon-bg);
+}
+
+.ob-drop-title {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.ob-drop-link {
+  font-weight: 600;
+  color: var(--hw-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ob-drop-meta {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+}
+
+.ob-file {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.875rem;
+  background: var(--hw-bg);
+  border: 1px solid var(--hw-border);
+  border-radius: 10px;
+}
+
+.ob-file-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--hw-border);
+  border-radius: var(--hw-radius-control);
+  color: var(--hw-text-secondary);
+  background: var(--hw-surface);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.ob-file.is-uploaded .ob-file-icon {
+  color: #FFFFFF;
+  background: var(--hw-brand);
+  border-color: var(--hw-brand);
+}
+
+.ob-file.is-uploaded .ob-file-icon svg {
+  width: 15px;
+  height: 15px;
+}
+
+.ob-file-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.ob-file-name {
+  overflow: hidden;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--hw-text);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ob-file-meta {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+}
+
+.ob-file.is-failed .ob-file-meta {
+  color: var(--hw-brand-hover);
+}
+
+.ob-file-bar {
+  display: block;
+  height: 4px;
+  margin-top: 0.35rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--hw-track);
+}
+
+.ob-file-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--hw-brand);
+  transition: width 0.2s ease;
+}
+
+.ob-file-actions {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.15rem;
+}
+
+.ob-link-btn {
+  padding: 0.35rem 0.55rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--hw-text-muted);
+  background: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.ob-link-btn:hover:not(:disabled) {
+  color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.ob-link-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 1px;
+}
+
+.ob-link-btn:disabled {
+  color: var(--hw-text-disabled);
+  cursor: default;
+}
+
+.ob-upload-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--hw-brand-hover);
+  background: var(--hw-selected-bg);
+  border: 1px solid var(--hw-selected-icon-bg);
+  border-radius: 8px;
+  animation: ob-reveal 0.2s ease both;
+}
+
+.ob-upload-error svg,
+.ob-upload-note svg {
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.ob-consent {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--hw-text-secondary);
+  cursor: pointer;
+}
+
+.ob-checkbox {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 0.12rem;
+  color: #FFFFFF;
+  background: var(--hw-surface);
+  border: 1.5px solid var(--hw-border-control);
+  border-radius: 4px;
+  transition: background-color 0.16s ease, border-color 0.16s ease;
+}
+
+.ob-checkbox svg {
+  opacity: 0;
+  transition: opacity 0.16s ease;
+}
+
+.ob-consent input:checked + .ob-checkbox {
+  background: var(--hw-brand);
+  border-color: var(--hw-brand);
+}
+
+.ob-consent input:checked + .ob-checkbox svg {
+  opacity: 1;
+}
+
+.ob-consent input:focus-visible + .ob-checkbox {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+.ob-upload-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.85rem;
+}
+
+.ob-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.125rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--hw-brand);
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-brand);
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.ob-btn-outline:hover:not(:disabled) {
+  color: #FFFFFF;
+  background: var(--hw-brand);
+}
+
+.ob-btn-outline:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+.ob-btn-outline:disabled {
+  color: var(--hw-text-disabled);
+  background: transparent;
+  border-color: var(--hw-border-strong);
+  cursor: not-allowed;
+}
+
+.ob-spinner {
+  width: 13px;
+  height: 13px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: ob-spin 0.8s linear infinite;
+}
+
+.ob-upload-req {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+}
+
+.ob-upload-note {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.875rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--hw-text-muted);
+  border-top: 1px solid var(--hw-border);
+}
+
+/* ── Footer navigation ── */
+
+.ob-footer {
+  padding: 0.85rem 1.5rem calc(0.85rem + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--hw-border);
+  background: var(--hw-bg);
+}
+
+.ob-footer-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ob-footer-spacer {
+  flex: 1;
+}
+
+.ob-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.625rem 0.75rem;
+  margin-left: -0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--hw-text-secondary);
+  background: none;
+  border: none;
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.ob-back:hover:not(:disabled) {
+  color: var(--hw-text);
+  background: var(--hw-surface-subtle);
+}
+
+.ob-hint {
+  font-size: 0.8125rem;
+  color: var(--hw-text-muted);
+  text-align: right;
+}
+
+.ob-secondary {
+  padding: 0.75rem 1.125rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--hw-text-secondary);
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-strong);
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.ob-secondary:hover:not(:disabled) {
+  color: var(--hw-brand);
+  border-color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.ob-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #FFFFFF;
+  background: var(--hw-brand);
+  /* A transparent border keeps the primary the same height as the bordered secondary. */
+  border: 1px solid transparent;
+  border-radius: var(--hw-radius-control);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.ob-primary:hover:not(:disabled) {
+  background: var(--hw-brand-hover);
+}
+
+.ob-primary:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.ob-primary:disabled {
+  color: var(--hw-text-muted);
+  background: var(--hw-track);
+  cursor: not-allowed;
+}
+
+.ob-back:focus-visible,
+.ob-secondary:focus-visible,
+.ob-primary:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* ── Responsive ── */
+
+@media (max-height: 760px) {
+  .ob-hat-stack {
+    width: 112px;
+    height: 112px;
+  }
+}
+
+@media (max-width: 760px) {
+  .ob-grid-3,
+  .ob-grid-2 {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  /* Goal cards stack as compact rows on small screens. */
+  .ob-card-stack {
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 0;
+    padding: 1rem;
+  }
+
+  .ob-card-stack .ob-card-icon {
+    margin-bottom: 0;
+  }
+
+  .ob-card-stack .ob-card-body {
+    flex: 1;
+    padding-top: 0.125rem;
+  }
+
+  .ob-card-stack .ob-indicator {
+    position: static;
+  }
+
+  .ob .ob-grid-years {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .ob-top {
+    padding-top: 0.75rem;
+  }
+
+  .ob-hat-stack {
+    width: 96px;
+    height: 96px;
+  }
+
+  .ob-scroll {
+    padding: 0 1rem;
+  }
+
+  .ob-sub {
+    font-size: 0.875rem;
+  }
+
+  .ob-card-row {
+    padding: 1rem;
+  }
+
+  .ob-footer {
+    padding-inline: 1rem;
+  }
+
+  .ob-footer-inner {
+    flex-wrap: wrap;
+    row-gap: 0.6rem;
+  }
+
+  .ob-hint {
+    order: -2;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .ob-secondary {
+    order: -1;
+    flex-basis: 100%;
+  }
+
+  .ob-file {
+    flex-wrap: wrap;
+  }
+
+  .ob-file-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ob-hat-stack,
+  .ob-step,
+  .ob-field,
+  .ob-upload,
+  .ob-upload-error {
+    animation: none;
+  }
+
+  .ob-card,
+  .ob-card:hover {
+    transform: none;
+  }
+}
