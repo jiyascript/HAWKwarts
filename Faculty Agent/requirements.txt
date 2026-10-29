@@ -1,0 +1,8 @@
+numpy
+requests
+beautifulsoup4
+ddgs
+langchain>=1.0
+langchain-core
+langchain-ollama
+langgraph
