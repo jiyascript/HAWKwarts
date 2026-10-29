@@ -1,0 +1,51 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "UCS",
+      "course_num": "301",
+      "course_combined": "UCS 301",
+      "title": "Continuation of Undergraduate Studies, Administrative",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=UCS&crse_numb_in=301",
+      "course_description": "This course is open by permit only to undergraduate students who have non-course requirements to fulfill in the semester of graduation, or for Study Abroad and Exchange students whose term at the home institution extends into the next semester at the Illinois Institute of Technology. Permits are entered by Academic Affairs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "53063",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53063",
+          "credits": 1.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 99,
+            "actual": 0,
+            "remaining": 99,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    }
+  ]
+}

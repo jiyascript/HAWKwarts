@@ -1,0 +1,281 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "AAH",
+      "course_num": "119",
+      "course_combined": "AAH 119",
+      "title": "History of World Architecture I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AAH&crse_numb_in=119",
+      "course_description": "Comprehensive background as well as concentration on individual cultures and their architects from ancient to medieval times. Discussion of architectures from around the world. Specific details and expressions of more generalized theories and strategies will be explored.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "AAH",
+      "course_num": "120",
+      "course_combined": "AAH 120",
+      "title": "History of World Architecture II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AAH&crse_numb_in=120",
+      "course_description": "Comprehensive background as well as concentration on individual cultures and their architects from the Renaissance to modern times. Discussion of architectures from around the world. Specific details and expressions of more generalized theories and strategies will be explored.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite or test required",
+      "general_requirements": "A0W 8 to 12 May not be taken concurrently. and S08 9 to 12 May not be taken concurrently. and S11 600 to 800 May not be taken concurrently. and S14 32 to 40 May not be taken concurrently. and SWR 7 to 12 May not be taken concurrently. and S07 599 to 800 May not be taken concurrently. and ICOM 102 to 106 May not be taken concurrently. and AWR 7 to 12 May not be taken concurrently. and Course or Test: HUM 100 May not be taken concurrently. or Course or Test: HUM 102 May not be taken concurrently. or Course or Test: HUM 104 May not be taken concurrently. or Course or Test: HUM 106 May not be taken concurrently. or Course or Test: HUM 108 May not be taken concurrently. or Course or Test: HUM 180 May not be taken concurrently. or Course or Test: HUM 200 to 299 May not be taken concurrently. or Course or Test: COM 101 May not be taken concurrently. or Course or Test: COM 111 May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "51452",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=51452",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Alican Taylan",
+                  "email": "ataylan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 125,
+            "actual": 0,
+            "remaining": 125,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "AAH",
+      "course_num": "201",
+      "course_combined": "AAH 201",
+      "title": "Art Appreciation: Thinking, Talking, and Writing about Art",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AAH&crse_numb_in=201",
+      "course_description": "This course is designed to introduce the skills needed to describe, analyze, and make arguments about art. We will begin by learning the skills of description and formal analysis and exploring different media: painting, sculpture, printmaking and architecture. In the middle portion of the class, we will build on the skills we have learned for formally analyzing artworks as we examine different methods used in the writing of the history of art and making arguments about art. We will pay particular attention to the historical and social contexts of art and the roles that race and identity have played in the interpretation of works of art. The final section of this class considers how art is exhibited in museums, galleries, and in public space. Throughout the class we will make use of Chicago area institutions and exhibitions.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "AAH",
+      "course_num": "380",
+      "course_combined": "AAH 380",
+      "title": "Topics in Art and Architecture History",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AAH&crse_numb_in=380",
+      "course_description": "An investigation into a topic of current or enduring interest in Art and/or Architectural History which will be announced by the instructor when the course is scheduled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: HUM 100 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 102 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 104 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: HUM 106 May not be taken concurrently. ) or ( Course or Test: HUM 108 May not be taken concurrently. ) or ( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 200 to 299 Minimum Grade of D May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "The Modern Woman III",
+          "crn": "54781",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54781",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Colleen Humer",
+                  "email": "humer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "The Modern Woman II",
+          "crn": "54782",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54782",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Colleen Humer",
+                  "email": "humer@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "05",
+          "section_name": "Afropolitan Climatic Design",
+          "crn": "54783",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54783",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Alican Taylan",
+                  "email": "ataylan@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "06",
+          "section_name": "History of Landscape Arch",
+          "crn": "54784",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54784",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "J01",
+          "section_name": "The Psychology of Space",
+          "crn": "54184",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54184",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Madeleine P. Bailey",
+                  "email": "mbailey7@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "AAH",
+      "course_num": "491",
+      "course_combined": "AAH 491",
+      "title": "Independent Reading and Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AAH&crse_numb_in=491",
+      "course_description": "For advanced students. Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

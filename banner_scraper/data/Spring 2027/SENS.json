@@ -1,0 +1,126 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "SENS",
+      "course_num": "545",
+      "course_combined": "SENS 545",
+      "title": "Sensor Science and Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=SENS&crse_numb_in=545",
+      "course_description": "This course is designed for students to attain a broad and in-depth acquaintance with the mechanism, platform and targets of various sensors, with a focus on chemical sensors and biosensors. Topical concepts covered include: sensor components and characteristics; synthetic, biological and biomimetic materials used in sensor development; miniaturization and nanotechnology involved in sensor fabrication; various sensing modalities, data analysis and device prototyping. Students will be required to partner with others and consult with academic and industrial scientists to design sensors of their own interests as a final project for assessment. The course is intended for graduate students and senior undergraduate students.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "SENS",
+      "course_num": "546",
+      "course_combined": "SENS 546",
+      "title": "Project in Sensor Science and Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=SENS&crse_numb_in=546",
+      "course_description": "This course is designed to offer students the opportunity of hands-on sensor research. It can be in the form of a research project in a sensor research group, a joint project between different sensor research groups, or an internship project in industry. Students enrolled in the course are required to conduct sensor research under the supervision of 1-3 sensor experts, either in academia or industry. A student is expected to receive training and carry out research under the direction of the supervisor(s), and complete two reports, a mid-term report and a final report upon the completion of the project. Pre-approval is required for registration. May be taken more than once and up to 5 credit hours.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: SENS 545 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54692",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54692",
+          "credits": 5.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Yuanbing Mao",
+                  "email": "ymao17@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "SENS",
+      "course_num": "558",
+      "course_combined": "SENS 558",
+      "title": "Sensor Technology Industrial Internship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=SENS&crse_numb_in=558",
+      "course_description": "This course is designed to offer students an industrial internship in Sensor Technology. Students enrolled in the course are offered supervised experience in sensor technology in an industrial setting. A student is expected to complete two reports, a mid-term report and a final report (with an oral presentation) upon completion of the internship. Pre-approval is required for registration.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: SENS 546 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54693",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54693",
+          "credits": 3.0,
+          "schedule_type": "Internship",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Internship",
+              "instructors": [
+                {
+                  "name": "Yuanbing Mao",
+                  "email": "ymao17@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    }
+  ]
+}

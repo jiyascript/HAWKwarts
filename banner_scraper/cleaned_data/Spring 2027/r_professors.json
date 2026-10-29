@@ -1,0 +1,2447 @@
+[
+  {
+    "professor_id": "ataylan@illinoistech.edu",
+    "name": "Alican Taylan",
+    "email": "ataylan@illinoistech.edu"
+  },
+  {
+    "professor_id": "humer@illinoistech.edu",
+    "name": "Colleen Humer",
+    "email": "humer@illinoistech.edu"
+  },
+  {
+    "professor_id": "mbailey7@illinoistech.edu",
+    "name": "Madeleine P. Bailey",
+    "email": "mbailey7@illinoistech.edu"
+  },
+  {
+    "professor_id": "dpranger@illinoistech.edu",
+    "name": "Dillon Pranger",
+    "email": "dpranger@illinoistech.edu"
+  },
+  {
+    "professor_id": "jmccarthy1@illinoistech.edu",
+    "name": "Jacob McCarthy",
+    "email": "jmccarthy1@illinoistech.edu"
+  },
+  {
+    "professor_id": "mrezaeia@illinoistech.edu",
+    "name": "Mina Rezaeian",
+    "email": "mrezaeia@illinoistech.edu"
+  },
+  {
+    "professor_id": "tsoni@illinoistech.edu",
+    "name": "Tarjanee Soni",
+    "email": "tsoni@illinoistech.edu"
+  },
+  {
+    "professor_id": "kmills2@illinoistech.edu",
+    "name": "Kindon Mills",
+    "email": "kmills2@illinoistech.edu"
+  },
+  {
+    "professor_id": "atinucci@illinoistech.edu",
+    "name": "Andrew R Tinucci",
+    "email": "atinucci@illinoistech.edu"
+  },
+  {
+    "professor_id": "acrist1@illinoistech.edu",
+    "name": "Andrea Crist",
+    "email": "acrist1@illinoistech.edu"
+  },
+  {
+    "professor_id": "bcassidy1@illinoistech.edu",
+    "name": "Brian Cassidy",
+    "email": "bcassidy1@illinoistech.edu"
+  },
+  {
+    "professor_id": "pmelvin1@illinoistech.edu",
+    "name": "Pat Melvin",
+    "email": "pmelvin1@illinoistech.edu"
+  },
+  {
+    "professor_id": "cwilmes@illinoistech.edu",
+    "name": "Catherine M Wilmes",
+    "email": "cwilmes@illinoistech.edu"
+  },
+  {
+    "professor_id": "cansorena@illinoistech.edu",
+    "name": "Claudia Ansorena",
+    "email": "cansorena@illinoistech.edu"
+  },
+  {
+    "professor_id": "kibler@illinoistech.edu",
+    "name": "Stephen Kibler",
+    "email": "kibler@illinoistech.edu"
+  },
+  {
+    "professor_id": "ikim16@illinoistech.edu",
+    "name": "Il Hwan Kim",
+    "email": "ikim16@illinoistech.edu"
+  },
+  {
+    "professor_id": "cyu14@illinoistech.edu",
+    "name": "Camille Otto Yu",
+    "email": "cyu14@illinoistech.edu"
+  },
+  {
+    "professor_id": "skeller1@illinoistech.edu",
+    "name": "Sean Keller",
+    "email": "skeller1@illinoistech.edu"
+  },
+  {
+    "professor_id": "mnewman3@illinoistech.edu",
+    "name": "Michael H Newman",
+    "email": "mnewman3@illinoistech.edu"
+  },
+  {
+    "professor_id": "bfoote@illinoistech.edu",
+    "name": "Brian T. Foote",
+    "email": "bfoote@illinoistech.edu"
+  },
+  {
+    "professor_id": "jdezinski@illinoistech.edu",
+    "name": "Jenna Dezinski",
+    "email": "jdezinski@illinoistech.edu"
+  },
+  {
+    "professor_id": "johnsonl@illinoistech.edu",
+    "name": "Leslie Johnson",
+    "email": "johnsonl@illinoistech.edu"
+  },
+  {
+    "professor_id": "felsen@illinoistech.edu",
+    "name": "Martin S. Felsen",
+    "email": "felsen@illinoistech.edu"
+  },
+  {
+    "professor_id": "peluso@illinoistech.edu",
+    "name": "Alphonso J Peluso",
+    "email": "peluso@illinoistech.edu"
+  },
+  {
+    "professor_id": "jmanfredy@illinoistech.edu",
+    "name": "John R. Manfredy",
+    "email": "jmanfredy@illinoistech.edu"
+  },
+  {
+    "professor_id": "wetzel@illinoistech.edu",
+    "name": "Catherine Q. Wetzel",
+    "email": "wetzel@illinoistech.edu"
+  },
+  {
+    "professor_id": "kriegshauser@illinoistech.edu",
+    "name": "John Kriegshauser",
+    "email": "kriegshauser@illinoistech.edu"
+  },
+  {
+    "professor_id": "pendres@illinoistech.edu",
+    "name": "Paul Endres",
+    "email": "pendres@illinoistech.edu"
+  },
+  {
+    "professor_id": "dlohman@illinoistech.edu",
+    "name": "Devin Lyle Lohman",
+    "email": "dlohman@illinoistech.edu"
+  },
+  {
+    "professor_id": "miller@illinoistech.edu",
+    "name": "Jonathan Miller",
+    "email": "miller@illinoistech.edu"
+  },
+  {
+    "professor_id": "brock@illinoistech.edu",
+    "name": "Thomas E Brock",
+    "email": "brock@illinoistech.edu"
+  },
+  {
+    "professor_id": "jwomack1@illinoistech.edu",
+    "name": "Jay W Womack",
+    "email": "jwomack1@illinoistech.edu"
+  },
+  {
+    "professor_id": "jfriedl1@illinoistech.edu",
+    "name": "Johann W Friedl",
+    "email": "jfriedl1@illinoistech.edu"
+  },
+  {
+    "professor_id": "yhwang7@illinoistech.edu",
+    "name": "Youngjin Hwang",
+    "email": "yhwang7@illinoistech.edu"
+  },
+  {
+    "professor_id": "jhicks5@illinoistech.edu",
+    "name": "Jordan Hicks",
+    "email": "jhicks5@illinoistech.edu"
+  },
+  {
+    "professor_id": "wood@illinoistech.edu",
+    "name": "Antony D Wood",
+    "email": "wood@illinoistech.edu"
+  },
+  {
+    "professor_id": "klasorsa@illinoistech.edu",
+    "name": "Kristin Lasorsa",
+    "email": "klasorsa@illinoistech.edu"
+  },
+  {
+    "professor_id": "vmimica@illinoistech.edu",
+    "name": "Vedran Mimica",
+    "email": "vmimica@illinoistech.edu"
+  },
+  {
+    "professor_id": "denison@illinoistech.edu",
+    "name": "Dirk Spencer Denison",
+    "email": "denison@illinoistech.edu"
+  },
+  {
+    "professor_id": "mvillaloboshernandez@illinoistech.edu",
+    "name": "Maria Villalobos Hernandez",
+    "email": "mvillaloboshernandez@illinoistech.edu"
+  },
+  {
+    "professor_id": "ecorradi@illinoistech.edu",
+    "name": "Edoarda Maria Corradi Dell' Acqua",
+    "email": "ecorradi@illinoistech.edu"
+  },
+  {
+    "professor_id": "flury@illinoistech.edu",
+    "name": "Frank C Flury",
+    "email": "flury@illinoistech.edu"
+  },
+  {
+    "professor_id": "ronan@illinoistech.edu",
+    "name": "John J Ronan",
+    "email": "ronan@illinoistech.edu"
+  },
+  {
+    "professor_id": "kjones24@illinoistech.edu",
+    "name": "Kristin Jones",
+    "email": "kjones24@illinoistech.edu"
+  },
+  {
+    "professor_id": "hkosirog@illinoistech.edu",
+    "name": "Hannah Kosirog",
+    "email": "hkosirog@illinoistech.edu"
+  },
+  {
+    "professor_id": "khees@illinoistech.edu",
+    "name": "Kyle Hees",
+    "email": "khees@illinoistech.edu"
+  },
+  {
+    "professor_id": "aolsen3@illinoistech.edu",
+    "name": "Anna M. Olsen",
+    "email": "aolsen3@illinoistech.edu"
+  },
+  {
+    "professor_id": "mweaver6@illinoistech.edu",
+    "name": "Matthew W. Weaver",
+    "email": "mweaver6@illinoistech.edu"
+  },
+  {
+    "professor_id": "jprimm@illinoistech.edu",
+    "name": "Joel Primm",
+    "email": "jprimm@illinoistech.edu"
+  },
+  {
+    "professor_id": "adinh1@illinoistech.edu",
+    "name": "Alec Dinh",
+    "email": "adinh1@illinoistech.edu"
+  },
+  {
+    "professor_id": "wma6@illinoistech.edu",
+    "name": "Weikang Ma",
+    "email": "wma6@illinoistech.edu"
+  },
+  {
+    "professor_id": "bekytan@illinoistech.edu",
+    "name": "Tanya Ilieva Bekyarova",
+    "email": "bekytan@illinoistech.edu"
+  },
+  {
+    "professor_id": "yutilin@illinoistech.edu",
+    "name": "Yuting Lin",
+    "email": "yutilin@illinoistech.edu"
+  },
+  {
+    "professor_id": "spink@illinoistech.edu",
+    "name": "Kathryn M Spink",
+    "email": "spink@illinoistech.edu"
+  },
+  {
+    "professor_id": "menhart@illinoistech.edu",
+    "name": "Nicholas G. Menhart",
+    "email": "menhart@illinoistech.edu"
+  },
+  {
+    "professor_id": "li129@illinoistech.edu",
+    "name": "Lei Li",
+    "email": "li129@illinoistech.edu"
+  },
+  {
+    "professor_id": "jcorush@illinoistech.edu",
+    "name": "Joel Corush",
+    "email": "jcorush@illinoistech.edu"
+  },
+  {
+    "professor_id": "msmith84@illinoistech.edu",
+    "name": "Matthew Smith",
+    "email": "msmith84@illinoistech.edu"
+  },
+  {
+    "professor_id": "howard@illinoistech.edu",
+    "name": "Andrew Jay Howard",
+    "email": "howard@illinoistech.edu"
+  },
+  {
+    "professor_id": "dhar@illinoistech.edu",
+    "name": "Promila Dhar",
+    "email": "dhar@illinoistech.edu"
+  },
+  {
+    "professor_id": "masadi1@illinoistech.edu",
+    "name": "Mohammad Asadi",
+    "email": "masadi1@illinoistech.edu"
+  },
+  {
+    "professor_id": "mogul@illinoistech.edu",
+    "name": "David J. Mogul",
+    "email": "mogul@illinoistech.edu"
+  },
+  {
+    "professor_id": "cinar@illinoistech.edu",
+    "name": "Ali Cinar",
+    "email": "cinar@illinoistech.edu"
+  },
+  {
+    "professor_id": "mrashid3@illinoistech.edu",
+    "name": "Mudassir Rashid",
+    "email": "mrashid3@illinoistech.edu"
+  },
+  {
+    "professor_id": "papavasiliou@illinoistech.edu",
+    "name": "Georgia Papavasiliou",
+    "email": "papavasiliou@illinoistech.edu"
+  },
+  {
+    "professor_id": "arfanakis@illinoistech.edu",
+    "name": "Konstantinos Arfanakis",
+    "email": "arfanakis@illinoistech.edu"
+  },
+  {
+    "professor_id": "kkawaji@illinoistech.edu",
+    "name": "Keigo Kawaji",
+    "email": "kkawaji@illinoistech.edu"
+  },
+  {
+    "professor_id": "arastoopour@illinoistech.edu",
+    "name": "Hamid Arastoopour",
+    "email": "arastoopour@illinoistech.edu"
+  },
+  {
+    "professor_id": "abhushan@illinoistech.edu",
+    "name": "Abhinav Bhushan",
+    "email": "abhushan@illinoistech.edu"
+  },
+  {
+    "professor_id": "troyk@illinoistech.edu",
+    "name": "Philip R. Troyk",
+    "email": "troyk@illinoistech.edu"
+  },
+  {
+    "professor_id": "ghaddadi@illinoistech.edu",
+    "name": "Ghazale Haddadian",
+    "email": "ghaddadi@illinoistech.edu"
+  },
+  {
+    "professor_id": "hamilton@illinoistech.edu",
+    "name": "Charles T. Hamilton",
+    "email": "hamilton@illinoistech.edu"
+  },
+  {
+    "professor_id": "akumiega@illinoistech.edu",
+    "name": "Andrew L. Kumiega",
+    "email": "akumiega@illinoistech.edu"
+  },
+  {
+    "professor_id": "hwang23@illinoistech.edu",
+    "name": "Haizhi Wang",
+    "email": "hwang23@illinoistech.edu"
+  },
+  {
+    "professor_id": "jhowar12@illinoistech.edu",
+    "name": "Joanne E. Howard",
+    "email": "jhowar12@illinoistech.edu"
+  },
+  {
+    "professor_id": "sanand12@illinoistech.edu",
+    "name": "Smriti Anand",
+    "email": "sanand12@illinoistech.edu"
+  },
+  {
+    "professor_id": "twombly@illinoistech.edu",
+    "name": "John R. Twombly",
+    "email": "twombly@illinoistech.edu"
+  },
+  {
+    "professor_id": "xcao20@illinoistech.edu",
+    "name": "Xiaoyun Cao",
+    "email": "xcao20@illinoistech.edu"
+  },
+  {
+    "professor_id": "mrybak@illinoistech.edu",
+    "name": "Michael J. Rybak",
+    "email": "mrybak@illinoistech.edu"
+  },
+  {
+    "professor_id": "arogers15@illinoistech.edu",
+    "name": "Ariel Rogers",
+    "email": "arogers15@illinoistech.edu"
+  },
+  {
+    "professor_id": "tsharp2@illinoistech.edu",
+    "name": "Tarra Sharp",
+    "email": "tsharp2@illinoistech.edu"
+  },
+  {
+    "professor_id": "skang21@illinoistech.edu",
+    "name": "Sang-Baum Kang",
+    "email": "skang21@illinoistech.edu"
+  },
+  {
+    "professor_id": "merramil@illinoistech.edu",
+    "name": "M Krishna Erramilli",
+    "email": "merramil@illinoistech.edu"
+  },
+  {
+    "professor_id": "sivakbalas@illinoistech.edu",
+    "name": "Siva Balasubramanian",
+    "email": "sivakbalas@illinoistech.edu"
+  },
+  {
+    "professor_id": "kjeon2@illinoistech.edu",
+    "name": "Kahyun Jeon",
+    "email": "kjeon2@illinoistech.edu"
+  },
+  {
+    "professor_id": "bjeong1@illinoistech.edu",
+    "name": "Boyoung Jeong",
+    "email": "bjeong1@illinoistech.edu"
+  },
+  {
+    "professor_id": "chall9@illinoistech.edu",
+    "name": "Carrie Hall",
+    "email": "chall9@illinoistech.edu"
+  },
+  {
+    "professor_id": "mdirbaz@illinoistech.edu",
+    "name": "Mojtaba Dirbaz",
+    "email": "mdirbaz@illinoistech.edu"
+  },
+  {
+    "professor_id": "dlampert1@illinoistech.edu",
+    "name": "David Lampert",
+    "email": "dlampert1@illinoistech.edu"
+  },
+  {
+    "professor_id": "smiralinaghi@illinoistech.edu",
+    "name": "Seyedmohammad Miralinaghi",
+    "email": "smiralinaghi@illinoistech.edu"
+  },
+  {
+    "professor_id": "mgombeda@illinoistech.edu",
+    "name": "Matthew Gombeda",
+    "email": "mgombeda@illinoistech.edu"
+  },
+  {
+    "professor_id": "pdulantogutierrez@hawk.illinoistech.edu",
+    "name": "Pedro Manuel Dulanto Gutierrez",
+    "email": "pdulantogutierrez@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "skhudeir@illinoistech.edu",
+    "name": "Soliman Khudeira",
+    "email": "skhudeir@illinoistech.edu"
+  },
+  {
+    "professor_id": "rschultz2@illinoistech.edu",
+    "name": "Richard B. Schultz",
+    "email": "rschultz2@illinoistech.edu"
+  },
+  {
+    "professor_id": "tzakrzew@illinoistech.edu",
+    "name": "Thomas Zakrzewski",
+    "email": "tzakrzew@illinoistech.edu"
+  },
+  {
+    "professor_id": "mheidarinejad@illinoistech.edu",
+    "name": "Mohammad Heidarinejad",
+    "email": "mheidarinejad@illinoistech.edu"
+  },
+  {
+    "professor_id": "jlee310@illinoistech.edu",
+    "name": "Jongki Lee",
+    "email": "jlee310@illinoistech.edu"
+  },
+  {
+    "professor_id": "rlemming@illinoistech.edu",
+    "name": "Raymond Michael Lemming",
+    "email": "rlemming@illinoistech.edu"
+  },
+  {
+    "professor_id": "lswarup@illinoistech.edu",
+    "name": "Lipika Swarup",
+    "email": "lswarup@illinoistech.edu"
+  },
+  {
+    "professor_id": "adomel@illinoistech.edu",
+    "name": "August Domel",
+    "email": "adomel@illinoistech.edu"
+  },
+  {
+    "professor_id": "chaite1@illinoistech.edu",
+    "name": "Christopher Haite",
+    "email": "chaite1@illinoistech.edu"
+  },
+  {
+    "professor_id": "rohter@illinoistech.edu",
+    "name": "Laurence Rohter",
+    "email": "rohter@illinoistech.edu"
+  },
+  {
+    "professor_id": "bstephe5@illinoistech.edu",
+    "name": "Brent Robert Stephens",
+    "email": "bstephe5@illinoistech.edu"
+  },
+  {
+    "professor_id": "mmodares@illinoistech.edu",
+    "name": "Mehdi Modares",
+    "email": "mmodares@illinoistech.edu"
+  },
+  {
+    "professor_id": "mohammadi@illinoistech.edu",
+    "name": "Jamshid Mohammadi",
+    "email": "mohammadi@illinoistech.edu"
+  },
+  {
+    "professor_id": "yding2@illinoistech.edu",
+    "name": "Yuhan Ding",
+    "email": "yding2@illinoistech.edu"
+  },
+  {
+    "professor_id": "mdesch@illinoistech.edu",
+    "name": "Michael Robert Desch",
+    "email": "mdesch@illinoistech.edu"
+  },
+  {
+    "professor_id": "amitche8@illinoistech.edu",
+    "name": "Alexander R. Mitchell",
+    "email": "amitche8@illinoistech.edu"
+  },
+  {
+    "professor_id": "iosman1@illinoistech.edu",
+    "name": "Ibrahim Osman",
+    "email": "iosman1@illinoistech.edu"
+  },
+  {
+    "professor_id": "ejohns20@illinoistech.edu",
+    "name": "Elizabeth O'Hara Johnson",
+    "email": "ejohns20@illinoistech.edu"
+  },
+  {
+    "professor_id": "mjorgens@illinoistech.edu",
+    "name": "Mary Jorgenson Sullivan",
+    "email": "mjorgens@illinoistech.edu"
+  },
+  {
+    "professor_id": "bcasari1@illinoistech.edu",
+    "name": "Brian Casario",
+    "email": "bcasari1@illinoistech.edu"
+  },
+  {
+    "professor_id": "teymour@illinoistech.edu",
+    "name": "Fouad Teymour",
+    "email": "teymour@illinoistech.edu"
+  },
+  {
+    "professor_id": "aderangi@illinoistech.edu",
+    "name": "Nader Aderangi",
+    "email": "aderangi@illinoistech.edu"
+  },
+  {
+    "professor_id": "chmielewski@illinoistech.edu",
+    "name": "Donald J Chmielewski",
+    "email": "chmielewski@illinoistech.edu"
+  },
+  {
+    "professor_id": "zalc@illinoistech.edu",
+    "name": "Jeffrey M. Zalc",
+    "email": "zalc@illinoistech.edu"
+  },
+  {
+    "professor_id": "selman@illinoistech.edu",
+    "name": "Robert J Selman",
+    "email": "selman@illinoistech.edu"
+  },
+  {
+    "professor_id": "anderson@illinoistech.edu",
+    "name": "Robert F. Anderson",
+    "email": "anderson@illinoistech.edu"
+  },
+  {
+    "professor_id": "mkelkar1@illinoistech.edu",
+    "name": "Manish Kelkar",
+    "email": "mkelkar1@illinoistech.edu"
+  },
+  {
+    "professor_id": "cosuna@illinoistech.edu",
+    "name": "Cinthya E Osuna",
+    "email": "cosuna@illinoistech.edu"
+  },
+  {
+    "professor_id": "sbanerjee2@illinoistech.edu",
+    "name": "Somdev Banerjee",
+    "email": "sbanerjee2@illinoistech.edu"
+  },
+  {
+    "professor_id": "kleight1@illinoistech.edu",
+    "name": "Katherine Leight",
+    "email": "kleight1@illinoistech.edu"
+  },
+  {
+    "professor_id": "gspringer@illinoistech.edu",
+    "name": "Greggory Todd Springer",
+    "email": "gspringer@illinoistech.edu"
+  },
+  {
+    "professor_id": "ahock@illinoistech.edu",
+    "name": "Adam Hock",
+    "email": "ahock@illinoistech.edu"
+  },
+  {
+    "professor_id": "khan@illinoistech.edu",
+    "name": "M. Ishaque Khan",
+    "email": "khan@illinoistech.edu"
+  },
+  {
+    "professor_id": "mandal@illinoistech.edu",
+    "name": "Braja K. Mandal",
+    "email": "mandal@illinoistech.edu"
+  },
+  {
+    "professor_id": "ymao17@illinoistech.edu",
+    "name": "Yuanbing Mao",
+    "email": "ymao17@illinoistech.edu"
+  },
+  {
+    "professor_id": "selsaidi@illinoistech.edu",
+    "name": "Sameh Elsaidi",
+    "email": "selsaidi@illinoistech.edu"
+  },
+  {
+    "professor_id": "blittlej@illinoistech.edu",
+    "name": "Bryce Littlejohn",
+    "email": "blittlej@illinoistech.edu"
+  },
+  {
+    "professor_id": "snaik15@illinoistech.edu",
+    "name": "Sajo Naik",
+    "email": "snaik15@illinoistech.edu"
+  },
+  {
+    "professor_id": "segre@illinoistech.edu",
+    "name": "Carlo U. Segre",
+    "email": "segre@illinoistech.edu"
+  },
+  {
+    "professor_id": "jwereszc@illinoistech.edu",
+    "name": "Jeffery Wereszczynski",
+    "email": "jwereszc@illinoistech.edu"
+  },
+  {
+    "professor_id": "nneskosk@illinoistech.edu",
+    "name": "Naum Neskoski",
+    "email": "nneskosk@illinoistech.edu"
+  },
+  {
+    "professor_id": "tmcgee@illinoistech.edu",
+    "name": "Tracey S McGee",
+    "email": "tmcgee@illinoistech.edu"
+  },
+  {
+    "professor_id": "rphelps2@illinoistech.edu",
+    "name": "Renata Phelps",
+    "email": "rphelps2@illinoistech.edu"
+  },
+  {
+    "professor_id": "mayfield@illinoistech.edu",
+    "name": "Matthew Mayfield",
+    "email": "mayfield@illinoistech.edu"
+  },
+  {
+    "professor_id": "aroback@illinoistech.edu",
+    "name": "Andrew J Roback",
+    "email": "aroback@illinoistech.edu"
+  },
+  {
+    "professor_id": "wrodda@illinoistech.edu",
+    "name": "Warner B. Rodda",
+    "email": "wrodda@illinoistech.edu"
+  },
+  {
+    "professor_id": "ckocurek@illinoistech.edu",
+    "name": "Carly Kocurek",
+    "email": "ckocurek@illinoistech.edu"
+  },
+  {
+    "professor_id": "jdewinter@illinoistech.edu",
+    "name": "Jennifer deWinter",
+    "email": "jdewinter@illinoistech.edu"
+  },
+  {
+    "professor_id": "hanrath@illinoistech.edu",
+    "name": "Jon Hanrath",
+    "email": "hanrath@illinoistech.edu"
+  },
+  {
+    "professor_id": "bauerm@illinoistech.edu",
+    "name": "Matthew J Bauer",
+    "email": "bauerm@illinoistech.edu"
+  },
+  {
+    "professor_id": "lyao8@illinoistech.edu",
+    "name": "Lan Yao",
+    "email": "lyao8@illinoistech.edu"
+  },
+  {
+    "professor_id": "xwang122@illinoistech.edu",
+    "name": "Xiaolang Wang",
+    "email": "xwang122@illinoistech.edu"
+  },
+  {
+    "professor_id": "sroy20@illinoistech.edu",
+    "name": "Shouvik Roy",
+    "email": "sroy20@illinoistech.edu"
+  },
+  {
+    "professor_id": "chlebus@illinoistech.edu",
+    "name": "Edward Chlebus",
+    "email": "chlebus@illinoistech.edu"
+  },
+  {
+    "professor_id": "saelee@illinoistech.edu",
+    "name": "Michael Kamol Lee",
+    "email": "saelee@illinoistech.edu"
+  },
+  {
+    "professor_id": "fghanei@illinoistech.edu",
+    "name": "Farshad Ghanei",
+    "email": "fghanei@illinoistech.edu"
+  },
+  {
+    "professor_id": "ydong27@illinoistech.edu",
+    "name": "Yun Dong",
+    "email": "ydong27@illinoistech.edu"
+  },
+  {
+    "professor_id": "yelmehdwi@illinoistech.edu",
+    "name": "Yousef M. Elmehdwi",
+    "email": "yelmehdwi@illinoistech.edu"
+  },
+  {
+    "professor_id": "nsultana1@illinoistech.edu",
+    "name": "Nik Sultana",
+    "email": "nsultana1@illinoistech.edu"
+  },
+  {
+    "professor_id": "nhudson5@illinoistech.edu",
+    "name": "Nathaniel Hudson",
+    "email": "nhudson5@illinoistech.edu"
+  },
+  {
+    "professor_id": "dzikjac@illinoistech.edu",
+    "name": "Jacek Dzikowski",
+    "email": "dzikjac@illinoistech.edu"
+  },
+  {
+    "professor_id": "bwang70@illinoistech.edu",
+    "name": "Binghui Wang",
+    "email": "bwang70@illinoistech.edu"
+  },
+  {
+    "professor_id": "dhood@illinoistech.edu",
+    "name": "Dennis J. Hood",
+    "email": "dhood@illinoistech.edu"
+  },
+  {
+    "professor_id": "yhong26@illinoistech.edu",
+    "name": "Yuan Hong",
+    "email": "yhong26@illinoistech.edu"
+  },
+  {
+    "professor_id": "davids@illinoistech.edu",
+    "name": "Carol R. Davids",
+    "email": "davids@illinoistech.edu"
+  },
+  {
+    "professor_id": "kshu@illinoistech.edu",
+    "name": "Kai Shu",
+    "email": "kshu@illinoistech.edu"
+  },
+  {
+    "professor_id": "mbilgic@illinoistech.edu",
+    "name": "Mustafa Bilgic",
+    "email": "mbilgic@illinoistech.edu"
+  },
+  {
+    "professor_id": "sun@illinoistech.edu",
+    "name": "Xian-He Sun",
+    "email": "sun@illinoistech.edu"
+  },
+  {
+    "professor_id": "agam@illinoistech.edu",
+    "name": "Gady Agam",
+    "email": "agam@illinoistech.edu"
+  },
+  {
+    "professor_id": "kapoor@illinoistech.edu",
+    "name": "Sanjiv Kapoor",
+    "email": "kapoor@illinoistech.edu"
+  },
+  {
+    "professor_id": "mmiller30@illinoistech.edu",
+    "name": "Mark Roman Miller",
+    "email": "mmiller30@illinoistech.edu"
+  },
+  {
+    "professor_id": "ywang562@illinoistech.edu",
+    "name": "Yutong Wang",
+    "email": "ywang562@illinoistech.edu"
+  },
+  {
+    "professor_id": "mzhou26@illinoistech.edu",
+    "name": "Minxuan Zhou",
+    "email": "mzhou26@illinoistech.edu"
+  },
+  {
+    "professor_id": "ydai21@illinoistech.edu",
+    "name": "Yue Dai",
+    "email": "ydai21@illinoistech.edu"
+  },
+  {
+    "professor_id": "argamon@illinoistech.edu",
+    "name": "Shlomo Argamon",
+    "email": "argamon@illinoistech.edu"
+  },
+  {
+    "professor_id": "lan@hawk.illinoistech.edu",
+    "name": "Zhiling Lan",
+    "email": "lan@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "leung@illinoistech.edu",
+    "name": "Wu-Hon Francis Leung",
+    "email": "leung@illinoistech.edu"
+  },
+  {
+    "professor_id": "khale1@illinoistech.edu",
+    "name": "Kyle C. Hale",
+    "email": "khale1@illinoistech.edu"
+  },
+  {
+    "professor_id": "vgurbani@illinoistech.edu",
+    "name": "Vijay Kumar Gurbani",
+    "email": "vgurbani@illinoistech.edu"
+  },
+  {
+    "professor_id": "xchen80@illinoistech.edu",
+    "name": "Xin Chen",
+    "email": "xchen80@illinoistech.edu"
+  },
+  {
+    "professor_id": "iraicu@illinoistech.edu",
+    "name": "Ioan Raicu",
+    "email": "iraicu@illinoistech.edu"
+  },
+  {
+    "professor_id": "hood@illinoistech.edu",
+    "name": "Cynthia S. Hood",
+    "email": "hood@illinoistech.edu"
+  },
+  {
+    "professor_id": "gbalekaki@illinoistech.edu",
+    "name": "Gerald N. Balekaki",
+    "email": "gbalekaki@illinoistech.edu"
+  },
+  {
+    "professor_id": "bvanderjack@illinoistech.edu",
+    "name": "Brian R. Vanderjack",
+    "email": "bvanderjack@illinoistech.edu"
+  },
+  {
+    "professor_id": "aculotta@illinoistech.edu",
+    "name": "Aron W. Culotta",
+    "email": "aculotta@illinoistech.edu"
+  },
+  {
+    "professor_id": "yyan34@illinoistech.edu",
+    "name": "Yan Yan",
+    "email": "yyan34@illinoistech.edu"
+  },
+  {
+    "professor_id": "rwang67@illinoistech.edu",
+    "name": "Rujia Wang",
+    "email": "rwang67@illinoistech.edu"
+  },
+  {
+    "professor_id": "djin6@illinoistech.edu",
+    "name": "Dong Jin",
+    "email": "djin6@illinoistech.edu"
+  },
+  {
+    "professor_id": "korel@illinoistech.edu",
+    "name": "Bogdan Korel",
+    "email": "korel@illinoistech.edu"
+  },
+  {
+    "professor_id": "yduan12@illinoistech.edu",
+    "name": "Yue Duan",
+    "email": "yduan12@illinoistech.edu"
+  },
+  {
+    "professor_id": "abader@illinoistech.edu",
+    "name": "Atef J. Bader",
+    "email": "abader@illinoistech.edu"
+  },
+  {
+    "professor_id": "sasaki@illinoistech.edu",
+    "name": "James T Sasaki",
+    "email": "sasaki@illinoistech.edu"
+  },
+  {
+    "professor_id": "zhang@illinoistech.edu",
+    "name": "Hong Zhang-Sun",
+    "email": "zhang@illinoistech.edu"
+  },
+  {
+    "professor_id": "onarykov@illinoistech.edu",
+    "name": "Oleksandr Narykov",
+    "email": "onarykov@illinoistech.edu"
+  },
+  {
+    "professor_id": "yzheng66@illinoistech.edu",
+    "name": "Yong Zheng",
+    "email": "yzheng66@illinoistech.edu"
+  },
+  {
+    "professor_id": "gchen30@illinoistech.edu",
+    "name": "Guanting Chen",
+    "email": "gchen30@illinoistech.edu"
+  },
+  {
+    "professor_id": "shanechi@illinoistech.edu",
+    "name": "Mohammad Hassan Modir Shanechi",
+    "email": "shanechi@illinoistech.edu"
+  },
+  {
+    "professor_id": "zxia@illinoistech.edu",
+    "name": "Zhengyu Xia",
+    "email": "zxia@illinoistech.edu"
+  },
+  {
+    "professor_id": "wyi3@illinoistech.edu",
+    "name": "Won Jae Yi",
+    "email": "wyi3@illinoistech.edu"
+  },
+  {
+    "professor_id": "jwang34@illinoistech.edu",
+    "name": "Jia Wang",
+    "email": "jwang34@illinoistech.edu"
+  },
+  {
+    "professor_id": "borkar@illinoistech.edu",
+    "name": "Suresh R Borkar",
+    "email": "borkar@illinoistech.edu"
+  },
+  {
+    "professor_id": "slee255@illinoistech.edu",
+    "name": "Sanggil Lee",
+    "email": "slee255@illinoistech.edu"
+  },
+  {
+    "professor_id": "fshang2@illinoistech.edu",
+    "name": "Fei Shang",
+    "email": "fshang2@illinoistech.edu"
+  },
+  {
+    "professor_id": "kchoi12@illinoistech.edu",
+    "name": "Kyuwon Choi",
+    "email": "kchoi12@illinoistech.edu"
+  },
+  {
+    "professor_id": "wong@illinoistech.edu",
+    "name": "Thomas Wong",
+    "email": "wong@illinoistech.edu"
+  },
+  {
+    "professor_id": "tliu32@illinoistech.edu",
+    "name": "Tianjiao Liu",
+    "email": "tliu32@illinoistech.edu"
+  },
+  {
+    "professor_id": "tfang3@illinoistech.edu",
+    "name": "Tianyang Fang",
+    "email": "tfang3@illinoistech.edu"
+  },
+  {
+    "professor_id": "rwang74@illinoistech.edu",
+    "name": "Ren Wang",
+    "email": "rwang74@illinoistech.edu"
+  },
+  {
+    "professor_id": "jkim61@illinoistech.edu",
+    "name": "Joohee Kim",
+    "email": "jkim61@illinoistech.edu"
+  },
+  {
+    "professor_id": "ms@illinoistech.edu",
+    "name": "Mohammad Shahidehpour",
+    "email": "ms@illinoistech.edu"
+  },
+  {
+    "professor_id": "kzdunek@illinoistech.edu",
+    "name": "Kenneth Zdunek",
+    "email": "kzdunek@illinoistech.edu"
+  },
+  {
+    "professor_id": "qzhong2@illinoistech.edu",
+    "name": "Qingchang Zhong",
+    "email": "qzhong2@illinoistech.edu"
+  },
+  {
+    "professor_id": "ibrown1@illinoistech.edu",
+    "name": "Ian Brown",
+    "email": "ibrown1@illinoistech.edu"
+  },
+  {
+    "professor_id": "saniie@illinoistech.edu",
+    "name": "Jafar Saniie",
+    "email": "saniie@illinoistech.edu"
+  },
+  {
+    "professor_id": "williamson@illinoistech.edu",
+    "name": "Geoffrey Williamson",
+    "email": "williamson@illinoistech.edu"
+  },
+  {
+    "professor_id": "yangyo@illinoistech.edu",
+    "name": "Yongyi Yang",
+    "email": "yangyo@illinoistech.edu"
+  },
+  {
+    "professor_id": "cheng@illinoistech.edu",
+    "name": "Yu Cheng",
+    "email": "cheng@illinoistech.edu"
+  },
+  {
+    "professor_id": "brankov@illinoistech.edu",
+    "name": "Jovan Brankov",
+    "email": "brankov@illinoistech.edu"
+  },
+  {
+    "professor_id": "lcai5@illinoistech.edu",
+    "name": "Li Cai",
+    "email": "lcai5@illinoistech.edu"
+  },
+  {
+    "professor_id": "wwang141@illinoistech.edu",
+    "name": "Wenchen Wang",
+    "email": "wwang141@illinoistech.edu"
+  },
+  {
+    "professor_id": "psharm21@illinoistech.edu",
+    "name": "Priyanka Sharma",
+    "email": "psharm21@illinoistech.edu"
+  },
+  {
+    "professor_id": "mmohamed7@illinoistech.edu",
+    "name": "Mohamed Mahmoud Ali Mohamed",
+    "email": "mmohamed7@illinoistech.edu"
+  },
+  {
+    "professor_id": "kqasem1@illinoistech.edu",
+    "name": "Karoline Qasem",
+    "email": "kqasem1@illinoistech.edu"
+  },
+  {
+    "professor_id": "kroehl@illinoistech.edu",
+    "name": "Kelly A. Roehl",
+    "email": "kroehl@illinoistech.edu"
+  },
+  {
+    "professor_id": "bburton@illinoistech.edu",
+    "name": "Britt Burton-Freeman",
+    "email": "bburton@illinoistech.edu"
+  },
+  {
+    "professor_id": "asandhu2@illinoistech.edu",
+    "name": "Amandeep Sandhu",
+    "email": "asandhu2@illinoistech.edu"
+  },
+  {
+    "professor_id": "vacquarone@illinoistech.edu",
+    "name": "Valeria Acquarone",
+    "email": "vacquarone@illinoistech.edu"
+  },
+  {
+    "professor_id": "kkrishn2@illinoistech.edu",
+    "name": "Kathiravan Krishnamurthy",
+    "email": "kkrishn2@illinoistech.edu"
+  },
+  {
+    "professor_id": "NoReply-Reg@iit.edu",
+    "name": "Faculty TBA",
+    "email": "NoReply-Reg@iit.edu"
+  },
+  {
+    "professor_id": "hhanifah@hawk.illinoistech.edu",
+    "name": "Hana Hanifah",
+    "email": "hhanifah@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "agonzalez64@illinoistech.edu",
+    "name": "Adryen J Gonzalez",
+    "email": "agonzalez64@illinoistech.edu"
+  },
+  {
+    "professor_id": "greenk@illinoistech.edu",
+    "name": "Keith Green",
+    "email": "greenk@illinoistech.edu"
+  },
+  {
+    "professor_id": "zach.pino@illinoistech.edu",
+    "name": "Zachary Pino",
+    "email": "zach.pino@illinoistech.edu"
+  },
+  {
+    "professor_id": "psafyer@hawk.illinoistech.edu",
+    "name": "Paige Safyer",
+    "email": "psafyer@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "bkristensen@illinoistech.edu",
+    "name": "Bjorn R Kristensen",
+    "email": "bkristensen@illinoistech.edu"
+  },
+  {
+    "professor_id": "carlos@illinoistech.edu",
+    "name": "Carlos Teixeira",
+    "email": "carlos@illinoistech.edu"
+  },
+  {
+    "professor_id": "dchichester@illinoistech.edu",
+    "name": "Daniel Dowe Chichester",
+    "email": "dchichester@illinoistech.edu"
+  },
+  {
+    "professor_id": "mshea@illinoistech.edu",
+    "name": "Maura Aileen Shea",
+    "email": "mshea@illinoistech.edu"
+  },
+  {
+    "professor_id": "rschmid8@illinoistech.edu",
+    "name": "Ruth K Schmidt",
+    "email": "rschmid8@illinoistech.edu"
+  },
+  {
+    "professor_id": "tiago@illinoistech.edu",
+    "name": "Tiago Baccarelli Justino",
+    "email": "tiago@illinoistech.edu"
+  },
+  {
+    "professor_id": "mbotos@illinoistech.edu",
+    "name": "Michael P Botos",
+    "email": "mbotos@illinoistech.edu"
+  },
+  {
+    "professor_id": "washton@illinoistech.edu",
+    "name": "Weslynne Ashton",
+    "email": "washton@illinoistech.edu"
+  },
+  {
+    "professor_id": "jlazzara@illinoistech.edu",
+    "name": "Joseph Nicholas Lazzara",
+    "email": "jlazzara@illinoistech.edu"
+  },
+  {
+    "professor_id": "trigopoulos@illinoistech.edu",
+    "name": "Theodossios Rigopoulos",
+    "email": "trigopoulos@illinoistech.edu"
+  },
+  {
+    "professor_id": "bokane@illinoistech.edu",
+    "name": "Brian John O'Kane",
+    "email": "bokane@illinoistech.edu"
+  },
+  {
+    "professor_id": "ldorn@illinoistech.edu",
+    "name": "Lawrence E. Dorn",
+    "email": "ldorn@illinoistech.edu"
+  },
+  {
+    "professor_id": "jcoates@illinoistech.edu",
+    "name": "James Coates",
+    "email": "jcoates@illinoistech.edu"
+  },
+  {
+    "professor_id": "pvandenbussche@illinoistech.edu",
+    "name": "Pamela J. Van Den Bussche",
+    "email": "pvandenbussche@illinoistech.edu"
+  },
+  {
+    "professor_id": "mpatel155@illinoistech.edu",
+    "name": "Meet Bharatkumar Patel",
+    "email": "mpatel155@illinoistech.edu"
+  },
+  {
+    "professor_id": "avaidya11@illinoistech.edu",
+    "name": "Avinash K. Vaidya",
+    "email": "avaidya11@illinoistech.edu"
+  },
+  {
+    "professor_id": "dwaterloo@illinoistech.edu",
+    "name": "Daniel P. Waterloo",
+    "email": "dwaterloo@illinoistech.edu"
+  },
+  {
+    "professor_id": "rthakkar11@illinoistech.edu",
+    "name": "Rakesh Thakkar",
+    "email": "rthakkar11@illinoistech.edu"
+  },
+  {
+    "professor_id": "cubomi@illinoistech.edu",
+    "name": "Michael M Cubon",
+    "email": "cubomi@illinoistech.edu"
+  },
+  {
+    "professor_id": "mbarry3@illinoistech.edu",
+    "name": "Mark Barry",
+    "email": "mbarry3@illinoistech.edu"
+  },
+  {
+    "professor_id": "tomal@illinoistech.edu",
+    "name": "Daniel Tomal",
+    "email": "tomal@illinoistech.edu"
+  },
+  {
+    "professor_id": "cstewart4@illinoistech.edu",
+    "name": "Cynthia Stewart",
+    "email": "cstewart4@illinoistech.edu"
+  },
+  {
+    "professor_id": "jengelha@illinoistech.edu",
+    "name": "John Summers Engelhardt",
+    "email": "jengelha@illinoistech.edu"
+  },
+  {
+    "professor_id": "eginger@illinoistech.edu",
+    "name": "Emily Ginger",
+    "email": "eginger@illinoistech.edu"
+  },
+  {
+    "professor_id": "alexis@illinoistech.edu",
+    "name": "Jeremy P Alexis",
+    "email": "alexis@illinoistech.edu"
+  },
+  {
+    "professor_id": "terryj@illinoistech.edu",
+    "name": "Jeffrey H. Terry",
+    "email": "terryj@illinoistech.edu"
+  },
+  {
+    "professor_id": "cvranas@illinoistech.edu",
+    "name": "Cynthia E. Vranas",
+    "email": "cvranas@illinoistech.edu"
+  },
+  {
+    "professor_id": "srubinow@illinoistech.edu",
+    "name": "Steven C. Rubinow",
+    "email": "srubinow@illinoistech.edu"
+  },
+  {
+    "professor_id": "sbeidas1@illinoistech.edu",
+    "name": "Shadi D. Beidas",
+    "email": "sbeidas1@illinoistech.edu"
+  },
+  {
+    "professor_id": "bspeller1@illinoistech.edu",
+    "name": "Barry Eugene Speller",
+    "email": "bspeller1@illinoistech.edu"
+  },
+  {
+    "professor_id": "jpapadem@illinoistech.edu",
+    "name": "James Papademas",
+    "email": "jpapadem@illinoistech.edu"
+  },
+  {
+    "professor_id": "spyrison@illinoistech.edu",
+    "name": "Scott Akin Spyrison",
+    "email": "spyrison@illinoistech.edu"
+  },
+  {
+    "professor_id": "hajek@illinoistech.edu",
+    "name": "Jeremy Robert Hajek",
+    "email": "hajek@illinoistech.edu"
+  },
+  {
+    "professor_id": "adebarla@illinoistech.edu",
+    "name": "Anita F. Debarlaben",
+    "email": "adebarla@illinoistech.edu"
+  },
+  {
+    "professor_id": "kriedan@illinoistech.edu",
+    "name": "Daniel John Krieglstein",
+    "email": "kriedan@illinoistech.edu"
+  },
+  {
+    "professor_id": "yhu89@illinoistech.edu",
+    "name": "Yibo Hu",
+    "email": "yhu89@illinoistech.edu"
+  },
+  {
+    "professor_id": "bbailey4@illinoistech.edu",
+    "name": "Brian Thomas Bailey",
+    "email": "bbailey4@illinoistech.edu"
+  },
+  {
+    "professor_id": "rkrish20@illinoistech.edu",
+    "name": "Raj Krishnan",
+    "email": "rkrish20@illinoistech.edu"
+  },
+  {
+    "professor_id": "apope4@illinoistech.edu",
+    "name": "Adan K Pope",
+    "email": "apope4@illinoistech.edu"
+  },
+  {
+    "professor_id": "gopal@illinoistech.edu",
+    "name": "Gurram Gopal",
+    "email": "gopal@illinoistech.edu"
+  },
+  {
+    "professor_id": "matuphi@illinoistech.edu",
+    "name": "Philip M Matuszak",
+    "email": "matuphi@illinoistech.edu"
+  },
+  {
+    "professor_id": "trygstad@illinoistech.edu",
+    "name": "Raymond E. Trygstad",
+    "email": "trygstad@illinoistech.edu"
+  },
+  {
+    "professor_id": "vsanil1@illinoistech.edu",
+    "name": "Vikas Jayaram Sanil",
+    "email": "vsanil1@illinoistech.edu"
+  },
+  {
+    "professor_id": "rpatel37@illinoistech.edu",
+    "name": "Rahul Patel",
+    "email": "rpatel37@illinoistech.edu"
+  },
+  {
+    "professor_id": "tjohns15@illinoistech.edu",
+    "name": "Thomas Andrew Johnson",
+    "email": "tjohns15@illinoistech.edu"
+  },
+  {
+    "professor_id": "lmchughi@illinoistech.edu",
+    "name": "Louis Francis McHugh",
+    "email": "lmchughi@illinoistech.edu"
+  },
+  {
+    "professor_id": "vacckev@illinoistech.edu",
+    "name": "Kevin Vaccaro",
+    "email": "vacckev@illinoistech.edu"
+  },
+  {
+    "professor_id": "jmelchor@illinoistech.edu",
+    "name": "Jovany Melchor",
+    "email": "jmelchor@illinoistech.edu"
+  },
+  {
+    "professor_id": "sdavis17@illinoistech.edu",
+    "name": "Shawn Davis",
+    "email": "sdavis17@illinoistech.edu"
+  },
+  {
+    "professor_id": "mskowlund@illinoistech.edu",
+    "name": "Michael L. Skowlund",
+    "email": "mskowlund@illinoistech.edu"
+  },
+  {
+    "professor_id": "nmistry1@illinoistech.edu",
+    "name": "Nilay D Mistry",
+    "email": "nmistry1@illinoistech.edu"
+  },
+  {
+    "professor_id": "jjohnson67@illinoistech.edu",
+    "name": "Janelle Johnson",
+    "email": "jjohnson67@illinoistech.edu"
+  },
+  {
+    "professor_id": "asus@illinoistech.edu",
+    "name": "A.J. Sus",
+    "email": "asus@illinoistech.edu"
+  },
+  {
+    "professor_id": "name:law faculty tba",
+    "name": "Law Faculty TBA",
+    "email": null
+  },
+  {
+    "professor_id": "lsilvest@illinoistech.edu",
+    "name": "Laurie A Silvestri",
+    "email": "lsilvest@illinoistech.edu"
+  },
+  {
+    "professor_id": "esutton@illinoistech.edu",
+    "name": "Eric L. Sutton",
+    "email": "esutton@illinoistech.edu"
+  },
+  {
+    "professor_id": "cvanpelt@illinoistech.edu",
+    "name": "Christopher H. Van Pelt",
+    "email": "cvanpelt@illinoistech.edu"
+  },
+  {
+    "professor_id": "dkatz3@illinoistech.edu",
+    "name": "Daniel Martin Katz",
+    "email": "dkatz3@illinoistech.edu"
+  },
+  {
+    "professor_id": "jclaps@illinoistech.edu",
+    "name": "Joseph M Claps",
+    "email": "jclaps@illinoistech.edu"
+  },
+  {
+    "professor_id": "arabanal@illinoistech.edu",
+    "name": "Alexander Frang A. Rabanal",
+    "email": "arabanal@illinoistech.edu"
+  },
+  {
+    "professor_id": "cshapiro1@illinoistech.edu",
+    "name": "Carolyn E. Shapiro",
+    "email": "cshapiro1@illinoistech.edu"
+  },
+  {
+    "professor_id": "igreengr@illinoistech.edu",
+    "name": "Ian L Greengross",
+    "email": "igreengr@illinoistech.edu"
+  },
+  {
+    "professor_id": "kharley@illinoistech.edu",
+    "name": "Keith Ian Harley",
+    "email": "kharley@illinoistech.edu"
+  },
+  {
+    "professor_id": "gdinwoodie@illinoistech.edu",
+    "name": "Graeme B. Dinwoodie",
+    "email": "gdinwoodie@illinoistech.edu"
+  },
+  {
+    "professor_id": "edearmond@illinoistech.edu",
+    "name": "Elizabeth D. De Armond",
+    "email": "edearmond@illinoistech.edu"
+  },
+  {
+    "professor_id": "mrosen1@illinoistech.edu",
+    "name": "Mark D. Rosen",
+    "email": "mrosen1@illinoistech.edu"
+  },
+  {
+    "professor_id": "greilly1@illinoistech.edu",
+    "name": "Gregory W. Reilly",
+    "email": "greilly1@illinoistech.edu"
+  },
+  {
+    "professor_id": "jbent@illinoistech.edu",
+    "name": "Jason Robert Bent",
+    "email": "jbent@illinoistech.edu"
+  },
+  {
+    "professor_id": "kjohnson@illinoistech.edu",
+    "name": "Kari Lynn Johnson",
+    "email": "kjohnson@illinoistech.edu"
+  },
+  {
+    "professor_id": "mnagel1@illinoistech.edu",
+    "name": "Mary T Nagel",
+    "email": "mnagel1@illinoistech.edu"
+  },
+  {
+    "professor_id": "kharvey2@illinoistech.edu",
+    "name": "Kathryn Harvey",
+    "email": "kharvey2@illinoistech.edu"
+  },
+  {
+    "professor_id": "kbjorklund@illinoistech.edu",
+    "name": "Kathryn M Bjorklund",
+    "email": "kbjorklund@illinoistech.edu"
+  },
+  {
+    "professor_id": "jgoodman3@illinoistech.edu",
+    "name": "Jordana R Goodman",
+    "email": "jgoodman3@illinoistech.edu"
+  },
+  {
+    "professor_id": "csmith102@illinoistech.edu",
+    "name": "Cathay Smith",
+    "email": "csmith102@illinoistech.edu"
+  },
+  {
+    "professor_id": "lferguson3@illinoistech.edu",
+    "name": "Lucien M Ferguson",
+    "email": "lferguson3@illinoistech.edu"
+  },
+  {
+    "professor_id": "mrossjac@illinoistech.edu",
+    "name": "Marsha L Ross-Jackson",
+    "email": "mrossjac@illinoistech.edu"
+  },
+  {
+    "professor_id": "zsommers@illinoistech.edu",
+    "name": "Zachary Sommers",
+    "email": "zsommers@illinoistech.edu"
+  },
+  {
+    "professor_id": "derickson@illinoistech.edu",
+    "name": "David Erickson",
+    "email": "derickson@illinoistech.edu"
+  },
+  {
+    "professor_id": "rkling@illinoistech.edu",
+    "name": "Richard S. Kling",
+    "email": "rkling@illinoistech.edu"
+  },
+  {
+    "professor_id": "rdonelson1@illinoistech.edu",
+    "name": "Raffana Donelson",
+    "email": "rdonelson1@illinoistech.edu"
+  },
+  {
+    "professor_id": "akempste@illinoistech.edu",
+    "name": "Alec M. Kempster",
+    "email": "akempste@illinoistech.edu"
+  },
+  {
+    "professor_id": "ncoenen@illinoistech.edu",
+    "name": "Nicholas J Coenen",
+    "email": "ncoenen@illinoistech.edu"
+  },
+  {
+    "professor_id": "dmarr@illinoistech.edu",
+    "name": "David Marr",
+    "email": "dmarr@illinoistech.edu"
+  },
+  {
+    "professor_id": "jdecator@illinoistech.edu",
+    "name": "Jonathan Decatorsmith",
+    "email": "jdecator@illinoistech.edu"
+  },
+  {
+    "professor_id": "dstokes@illinoistech.edu",
+    "name": "Deadra Woods Stokes",
+    "email": "dstokes@illinoistech.edu"
+  },
+  {
+    "professor_id": "jgeiring@illinoistech.edu",
+    "name": "John M Geiringer",
+    "email": "jgeiring@illinoistech.edu"
+  },
+  {
+    "professor_id": "bjonas@illinoistech.edu",
+    "name": "Barry Jonas",
+    "email": "bjonas@illinoistech.edu"
+  },
+  {
+    "professor_id": "jdillman@illinoistech.edu",
+    "name": "Jennifer Dillman",
+    "email": "jdillman@illinoistech.edu"
+  },
+  {
+    "professor_id": "kward1@illinoistech.edu",
+    "name": "Kim L Ward",
+    "email": "kward1@illinoistech.edu"
+  },
+  {
+    "professor_id": "rdefreitas@illinoistech.edu",
+    "name": "Rhonda E de Freitas",
+    "email": "rdefreitas@illinoistech.edu"
+  },
+  {
+    "professor_id": "alucafo@illinoistech.edu",
+    "name": "Anthony D. Lucafo",
+    "email": "alucafo@illinoistech.edu"
+  },
+  {
+    "professor_id": "mgoldish@illinoistech.edu",
+    "name": "Megan Goldish",
+    "email": "mgoldish@illinoistech.edu"
+  },
+  {
+    "professor_id": "naikgee@illinoistech.edu",
+    "name": "Geetu R Naik",
+    "email": "naikgee@illinoistech.edu"
+  },
+  {
+    "professor_id": "jlewelle@illinoistech.edu",
+    "name": "Jeremiah R. Lewellen",
+    "email": "jlewelle@illinoistech.edu"
+  },
+  {
+    "professor_id": "jtierney1@illinoistech.edu",
+    "name": "James Tierney",
+    "email": "jtierney1@illinoistech.edu"
+  },
+  {
+    "professor_id": "pgerson@illinoistech.edu",
+    "name": "Pedro Gerson",
+    "email": "pgerson@illinoistech.edu"
+  },
+  {
+    "professor_id": "eharris@illinoistech.edu",
+    "name": "Edward C. Harris",
+    "email": "eharris@illinoistech.edu"
+  },
+  {
+    "professor_id": "jprozzi@illinoistech.edu",
+    "name": "James Prozzi",
+    "email": "jprozzi@illinoistech.edu"
+  },
+  {
+    "professor_id": "akrug2@illinoistech.edu",
+    "name": "Anita K Krug",
+    "email": "akrug2@illinoistech.edu"
+  },
+  {
+    "professor_id": "ssolow@illinoistech.edu",
+    "name": "Sheldon L. Solow",
+    "email": "ssolow@illinoistech.edu"
+  },
+  {
+    "professor_id": "mmiller33@illinoistech.edu",
+    "name": "Michelle Miller",
+    "email": "mmiller33@illinoistech.edu"
+  },
+  {
+    "professor_id": "pkarim@illinoistech.edu",
+    "name": "Pari L. Karim",
+    "email": "pkarim@illinoistech.edu"
+  },
+  {
+    "professor_id": "clevitz@illinoistech.edu",
+    "name": "Corinne M. Levitz",
+    "email": "clevitz@illinoistech.edu"
+  },
+  {
+    "professor_id": "etotonch@illinoistech.edu",
+    "name": "Emil P. Totonchi",
+    "email": "etotonch@illinoistech.edu"
+  },
+  {
+    "professor_id": "ebrown8@illinoistech.edu",
+    "name": "Evan D Brown",
+    "email": "ebrown8@illinoistech.edu"
+  },
+  {
+    "professor_id": "imoltz@illinoistech.edu",
+    "name": "Ira Moltz",
+    "email": "imoltz@illinoistech.edu"
+  },
+  {
+    "professor_id": "zwallace@illinoistech.edu",
+    "name": "Zachary James Wallace",
+    "email": "zwallace@illinoistech.edu"
+  },
+  {
+    "professor_id": "awhite27@illinoistech.edu",
+    "name": "Andrew P White",
+    "email": "awhite27@illinoistech.edu"
+  },
+  {
+    "professor_id": "apappas@illinoistech.edu",
+    "name": "Alexander C. Pappas",
+    "email": "apappas@illinoistech.edu"
+  },
+  {
+    "professor_id": "khayes2@illinoistech.edu",
+    "name": "Kathryne R. Hayes",
+    "email": "khayes2@illinoistech.edu"
+  },
+  {
+    "professor_id": "momeara@illinoistech.edu",
+    "name": "Mark R O'Meara",
+    "email": "momeara@illinoistech.edu"
+  },
+  {
+    "professor_id": "pedison@illinoistech.edu",
+    "name": "Phil M Edison",
+    "email": "pedison@illinoistech.edu"
+  },
+  {
+    "professor_id": "abrinkme@illinoistech.edu",
+    "name": "Alexandra C. Brinkmeier",
+    "email": "abrinkme@illinoistech.edu"
+  },
+  {
+    "professor_id": "joldaker@illinoistech.edu",
+    "name": "Joseph P Oldaker",
+    "email": "joldaker@illinoistech.edu"
+  },
+  {
+    "professor_id": "tcahill@illinoistech.edu",
+    "name": "Thomas B Cahill",
+    "email": "tcahill@illinoistech.edu"
+  },
+  {
+    "professor_id": "ckomisso@illinoistech.edu",
+    "name": "Christos Komissopoulos",
+    "email": "ckomisso@illinoistech.edu"
+  },
+  {
+    "professor_id": "tgunn1@illinoistech.edu",
+    "name": "Tristan Gunn",
+    "email": "tgunn1@illinoistech.edu"
+  },
+  {
+    "professor_id": "kjones5@illinoistech.edu",
+    "name": "Kimberlee M. Jones-Stephens",
+    "email": "kjones5@illinoistech.edu"
+  },
+  {
+    "professor_id": "tbradley4@illinoistech.edu",
+    "name": "Thomas S. Bradley",
+    "email": "tbradley4@illinoistech.edu"
+  },
+  {
+    "professor_id": "lpowell5@illinoistech.edu",
+    "name": "Lewis Powell",
+    "email": "lpowell5@illinoistech.edu"
+  },
+  {
+    "professor_id": "bdawson4@illinoistech.edu",
+    "name": "Blair L. Dawson",
+    "email": "bdawson4@illinoistech.edu"
+  },
+  {
+    "professor_id": "aweber@illinoistech.edu",
+    "name": "Adam J Weber",
+    "email": "aweber@illinoistech.edu"
+  },
+  {
+    "professor_id": "jrothbar@illinoistech.edu",
+    "name": "Jeffrey S Rothbart",
+    "email": "jrothbar@illinoistech.edu"
+  },
+  {
+    "professor_id": "mdelrahi@illinoistech.edu",
+    "name": "Michael Delrahim",
+    "email": "mdelrahi@illinoistech.edu"
+  },
+  {
+    "professor_id": "khoover@illinoistech.edu",
+    "name": "Kyle D. Hoover",
+    "email": "khoover@illinoistech.edu"
+  },
+  {
+    "professor_id": "abottner@illinoistech.edu",
+    "name": "Adam Bottner",
+    "email": "abottner@illinoistech.edu"
+  },
+  {
+    "professor_id": "vcarmona@illinoistech.edu",
+    "name": "Victoria Carmona",
+    "email": "vcarmona@illinoistech.edu"
+  },
+  {
+    "professor_id": "jfranklin5@illinoistech.edu",
+    "name": "Jamie S. Franklin",
+    "email": "jfranklin5@illinoistech.edu"
+  },
+  {
+    "professor_id": "ncaputo@illinoistech.edu",
+    "name": "Nicholas A. Caputo",
+    "email": "ncaputo@illinoistech.edu"
+  },
+  {
+    "professor_id": "dkottara@illinoistech.edu",
+    "name": "Demetrios George Kottaras",
+    "email": "dkottara@illinoistech.edu"
+  },
+  {
+    "professor_id": "amontelo@illinoistech.edu",
+    "name": "Ana M. Montelongo",
+    "email": "amontelo@illinoistech.edu"
+  },
+  {
+    "professor_id": "mferriga@illinoistech.edu",
+    "name": "Michelle M Truesdale",
+    "email": "mferriga@illinoistech.edu"
+  },
+  {
+    "professor_id": "ckeller@illinoistech.edu",
+    "name": "Cherish M. Keller",
+    "email": "ckeller@illinoistech.edu"
+  },
+  {
+    "professor_id": "lflood@illinoistech.edu",
+    "name": "Lawrence Flood",
+    "email": "lflood@illinoistech.edu"
+  },
+  {
+    "professor_id": "rhaque4@illinoistech.edu",
+    "name": "Razaul Haque",
+    "email": "rhaque4@illinoistech.edu"
+  },
+  {
+    "professor_id": "cgunter1@illinoistech.edu",
+    "name": "Cole Gunter",
+    "email": "cgunter1@illinoistech.edu"
+  },
+  {
+    "professor_id": "rsinnen@illinoistech.edu",
+    "name": "Rachael J. Sinnen",
+    "email": "rsinnen@illinoistech.edu"
+  },
+  {
+    "professor_id": "wfasone@illinoistech.edu",
+    "name": "Warren J. Fasone",
+    "email": "wfasone@illinoistech.edu"
+  },
+  {
+    "professor_id": "jmontelongo@illinoistech.edu",
+    "name": "John M Montelongo",
+    "email": "jmontelongo@illinoistech.edu"
+  },
+  {
+    "professor_id": "jconen@illinoistech.edu",
+    "name": "Jeffrey A Conen",
+    "email": "jconen@illinoistech.edu"
+  },
+  {
+    "professor_id": "kfarrcap@illinoistech.edu",
+    "name": "Kristen G Farr Capizzi",
+    "email": "kfarrcap@illinoistech.edu"
+  },
+  {
+    "professor_id": "sfackrell@illinoistech.edu",
+    "name": "Sarah Fackrell",
+    "email": "sfackrell@illinoistech.edu"
+  },
+  {
+    "professor_id": "hkrent@illinoistech.edu",
+    "name": "Harold Krent",
+    "email": "hkrent@illinoistech.edu"
+  },
+  {
+    "professor_id": "agana1@illinoistech.edu",
+    "name": "Adam Gana",
+    "email": "agana1@illinoistech.edu"
+  },
+  {
+    "professor_id": "iphelps@illinoistech.edu",
+    "name": "Isabel Phelps",
+    "email": "iphelps@illinoistech.edu"
+  },
+  {
+    "professor_id": "levans6@illinoistech.edu",
+    "name": "Lise J. Evans",
+    "email": "levans6@illinoistech.edu"
+  },
+  {
+    "professor_id": "maslanka@illinoistech.edu",
+    "name": "David Joseph Maslanka",
+    "email": "maslanka@illinoistech.edu"
+  },
+  {
+    "professor_id": "popogor@illinoistech.edu",
+    "name": "Gorjana Popovic",
+    "email": "popogor@illinoistech.edu"
+  },
+  {
+    "professor_id": "lzenati@illinoistech.edu",
+    "name": "Lynda Zenati",
+    "email": "lzenati@illinoistech.edu"
+  },
+  {
+    "professor_id": "ekhasawneh@illinoistech.edu",
+    "name": "Elaina Khasawneh",
+    "email": "ekhasawneh@illinoistech.edu"
+  },
+  {
+    "professor_id": "kalhejoj@illinoistech.edu",
+    "name": "Kawkab K Alhejoj",
+    "email": "kalhejoj@illinoistech.edu"
+  },
+  {
+    "professor_id": "jshive@illinoistech.edu",
+    "name": "Joseph Shive",
+    "email": "jshive@illinoistech.edu"
+  },
+  {
+    "professor_id": "pmusial@illinoistech.edu",
+    "name": "Paul Musial",
+    "email": "pmusial@illinoistech.edu"
+  },
+  {
+    "professor_id": "kong2@illinoistech.edu",
+    "name": "Kiah Wah Ong",
+    "email": "kong2@illinoistech.edu"
+  },
+  {
+    "professor_id": "attele@illinoistech.edu",
+    "name": "Kapila Rohan Attele",
+    "email": "attele@illinoistech.edu"
+  },
+  {
+    "professor_id": "kaul@illinoistech.edu",
+    "name": "Hemanshu Kaul",
+    "email": "kaul@illinoistech.edu"
+  },
+  {
+    "professor_id": "spetrov1@illinoistech.edu",
+    "name": "Sonja Petrovic",
+    "email": "spetrov1@illinoistech.edu"
+  },
+  {
+    "professor_id": "cialenco@illinoistech.edu",
+    "name": "Igor Cialenco",
+    "email": "cialenco@illinoistech.edu"
+  },
+  {
+    "professor_id": "tleslie@illinoistech.edu",
+    "name": "Trevor Leslie",
+    "email": "tleslie@illinoistech.edu"
+  },
+  {
+    "professor_id": "sli15@illinoistech.edu",
+    "name": "Shuwang Li",
+    "email": "sli15@illinoistech.edu"
+  },
+  {
+    "professor_id": "reingold@illinoistech.edu",
+    "name": "Edward M. Reingold",
+    "email": "reingold@illinoistech.edu"
+  },
+  {
+    "professor_id": "lix@illinoistech.edu",
+    "name": "Xiaofan Li",
+    "email": "lix@illinoistech.edu"
+  },
+  {
+    "professor_id": "lkang2@illinoistech.edu",
+    "name": "Lulu Kang",
+    "email": "lkang2@illinoistech.edu"
+  },
+  {
+    "professor_id": "mcheng8@illinoistech.edu",
+    "name": "Maggie X. Cheng",
+    "email": "mcheng8@illinoistech.edu"
+  },
+  {
+    "professor_id": "hickernell@illinoistech.edu",
+    "name": "Fred J. Hickernell",
+    "email": "hickernell@illinoistech.edu"
+  },
+  {
+    "professor_id": "sjamshidi@illinoistech.edu",
+    "name": "Sara Jamshidi",
+    "email": "sjamshidi@illinoistech.edu"
+  },
+  {
+    "professor_id": "mmorrison3@illinoistech.edu",
+    "name": "Megan Morrison",
+    "email": "mmorrison3@illinoistech.edu"
+  },
+  {
+    "professor_id": "ctier@illinoistech.edu",
+    "name": "Charles Tier",
+    "email": "ctier@illinoistech.edu"
+  },
+  {
+    "professor_id": "hliao13@illinoistech.edu",
+    "name": "Huiling Liao",
+    "email": "hliao13@illinoistech.edu"
+  },
+  {
+    "professor_id": "snadtochiy@illinoistech.edu",
+    "name": "Sergey Nadtochiy",
+    "email": "snadtochiy@illinoistech.edu"
+  },
+  {
+    "professor_id": "kpatel4@illinoistech.edu",
+    "name": "Ketan B Patel",
+    "email": "kpatel4@illinoistech.edu"
+  },
+  {
+    "professor_id": "djayaraj@illinoistech.edu",
+    "name": "Dinakar Jayarajan",
+    "email": "djayaraj@illinoistech.edu"
+  },
+  {
+    "professor_id": "dchatte1@illinoistech.edu",
+    "name": "Devin Mathew Chatterji",
+    "email": "dchatte1@illinoistech.edu"
+  },
+  {
+    "professor_id": "durango-cohen@illinoistech.edu",
+    "name": "Elizabeth J. Durango-Cohen",
+    "email": "durango-cohen@illinoistech.edu"
+  },
+  {
+    "professor_id": "rnelson3@illinoistech.edu",
+    "name": "Robert G Nelson",
+    "email": "rnelson3@illinoistech.edu"
+  },
+  {
+    "professor_id": "jberk@illinoistech.edu",
+    "name": "Jeffrey A. Berk",
+    "email": "jberk@illinoistech.edu"
+  },
+  {
+    "professor_id": "jwalden@illinoistech.edu",
+    "name": "John Walden",
+    "email": "jwalden@illinoistech.edu"
+  },
+  {
+    "professor_id": "nrokop@illinoistech.edu",
+    "name": "Nik Rokop",
+    "email": "nrokop@illinoistech.edu"
+  },
+  {
+    "professor_id": "rcalia@illinoistech.edu",
+    "name": "Roland Calia",
+    "email": "rcalia@illinoistech.edu"
+  },
+  {
+    "professor_id": "ahernandez46@illinoistech.edu",
+    "name": "Andre Hernandez",
+    "email": "ahernandez46@illinoistech.edu"
+  },
+  {
+    "professor_id": "cesarone@illinoistech.edu",
+    "name": "John C Cesarone",
+    "email": "cesarone@illinoistech.edu"
+  },
+  {
+    "professor_id": "jbernhardt@illinoistech.edu",
+    "name": "John E Bernhardt",
+    "email": "jbernhardt@illinoistech.edu"
+  },
+  {
+    "professor_id": "ssaghaian@illinoistech.edu",
+    "name": "Sayed M Saghaian",
+    "email": "ssaghaian@illinoistech.edu"
+  },
+  {
+    "professor_id": "ruiz@illinoistech.edu",
+    "name": "Francisco Ruiz",
+    "email": "ruiz@illinoistech.edu"
+  },
+  {
+    "professor_id": "asriva13@illinoistech.edu",
+    "name": "Ankit Srivastava",
+    "email": "asriva13@illinoistech.edu"
+  },
+  {
+    "professor_id": "hwang184@illinoistech.edu",
+    "name": "Heng Wang",
+    "email": "hwang184@illinoistech.edu"
+  },
+  {
+    "professor_id": "sdattaba@illinoistech.edu",
+    "name": "Seebany Datta-Barua",
+    "email": "sdattaba@illinoistech.edu"
+  },
+  {
+    "professor_id": "mspenko@illinoistech.edu",
+    "name": "Matthew Spenko",
+    "email": "mspenko@illinoistech.edu"
+  },
+  {
+    "professor_id": "lcattafestaiii@illinoistech.edu",
+    "name": "Louis N Cattafesta III",
+    "email": "lcattafestaiii@illinoistech.edu"
+  },
+  {
+    "professor_id": "sdawson5@illinoistech.edu",
+    "name": "Scott Dawson",
+    "email": "sdawson5@illinoistech.edu"
+  },
+  {
+    "professor_id": "lshaw2@illinoistech.edu",
+    "name": "Leon L Shaw",
+    "email": "lshaw2@illinoistech.edu"
+  },
+  {
+    "professor_id": "nagib@illinoistech.edu",
+    "name": "Hassan M. Nagib",
+    "email": "nagib@illinoistech.edu"
+  },
+  {
+    "professor_id": "cassel@illinoistech.edu",
+    "name": "Kevin W Cassel",
+    "email": "cassel@illinoistech.edu"
+  },
+  {
+    "professor_id": "gosz@illinoistech.edu",
+    "name": "Michael R. Gosz",
+    "email": "gosz@illinoistech.edu"
+  },
+  {
+    "professor_id": "pervan@illinoistech.edu",
+    "name": "Boris S. Pervan",
+    "email": "pervan@illinoistech.edu"
+  },
+  {
+    "professor_id": "edas2@illinoistech.edu",
+    "name": "Ersin Das",
+    "email": "edas2@illinoistech.edu"
+  },
+  {
+    "professor_id": "amostafaei@illinoistech.edu",
+    "name": "Amir Mostafaei",
+    "email": "amostafaei@illinoistech.edu"
+  },
+  {
+    "professor_id": "akhounsa@illinoistech.edu",
+    "name": "Ali Khounsary",
+    "email": "akhounsa@illinoistech.edu"
+  },
+  {
+    "professor_id": "khansam1@illinoistech.edu",
+    "name": "Samer M Khanafseh",
+    "email": "khansam1@illinoistech.edu"
+  },
+  {
+    "professor_id": "yzhang215@illinoistech.edu",
+    "name": "Yang Zhang",
+    "email": "yzhang215@illinoistech.edu"
+  },
+  {
+    "professor_id": "rcooper3@illinoistech.edu",
+    "name": "Ricky A Cooper",
+    "email": "rcooper3@illinoistech.edu"
+  },
+  {
+    "professor_id": "brawling@illinoistech.edu",
+    "name": "Bruce E. Rawlings",
+    "email": "brawling@illinoistech.edu"
+  },
+  {
+    "professor_id": "bvanvliet@illinoistech.edu",
+    "name": "Benjamin E. Van Vliet",
+    "email": "bvanvliet@illinoistech.edu"
+  },
+  {
+    "professor_id": "mmodica@illinoistech.edu",
+    "name": "Michael Modica",
+    "email": "mmodica@illinoistech.edu"
+  },
+  {
+    "professor_id": "kbraun@illinoistech.edu",
+    "name": "Kasie Lee Braun",
+    "email": "kbraun@illinoistech.edu"
+  },
+  {
+    "professor_id": "dchen51@illinoistech.edu",
+    "name": "Darwin Chen",
+    "email": "dchen51@illinoistech.edu"
+  },
+  {
+    "professor_id": "gkasten@illinoistech.edu",
+    "name": "August Kasten",
+    "email": "gkasten@illinoistech.edu"
+  },
+  {
+    "professor_id": "dadams20@illinoistech.edu",
+    "name": "David Adams",
+    "email": "dadams20@illinoistech.edu"
+  },
+  {
+    "professor_id": "swehner@illinoistech.edu",
+    "name": "Samuel Wehner",
+    "email": "swehner@illinoistech.edu"
+  },
+  {
+    "professor_id": "kpetrozzo@illinoistech.edu",
+    "name": "Kathryn R. Petrozzo",
+    "email": "kpetrozzo@illinoistech.edu"
+  },
+  {
+    "professor_id": "cbusch1@illinoistech.edu",
+    "name": "Clarissa Busch",
+    "email": "cbusch1@illinoistech.edu"
+  },
+  {
+    "professor_id": "eleiner@illinoistech.edu",
+    "name": "Emily Leiner",
+    "email": "eleiner@illinoistech.edu"
+  },
+  {
+    "professor_id": "ghalevi@illinoistech.edu",
+    "name": "Goni Halevi",
+    "email": "ghalevi@illinoistech.edu"
+  },
+  {
+    "professor_id": "torun@illinoistech.edu",
+    "name": "Yagmur Torun",
+    "email": "torun@illinoistech.edu"
+  },
+  {
+    "professor_id": "shylnov@illinoistech.edu",
+    "name": "Yurii Shylnov",
+    "email": "shylnov@illinoistech.edu"
+  },
+  {
+    "professor_id": "rkhatiwada@illinoistech.edu",
+    "name": "Rakshya Khatiwada",
+    "email": "rkhatiwada@illinoistech.edu"
+  },
+  {
+    "professor_id": "psnopok@illinoistech.edu",
+    "name": "Pavel Snopok",
+    "email": "psnopok@illinoistech.edu"
+  },
+  {
+    "professor_id": "dscherer1@illinoistech.edu",
+    "name": "David Scherer",
+    "email": "dscherer1@illinoistech.edu"
+  },
+  {
+    "professor_id": "bmishra3@illinoistech.edu",
+    "name": "Bhoopesh Mishra",
+    "email": "bmishra3@illinoistech.edu"
+  },
+  {
+    "professor_id": "zsulliv1@illinoistech.edu",
+    "name": "Zack Sullivan",
+    "email": "zsulliv1@illinoistech.edu"
+  },
+  {
+    "professor_id": "kaplan@illinoistech.edu",
+    "name": "Daniel Kaplan",
+    "email": "kaplan@illinoistech.edu"
+  },
+  {
+    "professor_id": "bunker@illinoistech.edu",
+    "name": "Grant Bunker",
+    "email": "bunker@illinoistech.edu"
+  },
+  {
+    "professor_id": "ewisniew@illinoistech.edu",
+    "name": "Eric Edson Wisniewski",
+    "email": "ewisniew@illinoistech.edu"
+  },
+  {
+    "professor_id": "spentzouris@illinoistech.edu",
+    "name": "Linda K Spentzouris",
+    "email": "spentzouris@illinoistech.edu"
+  },
+  {
+    "professor_id": "schen32@illinoistech.edu",
+    "name": "Shih-Yew Chen",
+    "email": "schen32@illinoistech.edu"
+  },
+  {
+    "professor_id": "zdjurcic@illinoistech.edu",
+    "name": "Zelimir Djurcic",
+    "email": "zdjurcic@illinoistech.edu"
+  },
+  {
+    "professor_id": "jlee363@illinoistech.edu",
+    "name": "Jonathan M Lee",
+    "email": "jlee363@illinoistech.edu"
+  },
+  {
+    "professor_id": "fbiga@illinoistech.edu",
+    "name": "Frank Biga",
+    "email": "fbiga@illinoistech.edu"
+  },
+  {
+    "professor_id": "pkodukul@illinoistech.edu",
+    "name": "Prasad Satya Kodukula",
+    "email": "pkodukul@illinoistech.edu"
+  },
+  {
+    "professor_id": "hezenwa@illinoistech.edu",
+    "name": "Helen N. Ezenwa",
+    "email": "hezenwa@illinoistech.edu"
+  },
+  {
+    "professor_id": "dbliss@illinoistech.edu",
+    "name": "Daniel Bliss",
+    "email": "dbliss@illinoistech.edu"
+  },
+  {
+    "professor_id": "shapiro@illinoistech.edu",
+    "name": "Matthew Shapiro",
+    "email": "shapiro@illinoistech.edu"
+  },
+  {
+    "professor_id": "cancira@illinoistech.edu",
+    "name": "Christina L Ancira",
+    "email": "cancira@illinoistech.edu"
+  },
+  {
+    "professor_id": "mhaze@illinoistech.edu",
+    "name": "Miryam Haze",
+    "email": "mhaze@illinoistech.edu"
+  },
+  {
+    "professor_id": "nrivera14@illinoistech.edu",
+    "name": "Nicolette Rivera",
+    "email": "nrivera14@illinoistech.edu"
+  },
+  {
+    "professor_id": "vkharbanda@hawk.illinoistech.edu",
+    "name": "Vardha Kharbanda",
+    "email": "vkharbanda@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "jkwatinetz@hawk.illinoistech.edu",
+    "name": "Jack Aidan Kwatinetz",
+    "email": "jkwatinetz@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "rkeating1@illinoistech.edu",
+    "name": "Robert Keating",
+    "email": "rkeating1@illinoistech.edu"
+  },
+  {
+    "professor_id": "kaldridge@illinoistech.edu",
+    "name": "Katelyn Louise Aldridge",
+    "email": "kaldridge@illinoistech.edu"
+  },
+  {
+    "professor_id": "tfryevargas@hawk.illinoistech.edu",
+    "name": "Taylor Paige Frye-Vargas",
+    "email": "tfryevargas@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "nlegate@illinoistech.edu",
+    "name": "Nicole Legate",
+    "email": "nlegate@illinoistech.edu"
+  },
+  {
+    "professor_id": "jollie@illinoistech.edu",
+    "name": "Jennifer Ollie",
+    "email": "jollie@illinoistech.edu"
+  },
+  {
+    "professor_id": "kkazukau@illinoistech.edu",
+    "name": "Kelly Kazukauskas",
+    "email": "kkazukau@illinoistech.edu"
+  },
+  {
+    "professor_id": "nditchma@illinoistech.edu",
+    "name": "Nicole Ditchman",
+    "email": "nditchma@illinoistech.edu"
+  },
+  {
+    "professor_id": "lsheehan@illinoistech.edu",
+    "name": "Lindsay L Sheehan",
+    "email": "lsheehan@illinoistech.edu"
+  },
+  {
+    "professor_id": "larsonjon@illinoistech.edu",
+    "name": "Jonathan E. Larson",
+    "email": "larsonjon@illinoistech.edu"
+  },
+  {
+    "professor_id": "aguy1@illinoistech.edu",
+    "name": "Arryn Aleia Guy",
+    "email": "aguy1@illinoistech.edu"
+  },
+  {
+    "professor_id": "ahitch@illinoistech.edu",
+    "name": "Anthony E Hitch",
+    "email": "ahitch@illinoistech.edu"
+  },
+  {
+    "professor_id": "apetersen@illinoistech.edu",
+    "name": "Ashley Petersen",
+    "email": "apetersen@illinoistech.edu"
+  },
+  {
+    "professor_id": "rrose2@illinoistech.edu",
+    "name": "Raquel Rose",
+    "email": "rrose2@illinoistech.edu"
+  },
+  {
+    "professor_id": "kmanser@illinoistech.edu",
+    "name": "Kelly Ann Manser",
+    "email": "kmanser@illinoistech.edu"
+  },
+  {
+    "professor_id": "jfowler5@illinoistech.edu",
+    "name": "John R Fowler",
+    "email": "jfowler5@illinoistech.edu"
+  },
+  {
+    "professor_id": "mlaurits@hawk.illinoistech.edu",
+    "name": "Matthew W Lauritsen",
+    "email": "mlaurits@hawk.illinoistech.edu"
+  },
+  {
+    "professor_id": "callee@illinoistech.edu",
+    "name": "Curtie E Allee",
+    "email": "callee@illinoistech.edu"
+  },
+  {
+    "professor_id": "slaser@illinoistech.edu",
+    "name": "Stephen A. Laser",
+    "email": "slaser@illinoistech.edu"
+  },
+  {
+    "professor_id": "ashokri@illinoistech.edu",
+    "name": "Arash Shokri",
+    "email": "ashokri@illinoistech.edu"
+  },
+  {
+    "professor_id": "drieser@illinoistech.edu",
+    "name": "David Rieser",
+    "email": "drieser@illinoistech.edu"
+  },
+  {
+    "professor_id": "jrenow@illinoistech.edu",
+    "name": "Joseph A. Renow",
+    "email": "jrenow@illinoistech.edu"
+  },
+  {
+    "professor_id": "nchampagne@illinoistech.edu",
+    "name": "Natalie Champagne",
+    "email": "nchampagne@illinoistech.edu"
+  },
+  {
+    "professor_id": "jgrant2@illinoistech.edu",
+    "name": "Justine Grant",
+    "email": "jgrant2@illinoistech.edu"
+  },
+  {
+    "professor_id": "ysaito@illinoistech.edu",
+    "name": "Yumiko Saito",
+    "email": "ysaito@illinoistech.edu"
+  },
+  {
+    "professor_id": "yalarcon@illinoistech.edu",
+    "name": "Yesenia Alarcon",
+    "email": "yalarcon@illinoistech.edu"
+  },
+  {
+    "professor_id": "sghatak@illinoistech.edu",
+    "name": "Saran Ghatak",
+    "email": "sghatak@illinoistech.edu"
+  }
+]

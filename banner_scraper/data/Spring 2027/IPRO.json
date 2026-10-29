@@ -1,0 +1,706 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "IPRO",
+      "course_num": "100",
+      "course_combined": "IPRO 100",
+      "title": "Introduction to the Interprofessional Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=IPRO&crse_numb_in=100",
+      "course_description": "Introduction to the interprofessional project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "IPRO",
+      "course_num": "397",
+      "course_combined": "IPRO 397",
+      "title": "Interprofessional (IPRO) Project Techniques in Creative Practice",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=IPRO&crse_numb_in=397",
+      "course_description": "This course teaches the strategic thinking skills that employers consistently rank as most valuable: problem definition, creative solution generation, and effective implementation. Whether you're pursuing technology, business, science, policy, or any other field, the ability to define problems insightfully, discern quality solutions, and deploy them effectively will amplify your professional impact and help future-proof your career in an era of rapid change. As AI tools automate routine tasks, the human skills that matter most are strategic: identifying which problems deserve solving, evaluating solution quality amid countless options, and navigating the complexity of real-world implementation. These are precisely the capabilities employers seek—and the ones that remain valuable regardless of technological disruption. This course teaches design methods as a practical toolkit for any professional domain, not as a path to becoming a designer. You'll learn systematic approaches to problems that apply whether you're developing software, managing projects, conducting research, building organizations, or creating policy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Lab Safety Instruction, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be enrolled as the following Classifications: First Year Undergraduate Second Year Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Techniques Creative Practice",
+          "crn": "54367",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54367",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Jeremy P Alexis",
+                  "email": "alexis@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 24,
+            "actual": 0,
+            "remaining": 24,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "IPRO",
+      "course_num": "497",
+      "course_combined": "IPRO 497",
+      "title": "Interprofessional (IPRO) Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=IPRO&crse_numb_in=497",
+      "course_description": "Interprofessional projects allow students to learn teamwork, leadership and project management skills, while working in multidisciplinary teams on projects involving technical, ethical, environmental, economic, public policy, and legal issues. IPRO project teams are typically comprised of 10-12 students from sophomore through graduate level and from all disciplines that can contribute to a project. Every effort will be made to accommodate students' first choices; however, it may be necessary to balance students across all projects scheduled for the semester or to consolidate students into fewer projects to meet minimum team requirement. Specific rules about selection of IPRO projects may apply to certain degree programs. Some projects may carry Humanities or Social Science credit. Students are encouraged to consult the lead faculty member for the project and their faculty advisor before registering for a project.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "211",
+          "section_name": "Remote Telescope Commissioning",
+          "crn": "27784",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=27784",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Jeffrey H. Terry",
+                  "email": "terryj@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "301",
+          "section_name": "Water and Environment Design",
+          "crn": "52184",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52184",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Karoline Qasem",
+                  "email": "kqasem1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 0,
+            "remaining": 32,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "305",
+          "section_name": "Net Zero Energy Building Design II",
+          "crn": "52234",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52234",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Alexander R. Mitchell",
+                  "email": "amitche8@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Edoarda Maria Corradi Dell' Acqua",
+                  "email": "ecorradi@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 22,
+            "actual": 0,
+            "remaining": 22,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "309",
+          "section_name": "Engineering Life (iGEM)",
+          "crn": "52341",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52341",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Nicholas G. Menhart",
+                  "email": "menhart@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 31,
+            "actual": 0,
+            "remaining": 31,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "403",
+          "section_name": "Mindful Modern Building",
+          "crn": "52237",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52237",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Cynthia E. Vranas",
+                  "email": "cvranas@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 0,
+            "remaining": 32,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "404",
+          "section_name": "Electric Vehicle Design SAE/EcoCar",
+          "crn": "50211",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50211",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 28,
+            "actual": 0,
+            "remaining": 28,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "615",
+          "section_name": "Power Over Ethernet",
+          "crn": "26240",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=26240",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Daniel Tomal",
+                  "email": "tomal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 33,
+            "actual": 0,
+            "remaining": 33,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "616",
+          "section_name": "Electrical Energy and Efficiency",
+          "crn": "52194",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52194",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Daniel Tomal",
+                  "email": "tomal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 31,
+            "actual": 0,
+            "remaining": 31,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "619",
+          "section_name": "Innovating Sports Technology",
+          "crn": "52191",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52191",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "970",
+          "section_name": "Toy and Game Design",
+          "crn": "53239",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53239",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 33,
+            "actual": 0,
+            "remaining": 33,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "973",
+          "section_name": "Marine Energy Collegiate Compe",
+          "crn": "53240",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53240",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 0,
+            "remaining": 35,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "975",
+          "section_name": "Engineering Solar Greenhouses",
+          "crn": "53238",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53238",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 31,
+            "actual": 0,
+            "remaining": 31,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "977",
+          "section_name": "Climate & Industry Innovation",
+          "crn": "54190",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54190",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 0,
+            "remaining": 32,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "980",
+          "section_name": "Design More Intuitive Printers",
+          "crn": "54400",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54400",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 33,
+            "actual": 0,
+            "remaining": 33,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "983",
+          "section_name": "Green Packaging Automation",
+          "crn": "53919",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53919",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 31,
+            "actual": 0,
+            "remaining": 31,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "985",
+          "section_name": "Materials for Net Zero",
+          "crn": "54191",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54191",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Yuanbing Mao",
+                  "email": "ymao17@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 31,
+            "actual": 0,
+            "remaining": 31,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "986",
+          "section_name": "Formula SAE EV Battery Systems",
+          "crn": "54308",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54308",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "987",
+          "section_name": "Tech for Holistic Urban Garden",
+          "crn": "54357",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54357",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 26,
+            "actual": 0,
+            "remaining": 26,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "A01",
+          "section_name": "IPRO: New Tech Ventures",
+          "crn": "54081",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54081",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Weslynne Ashton",
+                  "email": "washton@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 10,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 10
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "IPRO",
+      "course_num": "499",
+      "course_combined": "IPRO 499",
+      "title": "Interprofessional (IPRO) Project Studio",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=IPRO&crse_numb_in=499",
+      "course_description": "Illinois Tech’s Interprofessional Projects (IPRO) Program is piloting a new “Studio” model designed to enhance interdisciplinary learning, career preparedness, and collaboration between students, faculty, and industry partners. This pilot, launching in Spring 2026 brings together multiple IPRO sections working on independent projects connected by a shared theme: creating a more sustainable future. Within the Studio, students will engage in unified educational experiences aligned with IPRO’s four core learning objectives through common lectures, industry seminars, and shared online materials. These sessions provide a consistent framework for developing teamwork, communication, ethics, and applied problem-solving skills while fostering connections to real-world sustainability challenges across disciplines.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

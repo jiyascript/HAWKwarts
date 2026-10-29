@@ -1,0 +1,382 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "GLS",
+      "course_num": "180",
+      "course_combined": "GLS 180",
+      "title": "General Learning Strategies I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GLS&crse_numb_in=180",
+      "course_description": "This course teaches a range of strategies to improve student learning including strategies for understanding and remembering what you read, effective note taking and test taking strategies, time and stress management strategies, strategies to decrease procrastination and increase personal motivation, health lifestyle habits, and self advocacy.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "52514",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52514",
+          "credits": 1.5,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52512",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52512",
+          "credits": 1.5,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "52513",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52513",
+          "credits": 1.5,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "GLS",
+      "course_num": "181",
+      "course_combined": "GLS 181",
+      "title": "General Learning Strategies II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GLS&crse_numb_in=181",
+      "course_description": "This course, based on our highly successful academic coaching model, is designed to create a pathway for students to excel in their studies in general and their early-stage college mathematics, which is a cornerstone for success in STEM degrees. Individualized Adaptive Learning (IAL; also known by the historical, but now less accurate, course series name, General Learning Strategies, GLS) 181 is a mentorship program that pairs you with MATH Peer Mentors. These mentors are trained in Empowerment, Leadership, and Mentorship (ELM) principles, are equipped with adaptive learning strategies, and have successfully navigated the challenges of college algebra, calculus, and beyond. Students who have completed their GLS courses have historically improved their overall semester GPA by more than a letter grade on average and continue to improve their academic performance.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "53972",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53972",
+          "credits": 0.5,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "GLS",
+      "course_num": "182",
+      "course_combined": "GLS 182",
+      "title": "Academic Coaching",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GLS&crse_numb_in=182",
+      "course_description": "Student meets once per week with an academic coach to discuss any difficulties the student is having with his or her courses and to coach the student on effective study strategies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "51850",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=51850",
+          "credits": 0.5,
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Seminar",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52545",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52545",
+          "credits": 0.5,
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Seminar",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "53538",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53538",
+          "credits": 0.5,
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Seminar",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "04",
+          "section_name": "",
+          "crn": "53539",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53539",
+          "credits": 0.5,
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Seminar",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "GLS",
+      "course_num": "227",
+      "course_combined": "GLS 227",
+      "title": "General Learning Strategies III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GLS&crse_numb_in=227",
+      "course_description": "This course is designed to cultivate knowledge, skills, and self-awareness in areas critical to educational success. Topics include models of learning, learning strategies, self control, stress and coping, and test-taking strategies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GLS",
+      "course_num": "482",
+      "course_combined": "GLS 482",
+      "title": "GLS - General Learning Strategies / Individualized Adaptive Learning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GLS&crse_numb_in=482",
+      "course_description": "Student meets once per week with an academic coach to discuss any difficulties the student is having with his or her courses and to coach the student on effective study strategies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GLS",
+      "course_num": "582",
+      "course_combined": "GLS 582",
+      "title": "General Learning Strategies / Individualized Adaptive Learning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GLS&crse_numb_in=582",
+      "course_description": "Student meets once per week with an academic coach to discuss any difficulties the student is having with his or her courses and to coach the student on effective study strategies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

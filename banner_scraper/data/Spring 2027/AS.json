@@ -1,0 +1,373 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "AS",
+      "course_num": "101",
+      "course_combined": "AS 101",
+      "title": "Heritage and Values of the United States Air Force I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=101",
+      "course_description": "This survey course is designed to introduce students to the United States Air Force and provides an overview of the basic characteristics, missions, and organization of the Air Force. This is the first course of a two-course sequence that continues with AS 102 Heritage and Values of the United States Air Force II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "AS",
+      "course_num": "102",
+      "course_combined": "AS 102",
+      "title": "Heritage and Values of the United States Air Force II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=102",
+      "course_description": "This survey course is designed to introduce students to the United States Air Force and provides an overview of the basic characteristics, missions, and organization of the Air Force. This is the second course of a two-course sequence that begins with AS 101 Heritage and Values of the United States Air Force I.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: AS 101 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21099",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21099",
+          "credits": 1.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Hannah Kosirog",
+                  "email": "hkosirog@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kyle Hees",
+                  "email": "khees@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Anna M. Olsen",
+                  "email": "aolsen3@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Matthew W. Weaver",
+                  "email": "mweaver6@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 0,
+            "remaining": 35,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "201",
+      "course_combined": "AS 201",
+      "title": "Team and Leadership Fundamentals I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=201",
+      "course_description": "This course focuses on laying the foundation for teams and leadership. The topics include skills that will allow cadets to improve their leadership on a personal level and within a team. The courses will prepare cadets for their field training experience where they will be able to put the concepts learned into practice. The purpose is to instill a leadership mindset and to motivate sophomore students to transition from AFROTC cadet to AFROTC officer candidate. This is the first course of a two-course sequence that continues with AS 202 Team and Leadership Fundamentals II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "AS",
+      "course_num": "202",
+      "course_combined": "AS 202",
+      "title": "Team and Leadership Fundamentals II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=202",
+      "course_description": "This course focuses on laying the foundation for teams and leadership. The topics include skills that will allow cadets to improve their leadership on a personal level and within a team. The courses will prepare cadets for their field training experience where they will be able to put the concepts learned into practice. The purpose is to instill a leadership mindset and to motivate sophomore students to transition from AFROTC cadet to AFROTC officer candidate. This is the second course of a two-course sequence that begins with AS 201 Team and Leadership Fundamentals I.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: AS 201 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21100",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21100",
+          "credits": 1.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Joel Primm",
+                  "email": "jprimm@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Hannah Kosirog",
+                  "email": "hkosirog@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 0,
+            "remaining": 25,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "301",
+      "course_combined": "AS 301",
+      "title": "Leading People and Effective Communication I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=301",
+      "course_description": "This course teaches cadets advanced skills and knowledge in management and leadership. Special emphasis is placed on enhancing leadership skills and communication. Cadets have an opportunity to try out these leadership and management techniques in a supervised environment as juniors and seniors. This is the first course of a two-course sequence that continues with AS 302 Leading People and Effective Communication II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "AS",
+      "course_num": "302",
+      "course_combined": "AS 302",
+      "title": "Leading People and Effective Communication II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=302",
+      "course_description": "This course teaches cadets advanced skills and knowledge in management and leadership. Special emphasis is placed on enhancing leadership skills and communication. Cadets have an opportunity to try out these leadership and management techniques in a supervised environment as juniors and seniors. This is the second course of a two-course sequence that begins with AS 301 Leading People and Effective Communication I.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: AS 301 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21101",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21101",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Alec Dinh",
+                  "email": "adinh1@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kyle Hees",
+                  "email": "khees@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "401",
+      "course_combined": "AS 401",
+      "title": "National Security Affairs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=401",
+      "course_description": "This course is designed for college seniors and gives them the foundation to understand their role as military officers in American society. It is an overview of the complex social and political issues facing the military profession and requires a measure of sophistication commensurate with the senior college level. This is the first course of a two-course sequence that continues with AS 402 National Security Affairs/Preparation for Active Duty II.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "AS",
+      "course_num": "402",
+      "course_combined": "AS 402",
+      "title": "National Security Affairs/Preparation for Active Duty II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=402",
+      "course_description": "This course is designed for college seniors and gives them the foundation to understand their role as military officers in American society. It is an overview of the complex social and political issues facing the military profession and requires a measure of sophistication commensurate with the senior college level. This is the second course of a two-course sequence that begins with AS 401 National Security Affairs/Preparation for Active Duty I.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: AS 401 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21102",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21102",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Joel Primm",
+                  "email": "jprimm@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kyle Hees",
+                  "email": "khees@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "AS",
+      "course_num": "499",
+      "course_combined": "AS 499",
+      "title": "AFROTC LLAB Leadership Laboratory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=AS&crse_numb_in=499",
+      "course_description": "Leadership Laboratory (LLAB) is a dynamic and integrated grouping of leadership developmental activities designed to meet the needs and expectations of prospective Air Force second lieutenants and complement the AFROTC academic program. Most of the LLAB lesson objectives are cadet planned, organized, and executed under the supervision of the Detachment Commander and Operations Flight Commander. LLAB is required every Fall and Spring semester for Air Force cadets.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "27759",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=27759",
+          "credits": 0.0,
+          "schedule_type": "Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Alec Dinh",
+                  "email": "adinh1@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Kyle Hees",
+                  "email": "khees@illinoistech.edu",
+                  "primary": false
+                },
+                {
+                  "name": "Hannah Kosirog",
+                  "email": "hkosirog@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 90,
+            "actual": 0,
+            "remaining": 90,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    }
+  ]
+}

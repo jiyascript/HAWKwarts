@@ -1,0 +1,57 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "MS",
+      "course_num": "201",
+      "course_combined": "MS 201",
+      "title": "Materials Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MS&crse_numb_in=201",
+      "course_description": "The scientific principles determining the structure of metallic, polymeric, ceramic, semiconductor and composite materials; electronic structure, atomic bonding, atomic structure, microstructure and macrostructure. The basic principles of structure-property relationships in the context of chemical, mechanical and physical properties of materials.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: MATH 151 Minimum Grade of D May not be taken concurrently. ) and ( Course or Test: CHEM 122 Minimum Grade of D May not be taken concurrently. ) or ( Course or Test: CHEM 124 Minimum Grade of D May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21702",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21702",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Amir Mostafaei",
+                  "email": "amostafaei@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 100,
+            "actual": 0,
+            "remaining": 100,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    }
+  ]
+}

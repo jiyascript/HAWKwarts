@@ -1,0 +1,844 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "ITM",
+      "course_num": "300",
+      "course_combined": "ITM 300",
+      "title": "Communication in the Workplace",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=300",
+      "course_description": "Review, analyze and practice verbal and written communication formats found in the workplace. Emphasis on developing skills in technical writing and oral presentations using electronic and traditional media. Credit not granted for both ITM 300 and COM 421. INTM 301 may be substituted for this course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "301",
+      "course_combined": "ITM 301",
+      "title": "Introduction to Contemporary Operating Systems and Hardware I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=301",
+      "course_description": "Students study the basics of computer architecture and learn to use a contemporary operating system. Hardware requirements, hardware components, software compatibility, and system installation topics are covered along with post-installation, storage, security and system diagnosis, and repair. Topics also include discussion of current and future technology industry trends.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "28888",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28888",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 42,
+            "actual": 0,
+            "remaining": 42,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "51860",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=51860",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Shadi D. Beidas",
+                  "email": "sbeidas1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "303",
+      "course_combined": "ITM 303",
+      "title": "Introduction to Contemporary Operating Systems and Hardware II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=303",
+      "course_description": "Introduces features of an advanced operating system, including basic commands, file and directory manipulation, security, and suitability for server applications. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "52807",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52807",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 42,
+            "actual": 0,
+            "remaining": 42,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52808",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52808",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 11,
+            "actual": 0,
+            "remaining": 11,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "311",
+      "course_combined": "ITM 311",
+      "title": "Introduction to Software Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=311",
+      "course_description": "A broad introduction to object-oriented programming and the related knowledge necessary to program in a contemporary programming language. This would include coverage of an Application Development Kit, a standard integrated Development environment, and the use of GUI components.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Computing Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "26325",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=26325",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 1:05 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 42,
+            "actual": 0,
+            "remaining": 42,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52809",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52809",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "312",
+      "course_combined": "ITM 312",
+      "title": "Introduction to Systems Software Programming",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=312",
+      "course_description": "Introduces basic concepts of systems programming. Students learn to apply basic programming concepts toward solving problems, create source files and implement header files, work with and effectively use basic data types, abstract data types, control structures, code modularization and arrays. Students will be introduced to object paradigm including, classes, inheritance, and polymorphism applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "313",
+      "course_combined": "ITM 313",
+      "title": "Introduction to Open Source Application Development",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=313",
+      "course_description": "Introduces basic concepts of systems programming using a modern open source language. Students learn to apply basic programming concepts toward solving problems, writing pseudocode, working with and effectively using basic data types, abstract data types, control structures, code modularization and arrays. They will learn to detect errors, work with variables and loops, and discover how functions, methods, and operators work with different data types. Students will be introduced to the object paradigm including classes, inheritance , and polymorphism.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be assigned one of the following Student Attributes: Coursera Student Lifelong Learner",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50312",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50312",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 42,
+            "actual": 0,
+            "remaining": 42,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52924",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52924",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Barry Eugene Speller",
+                  "email": "bspeller1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "B88",
+          "section_name": "",
+          "crn": "53484",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53484",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Scott Akin Spyrison",
+                  "email": "spyrison@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 250,
+            "actual": 0,
+            "remaining": 250,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "497",
+      "course_combined": "ITM 497",
+      "title": "Independent Study",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=497",
+      "course_description": "Special projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "52839",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52839",
+          "credits": 3.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "54464",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54464",
+          "credits": 3.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "James Papademas",
+                  "email": "jpapadem@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "170",
+          "section_name": "",
+          "crn": "25365",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=25365",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Jeremy Robert Hajek",
+                  "email": "hajek@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "498",
+      "course_combined": "ITM 498",
+      "title": "Undergraduate Research Immersion: Team",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=498",
+      "course_description": "This course provides a faculty-mentored immersive research experience as a part of a student team. Research topics are determined by faculty mentor's area of research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "501",
+      "course_combined": "ITM 501",
+      "title": "Research Methods for Information Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=501",
+      "course_description": "This course prepares graduate students to undertake independent research inquiry by providing an in-depth examination of applied research methods across a range of information technology disciplines. Students receive training in major research paradigms, principles of research design, research ethics, research theories and quantitative and qualitative methodologies as well as tools and techniques for data collection and analysis. Students will be encouraged to develop their own research agenda and design a research methodology to undertake their research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "601",
+      "course_combined": "ITM 601",
+      "title": "Research Methods for Information Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=601",
+      "course_description": "This course prepares doctoral students to undertake independent research inquiry by providing an in-depth examination of applied research methods across a range of information technology disciplines. Students receive training in major research paradigms, principles of research design, research ethics, research theories and quantitative and qualitative methodologies as well as tools and techniques for data collection and analysis. Students will be encouraged to develop their own research agenda and design a research methodology to undertake their research.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "691",
+      "course_combined": "ITM 691",
+      "title": "Research and Thesis Ph.D.",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=691",
+      "course_description": "Instructor permission required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "54460",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54460",
+          "credits": 36.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "180",
+          "section_name": "",
+          "crn": "54461",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54461",
+          "credits": 36.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 3,
+            "actual": 0,
+            "remaining": 3,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "222",
+          "section_name": "",
+          "crn": "54040",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54040",
+          "credits": 36.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 2,
+            "actual": 0,
+            "remaining": 2,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "695",
+      "course_combined": "ITM 695",
+      "title": "Doctoral Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=695",
+      "course_description": "Doctoral Seminar",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54374",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54374",
+          "credits": 1.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Yong Zheng",
+                  "email": "yzheng66@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "701",
+      "course_combined": "ITM 701",
+      "title": "Introduction to Contemporary Operating Systems and Hardware 1a",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=701",
+      "course_description": "In this introductory industry-focused undergraduate course, students study the basics of computer architecture and learn to use a contemporary operating system. Hardware requirements and hardware components are covered. Topics also include discussion of current and future technology industry trends.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "702",
+      "course_combined": "ITM 702",
+      "title": "Introduction to Contemporary Operating Systems and Hardware 1b",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=702",
+      "course_description": "In this introductory industry-focused undergraduate course, students study software compatibility and system installation, along with concepts of client virtualization, cloud computing, and network fundamentals.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "703",
+      "course_combined": "ITM 703",
+      "title": "Introduction to Contemporary Operating Systems and Hardware 1c",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=703",
+      "course_description": "In this introductory industry-focused undergraduate course, students study system installation topics along with post-installation, security and system diagnosis, and repair. Topics also include discussion of current and future technology industry trends.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "705",
+      "course_combined": "ITM 705",
+      "title": "Hardware and Operating System Foundations I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=705",
+      "course_description": "In this introductory graduate course, students will explore the basics of computer architecture and use of contemporary operating systems and networking. Covers hardware requirements, components, software compatibility, and system configuration and administration as well as other key operating systems functions. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "706",
+      "course_combined": "ITM 706",
+      "title": "Hardware and Operating System Foundations II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=706",
+      "course_description": "In this introductory graduate course, students will explore the basics of computer architecture and use of contemporary operating systems and networking. Covers system installation topics as well as other key operating systems functions. Networking, virtualization, cloud computing, and security concepts are introduced. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITM",
+      "course_num": "707",
+      "course_combined": "ITM 707",
+      "title": "Hardware and Operating System Foundations III",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITM&crse_numb_in=707",
+      "course_description": "Explores the basics of computer architecture and use of contemporary operating systems and networking. Covers software troubleshooting, security implementation, and operational procedures and best practices. Documentation, communication, and professionalism are addressed. Popular and business-focused desktop and mobile device operating systems will be examined, as well as enterprise and open-source server implementations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

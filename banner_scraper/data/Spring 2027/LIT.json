@@ -1,0 +1,244 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "LIT",
+      "course_num": "207",
+      "course_combined": "LIT 207",
+      "title": "Graphic Novel",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LIT&crse_numb_in=207",
+      "course_description": "Comics, once a genre associated primarily with superheroes, have evolved since the 1970's to address weighty philosophical and existential issues in extended formats such as the graphic novel. This course will examine the graphic novels from major authors in the genre (e.g., Spiegelman, Eisner, and Moore) as well as \"outside\" artists. Also covered are the theoretical foundations of comics theory according to Will Eisner and Scott McCloud (among others). May not be taken for credit by students who have completed LIT 380 Graphic Novel.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LIT",
+      "course_num": "211",
+      "course_combined": "LIT 211",
+      "title": "Influential Authors",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LIT&crse_numb_in=211",
+      "course_description": "This course investigates the works of a particular influential author, which will be announced by the instructor when the course is scheduled ; for example: J. R. R. Tolkien's The Lord of the Rings, the writings of Gabriel Garcia Marquez, N. K. Jemisin's Broken Earth Trilogy, etc.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LIT",
+      "course_num": "280",
+      "course_combined": "LIT 280",
+      "title": "Topics in Literature",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LIT&crse_numb_in=280",
+      "course_description": "An investigation into a topic of current or enduring interest in literature, which will be announced by the instructor when the course is scheduled; for example: A History of Fantasy, Victorian Literature, The Realism Movement, etc.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Humanities Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: HUM 180 May not be taken concurrently. ) or ( Course or Test: HUM 100 to 110 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "Science Fiction Literature",
+          "crn": "54688",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54688",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Isabel Phelps",
+                  "email": "iphelps@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 0,
+            "remaining": 25,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "Intro to Creative Fic Writing",
+          "crn": "54689",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54689",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Isabel Phelps",
+                  "email": "iphelps@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 0,
+            "remaining": 25,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "Theater, Scripts, and Acting",
+          "crn": "54690",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54690",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Lise J. Evans",
+                  "email": "levans6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 0,
+            "remaining": 25,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "04",
+          "section_name": "Intro to Playwriting",
+          "crn": "54691",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54691",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Lise J. Evans",
+                  "email": "levans6@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 0,
+            "remaining": 25,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LIT",
+      "course_num": "380",
+      "course_combined": "LIT 380",
+      "title": "Seminar in Literature",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LIT&crse_numb_in=380",
+      "course_description": "An investigation into a topic of current or enduring interest in literature, which will be announced by the instructor when the course is scheduled.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LIT",
+      "course_num": "411",
+      "course_combined": "LIT 411",
+      "title": "Workshop in Creative Writing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LIT&crse_numb_in=411",
+      "course_description": "A workshop demonstrating principles of composition in fiction, poetry, or drama, studied from a writer's vantage point. Works by modern authors are analyzed. Student manuscripts are discussed and evaluated.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LIT",
+      "course_num": "491",
+      "course_combined": "LIT 491",
+      "title": "Independent Reading and Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LIT&crse_numb_in=491",
+      "course_description": "A creative writing course for advanced students. Consent of the instructor is required.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

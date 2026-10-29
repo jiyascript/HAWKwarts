@@ -1,0 +1,159 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "STAT",
+      "course_num": "225",
+      "course_combined": "STAT 225",
+      "title": "Introductory Statistics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=STAT&crse_numb_in=225",
+      "course_description": "An introduction to statistics; data collection, description, visualization and analysis; basic probability; statistical reasoning and inference including hypothesis tests and confidence intervals: t-tests, chi-squared tests, ANOVA, correlation and regression.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "STAT",
+      "course_num": "473",
+      "course_combined": "STAT 473",
+      "title": "Statistical Consulting",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=STAT&crse_numb_in=473",
+      "course_description": "Statistical Consulting is an introductory course that gives undergraduate students hands-on experience using data to address real-world problems. Students learn how statistical methods support decision-making by analyzing real and synthetic datasets, interpreting results, and communicating findings clearly. The course also introduces collaboration on data-driven projects, client interaction, and ethical considerations in data use, helping students build practical skills for modern data-focused careers.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "STAT",
+      "course_num": "514",
+      "course_combined": "STAT 514",
+      "title": "Applied Computational Statistics for Analytics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=STAT&crse_numb_in=514",
+      "course_description": "Generating actionable insights from data relies heavily on proper usage of analytics. The foundation of this process consists of two key ingredients: fundamental statistical concepts and corresponding computational tools. This course covers the topics from statistics and programming necessary to understand how such concepts come about, why the algorithms work the way they do, and how to use these in practice. The emphasis is on implementing the foundational procedures in industry-standard programming languages.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "51962",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=51962",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52081",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52081",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Yuhan Ding",
+                  "email": "yding2@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "STAT",
+      "course_num": "539",
+      "course_combined": "STAT 539",
+      "title": "Network modeling and statistics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=STAT&crse_numb_in=539",
+      "course_description": "Networks are a fundamental structure in a variety of settings such as biology, transportation, and telecommunication. In this course, students will learn how to represent and analyze networks. Students will also learn how to build networks from data using software and utilize network algorithms. Applications include social, biological, and technological networks. Topics covered include graph representations, random network models, modeling techniques, spectral analysis and clustering, and dynamics on networks.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "STAT",
+      "course_num": "573",
+      "course_combined": "STAT 573",
+      "title": "Statistical Consulting",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=STAT&crse_numb_in=573",
+      "course_description": "Statistical Consulting is a course in applied statistics, providing training in statistical consulting. Applications of commonly encountered statistical methods are explored in the consulting environment. Written and oral communication skills are emphasized, and ethical aspects of consulting are introduced. The course provides students with an opportunity to gain practical experience in consulting through various projects with synthetic and real data in simulated and client-facing scenarios. Basic proficiency or working knowledge of statistical software packages, such as R or python, is expected.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

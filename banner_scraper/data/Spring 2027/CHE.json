@@ -1,0 +1,3479 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "CHE",
+      "course_num": "100",
+      "course_combined": "CHE 100",
+      "title": "Introduction to the Profession I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=100",
+      "course_description": "Introduction to chemical engineering and engineering productivity software. Communication skills development, technical reporting and presentation, engineering ethics, and a variety of topics are discussed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "101",
+      "course_combined": "CHE 101",
+      "title": "Introduction to the Profession II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=101",
+      "course_description": "A continuation of CHE 100. Advanced engineering applications of productivity software. Engineering graphics and technical flow sheeting. Team project research and project management skills. Internet publishing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 100 Minimum Grade of D May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20653",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20653",
+          "credits": 2.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 28,
+            "actual": 0,
+            "remaining": 28,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "202",
+      "course_combined": "CHE 202",
+      "title": "Material Energy Balances",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=202",
+      "course_description": "Material and energy balances for engineering systems subjected to chemical and physical transformations. Calculations on industrial processes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Biomedical Engineering Chemical Engineering",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHEM 125 May not be taken concurrently. and Course or Test: CS 105 May be taken concurrently. and Course or Test: MATH 152 May not be taken concurrently. ) or ( Course or Test: CS 115 May be taken concurrently. ) or ( Course or Test: CS 104 May be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20655",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20655",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 28,
+            "actual": 0,
+            "remaining": 28,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "239",
+      "course_combined": "CHE 239",
+      "title": "Mathematical and Computational Methods",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=239",
+      "course_description": "Utilization of numeric and analytic methods to find solutions to a variety of chemical engineering problems. Emphasis placed on development of computer code, and interpretation of results. Topics covered include systems of algebraic equations, initial value differential equations, and boundary value differential equations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: CHE 202 Minimum Grade of D May not be taken concurrently. and Course or Test: CHE 301 Minimum Grade of D May be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "28981",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28981",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 29,
+            "actual": 0,
+            "remaining": 29,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "51935",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=51935",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "301",
+      "course_combined": "CHE 301",
+      "title": "Fluid Mechanics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=301",
+      "course_description": "Flow of fluids. Fundamentals of fluid flow design equations as applied to selected unit operations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: CHE 202 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20657",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20657",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Mohammad Asadi",
+                  "email": "masadi1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 32,
+            "actual": 0,
+            "remaining": 32,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "302",
+      "course_combined": "CHE 302",
+      "title": "Heat and Mass Transfer Operations",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=302",
+      "course_description": "Fundamentals of heat and mass transfer. Heat and mass transfer design equations as applied to selected unit operations. Mass transfer in stage-wise and continuous contacting equipment. Unsteady state operations in mass transfer equipment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "311",
+      "course_combined": "CHE 311",
+      "title": "Foundations of Biological Science for Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=311",
+      "course_description": "This introductory course will introduce engineering students to basic principles of Biological Sciences, which will enable them to understand more advanced courses on the topic and provide a solid base for further study in all life sciences-related topics required in their individual programs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "317",
+      "course_combined": "CHE 317",
+      "title": "Chemical and Biological Engineering Laboratory I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=317",
+      "course_description": "Laboratory work in the unit operations of chemical engineering, fluid flow, heat transfer, and other selected topics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Lab Safety Instruction, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: CHE 301 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20659",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20659",
+          "credits": 2.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            },
+            {
+              "type": "Class",
+              "time": "1:50 PM - 4:30 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 0,
+            "remaining": 35,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "351",
+      "course_combined": "CHE 351",
+      "title": "Thermodynamics I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=351",
+      "course_description": "Laws of thermodynamics and their application to chemical engineering operations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "401",
+      "course_combined": "CHE 401",
+      "title": "Bridge to Chemical Engineering I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=401",
+      "course_description": "Material and energy balances for engineering systems subjected to chemical and physical transformations. Laws of thermodynamics and their application to chemical engineering operations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "402",
+      "course_combined": "CHE 402",
+      "title": "Bridge to Chemical Engineering II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=402",
+      "course_description": "Flow of fluids, heat, and mass transfer design equations as applied to selected unit operations. Mass transfer in stage-wise and continuous contacting equipment. Unsteady state operations in mass transfer equipment.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "406",
+      "course_combined": "CHE 406",
+      "title": "Transport Phenomena",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=406",
+      "course_description": "The equations of change in different coordinate systems (mass, momentum, and energy transport). Velocity distribution in laminar and turbulent flow. Formulation and analytical solutions to the problems of viscous flow, molecular diffusion, heat conduction and convection.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 301 Minimum Grade of D May not be taken concurrently. and Course or Test: CHE 302 Minimum Grade of D May not be taken concurrently. and Course or Test: MATH 252 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20661",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20661",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 0,
+            "remaining": 35,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "29495",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=29495",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "412",
+      "course_combined": "CHE 412",
+      "title": "Foundations of Biological Science for Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=412",
+      "course_description": "This introductory course will introduce graduate engineering students to basic principles of Biological Sciences, which will enable them to understand more advanced courses on the topic and provide a solid base for further study in all life sciences-related topics required in their individual programs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "416",
+      "course_combined": "CHE 416",
+      "title": "Technologies for Treatment of Diabetes",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=416",
+      "course_description": "Study of physiological control systems and engineering of external control of biological systems by focusing on an endocrine system disorder -- diabetes. The effects of type 1 diabetes on glucose homeostasis and various treatment technologies for regulation of glucose concentration. Development of mathematical models describing the dynamics of glucose and insulin concentration variations, blood glucose concentration measurement and inference techniques, insulin pumps, and artificial pancreas systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Engineering Theme Health, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50413",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50413",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52212",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52212",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "418",
+      "course_combined": "CHE 418",
+      "title": "Chemical and Biological Engineering Laboratory II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=418",
+      "course_description": "Laboratory work in distillation, humidification, drying, gas absorption, filtration, and other areas.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "423",
+      "course_combined": "CHE 423",
+      "title": "Chemical Reaction Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=423",
+      "course_description": "Introduction to the fundamentals of chemical kinetics. The design, comparison, and economic evaluation of chemical reactors. Emphasis on homogeneous systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "424",
+      "course_combined": "CHE 424",
+      "title": "Quantitative Aspects of Cell and Tissue Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=424",
+      "course_description": "This course is designed to cover fundamentals of cell and tissue engineering from a quantitative perspective. Topics addressed include elements of tissue development, cell growth and differentiation, cell adhesion, migration, molecular and cellular transport in tissues and polymeric hydrogels for tissue engineering and drug delivery applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 423 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54281",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54281",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "426",
+      "course_combined": "CHE 426",
+      "title": "Statistical Tools for Engineers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=426",
+      "course_description": "Descriptive statistics and graphs, probability distributions, random sampling, independence, significance tests, design of experiments, regression, time series analysis, statistical process control, and introduction to multivariate analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "433",
+      "course_combined": "CHE 433",
+      "title": "Process Modeling and System Theory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=433",
+      "course_description": "Principles of process modeling. Modeling of non-reactive and reactive dynamic processes. Transfer functions. Modeling of multistage and non-linear processes. Discrete-event processes, Markov processes, and automata theory.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 302 Minimum Grade of D May not be taken concurrently. and Course or Test: CHE 351 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54098",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54098",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 35,
+            "actual": 0,
+            "remaining": 35,
+            "waitlist_capacity": 15,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 15
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "435",
+      "course_combined": "CHE 435",
+      "title": "Process Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=435",
+      "course_description": "Dynamic process models, stability assessment, feedback, and feed forward control strategies, design and tuning of closed-loop controllers, time domain and frequency domain design and performance assessment methods. Multivariable systems, interaction, multi-loop control. Software for process simulation and controller design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "439",
+      "course_combined": "CHE 439",
+      "title": "Numerical and Data Analysis",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=439",
+      "course_description": "Utilization of numerical methods to find solutions to a variety of chemical engineering problems. Emphasis placed on problem formulation, development of computer code, and interpretation of results. Techniques covered include: systems of algebraic equations, linear regression, and statistics. Numerical differentiation and integration, solution of ordinary and partial differential equations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "451",
+      "course_combined": "CHE 451",
+      "title": "Thermodynamics II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=451",
+      "course_description": "Second law analysis of cooling, separation, combustion, and other chemical processes. Chemical reaction equilibrium and processing applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 351 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20666",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20666",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 11:15 AM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "455",
+      "course_combined": "CHE 455",
+      "title": "Polymer Processing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=455",
+      "course_description": "Considerations of transport processes in the polymer industry. Analysis of heat, mass, and momentum transfer in molten polymers and polymer solutions. The polymer flow processes to be discussed will include: extrusion, calendaring, fiber spinning, injection molding, mixing, and polymerization reaction.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "465",
+      "course_combined": "CHE 465",
+      "title": "Electrochemical Energy Conversion",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=465",
+      "course_description": "Thermodynamics, kinetic and mass-transfer fundamentals of electrochemical devices. Potential and potential measurement. Batteries and fuel cells. Fundamentals of corrosion and corrosion prevention.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "467",
+      "course_combined": "CHE 467",
+      "title": "Fuel Cell System Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=467",
+      "course_description": "System or chemical reactor perspective of fuel cell design. Macro-scale modeling of fuel cell applications. Description of electrode/electrolyte assemblies and the three phase region, polarization curve characterization, analysis of continuous flow systems, typical fuel cell stack configurations, analysis of spatial non-uniformities in stacks, and balance of plant design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "470",
+      "course_combined": "CHE 470",
+      "title": "Introduction to Polymer Science",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=470",
+      "course_description": "An introduction to the basic principles that govern the synthesis, processing and properties of polymeric materials. Topics include classifications, synthesis methods, physical and chemical behavior, characterization methods, processing technologies and applications. Same as CHEM 470 and MMAE 470.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "489",
+      "course_combined": "CHE 489",
+      "title": "Fluidization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=489",
+      "course_description": "Regimes of fluidized beds, rheology behavior of fluidized beds, particle classification, properties of the bubble, emulsion, elutriation, and jet. Fluid mechanic theory and heat and mass transfer in fluidized beds. Design aspects of fluidized beds and pneumatic conveying. Industrial applications of fluidized beds (catalytic reactors, drying, coal conversion, waste treatment).",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "491",
+      "course_combined": "CHE 491",
+      "title": "Undergraduate Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=491",
+      "course_description": "Students undertake an independent research project under the guidance of a chemical and biological engineering faculty member.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "104",
+          "section_name": "",
+          "crn": "54099",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54099",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "20667",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20667",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "126",
+          "section_name": "",
+          "crn": "20669",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20669",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "137",
+          "section_name": "",
+          "crn": "23544",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=23544",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "27835",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=27835",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "143",
+          "section_name": "",
+          "crn": "20670",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20670",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "155",
+          "section_name": "",
+          "crn": "50519",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50519",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mohammad Asadi",
+                  "email": "masadi1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "156",
+          "section_name": "",
+          "crn": "54541",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54541",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "China-BISTU Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "494",
+      "course_combined": "CHE 494",
+      "title": "Process Design I",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=494",
+      "course_description": "Introduction to design techniques and economic aspects of chemical processes. The technical and economic aspects of equipment selection and design, and alternative methods of operation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "496",
+      "course_combined": "CHE 496",
+      "title": "Process Design II",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=496",
+      "course_description": "Group project in process design. Integration of technical, safety, environmental, economic, and societal issues in process development and design. Final part of the IPRO project package. Project teams consist of chemical engineering students and students from other disciplines and professions. Students from other academic units should register for designated section of IPRO 497 (three credits) and their contribution to the project tasks will be defined accordingly.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Engineering Theme Energy, Engineering Theme Health, Engineering Theme Security, Engineering Theme Water, Eligible Pass/Fail Course, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Majors: Chemical Engineering Must be enrolled in one of the following Classifications: Fourth Year Undergraduate Fifth Year Undergraduate",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 423 Minimum Grade of D May be taken concurrently. and Course or Test: CHE 435 Minimum Grade of D May be taken concurrently. and Course or Test: CHE 494 Minimum Grade of D May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20675",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20675",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Jeffrey M. Zalc",
+                  "email": "zalc@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 41,
+            "actual": 0,
+            "remaining": 41,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "497",
+      "course_combined": "CHE 497",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=497",
+      "course_description": "Special projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "498",
+      "course_combined": "CHE 498",
+      "title": "Chemical Process Safety Design",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=498",
+      "course_description": "The purpose of the course is to apply process design disciplines to integrate safety as a principal of the design process. Typical subjects are: thermodynamics of explosions, identification of process hazards, chemical reactivity hazards, dispersion models of release of toxic materials, fires and fire protection, and HAZOP and Fault Tree analysis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "501",
+      "course_combined": "CHE 501",
+      "title": "Transport Phenomena",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=501",
+      "course_description": "The equations of change (mass, momentum, and energy transport) for single phase and single component, multiphase and multicomponent systems. Analytical and numerical solution to equations of change for Velocity, Temperature and Concentration distribution with more than one independent variable in chemical and biological processes. Dimensional analysis for problem reduction.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "503",
+      "course_combined": "CHE 503",
+      "title": "Thermodynamics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=503",
+      "course_description": "Laws of thermodynamics applied to chemical and biological engineering problems, properties of real fluids, phase and chemical equilibria, applications to chemical and biological processes and auxiliary equipments. Core course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 451 Minimum Grade of C May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54439",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54439",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Robert J Selman",
+                  "email": "selman@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "506",
+      "course_combined": "CHE 506",
+      "title": "Entrepreneurship and Intellectual Property Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=506",
+      "course_description": "Graduate standing or consent of instructor. This course aims to introduce and develop a number of diversified professional skills necessary for success in an engineering research and development environment. Selected topics covered in the areas of technology entrepreneurship, opportunity assessment, creativity and innovation, project management, management of organizational change, entrepreneurial leadership, and intellectual property management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20678",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20678",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "M",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Robert F. Anderson",
+                  "email": "anderson@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 40,
+            "actual": 0,
+            "remaining": 40,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "508",
+      "course_combined": "CHE 508",
+      "title": "Process Design Optimization",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=508",
+      "course_description": "Organization of the design problem and application of single and multi-variable search techniques using both analytical and numerical methods. Prerequisite: An undergraduate course in process design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "514",
+      "course_combined": "CHE 514",
+      "title": "Process Analytical Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=514",
+      "course_description": "Process Analytical Technology (PAT) is introduced as a framework to enhance process understanding and assist in the development of reliable and efficient pharmaceutical operations. The course covers the definition of critical performance attributes within the context of FDA regulations; an overview of analytic measurement methods of chemical, physical and biological quantities; statistical data analysis and chemometric methods, including statistical process monitoring, multivariate analysis and parameter estimation; and design of real-time decision systems, including automatic control operations and risk-based analysis of final product quality. Prerequisite: BS in engineering or equivalent.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "51574",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=51574",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Manish Kelkar",
+                  "email": "mkelkar1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "516",
+      "course_combined": "CHE 516",
+      "title": "Technologies for Treatment of Diabetes",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=516",
+      "course_description": "Study of physiological control systems and engineering of external control of biological systems by focusing on an endocrine system disorder -- diabetes. The effects of type 1 diabetes on glucose homeostasis and various treatment technologies for regulation of glucose concentration. Development of mathematical models describing the dynamics of glucose and insulin concentration variations, blood glucose concentration measurement and inference techniques, insulin pumps, and artificial pancreas systems.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Engineering Theme Health, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50410",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50410",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52211",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52211",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "524",
+      "course_combined": "CHE 524",
+      "title": "Quantitative Aspects of Cell and Tissue Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=524",
+      "course_description": "This course is designed to cover fundamentals of cell and tissue engineering from a quantitative perspective. Topics addressed include elements of tissue development, cell growth and differentiation, cell adhesion, migration, molecular and cellular transport in tissues and polymeric hydrogels for tissue engineering and drug delivery applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54351",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54351",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "525",
+      "course_combined": "CHE 525",
+      "title": "Chemical Reaction Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=525",
+      "course_description": "Advanced treatment of chemical kinetics and reactor systems including non-isothermal, nonideal flow systems. Modeling of complex reactions, catalysis and heterogeneous reactor analysis. Reactor stability concepts. Core course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 423 Minimum Grade of C May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20684",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20684",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 30,
+            "actual": 0,
+            "remaining": 30,
+            "waitlist_capacity": 20,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 20
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "20685",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20685",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 0,
+            "actual": 0,
+            "remaining": 0,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "530",
+      "course_combined": "CHE 530",
+      "title": "Advanced Process Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=530",
+      "course_description": "State space, transfer function and discrete-time representations of process systems. Control system design. Interaction assessment. Multivariable and model predictive-control techniques. Core course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: CHE 435 Minimum Grade of C May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( May not be taken concurrently. ) or ( May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "25572",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=25572",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "8:35 AM - 9:50 AM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 26,
+            "actual": 0,
+            "remaining": 26,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "52455",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52455",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "535",
+      "course_combined": "CHE 535",
+      "title": "Applications of Mathematics to Chemical Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=535",
+      "course_description": "Mathematical techniques and their application to the analytical and numerical solution of chemical engineering problems. The analytical component includes review of matrices and determinants, as well as solution of ordinary, partial differential and integral equations. The numerical component includes iterative solution of algebraic equations, numerical analysis and solution of ordinary differential equations. Core course.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "536",
+      "course_combined": "CHE 536",
+      "title": "Computational Techniques in Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=536",
+      "course_description": "Advanced mathematical techniques, numerical analysis, and solution to problems in transport phenomena, thermodynamics, and reaction engineering. Review of iterative solution of algebraic equations. Nonlinear initial and boundary value problems for ordinary differential equations. Formulation and numerical solution of parabolic, elliptic, and hyperbolic partial differential equations. Characteristics, formulation, and numerical solution of integral equations. Solution of transient two-phase flow problems using CFD codes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "538",
+      "course_combined": "CHE 538",
+      "title": "Polymerization Reaction Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=538",
+      "course_description": "The engineering of reactors for the manufacture of synthetic polymeric materials, commercial processes for manufacture of polymers of many types, polymer chemistry and engineering reactor design.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "541",
+      "course_combined": "CHE 541",
+      "title": "Renewable Energy Technologies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=541",
+      "course_description": "The course will cover three topics related to renewable Energy Technologies. 1. Review of renewable energy sources; solar, wind, biomass, etc. 2. Energy storage and conversion with emphasis on batteries and fuel cells 3. Hydrogen as an energy carrier and the Hydrogen Economy",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "542",
+      "course_combined": "CHE 542",
+      "title": "Fluidization and Gas-Solids Flow Systems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=542",
+      "course_description": "Fluidization phenomena (bubbling, slugging, elutriation, and jets in fluidized beds). Multiphase flow approach to fluidization and gas/solids flow systems. Kinetic theory approach to fluid/particle flow systems. Analysis of flow of particles in pneumatic conveying lines (dilute flow) and stand pipe (dense flow). Hydrodynamic analysis of spouted and circulating fluidized beds. Examples from current literature on applications of multiphase flow.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "543",
+      "course_combined": "CHE 543",
+      "title": "Energy, Environment, and Economics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=543",
+      "course_description": "The linkage of energy, environmental and economic issues. The impact of energy supply and end use on human well-being and the ecosystem. A comprehensive approach to the resolution of resource, technical, economic, strategic, environmental, socio- and geopolitical problems of the energy industries. Pathways to a sustainable global energy system.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "545",
+      "course_combined": "CHE 545",
+      "title": "Metabolic Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=545",
+      "course_description": "Cellular metabolism, energetics and thermodynamics of cellular metabolism, regulation of metabolic pathways, metabolic flux analysis, metabolic control analysis, analysis of metabolic networks, synthesis and manipulations of metabolic pathways, applications - case studies.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "551",
+      "course_combined": "CHE 551",
+      "title": "Advanced Transport Phenomena",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=551",
+      "course_description": "Formulation, solution and interpretation of problems in momentum, energy and mass transport phenomena that occur in chemical and biological processes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "553",
+      "course_combined": "CHE 553",
+      "title": "Advanced Thermodynamics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=553",
+      "course_description": "Advanced thermodynamics for research-oriented graduate students. The course covers the fundamental postulates of thermodynamics and introductory statistical mechanics, with applications to pure fluids, fluid mixtures, elastic solids, surfaces and macromolecules.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "555",
+      "course_combined": "CHE 555",
+      "title": "Polymer Processing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=555",
+      "course_description": "Analysis of momentum, heat and mass transfer in polymer processing operations. Polymer processes considered include extrusion, calendaring, fiber spinning, injection molding, and mixing.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "560",
+      "course_combined": "CHE 560",
+      "title": "Statistical Quality and Process Control",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=560",
+      "course_description": "Basic theory, methods and techniques of on-line, feedback, quality-control systems for variable and attribute characteristics. Methods for improving the parameters of the production, diagnosis and adjustment processes so that quality loss is minimized. Same as MMAE 560.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "565",
+      "course_combined": "CHE 565",
+      "title": "Fundamentals of Electrochemistry",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=565",
+      "course_description": "Thermodynamics and potential, Marcus theory, charge transfer kinetics and mass transport of simple systems. Electrode reactions couple with homogeneous chemical reactions. Double layer structure and adsorbed intermediates in electrode processes. Potential step and potential sweep methods.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "566",
+      "course_combined": "CHE 566",
+      "title": "Electrochemical Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=566",
+      "course_description": "Basic concepts of electrochemistry used in electrochemical reactor analysis and design. Thermodynamics, kinetics and transport processes in electrochemical systems, current and potential distribution, corrosion engineering, electrodeposition, batteries and fuel cells, industrial electrolysis, and electrosynthesis.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "567",
+      "course_combined": "CHE 567",
+      "title": "Fuel Cell Fundamentals",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=567",
+      "course_description": "A detailed study of the thermodynamics, electrochemistry, electrode kinetics and materials aspects of fuel cells with an emphasis on polymer electrolyte fuel cells. The course will include a vigorous laboratory component and will cover the development of detailed data analysis procedures. A part of the course will cover current trends and interests through the critical discussion of recent archival publications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "575",
+      "course_combined": "CHE 575",
+      "title": "Polymer Rheology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=575",
+      "course_description": "Flow of viscoelastic fluids, integral and differential constitutive equations from continuum and molecular considerations, methods of experimental evaluations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "577",
+      "course_combined": "CHE 577",
+      "title": "Bioprocess Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=577",
+      "course_description": "Application of engineering principles to the biological production processes. Enzyme kinetics, cell culture kinetics, transport phenomena in cells, membranes, and biological reactors ,genetics, bioseparation and downstream processing, energetics of metabolic pathways, operation modes of cell cultures, mixed and their applications.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "580",
+      "course_combined": "CHE 580",
+      "title": "Biomaterials",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=580",
+      "course_description": "Metal, ceramic, and polymeric implant materials. Structure-property relationships for biomaterials. Interactions of biomaterials with tissue. Selection and design of materials for medical implants.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "582",
+      "course_combined": "CHE 582",
+      "title": "Interfacial and Colloidal Phenomena with Applications",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=582",
+      "course_description": "Applications of the basic principles of physical chemistry, surfactants and interfacial phenomena, surface and interfacial tension, adsorption of surfactants from solutions, spreading, contact angles, wetting, electro kinetic phenomena, rheology, dynamic interfacial properties, mass transport across interfaces. Applications include emulsions, foams, dispersions, tribology, detergency, flotation, enhanced oil recovery, suspension, emulsion polymerization and liquid membranes.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "583",
+      "course_combined": "CHE 583",
+      "title": "Pharmaceutical Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=583",
+      "course_description": "Application of transport phenomena, and reaction engineering to pharmaceutical processes. Heat and mass transfer in bioreactors and the fluidized beds. Drying, coating and granulation. Environmental and economical issues in the pharmaceutical process. Examples from industrial processes and current literature.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54102",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54102",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 7:40 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Manish Kelkar",
+                  "email": "mkelkar1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 25,
+            "actual": 0,
+            "remaining": 25,
+            "waitlist_capacity": 15,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 15
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "584",
+      "course_combined": "CHE 584",
+      "title": "Tissue Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=584",
+      "course_description": "Growth and differentiation of cells and tissue. In vitro control of tissue development. In vivo synthesis of tissues and organs. Transplantation of engineered cells and tissue. Techniques and clinical applications of tissue engineering.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "585",
+      "course_combined": "CHE 585",
+      "title": "Drug Delivery",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=585",
+      "course_description": "Principle of diffusion in liquids membrane and polymers, and methods for measurement and analysis of diffusion coefficient. Principle of molecular transport in polymeric material, and drug solubility in polymers. Intravenous infusion, and polymer drug delivery systems. Process involved and kinetics of solute release. Design and optimization of drug delivery system based on pharmacokinetic/ pharmacodynamic requirements.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54672",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54672",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "591",
+      "course_combined": "CHE 591",
+      "title": "Research and Thesis for M.S. Degree",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=591",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "104",
+          "section_name": "",
+          "crn": "54103",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54103",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "20694",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20694",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "126",
+          "section_name": "",
+          "crn": "20697",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20697",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "137",
+          "section_name": "",
+          "crn": "20701",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20701",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "20702",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20702",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "143",
+          "section_name": "",
+          "crn": "20703",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20703",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "155",
+          "section_name": "",
+          "crn": "50520",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50520",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mohammad Asadi",
+                  "email": "masadi1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "156",
+          "section_name": "",
+          "crn": "54542",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54542",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "China-BISTU Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "593",
+      "course_combined": "CHE 593",
+      "title": "Seminar in Chemical Engineering",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=593",
+      "course_description": "Presentations on recent developments in the field by academic and industrial visitors.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "20709",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20709",
+          "credits": 1.0,
+          "schedule_type": "Seminar",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Seminar",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 0,
+            "remaining": 50,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "594",
+      "course_combined": "CHE 594",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=594",
+      "course_description": "Advanced projects involving computer simulation, modeling or laboratory work. (Credit: 1-6 hours.)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "104",
+          "section_name": "",
+          "crn": "53902",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53902",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "54543",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54543",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "126",
+          "section_name": "",
+          "crn": "20712",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20712",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "137",
+          "section_name": "",
+          "crn": "20714",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20714",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "23928",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=23928",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "143",
+          "section_name": "",
+          "crn": "22657",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=22657",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "155",
+          "section_name": "",
+          "crn": "50521",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50521",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mohammad Asadi",
+                  "email": "masadi1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "156",
+          "section_name": "",
+          "crn": "52468",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=52468",
+          "credits": 6.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "597",
+      "course_combined": "CHE 597",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=597",
+      "course_description": "Independent study and project. (Credit: variable)",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "May not be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "104",
+          "section_name": "",
+          "crn": "54104",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54104",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "20719",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20719",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "126",
+          "section_name": "",
+          "crn": "27330",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=27330",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "137",
+          "section_name": "",
+          "crn": "54544",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54544",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "China-BISTU Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "24067",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=24067",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "143",
+          "section_name": "",
+          "crn": "28147",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28147",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "155",
+          "section_name": "",
+          "crn": "50059",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50059",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mohammad Asadi",
+                  "email": "masadi1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "156",
+          "section_name": "",
+          "crn": "53065",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53065",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "600",
+      "course_combined": "CHE 600",
+      "title": "Continuance of Residence",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=600",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "CHE",
+      "course_num": "691",
+      "course_combined": "CHE 691",
+      "title": "Research and Thesis for Ph.D. Degree",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CHE&crse_numb_in=691",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Forced to Full-Time Course, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "104",
+          "section_name": "",
+          "crn": "54105",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54105",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Georgia Papavasiliou",
+                  "email": "papavasiliou@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "120",
+          "section_name": "",
+          "crn": "20722",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20722",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Nader Aderangi",
+                  "email": "aderangi@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "126",
+          "section_name": "",
+          "crn": "20726",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20726",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Donald J Chmielewski",
+                  "email": "chmielewski@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "137",
+          "section_name": "",
+          "crn": "20730",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20730",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Fouad Teymour",
+                  "email": "teymour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "140",
+          "section_name": "",
+          "crn": "20732",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20732",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Ali Cinar",
+                  "email": "cinar@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "143",
+          "section_name": "",
+          "crn": "20733",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=20733",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Hamid Arastoopour",
+                  "email": "arastoopour@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "155",
+          "section_name": "",
+          "crn": "50523",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50523",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mohammad Asadi",
+                  "email": "masadi1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 12,
+            "actual": 0,
+            "remaining": 12,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "156",
+          "section_name": "",
+          "crn": "53512",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53512",
+          "credits": 20.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Mudassir Rashid",
+                  "email": "mrashid3@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    }
+  ]
+}

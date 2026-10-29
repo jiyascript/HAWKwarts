@@ -1,0 +1,351 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "CAPS",
+      "course_num": "039",
+      "course_combined": "CAPS 039",
+      "title": "Advanced Communication for Multilingual Speakers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CAPS&crse_numb_in=039",
+      "course_description": "Students in this course will learn higher-level communication strategies necessary to achieve individual goals in academic, technical, and business environments. Upon completion of the course, students will demonstrate increased cultural and linguistic proficiency.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Non Credit",
+      "attributes": "Comm for Acad & Profession, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prequisites Required",
+      "general_requirements": "CAP059 59 to 159 May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54609",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54609",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CAPS",
+      "course_num": "051",
+      "course_combined": "CAPS 051",
+      "title": "Writing in the University for Multilingual Speakers of English",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CAPS&crse_numb_in=051",
+      "course_description": "This course is designed to help international students develop skills in writing, reading and discussion as a means of discovering, questioning and analyzing ideas. Students will engage in reading a variety of texts on a theme, extrapolating key ideas, and developing their own claims through discussion, research writing, and presentation. Additionally, this course will provide support to address common writing issues for multilingual speakers of English as well as build intercultural competence in communication. Placement in this course is based on English proficiency and/or placement exam results.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Non Credit",
+      "attributes": "Comm for Acad & Profession, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite Reguired",
+      "general_requirements": "CAP051 51 to 151 May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "53663",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53663",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Mary Jorgenson Sullivan",
+                  "email": "mjorgens@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CAPS",
+      "course_num": "052",
+      "course_combined": "CAPS 052",
+      "title": "Chicago Voices",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CAPS&crse_numb_in=052",
+      "course_description": "This English communication course will give international students the opportunity to expand their knowledge of Chicago’s history and culture while developing their voice through advanced conversation, presentation, and discussion skills. Through a storytelling and experiential lens, students will focus on articulating and responding to in-depth questions, applying advanced presentation skills, and using cultural and communicative skills to collaborate in dynamic city-focused discussions. Placement in this course is based on English proficiency and/or placement exam results.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Non Credit",
+      "attributes": "Comm for Acad & Profession, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisites Required",
+      "general_requirements": "CAP052 52 to 152 May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "53666",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53666",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Mary Jorgenson Sullivan",
+                  "email": "mjorgens@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CAPS",
+      "course_num": "053",
+      "course_combined": "CAPS 053",
+      "title": "Global Issues through Literature",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CAPS&crse_numb_in=053",
+      "course_description": "This reading and writing intensive course will give multilingual students the opportunity to engage with contemporary global topics affecting people across the world. Students will develop their critical reading skills through both fiction and non-fiction texts. Through writing-focused projects, students will grow their writing skills by evaluating evidence, integrating outside sources, and applying the writing process to create evidence-based and original texts. Placement in this course is based on English proficiency and/or placement exam results.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Non Credit",
+      "attributes": "Comm for Acad & Profession, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "CAPS 053 Assessment 053 or CAPS 051",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54602",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54602",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "5:00 PM - 6:15 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian Casario",
+                  "email": "bcasari1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "54603",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54603",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "MW",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian Casario",
+                  "email": "bcasari1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CAPS",
+      "course_num": "054",
+      "course_combined": "CAPS 054",
+      "title": "Telling Your Story: Advanced Language Skills for Academics and Work",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CAPS&crse_numb_in=054",
+      "course_description": "This course focuses on the most important topic of all: YOU! You have a unique story to tell – whether in an interview, a discussion, or a professional presentation – and this course will give students the opportunity to develop advanced language skills around each student’s field of study and interests. Through engaging with audio and video materials, active reading, and intensive speaking practice, students will work to develop personalized responses to a variety of behavioral interview questions, research and contribute information from their individual fields into a group discussion, as well as write and present on a technical topic to a general audience of students. Placement in this course is based on English proficiency and/or placement exam results.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Non Credit",
+      "attributes": "Comm for Acad & Profession, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "CAPS 054 Assessment 054 or CAPS 052",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54604",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54604",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "11:25 AM - 12:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "CAPS",
+      "course_num": "059",
+      "course_combined": "CAPS 059",
+      "title": "Advanced Communication for Multilingual Speakers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=CAPS&crse_numb_in=059",
+      "course_description": "Students in this course will learn higher-level communication strategies necessary to achieve individual goals in academic, technical, and business environments. Upon completion of the course, students will demonstrate increased cultural and linguistic proficiency.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Non Credit",
+      "attributes": "Comm for Acad & Profession, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( CAP059 59 to 159 May not be taken concurrently. ) or ( Course or Test: CAPS 054 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54605",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54605",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "3:15 PM - 4:30 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Elizabeth O'Hara Johnson",
+                  "email": "ejohns20@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    }
+  ]
+}

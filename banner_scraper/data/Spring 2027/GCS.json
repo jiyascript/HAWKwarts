@@ -1,0 +1,194 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "GCS",
+      "course_num": "000",
+      "course_combined": "GCS 000",
+      "title": "Course Wildcard",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GCS&crse_numb_in=000",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "GCS",
+      "course_num": "100",
+      "course_combined": "GCS 100",
+      "title": "Continuation of Graduate Studies, Administrative",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GCS&crse_numb_in=100",
+      "course_description": "This course is open by permit only to graduate students who have non-course and non-thesis requirements to fulfill in the semester of graduation. Permits are entered by Graduate Academic Affairs.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "25309",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=25309",
+          "credits": 1.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 0,
+            "remaining": 50,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "25310",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=25310",
+          "credits": 1.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 0,
+            "remaining": 50,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "GCS",
+      "course_num": "600",
+      "course_combined": "GCS 600",
+      "title": "Graduate Continuation Studies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=GCS&crse_numb_in=600",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate",
+      "attributes": "Forced to Full-Time Course, Graduate Continuation Studies, Standard Tuition Rate",
+      "restrictions": "Must be assigned one of the following Student Attributes: Graduate Continuation Studies",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "22678",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=22678",
+          "credits": 1.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 0,
+            "remaining": 50,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "Grad Cont Studies IIT Paris",
+          "crn": "24043",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=24043",
+          "credits": 1.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Independent Study/Research",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Faculty TBA",
+                  "email": "NoReply-Reg@iit.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 50,
+            "actual": 0,
+            "remaining": 50,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    }
+  ]
+}

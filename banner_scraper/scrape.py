@@ -2,7 +2,7 @@ import banner
 import time
 import scrape_to_json
 
-semester = 'Fall 2026' # adjust the semester to be scraped here
+semester = 'Spring 2027' # adjust the semester to be scraped here
 subjects_filters = None # to scrape all subjects, or specify like below
 # subjects_filters = ['CS']
 # subjects_filters = ['CS', 'STAT']

@@ -1,0 +1,964 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "ITMM",
+      "course_num": "464",
+      "course_combined": "ITMM 464",
+      "title": "Social Media Marketing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=464",
+      "course_description": "Class participants will explore the tactics, tools, and strategies of incorporating new media channels to successfully grow a business and/or to maximize the goals of other types of organizations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "470",
+      "course_combined": "ITMM 470",
+      "title": "Fundamentals of Management for Technology Professionals",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=470",
+      "course_description": "This course explores fundamentals of management for professionals in high-technology fields. It addresses the challenges of the following: managing technical professionals and technology assets; human resource management; budgeting and managerial accounting; management of services, infrastructure, outsourcing, and vendor relationships; technology governance and strategy; and resource planning.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54653",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54653",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "54638",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54638",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "471",
+      "course_combined": "ITMM 471",
+      "title": "Project Management for Information Technology and Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=471",
+      "course_description": "Basic principles of project management are taught with a particular focus on project planning for information technology hardware, software and networking project implementation. Management of application development and major Web development projects will also be addressed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "Prerequisite Required",
+      "general_requirements": "( Course or Test: ITMT 330 May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54654",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54654",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "54639",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54639",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "481",
+      "course_combined": "ITMM 481",
+      "title": "Information Technology Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=481",
+      "course_description": "This course prepares students to become leaders in information technology and to build ITM companies. Students design and develop a prototype ITM product and prepare a business plan and venture proposal presentation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "482",
+      "course_combined": "ITMM 482",
+      "title": "Business Innovation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=482",
+      "course_description": "This course is designed to teach innovative thinking through theory, methods, and practice of innovation. The course incorporates Einstein's thinking, and Edison's method to establish the innovation process that can be applied in current business environment. Current economic conditions and global sourcing requires that innovation becomes a leading tool for developing a competitive edge. Innovation has been considered a competency of educated, design engineering, and a selected few employees that has become insufficient today. Corporations and organizations need innovation to develop customer-specific solutions in almost real time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "485",
+      "course_combined": "ITMM 485",
+      "title": "Legal and Ethical Issues in Information Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=485",
+      "course_description": "Current legal issues in information technology are addressed including elements of contracting, payment systems and digital signatures, privacy concerns, intellectual property, business torts, and criminal liability including hacking, computer trespass and fraud. Examination of ethical issues including privacy, system abuse, and ethical practices in information technology equip students to make sound ethical choices and resolve legal and moral issues that arise in information technology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Undergraduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "26665",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=26665",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "26666",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=26666",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "487",
+      "course_combined": "ITMM 487",
+      "title": "Product Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=487",
+      "course_description": "This course explores the Product Management role in information tech-nology and common processes, tools, and methods employed. Students will learn to identify business opportunities and market strategies as well as management of develop-ment teams in product developments that cross business and technology boundaries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "537",
+      "course_combined": "ITMM 537",
+      "title": "Vendor Management and Service Level Agreements",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=537",
+      "course_description": "Management of service level agreements (SLAs) at an enterprise level is presented from both a client and service provider perspective. Fundamental structure and issues of contract law are introduced and various models for management of service level agreements are presented. The role of SLAs in enterprise architecture and planning is addressed, and service level definitions, quality of service, and performance metrics are examined.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "570",
+      "course_combined": "ITMM 570",
+      "title": "Fundamentals of Management for Technology Professionals",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=570",
+      "course_description": "This course explores fundamentals of management for professionals in high-technology fields. It addresses the challenges of the following: managing technical professionals and technology assets; human resource management; budgeting and managerial accounting; management of services, infrastructure, outsourcing, and vendor relationships; technology governance and strategy; and resource planning.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54640",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54640",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "54641",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54641",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Adan K Pope",
+                  "email": "apope4@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "571",
+      "course_combined": "ITMM 571",
+      "title": "Project Manangement for Information Technology Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=571",
+      "course_description": "Basic principles of project management are taught. Includes software development concepts of requirements analysis, object modeling and design and software testing. Management of application development and major Web development projects will also be addressed.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "25707",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=25707",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "28906",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28906",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "28907",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28907",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Brian R. Vanderjack",
+                  "email": "bvanderjack@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "572",
+      "course_combined": "ITMM 572",
+      "title": "Process Engineering for Information Technology Managers",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=572",
+      "course_description": "This course will provide students with the knowledge and skills to define, model, measure and improve business processes. The course will focus on re-engineering processes through the application of technology to achieve significant and measurable improvement. The course will explore the latest industry standards and students will use state-of-the-art software tools for hands-on experiential learning.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "29265",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=29265",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 40,
+            "actual": 0,
+            "remaining": 40,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "29266",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=29266",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "29329",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=29329",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Steven C. Rubinow",
+                  "email": "srubinow@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "573",
+      "course_combined": "ITMM 573",
+      "title": "Building and Leading Effective Teams",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=573",
+      "course_description": "This course will prepare students to be effective IT managers. Students will be introduced to the general challenges of management as well as the challenges unique to leading teams of technology professionals. The course will explore the skills necessary to excel as a leader including dealing with conflict, developing leadership skills, recruiting and developing employees, and leading remote and virtual teams. Students will explore case studies and execute team exercises to enrich their learning experience.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "574",
+      "course_combined": "ITMM 574",
+      "title": "Information Technology Management Frameworks",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=574",
+      "course_description": "This course will examine the application of industry standard frameworks to the management of information technology infrastructure, development and operations. Frameworks including the Information Technology Infrastructure Library (ITIL), Control Objectives for Information and related Technology (COBIT), and others will be covered. Students will learn to use these frameworks to tailor a set of concepts and policies to necessary manage IT in a specific enterprise.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "575",
+      "course_combined": "ITMM 575",
+      "title": "Networking and Telecommunications Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=575",
+      "course_description": "This course address the design, implementation, and management of computer networks and enterprise telecommunications systems. Design issues in wide area networks and telecommunications with emphasis on Internet connectivity are also addressed. Tools for supporting the distribution and sharing of system resources and information are discussed, along with tools to support network design and management.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "576",
+      "course_combined": "ITMM 576",
+      "title": "Data Center Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=576",
+      "course_description": "This course is an in-depth examination of best practices in the management of enterprise data centers. Topics include data center consolidation; data center maintenance; server and network management methods and tools; budget and finance; service-level agreements; managing data center personnel and staff; and disaster recovery",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "577",
+      "course_combined": "ITMM 577",
+      "title": "Case Studies in Management of Information Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=577",
+      "course_description": "This course examines approaches and models for the management of information technology at an enterprise level through the use of case studies in the field.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "581",
+      "course_combined": "ITMM 581",
+      "title": "Information Technology Entrepreneurship",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=581",
+      "course_description": "This course prepares students to become leaders in information technology and to build ITM companies. Students design and develop a prototype ITM product and prepare a business plan and venture proposal presentation.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "582",
+      "course_combined": "ITMM 582",
+      "title": "Business Innovation",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=582",
+      "course_description": "This course is designed to teach innovative thinking through theory, methods, and practice of innovation. The course incorporates Einstein's thinking, and Edison's method to establish the innovation process that can be applied in current business environment. Current economic conditions and global sourcing requires that innovation becomes a leading tool for developing a competitive edge. Innovation has been considered a competency of educated, design engineering, and a selected few employees that has become insufficient today. Corporations and organizations need innovation to develop customer-specific solutions in almost real time.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "584",
+      "course_combined": "ITMM 584",
+      "title": "Information Technology at C-Level",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=584",
+      "course_description": "The issues, competencies, challenges and rewards of managing information technology in major enterprises at the Chief Information Officer/Chief Technology Officer level are examined in depth. The course will equip students with a fundamental awareness of what the enterprise and the profession expects from the highest levels of IT management. Readings, case studies and guided discussions will be supplemented by a series of guest lectures from-and discussions with-Chicago-area IT professional currently employed in these roles.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "585",
+      "course_combined": "ITMM 585",
+      "title": "Legal and Ethical Issues in Information Technology",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=585",
+      "course_description": "Current legal issues in information technology are addressed including elements of contracting, payment systems and digital signatures, privacy concerns, intellectual property, business torts and criminal liability including hacking, computer trespass and fraud. Examination of ethical issues including privacy, system abuse, and ethical practices in information technology equip students to make sound ethical choices and resolve legal and moral issues that arise in information technology.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "26667",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=26667",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 3:05 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 27,
+            "actual": 0,
+            "remaining": 27,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "26668",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=26668",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        },
+        {
+          "section": "03",
+          "section_name": "",
+          "crn": "27755",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=27755",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "India International Internet Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Internet",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Gurram Gopal",
+                  "email": "gopal@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "586",
+      "course_combined": "ITMM 586",
+      "title": "Information Technology Auditing",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=586",
+      "course_description": "Industry standard practices and standards in the auditing of information technology in an organization are addressed, with a particular emphasis on examination of IT governance, assets, controls, and control techniques. Specific areas covered will include the audit process, IT governance, systems and infrastructure life cycle management, IT service delivery and support, protection of information assets, and business continuity and disaster recovery. Students will examine case studies and complete hands-on exercises.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "ITMM",
+      "course_num": "587",
+      "course_combined": "ITMM 587",
+      "title": "Product Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=ITMM&crse_numb_in=587",
+      "course_description": "This course explores the Product Management role in information tech-nology and common processes, tools, and methods employed. Students will learn to identify business opportunities and market strategies as well as management of develop-ment teams in product developments that cross business and technology boundaries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

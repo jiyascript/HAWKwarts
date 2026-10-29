@@ -282,7 +282,7 @@ def build_databases(semester):
     print("Created", scheduling_path)
 
 if __name__ == "__main__":
-    semester = "Fall 2026" # adjust semester here 
+    semester = "Spring 2027" # adjust semester here 
     build_databases(semester)
     
     # can also do multiple semesters like this

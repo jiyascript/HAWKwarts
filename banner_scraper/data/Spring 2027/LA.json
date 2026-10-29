@@ -1,0 +1,692 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "LA",
+      "course_num": "497",
+      "course_combined": "LA 497",
+      "title": "Special Projects",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=497",
+      "course_description": "Special projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "501",
+      "course_combined": "LA 501",
+      "title": "History, Theory, and Criticism I: Landscape Architecture Theory",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=501",
+      "course_description": "Inquiry of natural factors and ecology (soil formations, geological features, hydrological patterns, catastrophic events, etc.) in the settlement and development of cities. The work of the seminar will include an inventory of these factors in selected global cities, including Chicago, and their influence on urban design and site-specific landscape architecture projects.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "502",
+      "course_combined": "LA 502",
+      "title": "History, Theory, and Criticism II: Landscape Architectural History",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=502",
+      "course_description": "The chronological history of designed landscapes with an emphasis on the emergence of the profession of landscape architecture in North America in the nineteenth and twentieth centuries.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21947",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21947",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "503",
+      "course_combined": "LA 503",
+      "title": "History, Theory, and Criticism IV: Advanced Contemporary Theory -- Case Studies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=503",
+      "course_description": "Twentieth century and contemporary landscape architecture is investigated through case studies including site visits to projects in the Chicago region.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "28242",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28242",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "M",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Michael L. Skowlund",
+                  "email": "mskowlund@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "504",
+      "course_combined": "LA 504",
+      "title": "History, Theory, and Criticism III: Landscape Architecture Research Seminar",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=504",
+      "course_description": "Advanced study of landscape architecture topics with emphasis on research methods, description, analysis, and criticism.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "514",
+      "course_combined": "LA 514",
+      "title": "Professional Practice of Landscape Architecture I: Entrepreneurship and Practice",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=514",
+      "course_description": "Develop expertise in professional practice. Lectures, research assignments, and case studies will investigate practice models, proposals and contracts, schedules and budgets, project phases, project and client types, project team structure, the role of competitions, professional development, and licensure. In addition, the role of landscape architects, urban planners, real estate trusts, government agencies, developers, and others in directing the economic, professional, political, and socio-cultural concerns and responsibilities to initiate and manage landscapes will be investigated.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "28852",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28852",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Andrew R Tinucci",
+                  "email": "atinucci@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "Brian T. Foote",
+                  "email": "bfoote@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "516",
+      "course_combined": "LA 516",
+      "title": "Professional Practice of Landscape Architecture II: Landscape Architecture and Time",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=516",
+      "course_description": "Investigations of gardens, landscapes, infrastructure, and cities as they are conceived, mature, and change over time. Study of landscapes designed for successional processes, weathering, biological growth and decay, seasonality, preservation and conservation of historic landscapes, and other topics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "525",
+      "course_combined": "LA 525",
+      "title": "Design Media I: Drawing and Modeling the Landscape",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=525",
+      "course_description": "Drawings (manual and digital) and models (physical and digital) will be employed to explore and interrogate landscape processes and envision ideas particular to landscape architecture such as mapping, time, movement, line, contour, texture, and materials, among others, while also developing a mastery of drawing conventions and media.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "526",
+      "course_combined": "LA 526",
+      "title": "Design Media II: Digital Media",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=526",
+      "course_description": "Using digital tools to clarify, conceptualize, represent, and communicate designed and engineered environments. A fluidity between critical, visual, and quantifiable digital techniques will be cultivated and will ground the management of information across software platforms.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: LA 525 Minimum Grade of C May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "54574",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=54574",
+          "credits": 3.0,
+          "schedule_type": "Lecture",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:25 PM - 9:05 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Johann W Friedl",
+                  "email": "jfriedl1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "541",
+      "course_combined": "LA 541",
+      "title": "Landscape Architecture Studio I: Processes",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=541",
+      "course_description": "Understanding the fundamental relationships of dynamic processes with an emphasis on representing time, movement, space, light, rhythms, shifting boundaries and enclosures, and physical materials of landscape.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "542",
+      "course_combined": "LA 542",
+      "title": "Landscape Architecture Studio II: Site and City",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=542",
+      "course_description": "Continued development of the core tools of the discipline of landscape architecture focusing on the 21st century city. Rigorous site analysis will include emphasis on material, cultural, and ecological expression of city-scale networks and flows at the site scale. Design investigations will explore the site itself, its adjacent conditions, and the larger neighborhood or civic milieu.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "21949",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=21949",
+          "credits": 6.0,
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:50 PM",
+              "days": "MWF",
+              "location": "TBA",
+              "schedule_type": "Studio",
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "543",
+      "course_combined": "LA 543",
+      "title": "Landscape Architecture Studio III: Comprehensive Landscape Architecture",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=543",
+      "course_description": "The integration of local ecologies, projected use, and the performance of ephemeral, semi-permanent, and permanent site interventions into cohesive and resilient design proposals for varied urban sites. Introduction to a wide range of site-specific professional design standards including the Americans with Disabilities Act and barrier-free regulations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "544",
+      "course_combined": "LA 544",
+      "title": "Professional Independent Studio IV: Landscape Architecture Service Studio",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=544",
+      "course_description": "Development of landscape architecture as a multi-scalar framework for designing dynamic urban processes and sites. Emphasis is placed on research and design strategies that consider the region as an analytical lens for site-specific design. This collaborative Landscape Architecture Service Studio operates in the service of community work. Through these partnerships, the studio functions as a platform for civic practice, translating research into actionable design strategies that support communities, inform policy, and contribute to the public realm. Students engage real-world stakeholders and work collaboratively to produce projects that advance both disciplinary knowledge and public benefit.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "546",
+      "course_combined": "LA 546",
+      "title": "Landscape Architecture Studio VI: Final Project",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=546",
+      "course_description": "The design-based research Final Project is the culmination of the studio sequence. The aim of the Final Project is to develop formal solutions that address the complexities of the urban landscape and advance disciplinary knowledge at large. The project’s production focuses on developing work at a variety of scales, from large-scale master plans, urban designs, and landscape designs to new urban typologies and singular buildings, all of which address issues pertinent to the equitable city. This is a vertical studio inviting advanced BArch, MArch, MLA, MS, and PhD students. Students will be able to select from a variety of project topics.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "( Course or Test: LA 543 Minimum Grade of C May not be taken concurrently. )",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "100",
+          "section_name": "Landscape Architecture Studio VI: Metropolis",
+          "crn": "27446",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=27446",
+          "credits": 6.0,
+          "schedule_type": "Studio",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "1:50 PM - 5:50 PM",
+              "days": "MWF",
+              "location": "TBA",
+              "schedule_type": "Studio",
+              "instructors": []
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "565",
+      "course_combined": "LA 565",
+      "title": "Ecology and Materials Workshop I: Plants and Planting",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=565",
+      "course_description": "The plants of the Western Great Lakes Basin, emphasizing both prominent native and commercially available species. Understanding and identifying species as found within typical plant communities. Familiarization with plant physiology as determined by climate, geology, topography, hydrology, soils, wildlife, and disturbances.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "566",
+      "course_combined": "LA 566",
+      "title": "Ecology and Materials Workshop II: Earthworks and Infrastructures",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=566",
+      "course_description": "The qualities and characteristics of landscape materials with emphasis on a quantitative and interrelated understanding of the design of landform (grading) and water. Covers the influence of climate, geology, soils, hydrology, and disturbances on the design of a site's constituent elements including paths and streets, infrastructure, plants, and water.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "53720",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53720",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Janelle Johnson",
+                  "email": "jjohnson67@illinoistech.edu",
+                  "primary": true
+                },
+                {
+                  "name": "A.J. Sus",
+                  "email": "asus@illinoistech.edu",
+                  "primary": false
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "567",
+      "course_combined": "LA 567",
+      "title": "Ecology and Materials Workshop III: Planting Design and Construction",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=567",
+      "course_description": "Advanced understanding of planting typologies, the history of plants in design, and the preparation of planting construction documentation augmented by frequent investigations and analysis of built landscapes in the Chicago region.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "LA",
+      "course_num": "568",
+      "course_combined": "LA 568",
+      "title": "Ecology and Materials Workshop IV: Constructing the Urban Environment",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=568",
+      "course_description": "Techniques and technologies to analyze, construct, remediate and/or restore urban sites including those that have been subjected to complex human disturbances such as landfills and brownfields. Includes special needs construction practices such as structured soils, phytoremediation, green roofs, and rooftop gardens.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate Must be enrolled in one of the following Colleges: College of Architecture",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "28245",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=28245",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "10:00 AM - 12:40 PM",
+              "days": "R",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Jay W Womack",
+                  "email": "jwomack1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 16,
+            "actual": 0,
+            "remaining": 16,
+            "waitlist_capacity": 99,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 99
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "597",
+      "course_combined": "LA 597",
+      "title": "Special Problems",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=597",
+      "course_description": "Special problems in landscape architecture. For students in the master program in landscape architecture only.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "Must be enrolled in one of the following Programs: Master of Lndscpe Architecture Master of Lndscpe Architecture Must be enrolled in one of the following Levels: Graduate Business Graduate",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "193",
+          "section_name": "",
+          "crn": "53592",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53592",
+          "credits": 10.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Maria Villalobos Hernandez",
+                  "email": "mvillaloboshernandez@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        },
+        {
+          "section": "200",
+          "section_name": "",
+          "crn": "53303",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=53303",
+          "credits": 10.0,
+          "schedule_type": "Independent Study/Research",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "TBA",
+              "days": "",
+              "location": "TBA",
+              "schedule_type": "Independent Study/Research",
+              "instructors": [
+                {
+                  "name": "Nilay D Mistry",
+                  "email": "nmistry1@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 5,
+            "actual": 0,
+            "remaining": 5,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "LA",
+      "course_num": "999",
+      "course_combined": "LA 999",
+      "title": "Landscape Arch Elective(s)",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=LA&crse_numb_in=999",
+      "course_description": "",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}

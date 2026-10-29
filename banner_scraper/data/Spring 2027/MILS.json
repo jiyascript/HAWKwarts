@@ -1,0 +1,659 @@
+{
+  "term": "Spring 2027",
+  "courses": [
+    {
+      "course_code": "MILS",
+      "course_num": "101",
+      "course_combined": "MILS 101",
+      "title": "Introduction to Military Science and Critical Thinking",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=101",
+      "course_description": "MILS 101 is an introduction to the Army and the Profession of Arms. Students will examine the Army Profession and what it means to be a professional in the U.S. Army. The overall focus is on developing basic knowledge and comprehension of the Army Leadership Requirements Model, to develop critical thinking skills through scenario-based applications, and its advantages for the student. Students also learn how resiliency and fitness support their development as a future leader.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "102",
+      "course_combined": "MILS 102",
+      "title": "Basic Leadership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=102",
+      "course_description": "Establishes foundation of basic leadership fundamentals such as problem solving, communications, briefings and effective writing, goal setting techniques for improving listening and speaking skills, and an introduction to counseling.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50699",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50699",
+          "credits": 1.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "9:00 AM - 9:50 AM",
+              "days": "W",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "107",
+      "course_combined": "MILS 107",
+      "title": "American Military History",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=107",
+      "course_description": "Study of American military history through examination of evolvement of the Army and warfare.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "147",
+      "course_combined": "MILS 147",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=147",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "148",
+      "course_combined": "MILS 148",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=148",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "02",
+          "section_name": "",
+          "crn": "50862",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50862",
+          "credits": 2.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TWF",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "199",
+      "course_combined": "MILS 199",
+      "title": "Military Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=199",
+      "course_description": "Approval of the department. Research and study of selected topics. A practical laboratory is required. May be repeated if topics vary. Students may register in more than one section per term.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "201",
+      "course_combined": "MILS 201",
+      "title": "Individual Leadership Studies",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=201",
+      "course_description": "Students identify successful leadership characteristics through observation of others and self and through experiential learning exercises. Students record observed traits (good and bad) in a dimensional leadership journal and discuss observations in small group settings.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "202",
+      "course_combined": "MILS 202",
+      "title": "Leadership and Teamwork",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=202",
+      "course_description": "Study examines how to build successful teams, various methods for influencing action, effective communication in setting and achieving goals, the importance of timing the decision, creativity in the problem solving process, and obtaining team buy-in through immediate feedback.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50863",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50863",
+          "credits": 2.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "12:50 PM - 1:40 PM",
+              "days": "TR",
+              "location": "TBA",
+              "schedule_type": "Lecture",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "247",
+      "course_combined": "MILS 247",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=247",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "248",
+      "course_combined": "MILS 248",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=248",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50864",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50864",
+          "credits": 2.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TWF",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "301",
+      "course_combined": "MILS 301",
+      "title": "Leadership and Problem Solving",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=301",
+      "course_description": "Students conduct self-assessment of leadership style, develop personal fitness regimen, and learn to plan and conduct individual/ small unit tactical training while testing reason and problem-solving techniques. Students receive direct feedback on leadership abilities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "302",
+      "course_combined": "MILS 302",
+      "title": "Leadership and Ethics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=302",
+      "course_description": "Examines the role communications, values, and ethics play in effective leadership. Topics include ethical decision-making, consideration of others, spirituality in the military, and survey Army leadership doctrine. Emphasis on improving oral and written communication abilities.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MILS 301 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50692",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50692",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "7:50 AM - 10:45 AM",
+              "days": "T",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 20,
+            "actual": 0,
+            "remaining": 20,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "347",
+      "course_combined": "MILS 347",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=347",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "348",
+      "course_combined": "MILS 348",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=348",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50865",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50865",
+          "credits": 2.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TWF",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "350",
+      "course_combined": "MILS 350",
+      "title": "Military Civil and Public Affairs",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=350",
+      "course_description": "This course is an expansion of Military Presence in towns, villages, and cities where it would be necessary for a military government to assume responsibilities for the administration of the government functions. An added feature of the course would be the development of positive relationships with civilians and government officials. The preparation of news and information releases and related operations.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "394",
+      "course_combined": "MILS 394",
+      "title": "Advanced Military Topics",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=394",
+      "course_description": "Approval of the department. Study of advanced topics in military science. A practical laboratory is required. May be repeated if topics vary. Students may register in more than one section per term.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "399",
+      "course_combined": "MILS 399",
+      "title": "Advanced Independent Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=399",
+      "course_description": "Approval of the department. Intensive research and study of selected topics. A practical laboratory is required. May be repeated to maximum of 6 hours if topics vary. Students may register in more than one section per term.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "401",
+      "course_combined": "MILS 401",
+      "title": "Leadership and Management",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=401",
+      "course_description": "Develops student proficiency in planning and executing complex operations, functioning as a member of a staff, and mentoring subordinates. Students explore training management, methods of effective staff collaboration, and developmental counseling techniques.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "402",
+      "course_combined": "MILS 402",
+      "title": "Officership",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=402",
+      "course_description": "Study includes case study analysis of military law and practical exercises on establishing an ethical command climate. Students must complete a semester long Senior Leadership Project that requires them to plan, organize, collaborate, analyze, and demonstrate their leadership skills.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Communications Requirement, Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "Prerequisite required",
+      "general_requirements": "Course or Test: MILS 301 Minimum Grade of D May not be taken concurrently. and Course or Test: MILS 302 Minimum Grade of D May not be taken concurrently. and Course or Test: MILS 401 Minimum Grade of D May not be taken concurrently.",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50695",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50695",
+          "credits": 3.0,
+          "schedule_type": "Lecture/Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "7:50 AM - 10:45 AM",
+              "days": "F",
+              "location": "TBA",
+              "schedule_type": "Lecture/Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 10,
+            "actual": 0,
+            "remaining": 10,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "447",
+      "course_combined": "MILS 447",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=447",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "448",
+      "course_combined": "MILS 448",
+      "title": "Aerobic Conditioning",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=448",
+      "course_description": "Participation in aerobic exercise program; evaluation of the level of cardiovascular fitness.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "Graduate Business, Graduate, Undergraduate",
+      "attributes": "Standard Tuition Rate",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": [
+        {
+          "section": "01",
+          "section_name": "",
+          "crn": "50709",
+          "section_url": "https://ssb.iit.edu/bnrprd/bwckschd.p_disp_detail_sched?term_in=202720&crn_in=50709",
+          "credits": 2.0,
+          "schedule_type": "Lab",
+          "campus": "Mies Campus",
+          "notes": "",
+          "meetings": [
+            {
+              "type": "Class",
+              "time": "6:15 AM - 7:15 AM",
+              "days": "TWF",
+              "location": "TBA",
+              "schedule_type": "Lab",
+              "instructors": [
+                {
+                  "name": "Andre Hernandez",
+                  "email": "ahernandez46@illinoistech.edu",
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "availability": {
+            "capacity": 15,
+            "actual": 0,
+            "remaining": 15,
+            "waitlist_capacity": 0,
+            "waitlist_actual": 0,
+            "waitlist_remaining": 0
+          }
+        }
+      ]
+    },
+    {
+      "course_code": "MILS",
+      "course_num": "499",
+      "course_combined": "MILS 499",
+      "title": "Advanced Independent Research",
+      "catalog_entry_url": "https://ssb.iit.edu/bnrprd/bwckctlg.p_disp_course_detail?cat_term_in=202720&subj_code_in=MILS&crse_numb_in=499",
+      "course_description": "Intensive research and study of selected topics. May be repeated for a maximum of six credit hours. A practical laboratory is required for Army ROTC cadets.",
+      "learning_objectives": "",
+      "catalog_syllabus_url": "",
+      "levels": "",
+      "attributes": "",
+      "restrictions": "",
+      "prerequisites": "",
+      "general_requirements": "",
+      "mutual_exclusions": "",
+      "sections": []
+    }
+  ]
+}
