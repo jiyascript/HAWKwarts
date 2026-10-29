@@ -24,3 +24,6 @@ __pycache__/
 *.njsproj
 *.sln
 *.sw?
+
+# Generated student scheduling results
+backend/scheduler/results/

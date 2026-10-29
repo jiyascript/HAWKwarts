@@ -1,4 +1,5 @@
 import processscheduler as ps
+import z3
 import argparse
 import json
 import sys
@@ -67,6 +68,37 @@ SEMESTER_NAMES = {
     1: "Spring 2027",
 }
 
+# =========================================================
+# Existing In-Progress Semester Credits
+# =========================================================
+
+existing_semester_credits = {
+    semester: 0
+    for semester in SEMESTER_NAMES
+}
+
+for course in history["in_progress_courses"]:
+    course_term = course.get("term")
+    course_credits = course.get("credits")
+
+    if course_credits is None:
+        raise ValueError(
+            f"Missing credits for in-progress course {course['code']}"
+        )
+
+    for semester, term_name in SEMESTER_NAMES.items():
+        if course_term == term_name:
+            existing_semester_credits[semester] += course_credits
+
+print("\nExisting Semester Credit Loads")
+print("==============================")
+
+for semester, term_name in SEMESTER_NAMES.items():
+    print(
+        f"{term_name}: "
+        f"{existing_semester_credits[semester]} credits"
+    )
+
 print("\nHAWKwarts Course Catalog Loaded")
 print("================================")
 
@@ -97,8 +129,8 @@ MAX_CREDITS_PER_SEMESTER = 12
 # These are demonstration requirements, not a verified
 # Illinois Tech degree audit.
 COURSE_REQUIREMENTS = [
-    "CS 512",
     "CS 513",
+    "CS 514",
     "CS 525",
 ]
 
@@ -171,35 +203,6 @@ for code in unavailable_codes:
 
 
 # =========================================================
-# Find Available CS Courses for Testing
-# =========================================================
-
-print("\nAvailable CS Courses for Testing")
-print("================================")
-
-test_candidates = []
-
-for code in sorted({
-    code
-    for term, code in adapter.catalog.courses
-    if code.startswith("CS ")
-}):
-    if code in completed_codes or code in in_progress_codes:
-        continue
-
-    offered = adapter.offered_terms(code)
-
-    if offered:
-        test_candidates.append(code)
-
-for code in test_candidates[:20]:
-    print(
-        f"{code}: "
-        f"{adapter.offered_terms(code)}"
-    )
-
-
-# =========================================================
 # Handle Empty Scheduling Problem
 # =========================================================
 
@@ -220,38 +223,23 @@ if not remaining_codes:
 
     sys.exit(0)
 
-# ---------------------------------------------------------
-# 4. Semester Credit Capacity
-# ---------------------------------------------------------
-
-semester_capacity = ps.CumulativeWorker(
-    name="Semester_Credit_Capacity",
-    size=MAX_CREDITS_PER_SEMESTER
-)
 
 # =========================================================
-# 5. Create Remaining Course Tasks
+# 4. Create Remaining Course Tasks
 # =========================================================
 
 remaining_courses = {}
 
 for code in remaining_codes:
-
     task = ps.FixedDurationTask(
         name=code.replace(" ", "_"),
         duration=1
     )
 
-    credits = COURSE_CREDITS[code]
-
-    # Reserve one unit of capacity for each credit.
-    for _ in range(credits):
-        task.add_required_resource(semester_capacity)
-
     remaining_courses[code] = task
 
 # =========================================================
-# 6. Prerequisite Constraints
+# 5. Prerequisite Constraints
 # =========================================================
 
 for course_code, prerequisites in PREREQUISITES.items():
@@ -286,7 +274,7 @@ for course_code, prerequisites in PREREQUISITES.items():
 
 
 # =========================================================
-# 8. Two-Semester Scheduling Window
+# 6. Two-Semester Scheduling Window
 # =========================================================
 
 for code, task in remaining_courses.items():
@@ -313,9 +301,35 @@ for code, task in remaining_courses.items():
             value=offered_indices[0]
         )
 
+# =========================================================
+# 7. Semester Credit Capacity Constraints
+# =========================================================
+
+for semester in SEMESTER_NAMES:
+
+    newly_scheduled_credits = z3.Sum([
+        z3.If(
+            task._start == semester,
+            COURSE_CREDITS[code],
+            0
+        )
+        for code, task in remaining_courses.items()
+    ])
+
+    total_semester_credits = (
+        newly_scheduled_credits
+        + existing_semester_credits[semester]
+    )
+
+    ps.ConstraintFromExpression(
+        name=f"Semester_{semester}_Credit_Limit",
+        expression=(
+            total_semester_credits <= MAX_CREDITS_PER_SEMESTER
+        )
+    )
 
 # ---------------------------------------------------------
-# 9. Solve Scheduling Problem
+# 8. Solve Scheduling Problem
 # ---------------------------------------------------------
 
 solver = ps.SchedulingSolver(
@@ -326,7 +340,7 @@ solution = solver.solve()
 
 
 # ---------------------------------------------------------
-# 10. Handle Unsatisfiable Schedule
+# 9. Handle Unsatisfiable Schedule
 # ---------------------------------------------------------
 
 if not solution:
@@ -340,7 +354,7 @@ if not solution:
 
 
 # ---------------------------------------------------------
-# 11. Semester Mapping
+# 10. Semester Mapping
 # ---------------------------------------------------------
 #
 # Convert ProcessScheduler's integer time positions into
@@ -357,9 +371,8 @@ semester_courses = {
     1: [],
 }
 
-
 # ---------------------------------------------------------
-# 12. Extract Solver Results
+# 11. Extract Solver Results
 # ---------------------------------------------------------
 
 for course_name, task_solution in solution.tasks.items():
@@ -371,7 +384,7 @@ for course_name, task_solution in solution.tasks.items():
 
 
 # ---------------------------------------------------------
-# 13. Presentation-Friendly Output
+# 12. Presentation-Friendly Output
 # ---------------------------------------------------------
 
 print("\nCompleted / Transfer Courses")
@@ -409,7 +422,7 @@ for semester_number, semester_name in SEMESTER_NAMES.items():
 
 
 # ---------------------------------------------------------
-# 14. Summary
+# 13. Summary
 # ---------------------------------------------------------
 
 total_remaining_credits = sum(
@@ -430,8 +443,113 @@ print(
     f"{MAX_CREDITS_PER_SEMESTER}"
 )
 
-print("POC prerequisite constraints applied: ✓")
+print(
+    "POC prerequisite constraints applied:",
+    "✓" if PREREQUISITES else "None (demo only)"
+)
 print("In-progress prerequisites assumed completed before planning.")
-print("Newly scheduled course credit limits satisfied: ✓")
-print("Existing in-progress credit loads not yet included.")
+print("Combined existing and newly scheduled credit limits satisfied: ✓")
+print("Existing in-progress semester credits included.")
 print("Catalog prerequisite validation not yet implemented.")
+
+# =========================================================
+# 14. Export Semester Plan to JSON
+# =========================================================
+
+def export_schedule_json(
+    semester_courses,
+    existing_courses,
+    course_credits,
+    semester_names,
+    max_credits,
+    output_path
+):
+    semesters = []
+
+    for semester_index, semester_name in semester_names.items():
+
+        # Courses already registered for this semester.
+        enrolled = [
+            {
+                "code": course["code"],
+                "title": course.get("title"),
+                "credits": course["credits"],
+                "status": "in_progress"
+            }
+            for course in existing_courses
+            if course.get("term") == semester_name
+        ]
+
+        # Courses assigned by the scheduler.
+        planned = []
+
+        for task_name in semester_courses[semester_index]:
+            code = task_name.replace("_", " ")
+
+            planned.append({
+                "code": code,
+                "credits": course_credits[code],
+                "status": "planned"
+            })
+
+        existing_credits = sum(
+            course["credits"] for course in enrolled
+        )
+
+        planned_credits = sum(
+            course["credits"] for course in planned
+        )
+
+        semesters.append({
+            "term": semester_name,
+            "existing_courses": enrolled,
+            "planned_courses": planned,
+            "existing_credits": existing_credits,
+            "planned_credits": planned_credits,
+            "total_credits": existing_credits + planned_credits,
+            "max_credits": max_credits,
+            "remaining_capacity": (
+                max_credits - existing_credits - planned_credits
+            )
+        })
+
+    output = {
+        "schema_version": "1.0",
+        "status": "success",
+        "semesters": semesters,
+        "total_planned_credits": sum(
+            semester["planned_credits"]
+            for semester in semesters
+        ),
+        "notes": [
+            "This is a demonstration schedule, not a verified degree audit.",
+            "Catalog prerequisites and section time conflicts are not yet validated.",
+            "In-progress courses are included in semester credit limits."
+        ]
+    }
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with output_path.open("w", encoding="utf-8") as file:
+        json.dump(output, file, indent=2)
+
+    return output_path
+
+
+# =========================================================
+# 15. Generate JSON Output
+# =========================================================
+
+OUTPUT_PATH = BACKEND_DIR / "scheduler" / "results" / "schedule.json"
+
+saved_path = export_schedule_json(
+    semester_courses=semester_courses,
+    existing_courses=history["in_progress_courses"],
+    course_credits=COURSE_CREDITS,
+    semester_names=SEMESTER_NAMES,
+    max_credits=MAX_CREDITS_PER_SEMESTER,
+    output_path=OUTPUT_PATH
+)
+
+print(f"\nSchedule JSON exported to: {saved_path}")
