@@ -27,3 +27,11 @@ __pycache__/
 
 # Generated student scheduling results
 backend/scheduler/results/
+
+# Python virtual environments
+.venv/
+
+# Local student transcript data
+backend/transcript/results.json
+backend/transcript/manual_results.json
+backend/Sample Unofficial Transcript.pdf
