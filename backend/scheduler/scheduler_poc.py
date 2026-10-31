@@ -5,12 +5,159 @@ import json
 import sys
 from pathlib import Path
 
-# Allow the scheduler to import the shared validator.
 BACKEND_DIR = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(BACKEND_DIR / "transcript"))
 
-from transcript_validator import validate_academic_history
-from catalog_adapter import CatalogAdapter
+from backend.transcript.transcript_validator import validate_academic_history
+from backend.scheduler.catalog_adapter import CatalogAdapter
+from backend.scheduler.prerequisite_constraints import build_prerequisite_constraint
+from backend.scheduler.prerequisite_expression import parse_expression
+from backend.scheduler.prerequisite_parser import (
+    parse_prerequisites,
+    extract_prerequisite_details,
+)
+
+from backend.scheduler.credit_policy import get_credit_policy
+
+def get_banner_course(course_code, semester_name):
+    """
+    Retrieve a course's Banner record for a specific semester.
+
+    Returns None if the course is not present in that catalog.
+    """
+
+    catalog_path = (
+        Path(__file__).resolve().parents[2]
+        / "banner_scraper"
+        / "cleaned_data"
+        / semester_name
+        / "scheduling.json"
+    )
+
+    with catalog_path.open("r", encoding="utf-8") as file:
+        catalog = json.load(file)
+
+    for course in catalog["courses"]:
+        if course["course_id"] == course_code:
+            return course
+
+    return None
+
+# =========================================================
+# Export Unsuccessful Scheduling Results
+# =========================================================
+
+def export_failure_json(
+    output_path,
+    status,
+    message,
+    candidate_courses,
+    unavailable_courses
+):
+    output = {
+        "schema_version": "1.0",
+        "status": status,
+        "message": message,
+        "candidate_courses": candidate_courses,
+        "unavailable_courses": unavailable_courses,
+        "semesters": [],
+        "total_planned_credits": 0,
+        "notes": [
+            "No valid semester plan was generated.",
+            "The schedule is a demonstration, not a verified degree audit."
+        ]
+    }
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with output_path.open("w", encoding="utf-8") as file:
+        json.dump(output, file, indent=2)
+
+    return output_path
+
+# =========================================================
+# Export Semester Plan to JSON
+# =========================================================
+
+def export_schedule_json(
+    semester_courses,
+    existing_courses,
+    course_credits,
+    semester_names,
+    max_credits,
+    output_path
+):
+    semesters = []
+
+    for semester_index, semester_name in semester_names.items():
+
+        # Courses already registered for this semester.
+        enrolled = [
+            {
+                "code": course["code"],
+                "title": course.get("title"),
+                "credits": course["credits"],
+                "status": "in_progress"
+            }
+            for course in existing_courses
+            if course.get("term") == semester_name
+        ]
+
+        # Courses assigned by the scheduler.
+        planned = []
+
+        for task_name in semester_courses[semester_index]:
+            code = task_name.replace("_", " ")
+
+            planned.append({
+                "code": code,
+                "credits": course_credits[code],
+                "status": "planned"
+            })
+
+        existing_credits = sum(
+            course["credits"] for course in enrolled
+        )
+
+        planned_credits = sum(
+            course["credits"] for course in planned
+        )
+
+        semesters.append({
+            "term": semester_name,
+            "existing_courses": enrolled,
+            "planned_courses": planned,
+            "existing_credits": existing_credits,
+            "planned_credits": planned_credits,
+            "total_credits": existing_credits + planned_credits,
+            "max_credits": max_credits,
+            "remaining_capacity": (
+                max_credits - existing_credits - planned_credits
+            )
+        })
+
+    output = {
+        "schema_version": "1.0",
+        "status": "success",
+        "semesters": semesters,
+        "total_planned_credits": sum(
+            semester["planned_credits"]
+            for semester in semesters
+        ),
+        "notes": [
+            "This is a demonstration schedule, not a verified degree audit.",
+            "Catalog prerequisites and section time conflicts are not yet validated.",
+            "In-progress courses are included in semester credit limits."
+        ]
+    }
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with output_path.open("w", encoding="utf-8") as file:
+        json.dump(output, file, indent=2)
+
+    return output_path
 
 # =========================================================
 # 1. Load Student Academic History
@@ -68,6 +215,8 @@ SEMESTER_NAMES = {
     1: "Spring 2027",
 }
 
+OUTPUT_PATH = BACKEND_DIR / "scheduler" / "results" / "schedule.json"
+
 # =========================================================
 # Existing In-Progress Semester Credits
 # =========================================================
@@ -119,8 +268,26 @@ problem = ps.SchedulingProblem(
 # =========================================================
 
 CREDITS_PER_COURSE = 3
-MAX_CREDITS_PER_SEMESTER = 12
 
+# Student academic enrollment configuration
+ACADEMIC_LEVEL = "undergraduate"
+ENROLLMENT_STATUS = "full_time"
+
+# Load the applicable academic credit policy
+credit_policy = get_credit_policy(
+    ACADEMIC_LEVEL,
+    ENROLLMENT_STATUS,
+)
+
+MIN_CREDITS_PER_SEMESTER = credit_policy["minimum"]
+MAX_CREDITS_PER_SEMESTER = credit_policy["maximum"]
+
+print("\nHAWKwarts Academic Credit Policy")
+print("================================")
+print(f"Academic level: {ACADEMIC_LEVEL}")
+print(f"Enrollment status: {ENROLLMENT_STATUS}")
+print(f"Enrollment minimum: {MIN_CREDITS_PER_SEMESTER}")
+print(f"Maximum semester credits: {MAX_CREDITS_PER_SEMESTER}")
 
 # =========================================================
 # 3. POC Course Requirements
@@ -129,8 +296,8 @@ MAX_CREDITS_PER_SEMESTER = 12
 # These are demonstration requirements, not a verified
 # Illinois Tech degree audit.
 COURSE_REQUIREMENTS = [
+    "CS 512",
     "CS 513",
-    "CS 514",
     "CS 525",
 ]
 
@@ -221,6 +388,19 @@ if not remaining_codes:
     print("\nNOTE: This does not mean all degree requirements are met.")
     print("A verified degree audit is still required.")
 
+    saved_path = export_failure_json(
+        output_path=OUTPUT_PATH,
+        status="no_schedulable_courses",
+        message=(
+            "No remaining courses are available "
+            "for scheduling in the selected semesters."
+        ),
+        candidate_courses=candidate_codes,
+        unavailable_courses=unavailable_codes
+    )
+
+    print(f"\nSchedule status JSON exported to: {saved_path}")
+
     sys.exit(0)
 
 
@@ -238,40 +418,119 @@ for code in remaining_codes:
 
     remaining_courses[code] = task
 
+
 # =========================================================
-# 5. Prerequisite Constraints
+# 5. Real Banner Prerequisite Constraints
 # =========================================================
 
-for course_code, prerequisites in PREREQUISITES.items():
+in_progress_terms = {}
 
-    if course_code not in remaining_courses:
-        continue
+for course in history["in_progress_courses"]:
+    term_name = course.get("term")
 
-    for prerequisite_code in prerequisites:
+    for term_index, semester_name in SEMESTER_NAMES.items():
+        if term_name == semester_name:
+            in_progress_terms[course["code"]] = term_index
 
-        if prerequisite_code in remaining_courses:
-            ps.TaskPrecedence(
-                task_before=remaining_courses[prerequisite_code],
-                task_after=remaining_courses[course_code]
+prerequisite_constraint_count = 0
+
+for course_code, task in remaining_courses.items():
+
+    for term_index, semester_name in SEMESTER_NAMES.items():
+
+        if not adapter.is_offered(course_code, semester_name):
+            continue
+
+        banner_course = get_banner_course(course_code, semester_name)
+
+        if banner_course is None:
+            raise ValueError(
+                f"Missing Banner record for {course_code} "
+                f"in {semester_name}"
             )
 
-        elif prerequisite_code in completed_codes:
-            # Prerequisite already completed.
-            pass
+        indicator = (
+            banner_course.get("prerequisites") or ""
+        ).strip()
 
-        elif prerequisite_code in in_progress_codes:
-            # POC assumption: the in-progress course will be
-            # successfully completed before the planning window.
-            #
-            # This must be verified before using the plan.
-            pass
+        general = (
+            banner_course.get("general_requirements") or ""
+        ).strip()
+
+        if not indicator and not general:
+            continue
+
+        parsed = parse_prerequisites(indicator, general)
+
+        details = extract_prerequisite_details(general)
+        detail_lookup = {
+            detail["code"]: detail
+            for detail in details
+        }
+
+        if general:
+            if (
+                parsed["status"] != "parsed"
+                or parsed["logic"] not in ("SINGLE", "OR")
+            ):
+                raise ValueError(
+                    f"Unsupported Banner prerequisites for "
+                    f"{course_code}: {general}"
+                )
+
+            if any(
+                code not in detail_lookup
+                for code in parsed["courses"]
+            ):
+                raise ValueError(
+                    f"Incomplete Banner prerequisite metadata "
+                    f"for {course_code}"
+                )
+
+            expression_text = " or ".join(
+                parsed["courses"]
+            )
 
         else:
-            raise ValueError(
-                f"Cannot schedule {course_code}: "
-                f"missing prerequisite {prerequisite_code}"
-            )
+            expression_text = indicator
 
+        try:
+            expression = parse_expression(expression_text)
+        except ValueError as error:
+            raise ValueError(
+                f"Cannot parse prerequisites for "
+                f"{course_code}: {expression_text}"
+            ) from error
+
+        constraint = build_prerequisite_constraint(
+            expression=expression,
+            history=history,
+            target_start=task._start,
+            scheduled_tasks=remaining_courses,
+            detail_lookup=detail_lookup,
+            in_progress_terms=in_progress_terms
+        )
+
+        # Apply this catalog rule only if the course
+        # is assigned to the corresponding semester.
+        ps.ConstraintFromExpression(
+            name=(
+                f"Prerequisite_"
+                f"{course_code.replace(' ', '_')}_"
+                f"{term_index}"
+            ),
+            expression=z3.Implies(
+                task._start == term_index,
+                constraint
+            )
+        )
+
+        prerequisite_constraint_count += 1
+
+print(
+    f"\nBanner prerequisite constraints added: "
+    f"{prerequisite_constraint_count}"
+)
 
 # =========================================================
 # 6. Two-Semester Scheduling Window
@@ -347,10 +606,26 @@ if not solution:
     print("\nHAWKwarts Degree Plan")
     print("=====================")
 
-    print("\nNo valid degree plan could be generated.")
-    print("The scheduling constraints are unsatisfiable.")
+    message = (
+        "No valid schedule satisfies all configured constraints. "
+        "Possible conflicts include semester availability, "
+        "credit limits, and Banner prerequisites. "
+        "Review the course requirements and planning window."
+    )
 
-    exit()
+    print(f"\n{message}")
+
+    saved_path = export_failure_json(
+        output_path=OUTPUT_PATH,
+        status="unsatisfiable",
+        message=message,
+        candidate_courses=candidate_codes,
+        unavailable_courses=unavailable_codes
+    )
+
+    print(f"\nFailure JSON exported to: {saved_path}")
+
+    sys.exit(0)
 
 
 # ---------------------------------------------------------
@@ -421,6 +696,52 @@ for semester_number, semester_name in SEMESTER_NAMES.items():
     print(f"\nNewly scheduled: {total_credits} credits")
 
 
+# =========================================================
+# Enrollment Status Validation
+# =========================================================
+
+print("\nEnrollment Status Validation")
+print("============================")
+
+for semester_index, semester_name in SEMESTER_NAMES.items():
+
+    existing_credits = existing_semester_credits[semester_index]
+
+    planned_credits = sum(
+        COURSE_CREDITS[course.replace("_", " ")]
+        for course in semester_courses[semester_index]
+    )
+
+    total_credits = existing_credits + planned_credits
+
+    print(f"\n{semester_name}")
+    print(f"Existing credits: {existing_credits}")
+    print(f"Planned credits: {planned_credits}")
+    print(f"Total credits: {total_credits}")
+
+    if total_credits < MIN_CREDITS_PER_SEMESTER:
+        print(
+            f"WARNING: Below the configured "
+            f"{ENROLLMENT_STATUS} enrollment minimum "
+            f"of {MIN_CREDITS_PER_SEMESTER} credits."
+        )
+        print(
+            "This may be an incomplete course plan. "
+            "Verify enrollment requirements before registration."
+        )
+
+    elif total_credits <= MAX_CREDITS_PER_SEMESTER:
+        print(
+            "✓ Credit load meets the configured "
+            "enrollment range."
+        )
+
+    else:
+        print(
+            "WARNING: Credit load exceeds the "
+            "configured semester maximum."
+        )
+
 # ---------------------------------------------------------
 # 13. Summary
 # ---------------------------------------------------------
@@ -444,104 +765,37 @@ print(
 )
 
 print(
-    "POC prerequisite constraints applied:",
-    "✓" if PREREQUISITES else "None (demo only)"
+    "Banner prerequisite constraints applied:",
+    prerequisite_constraint_count
 )
-print("In-progress prerequisites assumed completed before planning.")
-print("Combined existing and newly scheduled credit limits satisfied: ✓")
-print("Existing in-progress semester credits included.")
-print("Catalog prerequisite validation not yet implemented.")
 
-# =========================================================
-# 14. Export Semester Plan to JSON
-# =========================================================
+print(
+    "Supported Banner prerequisite expressions enforced: ✓"
+)
 
-def export_schedule_json(
-    semester_courses,
-    existing_courses,
-    course_credits,
-    semester_names,
-    max_credits,
-    output_path
-):
-    semesters = []
+print(
+    "In-progress prerequisites are conditional "
+    "on successful course completion."
+)
 
-    for semester_index, semester_name in semester_names.items():
+print(
+    "Combined existing and newly scheduled "
+    "credit limits satisfied: ✓"
+)
 
-        # Courses already registered for this semester.
-        enrolled = [
-            {
-                "code": course["code"],
-                "title": course.get("title"),
-                "credits": course["credits"],
-                "status": "in_progress"
-            }
-            for course in existing_courses
-            if course.get("term") == semester_name
-        ]
+print(
+    "Existing in-progress semester credits included: ✓"
+)
 
-        # Courses assigned by the scheduler.
-        planned = []
-
-        for task_name in semester_courses[semester_index]:
-            code = task_name.replace("_", " ")
-
-            planned.append({
-                "code": code,
-                "credits": course_credits[code],
-                "status": "planned"
-            })
-
-        existing_credits = sum(
-            course["credits"] for course in enrolled
-        )
-
-        planned_credits = sum(
-            course["credits"] for course in planned
-        )
-
-        semesters.append({
-            "term": semester_name,
-            "existing_courses": enrolled,
-            "planned_courses": planned,
-            "existing_credits": existing_credits,
-            "planned_credits": planned_credits,
-            "total_credits": existing_credits + planned_credits,
-            "max_credits": max_credits,
-            "remaining_capacity": (
-                max_credits - existing_credits - planned_credits
-            )
-        })
-
-    output = {
-        "schema_version": "1.0",
-        "status": "success",
-        "semesters": semesters,
-        "total_planned_credits": sum(
-            semester["planned_credits"]
-            for semester in semesters
-        ),
-        "notes": [
-            "This is a demonstration schedule, not a verified degree audit.",
-            "Catalog prerequisites and section time conflicts are not yet validated.",
-            "In-progress courses are included in semester credit limits."
-        ]
-    }
-
-    output_path = Path(output_path)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-
-    with output_path.open("w", encoding="utf-8") as file:
-        json.dump(output, file, indent=2)
-
-    return output_path
+print(
+    "Unsupported Banner requirements and other "
+    "registration restrictions require verification."
+)
 
 
 # =========================================================
 # 15. Generate JSON Output
 # =========================================================
-
-OUTPUT_PATH = BACKEND_DIR / "scheduler" / "results" / "schedule.json"
 
 saved_path = export_schedule_json(
     semester_courses=semester_courses,
