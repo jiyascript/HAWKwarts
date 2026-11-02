@@ -209,13 +209,6 @@ export function DegreeRoadmapPanel({
 }: {
   context: StudentContext | null
 }) {
-  const count = (status: AcademicStatus) =>
-    SAMPLE_ROADMAP.filter((course) => course.status === status).length
-  const total = SAMPLE_ROADMAP.length
-  const completed = count("completed")
-  const inProgress = count("in-progress")
-  const planned = count("planned")
-
   return (
     <article className="degree-card" aria-labelledby="degree-card-title">
       <header className="degree-card-head">
@@ -229,27 +222,6 @@ export function DegreeRoadmapPanel({
         {recordNote(context)}
       </SampleNotice>
       <CourseProgressTable courses={SAMPLE_ROADMAP} />
-      <footer className="degree-card-foot">
-        <div className="roadmap-progress" aria-hidden="true">
-          <span
-            className="roadmap-progress-done"
-            style={{ width: `${(completed / total) * 100}%` }}
-          />
-          <span
-            className="roadmap-progress-active"
-            style={{ width: `${(inProgress / total) * 100}%` }}
-          />
-        </div>
-        <p className="roadmap-summary">
-          <strong>
-            {completed} of {total} courses completed
-          </strong>
-          <span className="roadmap-summary-rest">
-            {" "}
-            · {inProgress} in progress · {planned} planned
-          </span>
-        </p>
-      </footer>
     </article>
   )
 }
@@ -338,15 +310,14 @@ export function AcademicContextPanel({
 
       <div className="ws-academic-body">
         {view === "roadmap" && <DegreeRoadmapPanel context={context} />}
-        {view === "schedule" && (
-          <>
-            <SampleNotice>
-              Sample plan for illustration — it isn’t built from your records
-              yet.
-            </SampleNotice>
-            {schedule}
-          </>
-        )}
+        {/* Stays mounted while hidden so planner edits and imports survive view switches. */}
+        <div className="ws-schedule-view" hidden={view !== "schedule"}>
+          <SampleNotice>
+            Sample plan for illustration — it isn’t built from your records
+            yet.
+          </SampleNotice>
+          {schedule}
+        </div>
         {view === "courses" && <CourseFacultyPanel onAsk={onAsk} />}
       </div>
     </>

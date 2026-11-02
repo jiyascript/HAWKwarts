@@ -458,7 +458,9 @@ function ScheduleBuilder() {
       setCompletedSems(semesters)
       setPdfStatus({
         state: "success",
-        message: `${count} completed ${count === 1 ? "course" : "courses"} imported from ${file.name}.`,
+        message: `${count} completed ${
+          count === 1 ? "course" : "courses"
+        } imported from ${file.name}.`,
       })
     } catch (error) {
       setPdfStatus({
@@ -1007,9 +1009,10 @@ export default function App() {
     setWorkspacePane("advisor")
   }
 
-  function finishOnboarding(personalized: boolean) {
+  /** Called only from the onboarding summary's "Open my workspace" action. */
+  function finishOnboarding(personalized: boolean): boolean {
     const next = buildStudentContext(answers, personalized)
-    if (!next || !beginTransition()) return
+    if (!next || !beginTransition()) return false
     saveStoredProfile(answers, personalized)
     const unchanged = sameContext(context, next)
     // Greet once; afterwards only acknowledge preferences that actually changed.
@@ -1026,6 +1029,7 @@ export default function App() {
     answersSnapshot.current = null
     prepareWorkspace(next.goal)
     void runTransition("chat", () => transformToChat("onboarding"))
+    return true
   }
 
   function continueToChat() {

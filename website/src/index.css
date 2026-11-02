@@ -1611,7 +1611,8 @@ body {
 
   .ws-academic .ws-intro,
   .ws-academic .ws-view-switch,
-  .ws-academic-body > .ws-notice {
+  .ws-academic-body > .ws-notice,
+  .ws-schedule-view > .ws-notice {
     margin-inline: 0.5rem;
   }
 

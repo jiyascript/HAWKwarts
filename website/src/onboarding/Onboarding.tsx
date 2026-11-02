@@ -15,6 +15,7 @@ import {
   MAJOR_OTHER,
   MAJOR_UNDECIDED,
   YEAR_OPTIONS,
+  buildStudentContext,
   goalOption,
   type Goal,
   type OnboardingAnswers,
@@ -31,9 +32,12 @@ import {
   validateTranscriptFile,
   type TranscriptUpload,
 } from "./transcript"
+import FeaturePreview from "./FeaturePreview"
 import "./onboarding.css"
 
 type StepId = "goal" | "major" | "year" | "transcript"
+/** The four questions, then a review state that waits for an explicit continue. */
+type Phase = "questions" | "summary"
 type ProgressState = "done" | "skipped" | "current" | "todo"
 
 const STEPS: readonly StepId[] = ["goal", "major", "year", "transcript"]
@@ -50,16 +54,16 @@ const STEP_COPY: Record<StepId, StepCopy> = {
   },
   major: {
     title: "What’s your major?",
-    subtitle: "This helps us tailor your academic guidance.",
+    subtitle: "Let’s find the academic path that fits you.",
   },
   year: {
-    title: "Where are you in your studies?",
+    title: "Where are you in your academic journey?",
     subtitle: "This helps us suggest courses at the right level.",
   },
   transcript: {
-    title: "Would you like to upload your transcript?",
+    title: "Make your guidance more personal.",
     subtitle:
-      "Your completed courses can help us personalize your schedule or graduation plan. You can also continue without uploading.",
+      "A transcript can help connect your course history to planning. It’s optional — you can continue without one.",
   },
 }
 
@@ -72,7 +76,8 @@ export interface OnboardingProps {
   origin: "landing" | "chat"
   answers: OnboardingAnswers
   setAnswers: Dispatch<SetStateAction<OnboardingAnswers>>
-  onFinish: (personalized: boolean) => void
+  /** Starts the hat-to-bird transition; returns false if it could not start. */
+  onFinish: (personalized: boolean) => boolean
   onExit: () => void
 }
 
@@ -89,14 +94,18 @@ export default function Onboarding({
 }: OnboardingProps) {
   const [stepIndex, setStepIndex] = useState(0)
   const [direction, setDirection] = useState<"forward" | "back">("forward")
+  const [phase, setPhase] = useState<Phase>("questions")
+  const [summaryPersonalized, setSummaryPersonalized] = useState(true)
+  // Synchronous guard so repeated clicks on "Open my workspace" start one transition.
+  const openingRef = useRef(false)
   const headingRef = useRef<HTMLHeadingElement>(null)
   const scrollRef = useRef<HTMLDivElement>(null)
   const hatImgRef = useRef<HTMLImageElement>(null)
   const uploadRef = useRef<TranscriptUpload | null>(null)
 
   const step = STEPS[stepIndex]
+  const inSummary = phase === "summary"
   const { goal, transcript } = answers
-  const profileOptional = goal === "courses"
   const isLast = stepIndex === STEPS.length - 1
 
   const answered: Record<StepId, boolean> = {
@@ -114,23 +123,28 @@ export default function Onboarding({
         transcript.uploadStatus === "uploaded"),
   }
   const canContinue = answered[step]
-  const canSkipStep = profileOptional && (step === "major" || step === "year")
+  // Major and year are optional for every goal; skipped answers stay out of the context.
+  const canSkipStep = step === "major" || step === "year"
   const stepOptional = canSkipStep || step === "transcript"
-  const hint = canContinue ? null : hintFor(step, answers, profileOptional)
-  const progress: ProgressState[] = STEPS.map((id, i) =>
-    i === stepIndex
+  const hint = canContinue || inSummary ? null : hintFor(step, answers)
+  const progress: ProgressState[] = STEPS.map((id, i) => {
+    if (inSummary)
+      return answered[id] && (summaryPersonalized || id === "goal")
+        ? "done"
+        : "skipped"
+    return i === stepIndex
       ? "current"
       : i > stepIndex
         ? "todo"
         : answered[id]
           ? "done"
-          : "skipped",
-  )
+          : "skipped"
+  })
 
-  // Move focus to each new question for keyboard and screen-reader users.
+  // Move focus to each new question (and the summary) for keyboard and screen-reader users.
   useEffect(() => {
     if (active) headingRef.current?.focus({ preventScroll: true })
-  }, [active, stepIndex])
+  }, [active, stepIndex, phase])
 
   // Leaving mid-upload: stop reading and drop the unfinished upload state so a
   // late result can never land in answers that were since saved or reverted.
@@ -307,7 +321,7 @@ export default function Onboarding({
 
   function handleContinue() {
     if (!active || !canContinue) return
-    if (isLast) onFinish(true)
+    if (isLast) enterSummary(true)
     else goTo(stepIndex + 1, "forward")
   }
 
@@ -319,11 +333,38 @@ export default function Onboarding({
   }
 
   function skipPersonalization() {
-    if (active && goal === "courses") onFinish(false)
+    if (active && goal === "courses") enterSummary(false)
   }
 
-  const copy = STEP_COPY[step]
+  /** Every completion path lands here and stops; only the summary opens the workspace. */
+  function enterSummary(personalized: boolean) {
+    setSummaryPersonalized(personalized)
+    setDirection("forward")
+    setPhase("summary")
+    scrollRef.current?.scrollTo({ top: 0 })
+    nod()
+  }
+
+  function editAnswers() {
+    if (!active) return
+    setPhase("questions")
+    goTo(0, "back")
+  }
+
+  function openWorkspace() {
+    if (!active || openingRef.current) return
+    openingRef.current = true
+    if (!onFinish(summaryPersonalized)) openingRef.current = false
+  }
+
+  const copy = inSummary
+    ? {
+        title: "Your journey starts here.",
+        subtitle: "Here’s where we’ll begin.",
+      }
+    : STEP_COPY[step]
   const pathTitle = goal ? goalOption(goal).title : null
+  const sectionKey = inSummary ? "summary" : step
 
   return (
     // Swallow stray file drops so the browser doesn't navigate away from the app.
@@ -345,23 +386,29 @@ export default function Onboarding({
           </ol>
           <p className="ob-progress-caption">
             <span>
-              Step {stepIndex + 1} of {STEPS.length}
+              {inSummary
+                ? "Ready to begin"
+                : `Step ${stepIndex + 1} of ${STEPS.length}`}
             </span>
-            {pathTitle && stepIndex > 0 && (
+            {pathTitle && stepIndex > 0 && !inSummary && (
               <>
                 <span className="ob-dot" aria-hidden="true" />
                 <span className="ob-progress-path">{pathTitle}</span>
               </>
             )}
-            {stepOptional && <span className="ob-tag">Optional</span>}
+            {stepOptional && !inSummary && (
+              <span className="ob-tag">Optional</span>
+            )}
           </p>
         </div>
       </div>
 
       <div className="ob-scroll" ref={scrollRef}>
         <section
-          key={step}
-          className={`ob-step${direction === "back" ? " is-back" : ""}`}
+          key={sectionKey}
+          className={`ob-step${direction === "back" ? " is-back" : ""}${
+            sectionKey === "goal" ? "" : " is-split"
+          }`}
           aria-labelledby="ob-step-title"
         >
           <h1
@@ -375,86 +422,130 @@ export default function Onboarding({
           <p className="ob-sub">{copy.subtitle}</p>
 
           <div className="ob-content">
-            {step === "goal" && (
-              <GoalStep
-                value={goal}
-                onSelect={(value) => select({ goal: value })}
-              />
-            )}
-            {step === "major" && (
-              <MajorStep
-                value={answers.major}
-                other={answers.majorOther}
-                onSelect={(value) => select({ major: value })}
-                onOtherChange={(text) => update({ majorOther: text })}
-              />
-            )}
-            {step === "year" && (
-              <YearStep
-                value={answers.year}
-                other={answers.yearOther}
-                onSelect={(value) => select({ year: value })}
-                onOtherChange={(text) => update({ yearOther: text })}
-              />
-            )}
-            {step === "transcript" && (
-              <TranscriptStep
-                transcript={transcript}
-                active={active}
-                onChoose={chooseTranscript}
-                onFile={selectFile}
-                onRemove={removeFile}
-                onConsent={setConsent}
-                onUpload={startUpload}
-              />
+            {sectionKey === "goal" ? (
+              <>
+                <GoalStep
+                  value={goal}
+                  onSelect={(value) => select({ goal: value })}
+                />
+                <div className="ob-goal-preview">
+                  <FeaturePreview goal={goal} />
+                </div>
+              </>
+            ) : (
+              // Steps 2–4 and the summary: controls on the left, the same preview on the right.
+              <div className="ob-split">
+                <div className="ob-split-main">
+                  {inSummary && (
+                    <SummaryCard
+                      answers={answers}
+                      personalized={summaryPersonalized}
+                    />
+                  )}
+                  {!inSummary && step === "major" && (
+                    <MajorStep
+                      goal={goal}
+                      value={answers.major}
+                      other={answers.majorOther}
+                      onSelect={(value) => select({ major: value })}
+                      onOtherChange={(text) => update({ majorOther: text })}
+                    />
+                  )}
+                  {!inSummary && step === "year" && (
+                    <YearStep
+                      value={answers.year}
+                      other={answers.yearOther}
+                      onSelect={(value) => select({ year: value })}
+                      onOtherChange={(text) => update({ yearOther: text })}
+                    />
+                  )}
+                  {!inSummary && step === "transcript" && (
+                    <TranscriptStep
+                      transcript={transcript}
+                      active={active}
+                      onChoose={chooseTranscript}
+                      onFile={selectFile}
+                      onRemove={removeFile}
+                      onConsent={setConsent}
+                      onUpload={startUpload}
+                    />
+                  )}
+                </div>
+                <div className="ob-split-preview">
+                  <FeaturePreview goal={goal} compact />
+                </div>
+              </div>
             )}
           </div>
         </section>
       </div>
 
       <footer className="ob-footer">
-        <div className="ob-footer-inner">
-          <button
-            type="button"
-            className="ob-back"
-            onClick={handleBack}
-            disabled={!active}
-          >
-            <ArrowLeftIcon />
-            {stepIndex === 0 && origin === "chat" ? "Back to chat" : "Back"}
-          </button>
-          <span className="ob-footer-spacer" />
-          {hint && <span className="ob-hint">{hint}</span>}
-          {step === "goal" && goal === "courses" && (
+        {inSummary ? (
+          <div className="ob-footer-inner ob-footer-summary">
             <button
               type="button"
               className="ob-secondary"
-              onClick={skipPersonalization}
+              onClick={editAnswers}
               disabled={!active}
             >
-              Skip personalization and start chatting
+              Edit my answers
             </button>
-          )}
-          {canSkipStep && (
+            <span className="ob-footer-spacer" />
             <button
               type="button"
-              className="ob-secondary"
-              onClick={skipStep}
+              className="ob-primary"
+              onClick={openWorkspace}
               disabled={!active}
             >
-              Skip this question
+              Open my workspace
+              <ArrowRightIcon />
             </button>
-          )}
-          <button
-            type="button"
-            className="ob-primary"
-            onClick={handleContinue}
-            disabled={!active || !canContinue}
-          >
-            {isLast ? "Start chatting" : "Continue"}
-            <ArrowRightIcon />
-          </button>
-        </div>
+          </div>
+        ) : (
+          <div className="ob-footer-inner">
+            <button
+              type="button"
+              className="ob-back"
+              onClick={handleBack}
+              disabled={!active}
+            >
+              <ArrowLeftIcon />
+              {stepIndex === 0 && origin === "chat" ? "Back to chat" : "Back"}
+            </button>
+            <span className="ob-footer-spacer" />
+            {hint && <span className="ob-hint">{hint}</span>}
+            {step === "goal" && goal === "courses" && (
+              <button
+                type="button"
+                className="ob-secondary"
+                onClick={skipPersonalization}
+                disabled={!active}
+              >
+                Skip personalization
+              </button>
+            )}
+            {canSkipStep && (
+              <button
+                type="button"
+                className="ob-secondary"
+                onClick={skipStep}
+                disabled={!active}
+              >
+                Skip this question
+              </button>
+            )}
+            <button
+              type="button"
+              className="ob-primary"
+              onClick={handleContinue}
+              disabled={!active || !canContinue}
+            >
+              {isLast ? "Review my choices" : "Continue"}
+              <ArrowRightIcon />
+            </button>
+          </div>
+        )}
       </footer>
     </div>
   )
@@ -464,25 +555,17 @@ function preventDefault(event: DragEvent) {
   event.preventDefault()
 }
 
-function hintFor(
-  step: StepId,
-  answers: OnboardingAnswers,
-  profileOptional: boolean,
-): string {
+function hintFor(step: StepId, answers: OnboardingAnswers): string {
   switch (step) {
     case "goal":
       return "Choose a starting point to continue."
     case "major":
       if (answers.major === MAJOR_OTHER) return "Enter your major to continue."
-      return profileOptional
-        ? "Choose a major, or skip this question."
-        : "Choose a major. Undecided is fine."
+      return "Choose a major, or skip this question."
     case "year":
       if (answers.year === "other")
         return "Add a short description to continue."
-      return profileOptional
-        ? "Choose an option, or skip this question."
-        : "Choose where you are to continue."
+      return "Choose an option, or skip this question."
     case "transcript":
       if (answers.transcript.choice !== "upload")
         return "Choose an option to finish."
@@ -527,13 +610,51 @@ function GoalStep({
 }
 
 interface MajorStepProps {
+  goal: Goal | null
   value: string | null
   other: string
   onSelect: (major: string) => void
   onOtherChange: (text: string) => void
 }
 
-function MajorStep({ value, other, onSelect, onOtherChange }: MajorStepProps) {
+/** One short, goal-aware line that echoes the exact program the student picked. */
+function majorResponse(
+  goal: Goal | null,
+  value: string | null,
+  other: string,
+): string | null {
+  if (value === MAJOR_UNDECIDED) {
+    switch (goal) {
+      case "roadmap":
+        return "Explore how degree requirements work while you decide on a major."
+      case "schedule":
+        return "Plan a semester while you explore your options."
+      default:
+        return "Explore courses and faculty across programs while you decide."
+    }
+  }
+  const major = value === MAJOR_OTHER ? other.trim() : value
+  if (!major)
+    return value === MAJOR_OTHER
+      ? "Add your major if you’d like — your workspace works without one."
+      : null
+  switch (goal) {
+    case "roadmap":
+      return `Explore degree requirements and course planning for ${major}.`
+    case "schedule":
+      return `Plan semester schedules around courses for ${major}.`
+    default:
+      return `Explore courses, prerequisites, and faculty related to ${major}.`
+  }
+}
+
+function MajorStep({
+  goal,
+  value,
+  other,
+  onSelect,
+  onOtherChange,
+}: MajorStepProps) {
   const [query, setQuery] = useState("")
   const listRef = useRef<HTMLDivElement>(null)
   const otherRef = useRef<HTMLInputElement>(null)
@@ -577,6 +698,7 @@ function MajorStep({ value, other, onSelect, onOtherChange }: MajorStepProps) {
   }
 
   const trimmed = query.trim()
+  const response = majorResponse(goal, value, other)
 
   return (
     <div className="ob-major">
@@ -677,6 +799,15 @@ function MajorStep({ value, other, onSelect, onOtherChange }: MajorStepProps) {
           />
         </label>
       )}
+
+      <p className="ob-response" aria-live="polite">
+        {response && (
+          <>
+            <SparkIcon />
+            <span>{response}</span>
+          </>
+        )}
+      </p>
     </div>
   )
 }
@@ -726,6 +857,71 @@ function YearStep({ value, other, onSelect, onOtherChange }: YearStepProps) {
           />
         </label>
       )}
+
+      <StageIndicator value={value} other={other} />
+    </div>
+  )
+}
+
+interface StageNode {
+  id: YearId
+  label: string
+}
+
+const UNDERGRAD_STAGES: StageNode[] = [
+  { id: "y1", label: "1st" },
+  { id: "y2", label: "2nd" },
+  { id: "y3", label: "3rd" },
+  { id: "y4", label: "4th" },
+  { id: "y5plus", label: "5th+" },
+]
+
+/**
+ * Self-reported stage only: highlights the chosen year without filling earlier
+ * years, so it never reads as degree completion.
+ */
+function StageIndicator({
+  value,
+  other,
+}: {
+  value: YearId | null
+  other: string
+}) {
+  const undergrad = UNDERGRAD_STAGES.some((stage) => stage.id === value)
+  const label =
+    value === "other"
+      ? other.trim() || null
+      : (YEAR_OPTIONS.find((option) => option.id === value)?.label ?? null)
+
+  return (
+    <div className="ob-stage">
+      <span className="ob-stage-title">Academic stage</span>
+      {value === null || undergrad ? (
+        <ol className="ob-stage-track" aria-hidden="true">
+          {UNDERGRAD_STAGES.map((stage) => (
+            <li
+              key={stage.id}
+              className={`ob-stage-node${
+                value === stage.id ? " is-selected" : ""
+              }`}
+            >
+              <span className="ob-stage-dot" />
+              <span className="ob-stage-label">{stage.label}</span>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <span className="ob-stage-chip" aria-hidden="true">
+          {label ?? "Other"}
+        </span>
+      )}
+      <p className="ob-stage-caption" aria-live="polite">
+        {label
+          ? `Your selected stage: ${label}. Self-reported — not degree progress.`
+          : value === "other"
+            ? "Describe your stage if you’d like — this question is optional."
+            : "No stage selected — this question is optional."}
+      </p>
     </div>
   )
 }
@@ -792,6 +988,18 @@ function TranscriptStep({
 
   return (
     <div className="ob-transcript">
+      <ol className="ob-flow" aria-label="How a transcript can help">
+        <li>Transcript</li>
+        <li aria-hidden="true" className="ob-flow-arrow">
+          <ArrowRightIcon />
+        </li>
+        <li>Course History</li>
+        <li aria-hidden="true" className="ob-flow-arrow">
+          <ArrowRightIcon />
+        </li>
+        <li>Academic Planning</li>
+      </ol>
+
       <fieldset className="ob-grid ob-grid-2">
         <legend className="ob-sr-only">Transcript</legend>
         <OptionCard
@@ -986,6 +1194,76 @@ function TranscriptStep({
 }
 
 // ── Building blocks ─────────────────────────────────────────────
+
+interface SummaryRow {
+  label: string
+  value: string
+  icon?: ReactNode
+}
+
+/** Review of the answers that will actually reach the workspace. Skipped fields are omitted. */
+function SummaryCard({
+  answers,
+  personalized,
+}: {
+  answers: OnboardingAnswers
+  personalized: boolean
+}) {
+  const context = buildStudentContext(answers, personalized)
+  if (!context) return null
+  // "uploaded" only means the file was read in this tab; nothing is sent or analyzed.
+  const fileSelected = context.transcript.uploadStatus === "uploaded"
+  const major = context.major ?? (context.majorUndecided ? "Undecided" : null)
+
+  const rows: SummaryRow[] = [
+    {
+      label: "Goal",
+      value: goalOption(context.goal).title,
+      icon: GOAL_ICONS[context.goal],
+    },
+  ]
+  if (major) rows.push({ label: "Major", value: major })
+  if (context.yearLabel)
+    rows.push({ label: "Academic stage", value: context.yearLabel })
+  rows.push({
+    label: "Transcript",
+    value: fileSelected ? "File selected" : "No transcript provided",
+  })
+
+  return (
+    <div className="ob-summary">
+      <dl className="ob-summary-list">
+        {rows.map((row) => (
+          <div
+            key={row.label}
+            className={`ob-summary-row${row.icon ? " is-goal" : ""}`}
+          >
+            <dt>{row.label}</dt>
+            <dd>
+              {row.icon && (
+                <span className="ob-summary-icon" aria-hidden="true">
+                  {row.icon}
+                </span>
+              )}
+              {row.value}
+            </dd>
+          </div>
+        ))}
+      </dl>
+      <p className="ob-summary-note">
+        <InfoIcon />
+        <span>
+          {fileSelected
+            ? "Your file stays in this browser tab. Transcript analysis isn’t connected, so HAWKwarts won’t read its contents. "
+            : ""}
+          {personalized
+            ? "Your workspace opens on this goal. You can switch views or edit preferences anytime."
+            : "You skipped personalization. Your workspace opens on this goal, and you can add details anytime."}
+        </span>
+      </p>
+    </div>
+  )
+}
 
 interface OptionCardProps {
   name: string
@@ -1198,6 +1476,14 @@ function AlertIcon() {
     <Icon size={15}>
       <circle cx="12" cy="12" r="9" />
       <path d="M12 7.5v5.25M12 16.25h.01" />
+    </Icon>
+  )
+}
+
+function SparkIcon() {
+  return (
+    <Icon size={15}>
+      <path d="M12 3.75v4.5M12 15.75v4.5M3.75 12h4.5M15.75 12h4.5M6.4 6.4l2.1 2.1M15.5 15.5l2.1 2.1M6.4 17.6l2.1-2.1M15.5 8.5l2.1-2.1" />
     </Icon>
   )
 }
