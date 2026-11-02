@@ -30,7 +30,8 @@ import {
   loadGifBlob,
   sleep,
 } from "./mascot/gifPlayback"
-import { askAdvisor } from "./custom/api"
+import { askAdvisor, fetchSchedule } from "./custom/api"
+import { WeeklySchedule, type SemesterSchedule } from "./workspace/WeeklySchedule"
 
 const MASCOT_SRCS = {
   hat: "/assets/hat-bf0c14.png",
@@ -381,7 +382,7 @@ function Disclaimer() {
 
 // ── Schedule Builder ────────────────────────────────────────────
 
-function ScheduleBuilder() {
+function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSchedule | null}) {
   const blockRefs = useRef<Map<string, HTMLDivElement>>(new Map())
   const contentRef = useRef<HTMLDivElement>(null)
   const pdfInputRef = useRef<HTMLInputElement>(null)
@@ -392,6 +393,11 @@ function ScheduleBuilder() {
   )
   const [pdfStatus, setPdfStatus] = useState<{
     state: "idle" | "reading" | "success" | "error"
+    message: string
+  }>({ state: "idle", message: "" })
+  const [generatedSems, setGeneratedSems] = useState<PlanSemester[] | null>(null)
+  const [planStatus, setPlanStatus] = useState<{
+    state: "idle" | "working" | "success" | "error"
     message: string
   }>({ state: "idle", message: "" })
 
@@ -437,7 +443,7 @@ function ScheduleBuilder() {
     return `M ${a.x1} ${a.y1} C ${a.x1} ${cy} ${a.x2} ${cy} ${a.x2} ${a.y2}`
   }
 
-  const plannedSems = PLAN_SEMESTERS.filter((s) => s.upcoming)
+  const plannedSems = generatedSems ?? PLAN_SEMESTERS.filter((s) => s.upcoming)
 
   async function importTranscript(file: File | undefined) {
     if (!file) return
@@ -473,6 +479,60 @@ function ScheduleBuilder() {
       })
     }
   }
+
+  async function generatePlan() {
+  setPlanStatus({ state: "working", message: "Building your plan… this can take a minute." })
+  try {
+    const result = await fetchSchedule()
+
+    if (result.status !== "success") {
+      setPlanStatus({
+        state: "error",
+        message: result.message ?? "No plan could be generated.",
+      })
+      return
+    }
+
+    const semesters: PlanSemester[] = result.semesters.map((semester, index) => {
+      // Courses the student is already registered for this term (no star)
+      const existing: PlanCourse[] = semester.existing_courses.map((course) => ({
+        code: course.code,
+        name: course.title ?? course.code,
+        credits: course.credits,
+        status: "planned",
+      }))
+
+      // Courses the scheduler added (shown with the HAWKwarts ★)
+      const added: PlanCourse[] = semester.planned_courses.map((course) => ({
+        code: course.code,
+        name: course.title ?? course.code,
+        credits: course.credits,
+        status: "planned",
+        suggested: true,
+      }))
+
+      return {
+        id: `generated-${index}`,
+        label: semester.term,
+        sublabel: "Planned",
+        upcoming: true,
+        courses: [...existing, ...added],
+      }
+    })
+
+    setGeneratedSems(semesters)
+    setPlanStatus({
+      state: "success",
+      message: `Plan generated: ${result.total_planned_credits} new credits scheduled.`,
+    })
+  } catch (error) {
+    console.error(error)
+    setPlanStatus({
+      state: "error",
+      message: "Couldn't reach the scheduler. Is the API running?",
+    })
+  }
+}
 
   return (
     <div className={`builder${isEditing ? " builder-editing" : ""}`}>
@@ -535,6 +595,14 @@ function ScheduleBuilder() {
             </svg>
             {pdfStatus.state === "reading" ? "Reading…" : "Import PDF"}
           </button>
+          <button
+            type="button"
+            className="builder-edit-btn"
+            onClick={() => void generatePlan()}
+            disabled={planStatus.state === "working"}
+          >
+            {planStatus.state === "working" ? "Planning…" : "Generate plan"}
+          </button>
         </div>
       </div>
 
@@ -545,6 +613,22 @@ function ScheduleBuilder() {
         >
           {pdfStatus.message}
         </div>
+      )}
+
+      {planStatus.state !== "idle" && (
+        <div
+          className={`builder-import-status is-${planStatus.state}`}
+          role={planStatus.state === "error" ? "alert" : "status"}
+        >
+          {planStatus.message}
+        </div>
+      )}
+
+      {semesterSchedule && (
+        <WeeklySchedule
+          term={semesterSchedule.term}
+          meetings={semesterSchedule.meetings}
+        />
       )}
 
       <div className="builder-scroll">
@@ -740,6 +824,18 @@ function ScheduleBuilder() {
 
 const PLANNING_RE = /plan|semester|schedule|degree|pathway|curriculum|sequence/i
 
+const SAMPLE_SCHEDULE: SemesterSchedule = { // (temporary, for testing)
+  term: "Spring 2027",
+  meetings: [
+    { code: "CS 350", title: "Cmptr Org&Asmbly Lang Prgmmg", day: "W", start: "13:50", end: "15:05", location: "RE 032" },
+    { code: "CS 350", title: "Cmptr Org&Asmbly Lang Prgmmg", day: "M", start: "13:50", end: "15:05", location: "RE 032" },
+    { code: "CS 350", title: "Cmptr Org&Asmbly Lang Prgmmg -- LAB", day: "F", start: "13:50", end: "14:40", location: "AM 218" },
+    { code: "CS 330", title: "Discrete Structures", day: "T", start: "10:00", end: "11:15", location: "SB 111" },
+    { code: "CS 330", title: "Discrete Structures", day: "R", start: "10:00", end: "11:15", location: "SB 111" },
+    { code: "HUM 495", title: "Foundational Research Methods", day: "F", start: "08:35", end: "11:35", location: "KI 226" },
+  ],
+}
+
 export default function App() {
   const [storedProfile] = useState(loadStoredProfile)
 
@@ -783,6 +879,7 @@ export default function App() {
   const [chatHawkHidden, setChatHawkHidden] = useState(false)
   const [chatExpanded, setChatExpanded] = useState(false)
   const [flyer, setFlyer] = useState<Flyer | null>(null)
+  const [semesterSchedule, setSemesterSchedule] = useState<SemesterSchedule | null>(SAMPLE_SCHEDULE) // use null once real data is connected
 
   const flyerRef = useRef<HTMLImageElement>(null)
   const landingHatRef = useRef<HTMLDivElement>(null)
@@ -1299,7 +1396,7 @@ export default function App() {
               view={academicView}
               onViewChange={setAcademicView}
               context={context}
-              schedule={<ScheduleBuilder />}
+              schedule={<ScheduleBuilder semesterSchedule={semesterSchedule} />}
               onAsk={pickSuggestion}
             />
           </section>

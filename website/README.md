@@ -15,3 +15,10 @@ Ctrl + click on the localhost link or copy and paste it into your browser to see
 kthx
 
 bye
+
+================================
+
+important commands:
+    - npm install
+    - npm run dev
+    - uvicorn router_api:app --port 8000 # open api

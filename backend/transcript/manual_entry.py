@@ -258,7 +258,7 @@ def main():
         print("\nPlease correct these records before saving.")
         return
 
-    output_path = Path("transcript/manual_results.json")
+    output_path = Path("transcript/results.json") # since scheduler_poc only accepts results.json rn
 
     output_path.parent.mkdir(
         parents=True,

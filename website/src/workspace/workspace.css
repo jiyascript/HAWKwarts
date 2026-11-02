@@ -321,3 +321,68 @@
   justify-content: flex-start;
   margin-top: 0.5rem;
 }
+
+/* ── Weekly semester schedule ── */
+.weekly {
+  padding: 1rem 1.35rem;
+  border-bottom: 1px solid var(--hw-border);
+}
+
+.weekly-title {
+  margin-bottom: 0.75rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--hw-text);
+}
+
+.weekly-row {
+  display: grid;
+  grid-template-columns: 2.75rem repeat(5, minmax(0, 1fr));
+}
+
+.weekly-day-label {
+  padding-bottom: 0.375rem;
+  text-align: center;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+}
+
+.weekly-hour {
+  font-size: 0.6875rem;
+  color: var(--hw-text-muted);
+  border-top: 1px solid var(--hw-border);
+}
+
+.weekly-day {
+  position: relative;
+  border-top: 1px solid var(--hw-border);
+  border-left: 1px solid var(--hw-border);
+}
+
+.weekly-block {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0.25rem 0.375rem;
+  border: 1px solid rgba(201, 8, 24, 0.35);
+  border-radius: 6px;
+  background: var(--hw-selected-bg);
+}
+
+.weekly-block-code {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--hw-brand);
+}
+
+.weekly-block-time {
+  font-size: 0.625rem;
+  color: var(--hw-text-secondary);
+}
