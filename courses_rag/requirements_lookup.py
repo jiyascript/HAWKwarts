@@ -29,7 +29,7 @@ def get_requirements(kind: str, record_id: str) -> dict | None:
     records = load_dataset(kind)
     id_fields = {
         "program": "program_id",
-        "minor": "id",
+        "minor": "minor_id",
         "specialization": "id",
     }
     if kind not in id_fields:

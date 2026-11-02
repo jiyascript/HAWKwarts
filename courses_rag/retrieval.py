@@ -11,7 +11,7 @@ _index = None
 def search_catalog(query:str, top_k: int=7) -> list[dict]:
     """Search the catalog for relevant courses, minors, programs, or specializations."""
     global _model, _index
-
+    print(f"\n[TOOL] search_catalog(query={query}, top_k={top_k})")
     if _model is None:
         _model = get_model()
 
