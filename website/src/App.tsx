@@ -30,6 +30,7 @@ import {
   loadGifBlob,
   sleep,
 } from "./mascot/gifPlayback"
+import { askAdvisor } from "./custom/api"
 
 const MASCOT_SRCS = {
   hat: "/assets/hat-bf0c14.png",
@@ -757,6 +758,7 @@ export default function App() {
   const [workspacePane, setWorkspacePane] = useState<WorkspacePane>("advisor")
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState("")
+  const [isWaiting, setIsWaiting] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
   const [answers, setAnswers] = useState<OnboardingAnswers>(() =>
@@ -812,6 +814,10 @@ export default function App() {
       chatInputRef.current?.focus({ preventScroll: true })
     }
   }, [screen, transitioning])
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+  }, [messages, isWaiting])
 
   // ── Mascot choreography ──
 
@@ -1056,13 +1062,33 @@ export default function App() {
     setMessages((prev) => [...prev, ...PLANNER_MESSAGES])
   }
 
-  function sendMessage(overrideText?: string) {
+  async function sendMessage(overrideText?: string) {
     const text = (overrideText ?? input).trim()
-    if (!text) return
+    if (!text || isWaiting) return
     setInput("")
-    if (PLANNING_RE.test(text) && !plannerOpened) openPlanner()
-    else setMessages((prev) => [...prev, { from: "student", text }])
-  }
+    if (PLANNING_RE.test(text) && !plannerOpened) {
+      openPlanner()
+      return
+    }
+    setMessages((prev) => [...prev, { from: "student", text }])
+
+    setIsWaiting(true)
+    try {
+      const answer = await askAdvisor(text)
+      setMessages((prev) => [...prev, {from: "hawkwarts", text: answer }])
+    } catch (error) {
+      console.error(error)
+      setMessages((prev) => [
+        ...prev,
+        {
+          from: "hawkwarts",
+          text: "Sorry, the advisor could not be reached right now. Please try again.",
+        },
+      ])
+    } finally {
+      setIsWaiting(false)
+    }
+  } 
 
   function pickSuggestion(prompt: string) {
     setInput(prompt)
@@ -1300,7 +1326,7 @@ export default function App() {
               <div className="chat-container">
                 <div className="advisor-header">
                   <p className="advisor-status">
-                    Preview · AI replies aren’t connected yet
+                    Live · Replies can take up to 1-2 minutes
                   </p>
                 </div>
                 <div className="chat-messages">
@@ -1369,6 +1395,13 @@ export default function App() {
                         )}
                       </div>
                     ))
+                  )}
+
+                  {isWaiting && (
+                    <div className="message message-hawkwarts">
+                      <span className="message-label">Hawkwarts</span>
+                      <p className="message-text">Thinking…</p>
+                    </div>
                   )}
                   <div ref={messagesEndRef} />
                 </div>
