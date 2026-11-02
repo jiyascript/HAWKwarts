@@ -4,6 +4,8 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from backend.scheduler.course_level import get_course_level
+from backend.scheduler.schedule_export import export_failure_json
 
 BACKEND_DIR = Path(__file__).resolve().parents[1]
 
@@ -85,7 +87,10 @@ def export_schedule_json(
     course_credits,
     semester_names,
     max_credits,
-    output_path
+    output_path,
+    academic_level,
+    enrollment_status,
+    min_credits
 ):
     semesters = []
 
@@ -97,6 +102,7 @@ def export_schedule_json(
                 "code": course["code"],
                 "title": course.get("title"),
                 "credits": course["credits"],
+                "course_level": get_course_level(course["code"]),
                 "status": "in_progress"
             }
             for course in existing_courses
@@ -112,34 +118,146 @@ def export_schedule_json(
             planned.append({
                 "code": code,
                 "credits": course_credits[code],
+                "course_level": get_course_level(code),
                 "status": "planned"
             })
 
+        # Total credits from existing in-progress courses.
         existing_credits = sum(
             course["credits"] for course in enrolled
+        )
+
+        # Breakdown of existing in-progress credits by course level.
+        existing_undergraduate_credits = sum(
+            course["credits"]
+            for course in enrolled
+            if course["course_level"] == "undergraduate"
+        )
+
+        existing_graduate_credits = sum(
+            course["credits"]
+            for course in enrolled
+            if course["course_level"] == "graduate"
+        )
+
+        existing_unknown_level_credits = sum(
+            course["credits"]
+            for course in enrolled
+            if course["course_level"] == "unknown"
         )
 
         planned_credits = sum(
             course["credits"] for course in planned
         )
 
+        # Breakdown of newly scheduled credits by course level.
+        planned_undergraduate_credits = sum(
+            course["credits"]
+            for course in planned
+            if course["course_level"] == "undergraduate"
+        )
+
+        planned_graduate_credits = sum(
+            course["credits"]
+            for course in planned
+            if course["course_level"] == "graduate"
+        )
+
+        planned_unknown_level_credits = sum(
+            course["credits"]
+            for course in planned
+            if course["course_level"] == "unknown"
+        )
+
+        total_credits = existing_credits + planned_credits
+
+        # Combined existing and planned credits by course level.
+        total_undergraduate_credits = (
+            existing_undergraduate_credits
+            + planned_undergraduate_credits
+        )
+
+        total_graduate_credits = (
+            existing_graduate_credits
+            + planned_graduate_credits
+        )
+
+        total_unknown_level_credits = (
+            existing_unknown_level_credits
+            + planned_unknown_level_credits
+        )
+
+        enrollment_warnings = []
+
+        if total_credits < min_credits:
+            enrollment_warnings.append(
+                f"Semester credit load is below the configured "
+                f"{enrollment_status} minimum of {min_credits} credits. "
+                "The course plan may be incomplete."
+            )
+
+        if total_credits > max_credits:
+            enrollment_warnings.append(
+                f"Semester credit load exceeds the configured "
+                f"maximum of {max_credits} credits."
+            )
+        
         semesters.append({
             "term": semester_name,
             "existing_courses": enrolled,
             "planned_courses": planned,
             "existing_credits": existing_credits,
             "planned_credits": planned_credits,
-            "total_credits": existing_credits + planned_credits,
+            "existing_undergraduate_credits": existing_undergraduate_credits,
+            "existing_graduate_credits": existing_graduate_credits,
+            "existing_unknown_level_credits": existing_unknown_level_credits,
+            "total_credits": total_credits,
+            "total_undergraduate_credits": total_undergraduate_credits,
+            "total_graduate_credits": total_graduate_credits,
+            "total_unknown_level_credits": total_unknown_level_credits,
+            "planned_undergraduate_credits": planned_undergraduate_credits,
+            "planned_graduate_credits": planned_graduate_credits,
+            "planned_unknown_level_credits": planned_unknown_level_credits,
+            "min_credits": min_credits,
             "max_credits": max_credits,
-            "remaining_capacity": (
-                max_credits - existing_credits - planned_credits
-            )
+            "remaining_capacity": max_credits - total_credits,
+            "enrollment_warnings": enrollment_warnings
         })
+
+    # Overall credit breakdown across the planning window.
+    overall_undergraduate_credits = sum(
+        semester["total_undergraduate_credits"]
+        for semester in semesters
+    )
+
+    overall_graduate_credits = sum(
+        semester["total_graduate_credits"]
+        for semester in semesters
+    )
+
+    overall_unknown_level_credits = sum(
+        semester["total_unknown_level_credits"]
+        for semester in semesters
+    )
+
+    overall_total_credits = sum(
+        semester["total_credits"]
+        for semester in semesters
+    )
+
 
     output = {
         "schema_version": "1.0",
         "status": "success",
+        "academic_level": academic_level,
+        "enrollment_status": enrollment_status,
         "semesters": semesters,
+        "credit_summary": {
+            "undergraduate_credits": overall_undergraduate_credits,
+            "graduate_credits": overall_graduate_credits,
+            "unknown_level_credits": overall_unknown_level_credits,
+            "total_credits": overall_total_credits
+        },
         "total_planned_credits": sum(
             semester["planned_credits"]
             for semester in semesters
@@ -164,12 +282,28 @@ def export_schedule_json(
 # =========================================================
 
 parser = argparse.ArgumentParser()
+
 parser.add_argument(
     "--history",
     type=Path,
     default=BACKEND_DIR / "transcript" / "results.json",
     help="Academic history JSON from PDF or manual entry"
 )
+
+parser.add_argument(
+    "--academic-level",
+    choices=["undergraduate", "graduate", "coterminal"],
+    default="undergraduate",
+    help="Student academic level"
+)
+
+parser.add_argument(
+    "--enrollment-status",
+    choices=["full_time", "part_time"],
+    default="full_time",
+    help="Student enrollment status"
+)
+
 args = parser.parse_args()
 
 with args.history.open("r", encoding="utf-8") as file:
@@ -270,8 +404,8 @@ problem = ps.SchedulingProblem(
 CREDITS_PER_COURSE = 3
 
 # Student academic enrollment configuration
-ACADEMIC_LEVEL = "undergraduate"
-ENROLLMENT_STATUS = "full_time"
+ACADEMIC_LEVEL = args.academic_level
+ENROLLMENT_STATUS = args.enrollment_status
 
 # Load the applicable academic credit policy
 credit_policy = get_credit_policy(
@@ -803,7 +937,10 @@ saved_path = export_schedule_json(
     course_credits=COURSE_CREDITS,
     semester_names=SEMESTER_NAMES,
     max_credits=MAX_CREDITS_PER_SEMESTER,
-    output_path=OUTPUT_PATH
+    output_path=OUTPUT_PATH,
+    academic_level=ACADEMIC_LEVEL,
+    enrollment_status=ENROLLMENT_STATUS,
+    min_credits=MIN_CREDITS_PER_SEMESTER
 )
 
 print(f"\nSchedule JSON exported to: {saved_path}")

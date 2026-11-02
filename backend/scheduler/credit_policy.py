@@ -27,6 +27,17 @@ CREDIT_POLICIES = {
             "maximum": 8,
         },
     },
+
+    "coterminal": {
+        "full_time": {
+            "minimum": 12,
+            "maximum": 18
+        },
+        "part_time": {
+            "minimum": 1,
+            "maximum": 11
+        }
+    },
 }
 
 
