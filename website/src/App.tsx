@@ -781,6 +781,7 @@ export default function App() {
   const [landingHatHidden, setLandingHatHidden] = useState(false)
   const [onboardingHatHidden, setOnboardingHatHidden] = useState(true)
   const [chatHawkHidden, setChatHawkHidden] = useState(false)
+  const [chatExpanded, setChatExpanded] = useState(false)
   const [flyer, setFlyer] = useState<Flyer | null>(null)
 
   const flyerRef = useRef<HTMLImageElement>(null)
@@ -1286,7 +1287,10 @@ export default function App() {
           </div>
         </div>
 
-        <main className="workspace" data-pane={workspacePane}>
+        <main 
+          className={`workspace${chatExpanded ? " workspace-chat-expanded" : ""}`} 
+          data-pane={workspacePane}
+        >
           <section
             className="ws-panel ws-academic"
             aria-label="Academic information"
@@ -1304,7 +1308,7 @@ export default function App() {
             className="ws-panel ws-advisor"
             aria-labelledby="ws-advisor-heading"
           >
-            <div className="ws-intro">
+            <div className={`ws-intro${hasStudentMessage ? " ws-intro-compact" : ""}`}>
               <p className="ws-eyebrow">HAWKwarts AI</p>
               <h2 id="ws-advisor-heading" className="ws-heading">
                 Your campus advisor,{" "}
@@ -1326,8 +1330,16 @@ export default function App() {
               <div className="chat-container">
                 <div className="advisor-header">
                   <p className="advisor-status">
-                    Live · Replies can take up to 1-2 minutes
+                    Live · replies can take up to 1-2 minutes
                   </p>
+                  <button
+                    type="button"
+                    className="chat-expand-btn"
+                    onClick={() => setChatExpanded((expanded) => !expanded)}
+                    aria-pressed={chatExpanded}
+                  > 
+                    {chatExpanded ? "Show panels" : "Expand chat"}
+                  </button>
                 </div>
                 <div className="chat-messages">
                   {messages.length === 0 ? (

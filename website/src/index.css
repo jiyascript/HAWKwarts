@@ -1770,3 +1770,112 @@ body {
     display: none;
   }
 }
+
+/* ── Compact intro once a conversation has started ── */
+.ws-intro.ws-intro-compact .ws-eyebrow,
+.ws-intro.ws-intro-compact .ws-description {
+  display: none;
+}
+
+.ws-intro.ws-intro-compact .ws-heading {
+  margin-top: 0;
+  font-size: 1.125rem;
+  letter-spacing: -0.01em;
+}
+
+/* Keeps "always ready." on the same line as "Your campus advisor," */
+.ws-intro.ws-intro-compact .ws-heading-accent {
+  display: inline;
+}
+
+/* ── Expand-chat button, placed on the right of the advisor header ── */
+.advisor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.chat-expand-btn {
+  flex-shrink: 0;
+  min-height: 1.875rem;
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--hw-border-strong);
+  border-radius: var(--hw-radius-control);
+  background: var(--hw-surface);
+  color: var(--hw-text-secondary);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+
+.chat-expand-btn:hover,
+.chat-expand-btn[aria-pressed='true'] {
+  border-color: var(--hw-brand);
+  color: var(--hw-brand);
+  background: var(--hw-selected-bg);
+}
+
+.chat-expand-btn:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* ── Expanded chat: desktop only (the two-column layout) ── */
+@media (min-width: 901px) and (min-height: 521px) {
+  .workspace.workspace-chat-expanded {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .workspace.workspace-chat-expanded .ws-academic {
+    display: none;
+  }
+
+  .workspace.workspace-chat-expanded .ws-advisor {
+    width: 100%;
+    max-width: 60rem; /* keeps lines readable on very wide monitors */
+    margin-inline: auto;
+    border-left: 0;
+  }
+}
+
+/* The stacked layout already has its own Academic info / AI advisor switch. */
+@media (max-width: 900px), (max-height: 520px) {
+  .chat-expand-btn {
+    display: none;
+  }
+
+  /* Estimate: with the shorter intro, the chat can be a bit taller. Lower the
+     16rem if the message box ever gets cut off at the bottom of the screen. */
+  .ws-advisor:has(.ws-intro-compact) .chat-wrapper {
+    height: clamp(16rem, 100dvh - 16rem, 48rem);
+  }
+}
+
+/* ── Expanded chat: also reclaim the intro and disclaimer space (desktop only) ── */
+@media (min-width: 901px) and (min-height: 521px) {
+  /* Hide the "Your campus advisor, always ready." intro */
+  .workspace.workspace-chat-expanded .ws-intro {
+    display: none;
+  }
+
+  /* Hide the "Always verify important information" bar.
+     The disclaimer sits outside <main>, so :has() finds it from the screen wrapper. */
+  .chat-screen-overlay:has(.workspace-chat-expanded) .disclaimer {
+    padding: 0.25rem 2rem 0.5rem;
+  }
+  .chat-screen-overlay:has(.workspace-chat-expanded) .disclaimer-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Tighten the padding around the chat so it uses the freed height */
+  .workspace.workspace-chat-expanded .ws-advisor {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+}
