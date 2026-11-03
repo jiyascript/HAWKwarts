@@ -31,7 +31,9 @@ import {
   sleep,
 } from "./mascot/gifPlayback"
 import { askAdvisor, fetchSchedule } from "./custom/api"
-import { WeeklySchedule, type SemesterSchedule } from "./workspace/WeeklySchedule"
+import { WeeklySchedule, expandCourses, type SelectedCourse, type SemesterSchedule } from "./workspace/WeeklySchedule"
+import { parseScheduleJson } from "./custom/schedule_check"
+import ReactMarkdown from "react-markdown"
 
 const MASCOT_SRCS = {
   hat: "/assets/hat-bf0c14.png",
@@ -382,10 +384,17 @@ function Disclaimer() {
 
 // ── Schedule Builder ────────────────────────────────────────────
 
-function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSchedule | null}) {
+function ScheduleBuilder({ 
+  personalSchedule,
+  onScheduleChange, 
+}: {
+  personalSchedule: SemesterSchedule | null
+  onScheduleChange: (schedule: SemesterSchedule | null) => void
+}) {
   const blockRefs = useRef<Map<string, HTMLDivElement>>(new Map())
   const contentRef = useRef<HTMLDivElement>(null)
   const pdfInputRef = useRef<HTMLInputElement>(null)
+  const scheduleInputRef = useRef<HTMLInputElement>(null)
   const [arrows, setArrows] = useState<ArrowDatum[]>([])
   const [isEditing, setIsEditing] = useState(false)
   const [completedSems, setCompletedSems] = useState<PlanSemester[]>(() =>
@@ -400,6 +409,11 @@ function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSched
     state: "idle" | "working" | "success" | "error"
     message: string
   }>({ state: "idle", message: "" })
+  const [scheduleStatus, setScheduleStatus] = useState<{
+    state: "idle" | "success" | "error"
+    message: string
+  }>({ state: "idle", message: "" })
+  const shownSchedule = personalSchedule ?? SAMPLE_SCHEDULE
 
   const reg = (code: string) => (el: HTMLDivElement | null) => {
     if (el) blockRefs.current.set(code, el)
@@ -534,6 +548,24 @@ function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSched
   }
 }
 
+  async function importSchedule(file: File | undefined) {
+    if (!file) return
+    try {
+      const schedule = parseScheduleJson(await file.text())
+      onScheduleChange(schedule)
+      setScheduleStatus({
+        state: "success",
+        message: `Loaded your ${schedule.term} schedule from ${file.name}.`,
+      })
+    } catch (error) {
+      // A bad file leaves whatever is currently showing untouched
+      setScheduleStatus({
+        state: "error",
+        message: error instanceof Error ? error.message : "That file could not be read.",
+    })
+  }
+}
+
   return (
     <div className={`builder${isEditing ? " builder-editing" : ""}`}>
       <div className="builder-header">
@@ -549,6 +581,8 @@ function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSched
           <span className="builder-meta builder-meta-rem">
             2 semesters remaining
           </span>
+        </div>
+        <div className="builder-actions">
           <button
             type="button"
             className="builder-edit-btn"
@@ -603,6 +637,35 @@ function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSched
           >
             {planStatus.state === "working" ? "Planning…" : "Generate plan"}
           </button>
+          <input
+            ref={scheduleInputRef}
+            type="file"
+            accept=".json,application/json"
+            className="builder-pdf-input"
+            onChange={(event) => {
+              void importSchedule(event.target.files?.[0])
+              event.target.value = ""
+            }}
+          />
+          <button
+            type="button"
+            className="builder-edit-btn"
+            onClick={() => scheduleInputRef.current?.click()}
+          >
+            Import schedule
+          </button>
+          {personalSchedule && (
+            <button
+              type="button"
+              className="builder-edit-btn"
+              onClick={() => {
+                onScheduleChange(null)
+                setScheduleStatus({ state: "idle", message: "" })
+              }}
+            >
+              Show preview
+            </button>
+          )}
         </div>
       </div>
 
@@ -615,21 +678,20 @@ function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSched
         </div>
       )}
 
-      {planStatus.state !== "idle" && (
+      {scheduleStatus.state !== "idle" && (
         <div
-          className={`builder-import-status is-${planStatus.state}`}
-          role={planStatus.state === "error" ? "alert" : "status"}
+          className={`builder-import-status is-${scheduleStatus.state}`}
+          role={scheduleStatus.state === "error" ? "alert" : "status"}
         >
-          {planStatus.message}
+          {scheduleStatus.message}
         </div>
       )}
 
-      {semesterSchedule && (
-        <WeeklySchedule
-          term={semesterSchedule.term}
-          meetings={semesterSchedule.meetings}
-        />
-      )}
+      <WeeklySchedule
+        term={shownSchedule.term}
+        meetings={shownSchedule.meetings}
+        isSample={personalSchedule === null}
+      />
 
       <div className="builder-scroll">
         <div className="builder-content" ref={contentRef}>
@@ -824,16 +886,16 @@ function ScheduleBuilder({ semesterSchedule, }: {semesterSchedule: SemesterSched
 
 const PLANNING_RE = /plan|semester|schedule|degree|pathway|curriculum|sequence/i
 
-const SAMPLE_SCHEDULE: SemesterSchedule = { // (temporary, for testing)
+const SELECTED_COURSES: SelectedCourse[] = [
+  { code: "Class A", title: "Unnamed", days: ["M", "W"], start: "13:50", end: "15:05", location: "RE 032" },
+  { code: "Class B", title: "Unnamed", days: ["T", "R"], start: "11:25", end: "12:40", location: "PS 116" },
+  { code: "Class C", title: "Unnamed", days: ["M", "W", "F"], start: "10:00", end: "11:15", location: "SB 111" },
+  { code: "Class D", title: "Unnamed", days: ["F"], start: "17:00", end: "18:25", location: "HH 104" },
+]
+
+const SAMPLE_SCHEDULE: SemesterSchedule = {
   term: "Spring 2027",
-  meetings: [
-    { code: "CS 350", title: "Cmptr Org&Asmbly Lang Prgmmg", day: "W", start: "13:50", end: "15:05", location: "RE 032" },
-    { code: "CS 350", title: "Cmptr Org&Asmbly Lang Prgmmg", day: "M", start: "13:50", end: "15:05", location: "RE 032" },
-    { code: "CS 350", title: "Cmptr Org&Asmbly Lang Prgmmg -- LAB", day: "F", start: "13:50", end: "14:40", location: "AM 218" },
-    { code: "CS 330", title: "Discrete Structures", day: "T", start: "10:00", end: "11:15", location: "SB 111" },
-    { code: "CS 330", title: "Discrete Structures", day: "R", start: "10:00", end: "11:15", location: "SB 111" },
-    { code: "HUM 495", title: "Foundational Research Methods", day: "F", start: "08:35", end: "11:35", location: "KI 226" },
-  ],
+  meetings: expandCourses(SELECTED_COURSES),
 }
 
 export default function App() {
@@ -879,8 +941,7 @@ export default function App() {
   const [chatHawkHidden, setChatHawkHidden] = useState(false)
   const [chatExpanded, setChatExpanded] = useState(false)
   const [flyer, setFlyer] = useState<Flyer | null>(null)
-  const [semesterSchedule, setSemesterSchedule] = useState<SemesterSchedule | null>(SAMPLE_SCHEDULE) // use null once real data is connected
-
+  const [personalSchedule, setPersonalSchedule] = useState<SemesterSchedule | null>(null)
   const flyerRef = useRef<HTMLImageElement>(null)
   const landingHatRef = useRef<HTMLDivElement>(null)
   const onboardingHatRef = useRef<HTMLDivElement>(null)
@@ -1396,7 +1457,12 @@ export default function App() {
               view={academicView}
               onViewChange={setAcademicView}
               context={context}
-              schedule={<ScheduleBuilder semesterSchedule={semesterSchedule} />}
+              schedule={
+                <ScheduleBuilder 
+                  personalSchedule={personalSchedule}
+                  onScheduleChange={setPersonalSchedule} 
+                />
+              }
               onAsk={pickSuggestion}
             />
           </section>
@@ -1422,7 +1488,7 @@ export default function App() {
                 imgRef={chatHawkRef}
                 flightSrc={MASCOT_SRCS.flight}
                 active={isSettled("chat")}
-                hidden={chatHawkHidden}
+                hidden={chatHawkHidden || chatExpanded}
               />
               <div className="chat-container">
                 <div className="advisor-header">
@@ -1455,7 +1521,13 @@ export default function App() {
                         <span className="message-label">
                           {msg.from === "hawkwarts" ? "Hawkwarts" : "You"}
                         </span>
-                        <p className="message-text">{msg.text}</p>
+                        {msg.from === "hawkwarts" ? (
+                          <div className="message-text message-markdown">
+                            <ReactMarkdown>{msg.text}</ReactMarkdown>
+                          </div>
+                        ) : (
+                          <p className="message-text">{msg.text}</p>
+                        )}
                         {msg.note && <p className="message-note">{msg.note}</p>}
                         {msg.cards && (
                           <div className="course-cards">

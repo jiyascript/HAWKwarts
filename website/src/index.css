@@ -919,6 +919,8 @@ body {
   align-items: center;
   gap: 0.4rem;
   flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .builder-edit-btn {
@@ -1877,5 +1879,98 @@ body {
   .workspace.workspace-chat-expanded .ws-advisor {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
+  }
+}
+
+@media (max-height: 520px) {
+  .advisor-header {
+    display: none;
+  }
+}
+
+/* Buttons get their own row under the title and meta */
+.builder-actions {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* The row's gap handles spacing, so drop the button's own left margin here */
+.builder-actions .builder-edit-btn {
+  margin-left: 0;
+}
+
+/* ── Markdown inside the advisor's messages ── */
+.message-markdown > :first-child { margin-top: 0; }
+.message-markdown > :last-child { margin-bottom: 0; }
+
+.message-markdown p {
+  margin: 0 0 0.6rem;
+}
+
+.message-markdown ul,
+.message-markdown ol {
+  margin: 0.25rem 0 0.6rem;
+  padding-left: 1.25rem;
+}
+
+.message-markdown ul { list-style: disc; }
+.message-markdown ol { list-style: decimal; }
+.message-markdown ul ul { list-style: circle; margin-bottom: 0.25rem; }
+
+.message-markdown li {
+  margin: 0.2rem 0;
+}
+
+.message-markdown h1,
+.message-markdown h2,
+.message-markdown h3,
+.message-markdown h4 {
+  margin: 0.9rem 0 0.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.message-markdown hr {
+  border: 0;
+  border-top: 1px solid var(--hw-border-strong);
+  margin: 0.9rem 0;
+}
+
+.message-markdown strong {
+  font-weight: 600;
+}
+
+.message-markdown code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.875em;
+  background: rgba(38, 38, 38, 0.07);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+.message-markdown a {
+  color: var(--hw-brand);
+  text-decoration: underline;
+}
+
+/* ── Expanded chat: the chat card takes over the bird's lane (desktop only) ── */
+@media (min-width: 901px) and (min-height: 521px) {
+  /* The 50px lane above the card exists for the bird to walk along */
+  .workspace.workspace-chat-expanded .chat-wrapper {
+    margin-top: 0;
+  }
+
+  /* The header's extra top padding keeps text clear of the perched bird */
+  .workspace.workspace-chat-expanded .advisor-header {
+    padding-top: 0.75rem;
+  }
+
+  /* The hidden bird shouldn't catch clicks near the top edge */
+  .workspace.workspace-chat-expanded .chat-hawk {
+    pointer-events: none;
   }
 }

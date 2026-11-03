@@ -1,0 +1,13 @@
+{
+  "term": "Fall 2026",
+  "courses": [
+    { "code": "CS 350", "title": "Cmptr Org&Asmbly Lang Prgmmg -- LAB", "days": ["F"], "start": "13:50", "end": "14:40", "location": "AM 218" },
+    { "code": "CS 330", "title": "Discrete Structures", "days": ["T", "R"], "start": "10:00", "end": "11:15", "location": "SB 111" },
+    { "code": "HUM 495","title": "Foundational Research Methods", "days": ["F"], "start": "08:35", "end": "11:35", "location": "KI 226" },
+    { "code": "CS 350", "title": "Cmptr Org&Asmbly Lang Prgmmg", "days": ["M", "W"], "start": "13:50", "end": "15:05", "location": "RE 032" }
+  ]
+}
+
+
+
+  

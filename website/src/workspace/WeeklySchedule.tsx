@@ -22,7 +22,7 @@ const DAYS = [
 
 const HOUR_HEIGHT = 48 // pixels per hour
 
-function toMinutes(time: string): number {
+export function toMinutes(time: string): number {
   const [hours, minutes] = time.split(":").map(Number)
   return hours * 60 + minutes
 }
@@ -31,7 +31,7 @@ function hourLabel(hour: number): string {
   return `${hour % 12 || 12} ${hour < 12 ? "AM" : "PM"}`
 }
 
-export function WeeklySchedule({ term, meetings }: SemesterSchedule) {
+export function WeeklySchedule({ term, meetings, isSample, }: SemesterSchedule & { isSample?: boolean }) {
   if (meetings.length === 0) return null
 
   // Show only the hours that are actually used
@@ -43,7 +43,13 @@ export function WeeklySchedule({ term, meetings }: SemesterSchedule) {
 
   return (
     <div className="weekly">
-      <h3 className="weekly-title">{term} schedule</h3>
+      <h3 className="weekly-title">
+        {term} schedule
+        {isSample && <span className="sample-pill">Preview</span>}
+      </h3>
+      {isSample && ( 
+        <p className="weekly-note">Sample data. Enter your data to see a customized one.</p>
+      )}
 
       <div className="weekly-row weekly-head">
         <div />
@@ -91,5 +97,29 @@ export function WeeklySchedule({ term, meetings }: SemesterSchedule) {
         ))}
       </div>
     </div>
+  )
+}
+
+// one course with all its days, e.g. Mon/Wed 10:00–11:15
+export interface SelectedCourse {
+  code: string
+  title: string
+  days: MeetingBlock["day"][] // e.g. ["M", "W"]
+  start: string // "10:00" (24-hour)
+  end: string // "11:15"
+  location?: string
+}
+
+// turns the course list into the blocks the grid draws (one per day)
+export function expandCourses(courses: SelectedCourse[]): MeetingBlock[] {
+  return courses.flatMap((course) =>
+    course.days.map((day) => ({
+      code: course.code,
+      title: course.title,
+      day,
+      start: course.start,
+      end: course.end,
+      location: course.location,
+    })),
   )
 }
