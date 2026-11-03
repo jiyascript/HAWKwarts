@@ -23,7 +23,7 @@ COURSE_WORDS = [
     # banner location
     "room", "building", "campus", "location", "online", "hybrid", "in-person", "in person",
     # banner prof
-    "teaches", "taught", "who",
+    "teaches", "taught",
 ]
 FACULTY_WORDS = ["publication", "publish", "paper", "research", "interest", "internship"]
 
