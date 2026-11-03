@@ -56,9 +56,12 @@ from bs4 import BeautifulSoup
 from langchain_core.tools import tool
 from langchain_ollama import OllamaEmbeddings
 
-DIRECTORY_PATH = "iit_directory.json"
-INDEX_PATH = "research_index.json"
-CACHE_PATH = "research_cache.json"
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
+
+DIRECTORY_PATH = str(BASE_DIR / "iit_directory.json")
+INDEX_PATH = str(BASE_DIR / "research_index.json")
+CACHE_PATH = str(BASE_DIR / "research_cache.json")
 
 OPENALEX_BASE = "https://api.openalex.org"
 # Same ROR ID used in faculty_agent.py, confirmed independently earlier in
