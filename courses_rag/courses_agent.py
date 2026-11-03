@@ -13,7 +13,7 @@ from .banner_lookup import get_course_offering, get_course_offerings
 from .transcript_lookup import load_student_transcript, summarize_transcript
 from .specialization_lookup import list_specializations
 from .degree_progress import get_degree_progress_context
-
+from .schedule_conflicts import find_compatible_sections
 
 load_dotenv()
 SYSTEM_PROMPT = """
@@ -76,9 +76,10 @@ concurrency restrictions. Do not infer eligibility without
 the student's completed-course information. Banner data is a snapshot. Do not guarantee that a course
 or seat will remain available.
 
-When a student asks about multiple courese in a semester, use get_course_offerings to retrieve all relevant Banner offerings together. 
-When asked about required courses for a degree, first rettrieve the exact program requirements using lookup_requirements. DO NOT assume every course mentiioned in a requirement section is individually mandtory. 
-
+When a student asks for course offerings or section details, use get_course_offering.
+When a student asks for a conflict-free schedule, timetable compatibility,
+or alternative non-overlapping sections, use analyze_schedule_conflicts.
+Do not determine timetable compatibility from raw Banner offerings yourself.
 For questions combining degree requirements and semester
 offerings, use both catalog and Banner tools.
 
@@ -101,6 +102,38 @@ evaluating academic requirements. Use lookup_requirements for official degree re
 and Banner tools for course prerequisites and offerings. Transcript records are a historical snapshot and do not
 constitute an official degree audit. If transcript data is incomplete, explain what information
 is missing rather than assuming a requirement is unmet.
+SCHEDULE VALIDATION:
+The schedule tool returns two independent statuses:
+
+- time_status="no_conflict": No known meeting-time overlaps.
+- time_status="unknown": Some meeting times cannot be verified.
+- enrollment_status="unverified_linkage": Lecture/lab
+  registration compatibility has not been confirmed.
+
+For courses with multiple components, show every selected
+component, including lecture and lab, with its own CRN.
+
+Never describe a schedule as fully registration-verified when
+enrollment linkage is unverified.
+
+Do not present labs as alternatives to lectures.
+Do not claim that open seats or registration eligibility
+have been verified.
+SCHEDULE CONFLICT ANALYSIS:
+When a student asks whether multiple courses have overlapping
+meeting times, requests a conflict-free schedule, or asks for
+alternative sections, call analyze_schedule_conflicts.
+
+Use its computed results rather than calculating overlaps yourself.
+
+Clearly distinguish:
+- compatible_schedules: no conflicts in known meeting times
+- unverified_schedules: at least one meeting has missing/TBA information
+
+Never describe a TBA section as confirmed conflict-free.
+Do not assume online sections are available to every student.
+A conflict-free schedule does not guarantee open seats,
+prerequisite eligibility, or permission to register.
 """
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
@@ -194,8 +227,8 @@ def ask_agent(question: str) -> str:
                         lookup_requirements,
                         list_specializations,
                         get_course_offering,
-                        get_course_offerings,
                         get_student_academic_history,
+                        analyze_schedule_conflicts
                     ],
                     automatic_function_calling=types.AutomaticFunctionCallingConfig(
                         maximum_remote_calls=12,
@@ -233,7 +266,18 @@ def get_student_academic_history() -> dict:
         return {"error": "No student transcript loaded for this session."}
 
     return summarize_transcript(student_history)
+def analyze_schedule_conflicts(course_ids: list[str],term: str,) -> dict:
+    """Find course-section combinations without known meeting-time conflicts.
 
+    Use when a student asks whether courses overlap, requests a
+    conflict-free timetable, or wants alternative sections.
+    TBA meeting times are reported as unverified.
+    """
+    print(
+        f"\n[TOOL] analyze_schedule_conflicts("
+        f"course_ids={course_ids}, term={term})"
+    )
+    return find_compatible_sections(course_ids, term)
 if __name__ == "__main__":
     import sys
 
