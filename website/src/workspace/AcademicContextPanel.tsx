@@ -1,5 +1,15 @@
 import type { ReactNode } from "react"
 import type { Goal, StudentContext } from "../onboarding/profile"
+import {
+  EMPTY_FACULTY_TABS,
+  activeFacultyProfile,
+  facultyKey,
+  facultyPanelId,
+  facultyTabId,
+  type FacultyTabsState,
+} from "../custom/facultyProfile"
+import { FacultyProfileCard } from "./FacultyProfileCard"
+import { FacultyTabs } from "./FacultyTabs"
 import { SuggestedQuestionChips } from "./SuggestedQuestionChips"
 import "./workspace.css"
 
@@ -226,7 +236,37 @@ export function DegreeRoadmapPanel({
   )
 }
 
-function CourseFacultyPanel({ onAsk }: { onAsk: (question: string) => void }) {
+function CourseFacultyPanel({
+  onAsk,
+  tabs,
+  onSelect,
+  onClose,
+}: {
+  onAsk: (question: string) => void
+  tabs: FacultyTabsState
+  onSelect: (key: string) => void
+  onClose: (key: string) => void
+}) {
+  // Every professor the advisor has looked up stays reachable as a tab.
+  const active = activeFacultyProfile(tabs)
+  if (active) {
+    const key = facultyKey(active.name)
+    return (
+      <>
+        <FacultyTabs
+          profiles={tabs.profiles}
+          activeKey={key}
+          onSelect={onSelect}
+          onClose={onClose}
+        />
+        <div role="tabpanel" id={facultyPanelId(key)} aria-labelledby={facultyTabId(key)}>
+          {/* key= resets per-card state (like the open/closed profile text) when switching. */}
+          <FacultyProfileCard key={key} profile={active} onAsk={onAsk} />
+        </div>
+      </>
+    )
+  }
+
   return (
     <section className="ws-empty" aria-labelledby="ws-empty-title">
       <span className="ws-empty-icon" aria-hidden="true">
@@ -245,11 +285,11 @@ function CourseFacultyPanel({ onAsk }: { onAsk: (question: string) => void }) {
         </svg>
       </span>
       <h3 id="ws-empty-title" className="ws-empty-title">
-        Course and faculty data isn’t connected yet
+        No professor selected yet
       </h3>
       <p className="ws-empty-text">
-        HAWKwarts can’t show real sections, professors, or availability here
-        until the course catalog and faculty directory are connected.
+        Ask the advisor about a professor and their title, contact info, and
+        research will appear here.
       </p>
       <p className="ws-empty-label">Start a question in the advisor chat</p>
       <SuggestedQuestionChips
@@ -269,6 +309,9 @@ interface AcademicContextPanelProps {
   /** The existing interactive Schedule Builder, rendered unchanged. */
   schedule: ReactNode
   onAsk: (question: string) => void
+  facultyTabs?: FacultyTabsState
+  onSelectFaculty?: (key: string) => void
+  onCloseFaculty?: (key: string) => void
 }
 
 export function AcademicContextPanel({
@@ -277,6 +320,9 @@ export function AcademicContextPanel({
   context,
   schedule,
   onAsk,
+  facultyTabs = EMPTY_FACULTY_TABS,
+  onSelectFaculty = () => {},
+  onCloseFaculty = () => {},
 }: AcademicContextPanelProps) {
   const copy = VIEWS.find((option) => option.id === view) ?? VIEWS[0]
 
@@ -318,7 +364,14 @@ export function AcademicContextPanel({
           </SampleNotice>
           {schedule}
         </div>
-        {view === "courses" && <CourseFacultyPanel onAsk={onAsk} />}
+        {view === "courses" && (
+          <CourseFacultyPanel
+            onAsk={onAsk}
+            tabs={facultyTabs}
+            onSelect={onSelectFaculty}
+            onClose={onCloseFaculty}
+          />
+        )}
       </div>
     </>
   )

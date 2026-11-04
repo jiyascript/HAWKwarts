@@ -1,0 +1,339 @@
+.degree-card.facprof-card {
+  padding: 0;
+  gap: 0;
+  text-align: left;
+}
+
+/* ── Header ── */
+
+.facprof-card > .facprof-head {
+  display: block;
+  padding: 1.1rem 1.35rem 0.9rem;
+  border: 0;
+}
+
+.facprof-card .facprof-name {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: var(--hw-text);
+}
+
+.facprof-card .facprof-position {
+  margin: 0.25rem 0 0;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--hw-text-secondary);
+}
+
+.facprof-card .facprof-titles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin: 0.625rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.facprof-card .facprof-titles li {
+  margin: 0;
+  padding: 0.1875rem 0.5625rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hw-text-secondary);
+  background: var(--hw-surface-subtle);
+  border-radius: 999px;
+}
+
+/* ── Sections ── */
+
+.facprof-card > .facprof-section,
+.facprof-card > .facprof-missing {
+  margin: 0;
+  padding: 0.9rem 1.35rem;
+  border: 0;
+  border-top: 1px solid var(--hw-border);
+  background: none;
+}
+
+.facprof-card .facprof-section-title {
+  margin: 0 0 0.6rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+}
+
+.facprof-card .facprof-subtitle {
+  margin: 0.85rem 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--hw-text);
+}
+
+/* Label + value rows (Education, Office, Phone, Interests) */
+.facprof-card .facprof-fact {
+  margin: 0 0 0.6rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--hw-text);
+}
+
+.facprof-card .facprof-fact-label {
+  display: block;
+  margin-bottom: 0.125rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+}
+
+.facprof-card .facprof-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.facprof-card .facprof-links li {
+  margin: 0;
+}
+
+.facprof-card .facprof-links a,
+.facprof-card .facprof-muted a {
+  color: var(--hw-brand);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+/* ── Directory text fallback ── */
+
+.facprof-card .facprof-bio summary {
+  cursor: pointer;
+  font-size: 0.8125rem;
+  color: var(--hw-text-secondary);
+}
+
+.facprof-card .facprof-bio p {
+  margin: 0.5rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--hw-text-secondary);
+}
+
+/* ── Research ── */
+
+.facprof-card .facprof-stats {
+  display: flex;
+  gap: 1.75rem;
+  margin: 0 0 0.25rem;
+  padding: 0;
+}
+
+.facprof-card .facprof-stats > div {
+  margin: 0;
+}
+
+.facprof-card .facprof-stats dt {
+  margin: 0;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hw-text-muted);
+}
+
+.facprof-card .facprof-stats dd {
+  margin: 0.125rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--hw-text);
+}
+
+.facprof-card .facprof-pubs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.facprof-card .facprof-pubs li {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--hw-text);
+}
+
+.facprof-card .facprof-pub-title {
+  overflow-wrap: anywhere;
+}
+
+.facprof-card .facprof-year {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--hw-text-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.facprof-card .facprof-muted {
+  margin: 0.5rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--hw-text-secondary);
+}
+
+/* ── "Not looked up yet" notices ── */
+
+.facprof-card .facprof-missing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.facprof-card .facprof-missing .facprof-muted {
+  margin: 0;
+}
+
+.facprof-card .facprof-ask {
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--hw-text);
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-strong);
+  transition: background-color 0.15s ease;
+}
+
+.facprof-card .facprof-ask:hover {
+  background: var(--hw-bg);
+}
+
+.facprof-card .facprof-ask:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 2px;
+}
+
+/* ── Footer ── */
+
+.facprof-card > .facprof-source {
+  margin: 0;
+  padding: 0.75rem 1.35rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--hw-text-muted);
+  background: var(--hw-bg);
+  border-top: 1px solid var(--hw-border);
+}
+
+/* Phone-width card: match the roadmap card's tighter gutters. */
+@container degree-card (max-width: 30rem) {
+  .facprof-card > .facprof-head,
+  .facprof-card > .facprof-section,
+  .facprof-card > .facprof-missing,
+  .facprof-card > .facprof-source {
+    padding-inline: 1rem;
+  }
+}
+
+/* ── Professor tabs (above the card) ── */
+
+.facprof-tabs {
+  display: flex;
+  gap: 0.375rem;
+  margin: 0;
+  padding: 0.125rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--hw-border-strong) transparent;
+}
+
+.facprof-tab {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  max-width: 15rem;
+  background: var(--hw-surface);
+  border: 1px solid var(--hw-border-strong);
+  border-radius: 999px;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.facprof-tab:hover {
+  background: var(--hw-bg);
+}
+
+.facprof-tab[data-active="true"] {
+  background: var(--hw-selected-bg);
+  border-color: var(--hw-brand);
+}
+
+.facprof-tab-select {
+  min-width: 0;
+  padding: 0.4rem 0.25rem 0.4rem 0.85rem;
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--hw-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: none;
+  border: 0;
+  border-radius: 999px 0 0 999px;
+  cursor: pointer;
+}
+
+.facprof-tab[data-active="true"] .facprof-tab-select {
+  font-weight: 600;
+  color: var(--hw-brand);
+}
+
+.facprof-tab-close {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.3rem;
+  padding: 0;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--hw-text-muted);
+  background: none;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.facprof-tab-close:hover {
+  color: var(--hw-text);
+  background: var(--hw-surface-subtle);
+}
+
+.facprof-tab-select:focus-visible,
+.facprof-tab-close:focus-visible {
+  outline: 2px solid var(--hw-brand);
+  outline-offset: 1px;
+}

@@ -13,6 +13,16 @@ from langgraph.checkpoint.memory import InMemorySaver
 
 from .internship_search import find_internships
 from .research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
+from .faculty_panel import (
+    build_panel,
+    has_directory_data,
+    last_panel,
+    panel_from_directory_text,
+    panel_with_directory,
+    people_matching_name,
+    people_named_in,
+    tool_names_this_turn,
+)
 
 from pathlib import Path
 DIRECTORY_PATH = str(Path(__file__).resolve().parent / "iit_directory.json")
@@ -441,7 +451,7 @@ def _tool_called_this_turn(messages) -> bool:
     return False
 
 
-def ask(question: str, config: dict, retries: int = 2):
+def _ask(question: str, config: dict, retries: int = 2):
     """Run one question through the agent (within the conversation identified
     by config's thread_id) and return a guaranteed non-empty answer. Earlier
     turns in the same thread are automatically included as context, so a
@@ -487,6 +497,38 @@ def ask(question: str, config: dict, retries: int = 2):
         "of the professor's name.",
         result["messages"],
     )
+
+
+def ask(question: str, config: dict, retries: int = 2):
+    """Same as _ask, and also stores structured tool results for the website's
+    side panel in `last_panel` (read by the API after route_question())."""
+    answer, messages = _ask(question, config, retries)
+    try:
+        panel = build_panel(messages, question=question, answer=answer)
+        tools = tool_names_this_turn(messages)
+        if panel is None:
+            named = people_named_in(question, DIRECTORY)
+            if len(named) == 1:
+                panel = panel_from_directory_text(
+                    search_iit_faculty_directory.invoke({"professor_name": named[0]["name"]}),
+                    messages,
+                )
+        if panel is not None and not has_directory_data(panel):
+            # A card with research but no directory data (the directory result isn't in
+            # this thread, e.g. the lookup above was ours). Fetch it so the card is complete.
+            known = people_matching_name(panel["profile"]["name"], DIRECTORY)
+            if len(known) == 1:
+                panel = panel_with_directory(
+                    panel,
+                    search_iit_faculty_directory.invoke({"professor_name": known[0]["name"]}),
+                )
+        last_panel.set(panel)
+        who = panel["profile"]["name"] if panel else None
+        print(f"[PANEL] tools this turn: {tools} -> {who}", flush=True)
+    except Exception as exc:
+        last_panel.set(None)  # the panel is a bonus; never break the chat over it
+        print(f"[PANEL] failed: {exc!r}", flush=True)
+    return answer, messages
 
 
 if __name__ == "__main__":

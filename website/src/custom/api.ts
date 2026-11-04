@@ -1,3 +1,40 @@
+export interface FacultyPublication {
+  title: string
+  year: number | null
+}
+
+export interface FacultyResearch {
+  name: string | null
+  works_count: number | null
+  citations: number | null
+  openalex_url: string | null
+  publications: FacultyPublication[]
+}
+
+export interface FacultyProfile {
+  name: string
+  titles: string[]
+  email: string | null
+  profile_url: string | null
+  bio: string | null
+  position: string | null
+  education: string | null
+  research_interests: string | null
+  phones: string[]
+  office: string | null
+  research: FacultyResearch | null
+}
+
+export interface FacultyPanelData {
+  type: "professor"
+  profile: FacultyProfile
+}
+
+export interface AdvisorReply {
+  answer: string
+  panel: FacultyPanelData | null
+}
+
 export interface ScheduleCourse {
   code: string
   title?: string | null
@@ -29,7 +66,7 @@ export async function fetchSchedule(): Promise<ScheduleResult> {
   return await response.json()
 }
 
-export async function askAdvisor(question: string): Promise<string> {
+export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
   const response = await fetch("http://localhost:8000/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -41,5 +78,9 @@ export async function askAdvisor(question: string): Promise<string> {
   }
 
   const data = await response.json();
-  return data.answer;
+  return { answer: data.answer, panel: data.panel ?? null };
+}
+
+export async function askAdvisor(question: string): Promise<string> {
+  return (await askAdvisorFull(question)).answer;
 }

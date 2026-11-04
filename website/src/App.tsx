@@ -30,7 +30,14 @@ import {
   loadGifBlob,
   sleep,
 } from "./mascot/gifPlayback"
-import { askAdvisor, fetchSchedule } from "./custom/api"
+import { askAdvisorFull, fetchSchedule } from "./custom/api"
+import {
+  EMPTY_FACULTY_TABS,
+  addFacultyProfile,
+  closeFacultyTab,
+  selectFacultyTab,
+  type FacultyTabsState,
+} from "./custom/facultyProfile"
 import { WeeklySchedule, expandCourses, type SelectedCourse, type SemesterSchedule } from "./workspace/WeeklySchedule"
 import { parseScheduleJson } from "./custom/schedule_check"
 import ReactMarkdown from "react-markdown"
@@ -917,6 +924,7 @@ export default function App() {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState("")
   const [isWaiting, setIsWaiting] = useState(false)
+  const [facultyTabs, setFacultyTabs] = useState<FacultyTabsState>(EMPTY_FACULTY_TABS)
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
   const [answers, setAnswers] = useState<OnboardingAnswers>(() =>
@@ -1233,8 +1241,12 @@ export default function App() {
 
     setIsWaiting(true)
     try {
-      const answer = await askAdvisor(text)
-      setMessages((prev) => [...prev, {from: "hawkwarts", text: answer }])
+      const { answer, panel } = await askAdvisorFull(text)
+      setMessages((prev) => [...prev, { from: "hawkwarts", text: answer }])
+      if (panel?.type === "professor") {
+        setFacultyTabs((prev) => addFacultyProfile(prev, panel.profile))
+        setAcademicView("courses")
+      }
     } catch (error) {
       console.error(error)
       setMessages((prev) => [
@@ -1464,6 +1476,9 @@ export default function App() {
                 />
               }
               onAsk={pickSuggestion}
+              facultyTabs={facultyTabs}
+              onSelectFaculty={(key) => setFacultyTabs((prev) => selectFacultyTab(prev, key))}
+              onCloseFaculty={(key) => setFacultyTabs((prev) => closeFacultyTab(prev, key))}
             />
           </section>
 
