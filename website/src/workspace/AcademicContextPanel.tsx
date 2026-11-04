@@ -1,15 +1,15 @@
 import type { ReactNode } from "react"
 import type { Goal, StudentContext } from "../onboarding/profile"
 import {
-  EMPTY_FACULTY_TABS,
-  activeFacultyProfile,
-  facultyKey,
-  facultyPanelId,
-  facultyTabId,
-  type FacultyTabsState,
-} from "../custom/facultyProfile"
+  EMPTY_PANEL_TABS,
+  activePanelItem,
+  panelBodyId,
+  panelTabId,
+  type PanelTabsState,
+} from "../custom/panelTabs"
+import { CourseInfoCard } from "./CourseInfoCard"
 import { FacultyProfileCard } from "./FacultyProfileCard"
-import { FacultyTabs } from "./FacultyTabs"
+import { PanelTabs } from "./PanelTabs"
 import { SuggestedQuestionChips } from "./SuggestedQuestionChips"
 import "./workspace.css"
 
@@ -243,25 +243,28 @@ function CourseFacultyPanel({
   onClose,
 }: {
   onAsk: (question: string) => void
-  tabs: FacultyTabsState
+  tabs: PanelTabsState
   onSelect: (key: string) => void
   onClose: (key: string) => void
 }) {
-  // Every professor the advisor has looked up stays reachable as a tab.
-  const active = activeFacultyProfile(tabs)
+  // Every professor and course the advisor has looked up stays reachable as a tab.
+  const active = activePanelItem(tabs)
   if (active) {
-    const key = facultyKey(active.name)
     return (
       <>
-        <FacultyTabs
-          profiles={tabs.profiles}
-          activeKey={key}
+        <PanelTabs
+          items={tabs.items}
+          activeKey={active.key}
           onSelect={onSelect}
           onClose={onClose}
         />
-        <div role="tabpanel" id={facultyPanelId(key)} aria-labelledby={facultyTabId(key)}>
+        <div role="tabpanel" id={panelBodyId(active.key)} aria-labelledby={panelTabId(active.key)}>
           {/* key= resets per-card state (like the open/closed profile text) when switching. */}
-          <FacultyProfileCard key={key} profile={active} onAsk={onAsk} />
+          {active.kind === "professor" ? (
+            <FacultyProfileCard key={active.key} profile={active.profile} onAsk={onAsk} />
+          ) : (
+            <CourseInfoCard key={active.key} course={active.course} onAsk={onAsk} />
+          )}
         </div>
       </>
     )
@@ -285,11 +288,12 @@ function CourseFacultyPanel({
         </svg>
       </span>
       <h3 id="ws-empty-title" className="ws-empty-title">
-        No professor selected yet
+        Nothing selected yet
       </h3>
       <p className="ws-empty-text">
-        Ask the advisor about a professor and their title, contact info, and
-        research will appear here.
+        Ask the advisor about a professor or a course. A professor’s title,
+        contact info, and research, or a course’s description, prerequisites,
+        and sections, will appear here.
       </p>
       <p className="ws-empty-label">Start a question in the advisor chat</p>
       <SuggestedQuestionChips
@@ -309,9 +313,10 @@ interface AcademicContextPanelProps {
   /** The existing interactive Schedule Builder, rendered unchanged. */
   schedule: ReactNode
   onAsk: (question: string) => void
-  facultyTabs?: FacultyTabsState
-  onSelectFaculty?: (key: string) => void
-  onCloseFaculty?: (key: string) => void
+  /** Professors and courses the advisor has looked up, and which one is shown. */
+  panelTabs?: PanelTabsState
+  onSelectPanel?: (key: string) => void
+  onClosePanel?: (key: string) => void
 }
 
 export function AcademicContextPanel({
@@ -320,9 +325,9 @@ export function AcademicContextPanel({
   context,
   schedule,
   onAsk,
-  facultyTabs = EMPTY_FACULTY_TABS,
-  onSelectFaculty = () => {},
-  onCloseFaculty = () => {},
+  panelTabs = EMPTY_PANEL_TABS,
+  onSelectPanel = () => {},
+  onClosePanel = () => {},
 }: AcademicContextPanelProps) {
   const copy = VIEWS.find((option) => option.id === view) ?? VIEWS[0]
 
@@ -367,9 +372,9 @@ export function AcademicContextPanel({
         {view === "courses" && (
           <CourseFacultyPanel
             onAsk={onAsk}
-            tabs={facultyTabs}
-            onSelect={onSelectFaculty}
-            onClose={onCloseFaculty}
+            tabs={panelTabs}
+            onSelect={onSelectPanel}
+            onClose={onClosePanel}
           />
         )}
       </div>

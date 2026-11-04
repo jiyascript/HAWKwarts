@@ -1,22 +1,17 @@
 import type { KeyboardEvent } from "react"
-import type { FacultyProfile } from "../custom/api"
-import {
-  facultyKey,
-  facultyPanelId,
-  facultyTabId,
-} from "../custom/facultyProfile"
+import { panelBodyId, panelTabId, type PanelItem } from "../custom/panelTabs"
 import "./faculty.css"
 
-interface FacultyTabsProps {
-  profiles: readonly FacultyProfile[]
+interface PanelTabsProps {
+  items: readonly PanelItem[]
   activeKey: string
   onSelect: (key: string) => void
   onClose: (key: string) => void
 }
 
-/** One tab per professor the advisor has looked up, so earlier ones stay reachable. */
-export function FacultyTabs({ profiles, activeKey, onSelect, onClose }: FacultyTabsProps) {
-  const keys = profiles.map((profile) => facultyKey(profile.name))
+/** One tab per professor or course the advisor has looked up, so earlier ones stay reachable. */
+export function PanelTabs({ items, activeKey, onSelect, onClose }: PanelTabsProps) {
+  const keys = items.map((item) => item.key)
 
   // Arrow keys / Home / End move between tabs; Delete closes the focused one.
   function handleKeyDown(event: KeyboardEvent<HTMLDivElement>) {
@@ -38,9 +33,8 @@ export function FacultyTabs({ profiles, activeKey, onSelect, onClose }: FacultyT
 
     event.preventDefault()
     onSelect(keys[nextIndex])
-    
     window.requestAnimationFrame(() =>
-      document.getElementById(facultyTabId(keys[nextIndex]))?.focus(),
+      document.getElementById(panelTabId(keys[nextIndex]))?.focus(),
     )
   }
 
@@ -48,33 +42,39 @@ export function FacultyTabs({ profiles, activeKey, onSelect, onClose }: FacultyT
     <div
       className="facprof-tabs"
       role="tablist"
-      aria-label="Professors"
+      aria-label="Professors and courses"
       onKeyDown={handleKeyDown}
     >
-      {profiles.map((profile, i) => {
-        const key = keys[i]
-        const active = key === activeKey
+      {items.map((item) => {
+        const active = item.key === activeKey
+        const kindLabel = item.kind === "course" ? "Course" : "Professor"
         return (
-          <div key={key} className="facprof-tab" role="presentation" data-active={active}>
+          <div
+            key={item.key}
+            className="facprof-tab"
+            role="presentation"
+            data-active={active}
+            data-kind={item.kind}
+          >
             <button
               type="button"
               role="tab"
-              id={facultyTabId(key)}
+              id={panelTabId(item.key)}
               className="facprof-tab-select"
               aria-selected={active}
-              aria-controls={active ? facultyPanelId(key) : undefined}
+              aria-controls={active ? panelBodyId(item.key) : undefined}
               tabIndex={active ? 0 : -1}
-              title={profile.name}
-              onClick={() => onSelect(key)}
+              title={`${kindLabel}: ${item.label}`}
+              onClick={() => onSelect(item.key)}
             >
-              {profile.name}
+              {item.label}
             </button>
             <button
               type="button"
               className="facprof-tab-close"
-              aria-label={`Close ${profile.name}`}
+              aria-label={`Close ${kindLabel.toLowerCase()} ${item.label}`}
               tabIndex={active ? 0 : -1}
-              onClick={() => onClose(key)}
+              onClick={() => onClose(item.key)}
             >
               ×
             </button>

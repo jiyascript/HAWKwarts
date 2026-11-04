@@ -30,9 +30,37 @@ export interface FacultyPanelData {
   profile: FacultyProfile
 }
 
+export interface CourseSection {
+  crn: string | null
+  section: string | null
+  instructor: string | null
+  meeting: string | null
+  seats: string | null
+}
+
+export interface CourseCard {
+  code: string
+  title: string | null
+  credits: string | null
+  description: string | null
+  prerequisites: string | null
+  corequisites: string | null
+  satisfies: string | null
+  catalog_url: string | null
+  term: string | null
+  sections: CourseSection[]
+}
+
+export interface CoursePanelData {
+  type: "course"
+  course: CourseCard
+}
+
+export type PanelData = FacultyPanelData | CoursePanelData
+
 export interface AdvisorReply {
   answer: string
-  panel: FacultyPanelData | null
+  panels: PanelData[]
 }
 
 export interface ScheduleCourse {
@@ -78,7 +106,8 @@ export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
   }
 
   const data = await response.json();
-  return { answer: data.answer, panel: data.panel ?? null };
+  const panels: PanelData[] = data.panels ?? (data.panel ? [data.panel] : []);
+  return { answer: data.answer, panels };
 }
 
 export async function askAdvisor(question: string): Promise<string> {
