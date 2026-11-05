@@ -1,7 +1,7 @@
 import json
 import re
 import time
-from functools import lru_cache
+from functools import lru_cache, wraps
 
 import requests
 from bs4 import BeautifulSoup
@@ -10,6 +10,14 @@ from langchain.agents import create_agent
 from langchain_core.tools import tool
 from langchain_ollama import ChatOllama
 from langgraph.checkpoint.memory import InMemorySaver
+from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
+
+import os
+import random
+from google.genai import errors
+from google import genai
+from google.genai import types
+from dotenv import load_dotenv
 
 from .internship_search import find_internships
 from .research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
@@ -28,10 +36,15 @@ from pathlib import Path
 DIRECTORY_PATH = str(Path(__file__).resolve().parent / "iit_directory.json")
 
 OPENALEX_BASE = "https://api.openalex.org"
-DIRECTORY_PATH = "./faculty_agent/iit_directory.json"
-
 # Illinois Institute of Technology's ROR (Research Organization Registry) ID.
 IIT_ROR_ID = "https://ror.org/037t3ry66"
+
+load_dotenv()
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+USE_GEMINI = True # change here to false to stop using Gemini and switch back to Ollama
+
+if USE_GEMINI:
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 llm = ChatOllama(
     model="qwen3:8b",
@@ -343,6 +356,22 @@ TOOLS = [
     find_internships,
     find_research_opportunities,
 ]
+_tool_results = []
+
+def _plain(tool_obj):
+    return getattr(tool_obj, "func", tool_obj)
+
+def _logged(func):
+    """Print each tool call and remember its result for this turn."""
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f"\n[TOOL] {func.__name__}({kwargs or args})")
+        result = func(*args, **kwargs)
+        _tool_results.append((func.__name__, result if isinstance(result, str) else ""))
+        return result
+    return wrapper
+
+GEMINI_TOOLS = [_logged(_plain(t)) for t in TOOLS]
 
 SYSTEM_PROMPT = (
     "You are an academic advisor at Illinois Institute of Technology. Answer only using tool "
@@ -390,6 +419,23 @@ agent = create_agent(
     checkpointer=checkpointer,
 )
 
+GENERATE_CONFIG = types.GenerateContentConfig(
+    system_instruction=SYSTEM_PROMPT,
+    tools=GEMINI_TOOLS,
+    automatic_function_calling=types.AutomaticFunctionCallingConfig(
+        maximum_remote_calls=8,
+    ),
+    temperature=0,
+)
+
+_chats = {}
+def _get_chat(thread_id):
+    if thread_id not in _chats:
+        _chats[thread_id] = client.chats.create(
+            model=GEMINI_MODEL,
+            config=GENERATE_CONFIG,
+        )
+    return _chats[thread_id]
 
 RESEARCH_REMINDER = (
     "Note: these matches reflect public research profiles and do not mean a professor has an "
@@ -451,7 +497,7 @@ def _tool_called_this_turn(messages) -> bool:
     return False
 
 
-def _ask(question: str, config: dict, retries: int = 2):
+def _ask_ollama(question: str, config: dict, retries: int = 2):
     """Run one question through the agent (within the conversation identified
     by config's thread_id) and return a guaranteed non-empty answer. Earlier
     turns in the same thread are automatically included as context, so a
@@ -498,11 +544,92 @@ def _ask(question: str, config: dict, retries: int = 2):
         result["messages"],
     )
 
+def _send_with_retry(chat, message_text, max_attempts=3):
+    for attempt in range(max_attempts):
+        try:
+            return chat.send_message(message_text)
+        except errors.APIError as exc:
+            if getattr(exc, "code", None) not in (503, 429):
+                raise
+            if attempt == max_attempts - 1:
+                raise
+            delay = min(2 ** attempt + random.uniform(0, 1), 10)
+            print(f"\nGemini temporarily unavailable ({exc.code}). Retrying in {delay:.1f}s...")
+            time.sleep(delay)
+
+_gemini_history = {}
+def _record_turn(thread_id, question, answer):
+    """Add this turn to the thread's history as LangChain-style messages (the
+    shape faculty_panel.py reads) and return the whole history."""
+    history = _gemini_history.setdefault(thread_id, [])
+    history.append(HumanMessage(content=question))
+    for i, (name, result) in enumerate(_tool_results):
+        history.append(
+            ToolMessage(content=result, name=name, tool_call_id=f"gemini-{len(history)}-{i}")
+        )
+    history.append(AIMessage(content=answer))
+    return history
+
+def _ask_gemini(question: str, config: dict, retries: int = 2):
+    thread_id = config["configurable"]["thread_id"]
+    chat = _get_chat(thread_id)
+    message_text = question
+    nudged = False
+
+    for attempt in range(retries + 1):
+        _tool_results.clear()
+        _turn_start = time.monotonic()
+        response = _send_with_retry(chat, message_text)
+        print(f"[TIMING] chat.send_message() took {time.monotonic() - _turn_start:.1f}s this turn")
+
+        # This turn's find_research_opportunities result, if the tool ran
+        research = None
+        for name, result in reversed(_tool_results):
+            if name == "find_research_opportunities":
+                research = result
+                break
+
+        if research and research.startswith(NO_MATCH_PREFIX):
+            return research, _record_turn(thread_id, question, research)
+
+        final_content = response.text or ""
+
+        if (
+            final_content
+            and not nudged
+            and not _tool_results  # no tool was called this turn
+            and _NOT_FOUND_PATTERN.search(final_content)
+        ):
+            nudged = True
+            message_text = question + _TOOL_NUDGE
+            continue
+
+        if final_content:
+            if (
+                research
+                and research.startswith(MATCHES_PREFIX)
+                and "open position" not in final_content.lower()
+            ):
+                final_content = f"{final_content.rstrip()}\n\n{RESEARCH_REMINDER}"
+            return final_content, _record_turn(thread_id, question, final_content)
+
+    fallback =  (
+        "I wasn't able to generate a response for that after a few attempts. "
+        "This may be a temporary issue — try asking again, or double-check the spelling "
+        "of the professor's name."
+    )
+    return fallback, _record_turn(thread_id, question, fallback)
+
 
 def ask(question: str, config: dict, retries: int = 2):
     """Same as _ask, and also stores structured tool results for the website's
     side panel in `last_panel` (read by the API after route_question())."""
-    answer, messages = _ask(question, config, retries)
+   
+    if USE_GEMINI:
+        answer, messages = _ask_gemini(question, config, retries)
+    else:
+        answer, messages = _ask_ollama(question, config, retries)
+
     try:
         panel = build_panel(messages, question=question, answer=answer)
         tools = tool_names_this_turn(messages)
