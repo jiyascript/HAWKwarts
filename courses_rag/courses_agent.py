@@ -16,6 +16,17 @@ from .degree_progress import get_degree_progress_context
 from .schedule_conflicts import find_compatible_sections
 from .course_panel import build_course_panel, collect_tool_results, last_course_panel
 
+from .schedule_session import (
+    show_sample_schedule,
+    add_course_to_schedule,
+    remove_course_from_schedule,
+    show_current_schedule,
+    clear_schedule,
+    last_schedule,
+    begin_turn,
+    take_update,
+)
+
 load_dotenv()
 SYSTEM_PROMPT = """
 You are HAWKwarts, an academic catalog assistant for
@@ -135,6 +146,23 @@ Never describe a TBA section as confirmed conflict-free.
 Do not assume online sections are available to every student.
 A conflict-free schedule does not guarantee open seats,
 prerequisite eligibility, or permission to register.
+
+DISPLAYED SCHEDULE:
+The student has a schedule panel on the website. To show or change it:
+- show_sample_schedule(term, course_ids): build and show a weekly schedule
+  (also use this if no schedule is shown yet and the student asks to add a course)
+- add_course_to_schedule(course_id): add a course to the shown schedule
+- remove_course_from_schedule(course_id): remove a course from it
+- show_current_schedule(): show it again
+- clear_schedule(): empty it
+Only use these when the student asks to see, build, or change a schedule.
+After a change, say the schedule panel was updated and briefly list each
+selected section with its CRN, days and time. If a result has an error or
+missing_courses, say so and do not claim the schedule changed.
+If a result error mentions TBA, missing times, or weekend meetings, explain that
+such a schedule can't be displayed yet and say which course causes it.
+analyze_schedule_conflicts is for comparing alternative sections; it does not
+change the panel.
 """
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
@@ -220,6 +248,8 @@ def resolve_degree_progress_program(question: str) -> str | None:
 def ask_agent(question: str) -> str:
     """Answer questions using structured context when appropriate."""
     last_course_panel.set(None)
+    last_schedule.set(None)
+    begin_turn()
     original_question = question  # `question` is rewritten below for degree progress
     use_structured_context = False
     program_id = resolve_degree_progress_program(question)
@@ -262,7 +292,12 @@ def ask_agent(question: str) -> str:
                         list_specializations,
                         get_course_offering,
                         get_student_academic_history,
-                        analyze_schedule_conflicts
+                        analyze_schedule_conflicts,
+                        show_sample_schedule,
+                        add_course_to_schedule,
+                        remove_course_from_schedule,
+                        show_current_schedule,
+                        clear_schedule,     
                     ],
                     automatic_function_calling=types.AutomaticFunctionCallingConfig(
                         maximum_remote_calls=12,
@@ -272,6 +307,7 @@ def ask_agent(question: str) -> str:
             )
             answer = response.text or "No response generated."
             _publish_course_panel(original_question, answer, response)
+            last_schedule.set(take_update())
             return answer
 
         except errors.ServerError as exc:

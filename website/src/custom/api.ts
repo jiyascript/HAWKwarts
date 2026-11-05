@@ -1,3 +1,5 @@
+import type { SemesterSchedule } from "@/workspace/WeeklySchedule"
+
 export interface FacultyPublication {
   title: string
   year: number | null
@@ -61,6 +63,7 @@ export type PanelData = FacultyPanelData | CoursePanelData
 export interface AdvisorReply {
   answer: string
   panels: PanelData[]
+  schedule: SemesterSchedule | null
 }
 
 export interface ScheduleCourse {
@@ -107,7 +110,7 @@ export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
 
   const data = await response.json();
   const panels: PanelData[] = data.panels ?? (data.panel ? [data.panel] : []);
-  return { answer: data.answer, panels };
+  return { answer: data.answer, panels, schedule: data.schedule ?? null };
 }
 
 export async function askAdvisor(question: string): Promise<string> {

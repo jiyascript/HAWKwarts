@@ -39,7 +39,6 @@ import {
   type PanelTabsState,
 } from "./custom/panelTabs"
 import { WeeklySchedule, expandCourses, type SelectedCourse, type SemesterSchedule } from "./workspace/WeeklySchedule"
-import { parseScheduleJson } from "./custom/schedule_check"
 import ReactMarkdown from "react-markdown"
 
 const MASCOT_SRCS = {
@@ -391,17 +390,12 @@ function Disclaimer() {
 
 // ── Schedule Builder ────────────────────────────────────────────
 
-function ScheduleBuilder({ 
-  personalSchedule,
-  onScheduleChange, 
-}: {
+function ScheduleBuilder({ personalSchedule }: {
   personalSchedule: SemesterSchedule | null
-  onScheduleChange: (schedule: SemesterSchedule | null) => void
 }) {
   const blockRefs = useRef<Map<string, HTMLDivElement>>(new Map())
   const contentRef = useRef<HTMLDivElement>(null)
   const pdfInputRef = useRef<HTMLInputElement>(null)
-  const scheduleInputRef = useRef<HTMLInputElement>(null)
   const [arrows, setArrows] = useState<ArrowDatum[]>([])
   const [isEditing, setIsEditing] = useState(false)
   const [completedSems, setCompletedSems] = useState<PlanSemester[]>(() =>
@@ -414,10 +408,6 @@ function ScheduleBuilder({
   const [generatedSems, setGeneratedSems] = useState<PlanSemester[] | null>(null)
   const [planStatus, setPlanStatus] = useState<{
     state: "idle" | "working" | "success" | "error"
-    message: string
-  }>({ state: "idle", message: "" })
-  const [scheduleStatus, setScheduleStatus] = useState<{
-    state: "idle" | "success" | "error"
     message: string
   }>({ state: "idle", message: "" })
   const shownSchedule = personalSchedule ?? SAMPLE_SCHEDULE
@@ -555,24 +545,6 @@ function ScheduleBuilder({
   }
 }
 
-  async function importSchedule(file: File | undefined) {
-    if (!file) return
-    try {
-      const schedule = parseScheduleJson(await file.text())
-      onScheduleChange(schedule)
-      setScheduleStatus({
-        state: "success",
-        message: `Loaded your ${schedule.term} schedule from ${file.name}.`,
-      })
-    } catch (error) {
-      // A bad file leaves whatever is currently showing untouched
-      setScheduleStatus({
-        state: "error",
-        message: error instanceof Error ? error.message : "That file could not be read.",
-    })
-  }
-}
-
   return (
     <div className={`builder${isEditing ? " builder-editing" : ""}`}>
       <div className="builder-header">
@@ -644,35 +616,6 @@ function ScheduleBuilder({
           >
             {planStatus.state === "working" ? "Planning…" : "Generate plan"}
           </button>
-          <input
-            ref={scheduleInputRef}
-            type="file"
-            accept=".json,application/json"
-            className="builder-pdf-input"
-            onChange={(event) => {
-              void importSchedule(event.target.files?.[0])
-              event.target.value = ""
-            }}
-          />
-          <button
-            type="button"
-            className="builder-edit-btn"
-            onClick={() => scheduleInputRef.current?.click()}
-          >
-            Import schedule
-          </button>
-          {personalSchedule && (
-            <button
-              type="button"
-              className="builder-edit-btn"
-              onClick={() => {
-                onScheduleChange(null)
-                setScheduleStatus({ state: "idle", message: "" })
-              }}
-            >
-              Show preview
-            </button>
-          )}
         </div>
       </div>
 
@@ -682,15 +625,6 @@ function ScheduleBuilder({
           role={pdfStatus.state === "error" ? "alert" : "status"}
         >
           {pdfStatus.message}
-        </div>
-      )}
-
-      {scheduleStatus.state !== "idle" && (
-        <div
-          className={`builder-import-status is-${scheduleStatus.state}`}
-          role={scheduleStatus.state === "error" ? "alert" : "status"}
-        >
-          {scheduleStatus.message}
         </div>
       )}
 
@@ -1234,20 +1168,21 @@ export default function App() {
     const text = (overrideText ?? input).trim()
     if (!text || isWaiting) return
     setInput("")
-    if (PLANNING_RE.test(text) && !plannerOpened) {
-      openPlanner()
-      return
-    }
     setMessages((prev) => [...prev, { from: "student", text }])
 
     setIsWaiting(true)
     try {
-      const { answer, panels } = await askAdvisorFull(text)
+      const { answer, panels, schedule } = await askAdvisorFull(text)
       setMessages((prev) => [...prev, { from: "hawkwarts", text: answer }])
       if (panels.length > 0) {
         // New professor or course: open a tab. Already open: fold the new details into that tab.
         setPanelTabs((prev) => addPanels(prev, panels))
         setAcademicView("courses") // remove this line to keep the student on their current tab
+      }
+      if (schedule) {
+        // An empty schedule means "cleared", so go back to the preview
+        setPersonalSchedule(schedule.meetings.length > 0 ? schedule : null)
+        setAcademicView("schedule") // after the courses line, so the schedule wins if both arrive
       }
     } catch (error) {
       console.error(error)
@@ -1474,7 +1409,6 @@ export default function App() {
               schedule={
                 <ScheduleBuilder 
                   personalSchedule={personalSchedule}
-                  onScheduleChange={setPersonalSchedule} 
                 />
               }
               onAsk={pickSuggestion}
