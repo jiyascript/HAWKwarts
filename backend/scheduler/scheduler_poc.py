@@ -6,6 +6,8 @@ import sys
 from pathlib import Path
 from backend.scheduler.course_level import get_course_level
 from backend.scheduler.schedule_export import export_failure_json
+from courses_rag.requirements_lookup import get_requirements
+from backend.scheduler.requirement_resolver import resolve_requirements
 
 BACKEND_DIR = Path(__file__).resolve().parents[1]
 
@@ -304,6 +306,13 @@ parser.add_argument(
     help="Student enrollment status"
 )
 
+parser.add_argument(
+    "--program-id",
+    type=str,
+    required=True,
+    help="Exact academic program ID from the requirements catalog"
+)
+
 args = parser.parse_args()
 
 with args.history.open("r", encoding="utf-8") as file:
@@ -424,16 +433,63 @@ print(f"Enrollment minimum: {MIN_CREDITS_PER_SEMESTER}")
 print(f"Maximum semester credits: {MAX_CREDITS_PER_SEMESTER}")
 
 # =========================================================
-# 3. POC Course Requirements
+# 3. Dynamic Degree Requirements
 # =========================================================
+program = get_requirements("program", args.program_id)
 
-# These are demonstration requirements, not a verified
-# Illinois Tech degree audit.
-COURSE_REQUIREMENTS = [
-    "CS 512",
-    "CS 513",
-    "CS 525",
-]
+if program is None:
+    raise ValueError(
+        f"Academic program not found: {args.program_id}"
+    )
+
+resolved = resolve_requirements(program, history)
+
+COURSE_REQUIREMENTS = resolved["remaining_courses"]
+
+# Identify catalog-available options for outstanding choice groups.
+CHOICE_GROUP_CANDIDATES = []
+
+for group in resolved["choice_groups"]:
+    available_options = [
+        code
+        for code in group["options"]
+        if code not in completed_codes
+        and code not in in_progress_codes
+        and any(
+            adapter.is_offered(code, term)
+            for term in SEMESTER_NAMES.values()
+        )
+    ]
+
+    CHOICE_GROUP_CANDIDATES.append({
+        **group,
+        "available_options": available_options
+    })
+
+print("\nHAWKwarts Choice Group Candidates")
+print("=================================")
+
+for group in CHOICE_GROUP_CANDIDATES:
+    print("Group:", group["group"])
+    print("Required:", group["remaining_count"])
+    print("Available:", group["available_options"])
+
+print("\nHAWKwarts Degree Requirements")
+print("============================")
+print("Program:", program.get("title"))
+print("Remaining mandatory courses:", len(COURSE_REQUIREMENTS))
+print("Outstanding choice groups:", len(resolved["choice_groups"]))
+print(
+    "Unresolved requirement items:",
+    len(resolved["unresolved_requirements"])
+)
+
+if resolved["choice_groups"] or resolved["unresolved_requirements"]:
+    print(
+        "WARNING: This plan covers mandatory courses only. "
+        "Elective choices and unresolved requirements "
+        "are not yet included."
+    )
 
 # Prerequisites are not enforced in this demonstration.
 # Real catalog prerequisite parsing will be added later.
@@ -470,15 +526,33 @@ for code in remaining_codes:
 
     for term in SEMESTER_NAMES.values():
         if adapter.is_offered(code, term):
-            credit_options.update(adapter.credit_options(code, term))
+            credit_options.update(
+                adapter.credit_options(code, term)
+            )
 
-    if len(credit_options) != 1:
+    # Zero-credit components (such as labs) do not
+    # contribute additional semester credits.
+    positive_credit_options = {
+        credits
+        for credits in credit_options
+        if credits > 0
+    }
+
+    if len(positive_credit_options) != 1:
         raise ValueError(
-            f"{code}: ambiguous credit options {credit_options}. "
+            f"{code}: ambiguous positive credit options "
+            f"{positive_credit_options}. "
             "Section-level credit handling is needed."
         )
 
-    credits = credit_options.pop()
+    credits = positive_credit_options.pop()
+
+    if credits <= 0 or int(credits) != credits:
+        raise ValueError(
+            f"{code}: unsupported credit value {credits}"
+        )
+
+    COURSE_CREDITS[code] = int(credits)
 
     if credits <= 0 or int(credits) != credits:
         raise ValueError(
@@ -507,7 +581,14 @@ for code in unavailable_codes:
 # Handle Empty Scheduling Problem
 # =========================================================
 
-if not remaining_codes:
+if (
+    not remaining_codes
+    and not any(
+        group["remaining_count"] > 0
+        and group["available_options"]
+        for group in CHOICE_GROUP_CANDIDATES
+    )
+):
     print("\nHAWKwarts Degree Plan")
     print("=====================")
 
@@ -552,6 +633,67 @@ for code in remaining_codes:
 
     remaining_courses[code] = task
 
+# Create optional tasks for outstanding elective choice groups.
+elective_courses = {}
+
+for group in CHOICE_GROUP_CANDIDATES:
+    if group["remaining_count"] <= 0:
+        continue
+
+    for code in group["available_options"]:
+        if code in remaining_courses:
+            continue
+
+        if code in elective_courses:
+            continue
+
+        task = ps.FixedDurationTask(
+            name=code.replace(" ", "_"),
+            duration=1,
+            optional=True
+        )
+
+        elective_courses[code] = task
+
+print("\nHAWKwarts Elective Tasks")
+print("=======================")
+print("Optional elective tasks:", list(elective_courses))
+
+# Require the correct number of electives from each choice group.
+for group_index, group in enumerate(CHOICE_GROUP_CANDIDATES):
+    required_count = group["remaining_count"]
+
+    if required_count <= 0:
+        continue
+
+    options = [
+        code
+        for code in group["available_options"]
+        if code in elective_courses
+    ]
+
+    if len(options) < required_count:
+        raise ValueError(
+            f"Not enough available courses for "
+            f"{group['group']}: need {required_count}, "
+            f"found {len(options)}"
+        )
+
+    ps.ConstraintFromExpression(
+        name=f"Choice_Group_{group_index}",
+        expression=z3.PbEq(
+            [
+                (elective_courses[code]._scheduled, 1)
+                for code in options
+            ],
+            required_count
+        )
+    )
+
+    print(
+        f"Choice group '{group['group']}': "
+        f"select {required_count} of {len(options)} courses"
+    )
 
 # =========================================================
 # 5. Real Banner Prerequisite Constraints
@@ -568,7 +710,7 @@ for course in history["in_progress_courses"]:
 
 prerequisite_constraint_count = 0
 
-for course_code, task in remaining_courses.items():
+for course_code, task in {**remaining_courses, **elective_courses}.items():
 
     for term_index, semester_name in SEMESTER_NAMES.items():
 
@@ -597,40 +739,144 @@ for course_code, task in remaining_courses.items():
         parsed = parse_prerequisites(indicator, general)
 
         details = extract_prerequisite_details(general)
+
         detail_lookup = {
             detail["code"]: detail
             for detail in details
+            if detail.get("range_end") is None
         }
+
+        range_details = [
+            detail
+            for detail in details
+            if detail.get("range_end") is not None
+        ]
+
+        for detail in range_details:
+            range_key = (
+                f'{detail["code"]} to {detail["range_end"]}'
+            )
+            detail_lookup[range_key] = detail
+
+        def has_missing_range_metadata(node):
+            if node["type"] == "course_range":
+                range_code = (
+                    f'{node["subject"]} {node["start"]:03d}'
+                )
+
+                return not any(
+                    detail["code"] == range_code
+                    and detail.get("range_end") == node["end"]
+                    for detail in details
+                )
+
+            return any(
+                has_missing_range_metadata(child)
+                for child in node.get("children", [])
+            )
 
         if general:
             if (
                 parsed["status"] != "parsed"
-                or parsed["logic"] not in ("SINGLE", "OR")
+                or parsed["logic"] not in ("SINGLE", "OR", "AND", "course_range")
             ):
+                if course_code in elective_courses:
+                    ps.ConstraintFromExpression(
+                        name=(
+                            f"Unverified_Prerequisites_"
+                            f"{course_code.replace(' ', '_')}_"
+                            f"{term_index}"
+                        ),
+                        expression=z3.Implies(
+                            task._start == term_index,
+                            z3.Not(task._scheduled)
+                        )
+                    )
+                    print(
+                        f"WARNING: {course_code} has unsupported "
+                        f"Banner prerequisites in {semester_name}. "
+                        f"Selection is prohibited for this term."
+                    )
+                    continue
                 raise ValueError(
                     f"Unsupported Banner prerequisites for "
                     f"{course_code}: {general}"
                 )
-
-            if any(
-                code not in detail_lookup
-                for code in parsed["courses"]
+            
+            if (
+                any(
+                    code not in detail_lookup
+                    or detail_lookup[code].get("range_end") is not None
+                    for code in parsed["courses"]
+                )
+                or (
+                    parsed.get("expression") is not None
+                    and has_missing_range_metadata(
+                        parsed["expression"]
+                    )
+                )
             ):
+
+                if course_code in elective_courses:
+                    ps.ConstraintFromExpression(
+                        name=(
+                            f"Incomplete_Prerequisite_Metadata_"
+                            f"{course_code.replace(' ', '_')}_"
+                            f"{term_index}"
+                        ),
+                        expression=z3.Implies(
+                            task._start == term_index,
+                            z3.Not(task._scheduled)
+                        )
+                    )
+
+                    print(
+                        f"WARNING: {course_code} has incomplete "
+                        f"prerequisite metadata in {semester_name}. "
+                        f"Selection is prohibited for this term."
+                    )
+
+                    continue
+
                 raise ValueError(
                     f"Incomplete Banner prerequisite metadata "
                     f"for {course_code}"
                 )
 
-            expression_text = " or ".join(
-                parsed["courses"]
+            expression_text = (
+                parsed.get("expression")
+                or " or ".join(parsed["courses"])
             )
 
         else:
             expression_text = indicator
 
         try:
-            expression = parse_expression(expression_text)
+            expression = (
+                expression_text
+                if isinstance(expression_text, dict)
+                else parse_expression(expression_text)
+            )
         except ValueError as error:
+            if course_code in elective_courses:
+                ps.ConstraintFromExpression(
+                    name=(
+                        f"Unparseable_Prerequisites_"
+                        f"{course_code.replace(' ', '_')}_"
+                        f"{term_index}"
+                    ),
+                    expression=z3.Implies(
+                        task._start == term_index,
+                        z3.Not(task._scheduled)
+                    )
+                )
+                print(
+                    f"WARNING: Cannot parse prerequisites "
+                    f"for {course_code} in {semester_name}. "
+                    f"Selection is prohibited for this term."
+                )
+                continue
+
             raise ValueError(
                 f"Cannot parse prerequisites for "
                 f"{course_code}: {expression_text}"
@@ -640,7 +886,7 @@ for course_code, task in remaining_courses.items():
             expression=expression,
             history=history,
             target_start=task._start,
-            scheduled_tasks=remaining_courses,
+            scheduled_tasks={**remaining_courses, **elective_courses},
             detail_lookup=detail_lookup,
             in_progress_terms=in_progress_terms
         )
@@ -654,7 +900,10 @@ for course_code, task in remaining_courses.items():
                 f"{term_index}"
             ),
             expression=z3.Implies(
-                task._start == term_index,
+                z3.And(
+                    task._scheduled,
+                    task._start == term_index
+                ),
                 constraint
             )
         )
@@ -687,12 +936,81 @@ for code, task in remaining_courses.items():
     ps.TaskStartAfter(task=task, value=0)
     ps.TaskEndBefore(task=task, value=2)
 
-    # If offered in only one semester, force that semester.
-    if len(offered_indices) == 1:
-        ps.TaskStartAt(
-            task=task,
-            value=offered_indices[0]
+    # A course can only be scheduled in a semester
+    # where Banner confirms that it is offered.
+    ps.ConstraintFromExpression(
+        name=f"Availability_{code.replace(' ', '_')}",
+        expression=z3.Or([
+            task._start == index
+            for index in offered_indices
+        ])
+    )
+
+# Apply semester availability constraints to optional electives.
+for code, task in elective_courses.items():
+
+    offered_indices = [
+        index
+        for index, term in SEMESTER_NAMES.items()
+        if adapter.is_offered(code, term)
+    ]
+
+    if not offered_indices:
+        raise ValueError(
+            f"No available semester for elective {code}"
         )
+
+    # Only constrain semester placement when selected.
+    ps.ConstraintFromExpression(
+        name=f"Elective_Availability_{code.replace(' ', '_')}",
+        expression=z3.Implies(
+            task._scheduled,
+            z3.Or([
+                task._start == index
+                for index in offered_indices
+            ])
+        )
+    )
+
+print(
+    "Elective availability constraints added:",
+    len(elective_courses)
+)
+
+# Determine credit values for elective candidates.
+ELECTIVE_CREDITS = {}
+
+for code in elective_courses:
+    credit_options = set()
+
+    for term in SEMESTER_NAMES.values():
+        if adapter.is_offered(code, term):
+            credit_options.update(
+                adapter.credit_options(code, term)
+            )
+
+    positive_credits = {
+        credits for credits in credit_options
+        if credits > 0
+    }
+
+    if len(positive_credits) != 1:
+        raise ValueError(
+            f"{code}: ambiguous elective credit values "
+            f"{positive_credits}"
+        )
+
+    credits = positive_credits.pop()
+
+    if int(credits) != credits:
+        raise ValueError(
+            f"{code}: fractional elective credits "
+            f"are not yet supported"
+        )
+
+    ELECTIVE_CREDITS[code] = int(credits)
+
+print("Elective credits:", ELECTIVE_CREDITS)
 
 # =========================================================
 # 7. Semester Credit Capacity Constraints
@@ -700,7 +1018,7 @@ for code, task in remaining_courses.items():
 
 for semester in SEMESTER_NAMES:
 
-    newly_scheduled_credits = z3.Sum([
+    mandatory_credits = z3.Sum([
         z3.If(
             task._start == semester,
             COURSE_CREDITS[code],
@@ -708,6 +1026,22 @@ for semester in SEMESTER_NAMES:
         )
         for code, task in remaining_courses.items()
     ])
+
+    elective_credits = z3.Sum([
+        z3.If(
+            z3.And(
+                task._scheduled,
+                task._start == semester
+            ),
+            ELECTIVE_CREDITS[code],
+            0
+        )
+        for code, task in elective_courses.items()
+    ])
+
+    newly_scheduled_credits = (
+        mandatory_credits + elective_credits
+    )
 
     total_semester_credits = (
         newly_scheduled_credits
@@ -785,12 +1119,17 @@ semester_courses = {
 # ---------------------------------------------------------
 
 for course_name, task_solution in solution.tasks.items():
+    # Exclude optional courses that Z3 did not select.
+    if not task_solution.scheduled:
+        continue
 
     semester = task_solution.start
 
     if semester in semester_courses:
         semester_courses[semester].append(course_name)
 
+# Combine mandatory and elective course credit values.
+ALL_COURSE_CREDITS = {**COURSE_CREDITS, **ELECTIVE_CREDITS}
 
 # ---------------------------------------------------------
 # 12. Presentation-Friendly Output
@@ -821,7 +1160,8 @@ for semester_number, semester_name in SEMESTER_NAMES.items():
     for course in sorted(courses):
 
         code = course.replace("_", " ")
-        credits = COURSE_CREDITS[code]
+        
+        credits = ALL_COURSE_CREDITS[code]
 
         total_credits += credits
 
@@ -842,7 +1182,7 @@ for semester_index, semester_name in SEMESTER_NAMES.items():
     existing_credits = existing_semester_credits[semester_index]
 
     planned_credits = sum(
-        COURSE_CREDITS[course.replace("_", " ")]
+        ALL_COURSE_CREDITS[course.replace("_", " ")]
         for course in semester_courses[semester_index]
     )
 
@@ -881,8 +1221,9 @@ for semester_index, semester_name in SEMESTER_NAMES.items():
 # ---------------------------------------------------------
 
 total_remaining_credits = sum(
-    COURSE_CREDITS[code]
-    for code in remaining_courses
+    ALL_COURSE_CREDITS[course.replace("_", " ")]
+    for courses in semester_courses.values()
+    for course in courses
 )
 
 print("\nPlan Summary")
@@ -934,7 +1275,7 @@ print(
 saved_path = export_schedule_json(
     semester_courses=semester_courses,
     existing_courses=history["in_progress_courses"],
-    course_credits=COURSE_CREDITS,
+    course_credits=ALL_COURSE_CREDITS,
     semester_names=SEMESTER_NAMES,
     max_credits=MAX_CREDITS_PER_SEMESTER,
     output_path=OUTPUT_PATH,

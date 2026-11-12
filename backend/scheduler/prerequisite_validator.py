@@ -1,4 +1,3 @@
-
 GRADE_POINTS = {
     "A": 4.0,
     "B": 3.0,
@@ -6,6 +5,29 @@ GRADE_POINTS = {
     "D": 1.0,
     "F": 0.0,
 }
+
+def course_matches_range(course_code, subject, start, end):
+    """
+    Check whether a course code belongs to a numeric
+    course range within the same subject.
+    """
+    import re
+
+    match = re.fullmatch(
+        r"([A-Z]{2,5})\s+(\d{3})",
+        course_code.strip().upper()
+    )
+
+    if not match:
+        return False
+
+    course_subject = match.group(1)
+    course_number = int(match.group(2))
+
+    return (
+        course_subject == subject.upper()
+        and start <= course_number <= end
+    )
 
 def check_course_prerequisite(
     prerequisite_code,
@@ -182,7 +204,19 @@ def validate_course_prerequisites(course, history):
             }
 
         details = extract_prerequisite_details(general)
-        detail_lookup = {item["code"]: item for item in details}
+        
+        detail_lookup = {}
+
+        for detail in details:
+            if detail.get("range_end") is not None:
+                key = (
+                    f'{detail["code"]} to '
+                    f'{detail["range_end"]}'
+                )
+            else:
+                key = detail["code"]
+
+            detail_lookup[key] = detail
 
         results = []
 
@@ -204,23 +238,79 @@ def validate_course_prerequisites(course, history):
                 )
             )
 
-        statuses = [result["status"] for result in results]
+        # Preserve nested AND/OR relationships from Banner.
+        expression = parsed.get("expression")
 
-        if parsed["logic"] == "SINGLE":
-            status = statuses[0]
+        if expression is None:
+            expression = parse_expression(
+                " or ".join(parsed["courses"])
+            )
 
-        elif parsed["logic"] == "OR":
-            if "satisfied" in statuses:
-                status = "satisfied"
-            elif "in_progress" in statuses:
-                status = "in_progress"
-            elif "unverified" in statuses:
-                status = "unverified"
-            else:
-                status = "not_satisfied"
+        # Attach Banner minimum-grade requirements to each course node.
+        def attach_grade_metadata(node):
+            if node["type"] == "course":
+                detail = detail_lookup.get(node["code"])
 
-        else:
-            status = "unverified"
+                if detail is None or detail.get("range_end") is not None:
+                    raise ValueError(
+                        f"Missing exact-course metadata: {node['code']}"
+                    )
+
+                return {
+                    **node,
+                    "minimum_grade": detail["minimum_grade"],
+                    "concurrent_allowed": detail["concurrent_allowed"]
+                }
+
+            if node["type"] == "course_range":
+                range_code = f'{node["subject"]} {node["start"]:03d}'
+
+                detail = next(
+                    (
+                        item
+                        for item in details
+                        if item["code"] == range_code
+                        and item.get("range_end") == node["end"]
+                    ),
+                    None
+                )
+
+                if detail is None:
+                    raise ValueError(
+                        f"Missing course-range metadata: "
+                        f"{range_code} to {node['end']}"
+                    )
+
+                return {
+                    **node,
+                    "minimum_grade": detail["minimum_grade"],
+                    "concurrent_allowed": detail["concurrent_allowed"]
+                }
+
+            return {
+                **node,
+                "children": [
+                    attach_grade_metadata(child)
+                    for child in node["children"]
+                ]
+            }
+        
+        try:
+            expression = attach_grade_metadata(expression)
+        except ValueError as error:
+            return {
+                "course": course_code,
+                "status": "unverified",
+                "reason": str(error),
+                "raw": general
+            }
+
+        evaluation = evaluate_prerequisite_expression(
+            expression,
+            history
+        )
+
+        status = evaluation["status"]
 
         return {
             "course": course_code,
@@ -266,6 +356,56 @@ def evaluate_prerequisite_expression(expression, history):
     """
 
     node_type = expression["type"]
+
+    # Evaluate a numeric course range against academic history.
+    if node_type == "course_range":
+        subject = expression["subject"]
+        start = expression["start"]
+        end = expression["end"]
+
+        matching_codes = sorted({
+            course["code"]
+            for category in (
+                "completed_courses",
+                "transfer_courses",
+                "in_progress_courses"
+            )
+            for course in history.get(category, [])
+            if course_matches_range(
+                course["code"], subject, start, end
+            )
+        })
+
+        if not matching_codes:
+            return {
+                "status": "not_satisfied",
+                "reason": "No matching course found in academic history"
+            }
+
+        results = [
+            check_course_prerequisite(
+                prerequisite_code=code,
+                minimum_grade=expression.get("minimum_grade"),
+                history=history
+            )
+            for code in matching_codes
+        ]
+
+        statuses = [result["status"] for result in results]
+
+        if "satisfied" in statuses:
+            status = "satisfied"
+        elif "in_progress" in statuses:
+            status = "in_progress"
+        elif "unverified" in statuses:
+            status = "unverified"
+        else:
+            status = "not_satisfied"
+
+        return {
+            "status": status,
+            "matching_courses": results
+        }
 
     # Individual course requirement
     if node_type == "course":
@@ -540,6 +680,70 @@ def validate_banner_prerequisites_for_term(
             "prerequisites": result
         }
 
+    # Evaluate course ranges and nested expressions using
+    # the recursive term-specific prerequisite evaluator.
+    if parsed.get("expression") is not None:
+        details = extract_prerequisite_details(
+            course.get("general_requirements", "")
+        )
+
+        detail_lookup = {}
+
+        for detail in details:
+            if detail.get("range_end") is not None:
+                key = (
+                    f'{detail["code"]} to '
+                    f'{detail["range_end"]}'
+                )
+            else:
+                key = detail["code"]
+
+            detail_lookup[key] = detail
+
+        expression = parsed["expression"]
+
+        def metadata_complete(node):
+            if node["type"] == "course":
+                return node["code"] in detail_lookup
+
+            if node["type"] == "course_range":
+                key = (
+                    f'{node["subject"]} '
+                    f'{node["start"]:03d} to {node["end"]}'
+                )
+                return key in detail_lookup
+
+            return all(
+                metadata_complete(child)
+                for child in node.get("children", [])
+            )
+
+        if not metadata_complete(expression):
+            return {
+                "course": course_code,
+                "status": "unverified",
+                "reason": "Incomplete Banner prerequisite metadata"
+            }
+
+        result = evaluate_prerequisite_expression_for_term(
+            expression=expression,
+            history=history,
+            target_term=target_term,
+            planned_terms=planned_terms,
+            detail_lookup=detail_lookup
+        )
+
+        return {
+            "course": course_code,
+            "status": {
+                "satisfied": "eligible",
+                "conditional": "conditional",
+                "not_satisfied": "not_eligible",
+                "unverified": "unverified"
+            }[result["status"]],
+            "prerequisites": result
+        }
+
     details = extract_prerequisite_details(
         course.get("general_requirements", "")
     )
@@ -626,6 +830,75 @@ def evaluate_prerequisite_expression_for_term(
     detail_lookup = detail_lookup or {}
 
     node_type = expression["type"]
+
+    if node_type == "course_range":
+        subject = expression["subject"]
+        start = expression["start"]
+        end = expression["end"]
+
+        matching_codes = {
+            course["code"]
+            for category in (
+                "completed_courses",
+                "transfer_courses",
+                "in_progress_courses"
+            )
+            for course in history.get(category, [])
+            if course_matches_range(
+                course["code"], subject, start, end
+            )
+        }
+
+        matching_codes.update(
+            code
+            for code in planned_terms
+            if course_matches_range(
+                code, subject, start, end
+            )
+        )
+
+        if not matching_codes:
+            return {
+                "status": "not_satisfied",
+                "reason": "No matching course found"
+            }
+
+        range_key = f"{subject} {start:03d} to {end}"
+        detail = detail_lookup.get(range_key)
+
+        if detail is None:
+            return {
+                "status": "unverified",
+                "reason": "Missing course-range metadata"
+            }
+
+        results = [
+            validate_prerequisite_for_term(
+                prerequisite_code=code,
+                minimum_grade=detail["minimum_grade"],
+                history=history,
+                target_term=target_term,
+                prerequisite_term=planned_terms.get(code),
+                concurrent_allowed=detail["concurrent_allowed"]
+            )
+            for code in sorted(matching_codes)
+        ]
+
+        statuses = [result["status"] for result in results]
+
+        if "satisfied" in statuses:
+            status = "satisfied"
+        elif "conditional" in statuses:
+            status = "conditional"
+        elif "unverified" in statuses:
+            status = "unverified"
+        else:
+            status = "not_satisfied"
+
+        return {
+            "status": status,
+            "matching_courses": results
+        }
 
     if node_type == "course":
         code = expression["code"]

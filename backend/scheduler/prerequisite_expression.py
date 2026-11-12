@@ -1,12 +1,10 @@
 
 import re
 
-
 TOKEN_PATTERN = re.compile(
-    r"\(|\)|\band\b|\bor\b|[A-Z]{2,5}\s+\d{3}",
+    r"\(|\)|\band\b|\bor\b|[A-Z]{2,5}\s+\d{3}\s+to\s+\d{3}|[A-Z]{2,5}\s+\d{3}",
     re.IGNORECASE
 )
-
 
 def parse_expression(text):
     """
@@ -48,7 +46,38 @@ def parse_expression(text):
             position += 1
             return node
 
-        if re.fullmatch(r"[A-Z]{2,5}\s+\d{3}", token):
+        # Recognize course ranges such as HUM 200 to 299.
+        range_match = re.fullmatch(
+            r"([A-Z]{2,5})\s+(\d{3})\s+to\s+(\d{3})",
+            token,
+            re.IGNORECASE
+        )
+
+        if range_match:
+            subject = range_match.group(1).upper()
+            start = int(range_match.group(2))
+            end = int(range_match.group(3))
+
+            if start > end:
+                raise ValueError(
+                    f"Invalid course range: {token}"
+                )
+
+            position += 1
+
+            return {
+                "type": "course_range",
+                "subject": subject,
+                "start": start,
+                "end": end
+            }
+
+        # Recognize individual courses such as COM 101.
+        if re.fullmatch(
+            r"[A-Z]{2,5}\s+\d{3}",
+            token,
+            re.IGNORECASE
+        ):
             position += 1
             return {
                 "type": "course",
