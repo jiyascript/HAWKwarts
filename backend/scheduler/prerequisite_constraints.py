@@ -95,7 +95,7 @@ def build_prerequisite_constraint(
         return z3.BoolVal(False)
 
     if node_type == "course_range":
-        subject = expression["subject"]
+        subject = expression["subject"] 
         start = expression["start"]
         end = expression["end"]
 
