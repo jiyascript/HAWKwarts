@@ -1,6 +1,14 @@
 from langchain_ollama import ChatOllama
 from courses_rag.courses_agent import ask_agent
 from faculty_agent.faculty_agent import ask
+
+import os, time, re
+from dotenv import load_dotenv
+from google import genai
+from google.genai import types, errors
+
+load_dotenv()
+
 faculty_config = {"configurable": {"thread_id": "faculty-advisor-session"}}
 
 def run_course_agent(question):
@@ -48,6 +56,13 @@ router_llm = ChatOllama(
     num_predict=10,
 )
 
+USE_GEMINI = True # change here to false to stop using Gemini and switch back to Ollama
+ROUTER_MODEL = "gemini-3.1-flash-lite" 
+ROUTER_THINKING_LEVEL = "minimal"
+
+if USE_GEMINI:
+    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+
 ROUTER_PROMPT = """
 You route questions for a university academic advising assistant.
 Reply with exactly one word:
@@ -63,9 +78,27 @@ Question: {question}
 Answer:
 """
 
+def _gemini_label(question):
+     for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model=ROUTER_MODEL,
+                contents=ROUTER_PROMPT.format(question=question),
+                config=types.GenerateContentConfig(thinking_config=types.ThinkingConfig(thinking_level=ROUTER_THINKING_LEVEL)),
+            )
+            return response.text or ""
+        except errors.APIError as err:
+            if getattr(err, "code", None) not in (503, 429) or attempt == 2:
+                raise
+            time.sleep(1 + attempt)
+
 def llm_route(question):
-    reply = router_llm.invoke(ROUTER_PROMPT.format(question=question))
-    answer = reply.content.strip().lower()
+    if USE_GEMINI:
+        reply = _gemini_label(question)
+    else: 
+        reply = router_llm.invoke(ROUTER_PROMPT.format(question=question)).content
+
+    answer = reply.strip().lower().rstrip(".")
     if answer in ["course", "faculty", "both", "unclear"]:
         return answer
     return "unclear"
