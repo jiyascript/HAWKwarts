@@ -7,7 +7,19 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types, errors
 
+from guardrails import (
+    SENSITIVE_CATEGORIES,
+    check_resources,
+    detect_all,
+    guardrail_reply,
+    normalize_label,
+)
+
 load_dotenv()
+
+_missing = check_resources()
+if _missing:
+    print("guardrails: no contact details set for:", ", ".join(_missing))
 
 faculty_config = {"configurable": {"thread_id": "faculty-advisor-session"}}
 
@@ -74,6 +86,17 @@ both    - the question clearly needs both of the above, such as who teaches a co
           and what that person researches
 unclear - you cannot tell what the question is about
 
+If the message is about the person's own personal situation, reply with one of these instead:
+self_harm           - suicide, self-harm, wanting to die
+threats             - threats, weapons, immediate danger, feeling unsafe, emergencies
+harassment          - harassment, sexual assault or misconduct, stalking, bullying, discrimination, abuse
+student_welfare     - health, mental health, stress, basic needs (food, housing), well-being
+visa_legal_status   - visas, OPT/CPT, I-20, work authorization, immigration or legal status
+withdrawal          - withdrawing from a class or the university, dropping out, leave of absence
+academic_probation  - academic probation, academic standing, failing, GPA problems, dismissal
+financial_aid       - financial aid, FAFSA, scholarships, loans, tuition bills or payment
+instructor_override - asking for an instructor or department override, permission number, or exception to a prerequisite or full class
+
 Question: {question}
 Answer:
 """
@@ -98,16 +121,22 @@ def llm_route(question):
     else: 
         reply = router_llm.invoke(ROUTER_PROMPT.format(question=question)).content
 
-    answer = reply.strip().lower().rstrip(".")
-    if answer in ["course", "faculty", "both", "unclear"]:
-        return answer
-    return "unclear"
+    return normalize_label(reply)
 
 # router
 def route_question(question):
+    # Guardrails first: sensitive topics get a specific reply, never an agent.
+    sensitive = detect_all(question)
+    if sensitive:
+        return guardrail_reply(sensitive)
+
     choice = keyword_route(question)
     if choice is None:
         choice = llm_route(question)
+
+    # The classifier can catch sensitive phrasings the patterns missed.
+    if choice in SENSITIVE_CATEGORIES:
+        return guardrail_reply([choice])
     if choice == "course":
         return run_course_agent(question)
     if choice == "faculty":
