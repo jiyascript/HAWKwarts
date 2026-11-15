@@ -54,9 +54,22 @@ def load_program_pathways(program_id: str) -> list:
 def resolve_requirements(program: dict, student_history: dict) -> dict:
     """Identify remaining mandatory courses and unresolved requirements."""
 
+    # Courses completed at the institution.
     completed = _course_codes(
         student_history.get("completed_courses", [])
     )
+
+    # Only count transfer courses with verified equivalencies.
+    verified_transfers = _course_codes([
+        course
+        for course in student_history.get("transfer_courses", [])
+        if isinstance(course, dict)
+        and course.get("equivalency_verified") is True
+    ])
+
+    # Both completed courses and verified transfer equivalents
+    # can satisfy degree requirements.
+    completed.update(verified_transfers)
 
     in_progress = _course_codes(
         student_history.get("in_progress_courses", [])
@@ -175,6 +188,12 @@ def resolve_requirements(program: dict, student_history: dict) -> dict:
                 code = normalize_course(item.get("course", ""))
 
                 if not code:
+                    unresolved_requirements.append({
+                        "group": group_name,
+                        "type": item_type,
+                        "item": item,
+                        "reason": "Missing course code",
+                    })
                     continue
 
                 if code in replaced_courses:

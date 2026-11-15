@@ -422,7 +422,10 @@ def evaluate_prerequisite_expression(expression, history):
         }
 
     children = [
-        evaluate_prerequisite_expression(child, history)
+        evaluate_prerequisite_expression(
+            expression=child,
+            history=history,
+        )
         for child in expression["children"]
     ]
 
@@ -836,6 +839,30 @@ def evaluate_prerequisite_expression_for_term(
         start = expression["start"]
         end = expression["end"]
 
+        range_key = f"{subject} {start:03d} to {end}"
+        detail = detail_lookup.get(range_key)
+
+        if detail is None:
+            return {
+                "status": "unverified",
+                "reason": "Missing course-range metadata"
+            }
+        
+        if (
+            not isinstance(detail, dict)
+            or "minimum_grade" not in detail
+            or "concurrent_allowed" not in detail
+            or not isinstance(detail["concurrent_allowed"], bool)
+            or (
+                detail["minimum_grade"] is not None
+                and not isinstance(detail["minimum_grade"], str)
+            )
+        ):
+            return {
+                "status": "unverified",
+                "reason": "Incomplete or invalid course-range metadata"
+            }
+
         matching_codes = {
             course["code"]
             for category in (
@@ -861,15 +888,6 @@ def evaluate_prerequisite_expression_for_term(
             return {
                 "status": "not_satisfied",
                 "reason": "No matching course found"
-            }
-
-        range_key = f"{subject} {start:03d} to {end}"
-        detail = detail_lookup.get(range_key)
-
-        if detail is None:
-            return {
-                "status": "unverified",
-                "reason": "Missing course-range metadata"
             }
 
         results = [
@@ -900,6 +918,7 @@ def evaluate_prerequisite_expression_for_term(
             "matching_courses": results
         }
 
+    # Individual course prerequisite.
     if node_type == "course":
         code = expression["code"]
         detail = detail_lookup.get(code, {})
@@ -915,12 +934,14 @@ def evaluate_prerequisite_expression_for_term(
             )
         )
 
+    # Unsupported prerequisite expression.
     if node_type not in ("AND", "OR"):
         return {
             "status": "unverified",
             "reason": f"Unsupported expression type: {node_type}"
         }
 
+    # Recursively evaluate nested prerequisites.
     children = [
         evaluate_prerequisite_expression_for_term(
             expression=child,
@@ -959,4 +980,3 @@ def evaluate_prerequisite_expression_for_term(
         "status": status,
         "children": children
     }
-
