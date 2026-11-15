@@ -6,8 +6,8 @@ The backend supports three primary functionalities:
 - Transcript Parser: Extracts academic history from an Illinois Tech unofficial transcript PDF and converts it into structured JSON.
 
 ## 1. Backend Components
-| Component | Description | 
-| --- | --- | --- |
+| Component             | Description |
+|-----------------------|-------------|
 | Scheduling algorithm | Uses ProcessScheduler and Z3 to generate a course schedule based on degree requirements and academic history.| 
 | Manual transcript entry | Collects student course information manually and saves it as JSON.| 
 | Transcript parser | Reads Illinois Tech unofficial transcript PDFs, extracts academic history, and validates course records. | 
@@ -42,6 +42,7 @@ Students can enter:
 - Completed institutional courses
 - Transfer courses
 - In-progress courses
+  
 **Each course includes its code, title, credits, status, and optional academic term and level.**
 
 - To run: python backend/transcript/manual_entry.py
