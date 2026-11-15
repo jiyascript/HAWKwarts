@@ -8,6 +8,7 @@ from backend.scheduler.course_level import get_course_level
 from backend.scheduler.schedule_export import export_failure_json
 from courses_rag.requirements_lookup import get_requirements
 from backend.scheduler.requirement_resolver import resolve_requirements
+from backend.scheduler.pathway_scheduler import (prepare_pathway_options)
 
 BACKEND_DIR = Path(__file__).resolve().parents[1]
 
@@ -444,7 +445,58 @@ if program is None:
 
 resolved = resolve_requirements(program, history)
 
-COURSE_REQUIREMENTS = resolved["remaining_courses"]
+# Prepare unfinished alternative programming pathways.
+prepared_pathways = prepare_pathway_options(
+    unsatisfied_pathways=resolved["unsatisfied_pathways"],
+    completed_codes=completed_codes,
+    in_progress_codes=in_progress_codes
+)
+
+# Start with ordinary mandatory degree requirements.
+COURSE_REQUIREMENTS = list(resolved["remaining_courses"])
+
+# Add remaining courses from pathways the student
+# has already started.
+for pathway in prepared_pathways:
+    if pathway["mode"] == "required":
+        COURSE_REQUIREMENTS.extend(
+            pathway["required_courses"]
+        )
+
+# Avoid duplicate mandatory scheduling tasks.
+COURSE_REQUIREMENTS = list(dict.fromkeys(COURSE_REQUIREMENTS))
+
+# Collect courses belonging to unstarted alternative pathways.
+# These will become optional Z3 scheduling tasks.
+PATHWAY_CHOICE_CODES = []
+
+for pathway in prepared_pathways:
+    if pathway["mode"] != "choice":
+        continue
+
+    for option in pathway["options"]:
+        for code in option:
+            if (
+                code not in completed_codes
+                and code not in in_progress_codes
+                and code not in COURSE_REQUIREMENTS
+            ):
+                PATHWAY_CHOICE_CODES.append(code)
+
+# Avoid creating duplicate optional pathway tasks.
+PATHWAY_CHOICE_CODES = list(dict.fromkeys(PATHWAY_CHOICE_CODES))
+
+print("\nHAWKwarts Pathway Scheduling")
+print("===========================")
+
+for pathway in prepared_pathways:
+    print("Pathway:", pathway["name"])
+    print("Mode:", pathway["mode"])
+
+    if pathway["mode"] == "required":
+        print("Required courses:", pathway["required_courses"])
+    else:
+        print("Available alternatives:", pathway["options"])
 
 # Identify catalog-available options for outstanding choice groups.
 CHOICE_GROUP_CANDIDATES = []
@@ -588,6 +640,17 @@ if (
         and group["available_options"]
         for group in CHOICE_GROUP_CANDIDATES
     )
+    and not any(
+        pathway["mode"] == "choice"
+        and any(
+            all(
+                code in PATHWAY_CHOICE_CODES
+                for code in option
+            )
+            for option in pathway["options"]
+        )
+        for pathway in prepared_pathways
+    )
 ):
     print("\nHAWKwarts Degree Plan")
     print("=====================")
@@ -633,6 +696,37 @@ for code in remaining_codes:
 
     remaining_courses[code] = task
 
+# Create optional tasks for unstarted alternative pathways.
+pathway_courses = {}
+
+for code in PATHWAY_CHOICE_CODES:
+    # Avoid duplicating an existing mandatory task.
+    if code in remaining_courses:
+        continue
+
+    # Only create tasks for courses offered in the planning window.
+    if not any(
+        adapter.is_offered(code, term)
+        for term in SEMESTER_NAMES.values()
+    ):
+        print(
+            f"WARNING: Pathway course {code} is unavailable "
+            "in the planning window."
+        )
+        continue
+
+    task = ps.FixedDurationTask(
+        name=code.replace(" ", "_"),
+        duration=1,
+        optional=True
+    )
+
+    pathway_courses[code] = task
+
+print("\nHAWKwarts Optional Pathway Tasks")
+print("===============================")
+print("Optional pathway courses:", list(pathway_courses))
+
 # Create optional tasks for outstanding elective choice groups.
 elective_courses = {}
 
@@ -658,6 +752,79 @@ for group in CHOICE_GROUP_CANDIDATES:
 print("\nHAWKwarts Elective Tasks")
 print("=======================")
 print("Optional elective tasks:", list(elective_courses))
+
+# =========================================================
+# Alternative Pathway Selection Constraints
+# =========================================================
+
+for pathway_index, pathway in enumerate(prepared_pathways):
+
+    if pathway["mode"] != "choice":
+        continue
+
+    # Each option represents a complete course pathway.
+    option_conditions = []
+
+    for option in pathway["options"]:
+
+        # An option is available only if all its courses
+        # have corresponding scheduling tasks.
+        if not all(
+            code in pathway_courses
+            for code in option
+        ):
+            continue
+
+        # A pathway is selected only when every course
+        # in that pathway is scheduled and every course
+        # belonging exclusively to other alternatives
+        # is not scheduled.
+        other_option_codes = {
+            code
+            for other_option in pathway["options"]
+            if other_option != option
+            for code in other_option
+        }
+
+        exclusive_codes = other_option_codes - set(option)
+
+        option_conditions.append(
+            z3.And(
+                *[
+                    pathway_courses[code]._scheduled
+                    for code in option
+                ],
+                *[
+                    z3.Not(pathway_courses[code]._scheduled)
+                    for code in exclusive_codes
+                    if code in pathway_courses
+                ]
+            )
+        )
+
+    if not option_conditions:
+        raise ValueError(
+            f"No schedulable alternatives for "
+            f"pathway: {pathway['name']}"
+        )
+
+    # Require exactly one complete pathway.
+    ps.ConstraintFromExpression(
+        name=f"Pathway_Choice_{pathway_index}",
+        expression=z3.PbEq(
+            [
+                (condition, 1)
+                for condition in option_conditions
+            ],
+            1
+        )
+    )
+
+    print(
+        f"Pathway '{pathway['name']}': "
+        f"select exactly one of "
+        f"{len(option_conditions)} alternatives"
+    )
 
 # Require the correct number of electives from each choice group.
 for group_index, group in enumerate(CHOICE_GROUP_CANDIDATES):
@@ -710,8 +877,7 @@ for course in history["in_progress_courses"]:
 
 prerequisite_constraint_count = 0
 
-for course_code, task in {**remaining_courses, **elective_courses}.items():
-
+for course_code, task in {**remaining_courses, **elective_courses, **pathway_courses}.items():
     for term_index, semester_name in SEMESTER_NAMES.items():
 
         if not adapter.is_offered(course_code, semester_name):
@@ -778,9 +944,12 @@ for course_code, task in {**remaining_courses, **elective_courses}.items():
         if general:
             if (
                 parsed["status"] != "parsed"
-                or parsed["logic"] not in ("SINGLE", "OR", "AND", "course_range")
+                or parsed["logic"] not in ("SINGLE", "OR", "AND", "course_range", "placement_requirement")
             ):
-                if course_code in elective_courses:
+                if (
+                    course_code in elective_courses
+                    or course_code in pathway_courses
+                ):
                     ps.ConstraintFromExpression(
                         name=(
                             f"Unverified_Prerequisites_"
@@ -817,7 +986,10 @@ for course_code, task in {**remaining_courses, **elective_courses}.items():
                 )
             ):
 
-                if course_code in elective_courses:
+                if (
+                    course_code in elective_courses
+                    or course_code in pathway_courses
+                ):
                     ps.ConstraintFromExpression(
                         name=(
                             f"Incomplete_Prerequisite_Metadata_"
@@ -858,7 +1030,10 @@ for course_code, task in {**remaining_courses, **elective_courses}.items():
                 else parse_expression(expression_text)
             )
         except ValueError as error:
-            if course_code in elective_courses:
+            if (
+                course_code in elective_courses
+                or course_code in pathway_courses
+            ):
                 ps.ConstraintFromExpression(
                     name=(
                         f"Unparseable_Prerequisites_"
@@ -886,7 +1061,7 @@ for course_code, task in {**remaining_courses, **elective_courses}.items():
             expression=expression,
             history=history,
             target_start=task._start,
-            scheduled_tasks={**remaining_courses, **elective_courses},
+            scheduled_tasks={**remaining_courses, **elective_courses, **pathway_courses},
             detail_lookup=detail_lookup,
             in_progress_terms=in_progress_terms
         )
@@ -977,6 +1152,36 @@ print(
     len(elective_courses)
 )
 
+# Apply semester availability constraints to optional pathway courses.
+for code, task in pathway_courses.items():
+
+    offered_indices = [
+        index
+        for index, term in SEMESTER_NAMES.items()
+        if adapter.is_offered(code, term)
+    ]
+
+    if not offered_indices:
+        raise ValueError(
+            f"No available semester for pathway course {code}"
+        )
+
+    ps.ConstraintFromExpression(
+        name=f"Pathway_Availability_{code.replace(' ', '_')}",
+        expression=z3.Implies(
+            task._scheduled,
+            z3.Or([
+                task._start == index
+                for index in offered_indices
+            ])
+        )
+    )
+
+print(
+    "Pathway availability constraints added:",
+    len(pathway_courses)
+)
+
 # Determine credit values for elective candidates.
 ELECTIVE_CREDITS = {}
 
@@ -1012,6 +1217,42 @@ for code in elective_courses:
 
 print("Elective credits:", ELECTIVE_CREDITS)
 
+# Determine credit values for optional pathway courses.
+PATHWAY_CREDITS = {}
+
+for code in pathway_courses:
+    credit_options = set()
+
+    for term in SEMESTER_NAMES.values():
+        if adapter.is_offered(code, term):
+            credit_options.update(
+                adapter.credit_options(code, term)
+            )
+
+    positive_credits = {
+        credits
+        for credits in credit_options
+        if credits > 0
+    }
+
+    if len(positive_credits) != 1:
+        raise ValueError(
+            f"{code}: ambiguous pathway credit values "
+            f"{positive_credits}"
+        )
+
+    credits = positive_credits.pop()
+
+    if int(credits) != credits:
+        raise ValueError(
+            f"{code}: fractional pathway credits "
+            "are not yet supported"
+        )
+
+    PATHWAY_CREDITS[code] = int(credits)
+
+print("Pathway credits:", PATHWAY_CREDITS)
+
 # =========================================================
 # 7. Semester Credit Capacity Constraints
 # =========================================================
@@ -1039,8 +1280,22 @@ for semester in SEMESTER_NAMES:
         for code, task in elective_courses.items()
     ])
 
+    pathway_credits = z3.Sum([
+    z3.If(
+        z3.And(
+            task._scheduled,
+            task._start == semester
+        ),
+        PATHWAY_CREDITS[code],
+        0
+    )
+    for code, task in pathway_courses.items()
+])
+
     newly_scheduled_credits = (
-        mandatory_credits + elective_credits
+        mandatory_credits
+        + elective_credits
+        + pathway_credits
     )
 
     total_semester_credits = (
@@ -1128,8 +1383,12 @@ for course_name, task_solution in solution.tasks.items():
     if semester in semester_courses:
         semester_courses[semester].append(course_name)
 
-# Combine mandatory and elective course credit values.
-ALL_COURSE_CREDITS = {**COURSE_CREDITS, **ELECTIVE_CREDITS}
+# Combine credit values for all scheduling task categories.
+ALL_COURSE_CREDITS = {
+    **COURSE_CREDITS,
+    **ELECTIVE_CREDITS,
+    **PATHWAY_CREDITS
+}
 
 # ---------------------------------------------------------
 # 12. Presentation-Friendly Output

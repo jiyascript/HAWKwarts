@@ -28,6 +28,13 @@ def build_prerequisite_constraint(
     in_progress_terms = in_progress_terms or {}
 
     node_type = expression["type"]
+
+    # Placement-test results are not yet represented
+    # in verified academic history.
+    # Unknown placement eligibility must not be
+    # assumed satisfied.
+    if node_type == "placement_requirement":
+        return z3.BoolVal(False)
     
     if node_type == "course":
         code = expression["code"]

@@ -70,6 +70,47 @@ def check_course_prerequisite(
         if grade in GRADE_POINTS:
             verified_grades.append(grade)
 
+    # Satisfactory grades are non-numeric.
+    # They satisfy an explicit minimum grade of S,
+    # but cannot be compared against letter-grade thresholds.
+    satisfactory_grades = [
+        course.get("grade")
+        for course in completed
+        if course.get("grade") == "S"
+    ]
+
+    if minimum_grade == "S":
+        if satisfactory_grades:
+            return {
+                "status": "satisfied",
+                "code": prerequisite_code,
+                "grades": satisfactory_grades
+            }
+
+        if verified_grades:
+            return {
+                "status": "unverified",
+                "code": prerequisite_code,
+                "reason": (
+                    "Letter grade equivalency to minimum S "
+                    "requires verification"
+                )
+            }
+
+    # A satisfactory grade cannot be directly compared
+    # against a numeric letter-grade threshold.
+    if satisfactory_grades and minimum_grade in GRADE_POINTS:
+        return {
+            "status": "unverified",
+            "code": prerequisite_code,
+            "grades": satisfactory_grades,
+            "minimum_grade": minimum_grade,
+            "reason": (
+                "Satisfactory grade equivalency to letter-grade "
+                "minimum requires verification"
+            )
+        }
+
     if verified_grades:
         if minimum_grade is None:
             passing_grades = [

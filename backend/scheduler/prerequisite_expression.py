@@ -2,7 +2,10 @@
 import re
 
 TOKEN_PATTERN = re.compile(
-    r"\(|\)|\band\b|\bor\b|[A-Z]{2,5}\s+\d{3}\s+to\s+\d{3}|[A-Z]{2,5}\s+\d{3}",
+    r"\(|\)|\band\b|\bor\b|"
+    r"RMTH\s+\d{2,3}\s+to\s+\d{2,3}|"
+    r"[A-Z]{2,5}\s+\d{3}\s+to\s+\d{3}|"
+    r"[A-Z]{2,5}\s+\d{3}",
     re.IGNORECASE
 )
 
@@ -45,6 +48,31 @@ def parse_expression(text):
 
             position += 1
             return node
+
+        # Recognize Banner mathematics placement requirements.
+        placement_match = re.fullmatch(
+            r"RMTH\s+(\d{2,3})\s+to\s+(\d{2,3})",
+            token,
+            re.IGNORECASE
+        )
+
+        if placement_match:
+            minimum = int(placement_match.group(1))
+            maximum = int(placement_match.group(2))
+
+            if minimum > maximum:
+                raise ValueError(
+                    f"Invalid placement range: {token}"
+                )
+
+            position += 1
+
+            return {
+                "type": "placement_requirement",
+                "code": "RMTH",
+                "minimum_score": minimum,
+                "maximum_score": maximum
+            }
 
         # Recognize course ranges such as HUM 200 to 299.
         range_match = re.fullmatch(

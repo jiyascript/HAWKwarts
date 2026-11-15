@@ -13,7 +13,10 @@ def extract_expression_courses(expression):
     if expression["type"] == "course":
         return [expression["code"]]
 
-    if expression["type"] == "course_range":
+    if expression["type"] in (
+        "course_range",
+        "placement_requirement"
+    ):
         return []
 
     courses = []
@@ -53,7 +56,7 @@ def parse_prerequisites(prerequisite_text, general_requirements):
     )
 
     cleaned = re.sub(
-        r"Minimum Grade of\s+[A-F][+-]?",
+        r"Minimum Grade of\s+(?:[A-F][+-]?|S)\b",
         "",
         cleaned,
         flags=re.IGNORECASE
@@ -61,6 +64,13 @@ def parse_prerequisites(prerequisite_text, general_requirements):
 
     cleaned = re.sub(
         r"May not be taken concurrently\.",
+        "",
+        cleaned,
+        flags=re.IGNORECASE
+    )
+
+    cleaned = re.sub(
+        r"May be taken concurrently\.",
         "",
         cleaned,
         flags=re.IGNORECASE
@@ -82,7 +92,7 @@ def parse_prerequisites(prerequisite_text, general_requirements):
     # course ranges with individual courses.
     courses = extract_expression_courses(expression_tree)
 
-    if expression_tree["type"] in ("AND", "OR", "course_range"):
+    if expression_tree["type"] in ("AND", "OR", "course_range", "placement_requirement"):
         return {
             "status": "parsed",
             "courses": courses,
@@ -130,7 +140,7 @@ def extract_prerequisite_details(general_requirements):
         r"Course or Test:\s*"
         r"([A-Z]{2,5}\s+\d{3})"
         r"(?:\s+to\s+(\d{3}))?"
-        r"(?:\s+Minimum Grade of\s+([A-F][+-]?))?"
+        r"(?:\s+Minimum Grade of\s+((?:[A-F][+-]?|S)\b))?"
         r"(\s+May not be taken concurrently\.)?"
     )
 
