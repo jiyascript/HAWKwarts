@@ -1,6 +1,7 @@
 from langchain_ollama import ChatOllama
 from courses_rag.courses_agent import ask_agent
 from faculty_agent.faculty_agent import ask
+from web_search.web_agent import ask_general
 
 import os, time, re
 from dotenv import load_dotenv
@@ -30,6 +31,9 @@ def run_faculty_agent(question):
     answer, trace = ask(question, config=faculty_config)
     return answer
 
+def run_general_agent(question):
+    return ask_general(question)
+
 # main priority: obvious keywords
 COURSE_WORDS = [
     # catalog/requirements
@@ -37,25 +41,41 @@ COURSE_WORDS = [
     # programs
     "program", "major", "minor", "concentration", "curriculum", "syllabus", "graduate", "undergrad", "gpa", "transcript",
     # banner scheduling
-    "crn", "schedule", "semester", "spring", "summer", "fall", "offered", "meeting time", "class time", "what time", "meets", "monday", "tuesday", "wednesday", "thursday", "friday",
+    "crn", "schedule", "offered", "meeting time", "class time", "what time", "meets", "monday", "tuesday", "wednesday", "thursday", "friday",
     # banner seats
-    "seat", "capacity", "enroll", "waitlist", "register", "registration", "restriction", "full",
+    "seat", "capacity", "enroll", "waitlist", "restriction", "full",
     # banner location
     "room", "building", "campus", "location", "online", "hybrid", "in-person", "in person",
     # banner prof
-    "teaches", "taught",
+    "teaches", "taught", "teaching",
 ]
+
 FACULTY_WORDS = ["publication", "publish", "paper", "research", "interest", "internship"]
+
+GENERAL_WORDS = [
+    "deadline", "add/drop", "tuition", "financial aid", "scholarship", "housing",
+    "bursar", "registrar", "office", "how do i", "how to", "how can i",
+]
 
 def keyword_route(question):
     question = question.lower()
     course_hit = any(word in question for word in COURSE_WORDS)
     faculty_hit = any(word in question for word in FACULTY_WORDS)
+    general_hit = any(word in question for word in GENERAL_WORDS)
 
-    if course_hit and not faculty_hit:
-        return "course"
-    if faculty_hit and not course_hit:
-        return "faculty"
+    hits = []
+    if course_hit:
+        hits.append("course")
+    if faculty_hit:
+        hits.append("faculty")
+    if general_hit:
+        hits.append("general")
+
+    if len(hits) == 1:
+        return hits[0]
+    if len(hits) > 1:
+        return "multiple"
+    
     return None
 
 # secondary priority: classifier for more ambiguous questions
@@ -81,9 +101,12 @@ Reply with exactly one word:
 
 course  - courses, prerequisites, credits, degree requirements, programs, policies,
           class schedules, sections, seats, meeting times, and who is teaching a section
-faculty - professors, their research, publications, interests, background
-both    - the question clearly needs both of the above, such as who teaches a course
-          and what that person researches
+faculty - professors, their research, publications, interests, background, internships
+general - university information that may need to be found on an official
+           website, including deadlines, add/drop information, tuition,
+           financial aid, scholarships, housing, registrar information,
+           offices, policies, and general university procedures
+multiple - the question clearly requires information from more than one area
 unclear - you cannot tell what the question is about
 
 If the message is about the person's own personal situation, reply with one of these instead:
@@ -96,6 +119,17 @@ withdrawal          - withdrawing from a class or the university, dropping out, 
 academic_probation  - academic probation, academic standing, failing, GPA problems, dismissal
 financial_aid       - financial aid, FAFSA, scholarships, loans, tuition bills or payment
 instructor_override - asking for an instructor or department override, permission number, or exception to a prerequisite or full class
+
+Rules:
+- Choose a sensitive category when the question requires a safety or
+  student-support response.
+- Otherwise choose course, faculty, general, or multiple.
+- Do not classify ordinary informational questions as sensitive merely because
+  they contain words such as "financial aid", "withdraw", or "stress".
+- Questions asking for university procedures or information available on an
+  official website should usually be general. However, do add on a disclaimer 
+  for human/office contact and that information might not be up-to-date or
+  best communicated via Hawkwarts.
 
 Question: {question}
 Answer:
@@ -123,6 +157,32 @@ def llm_route(question):
 
     return normalize_label(reply)
 
+_UNHELPFUL_PATTERN = re.compile(
+    r"\b(could not find|couldn'?t find|no information|not able to|unable to|"
+    r"did not find|no results?|not found|no record)\b",
+    re.IGNORECASE,
+)
+def _looks_unhelpful(answer: str) -> bool:
+    return bool(_UNHELPFUL_PATTERN.search(answer or ""))
+
+_INSTRUCTOR_PATTERN = re.compile(
+    r"(?:taught by|Instructor\(?s?\)?:?)\s*\*{0,2}([A-Z][\w.\-]+(?:\s+[A-Z][\w.\-]+){1,3})",
+)
+def _extract_instructor_name(course_answer: str) -> str | None:
+    if not course_answer:
+        return None
+    match = _INSTRUCTOR_PATTERN.search(course_answer)
+    return match.group(1).strip() if match else None
+
+_PRONOUN_PATTERN = re.compile(
+    r"\b(they|their|them|he|him|his|she|her)\b", re.IGNORECASE
+)
+def _substitute_name(question: str, name: str) -> str:
+    replaced, count = _PRONOUN_PATTERN.subn(name, question, count=1)
+    if count:
+        return replaced
+    return f"{question} (referring to {name})"
+
 # router
 def route_question(question):
     # Guardrails first: sensitive topics get a specific reply, never an agent.
@@ -141,10 +201,25 @@ def route_question(question):
         return run_course_agent(question)
     if choice == "faculty":
         return run_faculty_agent(question)
-    if choice == "both":
+    if choice == "general":
+        return run_general_agent(question)
+    
+    if choice == "multiple":
         course_answer = run_course_agent(question)
-        faculty_answer = run_faculty_agent(question)
-        return "Course info:\n" + course_answer + "\n\nFaculty info:\n" + faculty_answer
+
+        name = _extract_instructor_name(course_answer)
+        faculty_question = _substitute_name(question, name) if name else question
+        faculty_answer = run_faculty_agent(faculty_question)
+        parts = [
+            ("Course info:\n" + course_answer),
+            ("Faculty info:\n" + faculty_answer),
+        ]
+
+        if _looks_unhelpful(course_answer) and _looks_unhelpful(faculty_answer):
+            general_answer = run_general_agent(question)
+            parts.append("General info:\n" + general_answer)       
+        return "\n\n".join(parts)
+
     return "Not able to understand your request. Please try clarifying your request again."
 
 if __name__ == "__main__":

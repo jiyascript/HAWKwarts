@@ -258,6 +258,14 @@ def _is_lookup(text):
     """True for catalog/directory lookups that merely mention a sensitive topic."""
     return bool(_ACADEMIC.search(text)) and not _PERSONAL.search(text)
 
+# NEW: a plain informational question ("when is...", "what is...") with no
+# personal pronoun is a lookup, not a personal-situation disclosure — but
+# only for the non-safety-critical categories.
+_INFO_QUESTION = re.compile(
+    r"^\s*(what|when|where|who|how (much|do|can|to)|is there|are there)\b", re.I
+)
+_SAFETY_CRITICAL = {"self_harm", "threats", "harassment", "student_welfare"}
+
 
 def detect_all(question):
     """Sensitive categories found in the question, most urgent first ([] if none)."""
@@ -267,6 +275,8 @@ def detect_all(question):
     found = [c for c in PRIORITY if any(p.search(text) for p in _COMPILED[c])]
     if found and _is_lookup(text):
         return []
+    if found and not _PERSONAL.search(text) and _INFO_QUESTION.match(text):
+        found = [c for c in found if c in _SAFETY_CRITICAL]
     if found:
         log.info("guardrail triggered: %s", ",".join(found))
     return found

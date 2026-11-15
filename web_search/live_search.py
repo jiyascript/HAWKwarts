@@ -98,6 +98,8 @@ _TERM_SENSITIVE = re.compile(
     re.IGNORECASE,
 )
 
+PREFERRED_PATH = "iit.edu/registrar"
+
 def search_school_web(query: str, term: str = "") -> dict:
     """Search Illinois Tech's official websites (iit.edu) and read the top pages.
     Use this for campus services, procedures, policies, deadlines, fees, financial
@@ -113,11 +115,20 @@ def search_school_web(query: str, term: str = "") -> dict:
 
     try:
         with DDGS() as ddgs:
-            results = list(ddgs.text(f"{search_text} site:iit.edu", max_results=8))
+            registrar_results = list(ddgs.text(f"{search_text} site:iit.edu/registrar", max_results=5))
+            general_results = list(ddgs.text(f"{search_text} site:iit.edu", max_results=8))
     except Exception as exc:
         return {"found": False, "error": f"The web search failed: {exc}"}
 
-    results = [r for r in results if _is_school_site(r["href"])][:MAX_PAGES]
+    seen_urls = set()
+    ordered = []
+
+    for result in registrar_results + general_results:
+        if result["href"] not in seen_urls and _is_school_site(result["href"]):
+            seen_urls.add(result["href"])
+            ordered.append(result)
+            
+    results = ordered[:MAX_PAGES]  
     if not results:
         return {"found": False, "message": "No iit.edu pages found for this search."}
 
