@@ -298,6 +298,12 @@ def validate_academic_history(history):
             f"Missing academic history fields: {missing}"
         )
 
+    for key in required_keys:
+        if not isinstance(history[key], list):
+            raise ValueError(
+                f"Academic history field {key} must be a list."
+            )
+
     # Reconstruct from the non-overlapping source collections.
     # Completed courses are already part of institution records.
     all_courses = (
