@@ -384,6 +384,9 @@ SYSTEM_PROMPT = (
 
     "If the user names a professor, even by last name only, use search_iit_faculty_directory or "
     "search_faculty_research, never find_research_opportunities. "
+    "If the student asks a broad question like tell me about Professor X or who"
+    "is Professor X, call only search_iit_faculty_directory and not search_faculty_research,"
+    "so the answer doesn't includes their research and publications unless specified." 
 
     "To find which professors work in a research area, or for research opportunities, call "
     "find_research_opportunities with the student's topic. Present the results as faculty who "
