@@ -3,10 +3,16 @@ import json
 import re
 from pathlib import Path
 
-from transcript_validator import (
-    normalize_course as shared_normalize_course,
-    build_academic_history as shared_build_academic_history
-)
+if __package__:
+    from .transcript_validator import (
+        normalize_course as shared_normalize_course,
+        build_academic_history as shared_build_academic_history,
+    )
+else:
+    from transcript_validator import (
+        normalize_course as shared_normalize_course,
+        build_academic_history as shared_build_academic_history,
+    )
 
 
 # =========================================================

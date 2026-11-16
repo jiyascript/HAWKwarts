@@ -6,7 +6,10 @@ import unicodedata
 from pathlib import Path
 
 import pymupdf
-from transcript_validator import validate_academic_history
+if __package__:
+    from .transcript_validator import validate_academic_history
+else:
+    from transcript_validator import validate_academic_history
 
 
 # =========================================================
@@ -272,25 +275,16 @@ def parse_transcript(pdf_path):
         if course["status"] == "institution"
     ]
 
-    # Deduplicate course codes for scheduler use.
-    # Keep original UG/GR records in completed_courses.
-    scheduler_codes = sorted({
-        course["code"]
-        for course in completed + transfer
-    })
-
-    return {
+    # The shared validator is authoritative for academic history.
+    # It determines which courses are eligible for scheduling.
+    return validate_academic_history({
         "completed_courses": completed,
         "transfer_courses": transfer,
         "in_progress_courses": in_progress,
         "all_institution_records": institution_records,
-        "scheduler_course_codes": scheduler_codes,
-        "warnings": [
-            "Completion is provisional. Verify grades, "
-            "repeated courses, transfer equivalencies, "
-            "and degree requirements before scheduling."
-        ]
-    }
+        "scheduler_course_codes": [],
+        "warnings": [],
+    })
 
 
 # =========================================================
