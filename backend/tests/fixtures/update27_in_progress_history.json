@@ -1,0 +1,19 @@
+{
+  "completed_courses": [],
+  "transfer_courses": [],
+  "in_progress_courses": [
+    {
+      "code": "ARCH 107",
+      "title": "Architecture Course 107",
+      "credits": 3.0,
+      "grade": "IP",
+      "term": "Fall 2026",
+      "level": "UG",
+      "status": "in_progress"
+    }
+  ],
+  "all_institution_records": [],
+  "scheduler_course_codes": [],
+  "warnings": [],
+  "validation_errors": []
+}
