@@ -807,10 +807,39 @@ for pathway_index, pathway in enumerate(prepared_pathways):
         )
 
     if not option_conditions:
-        raise ValueError(
+        message = (
             f"No schedulable alternatives for "
             f"pathway: {pathway['name']}"
         )
+
+        print(f"\nWARNING: {message}")
+
+        pathway_codes = list(
+            dict.fromkeys(
+                code
+                for option in pathway["options"]
+                for code in option
+            )
+        )
+
+        saved_path = export_failure_json(
+            output_path=OUTPUT_PATH,
+            status="insufficient_pathway_availability",
+            message=message,
+            candidate_courses=pathway_codes,
+            unavailable_courses=[
+                code
+                for code in pathway_codes
+                if not any(
+                    adapter.is_offered(code, term)
+                    for term in SEMESTER_NAMES.values()
+                )
+            ]
+        )
+
+        print(f"Schedule status JSON exported to: {saved_path}")
+
+        sys.exit(0)
 
     # Link explicit selection variables to the existing
     # complete-pathway conditions.
@@ -874,11 +903,29 @@ for group_index, group in enumerate(CHOICE_GROUP_CANDIDATES):
     ]
 
     if len(options) < required_count:
-        raise ValueError(
+        message = (
             f"Not enough available courses for "
             f"{group['group']}: need {required_count}, "
             f"found {len(options)}"
         )
+
+        print(f"\nWARNING: {message}")
+
+        saved_path = export_failure_json(
+            output_path=OUTPUT_PATH,
+            status="insufficient_elective_availability",
+            message=message,
+            candidate_courses=group["options"],
+            unavailable_courses=[
+                code
+                for code in group["options"]
+                if code not in group["available_options"]
+            ]
+        )
+
+        print(f"Schedule status JSON exported to: {saved_path}")
+
+        sys.exit(0)
 
     # Create one assignment variable per eligible course and group.
     assignment_pairs = []
@@ -1255,9 +1302,17 @@ for code, task in elective_courses.items():
     ]
 
     if not offered_indices:
-        raise ValueError(
-            f"No available semester for elective {code}"
+        ps.ConstraintFromExpression(
+            name=f"Elective_Unavailable_{code.replace(' ', '_')}",
+            expression=z3.Not(task._scheduled)
         )
+
+        print(
+            f"WARNING: Elective {code} is not offered "
+            "during the planning window. Selection prohibited."
+        )
+
+        continue
 
     # Only constrain semester placement when selected.
     ps.ConstraintFromExpression(

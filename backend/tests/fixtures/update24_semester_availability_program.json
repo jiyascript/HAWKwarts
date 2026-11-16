@@ -1,0 +1,25 @@
+
+{
+  "program_id": "test-update24-semester-availability",
+  "title": "Update 24 Semester-Specific Availability Test",
+  "requirements": [
+    {
+      "name": "Fall-Only Course",
+      "items": [
+        {
+          "type": "course",
+          "course": "BIOL 100"
+        }
+      ]
+    },
+    {
+      "name": "Spring-Only Course",
+      "items": [
+        {
+          "type": "course",
+          "course": "BIOL 115"
+        }
+      ]
+    }
+  ]
+}
