@@ -1,0 +1,335 @@
+{
+  "completed_courses": [
+    {
+      "code": "CS 100",
+      "title": "CS 100",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 330",
+      "title": "CS 330",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 351",
+      "title": "CS 351",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 425",
+      "title": "CS 425",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 430",
+      "title": "CS 430",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 440",
+      "title": "CS 440",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 450",
+      "title": "CS 450",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 485",
+      "title": "CS 485",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 487",
+      "title": "CS 487",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 151",
+      "title": "MATH 151",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 152",
+      "title": "MATH 152",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 251",
+      "title": "MATH 251",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "PHYS 123",
+      "title": "PHYS 123",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "PHYS 221",
+      "title": "PHYS 221",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 332",
+      "title": "MATH 332",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 474",
+      "title": "MATH 474",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 252",
+      "title": "MATH 252",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "COM 321",
+      "title": "COM 321",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    }
+  ],
+  "transfer_courses": [],
+  "in_progress_courses": [],
+  "all_institution_records": [
+    {
+      "code": "CS 100",
+      "title": "CS 100",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 330",
+      "title": "CS 330",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 351",
+      "title": "CS 351",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 425",
+      "title": "CS 425",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 430",
+      "title": "CS 430",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 440",
+      "title": "CS 440",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 450",
+      "title": "CS 450",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 485",
+      "title": "CS 485",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "CS 487",
+      "title": "CS 487",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 151",
+      "title": "MATH 151",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 152",
+      "title": "MATH 152",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 251",
+      "title": "MATH 251",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "PHYS 123",
+      "title": "PHYS 123",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "PHYS 221",
+      "title": "PHYS 221",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 332",
+      "title": "MATH 332",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 474",
+      "title": "MATH 474",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "MATH 252",
+      "title": "MATH 252",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    },
+    {
+      "code": "COM 321",
+      "title": "COM 321",
+      "credits": 3.0,
+      "grade": "A",
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "institution"
+    }
+  ],
+  "scheduler_course_codes": [],
+  "warnings": [],
+  "validation_errors": []
+}

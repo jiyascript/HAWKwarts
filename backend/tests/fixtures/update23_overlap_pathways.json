@@ -1,0 +1,18 @@
+{
+  "test-update23-overlap": {
+    "requirements": [
+      {
+        "type": "pathway",
+        "name": "Programming Sequence",
+        "replaces": [
+          "CS 115",
+          "CS 116"
+        ],
+        "options": [
+          ["CS 115", "CS 116"],
+          ["CS 201"]
+        ]
+      }
+    ]
+  }
+}

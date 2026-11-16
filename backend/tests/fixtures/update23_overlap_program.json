@@ -1,0 +1,18 @@
+{
+  "program_id": "test-update23-overlap",
+  "title": "Update 23 Synthetic Pathway/Elective Integration Test",
+  "requirements": [
+    {
+      "name": "Programming Elective",
+      "items": [
+        {
+          "type": "one_of",
+          "options": [
+            "CS 201",
+            "CS 350"
+          ]
+        }
+      ]
+    }
+  ]
+}

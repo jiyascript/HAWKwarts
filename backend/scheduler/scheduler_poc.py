@@ -741,6 +741,12 @@ for group in CHOICE_GROUP_CANDIDATES:
         if code in elective_courses:
             continue
 
+        # Reuse an existing pathway task instead of creating
+        # another scheduling task for the same course.
+        if code in pathway_courses:
+            elective_courses[code] = pathway_courses[code]
+            continue
+
         task = ps.FixedDurationTask(
             name=code.replace(" ", "_"),
             duration=1,
@@ -756,6 +762,18 @@ print("Optional elective tasks:", list(elective_courses))
 # =========================================================
 # Alternative Pathway Selection Constraints
 # =========================================================
+
+# Explicitly track which alternative is selected for each pathway.
+pathway_selection_vars = {}
+
+for pathway_index, pathway in enumerate(prepared_pathways):
+    if pathway["mode"] != "choice":
+        continue
+
+    for option_index, option in enumerate(pathway["options"]):
+        pathway_selection_vars[(pathway_index, option_index)] = z3.Bool(
+            f"pathway_selected_{pathway_index}_{option_index}"
+        )
 
 for pathway_index, pathway in enumerate(prepared_pathways):
 
@@ -775,29 +793,15 @@ for pathway_index, pathway in enumerate(prepared_pathways):
         ):
             continue
 
-        # A pathway is selected only when every course
-        # in that pathway is scheduled and every course
-        # belonging exclusively to other alternatives
-        # is not scheduled.
-        other_option_codes = {
-            code
-            for other_option in pathway["options"]
-            if other_option != option
-            for code in other_option
-        }
-
-        exclusive_codes = other_option_codes - set(option)
-
+        
+        # Selecting a pathway requires all courses in that
+        # alternative to be scheduled. Courses belonging to
+        # other alternatives may be scheduled independently.
         option_conditions.append(
             z3.And(
                 *[
                     pathway_courses[code]._scheduled
                     for code in option
-                ],
-                *[
-                    z3.Not(pathway_courses[code]._scheduled)
-                    for code in exclusive_codes
-                    if code in pathway_courses
                 ]
             )
         )
@@ -808,14 +812,40 @@ for pathway_index, pathway in enumerate(prepared_pathways):
             f"pathway: {pathway['name']}"
         )
 
-    # Require exactly one complete pathway.
+    # Link explicit selection variables to the existing
+    # complete-pathway conditions.
+    available_selection_vars = []
+
+    for option_index, option in enumerate(pathway["options"]):
+        if not all(
+            code in pathway_courses
+            for code in option
+        ):
+            continue
+
+        selection_var = pathway_selection_vars[
+            (pathway_index, option_index)
+        ]
+
+        # Match the available option conditions in their
+        # original iteration order.
+        condition = option_conditions[len(available_selection_vars)]
+
+        ps.ConstraintFromExpression(
+            name=f"Pathway_Selection_Link_{pathway_index}_{option_index}",
+            expression=z3.Implies(
+                selection_var,
+                condition
+            )
+        )
+
+        available_selection_vars.append((selection_var, 1))
+
+    # Require exactly one selected pathway alternative.
     ps.ConstraintFromExpression(
         name=f"Pathway_Choice_{pathway_index}",
         expression=z3.PbEq(
-            [
-                (condition, 1)
-                for condition in option_conditions
-            ],
+            available_selection_vars,
             1
         )
     )
@@ -825,6 +855,10 @@ for pathway_index, pathway in enumerate(prepared_pathways):
         f"select exactly one of "
         f"{len(option_conditions)} alternatives"
     )
+
+# Track which elective requirement receives credit for each course.
+# A scheduled course and a requirement assignment are distinct.
+elective_assignments = {}
 
 # Require the correct number of electives from each choice group.
 for group_index, group in enumerate(CHOICE_GROUP_CANDIDATES):
@@ -846,13 +880,34 @@ for group_index, group in enumerate(CHOICE_GROUP_CANDIDATES):
             f"found {len(options)}"
         )
 
+    # Create one assignment variable per eligible course and group.
+    assignment_pairs = []
+
+    for code in options:
+        assignment = z3.Bool(
+            f"elective_assignment_{group_index}_{code.replace(' ', '_')}"
+        )
+
+        elective_assignments[(group_index, code)] = assignment
+        assignment_pairs.append((assignment, 1))
+
+        # A course cannot satisfy a requirement unless scheduled.
+        ps.ConstraintFromExpression(
+            name=(
+                f"Elective_Assignment_Scheduled_"
+                f"{group_index}_{code.replace(' ', '_')}"
+            ),
+            expression=z3.Implies(
+                assignment,
+                elective_courses[code]._scheduled
+            )
+        )
+
+    # Exactly the required number of courses must be assigned.
     ps.ConstraintFromExpression(
         name=f"Choice_Group_{group_index}",
         expression=z3.PbEq(
-            [
-                (elective_courses[code]._scheduled, 1)
-                for code in options
-            ],
+            assignment_pairs,
             required_count
         )
     )
@@ -861,6 +916,75 @@ for group_index, group in enumerate(CHOICE_GROUP_CANDIDATES):
         f"Choice group '{group['group']}': "
         f"select {required_count} of {len(options)} courses"
     )
+
+    # Prevent one scheduled course from satisfying multiple
+    # exclusive elective requirements.
+    elective_assignment_codes = sorted({
+        code
+        for _, code in elective_assignments
+    })
+
+    for code in elective_assignment_codes:
+        assignments_for_course = [
+            assignment
+            for (group_index, course_code), assignment
+            in elective_assignments.items()
+            if course_code == code
+        ]
+
+        if len(assignments_for_course) <= 1:
+            continue
+
+        ps.ConstraintFromExpression(
+            name=f"Elective_Exclusive_{code.replace(' ', '_')}",
+            expression=z3.PbLe(
+                [
+                    (assignment, 1)
+                    for assignment in assignments_for_course
+                ],
+                1
+            )
+        )
+
+        print(
+            f"Elective exclusivity enforced for {code}: "
+            f"{len(assignments_for_course)} eligible groups"
+        )
+
+# =========================================================
+# Prevent Pathway / Elective Requirement Double-Counting
+# =========================================================
+
+# An elective assignment cannot use a course that belongs
+# to the selected alternative of an exclusive pathway.
+for (group_index, code), assignment in elective_assignments.items():
+
+    if code not in pathway_courses:
+        continue
+
+    for pathway_index, pathway in enumerate(prepared_pathways):
+
+        if pathway["mode"] != "choice":
+            continue
+
+        for option_index, option in enumerate(pathway["options"]):
+
+            if code not in option:
+                continue
+
+            ps.ConstraintFromExpression(
+                name=(
+                    f"Pathway_Elective_Exclusive_"
+                    f"{group_index}_{pathway_index}_"
+                    f"{option_index}_{code.replace(' ', '_')}"
+                ),
+                expression=z3.Implies(
+                    pathway_selection_vars[
+                        (pathway_index, option_index)
+                    ],
+                    z3.Not(assignment)
+                )
+            )
 
 # =========================================================
 # 5. Real Banner Prerequisite Constraints
@@ -1268,6 +1392,8 @@ for semester in SEMESTER_NAMES:
         for code, task in remaining_courses.items()
     ])
 
+    # Count electives only when they are not already
+    # included in the pathway credit calculation.
     elective_credits = z3.Sum([
         z3.If(
             z3.And(
@@ -1278,6 +1404,7 @@ for semester in SEMESTER_NAMES:
             0
         )
         for code, task in elective_courses.items()
+        if code not in pathway_courses
     ])
 
     pathway_credits = z3.Sum([
