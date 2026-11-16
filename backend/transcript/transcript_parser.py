@@ -48,15 +48,38 @@ def normalize(text):
 
 
 def get_lines(pdf_path):
+    pdf_path = Path(pdf_path)
+
+    if not pdf_path.is_file():
+        raise FileNotFoundError(
+            f"Transcript PDF file not found: {pdf_path}"
+        )
+
     lines = []
 
-    with pymupdf.open(pdf_path) as pdf:
-        for page in pdf:
-            text = page.get_text("text")
+    try:
+        with pymupdf.open(pdf_path) as pdf:
+            if pdf.needs_pass:
+                raise ValueError(
+                    "Transcript PDF is password-protected and cannot be processed."
+                )
 
-            for line in text.splitlines():
-                if line.strip():
-                    lines.append(normalize(line))
+            for page in pdf:
+                text = page.get_text("text")
+
+                for line in text.splitlines():
+                    if line.strip():
+                        lines.append(normalize(line))
+    except (pymupdf.FileDataError, pymupdf.EmptyFileError) as exc:
+        raise ValueError(
+            "Invalid or corrupted transcript PDF."
+        ) from exc
+
+    if not lines:
+        raise ValueError(
+            "Transcript PDF contains no extractable text. "
+            "It may be scanned or image-only."
+        )
 
     return lines
 
@@ -248,6 +271,11 @@ def parse_transcript(pdf_path):
 
         i += 1
 
+    if not courses:
+        raise ValueError(
+            "No course records could be extracted from the transcript."
+        )
+
     # =====================================================
     # 3. Categorize extracted courses
     # =====================================================
@@ -309,7 +337,13 @@ def main():
 
     args = parser.parse_args()
 
-    results = validate_academic_history(parse_transcript(args.pdf))
+    try:
+        results = validate_academic_history(parse_transcript(args.pdf))
+    except (FileNotFoundError, ValueError) as exc:
+        parser.exit(
+            status=1,
+            message=f"HAWKwarts Transcript Error: {exc}\n"
+        )
 
     args.output.write_text(
         json.dumps(results, indent=2, ensure_ascii=False),
