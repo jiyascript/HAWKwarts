@@ -1,0 +1,24 @@
+{
+  "program_id": "test-update25-prerequisite-ordering",
+  "title": "Update 25 Architecture Prerequisite Ordering Test",
+  "requirements": [
+    {
+      "name": "Architecture Prerequisite",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 107"
+        }
+      ]
+    },
+    {
+      "name": "Architecture Dependent Course",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 108"
+        }
+      ]
+    }
+  ]
+}

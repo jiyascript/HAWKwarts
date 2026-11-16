@@ -1,0 +1,15 @@
+{
+  "program_id": "test-update25-missing-prerequisite",
+  "title": "Update 25 Missing Prerequisite Regression",
+  "requirements": [
+    {
+      "name": "Dependent Architecture Course",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 108"
+        }
+      ]
+    }
+  ]
+}
