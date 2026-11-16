@@ -1,0 +1,24 @@
+{
+  "program_id": "test-update28-impossible",
+  "title": "Update 28 Impossible Prerequisite Scheduling Test",
+  "requirements": [
+    {
+      "name": "Architecture Foundation II",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 108"
+        }
+      ]
+    },
+    {
+      "name": "Architecture Design III",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 201"
+        }
+      ]
+    }
+  ]
+}

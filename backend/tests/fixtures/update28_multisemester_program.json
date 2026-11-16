@@ -1,0 +1,42 @@
+{
+  "program_id": "test-update28-multisemester",
+  "title": "Update 28 Multi-Semester Architecture Scheduling Test",
+  "requirements": [
+    {
+      "name": "Architecture Foundation I",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 107"
+        }
+      ]
+    },
+    {
+      "name": "Architecture Studio I",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 113"
+        }
+      ]
+    },
+    {
+      "name": "Architecture Foundation II",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 108"
+        }
+      ]
+    },
+    {
+      "name": "Architecture Studio II",
+      "items": [
+        {
+          "type": "course",
+          "course": "ARCH 114"
+        }
+      ]
+    }
+  ]
+}

@@ -206,9 +206,14 @@ def build_academic_history(courses):
         if course["status"] == "institution"
     ]
 
+    verified_transfer = [
+        course for course in transfer
+        if course.get("equivalency_verified") is True
+    ]
+
     scheduler_codes = sorted({
         course["code"]
-        for course in completed + transfer
+        for course in completed + verified_transfer
     })
 
     warnings = [
