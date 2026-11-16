@@ -113,6 +113,16 @@ def normalize_course(course):
             )
         grade = "TR"
 
+        equivalency_verified = course.get(
+            "equivalency_verified", False
+        )
+
+        if not isinstance(equivalency_verified, bool):
+            raise ValueError(
+                f"Transfer course {code} must use a boolean "
+                "equivalency_verified value."
+            )
+
     elif status == "in_progress":
         if grade not in ("", "IP"):
             raise ValueError(
@@ -127,16 +137,20 @@ def normalize_course(course):
                 f"Invalid institution grade for {code}: {grade}"
             )
 
-    return {
+    normalized = {
         "code": code,
         "title": title,
         "grade": grade,
         "credits": credits,
         "term": term or None,
         "level": level or None,
-        "status": status
+        "status": status,
     }
 
+    if status == "transfer":
+        normalized["equivalency_verified"] = equivalency_verified
+
+    return normalized
 
 # =========================================================
 # 2. Validate a list of course records
