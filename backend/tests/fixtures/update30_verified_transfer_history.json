@@ -1,0 +1,24 @@
+{
+  "completed_courses": [],
+  "transfer_courses": [
+    {
+      "code": "ARCH 107",
+      "title": "Architecture Course 107",
+      "grade": "TR",
+      "credits": 3.0,
+      "term": "Fall 2025",
+      "level": "UG",
+      "status": "transfer",
+      "equivalency_verified": true
+    }
+  ],
+  "in_progress_courses": [],
+  "all_institution_records": [],
+  "scheduler_course_codes": [
+    "ARCH 107"
+  ],
+  "warnings": [
+    "Completion is provisional. Verify grades, repeated courses, transfer equivalencies, and degree requirements before scheduling."
+  ],
+  "validation_errors": []
+}
