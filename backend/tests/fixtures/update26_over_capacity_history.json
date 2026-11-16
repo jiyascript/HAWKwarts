@@ -1,0 +1,28 @@
+{
+  "completed_courses": [],
+  "transfer_courses": [],
+  "in_progress_courses": [
+    {
+      "code": "TEST 901",
+      "title": "Existing Credit Load A",
+      "credits": 5.0,
+      "grade": null,
+      "term": "Fall 2026",
+      "level": "UG",
+      "status": "in_progress"
+    },
+    {
+      "code": "TEST 902",
+      "title": "Existing Credit Load B",
+      "credits": 4.0,
+      "grade": null,
+      "term": "Fall 2026",
+      "level": "UG",
+      "status": "in_progress"
+    }
+  ],
+  "all_institution_records": [],
+  "scheduler_course_codes": [],
+  "warnings": [],
+  "validation_errors": []
+}
