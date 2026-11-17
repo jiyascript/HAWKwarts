@@ -22,7 +22,6 @@ import {
 } from "./onboarding/profile"
 import { AcademicContextPanel } from "./workspace/AcademicContextPanel"
 import { SuggestedQuestionChips } from "./workspace/SuggestedQuestionChips"
-import { parseTranscriptPdf } from "./workspace/transcriptPdf"
 import { AdvisorBird, preloadPerchAssets } from "./mascot/AdvisorBird"
 import {
   afterNextPaint,
@@ -30,7 +29,7 @@ import {
   loadGifBlob,
   sleep,
 } from "./mascot/gifPlayback"
-import { askAdvisorFull, fetchSchedule } from "./custom/api"
+import { askAdvisorFull, fetchSchedule, uploadTranscript } from "./custom/api"
 import {
   EMPTY_PANEL_TABS,
   addPanels,
@@ -460,26 +459,30 @@ function ScheduleBuilder({ personalSchedule }: {
     if (!file) return
     setPdfStatus({ state: "reading", message: `Reading ${file.name}…` })
     try {
-      const imported = await parseTranscriptPdf(file)
-      const semesters: PlanSemester[] = imported.map((semester) => ({
-        ...semester,
+      const result = await uploadTranscript(file)
+      const semesters: PlanSemester[] = result.semesters.map((semester) => ({
+        id: semester.id,
+        label: semester.label,
         sublabel: "Completed",
         courses: semester.courses.map((course) => ({
           ...course,
           status: "completed",
         })),
       }))
-      const count = semesters.reduce(
-        (total, semester) => total + semester.courses.length,
-        0,
-      )
+      const count = result.counts.completed + result.counts.transfer
       setCompletedSems(semesters)
-      setPdfStatus({
-        state: "success",
-        message: `${count} completed ${
-          count === 1 ? "course" : "courses"
-        } imported from ${file.name}.`,
-      })
+
+      let message = `${count} completed ${count === 1 ? "course" : "courses"} imported from ${file.name}.` // CHANGED
+      if (result.counts.in_progress > 0) {
+        message += ` ${result.counts.in_progress} in progress.`
+      }
+      if (!result.agent_loaded) {
+        message += " The advisor couldn't load your history."
+      }
+      if (result.validation_errors.length > 0) {
+        message += ` Some records need review: ${result.validation_errors.join("; ")}`
+      }
+      setPdfStatus({ state: "success", message })
     } catch (error) {
       setPdfStatus({
         state: "error",
@@ -606,7 +609,7 @@ function ScheduleBuilder({ personalSchedule }: {
             >
               <path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 15v4h14v-4" />
             </svg>
-            {pdfStatus.state === "reading" ? "Reading…" : "Import PDF"}
+            {pdfStatus.state === "reading" ? "Reading…" : "Import Transcript"}
           </button>
           <button
             type="button"

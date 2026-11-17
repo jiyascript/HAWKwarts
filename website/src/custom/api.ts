@@ -116,3 +116,36 @@ export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
 export async function askAdvisor(question: string): Promise<string> {
   return (await askAdvisorFull(question)).answer;
 }
+
+export interface TranscriptResult {
+  semesters: {
+    id: string
+    label: string
+    courses: { code: string; name: string; credits: number }[]
+  }[]
+  counts: { completed: number; transfer: number; in_progress: number }
+  warnings: string[]
+  validation_errors: string[]
+  agent_loaded: boolean
+}
+
+export async function uploadTranscript(file: File): Promise<TranscriptResult> {
+  const form = new FormData()
+  form.append("file", file)
+
+  const response = await fetch("http://localhost:8000/transcript", {
+    method: "POST",
+    body: form,
+  })
+
+  if (!response.ok) {
+    let message = "Server error: " + response.status
+    try {
+      const data = await response.json()
+      if (data.detail) message = data.detail
+    } catch {
+    }
+    throw new Error(message)
+  }
+  return await response.json()
+}
