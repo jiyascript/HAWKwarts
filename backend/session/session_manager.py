@@ -10,6 +10,7 @@ from backend.transcript.transcript_validator import (
 from backend.transcript.transcript_editor import (
     apply_course_correction,
 )
+from backend.transcript.transfer_verification import apply_transfer_verification
 
 
 SESSION_TIMEOUT = timedelta(minutes=30)
@@ -99,6 +100,41 @@ class SessionManager:
         )
 
         return deepcopy(corrected)
+
+    def verify_session_transfer(
+        self,
+        session_id,
+        index,
+        verified,
+        *,
+        institutional_confirmation=False,
+    ):
+        """Apply a confirmed transfer decision to an active session."""
+        self._require_active_session(session_id)
+
+        history = self._sessions[session_id]["academic_history"]
+
+        if history is None:
+            raise ValueError(
+                "Cannot verify transfers before storing "
+                "academic history."
+            )
+
+        updated = apply_transfer_verification(
+            history,
+            index,
+            verified,
+            institutional_confirmation=institutional_confirmation,
+        )
+
+        self._sessions[session_id]["academic_history"] = (
+            deepcopy(updated)
+        )
+        self._sessions[session_id]["last_activity"] = (
+            datetime.now(timezone.utc)
+        )
+
+        return deepcopy(updated)
 
     def delete_session(self, session_id):
         """Remove an advising session and its stored academic history."""
