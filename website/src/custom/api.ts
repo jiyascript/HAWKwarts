@@ -88,7 +88,7 @@ export interface ScheduleResult {
 }
 
 export async function fetchSchedule(): Promise<ScheduleResult> {
-  const response = await fetch("http://localhost:8000/schedule", {
+  const response = await fetch("/schedule", {
     method: "POST",
   })
   if (!response.ok) {
@@ -98,7 +98,7 @@ export async function fetchSchedule(): Promise<ScheduleResult> {
 }
 
 export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
-  const response = await fetch("http://localhost:8000/chat", {
+  const response = await fetch("/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ question }),
@@ -133,7 +133,7 @@ export async function uploadTranscript(file: File): Promise<TranscriptResult> {
   const form = new FormData()
   form.append("file", file)
 
-  const response = await fetch("http://localhost:8000/transcript", {
+  const response = await fetch("/transcript", {
     method: "POST",
     body: form,
   })

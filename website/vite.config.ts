@@ -34,6 +34,21 @@ react(),
       host: process.env.FIGMA_DEV_SERVER_HOST || '0.0.0.0',
       port: parseInt(process.env.PORT || '8443'),
       strictPort: true,
+      allowedHosts: ['punk-reforms-daisy-proper.trycloudflare.com'],
+      proxy: {
+        '/chat': {
+          target: 'http://127.0.0.1:8000',
+          changeOrigin: true,
+        },
+        '/transcript': {
+          target: 'http://127.0.0.1:8000',
+          changeOrigin: true,
+        },
+        '/schedule': {
+          target: 'http://127.0.0.1:8000',
+          changeOrigin: true,
+        },
+      },
       watch: {
         ignored: [
           '**/.figma/**',
