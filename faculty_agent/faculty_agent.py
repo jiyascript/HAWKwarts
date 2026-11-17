@@ -52,7 +52,7 @@ IIT_ROR_ID = "https://ror.org/037t3ry66"
 
 load_dotenv()
 GEMINI_MODEL = "gemini-3.5-flash-lite"
-USE_GEMINI = False # change here to false to stop using Gemini and switch back to Ollama
+USE_GEMINI = True # change here to false to stop using Gemini and switch back to Ollama
 
 if USE_GEMINI:
     client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
