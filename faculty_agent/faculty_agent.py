@@ -20,6 +20,7 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 
+from policy import POLICY_PROMPT
 from .internship_search import find_internships
 from .research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
 from .faculty_panel import (
@@ -435,6 +436,7 @@ SYSTEM_PROMPT = (
 
     "If the question isn't about IIT academic advising, say so and decline."
 )
+SYSTEM_PROMPT += POLICY_PROMPT
 
 # InMemorySaver keeps conversation history in memory, keyed by thread_id, so
 # the agent remembers earlier turns (e.g. "did you mean Scott Morris or Scott
@@ -768,7 +770,14 @@ def ask_about_instructors(question, course_answer, course_card, config):
     """Faculty half of a "course + its professor" question. Instructors come from the
     course answer and the course card's sections (no extra model calls), matched
     against the IIT directory. Returns the faculty answer, or None if none matched."""
-    people, unmatched = instructors_from_course(course_card, course_answer, DIRECTORY)
+    # Professors the student named ("... and Prof. Saniie") are exactly who they want.
+    # Instructors found in the course answer (a co-teacher it happened to mention) are
+    # only used when the question names nobody.
+    named = people_named_in(question, DIRECTORY)
+    if named:
+        people, unmatched = named, []
+    else:
+        people, unmatched = instructors_from_course(course_card, course_answer, DIRECTORY)
     if not people:
         return None
     shown = people[:MAX_PEOPLE]

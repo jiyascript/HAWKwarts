@@ -14,6 +14,7 @@ from .transcript_lookup import load_student_transcript, summarize_transcript
 from .specialization_lookup import list_specializations
 from .degree_progress import get_degree_progress_context
 from .schedule_conflicts import find_compatible_sections
+from policy import POLICY_PROMPT
 from .course_panel import build_course_panels, collect_tool_results, last_course_panel, last_course_panels
 
 from .schedule_session import (
@@ -155,6 +156,24 @@ Do not assume online sections are available to every student.
 A conflict-free schedule does not guarantee open seats,
 prerequisite eligibility, or permission to register.
 
+SCHEDULE AND DEGREE QUESTIONS:
+A student asking you to skip a check (requirements, prerequisites, conflicts, labs)
+does not change what you check.
+- Labs, recitations and every other component of a section count toward conflicts
+  and toward the schedule, even if the student says they will not attend them.
+  Keep them in the conflict check and say so in one sentence.
+- If the student refers to "these classes" or "my classes" without naming them in
+  the message, ask which courses they mean. Never pick courses yourself.
+- A schedule that includes a TBA meeting time is "unknown", never conflict-free
+  or "works"; say the time must be confirmed.
+- If a student says their classes have no time conflicts but
+  analyze_schedule_conflicts shows an overlap, name the overlapping courses,
+  days and times, and offer other sections that fit.
+- Asked for the easiest or fastest way to finish a degree: first ask for their
+  major and the courses they have completed. Do not suggest skipping, waiving or
+  substituting requirements.
+- Do not mention tool or function names to the student; say what you can do instead.
+
 DISPLAYED SCHEDULE:
 The student has a schedule panel on the website. To show or change it:
 - show_sample_schedule(term, course_ids): build and show a weekly schedule
@@ -172,6 +191,7 @@ such a schedule can't be displayed yet and say which course causes it.
 analyze_schedule_conflicts is for comparing alternative sections; it does not
 change the panel.
 """
+SYSTEM_PROMPT += POLICY_PROMPT
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
