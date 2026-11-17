@@ -36,14 +36,30 @@ def main():
 
     replacement = """expression=z3.BoolVal(True)"""
 
-    assert source.count(original) == 1, (
+    # Match the constraint independently of the surrounding
+    # indentation, including when the scheduler is wrapped
+    # inside run_scheduler().
+    import re
+
+    pattern = (
+        r"expression=z3\.Implies\(\s*"
+        r"pathway_selection_vars\[\s*"
+        r"\(pathway_index, option_index\)\s*"
+        r"\],\s*"
+        r"z3\.Not\(assignment\)\s*"
+        r"\)"
+    )
+
+    matches = list(re.finditer(pattern, source))
+
+    assert len(matches) == 1, (
         "Expected exactly one exclusivity constraint block."
     )
 
-    modified_source = source.replace(
-        original,
-        replacement,
-        1,
+    modified_source = (
+        source[:matches[0].start()]
+        + replacement
+        + source[matches[0].end():]
     )
 
     previous_schedule = (

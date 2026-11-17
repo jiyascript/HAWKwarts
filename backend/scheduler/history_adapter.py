@@ -39,3 +39,49 @@ def prepare_scheduler_history(raw_history):
     }
 
     return history, completed_codes, in_progress_codes
+
+
+def load_scheduler_history(*, history_path=None, raw_history=None):
+    """Load and validate scheduler history from one trusted input source.
+
+    A history dictionary remains in memory. A file path is supported
+    for backward-compatible command-line execution.
+    """
+    import json
+    from pathlib import Path
+
+    if (history_path is None) == (raw_history is None):
+        raise ValueError(
+            "Provide exactly one of history_path or raw_history."
+        )
+
+    if history_path is not None:
+        path = Path(history_path)
+
+        with path.open("r", encoding="utf-8") as file:
+            raw_history = json.load(file)
+
+    return prepare_scheduler_history(raw_history)
+
+
+def load_scheduler_history(*, history_path=None, raw_history=None):
+    """Load and validate scheduler history from one trusted input source.
+
+    A history dictionary remains in memory. A file path is supported
+    for backward-compatible command-line execution.
+    """
+    import json
+    from pathlib import Path
+
+    if (history_path is None) == (raw_history is None):
+        raise ValueError(
+            "Provide exactly one of history_path or raw_history."
+        )
+
+    if history_path is not None:
+        path = Path(history_path)
+
+        with path.open("r", encoding="utf-8") as file:
+            raw_history = json.load(file)
+
+    return prepare_scheduler_history(raw_history)
