@@ -12,8 +12,15 @@ import json
 import re
 from contextvars import ContextVar
 
+# Set by ask_agent() each turn; read by the API after route_question().
 last_course_panel: ContextVar = ContextVar("last_course_panel", default=None)
+# Every course card from one turn when the question named several courses
+# ("Tell me about CS 425 and CS 201"). last_course_panel stays the first one.
+last_course_panels: ContextVar = ContextVar("last_course_panels", default=None)
+MAX_COURSE_CARDS = 3
 
+# Only these tools describe a course. Transcript and schedule tools are deliberately
+# left out, so a student's own records never feed a card.
 CARD_TOOLS = {"search_catalog", "get_course_offering"}
 MAX_SECTIONS = 12
 _PER_TOOL_CHARS = 15_000
@@ -103,15 +110,19 @@ def _render(tool_result):
     return json.dumps(tool_result["result"], ensure_ascii=False, default=str)
 
 
-def _build_prompt(question, answer, relevant):
+def _tools_text(relevant):
     chunks, used = [], 0
     for item in relevant:
         text = _render(item)[:_PER_TOOL_CHARS]
         text = text[: max(0, _TOTAL_CHARS - used)]
         used += len(text)
         chunks.append(f"[{item['name']}]\n{text}")
+    return "\n\n".join(chunks)
+
+
+def _build_prompt(question, answer, relevant):
     return _PROMPT.format(
-        question=question, answer=answer, tools="\n\n".join(chunks), max_sections=MAX_SECTIONS
+        question=question, answer=answer, tools=_tools_text(relevant), max_sections=MAX_SECTIONS
     )
 
 
@@ -257,6 +268,156 @@ def _ground(card, evidence):
     return card if has_content else None
 
 
+# ── reading a card straight from a catalog record (no model call) ──
+
+# Keys that say WHICH course a record is. Keys that merely mention other courses
+# (a prerequisite "CS 115" on the CS 116 record) must never identify a record.
+_NOT_IDENTITY = ("prereq", "coreq", "equiv", "note", "satisf", "title", "name", "descr", "credit", "url", "link")
+_IDENTITY = ("code", "id", "number", "course", "subject")
+_SCALAR = (str, int, float)
+
+
+def _flatten(value, depth=0):
+    """(key, value) pairs for the scalar fields of a record and of dicts nested inside
+    it (such as a "metadata" block). Lists of plain values are kept; lists of records aren't."""
+    pairs = []
+    if isinstance(value, dict):
+        for key, inner in value.items():
+            if isinstance(inner, dict):
+                if depth < 3:
+                    pairs.extend(_flatten(inner, depth + 1))
+            elif isinstance(inner, _SCALAR) and not isinstance(inner, bool):
+                pairs.append((str(key), inner))
+            elif isinstance(inner, list) and inner and all(isinstance(i, _SCALAR) for i in inner):
+                pairs.append((str(key), inner))
+    return pairs
+
+
+def _records(result):
+    """Every dict inside a tool result that has several plain fields, i.e. looks like a record."""
+    found = []
+    if isinstance(result, dict):
+        if len(_flatten(result)) >= 3:
+            found.append(result)
+        for inner in result.values():
+            found.extend(_records(inner))
+    elif isinstance(result, list):
+        for inner in result:
+            found.extend(_records(inner))
+    return found
+
+
+def _whole_codes(value):
+    """Course codes when the WHOLE value is one code or a list of cross-listed codes
+    ("CS 115", "cs-115", "CS 401 / CSSP 401"). Prose that merely mentions a code gives none."""
+    codes = set()
+    for part in re.split(r"[/,;]|\bor\b", value, flags=re.IGNORECASE):
+        cleaned = re.sub(r"[^A-Za-z0-9]+", " ", part).strip().upper()
+        cleaned = re.sub(r"([A-Z])(\d)", r"\1 \2", cleaned)
+        cleaned = re.sub(r"^COURSES? ", "", re.sub(r"\s+", " ", cleaned))
+        if re.fullmatch(r"[A-Z]{2,5} \d{3}[A-Z]?", cleaned):
+            codes.add(cleaned)
+    return codes
+
+
+def _identity_codes(flat):
+    codes, subject, number = set(), None, None
+    for key, value in flat:
+        low = key.lower()
+        if not isinstance(value, str) or any(bad in low for bad in _NOT_IDENTITY):
+            continue
+        if "subject" in low:
+            subject = value
+        if "number" in low:
+            number = value
+        if any(word in low for word in _IDENTITY):
+            codes |= _whole_codes(value)
+    if subject and number:
+        codes |= _whole_codes(f"{subject} {number}")
+    return codes
+
+
+def _text_of(value, joiner):
+    if isinstance(value, list):
+        value = joiner.join(str(v).strip() for v in value if str(v).strip())
+    return _s(value, multiline=True)
+
+
+def _field(flat, wanted, exclude=()):
+    for key, value in flat:
+        low = key.lower()
+        if any(w in low for w in wanted) and not any(x in low for x in exclude):
+            return key, value
+    return None, None
+
+
+def direct_course_card(question, tool_results, target=None):
+    """A card read straight from the catalog record of the ONE course the question names
+    (or of `target`, when the caller already picked one of several), or None when it can't
+    be done confidently (no code, several codes, no unique matching record, or the record
+    lacks a title and some content). Values are copied from the record as they are, so
+    nothing here can be invented."""
+    if target is None:
+        codes = {normalize_code(m) for m in _CODE_IN_TEXT.findall(question or "")} - {None}
+        if len(codes) != 1:
+            return None
+        target = next(iter(codes))
+
+    matches = []
+    for item in tool_results:
+        if item["name"] == "search_catalog":
+            for record in _records(item["result"]):
+                flat = _flatten(record)
+                if target in _identity_codes(flat):
+                    matches.append(flat)
+    if not matches:
+        return None
+
+    def pick(wanted, exclude=(), joiner="; ", multiline=True):
+        for flat in matches:                      # first record that has it wins
+            key, value = _field(flat, wanted, exclude)
+            if key is not None:
+                text = _text_of(value, joiner)
+                if text:
+                    return text, key
+        return None, None
+
+    title, k_title = None, None
+    for flat in matches:
+        for key, value in flat:
+            if key.lower() in ("title", "name", "course_title", "course_name") and isinstance(value, str):
+                title, k_title = _s(value), key
+                break
+        if title:
+            break
+    description, k_desc = pick(("descr",))
+    prerequisites, k_pre = pick(("prereq",), exclude=("coreq",))
+    corequisites, k_co = pick(("coreq",))
+    satisfies, k_sat = pick(("satisf", "attribute"), joiner=", ")
+    credits, k_cred = pick(("credit",), multiline=False)
+    url = None
+    for flat in matches:
+        for key, value in flat:
+            if any(w in key.lower() for w in ("url", "link")) and isinstance(value, str) and value.startswith(("http://", "https://")):
+                url = value.strip()
+                break
+        if url:
+            break
+
+    if not title or not (description or prerequisites or credits):
+        return None
+    _log(
+        "catalog record keys used: "
+        + ", ".join(f"{label}={k}" for label, k in (("title", k_title), ("credits", k_cred), ("description", k_desc),
+                    ("prerequisites", k_pre), ("satisfies", k_sat)) if k)
+    )
+    return {
+        "code": target, "title": title, "credits": credits, "description": description,
+        "prerequisites": prerequisites, "corequisites": corequisites, "satisfies": satisfies,
+        "catalog_url": url, "term": None, "sections": [],
+    }
+
+
 # ── the public entry point ──
 
 def build_course_panel(question, answer, tool_results, extract_json):
@@ -271,7 +432,24 @@ def build_course_panel(question, answer, tool_results, extract_json):
         _log("no course code in the question or answer; no card")
         return None
 
-    reply = extract_json(_build_prompt(question, answer, relevant))
+    # Only the catalog was consulted: read the card straight from its record, with no model call.
+    if not any(r["name"] == "get_course_offering" for r in relevant):
+        card = direct_course_card(question, relevant)
+        if card is not None:
+            _log("card read directly from the catalog record (no model call)")
+            return {"type": "course", "course": card}
+
+    if extract_json is None:
+        return None
+    _log("falling back to the model to arrange the card")
+    try:
+        reply = extract_json(_build_prompt(question, answer, relevant))
+    except Exception as exc:
+        # The model was unavailable (e.g. 503 high demand). Show what the catalog record
+        # alone gives (no sections) rather than no card.
+        _log(f"model call failed ({exc!r}); using the catalog record instead")
+        card = direct_course_card(question, relevant)
+        return {"type": "course", "course": card} if card is not None else None
     parsed = _parse_json(reply)
     card = _clean_card(parsed.get("course")) if isinstance(parsed, dict) else None
     if card is None:
@@ -284,3 +462,108 @@ def build_course_panel(question, answer, tool_results, extract_json):
         _log("nothing in the card could be matched to the tool results; no card")
         return None
     return {"type": "course", "course": card}
+
+
+# ── several courses in one question ──
+
+_PROMPT_MULTI = """You prepare course cards for a university advising side panel.
+
+Student question:
+{question}
+
+Assistant answer:
+{answer}
+
+Tool results (JSON from the course catalog and Banner):
+{tools}
+
+The student asked about these courses: {codes}.
+Reply with JSON only, in exactly this shape (one entry per course listed above, in that order):
+{{"courses": [{{
+  "code": "MATH 100",
+  "title": null,
+  "credits": null,
+  "description": null,
+  "prerequisites": null,
+  "corequisites": null,
+  "satisfies": null,
+  "catalog_url": null,
+  "term": null,
+  "sections": [
+    {{"crn": null, "section": null, "instructor": null, "meeting": null, "seats": null}}
+  ]
+}}]}}
+
+Rules:
+- Use only information found in the tool results. Copy wording exactly (titles,
+  descriptions, prerequisites, URLs). Use null for anything not present. Never guess.
+- Keep prerequisite AND/OR logic and minimum grades as written.
+- "meeting" is the days and times of one section, for example "Mon, Wed 11:25 AM-12:40 PM".
+  "seats" is what the record shows about seats, for example "12 of 30 open", only if present.
+- Include sections only for the term the student asked about (or the one in the answer),
+  at most {max_sections} per course. "term" is that term, for example "Fall 2026".
+- "catalog_url" must be a URL that appears in the tool results.
+- Leave out a course that has no information in the tool results.
+"""
+
+
+def _question_codes(question):
+    """Course codes in the question, in order, without repeats."""
+    codes = []
+    for match in _CODE_IN_TEXT.findall(question or ""):
+        code = normalize_code(match)
+        if code and code not in codes:
+            codes.append(code)
+    return codes
+
+
+def build_course_panels(question, answer, tool_results, extract_json):
+    """A list of course panels: one per course when the question names 2 to
+    MAX_COURSE_CARDS courses, else the single panel build_course_panel gives (or []).
+
+    Catalog-only turns read every card straight from the catalog records (no model
+    call). When Banner sections are involved there is ONE model call for all the cards.
+    If that call fails, the cards the catalog records can give are still returned."""
+    codes = _question_codes(question)
+    if not (2 <= len(codes) <= MAX_COURSE_CARDS):
+        panel = build_course_panel(question, answer, tool_results, extract_json)
+        return [panel] if panel else []
+
+    relevant = [r for r in tool_results if r["name"] in CARD_TOOLS]
+    if not relevant:
+        _log("no catalog or Banner tool ran; no cards")
+        return []
+
+    direct = {}
+    for code in codes:
+        card = direct_course_card(question, relevant, target=code)
+        if card is not None:
+            direct[code] = card
+    has_banner = any(r["name"] == "get_course_offering" for r in relevant)
+    if not has_banner and len(direct) == len(codes):
+        _log(f"{len(codes)} cards read directly from the catalog records (no model call)")
+        return [{"type": "course", "course": direct[c]} for c in codes]
+
+    cards = []
+    if extract_json is not None:
+        _log("asking the model to arrange the cards")
+        try:
+            prompt = _PROMPT_MULTI.format(
+                question=question, answer=answer, codes=", ".join(codes), max_sections=MAX_SECTIONS,
+                tools=_tools_text(relevant),
+            )
+            parsed = _parse_json(extract_json(prompt))
+            evidence = _Evidence("\n".join(_render(r) for r in relevant))
+            for raw in (parsed.get("courses") if isinstance(parsed, dict) else None) or []:
+                card = _clean_card(raw)
+                card = _ground(card, evidence) if card else None
+                if card and card["code"] in codes and all(card["code"] != c["code"] for c in cards):
+                    cards.append(card)
+        except Exception as exc:
+            _log(f"model call failed ({exc!r}); using the catalog records instead")
+            cards = []
+    for code in codes:                                    # fill in any the model missed
+        if all(c["code"] != code for c in cards) and code in direct:
+            cards.append(direct[code])
+    cards.sort(key=lambda c: codes.index(c["code"]))
+    return [{"type": "course", "course": c} for c in cards[:MAX_COURSE_CARDS]]

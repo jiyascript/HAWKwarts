@@ -9,12 +9,12 @@ from dotenv import load_dotenv
 from .requirements_lookup import get_requirements
 from .retrieval import search_catalog
 from typing import Literal
-from .banner_lookup import get_course_offering, get_course_offerings
+from .banner_lookup import get_course_offering, get_course_offerings, get_instructor_offerings
 from .transcript_lookup import load_student_transcript, summarize_transcript
 from .specialization_lookup import list_specializations
 from .degree_progress import get_degree_progress_context
 from .schedule_conflicts import find_compatible_sections
-from .course_panel import build_course_panel, collect_tool_results, last_course_panel
+from .course_panel import build_course_panels, collect_tool_results, last_course_panel, last_course_panels
 
 from .schedule_session import (
     show_sample_schedule,
@@ -52,6 +52,14 @@ Do not search repeatedly for a program ID once you have found it.
 Use get_course_offering for semester-specific Banner information,
 including course offerings, sections, instructors, meeting times,
 prerequisites, restrictions, and seat availability.
+When a student asks what classes or sections a named professor is teaching,
+use get_instructor_offerings with the professor's name (and the term if the
+student gave one; otherwise leave the term empty to see every term). List each
+course with its section, CRN, days and time. If the tool says the instructor was
+not found, say you could not find that name in the Banner data and suggest
+checking the spelling; never say the professor does not exist or has no classes.
+If it finds the instructor but no sections in that term, say so and mention the
+terms it lists.
 
 Use search_catalog and lookup_requirements for academic catalog
 information, degree requirements, minors, and specializations.
@@ -170,15 +178,22 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 def _gemini_json(prompt: str) -> str:
     """One JSON-mode call, used only to arrange tool results into a side-panel card."""
-    response = client.models.generate_content(
-        model="gemini-3.5-flash-lite",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            temperature=0,
-        ),
-    )
-    return response.text or ""
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model="gemini-3.5-flash-lite",
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=0,
+                ),
+            )
+            return response.text or ""
+        except errors.APIError as exc:
+            # 503 "high demand" and 429 "rate limit" are usually gone a moment later
+            if getattr(exc, "code", None) not in (503, 429) or attempt == 2:
+                raise
+            time.sleep(1.5 * (attempt + 1))
 
 
 def _publish_course_panel(question: str, answer: str, response) -> None:
@@ -186,16 +201,17 @@ def _publish_course_panel(question: str, answer: str, response) -> None:
     failure here must never affect the answer."""
     try:
         tool_results = collect_tool_results(response)
-        panel = build_course_panel(question, answer, tool_results, _gemini_json)
+        panels = build_course_panels(question, answer, tool_results, _gemini_json)
         print(
             f"[COURSE PANEL] tools: {[t['name'] for t in tool_results]} -> "
-            f"{panel['course']['code'] if panel else None}",
+            f"{[p['course']['code'] for p in panels] or None}",
             flush=True,
         )
     except Exception as exc:
         print(f"[COURSE PANEL] failed: {exc!r}", flush=True)
-        panel = None
-    last_course_panel.set(panel)
+        panels = []
+    last_course_panels.set(panels or None)
+    last_course_panel.set(panels[0] if panels else None)
 
 def lookup_requirements(kind: Literal["program","minor","specialization"], record_id: str) -> str:
     """Retrieve a complete requirement record by its exact ID."""
@@ -248,6 +264,7 @@ def resolve_degree_progress_program(question: str) -> str | None:
 def ask_agent(question: str) -> str:
     """Answer questions using structured context when appropriate."""
     last_course_panel.set(None)
+    last_course_panels.set(None)
     last_schedule.set(None)
     begin_turn()
     original_question = question  # `question` is rewritten below for degree progress
@@ -291,6 +308,7 @@ def ask_agent(question: str) -> str:
                         lookup_requirements,
                         list_specializations,
                         get_course_offering,
+                        get_instructor_offerings,
                         get_student_academic_history,
                         analyze_schedule_conflicts,
                         show_sample_schedule,
@@ -310,7 +328,7 @@ def ask_agent(question: str) -> str:
             last_schedule.set(take_update())
             return answer
 
-        except errors.ServerError as exc:
+        except errors.APIError as exc:  # 429 is a ClientError, 503 a ServerError
             if getattr(exc, "code", None) not in (503, 429):
                 raise
 

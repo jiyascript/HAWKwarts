@@ -1,6 +1,10 @@
 import type { CourseCard } from "../custom/api"
 import "./course-card.css"
 
+// Everything shown here comes from the advisor's tool results (the course catalog
+// and Banner). A field the tools didn't return is simply left out; nothing is
+// filled in client-side.
+
 /** Only http(s) links are rendered, since the URL comes from tool output. */
 function safeUrl(url: string | null | undefined): string | null {
   if (!url) return null
@@ -14,10 +18,12 @@ function safeUrl(url: string | null | undefined): string | null {
   }
 }
 
+/** Looks like a person's name, so it's safe to offer "ask about this professor". */
 const PERSON_NAME = /^[A-Za-z][A-Za-z.'’-]*(?: [A-Za-z][A-Za-z.'’-]*){1,3}$/
 
 interface CourseInfoCardProps {
   course: CourseCard
+  /** Fills the advisor composer, same as the suggestion chips. */
   onAsk: (question: string) => void
 }
 
@@ -32,11 +38,14 @@ export function CourseInfoCard({ course, onAsk }: CourseInfoCardProps) {
     meeting: sections.some((s) => s.meeting),
     seats: sections.some((s) => s.seats),
   }
+  // A section can list several instructors in one string ("Matthew J Bauer, Michael Kamol Lee"),
+  // so split it into single names before checking each one looks like a person.
   const instructors = Array.from(
     new Set(
       sections
-        .map((s) => s.instructor)
-        .filter((name): name is string => !!name && PERSON_NAME.test(name)),
+        .flatMap((s) => (s.instructor ?? "").split(/\s*(?:,|;|\/|&|\band\b)\s*/))
+        .map((name) => name.trim())
+        .filter((name) => PERSON_NAME.test(name)),
     ),
   )
   const creditsLabel = credits ? `${credits} ${credits === "1" ? "credit" : "credits"}` : null

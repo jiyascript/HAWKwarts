@@ -1,6 +1,8 @@
 from langchain_ollama import ChatOllama
 from courses_rag.courses_agent import ask_agent
-from faculty_agent.faculty_agent import ask
+from faculty_agent.faculty_agent import ask, ask_about_instructors
+from faculty_agent.faculty_plan import wants_both
+from courses_rag.course_panel import last_course_panel, last_course_panels
 from web_search.web_agent import ask_general
 
 import os, time, re
@@ -47,7 +49,7 @@ COURSE_WORDS = [
     # banner location
     "room", "building", "campus", "location", "online", "hybrid", "in-person", "in person",
     # banner prof
-    "teaches", "taught", "teaching",
+    "teach", "teaches", "taught", "teaching",
 ]
 
 FACULTY_WORDS = ["publication", "publish", "paper", "research", "interest", "internship"]
@@ -183,12 +185,37 @@ def _substitute_name(question: str, name: str) -> str:
         return replaced
     return f"{question} (referring to {name})"
 
+def run_both(question):
+    """A course plus details about its professor. Course agent first; then the faculty
+    agent for the instructors it found (read from its answer and course card and
+    matched against the IIT directory, so no extra Gemini calls)."""
+    course_answer = run_course_agent(question)
+    faculty_answer = ask_about_instructors(
+        question, course_answer, last_course_panels.get() or last_course_panel.get(), faculty_config
+    )
+    if faculty_answer is None:
+        # none found in the directory: try the single name the answer mentions
+        name = _extract_instructor_name(course_answer)
+        if name:
+            faculty_answer = run_faculty_agent(_substitute_name(question, name))
+    if not faculty_answer:
+        return course_answer
+    parts = ["**Course info**\n\n" + course_answer, "**Faculty info**\n\n" + faculty_answer]
+    if _looks_unhelpful(course_answer) and _looks_unhelpful(faculty_answer):
+        parts.append("**General info**\n\n" + run_general_agent(question))
+    return "\n\n".join(parts)
+
 # router
 def route_question(question):
     # Guardrails first: sensitive topics get a specific reply, never an agent.
     sensitive = detect_all(question)
     if sensitive:
         return guardrail_reply(sensitive)
+
+    # A course plus details about its professor ("tell me about CS 100 and the
+    # professor that teaches it") needs both agents, whatever the keywords say.
+    if wants_both(question):
+        return run_both(question)
 
     choice = keyword_route(question)
     if choice is None:

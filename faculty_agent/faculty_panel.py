@@ -4,6 +4,9 @@ import re
 from contextvars import ContextVar
 
 last_panel: ContextVar = ContextVar("last_panel", default=None)
+# Every professor card from one turn when several were looked up together
+# (faculty_agent.ask_people). last_panel stays the first/only one for older callers.
+last_panels: ContextVar = ContextVar("last_panels", default=None)
 
 _DIRECTORY_TOOL = "search_iit_faculty_directory"
 _RESEARCH_TOOL = "search_faculty_research"

@@ -1,6 +1,7 @@
 import json
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache, wraps
 
 import requests
@@ -25,11 +26,21 @@ from .faculty_panel import (
     build_panel,
     has_directory_data,
     last_panel,
+    last_panels,
     panel_from_directory_text,
+    parse_directory,
+    parse_research,
     panel_with_directory,
     people_matching_name,
     people_named_in,
     tool_names_this_turn,
+)
+from .faculty_plan import (
+    MAX_PEOPLE,
+    has_pronoun,
+    instructors_from_course,
+    question_about_people,
+    wants_research,
 )
 
 from pathlib import Path
@@ -41,7 +52,7 @@ IIT_ROR_ID = "https://ror.org/037t3ry66"
 
 load_dotenv()
 GEMINI_MODEL = "gemini-3.5-flash-lite"
-USE_GEMINI = True # change here to false to stop using Gemini and switch back to Ollama
+USE_GEMINI = False # change here to false to stop using Gemini and switch back to Ollama
 
 if USE_GEMINI:
     client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
@@ -516,7 +527,7 @@ def _tool_called_this_turn(messages) -> bool:
     return False
 
 
-def _ask_ollama(question: str, config: dict, retries: int = 2):
+def _ask_ollama(question: str, config: dict, retries: int = 2, seed=None):
     """Run one question through the agent (within the conversation identified
     by config's thread_id) and return a guaranteed non-empty answer. Earlier
     turns in the same thread are automatically included as context, so a
@@ -528,10 +539,10 @@ def _ask_ollama(question: str, config: dict, retries: int = 2):
     nudged = False
     for attempt in range(retries + 1):
         _turn_start = time.monotonic()
-        result = agent.invoke(
-            {"messages": [{"role": "user", "content": message_text}]},
-            config=config,
-        )
+        outgoing = [{"role": "user", "content": message_text}]
+        if seed and attempt == 0:
+            outgoing += list(seed)  # lookups already run in code (see ask_people)
+        result = agent.invoke({"messages": outgoing}, config=config)
         _turn_elapsed = time.monotonic() - _turn_start
         print(f"[TIMING] agent.invoke() took {_turn_elapsed:.1f}s this turn")
 
@@ -640,10 +651,148 @@ def _ask_gemini(question: str, config: dict, retries: int = 2):
     return fallback, _record_turn(thread_id, question, fallback)
 
 
+# ── Multi-part questions ─────────────────────────────────────────────────────
+# The 8B local model rarely calls several tools in one turn (asked for a professor's
+# background AND publications it usually calls only the directory). So code runs the
+# lookups the question needs and, with Ollama, hands the results to the agent as if it
+# had called the tools; the model only has to write the answer from them. With Gemini
+# (USE_GEMINI) the model plans its own tool calls, so only the cards are built here.
+
+def _lookup(tool_fn, name):
+    try:
+        return tool_fn.invoke({"professor_name": name})
+    except Exception as exc:
+        return f"Lookup failed for '{name}': {exc}"
+
+
+def _forced_lookups(people, want_research):
+    """Run the directory (and optionally publications) lookup for each person in
+    parallel. Returns (seed_messages, directory_texts_by_name): an AIMessage with
+    the tool calls followed by one ToolMessage per result."""
+    jobs = []
+    for person in people:
+        jobs.append((search_iit_faculty_directory, person["name"]))
+        if want_research:
+            jobs.append((search_faculty_research, person["name"]))
+    started = time.monotonic()
+    with ThreadPoolExecutor(max_workers=len(jobs)) as pool:
+        texts = list(pool.map(lambda job: _lookup(*job), jobs))
+    print(f"[PLAN] {len(jobs)} lookups took {time.monotonic() - started:.1f}s", flush=True)
+
+    calls, replies, directory_texts = [], [], {}
+    for index, ((tool_fn, name), text) in enumerate(zip(jobs, texts)):
+        call_id = f"plan-{index}"
+        calls.append({"name": tool_fn.name, "args": {"professor_name": name}, "id": call_id, "type": "tool_call"})
+        replies.append(ToolMessage(content=text, tool_call_id=call_id, name=tool_fn.name))
+        if tool_fn is search_iit_faculty_directory:
+            directory_texts[name] = text
+    return [AIMessage(content="", tool_calls=calls), *replies], directory_texts
+
+
+def ask_people(people, question, config, retries: int = 2):
+    """Answer a question about specific directory people (at most MAX_PEOPLE) and
+    store one card per person in `last_panels`."""
+    people = people[:MAX_PEOPLE]
+    seed, directory_texts = _forced_lookups(people, wants_research(question) and not USE_GEMINI)
+    if USE_GEMINI:
+        hint = "; ".join(p["name"] for p in people)
+        answer, messages = _ask_gemini(
+            f"{question}\n\n(The IIT directory lists: {hint}. Use these exact names with the lookup tools.)",
+            config,
+            retries,
+        )
+    else:
+        answer, messages = _ask_ollama(question, config, retries, seed=seed)
+    panels = []
+    try:
+        for person in people:
+            panel = panel_from_directory_text(directory_texts.get(person["name"]), messages)
+            if panel is not None:
+                panels.append(panel)
+    except Exception as exc:
+        print(f"[PANEL] failed: {exc!r}", flush=True)
+    last_panels.set(panels or None)
+    last_panel.set(panels[0] if panels else None)
+    print(f"[PANEL] planned lookup -> {[p['profile']['name'] for p in panels]}", flush=True)
+    return answer, messages
+
+
+def _thread_messages(config):
+    try:
+        if USE_GEMINI:
+            return _gemini_history.get(config["configurable"]["thread_id"], [])
+        return agent.get_state(config).values.get("messages", [])
+    except Exception:
+        return []
+
+
+def _last_professor(config):
+    """The directory person this thread most recently looked up (for "what has he
+    published?" follow-ups), or None."""
+    parsers = {
+        search_iit_faculty_directory.name: parse_directory,
+        search_faculty_research.name: parse_research,
+    }
+    for msg in reversed(_thread_messages(config)):
+        parse = parsers.get(getattr(msg, "name", "")) if getattr(msg, "type", "") == "tool" else None
+        if parse is None:
+            continue
+        content = msg.content if isinstance(msg.content, str) else ""
+        parsed = parse(content)
+        if parsed and parsed.get("name"):
+            known = people_matching_name(parsed["name"], DIRECTORY)
+            return known[0] if len(known) == 1 else None
+    return None
+
+
+def _plan_people(question, config):
+    """The directory people to look up in code, or [] to let the agent handle it.
+    Anyone named in the question goes through code: the model tends to look up only one
+    person, and to pass "Dr. Jacek" to the directory as typed, find nothing, and tell the
+    student the professor doesn't exist. Code passes the directory's full name instead.
+    With no name, a pronoun follow-up about research ("what has he published?") uses the
+    last professor in the thread."""
+    named = people_named_in(question, DIRECTORY)
+    if 1 <= len(named) <= MAX_PEOPLE:
+        return named
+    if not wants_research(question):
+        return []
+    if not named and has_pronoun(question):
+        previous = _last_professor(config)
+        if previous:
+            return [previous]
+    return []
+
+
+def ask_about_instructors(question, course_answer, course_card, config):
+    """Faculty half of a "course + its professor" question. Instructors come from the
+    course answer and the course card's sections (no extra model calls), matched
+    against the IIT directory. Returns the faculty answer, or None if none matched."""
+    people, unmatched = instructors_from_course(course_card, course_answer, DIRECTORY)
+    if not people:
+        return None
+    shown = people[:MAX_PEOPLE]
+    answer, _ = ask_people(shown, question_about_people(shown, question), config)
+    notes = []
+    if len(people) > len(shown):
+        notes.append(f"Showing {len(shown)} of {len(people)} instructors; ask about the others by name.")
+    if unmatched:
+        notes.append("Not in the IIT faculty directory: " + ", ".join(unmatched) + ".")
+    return answer + ("\n\n" + " ".join(notes) if notes else "")
+
+
 def ask(question: str, config: dict, retries: int = 2):
     """Same as _ask, and also stores structured tool results for the website's
     side panel in `last_panel` (read by the API after route_question())."""
    
+    planned = _plan_people(question, config)
+    if planned:
+        try:
+            return ask_people(planned, question, config, retries)
+        except Exception as exc:
+            print(f"[PLAN] failed, using the normal agent: {exc!r}", flush=True)
+    last_panels.set(None)
+
     if USE_GEMINI:
         answer, messages = _ask_gemini(question, config, retries)
     else:
