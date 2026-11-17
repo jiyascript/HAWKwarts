@@ -16,9 +16,8 @@ from pathlib import Path
 import courses_rag.courses_agent as courses_agent
 from backend.transcript.transcript_parser import parse_transcript
 from courses_rag.transcript_lookup import load_student_transcript
-from typing import Any
 
-app = FastAPI(root_path="/api")
+app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:8443", "http://127.0.0.1:8443"], allow_methods=["*"], allow_headers=["*"])
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -100,10 +99,10 @@ def upload_transcript(file: UploadFile = File(...)):
     finally:
         os.remove(tmp_path)
 
-    #UPLOADED_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
-    #UPLOADED_HISTORY_PATH.write_text(
-    #    json.dumps(history, indent=2, ensure_ascii=False), encoding="utf-8"
-    #)
+    UPLOADED_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    UPLOADED_HISTORY_PATH.write_text(
+        json.dumps(history, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
     # Group completed courses by semester for the page
     by_term = {}
@@ -130,28 +129,4 @@ def upload_transcript(file: UploadFile = File(...)):
         "warnings": history.get("warnings", []),
         "validation_errors": history.get("validation_errors", []),
         "agent_loaded": agent_loaded,
-        "academic_history": history,
     }
-class ScheduleRequest(BaseModel):
-    history: dict[str, Any]
-    academic_level: str = "undergraduate"
-    enrollment_status: str = "full_time"
-    program_id: str = "computer-science:bs-bac-ba"
-
-
-@app.post("/schedule")
-def generate_schedule(request: ScheduleRequest):
-    from backend.scheduler.scheduler_poc import run_scheduler
-
-    try:
-        return run_scheduler(
-            raw_history=request.history,
-            argv=[
-                "--academic-level", request.academic_level,
-                "--enrollment-status", request.enrollment_status,
-                "--program-id", request.program_id,
-            ],
-            return_result=True,
-        )
-    except ValueError as exc:
-        raise HTTPException(status_code=400, detail=str(exc)) from exc

@@ -86,28 +86,19 @@ export interface ScheduleResult {
   semesters: ScheduleSemester[]
   total_planned_credits: number
 }
-let uploadedHistory: Record<string, unknown> | null = null
 
 export async function fetchSchedule(): Promise<ScheduleResult> {
-  if (!uploadedHistory) {
-    throw new Error("Upload a transcript before generating a plan.")
-  }
-
-  const response = await fetch("/api/schedule", {
+  const response = await fetch("http://localhost:8000/schedule", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ history: uploadedHistory }),
   })
-
   if (!response.ok) {
     throw new Error("Server error: " + response.status)
   }
-
   return await response.json()
 }
 
 export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
-  const response = await fetch("/api/chat", {
+  const response = await fetch("http://localhost:8000/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ question }),
@@ -142,7 +133,7 @@ export async function uploadTranscript(file: File): Promise<TranscriptResult> {
   const form = new FormData()
   form.append("file", file)
 
-  const response = await fetch("/api/transcript", {
+  const response = await fetch("http://localhost:8000/transcript", {
     method: "POST",
     body: form,
   })
@@ -156,7 +147,5 @@ export async function uploadTranscript(file: File): Promise<TranscriptResult> {
     }
     throw new Error(message)
   }
-  const result = await response.json()
-  uploadedHistory = result.academic_history ?? null
-  return result
+  return await response.json()
 }
