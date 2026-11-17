@@ -124,5 +124,10 @@ def main():
             schedule_path.unlink()
 
 
+# These are mock callbacks, not pytest test cases.
+test_get_requirements.__test__ = False
+test_resolve_requirements.__test__ = False
+
+
 if __name__ == "__main__":
     main()
