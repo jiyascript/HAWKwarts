@@ -35,3 +35,5 @@ backend/scheduler/results/
 backend/transcript/results.json
 backend/transcript/manual_results.json
 backend/Sample Unofficial Transcript.pdf
+*.pdf
+transcript/

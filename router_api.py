@@ -1,21 +1,23 @@
-from fastapi import FastAPI, File, HTTPException, UploadFile
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-
-from router_agent import route_question
-from faculty_agent.faculty_panel import last_panel, last_panels
-from courses_rag.course_panel import last_course_panel, last_course_panels
-from courses_rag.schedule_session import last_schedule
-
 import json
 import os
 import tempfile
 import sys
 from pathlib import Path
 
+from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+
+from router_agent import route_question
+from faculty_agent.faculty_panel import last_panel, last_panels
+
 import courses_rag.courses_agent as courses_agent
-from backend.transcript.transcript_parser import parse_transcript
+from courses_rag.course_panel import last_course_panel, last_course_panels
+from courses_rag.schedule_session import last_schedule, take_update, show_sample_schedule as build_session_schedule
 from courses_rag.transcript_lookup import load_student_transcript
+
+from backend.transcript.transcript_parser import parse_transcript
+from backend.scheduler.scheduler_poc import run_scheduler
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:8443", "http://127.0.0.1:8443"], allow_methods=["*"], allow_headers=["*"])
@@ -91,8 +93,7 @@ def upload_transcript(file: UploadFile = File(...)):
 
     agent_loaded = True
     try:
-        courses_agent.student_history = load_student_transcript(tmp_path)
-        # courses_agent.student_history = history
+        courses_agent.student_history = history
     except Exception as exc:
         agent_loaded = False
         print(f"[TRANSCRIPT] the advisor could not load the history: {exc!r}")
@@ -130,3 +131,44 @@ def upload_transcript(file: UploadFile = File(...)):
         "validation_errors": history.get("validation_errors", []),
         "agent_loaded": agent_loaded,
     }
+
+class ScheduleRequest(BaseModel):
+    program_id: str = "computer-science:bs-bac-ba"
+    academic_level: str = "undergraduate"
+    enrollment_status: str = "full_time"
+
+@app.post("/schedule")
+def generate_schedule(request: ScheduleRequest):
+    history = courses_agent.student_history
+    if history is None:
+        raise HTTPException(status_code=400, detail="Upload a transcript first.")
+
+    try:
+        result = run_scheduler(
+            raw_history=history,
+            argv=[
+                "--program-id", request.program_id,
+                "--academic-level", request.academic_level,
+                "--enrollment-status", request.enrollment_status,
+            ],
+            return_result=True,
+        )
+    except Exception as exc:
+        print(f"[SCHEDULE] run_scheduler failed: {exc!r}")
+        raise HTTPException(status_code=500, detail=str(exc))
+
+    return result
+
+class BuildWeeklyRequest(BaseModel):
+    term: str
+    course_ids: list[str]
+
+@app.post("/weekly-schedule")
+def build_weekly_schedule(request: BuildWeeklyRequest):
+    result = build_session_schedule(request.term, request.course_ids)
+    payload = take_update()
+
+    if not result.get("schedule_changed"):
+        raise HTTPException(status_code=400, detail=result.get("error", "Could not build a schedule."))
+
+    return {"result": result, "schedule": payload}

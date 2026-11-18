@@ -29,7 +29,7 @@ import {
   loadGifBlob,
   sleep,
 } from "./mascot/gifPlayback"
-import { askAdvisorFull, fetchSchedule, uploadTranscript } from "./custom/api"
+import { askAdvisorFull, fetchSchedule, fetchWeeklySchedule, uploadTranscript } from "./custom/api"
 import {
   EMPTY_PANEL_TABS,
   addPanels,
@@ -389,8 +389,9 @@ function Disclaimer() {
 
 // ── Schedule Builder ────────────────────────────────────────────
 
-function ScheduleBuilder({ personalSchedule }: {
+function ScheduleBuilder({ personalSchedule, onWeeklyScheduleBuilt, }: {
   personalSchedule: SemesterSchedule | null
+  onWeeklyScheduleBuilt: (schedule: SemesterSchedule) => void
 }) {
   const blockRefs = useRef<Map<string, HTMLDivElement>>(new Map())
   const contentRef = useRef<HTMLDivElement>(null)
@@ -535,10 +536,39 @@ function ScheduleBuilder({ personalSchedule }: {
     })
 
     setGeneratedSems(semesters)
-    setPlanStatus({
-      state: "success",
-      message: `Plan generated: ${result.total_planned_credits} new credits scheduled.`,
-    })
+
+    const nextSemester = semesters.find((s) =>
+      s.courses.some((c) => c.suggested),
+    )
+    const newlyPlannedIds = nextSemester?.courses
+      .filter((c) => c.suggested)
+      .map((c) => c.code)
+
+    if (nextSemester && newlyPlannedIds && newlyPlannedIds.length > 0) {
+      try {
+        const { schedule } = await fetchWeeklySchedule(nextSemester.label, newlyPlannedIds)
+        if (schedule) {
+          onWeeklyScheduleBuilt(schedule)
+        }
+        setPlanStatus({
+          state: "success",
+          message: `Plan generated: ${result.total_planned_credits} new credits scheduled. ` +
+                    `Weekly schedule built for ${nextSemester.label}.`,
+        })
+      } catch (weeklyError) {
+        setPlanStatus({
+          state: "success",
+          message: `Plan generated: ${result.total_planned_credits} new credits scheduled. ` +
+                    `Couldn't build a weekly schedule for ${nextSemester.label}: ` +
+                    (weeklyError instanceof Error ? weeklyError.message : "unknown error"),
+        })
+      }
+    } else {
+      setPlanStatus({
+        state: "success",
+        message: `Plan generated: ${result.total_planned_credits} new credits scheduled.`,
+      })
+    }
   } catch (error) {
     console.error(error)
     setPlanStatus({
@@ -1412,6 +1442,7 @@ export default function App() {
               schedule={
                 <ScheduleBuilder 
                   personalSchedule={personalSchedule}
+                  onWeeklyScheduleBuilt={setPersonalSchedule}
                 />
               }
               onAsk={pickSuggestion}

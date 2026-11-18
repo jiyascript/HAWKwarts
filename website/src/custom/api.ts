@@ -87,17 +87,36 @@ export interface ScheduleResult {
   total_planned_credits: number
 }
 
-export async function fetchSchedule(): Promise<ScheduleResult> {
+export async function fetchSchedule(
+  programId = "computer-science:bs-bac-ba",
+  academicLevel = "undergraduate",
+  enrollmentStatus = "full_time",
+): Promise<ScheduleResult> {
+  // const response = await fetch("http://localhost:8000/schedule", {
   const response = await fetch("/schedule", {
     method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      program_id: programId,
+      academic_level: academicLevel,
+      enrollment_status: enrollmentStatus,
+    }),
   })
   if (!response.ok) {
-    throw new Error("Server error: " + response.status)
+    let message = "Server error: " + response.status
+    try {
+      const data = await response.json()
+      if (data.detail) message = data.detail
+    } catch {
+      // keep the generic message
+    }
+    throw new Error(message)
   }
   return await response.json()
 }
 
 export async function askAdvisorFull(question: string): Promise<AdvisorReply> {
+  // const response = await fetch("http://localhost:8000/chat", {
   const response = await fetch("/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -133,6 +152,7 @@ export async function uploadTranscript(file: File): Promise<TranscriptResult> {
   const form = new FormData()
   form.append("file", file)
 
+  // const response = await fetch("http://localhost:8000/transcript", {
   const response = await fetch("/transcript", {
     method: "POST",
     body: form,
@@ -144,6 +164,29 @@ export async function uploadTranscript(file: File): Promise<TranscriptResult> {
       const data = await response.json()
       if (data.detail) message = data.detail
     } catch {
+    }
+    throw new Error(message)
+  }
+  return await response.json()
+}
+
+export async function fetchWeeklySchedule(
+  term: string,
+  courseIds: string[],
+): Promise<{ result: any; schedule: SemesterSchedule | null }> {
+  const response = await fetch("/weekly-schedule", {
+  // const response = await fetch("http://localhost:8000/weekly-schedule", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ term, course_ids: courseIds }),
+  })
+  if (!response.ok) {
+    let message = "Server error: " + response.status
+    try {
+      const data = await response.json()
+      if (data.detail) message = data.detail
+    } catch {
+      // keep generic
     }
     throw new Error(message)
   }
