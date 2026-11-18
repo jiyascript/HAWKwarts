@@ -21,7 +21,7 @@ from google.genai import types
 from dotenv import load_dotenv
 
 from policy import POLICY_PROMPT
-from .internship_search import find_internships
+from .internship_search import clean_internship_links, find_internships, set_question
 from .research_opportunities import MATCHES_PREFIX, NO_MATCH_PREFIX, find_research_opportunities
 from .faculty_panel import (
     build_panel,
@@ -407,9 +407,15 @@ SYSTEM_PROMPT = (
     "'human-computer interaction', not 'HCI'). If it finds no close match, relay its message "
     "exactly, add nothing to it, and do not use web_search for this. "
 
-    "For internship opportunities, call find_internships with the student's field of interest "
-    "and location if given; mention that results come from The Muse and may not cover every "
-    "employer or show an application deadline. "
+    "For internship opportunities, call find_internships with the student's major or field of "
+    "interest as they said it (for example 'mechanical engineering' or 'finance') and location if "
+    "given; mention that results come from the job boards of a fixed list of employers, so they "
+    "do not cover every employer, and may not show an application deadline. Pass a location only "
+    "if the student named one; never assume Chicago. List only the listings the tool returned, "
+    "each with its link and location exactly as given (never summarise the location or add "
+    "a place), and relevant to what the student asked. If it finds "
+    "nothing, say so and suggest Handshake and Illinois Tech Career Services by name, without a "
+    "link, and do not add links or companies of your own. "
 
     "Use web_search only if none of the above tools find anything relevant, and say so when you do. "
     "When searching, use only the key terms from the question — never add a year or your own "
@@ -794,6 +800,7 @@ def ask(question: str, config: dict, retries: int = 2):
     """Same as _ask, and also stores structured tool results for the website's
     side panel in `last_panel` (read by the API after route_question())."""
    
+    set_question(question)  # lets the internship tool check the place the model passes
     planned = _plan_people(question, config)
     if planned:
         try:
@@ -806,6 +813,17 @@ def ask(question: str, config: dict, retries: int = 2):
         answer, messages = _ask_gemini(question, config, retries)
     else:
         answer, messages = _ask_ollama(question, config, retries)
+
+    try:
+        # Internship answers: keep only links that came from the job boards (the model
+        # sometimes misspells a link or adds one of its own).
+        tools_used = tool_names_this_turn(messages)
+        if "find_internships" in tools_used:
+            answer = clean_internship_links(answer)
+        elif not tools_used and re.search(r"internship", question, re.IGNORECASE):
+            answer = clean_internship_links(answer, strict=True)   # no search ran: no link can be real
+    except Exception as exc:
+        print(f"[INTERNSHIPS] link check failed: {exc!r}", flush=True)
 
     try:
         panel = build_panel(messages, question=question, answer=answer)

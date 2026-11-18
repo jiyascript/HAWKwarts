@@ -60,9 +60,17 @@ GENERAL_WORDS = [
     "bursar", "registrar", "office", "how do i", "how to", "how can i",
 ]
 
+# Words a student uses to say who they are ("I'm a finance major looking for an internship").
+# On their own they don't make an internship question a course question; an internship
+# question that mentions credits, courses or schedules still reaches the course agent too.
+INTERNSHIP_NEUTRAL_WORDS = {"major", "minor", "program", "degree", "concentration", "graduate", "undergrad", "campus"}
+
 def keyword_route(question):
     question = question.lower()
-    course_hit = any(word in question for word in COURSE_WORDS)
+    course_words = COURSE_WORDS
+    if "internship" in question:
+        course_words = [w for w in COURSE_WORDS if w not in INTERNSHIP_NEUTRAL_WORDS]
+    course_hit = any(word in question for word in course_words)
     faculty_hit = any(word in question for word in FACULTY_WORDS)
     general_hit = any(word in question for word in GENERAL_WORDS)
 
