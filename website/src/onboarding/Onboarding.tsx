@@ -17,13 +17,14 @@ import {
   YEAR_OPTIONS,
   buildStudentContext,
   goalOption,
+  type EnrollmentStatus,
   type Goal,
   type OnboardingAnswers,
   type TranscriptAnswer,
   type TranscriptChoice,
   type YearId,
 } from "./profile"
-import { ILLINOIS_TECH_PROGRAMS, matchesProgram } from "./programs"
+import { loadPrograms, matchesProgram, type Program } from "./programs"
 import {
   TRANSCRIPT_ACCEPT,
   UploadCancelled,
@@ -35,12 +36,12 @@ import {
 import FeaturePreview from "./FeaturePreview"
 import "./onboarding.css"
 
-type StepId = "goal" | "major" | "year" | "transcript"
+type StepId = "goal" | "major" | "year" | "enrollment" | "transcript"
 /** The four questions, then a review state that waits for an explicit continue. */
 type Phase = "questions" | "summary"
 type ProgressState = "done" | "skipped" | "current" | "todo"
 
-const STEPS: readonly StepId[] = ["goal", "major", "year", "transcript"]
+const STEPS: readonly StepId[] = ["goal", "major", "year", "enrollment", "transcript"]
 
 interface StepCopy {
   title: string
@@ -59,6 +60,10 @@ const STEP_COPY: Record<StepId, StepCopy> = {
   year: {
     title: "Where are you in your academic journey?",
     subtitle: "This helps us suggest courses at the right level.",
+  },
+  enrollment: {
+  title: "How are you enrolled?",
+  subtitle: "This affects how many credits we plan per semester.",
   },
   transcript: {
     title: "Make your guidance more personal.",
@@ -116,6 +121,7 @@ export default function Onboarding({
     year:
       answers.year !== null &&
       (answers.year !== "other" || answers.yearOther.trim() !== ""),
+    enrollment: answers.enrollmentStatus !== null,
     transcript:
       transcript.choice === "none" ||
       (transcript.choice === "upload" &&
@@ -124,7 +130,7 @@ export default function Onboarding({
   }
   const canContinue = answered[step]
   // Major and year are optional for every goal; skipped answers stay out of the context.
-  const canSkipStep = step === "major" || step === "year"
+  const canSkipStep = step === "major" || step === "year" || step === "enrollment"
   const stepOptional = canSkipStep || step === "transcript"
   const hint = canContinue || inSummary ? null : hintFor(step, answers)
   const progress: ProgressState[] = STEPS.map((id, i) => {
@@ -328,7 +334,8 @@ export default function Onboarding({
   function skipStep() {
     if (!active || !canSkipStep) return
     if (step === "major") update({ major: null, majorOther: "" })
-    else update({ year: null, yearOther: "" })
+    else if (step === "year") update({ year: null, yearOther: "" })
+    else update({ enrollmentStatus: null })
     goTo(stepIndex + 1, "forward")
   }
 
@@ -446,8 +453,9 @@ export default function Onboarding({
                     <MajorStep
                       goal={goal}
                       value={answers.major}
+                      programId={answers.programId}
                       other={answers.majorOther}
-                      onSelect={(value) => select({ major: value })}
+                      onSelect={(major, programId, academicLevel) => select({ major, programId, academicLevel })}
                       onOtherChange={(text) => update({ majorOther: text })}
                     />
                   )}
@@ -457,6 +465,12 @@ export default function Onboarding({
                       other={answers.yearOther}
                       onSelect={(value) => select({ year: value })}
                       onOtherChange={(text) => update({ yearOther: text })}
+                    />
+                  )}
+                  {!inSummary && step === "enrollment" && (
+                    <EnrollmentStep
+                      value={answers.enrollmentStatus}
+                      onSelect={(value) => select({ enrollmentStatus: value })}
                     />
                   )}
                   {!inSummary && step === "transcript" && (
@@ -566,6 +580,8 @@ function hintFor(step: StepId, answers: OnboardingAnswers): string {
       if (answers.year === "other")
         return "Add a short description to continue."
       return "Choose an option, or skip this question."
+    case "enrollment":
+      return "Choose an option, or skip this question."
     case "transcript":
       if (answers.transcript.choice !== "upload")
         return "Choose an option to finish."
@@ -612,8 +628,9 @@ function GoalStep({
 interface MajorStepProps {
   goal: Goal | null
   value: string | null
+  programId: string | null
   other: string
-  onSelect: (major: string) => void
+  onSelect: (major: string, programId: string | null, academicLevel: "undergraduate" | "graduate" | null) => void
   onOtherChange: (text: string) => void
 }
 
@@ -651,19 +668,29 @@ function majorResponse(
 function MajorStep({
   goal,
   value,
+  programId,
   other,
   onSelect,
   onOtherChange,
 }: MajorStepProps) {
   const [query, setQuery] = useState("")
+  const [programs, setPrograms] = useState<Program[]>([])
+  const [loadError, setLoadError] = useState<string | null>(null)
   const listRef = useRef<HTMLDivElement>(null)
   const otherRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    loadPrograms()
+      .then(setPrograms)
+      .catch(() => setLoadError("Couldn't load the program list. Choose Other to type your major."))
+  }, [])
+
   const results = useMemo(
     () =>
-      ILLINOIS_TECH_PROGRAMS.filter((program) =>
+      programs.filter((program) =>
         matchesProgram(program, query),
       ),
-    [query],
+    [programs, query],
   )
   const selectedProgram =
     value && value !== MAJOR_OTHER && value !== MAJOR_UNDECIDED ? value : null
@@ -677,10 +704,13 @@ function MajorStep({
         selected.offsetTop - list.clientHeight / 2 + selected.offsetHeight / 2
   }, [])
 
-  function choose(major: string) {
-    onSelect(major)
-    if (major === MAJOR_OTHER)
-      requestAnimationFrame(() => otherRef.current?.focus())
+  function choose(program: Program) {
+    onSelect(program.name, program.id, program.level)
+  }
+
+  function chooseSentinel(sentinel: string) {
+    onSelect(sentinel, null, null)
+    if (sentinel === MAJOR_OTHER) requestAnimationFrame(() => otherRef.current?.focus())
   }
 
   function handleSearchKey(event: KeyboardEvent<HTMLInputElement>) {
@@ -729,26 +759,27 @@ function MajorStep({
                 ? `${results.length} ${
                     results.length === 1 ? "match" : "matches"
                   }`
-                : `${ILLINOIS_TECH_PROGRAMS.length} programs`}
+                : `${programs.length} programs`}
             </span>
           )}
         </div>
         <div className="ob-major-list" ref={listRef}>
           {results.map((program) => (
-            <label
-              key={program}
-              className={`ob-row${value === program ? " is-selected" : ""}`}
+            <label 
+              key={program.id}
+              className={`ob-row${programId === program.id ? " is-selected" : ""}`}
             >
               <input
                 className="ob-sr-input"
                 type="radio"
                 name="ob-major"
-                value={program}
-                checked={value === program}
+                value={program.id}
+                checked={programId === program.id}
                 onChange={() => choose(program)}
               />
               <span className="ob-row-label">
-                <Highlight text={program} query={trimmed} />
+                <Highlight text={program.name} query={trimmed} />
+                <span className="ob-row-credential"> · {program.credential}</span>
               </span>
               <span className="ob-row-check" aria-hidden="true">
                 <CheckIcon />
@@ -770,7 +801,7 @@ function MajorStep({
           name="ob-major"
           value={MAJOR_UNDECIDED}
           checked={value === MAJOR_UNDECIDED}
-          onSelect={() => choose(MAJOR_UNDECIDED)}
+          onSelect={() => chooseSentinel(MAJOR_UNDECIDED)}
           title="Undecided"
           description="Still exploring"
         />
@@ -779,7 +810,7 @@ function MajorStep({
           name="ob-major"
           value={MAJOR_OTHER}
           checked={value === MAJOR_OTHER}
-          onSelect={() => choose(MAJOR_OTHER)}
+          onSelect={() => chooseSentinel(MAJOR_OTHER)}
           title="Other"
           description="My major isn’t listed"
         />
@@ -860,6 +891,36 @@ function YearStep({ value, other, onSelect, onOtherChange }: YearStepProps) {
 
       <StageIndicator value={value} other={other} />
     </div>
+  )
+}
+
+function EnrollmentStep({
+  value,
+  onSelect,
+}: {
+  value: EnrollmentStatus | null
+  onSelect: (status: EnrollmentStatus) => void
+}) {
+  return (
+    <fieldset className="ob-grid ob-grid-2">
+      <legend className="ob-sr-only">Enrollment status</legend>
+      <OptionCard
+        name="ob-enrollment"
+        value="full_time"
+        checked={value === "full_time"}
+        onSelect={() => onSelect("full_time")}
+        title="Full-time"
+        description="Typically 12+ credits per semester"
+      />
+      <OptionCard
+        name="ob-enrollment"
+        value="part_time"
+        checked={value === "part_time"}
+        onSelect={() => onSelect("part_time")}
+        title="Part-time"
+        description="Fewer credits per semester"
+      />
+    </fieldset>
   )
 }
 

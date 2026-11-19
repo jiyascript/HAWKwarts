@@ -389,9 +389,10 @@ function Disclaimer() {
 
 // ── Schedule Builder ────────────────────────────────────────────
 
-function ScheduleBuilder({ personalSchedule, onWeeklyScheduleBuilt, }: {
+function ScheduleBuilder({ personalSchedule, onWeeklyScheduleBuilt, context, }: {
   personalSchedule: SemesterSchedule | null
   onWeeklyScheduleBuilt: (schedule: SemesterSchedule) => void
+  context: StudentContext | null
 }) {
   const blockRefs = useRef<Map<string, HTMLDivElement>>(new Map())
   const contentRef = useRef<HTMLDivElement>(null)
@@ -496,10 +497,22 @@ function ScheduleBuilder({ personalSchedule, onWeeklyScheduleBuilt, }: {
   }
 
   async function generatePlan() {
+    if (!context?.programId || !context.academicLevel) {
+    setPlanStatus({
+      state: "error",
+      message: "Please choose your major in onboarding first (Edit preferences → major).",
+    })
+    return
+  }
+
   setPlanStatus({ state: "working", message: "Building your plan… this can take a minute." })
   try {
-    const result = await fetchSchedule()
-
+    const result = await fetchSchedule(
+      context.programId,
+      context.academicLevel,
+      context.enrollmentStatus ?? "full_time", 
+    )
+    
     if (result.status !== "success") {
       setPlanStatus({
         state: "error",
@@ -573,7 +586,7 @@ function ScheduleBuilder({ personalSchedule, onWeeklyScheduleBuilt, }: {
     console.error(error)
     setPlanStatus({
       state: "error",
-      message: "Couldn't reach the scheduler. Is the API running?",
+      message: error instanceof Error ? error.message : "Couldn't reach the scheduler. Is the API running?",
     })
   }
 }
@@ -658,6 +671,14 @@ function ScheduleBuilder({ personalSchedule, onWeeklyScheduleBuilt, }: {
           role={pdfStatus.state === "error" ? "alert" : "status"}
         >
           {pdfStatus.message}
+        </div>
+      )}
+      {planStatus.state !== "idle" && (
+        <div
+          className={`builder-import-status is-${planStatus.state}`}
+          role={planStatus.state === "error" ? "alert" : "status"}
+        >
+          {planStatus.message}
         </div>
       )}
 
@@ -1443,6 +1464,7 @@ export default function App() {
                 <ScheduleBuilder 
                   personalSchedule={personalSchedule}
                   onWeeklyScheduleBuilt={setPersonalSchedule}
+                  context={context}
                 />
               }
               onAsk={pickSuggestion}

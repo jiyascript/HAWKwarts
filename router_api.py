@@ -153,6 +153,9 @@ def generate_schedule(request: ScheduleRequest):
             ],
             return_result=True,
         )
+    except ValueError as exc:
+        print(f"[SCHEDULE] run_scheduler failed: {exc!r}")
+        raise HTTPException(status_code=422, detail=str(exc))
     except Exception as exc:
         print(f"[SCHEDULE] run_scheduler failed: {exc!r}")
         raise HTTPException(status_code=500, detail=str(exc))
@@ -172,3 +175,12 @@ def build_weekly_schedule(request: BuildWeeklyRequest):
         raise HTTPException(status_code=400, detail=result.get("error", "Could not build a schedule."))
 
     return {"result": result, "schedule": payload}
+
+@app.get("/programs")
+def list_programs():
+    path = PROJECT_ROOT / "courses_rag" / "data" / "programs.json"
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    return [
+        {"id": p["id"], "name": p["name"], "credential": p["credential"], "level": p["level"]}
+        for p in raw
+    ]

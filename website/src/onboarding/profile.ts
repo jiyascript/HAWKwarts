@@ -1,5 +1,6 @@
 export type Goal = "courses" | "schedule" | "roadmap"
 export type YearId = "y1" | "y2" | "y3" | "y4" | "y5plus" | "grad" | "other"
+export type EnrollmentStatus = "full_time" | "part_time"
 
 export const MAJOR_UNDECIDED = "__undecided"
 export const MAJOR_OTHER = "__other"
@@ -82,6 +83,9 @@ export interface OnboardingAnswers {
   goal: Goal | null
   major: string | null
   majorOther: string
+  programId: string | null
+  academicLevel: "undergraduate" | "graduate" | null
+  enrollmentStatus: EnrollmentStatus | null
   year: YearId | null
   yearOther: string
   transcript: TranscriptAnswer
@@ -101,6 +105,9 @@ export const EMPTY_ANSWERS: OnboardingAnswers = {
   goal: null,
   major: null,
   majorOther: "",
+  programId: null,
+  academicLevel: null,
+  enrollmentStatus: null,
   year: null,
   yearOther: "",
   transcript: EMPTY_TRANSCRIPT,
@@ -114,6 +121,9 @@ export interface StudentContext {
   /** Program name or the student's own wording; null when skipped or undecided. */
   major: string | null
   majorUndecided: boolean
+  programId: string | null
+  academicLevel: "undergraduate" | "graduate" | null
+  enrollmentStatus: EnrollmentStatus | null
   year: YearId | null
   yearLabel: string | null
   transcript: {
@@ -133,11 +143,18 @@ export function buildStudentContext(
 
   let major: string | null = null
   let majorUndecided = false
+  let programId: string | null = null
+  let academicLevel: "undergraduate" | "graduate" | null = null
+
   if (personalized && answers.major) {
     if (answers.major === MAJOR_UNDECIDED) majorUndecided = true
     else if (answers.major === MAJOR_OTHER)
       major = answers.majorOther.trim() || null
-    else major = answers.major
+    else {
+      major = answers.major
+      programId = answers.programId
+      academicLevel = answers.academicLevel
+    }
   }
 
   let year: YearId | null = null
@@ -164,6 +181,9 @@ export function buildStudentContext(
     personalized,
     major,
     majorUndecided,
+    programId,
+    academicLevel,
+    enrollmentStatus: personalized ? answers.enrollmentStatus : null,
     year,
     yearLabel,
     transcript: uploaded
@@ -298,6 +318,9 @@ export interface StoredProfile {
   personalized: boolean
   major: string | null
   majorOther: string
+  programId: string | null
+  academicLevel: "undergraduate" | "graduate" | null
+  enrollmentStatus: EnrollmentStatus | null
   year: YearId | null
   yearOther: string
   completedAt: string
@@ -316,6 +339,15 @@ export function loadStoredProfile(): StoredProfile | null {
       personalized: data.personalized !== false,
       major: typeof data.major === "string" ? data.major : null,
       majorOther: typeof data.majorOther === "string" ? data.majorOther : "",
+      programId: typeof data.programId === "string" ? data.programId : null,
+      academicLevel:
+        data.academicLevel === "undergraduate" || data.academicLevel === "graduate"
+          ? data.academicLevel
+          : null,
+      enrollmentStatus:
+        data.enrollmentStatus === "full_time" || data.enrollmentStatus === "part_time"
+          ? data.enrollmentStatus
+          : null,
       year: YEAR_OPTIONS.some((option) => option.id === data.year)
         ? data.year
         : null,
@@ -338,6 +370,9 @@ export function saveStoredProfile(
     personalized,
     major: answers.major,
     majorOther: answers.majorOther,
+    programId: answers.programId,
+    academicLevel: answers.academicLevel,
+    enrollmentStatus: answers.enrollmentStatus,
     year: answers.year,
     yearOther: answers.yearOther,
     completedAt: new Date().toISOString(),
@@ -355,6 +390,9 @@ export function answersFromStored(profile: StoredProfile): OnboardingAnswers {
     goal: profile.goal,
     major: profile.major,
     majorOther: profile.majorOther,
+    programId: profile.programId,
+    academicLevel: profile.academicLevel,
+    enrollmentStatus: profile.enrollmentStatus,
     year: profile.year,
     yearOther: profile.yearOther,
     transcript: EMPTY_TRANSCRIPT,
